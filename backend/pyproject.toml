@@ -1,0 +1,35 @@
+[project]
+name = "shelfready-backend"
+version = "0.1.0"
+description = "ShelfReady API: supplier spec vs photo checks, EU listing compliance, multilingual listings"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.143.0",
+    "httpx>=0.28.1",
+    "openai>=3.29.0",
+    "pdfplumber>=0.11.10",
+    "pillow>=12.3.0",
+    "pydantic>=2.14.1",
+    "pydantic-settings>=2.15.0",
+    "pypdfium2>=5.14.0",
+    "python-multipart>=0.0.32",
+    "sqlmodel>=0.0.48",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

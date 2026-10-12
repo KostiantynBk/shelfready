@@ -1,0 +1,5 @@
+# Keep LF in the repo so shell scripts and Dockerfiles work on the Linux droplet
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary

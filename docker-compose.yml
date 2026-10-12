@@ -1,0 +1,23 @@
+# Local run (any laptop): `docker compose up --build` → API on http://localhost:8080 in replay mode (no GPU).
+# On the AMD droplet, vLLM + Caddy are added (see docs/ and infra/).
+services:
+  api:
+    build: ./backend
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      LLM_MODE: ${LLM_MODE:-replay}
+      DATA_DIR: /data
+    ports:
+      - "8080:8080"
+    volumes:
+      - api-data:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/healthz')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  api-data:
