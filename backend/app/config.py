@@ -12,12 +12,25 @@ class Settings(BaseSettings):
     # Works from the repo root (.env) and from backend/ (../.env)
     model_config = SettingsConfigDict(env_file=(".env", "../.env"), extra="ignore")
 
-    # Model: live = vLLM endpoint, replay = recorded responses, mock = fake answers for tests
-    llm_mode: Literal["live", "replay", "mock"] = "replay"
-    llm_base_url: str = ""
+    # Model (Gemma 4 31B on AMD Token Factory, or our own vLLM on an MI300X droplet).
+    # live = call the endpoint; replay = recorded responses only; cached = replay, else live;
+    # mock = fake schema-shaped answers for tests
+    llm_mode: Literal["live", "replay", "cached", "mock"] = "replay"
+    llm_base_url: str = "https://developer.amd.com.cn/radeon/api/v1"
     llm_api_key: SecretStr = SecretStr("")
-    vlm_model: str = "gemma4"
-    text_model: str = "gemma4"
+    vlm_model: str = "Gemma-4-31B-IT"
+    text_model: str = "Gemma-4-31B-IT"
+    # json_object = schema in the prompt + Pydantic validation (Token Factory);
+    # json_schema = guided decoding (our own vLLM)
+    llm_json_mode: Literal["json_object", "json_schema"] = "json_object"
+    # Token Factory allows 20 requests/min and 8 in flight per account; stay under both
+    llm_rpm: int = 18
+    llm_concurrency: int = 6
+    llm_max_retries: int = 4
+    llm_timeout_s: float = 300.0
+    # Save every live answer so it can be replayed without the model
+    llm_record: bool = True
+    replay_dir: Path = Path(__file__).resolve().parents[2] / "data" / "replay"
 
     # Evolus
     evolus_api_base: str = "https://api.evolus.ai/api/v1"

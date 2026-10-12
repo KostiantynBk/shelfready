@@ -9,10 +9,13 @@ services:
     environment:
       LLM_MODE: ${LLM_MODE:-replay}
       DATA_DIR: /data
+      REPLAY_DIR: /replay
     ports:
       - "8080:8080"
     volumes:
       - api-data:/data
+      # Recorded model answers (committed), so replay mode works without a key
+      - ./data/replay:/replay
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/healthz')"]
       interval: 15s

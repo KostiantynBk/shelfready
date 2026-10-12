@@ -9,7 +9,7 @@ def test_healthz_ok():
     assert response.status_code == 200
     body = response.json()
     assert body["status"] == "ok"
-    assert body["llm_mode"] in {"live", "replay", "mock"}
+    assert body["llm_mode"] in {"live", "replay", "cached", "mock"}
 
 
 def test_settings_parse_languages_and_hide_secrets():
