@@ -1,0 +1,55 @@
+/* Polaris-style design tokens (values taken from @shopify/polaris-tokens, used in design/mockups-polaris) */
+:root {
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Surfaces */
+  --bg: #f1f1f1;
+  --bg-nav: #ebebeb;
+  --bg-surface: #ffffff;
+  --bg-surface-secondary: #f7f7f7;
+  --bg-topbar: #1a1a1a;
+  --bg-topbar-input: #303030;
+  --bg-fill-brand: #303030;
+
+  /* Text */
+  --text: #303030;
+  --text-secondary: #616161;
+  --text-disabled: #8a8a8a;
+  --text-on-dark: #e3e3e3;
+  --text-link: #005bd3;
+
+  /* Borders */
+  --border: #e3e3e3;
+  --border-subdued: #ebebeb;
+  --border-strong: #b5b5b5;
+  --border-topbar: #4a4a4a;
+
+  /* Tones: background / text */
+  --critical-bg: #fed1d7;
+  --critical-text: #8e0b21;
+  --critical-surface: #fee8eb;
+  --critical-border: #fec1c7;
+  --success-bg: #affebf;
+  --success-text: #014b40;
+  --attention-bg: #ffeb78;
+  --attention-text: #4f4700;
+  --warning-bg: #ffd6a4;
+  --warning-text: #5e4200;
+  --info-bg: #d5ebff;
+  --info-text: #003a5a;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --shadow-card: 0 1px 0 0 rgba(26, 26, 26, 0.07), 0 0 0 1px rgba(0, 0, 0, 0.07);
+  --shadow-nav-active: 0 1px 0 rgba(26, 26, 26, 0.07);
+  --shadow-btn: 0 -1px 0 0 #b5b5b5 inset, 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 0.5px 0 1.5px #fff inset;
+  --shadow-btn-primary: 0 -1px 0 1px rgba(0, 0, 0, 0.8) inset, 0 0 0 1px #303030 inset,
+    0 0.5px 0 1.5px rgba(255, 255, 255, 0.25) inset;
+
+  /* Layout */
+  --topbar-height: 56px;
+  --nav-width: 240px;
+  --page-max-width: 1240px;
+}
