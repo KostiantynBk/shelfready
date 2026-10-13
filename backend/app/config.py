@@ -32,6 +32,8 @@ class Settings(BaseSettings):
     # Save every live answer so it can be replayed without the model
     llm_record: bool = True
     replay_dir: Path = Path(__file__).resolve().parents[2] / "data" / "replay"
+    # Supplier photos from ABO, downloaded by data/scripts/fetch_abo.py (not committed)
+    abo_images_dir: Path = Path(__file__).resolve().parents[2] / "data" / "raw" / "abo" / "images"
 
     # Evolus
     evolus_api_base: str = "https://api.evolus.ai/api/v1"

@@ -28,7 +28,7 @@ from contextlib import asynccontextmanager
 from dataclasses import asdict, dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, TypeVar
+from typing import Any, NamedTuple, TypeVar
 
 import openai
 from PIL import Image, ImageOps
@@ -75,12 +75,23 @@ class LLMResult:
 
 
 # --------------------------------------------------------------------------- messages and images
-def image_part(image: Path | bytes, max_side: int = MAX_IMAGE_SIDE) -> dict[str, Any]:
+class ImageRef(NamedTuple):
+    """An image we rendered ourselves (e.g. a PDF page) with a stable identity for the replay cache,
+    since rendered bytes can differ between machines while the source document does not."""
+
+    source: Path | bytes
+    digest: str
+
+
+def image_part(image: Path | bytes | ImageRef, max_side: int = MAX_IMAGE_SIDE) -> dict[str, Any]:
     """An image_url content part: JPEG data URL, longest side <= max_side, transparency on white.
 
-    `_digest` (hash of the original bytes) is the image's replay-cache identity, so recorded answers
-    survive JPEG encoder changes; it is stripped before the request is sent.
+    `_digest` (hash of the original bytes, or an ImageRef's digest) is the image's replay-cache
+    identity, so recorded answers survive JPEG encoder changes; it is stripped before sending.
     """
+    digest = None
+    if isinstance(image, ImageRef):
+        image, digest = image.source, image.digest
     raw = image.read_bytes() if isinstance(image, Path) else image
     im = ImageOps.exif_transpose(Image.open(io.BytesIO(raw)))
     if im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info):
@@ -95,11 +106,11 @@ def image_part(image: Path | bytes, max_side: int = MAX_IMAGE_SIDE) -> dict[str,
     return {
         "type": "image_url",
         "image_url": {"url": "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()},
-        "_digest": f"sha256:{hashlib.sha256(raw).hexdigest()}@{max_side}",
+        "_digest": f"{digest or 'sha256:' + hashlib.sha256(raw).hexdigest()}@{max_side}",
     }
 
 
-def user_message(text: str, images: Iterable[Path | bytes] = ()) -> Message:
+def user_message(text: str, images: Iterable[Path | bytes | ImageRef] = ()) -> Message:
     """A user message with the images first, then the text (the order the spike used)."""
     content: list[dict[str, Any]] = [image_part(i) for i in images]
     content.append({"type": "text", "text": text})
