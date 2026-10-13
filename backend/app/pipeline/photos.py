@@ -9,7 +9,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from app.clients.llm import LLMClient, LLMResult, user_message
-from app.schemas.extraction import PhotoAnalysis
+from app.schemas.extraction import DrawingReading, LabelReading, PhotoAnalysis
 
 PROMPT = (
     "You are a product-data inspector for an online furniture and home shop. Describe only what is "
@@ -27,6 +27,34 @@ async def analyse_photo(
 ) -> tuple[PhotoAnalysis, LLMResult]:
     return await llm.chat_json(
         [user_message(PROMPT, [image])], PhotoAnalysis, purpose=purpose, max_tokens=1200
+    )
+
+
+LABEL_PROMPT = (
+    "This is a care label sewn into upholstery or a rug. Read the printed text and the care symbols: "
+    "the wash tub (with a temperature, or crossed out), the triangle (bleach), the iron, and a circle "
+    "(professional / dry cleaning). Report only what is printed."
+)
+DRAWING_PROMPT = (
+    "This is a technical dimension drawing of a piece of furniture, in centimetres. Read the labelled "
+    "dimensions: overall width, depth and height, and the seat height if it is shown. Use null for a "
+    "dimension that is not labelled."
+)
+
+
+async def read_label(
+    llm: LLMClient, image: Path | bytes, *, purpose: str = "label"
+) -> tuple[LabelReading, LLMResult]:
+    return await llm.chat_json(
+        [user_message(LABEL_PROMPT, [image])], LabelReading, purpose=purpose, max_tokens=600
+    )
+
+
+async def read_drawing(
+    llm: LLMClient, image: Path | bytes, *, purpose: str = "drawing"
+) -> tuple[DrawingReading, LLMResult]:
+    return await llm.chat_json(
+        [user_message(DRAWING_PROMPT, [image])], DrawingReading, purpose=purpose, max_tokens=400
     )
 
 

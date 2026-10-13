@@ -50,6 +50,29 @@ class PhotoAnalysis(BaseModel):
     )
 
 
+class LabelReading(BaseModel):
+    """A sewn-in care label: composition and care symbols, as printed."""
+
+    composition: str | None = Field(description="fibre composition exactly as printed, e.g. '100% polyester'")
+    wash_max_temp_c: int | None = Field(
+        description="temperature in the wash-tub symbol; null if not washable"
+    )
+    do_not_wash: bool = Field(description="the wash tub is crossed out")
+    dry_clean_only: bool = Field(description="only professional / dry cleaning is allowed")
+    removable_cover: bool = Field(description="the label says the cover is removable")
+    other_text: list[str] = Field(description="any other text on the label, as printed")
+
+
+class DrawingReading(BaseModel):
+    """A technical dimension drawing: the labelled measurements in centimetres."""
+
+    width_cm: float | None
+    depth_cm: float | None
+    height_cm: float | None
+    seat_height_cm: float | None = Field(description="null if the drawing does not show it")
+    product_code: str | None = Field(description="code printed on the drawing, if any")
+
+
 class SpecValue(BaseModel):
     value: str | None = Field(description="the value exactly as written, null if blank or a dash")
     unit: str | None = Field(description="the unit exactly as written, e.g. cm, mm, kg; null if none")

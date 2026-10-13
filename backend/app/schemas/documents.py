@@ -50,3 +50,14 @@ class IngestedSubmission(BaseModel):
     supplier: str
     email: Email
     files: list[IngestedFile]
+
+
+class Evidence(BaseModel):
+    """Where a value was seen: a box on a PDF page or on a photo, label or drawing (runbook §4)."""
+
+    source: Literal["pdf", "photo", "label", "drawing"]
+    file: str = Field(description="file name as the supplier sent it")
+    page: int | None = None
+    bbox: BBox | None = None
+    text: str | None = None
+    note: str | None = None
