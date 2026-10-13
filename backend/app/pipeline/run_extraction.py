@@ -27,6 +27,8 @@ from app.schemas.documents import IngestedFile
 ROOT = Path(__file__).resolve().parents[3]
 SUBMISSIONS = ROOT / "data" / "synthetic"
 RESULTS = ROOT / "data" / "results" / "extraction"
+ABO_ITEMS = ROOT / "data" / "abo" / "items.jsonl"
+AUDIT_RESULTS = ROOT / "data" / "results" / "audit_photos"
 
 
 async def extract_submission(llm: LLMClient, folder: Path) -> dict[str, Any]:
@@ -91,12 +93,57 @@ async def run(folders: list[Path], results: Path) -> list[dict[str, Any]]:
         return await asyncio.gather(*(one(f) for f in folders))
 
 
+async def analyse_listing_photos(llm: LLMClient, item: dict[str, Any]) -> dict[str, Any]:
+    """Every photo of one existing catalogue listing (audit set); the audit reuses these recorded answers."""
+    out: dict[str, Any] = {"item_id": item["item_id"], "photos": {}, "errors": {}}
+
+    async def one(image: dict[str, Any]) -> None:
+        path = llm.settings.abo_images_dir / image["path"]
+        if not path.exists():
+            out["errors"][image["image_id"]] = "file not available (run data/scripts/fetch_abo.py)"
+            return
+        try:
+            seen, _ = await analyse_photo(
+                llm, path, purpose=f"audit-photo:{item['item_id']}:{image['image_id']}"
+            )
+            out["photos"][image["image_id"]] = seen.model_dump()
+        except Exception as error:
+            out["errors"][image["image_id"]] = f"{type(error).__name__}: {error}"[:300]
+
+    await asyncio.gather(*(one(image) for image in item["images"]))
+    return out
+
+
+async def run_audit_photos(items: list[dict[str, Any]], results: Path) -> list[dict[str, Any]]:
+    results.mkdir(parents=True, exist_ok=True)
+    async with LLMClient() as llm:
+
+        async def one(item: dict[str, Any]) -> dict[str, Any]:
+            out = await analyse_listing_photos(llm, item)
+            (results / f"{item['item_id']}.json").write_text(
+                json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8"
+            )
+            return out
+
+        outs = await asyncio.gather(*(one(item) for item in items))
+    print(f"{len(outs)} listings, {sum(len(o['photos']) for o in outs)} photos analysed, "
+          f"{sum(len(o['errors']) for o in outs)} errors; results in {results}")  # fmt: skip
+    return outs
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument("--only", help="submission id prefix, e.g. SYN-00")
+    parser.add_argument(
+        "--audit-photos", action="store_true", help="analyse the audit listings' photos instead"
+    )
     args = parser.parse_args()
+    if args.audit_photos:
+        items = [json.loads(line) for line in ABO_ITEMS.read_text(encoding="utf-8").splitlines() if line]
+        outs = asyncio.run(run_audit_photos([x for x in items if x["set"] == "audit"], AUDIT_RESULTS))
+        return 1 if any(o["errors"] for o in outs) else 0
     folders = sorted(p for p in SUBMISSIONS.glob("SYN-*") if not args.only or p.name.startswith(args.only))
     outs = asyncio.run(run(folders, RESULTS))
     failed = sum(1 for o in outs if not o["spec"]) + sum(len(o["errors"]) for o in outs)
