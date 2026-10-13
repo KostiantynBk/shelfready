@@ -1,0 +1,117 @@
+{
+ "product_id": "SYN-07",
+ "supplier": "Móveis Lusa, Lda.",
+ "email": {
+  "from": "comercial@moveislusa.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-08",
+  "subject": "Nova coleção AW26 – poltrona FARO – ficha técnica + fotos",
+  "body": "Bom dia,\n\nSegue em anexo a ficha técnica do produto FARO (3 cores) e as fotos.\nHi team, please find attached the spec sheet for FARO and the photos.\n\nCumprimentos,\nRita Moreira\nMóveis Lusa, Lda.",
+  "attachments": [
+   "FAR07_ficha_tecnica_v2.pdf",
+   "FAR07_ANT_front.jpg",
+   "FAR07_ANT_34.jpg",
+   "FAR07_ANT_side.jpg",
+   "IMG_4893.JPG",
+   "FAR07_AZU_front.jpg",
+   "FAR07_AZU_34.jpg",
+   "FAR07_AZU_side.jpg",
+   "FAR07_AZU_detail.jpg",
+   "FAR07_CIN_front.jpg",
+   "FAR07_CIN_34.jpg",
+   "FAR07_CIN_side.jpg",
+   "FAR07_CIN_detail.jpg",
+   "FAR07_label.png",
+   "FAR07_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "FAR07_ANT_front.jpg",
+   "kind": "photo",
+   "abo_path": "ce/ce3e8fe7.jpg",
+   "sha256": "e66cb0893ca7cd453966d506bc04d2eb3666e73a43cdc802ec407a8ea77cc92c"
+  },
+  {
+   "file": "FAR07_ANT_34.jpg",
+   "kind": "photo",
+   "abo_path": "bd/bd49bb01.jpg",
+   "sha256": "c5a077c706401cf14928d5752d1dbff77a58da076ec4c41ac9f6d9d20f5fb1f6"
+  },
+  {
+   "file": "FAR07_ANT_side.jpg",
+   "kind": "photo",
+   "abo_path": "58/580741ca.jpg",
+   "sha256": "995c5ff5f5f4affeaa7b442b4bcd27027bfd17e53db31aeb1f077c3253ce6c4c"
+  },
+  {
+   "file": "IMG_4893.JPG",
+   "kind": "photo",
+   "abo_path": "41/41efd1b3.jpg",
+   "sha256": "78d9c98e329b6dba64fc9ae9f47d6d0fdff119ec6a22fb3b67bcdc904c44c1af"
+  },
+  {
+   "file": "FAR07_AZU_front.jpg",
+   "kind": "photo",
+   "abo_path": "a9/a9369173.jpg",
+   "sha256": "610e6eacc03e095e8571fb7b8bce680568814b6160634bdb7cc5ec756e853a1d"
+  },
+  {
+   "file": "FAR07_AZU_34.jpg",
+   "kind": "photo",
+   "abo_path": "75/75b4379a.jpg",
+   "sha256": "e07cb2e60474cfc4a97df08cc3656ee9f0d4ed80cba387bf51d6a6f22b5a4a45"
+  },
+  {
+   "file": "FAR07_AZU_side.jpg",
+   "kind": "photo",
+   "abo_path": "d7/d7a9e11c.jpg",
+   "sha256": "0dc2dec5d248aeb9d3d6a2e1d4e551581c02638ada1d045702b303f7cfcd7990"
+  },
+  {
+   "file": "FAR07_AZU_detail.jpg",
+   "kind": "photo",
+   "abo_path": "6a/6adfa5ac.jpg",
+   "sha256": "ca3653ae07e69387398859aa32bfa4b8fc3438b8846e7506301ecf82ba87e96b"
+  },
+  {
+   "file": "FAR07_CIN_front.jpg",
+   "kind": "photo",
+   "abo_path": "0a/0a333997.jpg",
+   "sha256": "0f96eeb49b4af80a550d6935137bcf3ecb7cf41ca4ceab7f51037262f6e9ea08"
+  },
+  {
+   "file": "FAR07_CIN_34.jpg",
+   "kind": "photo",
+   "abo_path": "9c/9c9c27a4.jpg",
+   "sha256": "8788e93849104d8e2c8d6c41ad5f8253c3856332f4a6cf928b9ea7acb83d94ad"
+  },
+  {
+   "file": "FAR07_CIN_side.jpg",
+   "kind": "photo",
+   "abo_path": "a0/a0af6563.jpg",
+   "sha256": "a04ec3522e0bd8be9c337a4657f36004a0bb6aa2ac720bdf653fa324aa15fbf2"
+  },
+  {
+   "file": "FAR07_CIN_detail.jpg",
+   "kind": "photo",
+   "abo_path": "c0/c072d702.jpg",
+   "sha256": "f355b4b7889b3f6572bb25499d7a3648a236a06c0a8f25397fc631eab3076c6d"
+  },
+  {
+   "file": "FAR07_label.png",
+   "kind": "label",
+   "path": "FAR07_label.png"
+  },
+  {
+   "file": "FAR07_dimensions.png",
+   "kind": "drawing",
+   "path": "FAR07_dimensions.png"
+  }
+ ]
+}

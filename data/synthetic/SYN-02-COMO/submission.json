@@ -1,0 +1,111 @@
+{
+ "product_id": "SYN-02",
+ "supplier": "Arredo Brianza S.r.l.",
+ "email": {
+  "from": "ordini@arredobrianza.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-03",
+  "subject": "Novità collezione 2027 – COMO – scheda tecnica e foto",
+  "body": "Buongiorno,\n\nin allegato la scheda tecnica di COMO (3 colori), il listino e le foto.\nPlease find attached the data sheet, price list and photos.\n\nCordiali saluti,\nGiulia Colombo\nArredo Brianza S.r.l.",
+  "attachments": [
+   "COMO_scheda_tecnica.pdf",
+   "COMO_COG_01.jpg",
+   "COMO_COG_02.jpg",
+   "COMO_COG_03.jpg",
+   "IMG_4930.JPG",
+   "COMO_SAB_01.jpg",
+   "COMO_SAB_02.jpg",
+   "COMO_SAB_03.jpg",
+   "COMO_SAB_04.jpg",
+   "COMO_NER_01.jpg",
+   "COMO_NER_02.jpg",
+   "COMO_NER_03.jpg",
+   "COMO_NER_04.jpg",
+   "COM02_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "COMO_scheda_tecnica.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "COMO_COG_01.jpg",
+   "kind": "photo",
+   "abo_path": "d2/d2e3504e.jpg",
+   "sha256": "fc2cae01b01f6184dc865b1f44aa6f6ce23ab403d04d458cc132cac6b0ad62a9"
+  },
+  {
+   "file": "COMO_COG_02.jpg",
+   "kind": "photo",
+   "abo_path": "db/db913f16.jpg",
+   "sha256": "d5da06244d8d2b7bf1a192690879e019994610fd61b42a3f7a46cd85ddea9ced"
+  },
+  {
+   "file": "COMO_COG_03.jpg",
+   "kind": "photo",
+   "abo_path": "15/15c2af3a.jpg",
+   "sha256": "e9bc81a251a418c8e8b04a76baac3bb2cb60829855e70ccae8a595e6ba5f91a1"
+  },
+  {
+   "file": "IMG_4930.JPG",
+   "kind": "photo",
+   "abo_path": "92/927023b2.jpg",
+   "sha256": "0b6f2d1242f6b361d258363882751c8014b6f61ca46a90b346ed3599ab652e8e"
+  },
+  {
+   "file": "COMO_SAB_01.jpg",
+   "kind": "photo",
+   "abo_path": "b3/b390d30a.jpg",
+   "sha256": "d65b46f36ad780dbb544a56b32347400e007aee0e022315eabeed07bad64402f"
+  },
+  {
+   "file": "COMO_SAB_02.jpg",
+   "kind": "photo",
+   "abo_path": "86/862f5bcd.jpg",
+   "sha256": "89afcd0f819e0ce2639c06dd602842960268d9354482dd9d16456945a8f8bc31"
+  },
+  {
+   "file": "COMO_SAB_03.jpg",
+   "kind": "photo",
+   "abo_path": "00/00dabefa.jpg",
+   "sha256": "bcc9d5b0a259612c33cdfc00b06988d54d0730d9f238643e83f3ecbe3df9b6b6"
+  },
+  {
+   "file": "COMO_SAB_04.jpg",
+   "kind": "photo",
+   "abo_path": "78/7845e1ac.jpg",
+   "sha256": "077661925171b4d6b69d516fa15a52f21eb0f51ae1e0fe86de998c3483cef798"
+  },
+  {
+   "file": "COMO_NER_01.jpg",
+   "kind": "photo",
+   "abo_path": "f2/f2798364.jpg",
+   "sha256": "8bdbd1f189c43967074a55453bea268dbfe9d9dc0545529a8044a7e2ce818b71"
+  },
+  {
+   "file": "COMO_NER_02.jpg",
+   "kind": "photo",
+   "abo_path": "40/40e89883.jpg",
+   "sha256": "79d6eec8f061eaf6eddda58c60a84d873d791b5cddc0fd263b3436351b8bfb8c"
+  },
+  {
+   "file": "COMO_NER_03.jpg",
+   "kind": "photo",
+   "abo_path": "6e/6ea7ad4a.jpg",
+   "sha256": "eef339c0553c7a133e55e2fe3e213dfe0e205087bbe04529a7e26f81f08337e9"
+  },
+  {
+   "file": "COMO_NER_04.jpg",
+   "kind": "photo",
+   "abo_path": "a0/a0de6f61.jpg",
+   "sha256": "067614c16ccbeb802af0fa447180f04b3ddbeb213b2120d377c76bdfbd02063b"
+  },
+  {
+   "file": "COM02_dimensions.png",
+   "kind": "drawing",
+   "path": "COM02_dimensions.png"
+  }
+ ]
+}

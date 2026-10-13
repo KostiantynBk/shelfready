@@ -1,0 +1,84 @@
+{
+ "product_id": "SYN-18",
+ "supplier": "Arredo Brianza S.r.l.",
+ "email": {
+  "from": "ordini@arredobrianza.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-01",
+  "subject": "Novità collezione 2027 – ORTA – scheda tecnica e foto",
+  "body": "Buongiorno,\n\nin allegato la scheda tecnica di ORTA (2 colori), il listino e le foto.\nPlease find attached the data sheet, price list and photos.\n\nCordiali saluti,\nGiulia Colombo\nArredo Brianza S.r.l.",
+  "attachments": [
+   "ORTA_scheda_tecnica.pdf",
+   "ORTA_BLU_01.jpg",
+   "ORTA_BLU_02.jpg",
+   "ORTA_BLU_03.jpg",
+   "IMG_4606.JPG",
+   "ORTA_BIA_01.jpg",
+   "ORTA_BIA_02.jpg",
+   "ORTA_BIA_03.jpg",
+   "ORTA_BIA_04.jpg",
+   "ORTA_BLU_05.jpg"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "ORTA_scheda_tecnica.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "ORTA_BLU_01.jpg",
+   "kind": "photo",
+   "abo_path": "a8/a8f25bfa.jpg",
+   "sha256": "792ac99e44ab2acdfa5204d1459a47d97dccc604e43e4154251e3f77e5b86174"
+  },
+  {
+   "file": "ORTA_BLU_02.jpg",
+   "kind": "photo",
+   "abo_path": "42/427c62de.jpg",
+   "sha256": "8bf4ae8088ce5fa85cc74ce599414f95f3a2be5009d06f8bf4fef1f88688496b"
+  },
+  {
+   "file": "ORTA_BLU_03.jpg",
+   "kind": "photo",
+   "abo_path": "4e/4ee7fe57.jpg",
+   "sha256": "245496e112afa84957d946486b70f3323fa672c0dd39c42ad6951e914d91b3d1"
+  },
+  {
+   "file": "IMG_4606.JPG",
+   "kind": "photo",
+   "abo_path": "64/64e32bf3.jpg",
+   "sha256": "65b2768a65549000ea278590f547378e04777758b4912dccfad6d86ce2782c72"
+  },
+  {
+   "file": "ORTA_BIA_01.jpg",
+   "kind": "photo",
+   "abo_path": "0a/0a1755e9.jpg",
+   "sha256": "b3b9966ab84d8c65af4c5942afc8e09b724e4085ba0f57b9936b8ac10865b139"
+  },
+  {
+   "file": "ORTA_BIA_02.jpg",
+   "kind": "photo",
+   "abo_path": "2c/2c4f6b9e.jpg",
+   "sha256": "def0b061a85f986ab51344e17d1c340d7ceecfaed1cdc732dc6ae2d555789e04"
+  },
+  {
+   "file": "ORTA_BIA_03.jpg",
+   "kind": "photo",
+   "abo_path": "73/738f5521.jpg",
+   "sha256": "5fd65ab7be7339b1eb97d45762abec7148ac4928abf01bd8cd68f356cfa6b817"
+  },
+  {
+   "file": "ORTA_BIA_04.jpg",
+   "kind": "photo",
+   "abo_path": "a9/a9d74d76.jpg",
+   "sha256": "7a4ae6dec4a70f00531b0cdf0eecd62c67e7742bb4c378874bd24f15657801d5"
+  },
+  {
+   "file": "ORTA_BLU_05.jpg",
+   "kind": "photo",
+   "abo_path": "2c/2c4f6b9e.jpg",
+   "sha256": "def0b061a85f986ab51344e17d1c340d7ceecfaed1cdc732dc6ae2d555789e04"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "product_id": "SYN-00",
+ "supplier": "Móveis Lusa, Lda.",
+ "email": {
+  "from": "comercial@moveislusa.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-01",
+  "subject": "Nova coleção AW26 – poltrona LISBOA – ficha técnica + fotos",
+  "body": "Bom dia,\n\nSegue em anexo a ficha técnica do produto LISBOA (3 cores) e as fotos.\nHi team, please find attached the spec sheet for LISBOA and the photos.\n\nCumprimentos,\nRita Moreira\nMóveis Lusa, Lda.",
+  "attachments": [
+   "LIS01_ficha_tecnica_v2.pdf",
+   "LIS01_MUS_front.jpg",
+   "LIS01_MUS_34.jpg",
+   "LIS01_MUS_side.jpg",
+   "LIS01_MUS_detail.jpg",
+   "LIS01_MUS_back.jpg",
+   "IMG_4701.JPG",
+   "LIS01_ARE_front.jpg",
+   "LIS01_ARE_34.jpg",
+   "LIS01_ARE_side.jpg",
+   "LIS01_ARE_detail.jpg",
+   "LIS01_ARE_back.jpg",
+   "LIS01_ANT_front.jpg",
+   "LIS01_ANT_34.jpg",
+   "LIS01_ANT_side.jpg",
+   "LIS01_ANT_detail.jpg",
+   "LIS01_ANT_back.jpg",
+   "LIS01_ANT_top.jpg",
+   "LIS01_promo.jpg",
+   "LIS01_ARE_back_small.jpg",
+   "LIS01_label.png",
+   "LIS01_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "LIS01_MUS_front.jpg",
+   "kind": "photo",
+   "abo_path": "b8/b832f2b4.jpg",
+   "sha256": "2df19edeffd223873bd05f0238191f9b745c19195adbcf296db51cd26a5f4fe3"
+  },
+  {
+   "file": "LIS01_MUS_34.jpg",
+   "kind": "photo",
+   "abo_path": "55/55de8f5f.jpg",
+   "sha256": "e2b170ab7c78a60c0f163871d7289beddcb82937a7e56a82d97edb59af00073f"
+  },
+  {
+   "file": "LIS01_MUS_side.jpg",
+   "kind": "photo",
+   "abo_path": "1e/1eb51a6c.jpg",
+   "sha256": "37e115edb163a35f96b7060f1fc23094528042c99d3658901dc6afd00e81a15f"
+  },
+  {
+   "file": "LIS01_MUS_detail.jpg",
+   "kind": "photo",
+   "abo_path": "f2/f245b7f6.jpg",
+   "sha256": "a84ee385270f0804da29170dafe891f0452a552111f34d262c4c8afbf6a68aed"
+  },
+  {
+   "file": "LIS01_MUS_back.jpg",
+   "kind": "photo",
+   "abo_path": "f0/f0f7b9c3.jpg",
+   "sha256": "280c9842ad65bcf4e986178556d034e254654198b793a9e75a86a14ef2f77672"
+  },
+  {
+   "file": "IMG_4701.JPG",
+   "kind": "photo",
+   "abo_path": "eb/eb9e342d.jpg",
+   "sha256": "cdde6a15d1d5e69c58a15722b3595f2e271214789e7a0ef23a80c28e86b3aa75"
+  },
+  {
+   "file": "LIS01_ARE_front.jpg",
+   "kind": "photo",
+   "abo_path": "15/154de0fa.jpg",
+   "sha256": "fffab40939b59f492c3c35f3bacee1f067d62dac97b08c68ae5293c22623a679"
+  },
+  {
+   "file": "LIS01_ARE_34.jpg",
+   "kind": "photo",
+   "abo_path": "7f/7f907bd2.jpg",
+   "sha256": "7b8360d2cd7b7fcc6eac8f66bd905717761462dbed156fb9668ea1bb69d8239e"
+  },
+  {
+   "file": "LIS01_ARE_side.jpg",
+   "kind": "photo",
+   "abo_path": "56/56dbeb7a.jpg",
+   "sha256": "746f6f4a1b49eac17136ec9a1e0039c62914d305d5e6e557d992897b3b227756"
+  },
+  {
+   "file": "LIS01_ARE_detail.jpg",
+   "kind": "photo",
+   "abo_path": "8e/8e2203cc.jpg",
+   "sha256": "a4abbb9b576cbcba230263d0bd80cbb1b38eea6ef002c0127aee79f8f3f4f803"
+  },
+  {
+   "file": "LIS01_ARE_back.jpg",
+   "kind": "photo",
+   "abo_path": "23/23e07fd4.jpg",
+   "sha256": "b55ea9aa21f09400768b0c40cb470403d77e463aca36def6ea756cc313f80bc5"
+  },
+  {
+   "file": "LIS01_ANT_front.jpg",
+   "kind": "photo",
+   "abo_path": "93/937fbd6d.jpg",
+   "sha256": "8a12d46cca6351182170e76073aca455badc192b21754a52774d570dadf51e3a"
+  },
+  {
+   "file": "LIS01_ANT_34.jpg",
+   "kind": "photo",
+   "abo_path": "73/731a4f1e.jpg",
+   "sha256": "7d114811fed6f4ae4f07467039530d4bcea75b0730ecd1bedab594ddd61b9a4b"
+  },
+  {
+   "file": "LIS01_ANT_side.jpg",
+   "kind": "photo",
+   "abo_path": "63/63ceaae9.jpg",
+   "sha256": "fac843bd1d8e62ccebe8af403e510b500912ba353dbcc3fddb1850bc91c0c302"
+  },
+  {
+   "file": "LIS01_ANT_detail.jpg",
+   "kind": "photo",
+   "abo_path": "5c/5c10f627.jpg",
+   "sha256": "aaa3fe40a084c9fc6aee1592beba2bc857c426b2173549d52a45d0f289b2410e"
+  },
+  {
+   "file": "LIS01_ANT_back.jpg",
+   "kind": "photo",
+   "abo_path": "5a/5ab8d337.jpg",
+   "sha256": "767e512909665bff02be98ebdf92b32fe67147e8ec6b00b0ae009cfcb816260b"
+  },
+  {
+   "file": "LIS01_ANT_top.jpg",
+   "kind": "photo",
+   "abo_path": "91/91f8c75c.jpg",
+   "sha256": "11b46e4772fc3bf4b29e07fdc628ad9463655b2a30dbc84fa00035c865feae12"
+  },
+  {
+   "file": "LIS01_promo.jpg",
+   "kind": "photo",
+   "path": "LIS01_promo.jpg"
+  },
+  {
+   "file": "LIS01_ARE_back_small.jpg",
+   "kind": "photo",
+   "path": "LIS01_ARE_back_small.jpg"
+  },
+  {
+   "file": "LIS01_label.png",
+   "kind": "label",
+   "path": "LIS01_label.png"
+  },
+  {
+   "file": "LIS01_dimensions.png",
+   "kind": "drawing",
+   "path": "LIS01_dimensions.png"
+  }
+ ]
+}

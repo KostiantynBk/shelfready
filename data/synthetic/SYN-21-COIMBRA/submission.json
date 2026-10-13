@@ -1,0 +1,83 @@
+{
+ "product_id": "SYN-21",
+ "supplier": "Móveis Lusa, Lda.",
+ "email": {
+  "from": "comercial@moveislusa.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-04",
+  "subject": "Nova coleção AW26 – tapete COIMBRA – ficha técnica + fotos",
+  "body": "Bom dia,\n\nSegue em anexo a ficha técnica do produto COIMBRA (2 cores) e as fotos.\nHi team, please find attached the spec sheet for COIMBRA and the photos.\n\nCumprimentos,\nRita Moreira\nMóveis Lusa, Lda.",
+  "attachments": [
+   "COI21_ficha_tecnica_v2.pdf",
+   "COI21_ARE_front.jpg",
+   "COI21_ARE_34.jpg",
+   "COI21_ARE_side.jpg",
+   "IMG_4964.JPG",
+   "COI21_AZU_front.jpg",
+   "COI21_AZU_34.jpg",
+   "COI21_AZU_side.jpg",
+   "COI21_AZU_detail.jpg",
+   "COI21_label.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "COI21_ficha_tecnica_v2.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "COI21_ARE_front.jpg",
+   "kind": "photo",
+   "abo_path": "65/656b2323.jpg",
+   "sha256": "9fddbc2111d2b615273666538bd90d5ca6af346d336b49b54404049fa2deb385"
+  },
+  {
+   "file": "COI21_ARE_34.jpg",
+   "kind": "photo",
+   "abo_path": "35/35414980.jpg",
+   "sha256": "c1488728b245ea8da0d9346188667ed13e75bafa79d649fbf3daecd75a11bcf5"
+  },
+  {
+   "file": "COI21_ARE_side.jpg",
+   "kind": "photo",
+   "abo_path": "de/de50ef92.jpg",
+   "sha256": "3742558d9afc30bd0c1b2327b0284ad5f3c814eb055a887a6190ddcf51f36bb4"
+  },
+  {
+   "file": "IMG_4964.JPG",
+   "kind": "photo",
+   "abo_path": "b6/b6c77c0c.jpg",
+   "sha256": "7c7799d1c595abf707c9f43311a4097e58119fad9eafe8216a992b31dc5173a9"
+  },
+  {
+   "file": "COI21_AZU_front.jpg",
+   "kind": "photo",
+   "abo_path": "95/956f631e.jpg",
+   "sha256": "694e830c50e9b9b1312650f205594a5b4465e6f74e54bd561909837cdf95e8e2"
+  },
+  {
+   "file": "COI21_AZU_34.jpg",
+   "kind": "photo",
+   "abo_path": "14/140df8dd.jpg",
+   "sha256": "55f9981dce4d03c4c5ef8a969d73863e93e29ad1038de868ea03b40f398a0f6f"
+  },
+  {
+   "file": "COI21_AZU_side.jpg",
+   "kind": "photo",
+   "abo_path": "71/71b73e70.jpg",
+   "sha256": "006a545b80e24e9ad4a1d4a822d1359451f9259f3148227a7b097c1d71f46bdd"
+  },
+  {
+   "file": "COI21_AZU_detail.jpg",
+   "kind": "photo",
+   "abo_path": "9c/9c13e788.jpg",
+   "sha256": "8b1a65325d6b8e97e3383de11cd28f270f11cd71e8cdae629da56ae8134e6082"
+  },
+  {
+   "file": "COI21_label.png",
+   "kind": "label",
+   "path": "COI21_label.png"
+  }
+ ]
+}

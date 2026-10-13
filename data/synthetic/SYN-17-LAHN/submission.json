@@ -1,0 +1,49 @@
+{
+ "product_id": "SYN-17",
+ "supplier": "Nordholz Wohnen GmbH",
+ "email": {
+  "from": "vertrieb@nordholz-wohnen.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-09",
+  "subject": "Neuheit LAHN (Tischleuchte) – Produktdatenblatt und Fotos",
+  "body": "Guten Tag,\n\nanbei das Produktdatenblatt für LAHN (1 Farben) und die Fotos.\nAttached you will find the product data sheet and photos.\n\nMit freundlichen Grüßen\nJonas Weber\nNordholz Wohnen GmbH",
+  "attachments": [
+   "LAHN_Produktdatenblatt.pdf",
+   "LAHN-BLA-1.jpg",
+   "LAHN-BLA-2.jpg",
+   "LAHN-BLA-3.jpg",
+   "IMG_4328.JPG"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "LAHN_Produktdatenblatt.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "LAHN-BLA-1.jpg",
+   "kind": "photo",
+   "abo_path": "19/19c710a5.jpg",
+   "sha256": "94b73f1b28af22b8bf3cfd117765cf1c274f04220dc68f3e5b6732b6fd8e7f6b"
+  },
+  {
+   "file": "LAHN-BLA-2.jpg",
+   "kind": "photo",
+   "abo_path": "8e/8e87d0e3.jpg",
+   "sha256": "5ca4315ae85df0efdf0e68a52e37bab437c304e0fa2371832d5f8d48ba6a2fe0"
+  },
+  {
+   "file": "LAHN-BLA-3.jpg",
+   "kind": "photo",
+   "abo_path": "4d/4d633a24.jpg",
+   "sha256": "29cc1f8b5f3a7795a36b5f1d05a026ab8ea95a22d951300595f0f2bed6e0082a"
+  },
+  {
+   "file": "IMG_4328.JPG",
+   "kind": "photo",
+   "abo_path": "ad/adc70e3b.jpg",
+   "sha256": "480e1e3b0ad86437627ad34970e7a76e8253e9c19501a774039c637c6d43e4d3"
+  }
+ ]
+}

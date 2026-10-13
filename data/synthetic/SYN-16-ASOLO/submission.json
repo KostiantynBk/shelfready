@@ -1,0 +1,55 @@
+{
+ "product_id": "SYN-16",
+ "supplier": "Arredo Brianza S.r.l.",
+ "email": {
+  "from": "ordini@arredobrianza.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-08",
+  "subject": "Novità collezione 2027 – ASOLO – scheda tecnica e foto",
+  "body": "Buongiorno,\n\nin allegato la scheda tecnica di ASOLO (1 colori), il listino e le foto.\nPlease find attached the data sheet, price list and photos.\n\nCordiali saluti,\nGiulia Colombo\nArredo Brianza S.r.l.",
+  "attachments": [
+   "ASOLO_scheda_tecnica.pdf",
+   "ASOLO_BIA_01.jpg",
+   "ASOLO_BIA_02.jpg",
+   "ASOLO_BIA_03.jpg",
+   "IMG_4836.JPG",
+   "ASO16_BIA_back_small.jpg"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "ASOLO_scheda_tecnica.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "ASOLO_BIA_01.jpg",
+   "kind": "photo",
+   "abo_path": "3f/3fb9447f.jpg",
+   "sha256": "76c82972192071e9b6284a146e886500f981ecbfaf2058fcdb934d380bb30b3d"
+  },
+  {
+   "file": "ASOLO_BIA_02.jpg",
+   "kind": "photo",
+   "abo_path": "b4/b45f7e65.jpg",
+   "sha256": "1e378e9ac8c5c23eb22f1d3a02c60d7c526cc62603f4d249ccc84c59a672b0f2"
+  },
+  {
+   "file": "ASOLO_BIA_03.jpg",
+   "kind": "photo",
+   "abo_path": "ca/caaa8ff4.jpg",
+   "sha256": "0c935000ce306dddd6da5331b3c794d12924243f9ad4917e1f4cb89cb31e2dd5"
+  },
+  {
+   "file": "IMG_4836.JPG",
+   "kind": "photo",
+   "abo_path": "78/782b942c.jpg",
+   "sha256": "49a113855373e790ab0b71ebd1f037fffe7663e54995cc0cf410312f4ecf1699"
+  },
+  {
+   "file": "ASO16_BIA_back_small.jpg",
+   "kind": "photo",
+   "path": "ASO16_BIA_back_small.jpg"
+  }
+ ]
+}

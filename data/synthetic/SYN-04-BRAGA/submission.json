@@ -1,0 +1,124 @@
+{
+ "product_id": "SYN-04",
+ "supplier": "Móveis Lusa, Lda.",
+ "email": {
+  "from": "comercial@moveislusa.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-05",
+  "subject": "Nova coleção AW26 – poltrona reclinável BRAGA – ficha técnica + fotos",
+  "body": "Bom dia,\n\nSegue em anexo a ficha técnica do produto BRAGA (3 cores) e as fotos.\nHi team, please find attached the spec sheet for BRAGA and the photos.\n\nCumprimentos,\nRita Moreira\nMóveis Lusa, Lda.",
+  "attachments": [
+   "BRA04_ficha_tecnica_v2.pdf",
+   "BRA04_ARE_front.jpg",
+   "BRA04_ARE_34.jpg",
+   "BRA04_ARE_side.jpg",
+   "IMG_4754.JPG",
+   "BRA04_BEG_front.jpg",
+   "BRA04_BEG_34.jpg",
+   "BRA04_BEG_side.jpg",
+   "BRA04_BEG_detail.jpg",
+   "BRA04_ANT_front.jpg",
+   "BRA04_ANT_34.jpg",
+   "BRA04_ANT_side.jpg",
+   "BRA04_ANT_detail.jpg",
+   "BRA04_ANT_back.jpg",
+   "BRA04_label.png",
+   "BRA04_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "BRA04_ficha_tecnica_v2.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "BRA04_ARE_front.jpg",
+   "kind": "photo",
+   "abo_path": "c3/c3fb609e.jpg",
+   "sha256": "1ecc1e97691bfc0e80ed3c88dd99c5b0e09170a6982d88b4ecb9fe67b560adfa"
+  },
+  {
+   "file": "BRA04_ARE_34.jpg",
+   "kind": "photo",
+   "abo_path": "9e/9e9e5ba7.jpg",
+   "sha256": "8c2f5c7c600b70243ad33802777ea24b6f8229443955090b0822cf988bbe2928"
+  },
+  {
+   "file": "BRA04_ARE_side.jpg",
+   "kind": "photo",
+   "abo_path": "09/093beef3.jpg",
+   "sha256": "7597bfb377db613288fad9a88ae24c5aebcc19801d98f696fd0804cf71f3ccef"
+  },
+  {
+   "file": "IMG_4754.JPG",
+   "kind": "photo",
+   "abo_path": "3a/3aeb3883.jpg",
+   "sha256": "51baa7c8c7c271974dfa252c34908c7e7ea89b9e2e0b7ce1ac58c93648e8a57a"
+  },
+  {
+   "file": "BRA04_BEG_front.jpg",
+   "kind": "photo",
+   "abo_path": "09/09e1ba8d.jpg",
+   "sha256": "ea85164dbf5c8bd00a1369a50321dc63752b1e8914de02d82a3092fc1fdfdfcb"
+  },
+  {
+   "file": "BRA04_BEG_34.jpg",
+   "kind": "photo",
+   "abo_path": "43/433337ef.jpg",
+   "sha256": "763affcd69931fcd065e4458486ba1d9e24dfac6f67d4e5dd67b6b3fb3510eb8"
+  },
+  {
+   "file": "BRA04_BEG_side.jpg",
+   "kind": "photo",
+   "abo_path": "3f/3fa293e9.jpg",
+   "sha256": "5941cddc48b06655eca021a5be88f20277f17dfe190bd5359044224197d8fb16"
+  },
+  {
+   "file": "BRA04_BEG_detail.jpg",
+   "kind": "photo",
+   "abo_path": "20/208436a7.jpg",
+   "sha256": "18a236a444d1dc9ac88cda7611b191ae6911356aa016f325304b395566213ea6"
+  },
+  {
+   "file": "BRA04_ANT_front.jpg",
+   "kind": "photo",
+   "abo_path": "37/370ab7a6.jpg",
+   "sha256": "1b393dd467c31c6545a948c6d3e5299c7fddd00b3292ca1dd05622050e5cbfb5"
+  },
+  {
+   "file": "BRA04_ANT_34.jpg",
+   "kind": "photo",
+   "abo_path": "64/6412af43.jpg",
+   "sha256": "c83c622a2cd814abad9b817eb840cd422682f2523fc75a405385ac29fbe0059b"
+  },
+  {
+   "file": "BRA04_ANT_side.jpg",
+   "kind": "photo",
+   "abo_path": "9a/9af4373e.jpg",
+   "sha256": "167c1619d6a2c4a6f43021be9c5c6e58a649bbbf064cde87d409eed40f1b0377"
+  },
+  {
+   "file": "BRA04_ANT_detail.jpg",
+   "kind": "photo",
+   "abo_path": "58/587c6b7c.jpg",
+   "sha256": "959fa8949f9f446ead2760adab553c33e2b0839fbc71f0b4b160cb12163416ef"
+  },
+  {
+   "file": "BRA04_ANT_back.jpg",
+   "kind": "photo",
+   "abo_path": "9e/9e9e5ba7.jpg",
+   "sha256": "8c2f5c7c600b70243ad33802777ea24b6f8229443955090b0822cf988bbe2928"
+  },
+  {
+   "file": "BRA04_label.png",
+   "kind": "label",
+   "path": "BRA04_label.png"
+  },
+  {
+   "file": "BRA04_dimensions.png",
+   "kind": "drawing",
+   "path": "BRA04_dimensions.png"
+  }
+ ]
+}

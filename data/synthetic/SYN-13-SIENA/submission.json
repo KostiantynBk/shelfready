@@ -1,0 +1,61 @@
+{
+ "product_id": "SYN-13",
+ "supplier": "Arredo Brianza S.r.l.",
+ "email": {
+  "from": "ordini@arredobrianza.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-05",
+  "subject": "Novità collezione 2027 – SIENA – scheda tecnica e foto",
+  "body": "Buongiorno,\n\nin allegato la scheda tecnica di SIENA (1 colori), il listino e le foto.\nPlease find attached the data sheet, price list and photos.\n\nCordiali saluti,\nGiulia Colombo\nArredo Brianza S.r.l.",
+  "attachments": [
+   "SIENA_scheda_tecnica.pdf",
+   "SIENA_BLU_01.jpg",
+   "SIENA_BLU_02.jpg",
+   "SIENA_BLU_03.jpg",
+   "IMG_4287.JPG",
+   "SIE13_label.png",
+   "SIE13_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "SIENA_scheda_tecnica.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "SIENA_BLU_01.jpg",
+   "kind": "photo",
+   "abo_path": "bc/bce8cf34.jpg",
+   "sha256": "4db174c5f10ea8e73984e6750620b27da33a25af22a9e0df924258a8aa10f691"
+  },
+  {
+   "file": "SIENA_BLU_02.jpg",
+   "kind": "photo",
+   "abo_path": "64/64e35016.jpg",
+   "sha256": "e2c2577584b6019fa15bc5dd3b58b3f8307d38e88e18453f34c416f15731aa69"
+  },
+  {
+   "file": "SIENA_BLU_03.jpg",
+   "kind": "photo",
+   "abo_path": "fd/fda846b7.jpg",
+   "sha256": "494d4049c61fde2e6717696ba3f23332e8183cef2414f48da98ef997909d73c8"
+  },
+  {
+   "file": "IMG_4287.JPG",
+   "kind": "photo",
+   "abo_path": "3b/3ba4bebf.jpg",
+   "sha256": "34ed939c48ccabb750c469c42dc4c335d1220fefc665082ad9be67a585ededd7"
+  },
+  {
+   "file": "SIE13_label.png",
+   "kind": "label",
+   "path": "SIE13_label.png"
+  },
+  {
+   "file": "SIE13_dimensions.png",
+   "kind": "drawing",
+   "path": "SIE13_dimensions.png"
+  }
+ ]
+}

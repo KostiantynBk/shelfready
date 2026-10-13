@@ -1,0 +1,89 @@
+{
+ "product_id": "SYN-09",
+ "supplier": "Nordholz Wohnen GmbH",
+ "email": {
+  "from": "vertrieb@nordholz-wohnen.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-01",
+  "subject": "Neuheit WESER (Esszimmerstuhl) – Produktdatenblatt und Fotos",
+  "body": "Guten Tag,\n\nanbei das Produktdatenblatt für WESER (2 Farben) und die Fotos.\nAttached you will find the product data sheet and photos.\n\nMit freundlichen Grüßen\nJonas Weber\nNordholz Wohnen GmbH",
+  "attachments": [
+   "WESER_Produktdatenblatt.pdf",
+   "WESER-ANT-1.jpg",
+   "WESER-ANT-2.jpg",
+   "WESER-ANT-3.jpg",
+   "IMG_4604.JPG",
+   "WESER-SAN-1.jpg",
+   "WESER-SAN-2.jpg",
+   "WESER-SAN-3.jpg",
+   "WESER-SAN-4.jpg",
+   "WES09_label.png",
+   "WES09_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "WESER_Produktdatenblatt.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "WESER-ANT-1.jpg",
+   "kind": "photo",
+   "abo_path": "1f/1f8f4a61.jpg",
+   "sha256": "968d8ec202fb19c53bef75e6801071de5d085413d36d2a089ad7360ba0460965"
+  },
+  {
+   "file": "WESER-ANT-2.jpg",
+   "kind": "photo",
+   "abo_path": "79/797f33df.jpg",
+   "sha256": "1cea3b94077110b594c600c355ca26a95154758dcc3057543c844046e1dcb0fc"
+  },
+  {
+   "file": "WESER-ANT-3.jpg",
+   "kind": "photo",
+   "abo_path": "8a/8a76dbe5.jpg",
+   "sha256": "4c8f40b7c974ad99d0270ce31a55344ccfe38a9ea3a8e2ac9e6815b0344d3284"
+  },
+  {
+   "file": "IMG_4604.JPG",
+   "kind": "photo",
+   "abo_path": "56/56e00ad1.jpg",
+   "sha256": "823272857500a2718dac41550e4321b2764640c2bbb18b33510170fb5604c95e"
+  },
+  {
+   "file": "WESER-SAN-1.jpg",
+   "kind": "photo",
+   "abo_path": "0f/0fd70bd9.jpg",
+   "sha256": "5aa3f0c2e35b8c54ee27a16a0dd2d2cc6f1f2b3097464fff4b72310b8f8a58f4"
+  },
+  {
+   "file": "WESER-SAN-2.jpg",
+   "kind": "photo",
+   "abo_path": "d7/d7cd3426.jpg",
+   "sha256": "349d252c24a38562a6c798cd87f0aaa43248034a4b43f7ac96f1688f96e5090b"
+  },
+  {
+   "file": "WESER-SAN-3.jpg",
+   "kind": "photo",
+   "abo_path": "37/370f048f.jpg",
+   "sha256": "f80467fc9ab43bf700a398956fa9d73127ec86b1f38750d9b688e6bebcb06c68"
+  },
+  {
+   "file": "WESER-SAN-4.jpg",
+   "kind": "photo",
+   "abo_path": "67/672d1a61.jpg",
+   "sha256": "50fb8d44acb3738e7d0d0cff14afde9bba13b3784997c102b141733b51724cb9"
+  },
+  {
+   "file": "WES09_label.png",
+   "kind": "label",
+   "path": "WES09_label.png"
+  },
+  {
+   "file": "WES09_dimensions.png",
+   "kind": "drawing",
+   "path": "WES09_dimensions.png"
+  }
+ ]
+}

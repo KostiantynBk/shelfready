@@ -370,9 +370,9 @@ class LLMClient:
                 mock_schema=json_schema,
             )
 
-        result = await ask(messages, purpose)
+        first_result = await ask(messages, purpose)
         try:
-            return schema.model_validate(parse_json_object(result.content)), result
+            return schema.model_validate(parse_json_object(first_result.content)), first_result
         except ValueError as first:  # JSONDecodeError and ValidationError are ValueErrors
             feedback = (
                 f"That reply was not valid: {str(first)[:500]}\n"
@@ -380,13 +380,16 @@ class LLMClient:
             )
             retry = [
                 *messages,
-                {"role": "assistant", "content": result.content or ""},
+                {"role": "assistant", "content": first_result.content or ""},
                 {"role": "user", "content": feedback},
             ]
             result = await ask(retry, f"{purpose}:retry")
             try:
                 return schema.model_validate(parse_json_object(result.content)), result
             except ValueError as second:
+                # Don't keep failed answers: replaying them would repeat the failure on the next run
+                self._forget(first_result.key)
+                self._forget(result.key)
                 raise LLMOutputError(
                     f"{purpose}: reply does not match {schema.__name__} after one retry: {str(second)[:300]}",
                     result.content,
@@ -537,6 +540,10 @@ class LLMClient:
         tmp = path.with_suffix(".tmp")
         tmp.write_text(json.dumps(payload, indent=1, ensure_ascii=False), encoding="utf-8")
         tmp.replace(path)
+
+    def _forget(self, key: str) -> None:
+        if self.settings.llm_mode in ("live", "cached"):  # replay mode never changes the recordings
+            (self.settings.replay_dir / f"{key}.json").unlink(missing_ok=True)
 
     def _load(self, key: str) -> LLMResult | None:
         path = self.settings.replay_dir / f"{key}.json"

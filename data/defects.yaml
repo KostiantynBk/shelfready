@@ -1,0 +1,148 @@
+# Defect catalogue for the synthetic supplier set (design: hackathon-entry/defect_catalogue.md).
+# Photos are real (ABO) and never edited, so the photo is the truth; defects are planted in the
+# supplier documents that make_synthetic.py generates. ground_truth.json records every planted defect.
+#
+# needs: textile = fabric upholstery or a rug; variants2 = at least two colour variants;
+#        drawing = a dimension drawing is part of the submission; material = confirmed leg/base
+#        material in the photo; colours2 = two variants with different confirmed colour families.
+# min_count: how often the defect is planted across all products (LISBOA included).
+
+plan:
+  seed: 20261013
+  clean_products: {chair: 2, sofa: 1, lamp: 2, rug: 1}
+  max_defects_per_product: 4
+
+defects:
+  D1:
+    name: Key dimension missing (seat height); the drawing has it
+    attribute: seat_height
+    severity: review
+    return_risk: dimensions
+    applies_to: [chair, sofa]
+    needs: [drawing]
+    min_count: 3
+  D2:
+    name: Mixed units (mm among cm)
+    attribute: seat_depth
+    severity: info
+    return_risk: none
+    applies_to: [chair, sofa]
+    min_count: 3
+  D3:
+    name: Missing EAN for a variant
+    attribute: ean
+    scope: variant
+    severity: blocking
+    return_risk: none
+    applies_to: [chair, sofa, lamp, rug]
+    min_count: 3
+  D4:
+    name: Invalid EAN check digit
+    attribute: ean
+    scope: variant
+    severity: blocking
+    return_risk: none
+    applies_to: [chair, sofa, lamp, rug]
+    min_count: 3
+  D5:
+    name: Care instruction contradicts the care label
+    attribute: care
+    severity: review
+    return_risk: care
+    applies_to: [chair, sofa, rug]
+    needs: [textile]
+    min_count: 5
+  D6:
+    name: Material contradicts the photo
+    attribute: legs_or_base
+    severity: review
+    return_risk: material
+    applies_to: [chair, sofa, lamp]
+    needs: [material]
+    min_count: 5
+  D7:
+    name: Safety warnings only in the supplier's language
+    attribute: safety_warnings
+    severity: blocking
+    return_risk: none
+    applies_to: [chair, sofa, lamp, rug]
+    min_count: 3
+  D8:
+    name: Promo/text overlay on an image
+    attribute: photo
+    severity: info
+    return_risk: none
+    applies_to: [chair, sofa, lamp, rug]
+    min_count: 3
+  D9:
+    name: Low-resolution image
+    attribute: photo
+    severity: info
+    return_risk: none
+    applies_to: [chair, sofa, lamp, rug]
+    min_count: 3
+  D10:
+    name: Colour name contradicts the photo
+    attribute: colour
+    scope: variant
+    severity: review
+    return_risk: colour
+    applies_to: [chair, sofa, lamp, rug]
+    needs: [colours2]
+    min_count: 5
+  D11:
+    name: Dimension in the text contradicts the drawing
+    attribute: width
+    severity: review
+    return_risk: dimensions
+    applies_to: [chair, sofa]
+    needs: [drawing]
+    min_count: 5
+  D12:
+    name: Manufacturer address missing (GPSR a)
+    attribute: manufacturer_address
+    severity: blocking
+    return_risk: none
+    applies_to: [chair, sofa, lamp, rug]
+    excludes: [D13]
+    min_count: 3
+  D13:
+    name: Non-EU manufacturer without an EU responsible person (GPSR b)
+    attribute: eu_responsible_person
+    severity: blocking
+    return_risk: none
+    applies_to: [chair, sofa, lamp, rug]
+    excludes: [D12]
+    min_count: 3
+  D14:
+    name: Fibre composition missing on a textile product
+    attribute: upholstery
+    severity: blocking
+    return_risk: material
+    applies_to: [chair, sofa, rug]
+    needs: [textile]
+    min_count: 3
+  D15:
+    name: Health/safety/eco claim that needs human review
+    attribute: claims
+    severity: review
+    return_risk: none
+    applies_to: [chair, sofa, lamp, rug]
+    min_count: 3
+  D16:
+    name: Photo filed under a different variant than it shows
+    attribute: photo
+    scope: variant
+    severity: review
+    return_risk: colour
+    applies_to: [chair, sofa, lamp, rug]
+    needs: [colours2]
+    min_count: 3
+  D17:
+    name: Implausible value (likely a typo)
+    attribute: max_load
+    severity: review
+    return_risk: missing_info
+    applies_to: [chair, sofa, lamp, rug]
+    min_count: 3
+  # D18 (duplicate of an existing catalogue product) needs a catalogue with EANs; not planted in v1.

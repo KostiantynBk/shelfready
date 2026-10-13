@@ -1,0 +1,89 @@
+{
+ "product_id": "SYN-12",
+ "supplier": "Móveis Lusa, Lda.",
+ "email": {
+  "from": "comercial@moveislusa.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-04",
+  "subject": "Nova coleção AW26 – sofá SINTRA – ficha técnica + fotos",
+  "body": "Bom dia,\n\nSegue em anexo a ficha técnica do produto SINTRA (2 cores) e as fotos.\nHi team, please find attached the spec sheet for SINTRA and the photos.\n\nCumprimentos,\nRita Moreira\nMóveis Lusa, Lda.",
+  "attachments": [
+   "SIN12_ficha_tecnica_v2.pdf",
+   "SIN12_ANT_front.jpg",
+   "SIN12_ANT_34.jpg",
+   "SIN12_ANT_side.jpg",
+   "IMG_4571.JPG",
+   "SIN12_CAR_front.jpg",
+   "SIN12_CAR_34.jpg",
+   "SIN12_CAR_side.jpg",
+   "SIN12_CAR_detail.jpg",
+   "SIN12_label.png",
+   "SIN12_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "SIN12_ficha_tecnica_v2.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "SIN12_ANT_front.jpg",
+   "kind": "photo",
+   "abo_path": "af/afeddea4.jpg",
+   "sha256": "63dc25651c09c165f41de24c440af4fc0dbc9f1fc020615a1366ef60cc6f0ac8"
+  },
+  {
+   "file": "SIN12_ANT_34.jpg",
+   "kind": "photo",
+   "abo_path": "29/29a25538.jpg",
+   "sha256": "80157bf91fa1b0fe7ba68e64837c1f076b20f30d9c7f9fedde8b50d1330cbe57"
+  },
+  {
+   "file": "SIN12_ANT_side.jpg",
+   "kind": "photo",
+   "abo_path": "c4/c44152cd.jpg",
+   "sha256": "3d99d3373e6227b9d729a935d21d0e9bc6f1ed59518edb3a7c798f8208827e7d"
+  },
+  {
+   "file": "IMG_4571.JPG",
+   "kind": "photo",
+   "abo_path": "e0/e0f86316.jpg",
+   "sha256": "c58ef46f861728fee66f1e4eb01342c205133ffff40529623a0c27ac4c319175"
+  },
+  {
+   "file": "SIN12_CAR_front.jpg",
+   "kind": "photo",
+   "abo_path": "b6/b62f4e5b.jpg",
+   "sha256": "13fc18aca95d9e9046d0f7a77e6dd00812d08351465de7bce08a2eb5ddb8ec95"
+  },
+  {
+   "file": "SIN12_CAR_34.jpg",
+   "kind": "photo",
+   "abo_path": "d8/d81d76ef.jpg",
+   "sha256": "e7c1925f2f488ee7c1d8d771d7c3561d58abc7ecf2595f461d2a400b525077fc"
+  },
+  {
+   "file": "SIN12_CAR_side.jpg",
+   "kind": "photo",
+   "abo_path": "74/7459a802.jpg",
+   "sha256": "c248c53a4840d4d58acf44e55702f3166d1c2fb2905e89a3bd7b11eda76bfed3"
+  },
+  {
+   "file": "SIN12_CAR_detail.jpg",
+   "kind": "photo",
+   "abo_path": "99/99f84508.jpg",
+   "sha256": "c9cad8ee528e0ac0097232f2fb0e466cf246b71ac636315c34b66297a0ff8364"
+  },
+  {
+   "file": "SIN12_label.png",
+   "kind": "label",
+   "path": "SIN12_label.png"
+  },
+  {
+   "file": "SIN12_dimensions.png",
+   "kind": "drawing",
+   "path": "SIN12_dimensions.png"
+  }
+ ]
+}

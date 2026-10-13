@@ -1,0 +1,90 @@
+{
+ "product_id": "SYN-20",
+ "supplier": "Nordholz Wohnen GmbH",
+ "email": {
+  "from": "vertrieb@nordholz-wohnen.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-03",
+  "subject": "Neuheit LECH (Teppich) – Produktdatenblatt und Fotos",
+  "body": "Guten Tag,\n\nanbei das Produktdatenblatt für LECH (2 Farben) und die Fotos.\nAttached you will find the product data sheet and photos.\n\nMit freundlichen Grüßen\nJonas Weber\nNordholz Wohnen GmbH",
+  "attachments": [
+   "LECH_Produktdatenblatt.pdf",
+   "LECH-ANT-1.jpg",
+   "LECH-ANT-2.jpg",
+   "LECH-ANT-3.jpg",
+   "IMG_4390.JPG",
+   "LECH-SAN-1.jpg",
+   "LECH-SAN-2.jpg",
+   "LECH-SAN-3.jpg",
+   "LECH-SAN-4.jpg",
+   "LECH-ANT-5.jpg",
+   "LEC20_label.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "LECH_Produktdatenblatt.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "LECH-ANT-1.jpg",
+   "kind": "photo",
+   "abo_path": "6c/6c5253df.jpg",
+   "sha256": "18be132e9be044f8de9eb2c93ca647b2fb53564683b8e3293a6c3ef2f516793f"
+  },
+  {
+   "file": "LECH-ANT-2.jpg",
+   "kind": "photo",
+   "abo_path": "46/468b86b9.jpg",
+   "sha256": "5395012acfc4344f64d1f49e0cde3407b7839516a145ef1e21b4b49c495f9099"
+  },
+  {
+   "file": "LECH-ANT-3.jpg",
+   "kind": "photo",
+   "abo_path": "5e/5e6aa38e.jpg",
+   "sha256": "c74cf328590e18a66f2189b7d1954a9b842255b262a947aa035fe05e752eda27"
+  },
+  {
+   "file": "IMG_4390.JPG",
+   "kind": "photo",
+   "abo_path": "61/6195b466.jpg",
+   "sha256": "0a333d9abfa4e95cbe4e544c37d8e0f60e45ab87d9e1f36a78ee60c4b2db8c1c"
+  },
+  {
+   "file": "LECH-SAN-1.jpg",
+   "kind": "photo",
+   "abo_path": "b6/b6ee9326.jpg",
+   "sha256": "8d579f3956ccf98717c2c36e7cc1993b8e48eb11e25b50bfba5963d5305e31ba"
+  },
+  {
+   "file": "LECH-SAN-2.jpg",
+   "kind": "photo",
+   "abo_path": "e4/e4190fc5.jpg",
+   "sha256": "e0c862d00c314427aae62eb147bd6d81b4450211a193463362271387ac45caa5"
+  },
+  {
+   "file": "LECH-SAN-3.jpg",
+   "kind": "photo",
+   "abo_path": "36/36880c6f.jpg",
+   "sha256": "0a4b9524fee1e3b521679c444a4a08d2d2cc9def0d423b5653ae8ef2b4840a72"
+  },
+  {
+   "file": "LECH-SAN-4.jpg",
+   "kind": "photo",
+   "abo_path": "42/42d5e01b.jpg",
+   "sha256": "2164f20c0b3dec70c88d9350097aad0f714096b1921364ba4e2603be6f7f730a"
+  },
+  {
+   "file": "LECH-ANT-5.jpg",
+   "kind": "photo",
+   "abo_path": "e4/e4190fc5.jpg",
+   "sha256": "e0c862d00c314427aae62eb147bd6d81b4450211a193463362271387ac45caa5"
+  },
+  {
+   "file": "LEC20_label.png",
+   "kind": "label",
+   "path": "LEC20_label.png"
+  }
+ ]
+}

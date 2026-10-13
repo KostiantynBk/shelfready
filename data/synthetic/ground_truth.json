@@ -1,0 +1,3045 @@
+[
+ {
+  "product_id": "SYN-00",
+  "name": "LISBOA",
+  "code": "LIS-01",
+  "folder": "SYN-00-LISBOA",
+  "supplier": "Móveis Lusa, Lda.",
+  "category": "chair",
+  "family": "lisboa",
+  "abo_item_ids": [
+   "B07P7NVGB4",
+   "B07BWKFNF6",
+   "B07BW8PWGV"
+  ],
+  "truth": {
+   "dims": {
+    "width": 88,
+    "depth": 83,
+    "height": 90,
+    "seat_height": 47,
+    "seat_depth": 50
+   },
+   "weight_kg": 23.5,
+   "max_load_kg": 120,
+   "material": "wood",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "LIS-01-MUS",
+     "colour_family": "green",
+     "ean": "5601234000016"
+    },
+    {
+     "code": "LIS-01-ARE",
+     "colour_family": "beige",
+     "ean": "5601234000023"
+    },
+    {
+     "code": "LIS-01-ANT",
+     "colour_family": "grey",
+     "ean": "5601234000030"
+    }
+   ]
+  },
+  "files": {
+   "LIS01_MUS_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-MUS",
+    "abo_item_id": "B07P7NVGB4"
+   },
+   "LIS01_MUS_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-MUS",
+    "abo_item_id": "B07P7NVGB4"
+   },
+   "LIS01_MUS_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-MUS",
+    "abo_item_id": "B07P7NVGB4"
+   },
+   "LIS01_MUS_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-MUS",
+    "abo_item_id": "B07P7NVGB4"
+   },
+   "LIS01_MUS_back.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-MUS",
+    "abo_item_id": "B07P7NVGB4"
+   },
+   "LIS01_ARE_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ARE",
+    "abo_item_id": "B07BWKFNF6"
+   },
+   "LIS01_ARE_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ARE",
+    "abo_item_id": "B07BWKFNF6"
+   },
+   "LIS01_ARE_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ARE",
+    "abo_item_id": "B07BWKFNF6"
+   },
+   "LIS01_ARE_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ARE",
+    "abo_item_id": "B07BWKFNF6"
+   },
+   "LIS01_ARE_back.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ARE",
+    "abo_item_id": "B07BWKFNF6"
+   },
+   "LIS01_ANT_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ANT",
+    "abo_item_id": "B07BW8PWGV"
+   },
+   "LIS01_ANT_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ANT",
+    "abo_item_id": "B07BW8PWGV"
+   },
+   "LIS01_ANT_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ANT",
+    "abo_item_id": "B07BW8PWGV"
+   },
+   "LIS01_ANT_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ANT",
+    "abo_item_id": "B07BW8PWGV"
+   },
+   "LIS01_ANT_back.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ANT",
+    "abo_item_id": "B07BW8PWGV"
+   },
+   "LIS01_ANT_top.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ANT",
+    "abo_item_id": "B07BW8PWGV"
+   },
+   "IMG_4701.JPG": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-MUS",
+    "abo_item_id": "B07P7NVGB4"
+   },
+   "LIS01_promo.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-MUS",
+    "promo_overlay": true
+   },
+   "LIS01_ARE_back_small.jpg": {
+    "kind": "photo",
+    "shows_variant": "LIS-01-ARE",
+    "low_res": true
+   },
+   "LIS01_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "LIS01_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 88,
+     "depth": 83,
+     "height": 90,
+     "seat_height": 47,
+     "seat_depth": 50
+    }
+   },
+   "LIS01_ficha_tecnica_v2.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D1",
+    "variant": null,
+    "attribute": "seat_height",
+    "spec_value": null,
+    "true_value": 47,
+    "evidence": "LIS01_dimensions.png"
+   },
+   {
+    "id": "D2",
+    "variant": null,
+    "attribute": "seat_depth",
+    "spec_value": "500 mm",
+    "true_value": "50 cm"
+   },
+   {
+    "id": "D3",
+    "variant": "LIS-01-ANT",
+    "attribute": "ean",
+    "spec_value": null,
+    "true_value": "5601234000030"
+   },
+   {
+    "id": "D4",
+    "variant": "LIS-01-ARE",
+    "attribute": "ean",
+    "spec_value": "5601234000024",
+    "true_value": "5601234000023"
+   },
+   {
+    "id": "D5",
+    "variant": null,
+    "attribute": "care",
+    "spec_value": "dry clean only",
+    "true_value": "removable cover, washable at 30 °C",
+    "evidence": "LIS01_label.png"
+   },
+   {
+    "id": "D6",
+    "variant": "LIS-01-ANT",
+    "attribute": "legs_or_base",
+    "spec_value": "chrome-plated steel",
+    "true_value": "wood",
+    "evidence": "photo"
+   },
+   {
+    "id": "D7",
+    "variant": null,
+    "attribute": "safety_warnings",
+    "spec_value": "pt only",
+    "true_value": "all shop languages"
+   },
+   {
+    "id": "D8",
+    "variant": "LIS-01-MUS",
+    "attribute": "photo",
+    "file": "LIS01_promo.jpg"
+   },
+   {
+    "id": "D9",
+    "variant": "LIS-01-ARE",
+    "attribute": "photo",
+    "file": "LIS01_ARE_back_small.jpg"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-01",
+  "name": "PORTO",
+  "code": "POR-01",
+  "folder": "SYN-01-PORTO",
+  "supplier": "Móveis Lusa, Lda.",
+  "category": "chair",
+  "family": "rivet-chelsea-velvet-wing-back-accent-chair",
+  "abo_item_ids": [
+   "B0746H4BP6",
+   "B0746DPMTR"
+  ],
+  "truth": {
+   "dims": {
+    "width": 79,
+    "depth": 92,
+    "height": 95,
+    "seat_height": 46,
+    "seat_depth": 55
+   },
+   "weight_kg": 30.8,
+   "max_load_kg": 120,
+   "material": "wood",
+   "care": "dry_clean",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "POR-01-AZU",
+     "colour_family": "blue",
+     "ean": "5601234001013"
+    },
+    {
+     "code": "POR-01-ANT",
+     "colour_family": "grey",
+     "ean": "5601234001020"
+    }
+   ]
+  },
+  "files": {
+   "POR01_AZU_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "POR-01-AZU",
+    "abo_item_id": "B0746H4BP6"
+   },
+   "POR01_AZU_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "POR-01-AZU",
+    "abo_item_id": "B0746H4BP6"
+   },
+   "POR01_AZU_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "POR-01-AZU",
+    "abo_item_id": "B0746H4BP6"
+   },
+   "POR01_ANT_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "POR-01-ANT",
+    "abo_item_id": "B0746DPMTR"
+   },
+   "POR01_ANT_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "POR-01-ANT",
+    "abo_item_id": "B0746DPMTR"
+   },
+   "POR01_ANT_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "POR-01-ANT",
+    "abo_item_id": "B0746DPMTR"
+   },
+   "POR01_ANT_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "POR-01-ANT",
+    "abo_item_id": "B0746DPMTR"
+   },
+   "IMG_4834.JPG": {
+    "kind": "photo",
+    "shows_variant": "POR-01-AZU",
+    "abo_item_id": "B0746H4BP6"
+   },
+   "POR01_label.png": {
+    "kind": "care_label",
+    "care": "dry_clean",
+    "fibre": "polyester"
+   },
+   "POR01_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 79,
+     "depth": 92,
+     "height": 95,
+     "seat_height": 46,
+     "seat_depth": 55
+    }
+   },
+   "POR01_ficha_tecnica_v2.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D1",
+    "variant": null,
+    "attribute": "seat_height",
+    "spec_value": null,
+    "true_value": 46,
+    "evidence": "POR01_dimensions.png"
+   },
+   {
+    "id": "D5",
+    "variant": null,
+    "attribute": "care",
+    "spec_value": "removable cover, washable at 30 °C",
+    "true_value": "dry clean only",
+    "evidence": "POR01_label.png"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-02",
+  "name": "COMO",
+  "code": "COM-02",
+  "folder": "SYN-02-COMO",
+  "supplier": "Arredo Brianza S.r.l.",
+  "category": "chair",
+  "family": "stone-beam-clayton-reclining-contemporary-leather-living-roo",
+  "abo_item_ids": [
+   "B07HZ7HP3W",
+   "B07HZ9KB5B",
+   "B07HZ8J1WM"
+  ],
+  "truth": {
+   "dims": {
+    "width": 104,
+    "depth": 104,
+    "height": 81,
+    "seat_height": 44,
+    "seat_depth": 62
+   },
+   "weight_kg": 44.5,
+   "max_load_kg": 120,
+   "material": "wood",
+   "care": "wipe",
+   "fibre": null,
+   "variants": [
+    {
+     "code": "COM-02-COG",
+     "colour_family": "brown",
+     "ean": "8012345002016"
+    },
+    {
+     "code": "COM-02-SAB",
+     "colour_family": "beige",
+     "ean": "8012345002023"
+    },
+    {
+     "code": "COM-02-NER",
+     "colour_family": "black",
+     "ean": "8012345002030"
+    }
+   ]
+  },
+  "files": {
+   "COMO_COG_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-COG",
+    "abo_item_id": "B07HZ7HP3W"
+   },
+   "COMO_COG_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-COG",
+    "abo_item_id": "B07HZ7HP3W"
+   },
+   "COMO_COG_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-COG",
+    "abo_item_id": "B07HZ7HP3W"
+   },
+   "COMO_SAB_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-SAB",
+    "abo_item_id": "B07HZ9KB5B"
+   },
+   "COMO_SAB_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-SAB",
+    "abo_item_id": "B07HZ9KB5B"
+   },
+   "COMO_SAB_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-SAB",
+    "abo_item_id": "B07HZ9KB5B"
+   },
+   "COMO_SAB_04.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-SAB",
+    "abo_item_id": "B07HZ9KB5B"
+   },
+   "COMO_NER_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-NER",
+    "abo_item_id": "B07HZ8J1WM"
+   },
+   "COMO_NER_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-NER",
+    "abo_item_id": "B07HZ8J1WM"
+   },
+   "COMO_NER_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-NER",
+    "abo_item_id": "B07HZ8J1WM"
+   },
+   "COMO_NER_04.jpg": {
+    "kind": "photo",
+    "shows_variant": "COM-02-NER",
+    "abo_item_id": "B07HZ8J1WM"
+   },
+   "IMG_4930.JPG": {
+    "kind": "photo",
+    "shows_variant": "COM-02-COG",
+    "abo_item_id": "B07HZ7HP3W"
+   },
+   "COM02_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 104,
+     "depth": 104,
+     "height": 81,
+     "seat_height": 44,
+     "seat_depth": 62
+    }
+   },
+   "COMO_scheda_tecnica.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D3",
+    "variant": "COM-02-NER",
+    "attribute": "ean",
+    "spec_value": null,
+    "true_value": "8012345002030"
+   },
+   {
+    "id": "D6",
+    "variant": null,
+    "attribute": "legs_or_base",
+    "spec_value": "chrome-plated steel",
+    "true_value": "wood",
+    "evidence": "photo"
+   },
+   {
+    "id": "D13",
+    "variant": null,
+    "attribute": "eu_responsible_person",
+    "spec_value": null,
+    "true_value": "required (GPSR b)"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-03",
+  "name": "ELBE",
+  "code": "ELB-03",
+  "folder": "SYN-03-ELBE",
+  "supplier": "Nordholz Wohnen GmbH",
+  "category": "chair",
+  "family": "rivet-rione-modern-upholstered-swivel-chair-with-rounded-bac",
+  "abo_item_ids": [
+   "B0853NYVZ3",
+   "B0853NR959"
+  ],
+  "truth": {
+   "dims": {
+    "width": 78,
+    "depth": 77,
+    "height": 78,
+    "seat_height": 44,
+    "seat_depth": 46
+   },
+   "weight_kg": 20.0,
+   "max_load_kg": 120,
+   "material": "none_visible",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "ELB-03-ANT",
+     "colour_family": "grey",
+     "ean": "4012345003017"
+    },
+    {
+     "code": "ELB-03-SAN",
+     "colour_family": "beige",
+     "ean": "4012345003024"
+    }
+   ]
+  },
+  "files": {
+   "ELBE-ANT-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "ELB-03-ANT",
+    "abo_item_id": "B0853NYVZ3"
+   },
+   "ELBE-ANT-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "ELB-03-ANT",
+    "abo_item_id": "B0853NYVZ3"
+   },
+   "ELBE-ANT-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "ELB-03-ANT",
+    "abo_item_id": "B0853NYVZ3"
+   },
+   "ELBE-SAN-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "ELB-03-SAN",
+    "abo_item_id": "B0853NR959"
+   },
+   "ELBE-SAN-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "ELB-03-SAN",
+    "abo_item_id": "B0853NR959"
+   },
+   "ELBE-SAN-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "ELB-03-SAN",
+    "abo_item_id": "B0853NR959"
+   },
+   "ELBE-SAN-4.jpg": {
+    "kind": "photo",
+    "shows_variant": "ELB-03-SAN",
+    "abo_item_id": "B0853NR959"
+   },
+   "IMG_4226.JPG": {
+    "kind": "photo",
+    "shows_variant": "ELB-03-ANT",
+    "abo_item_id": "B0853NYVZ3"
+   },
+   "ELB03_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "ELB03_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 78,
+     "depth": 77,
+     "height": 78,
+     "seat_height": 44,
+     "seat_depth": 46
+    }
+   },
+   "ELBE_Produktdatenblatt.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [],
+  "clean": true,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-04",
+  "name": "BRAGA",
+  "code": "BRA-04",
+  "folder": "SYN-04-BRAGA",
+  "supplier": "Móveis Lusa, Lda.",
+  "category": "chair",
+  "family": "stone-beam-edmunds-traditional-recliner-30-w",
+  "abo_item_ids": [
+   "B07B4P1X7M",
+   "B07B4MN127",
+   "B07B4GQ964"
+  ],
+  "truth": {
+   "dims": {
+    "width": 112,
+    "depth": 84,
+    "height": 99,
+    "seat_height": 44,
+    "seat_depth": 50
+   },
+   "weight_kg": 39.9,
+   "max_load_kg": 120,
+   "material": "wood",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "BRA-04-ARE",
+     "colour_family": "beige",
+     "ean": "5601234004014"
+    },
+    {
+     "code": "BRA-04-BEG",
+     "colour_family": "beige",
+     "ean": "5601234004021"
+    },
+    {
+     "code": "BRA-04-ANT",
+     "colour_family": "grey",
+     "ean": "5601234004038"
+    }
+   ]
+  },
+  "files": {
+   "BRA04_ARE_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-ARE",
+    "abo_item_id": "B07B4P1X7M"
+   },
+   "BRA04_ARE_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-ARE",
+    "abo_item_id": "B07B4P1X7M"
+   },
+   "BRA04_ARE_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-ARE",
+    "abo_item_id": "B07B4P1X7M"
+   },
+   "BRA04_BEG_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-BEG",
+    "abo_item_id": "B07B4MN127"
+   },
+   "BRA04_BEG_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-BEG",
+    "abo_item_id": "B07B4MN127"
+   },
+   "BRA04_BEG_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-BEG",
+    "abo_item_id": "B07B4MN127"
+   },
+   "BRA04_BEG_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-BEG",
+    "abo_item_id": "B07B4MN127"
+   },
+   "BRA04_ANT_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-ANT",
+    "abo_item_id": "B07B4GQ964"
+   },
+   "BRA04_ANT_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-ANT",
+    "abo_item_id": "B07B4GQ964"
+   },
+   "BRA04_ANT_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-ANT",
+    "abo_item_id": "B07B4GQ964"
+   },
+   "BRA04_ANT_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-ANT",
+    "abo_item_id": "B07B4GQ964"
+   },
+   "IMG_4754.JPG": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-ARE",
+    "abo_item_id": "B07B4P1X7M"
+   },
+   "BRA04_ANT_back.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRA-04-ARE",
+    "abo_item_id": "B07B4P1X7M"
+   },
+   "BRA04_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "BRA04_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 112,
+     "depth": 84,
+     "height": 99,
+     "seat_height": 44,
+     "seat_depth": 50
+    }
+   },
+   "BRA04_ficha_tecnica_v2.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D6",
+    "variant": null,
+    "attribute": "legs_or_base",
+    "spec_value": "chrome-plated steel",
+    "true_value": "wood",
+    "evidence": "photo"
+   },
+   {
+    "id": "D16",
+    "variant": "BRA-04-ANT",
+    "attribute": "photo",
+    "true_value": "BRA-04-ARE",
+    "file": "BRA04_ANT_back.jpg"
+   },
+   {
+    "id": "D17",
+    "variant": null,
+    "attribute": "max_load",
+    "spec_value": 1200,
+    "true_value": 120
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-05",
+  "name": "LECCO",
+  "code": "LEC-05",
+  "folder": "SYN-05-LECCO",
+  "supplier": "Arredo Brianza S.r.l.",
+  "category": "chair",
+  "family": "ravenna-home-viewridge-upholstered-rocking-recliner-chair-42",
+  "abo_item_ids": [
+   "B085FJYFN8",
+   "B085FJR497"
+  ],
+  "truth": {
+   "dims": {
+    "width": 97,
+    "depth": 107,
+    "height": 112,
+    "seat_height": 45,
+    "seat_depth": 64
+   },
+   "weight_kg": 52.2,
+   "max_load_kg": 120,
+   "material": "none_visible",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "LEC-05-COG",
+     "colour_family": "brown",
+     "ean": "8012345005017"
+    },
+    {
+     "code": "LEC-05-ANT",
+     "colour_family": "grey",
+     "ean": "8012345005024"
+    }
+   ]
+  },
+  "files": {
+   "LECCO_COG_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-05-COG",
+    "abo_item_id": "B085FJYFN8"
+   },
+   "LECCO_COG_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-05-COG",
+    "abo_item_id": "B085FJYFN8"
+   },
+   "LECCO_COG_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-05-COG",
+    "abo_item_id": "B085FJYFN8"
+   },
+   "LECCO_ANT_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-05-ANT",
+    "abo_item_id": "B085FJR497"
+   },
+   "LECCO_ANT_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-05-ANT",
+    "abo_item_id": "B085FJR497"
+   },
+   "LECCO_ANT_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-05-ANT",
+    "abo_item_id": "B085FJR497"
+   },
+   "LECCO_ANT_04.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-05-ANT",
+    "abo_item_id": "B085FJR497"
+   },
+   "IMG_4579.JPG": {
+    "kind": "photo",
+    "shows_variant": "LEC-05-COG",
+    "abo_item_id": "B085FJYFN8"
+   },
+   "LEC05_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "LEC05_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 97,
+     "depth": 107,
+     "height": 112,
+     "seat_height": 45,
+     "seat_depth": 64
+    }
+   },
+   "LECCO_scheda_tecnica.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D10",
+    "variant": "LEC-05-ANT",
+    "attribute": "colour",
+    "spec_value": "Sabbia",
+    "true_value": "grey",
+    "evidence": "photo"
+   },
+   {
+    "id": "D11",
+    "variant": null,
+    "attribute": "width",
+    "spec_value": 87,
+    "true_value": 97,
+    "evidence": "LEC05_dimensions.png"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-06",
+  "name": "ISAR",
+  "code": "ISA-06",
+  "folder": "SYN-06-ISAR",
+  "supplier": "Nordholz Wohnen GmbH",
+  "category": "chair",
+  "family": "rivet-vermont-modern-diamond-stitched-upholstered-dining-cha",
+  "abo_item_ids": [
+   "B08568JW1B",
+   "B07HSJSH2Q"
+  ],
+  "truth": {
+   "dims": {
+    "width": 59,
+    "depth": 50,
+    "height": 89,
+    "seat_height": 45,
+    "seat_depth": 30
+   },
+   "weight_kg": 9.0,
+   "max_load_kg": 120,
+   "material": "metal",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "ISA-06-ANT",
+     "colour_family": "grey",
+     "ean": "4012345006018"
+    },
+    {
+     "code": "ISA-06-SAN",
+     "colour_family": "beige",
+     "ean": "4012345006025"
+    }
+   ]
+  },
+  "files": {
+   "ISAR-ANT-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "ISA-06-ANT",
+    "abo_item_id": "B08568JW1B"
+   },
+   "ISAR-ANT-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "ISA-06-ANT",
+    "abo_item_id": "B08568JW1B"
+   },
+   "ISAR-ANT-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "ISA-06-ANT",
+    "abo_item_id": "B08568JW1B"
+   },
+   "ISAR-SAN-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "ISA-06-SAN",
+    "abo_item_id": "B07HSJSH2Q"
+   },
+   "ISAR-SAN-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "ISA-06-SAN",
+    "abo_item_id": "B07HSJSH2Q"
+   },
+   "ISAR-SAN-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "ISA-06-SAN",
+    "abo_item_id": "B07HSJSH2Q"
+   },
+   "ISAR-SAN-4.jpg": {
+    "kind": "photo",
+    "shows_variant": "ISA-06-SAN",
+    "abo_item_id": "B07HSJSH2Q"
+   },
+   "IMG_4603.JPG": {
+    "kind": "photo",
+    "shows_variant": "ISA-06-ANT",
+    "abo_item_id": "B08568JW1B"
+   },
+   "ISA06_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "ISA06_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 59,
+     "depth": 50,
+     "height": 89,
+     "seat_height": 45,
+     "seat_depth": 30
+    }
+   },
+   "ISAR_Produktdatenblatt.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D2",
+    "variant": null,
+    "attribute": "seat_depth",
+    "spec_value": "300 mm",
+    "true_value": "30 cm"
+   },
+   {
+    "id": "D10",
+    "variant": "ISA-06-SAN",
+    "attribute": "colour",
+    "spec_value": "Anthrazit",
+    "true_value": "beige",
+    "evidence": "photo"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-07",
+  "name": "FARO",
+  "code": "FAR-07",
+  "folder": "SYN-07-FARO",
+  "supplier": "Móveis Lusa, Lda.",
+  "category": "chair",
+  "family": "ravenna-home-ryleigh-rounded-mid-century-barrel-accent-chair",
+  "abo_item_ids": [
+   "B07DBHCKJ5",
+   "B07DBGWFGY",
+   "B07DBJJ6Y6"
+  ],
+  "truth": {
+   "dims": {
+    "width": 70,
+    "depth": 71,
+    "height": 83,
+    "seat_height": 45,
+    "seat_depth": 43
+   },
+   "weight_kg": 13.5,
+   "max_load_kg": 120,
+   "material": "wood",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "FAR-07-ANT",
+     "colour_family": "grey",
+     "ean": "5601234007015"
+    },
+    {
+     "code": "FAR-07-AZU",
+     "colour_family": "blue",
+     "ean": "5601234007022"
+    },
+    {
+     "code": "FAR-07-CIN",
+     "colour_family": "grey",
+     "ean": "5601234007039"
+    }
+   ]
+  },
+  "files": {
+   "FAR07_ANT_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-ANT",
+    "abo_item_id": "B07DBHCKJ5"
+   },
+   "FAR07_ANT_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-ANT",
+    "abo_item_id": "B07DBHCKJ5"
+   },
+   "FAR07_ANT_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-ANT",
+    "abo_item_id": "B07DBHCKJ5"
+   },
+   "FAR07_AZU_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-AZU",
+    "abo_item_id": "B07DBGWFGY"
+   },
+   "FAR07_AZU_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-AZU",
+    "abo_item_id": "B07DBGWFGY"
+   },
+   "FAR07_AZU_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-AZU",
+    "abo_item_id": "B07DBGWFGY"
+   },
+   "FAR07_AZU_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-AZU",
+    "abo_item_id": "B07DBGWFGY"
+   },
+   "FAR07_CIN_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-CIN",
+    "abo_item_id": "B07DBJJ6Y6"
+   },
+   "FAR07_CIN_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-CIN",
+    "abo_item_id": "B07DBJJ6Y6"
+   },
+   "FAR07_CIN_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-CIN",
+    "abo_item_id": "B07DBJJ6Y6"
+   },
+   "FAR07_CIN_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-CIN",
+    "abo_item_id": "B07DBJJ6Y6"
+   },
+   "IMG_4893.JPG": {
+    "kind": "photo",
+    "shows_variant": "FAR-07-ANT",
+    "abo_item_id": "B07DBHCKJ5"
+   },
+   "FAR07_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "FAR07_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 70,
+     "depth": 71,
+     "height": 83,
+     "seat_height": 45,
+     "seat_depth": 43
+    }
+   },
+   "FAR07_ficha_tecnica_v2.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [],
+  "clean": true,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-08",
+  "name": "BRERA",
+  "code": "BRE-08",
+  "folder": "SYN-08-BRERA",
+  "supplier": "Arredo Brianza S.r.l.",
+  "category": "chair",
+  "family": "stone-beam-lauren-down-filled-oversized-living-room-accent-a",
+  "abo_item_ids": [
+   "B07P6JWD3W",
+   "B07P5LMCZ3",
+   "B072JG3WN7"
+  ],
+  "truth": {
+   "dims": {
+    "width": 114,
+    "depth": 117,
+    "height": 95,
+    "seat_height": 47,
+    "seat_depth": 70
+   },
+   "weight_kg": 38.4,
+   "max_load_kg": 120,
+   "material": "none_visible",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "BRE-08-ANT",
+     "colour_family": "grey",
+     "ean": "8012345008018"
+    },
+    {
+     "code": "BRE-08-COG",
+     "colour_family": "brown",
+     "ean": "8012345008025"
+    },
+    {
+     "code": "BRE-08-SAB",
+     "colour_family": "beige",
+     "ean": "8012345008032"
+    }
+   ]
+  },
+  "files": {
+   "BRERA_ANT_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-ANT",
+    "abo_item_id": "B07P6JWD3W"
+   },
+   "BRERA_ANT_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-ANT",
+    "abo_item_id": "B07P6JWD3W"
+   },
+   "BRERA_ANT_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-ANT",
+    "abo_item_id": "B07P6JWD3W"
+   },
+   "BRERA_COG_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-COG",
+    "abo_item_id": "B07P5LMCZ3"
+   },
+   "BRERA_COG_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-COG",
+    "abo_item_id": "B07P5LMCZ3"
+   },
+   "BRERA_COG_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-COG",
+    "abo_item_id": "B07P5LMCZ3"
+   },
+   "BRERA_COG_04.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-COG",
+    "abo_item_id": "B07P5LMCZ3"
+   },
+   "BRERA_SAB_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-SAB",
+    "abo_item_id": "B072JG3WN7"
+   },
+   "BRERA_SAB_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-SAB",
+    "abo_item_id": "B072JG3WN7"
+   },
+   "BRERA_SAB_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-SAB",
+    "abo_item_id": "B072JG3WN7"
+   },
+   "BRERA_SAB_04.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-SAB",
+    "abo_item_id": "B072JG3WN7"
+   },
+   "IMG_4200.JPG": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-ANT",
+    "abo_item_id": "B07P6JWD3W"
+   },
+   "BRE08_promo.jpg": {
+    "kind": "photo",
+    "shows_variant": "BRE-08-ANT",
+    "promo_overlay": true
+   },
+   "BRE08_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "BRE08_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 114,
+     "depth": 117,
+     "height": 95,
+     "seat_height": 47,
+     "seat_depth": 70
+    }
+   },
+   "BRERA_scheda_tecnica.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D5",
+    "variant": null,
+    "attribute": "care",
+    "spec_value": "dry clean only",
+    "true_value": "removable cover, washable at 30 °C",
+    "evidence": "BRE08_label.png"
+   },
+   {
+    "id": "D8",
+    "variant": "BRE-08-ANT",
+    "attribute": "photo",
+    "file": "BRE08_promo.jpg"
+   },
+   {
+    "id": "D11",
+    "variant": null,
+    "attribute": "width",
+    "spec_value": 122,
+    "true_value": 114,
+    "evidence": "BRE08_dimensions.png"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-09",
+  "name": "WESER",
+  "code": "WES-09",
+  "folder": "SYN-09-WESER",
+  "supplier": "Nordholz Wohnen GmbH",
+  "category": "chair",
+  "family": "ravenna-home-traditional-dining-chair-36-inch-height",
+  "abo_item_ids": [
+   "B07MSWQR39",
+   "B07MCBK6XT"
+  ],
+  "truth": {
+   "dims": {
+    "width": 66,
+    "depth": 55,
+    "height": 91,
+    "seat_height": 44,
+    "seat_depth": 33
+   },
+   "weight_kg": 10.0,
+   "max_load_kg": 120,
+   "material": "wood",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "WES-09-ANT",
+     "colour_family": "grey",
+     "ean": "4012345009019"
+    },
+    {
+     "code": "WES-09-SAN",
+     "colour_family": "beige",
+     "ean": "4012345009026"
+    }
+   ]
+  },
+  "files": {
+   "WESER-ANT-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "WES-09-ANT",
+    "abo_item_id": "B07MSWQR39"
+   },
+   "WESER-ANT-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "WES-09-ANT",
+    "abo_item_id": "B07MSWQR39"
+   },
+   "WESER-ANT-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "WES-09-ANT",
+    "abo_item_id": "B07MSWQR39"
+   },
+   "WESER-SAN-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "WES-09-SAN",
+    "abo_item_id": "B07MCBK6XT"
+   },
+   "WESER-SAN-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "WES-09-SAN",
+    "abo_item_id": "B07MCBK6XT"
+   },
+   "WESER-SAN-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "WES-09-SAN",
+    "abo_item_id": "B07MCBK6XT"
+   },
+   "WESER-SAN-4.jpg": {
+    "kind": "photo",
+    "shows_variant": "WES-09-SAN",
+    "abo_item_id": "B07MCBK6XT"
+   },
+   "IMG_4604.JPG": {
+    "kind": "photo",
+    "shows_variant": "WES-09-ANT",
+    "abo_item_id": "B07MSWQR39"
+   },
+   "WES09_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "WES09_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 66,
+     "depth": 55,
+     "height": 91,
+     "seat_height": 44,
+     "seat_depth": 33
+    }
+   },
+   "WESER_Produktdatenblatt.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D7",
+    "variant": null,
+    "attribute": "safety_warnings",
+    "spec_value": "de only",
+    "true_value": "all shop languages"
+   },
+   {
+    "id": "D11",
+    "variant": null,
+    "attribute": "width",
+    "spec_value": 78,
+    "true_value": 66,
+    "evidence": "WES09_dimensions.png"
+   },
+   {
+    "id": "D12",
+    "variant": null,
+    "attribute": "manufacturer_address",
+    "spec_value": null,
+    "true_value": "required (GPSR a)"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-10",
+  "name": "ÉVORA",
+  "code": "EVO-10",
+  "folder": "SYN-10-EVORA",
+  "supplier": "Móveis Lusa, Lda.",
+  "category": "chair",
+  "family": "rivet-sheena-glam-tufted-velvet-shell-chair-23-5-w",
+  "abo_item_ids": [
+   "B082PCLKMB",
+   "B082PCMFY3"
+  ],
+  "truth": {
+   "dims": {
+    "width": 66,
+    "depth": 60,
+    "height": 82,
+    "seat_height": 45,
+    "seat_depth": 36
+   },
+   "weight_kg": 10.4,
+   "max_load_kg": 120,
+   "material": "metal",
+   "care": "dry_clean",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "EVO-10-ROS",
+     "colour_family": "pink",
+     "ean": "5601234010015"
+    },
+    {
+     "code": "EVO-10-MUS",
+     "colour_family": "green",
+     "ean": "5601234010022"
+    }
+   ]
+  },
+  "files": {
+   "EVO10_ROS_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "EVO-10-ROS",
+    "abo_item_id": "B082PCLKMB"
+   },
+   "EVO10_ROS_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "EVO-10-ROS",
+    "abo_item_id": "B082PCLKMB"
+   },
+   "EVO10_ROS_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "EVO-10-ROS",
+    "abo_item_id": "B082PCLKMB"
+   },
+   "EVO10_MUS_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "EVO-10-MUS",
+    "abo_item_id": "B082PCMFY3"
+   },
+   "EVO10_MUS_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "EVO-10-MUS",
+    "abo_item_id": "B082PCMFY3"
+   },
+   "EVO10_MUS_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "EVO-10-MUS",
+    "abo_item_id": "B082PCMFY3"
+   },
+   "EVO10_MUS_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "EVO-10-MUS",
+    "abo_item_id": "B082PCMFY3"
+   },
+   "IMG_4234.JPG": {
+    "kind": "photo",
+    "shows_variant": "EVO-10-ROS",
+    "abo_item_id": "B082PCLKMB"
+   },
+   "EVO10_label.png": {
+    "kind": "care_label",
+    "care": "dry_clean",
+    "fibre": "polyester"
+   },
+   "EVO10_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 66,
+     "depth": 60,
+     "height": 82,
+     "seat_height": 45,
+     "seat_depth": 36
+    }
+   },
+   "EVO10_ficha_tecnica_v2.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D7",
+    "variant": null,
+    "attribute": "safety_warnings",
+    "spec_value": "pt only",
+    "true_value": "all shop languages"
+   },
+   {
+    "id": "D10",
+    "variant": "EVO-10-ROS",
+    "attribute": "colour",
+    "spec_value": "Azul",
+    "true_value": "pink",
+    "evidence": "photo"
+   },
+   {
+    "id": "D11",
+    "variant": null,
+    "attribute": "width",
+    "spec_value": 56,
+    "true_value": 66,
+    "evidence": "EVO10_dimensions.png"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-11",
+  "name": "LUCCA",
+  "code": "LUC-11",
+  "folder": "SYN-11-LUCCA",
+  "supplier": "Arredo Brianza S.r.l.",
+  "category": "sofa",
+  "family": "stone-beam-westview-extra-deep-down-filled-sofa-couch-89-w",
+  "abo_item_ids": [
+   "B082VL45Z5",
+   "B082VLYF5W"
+  ],
+  "truth": {
+   "dims": {
+    "width": 226,
+    "depth": 107,
+    "height": 80,
+    "seat_height": 44,
+    "seat_depth": 64
+   },
+   "weight_kg": 61.8,
+   "max_load_kg": 330,
+   "material": "none_visible",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "LUC-11-ANT",
+     "colour_family": "grey",
+     "ean": "8012345011018"
+    },
+    {
+     "code": "LUC-11-SAB",
+     "colour_family": "beige",
+     "ean": "8012345011025"
+    }
+   ]
+  },
+  "files": {
+   "LUCCA_ANT_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "LUC-11-ANT",
+    "abo_item_id": "B082VL45Z5"
+   },
+   "LUCCA_ANT_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "LUC-11-ANT",
+    "abo_item_id": "B082VL45Z5"
+   },
+   "LUCCA_ANT_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "LUC-11-ANT",
+    "abo_item_id": "B082VL45Z5"
+   },
+   "LUCCA_SAB_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "LUC-11-SAB",
+    "abo_item_id": "B082VLYF5W"
+   },
+   "LUCCA_SAB_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "LUC-11-SAB",
+    "abo_item_id": "B082VLYF5W"
+   },
+   "LUCCA_SAB_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "LUC-11-SAB",
+    "abo_item_id": "B082VLYF5W"
+   },
+   "LUCCA_SAB_04.jpg": {
+    "kind": "photo",
+    "shows_variant": "LUC-11-SAB",
+    "abo_item_id": "B082VLYF5W"
+   },
+   "IMG_4127.JPG": {
+    "kind": "photo",
+    "shows_variant": "LUC-11-ANT",
+    "abo_item_id": "B082VL45Z5"
+   },
+   "LUC11_SAB_back_small.jpg": {
+    "kind": "photo",
+    "shows_variant": "LUC-11-SAB",
+    "low_res": true
+   },
+   "LUC11_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "LUC11_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 226,
+     "depth": 107,
+     "height": 80,
+     "seat_height": 44,
+     "seat_depth": 64
+    }
+   },
+   "LUCCA_scheda_tecnica.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D9",
+    "variant": "LUC-11-SAB",
+    "attribute": "photo",
+    "file": "LUC11_SAB_back_small.jpg"
+   },
+   {
+    "id": "D11",
+    "variant": null,
+    "attribute": "width",
+    "spec_value": 214,
+    "true_value": 226,
+    "evidence": "LUC11_dimensions.png"
+   },
+   {
+    "id": "D13",
+    "variant": null,
+    "attribute": "eu_responsible_person",
+    "spec_value": null,
+    "true_value": "required (GPSR b)"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-12",
+  "name": "SINTRA",
+  "code": "SIN-12",
+  "folder": "SYN-12-SINTRA",
+  "supplier": "Móveis Lusa, Lda.",
+  "category": "sofa",
+  "family": "rivet-cove-mid-century-modern-tufted-sofa-with-tapered-legs-",
+  "abo_item_ids": [
+   "B072FVHRZ5",
+   "B07PC1PDXG"
+  ],
+  "truth": {
+   "dims": {
+    "width": 182,
+    "depth": 86,
+    "height": 90,
+    "seat_height": 45,
+    "seat_depth": 52
+   },
+   "weight_kg": 39.7,
+   "max_load_kg": 220,
+   "material": "wood",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "SIN-12-ANT",
+     "colour_family": "grey",
+     "ean": "5601234012019"
+    },
+    {
+     "code": "SIN-12-CAR",
+     "colour_family": "brown",
+     "ean": "5601234012026"
+    }
+   ]
+  },
+  "files": {
+   "SIN12_ANT_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIN-12-ANT",
+    "abo_item_id": "B072FVHRZ5"
+   },
+   "SIN12_ANT_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIN-12-ANT",
+    "abo_item_id": "B072FVHRZ5"
+   },
+   "SIN12_ANT_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIN-12-ANT",
+    "abo_item_id": "B072FVHRZ5"
+   },
+   "SIN12_CAR_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIN-12-CAR",
+    "abo_item_id": "B07PC1PDXG"
+   },
+   "SIN12_CAR_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIN-12-CAR",
+    "abo_item_id": "B07PC1PDXG"
+   },
+   "SIN12_CAR_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIN-12-CAR",
+    "abo_item_id": "B07PC1PDXG"
+   },
+   "SIN12_CAR_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIN-12-CAR",
+    "abo_item_id": "B07PC1PDXG"
+   },
+   "IMG_4571.JPG": {
+    "kind": "photo",
+    "shows_variant": "SIN-12-ANT",
+    "abo_item_id": "B072FVHRZ5"
+   },
+   "SIN12_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "SIN12_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 182,
+     "depth": 86,
+     "height": 90,
+     "seat_height": 45,
+     "seat_depth": 52
+    }
+   },
+   "SIN12_ficha_tecnica_v2.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [],
+  "clean": true,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-13",
+  "name": "SIENA",
+  "code": "SIE-13",
+  "folder": "SYN-13-SIENA",
+  "supplier": "Arredo Brianza S.r.l.",
+  "category": "sofa",
+  "family": "rivet-edgewest-low-back-contemporary-modern-l-sectional-sofa",
+  "abo_item_ids": [
+   "B07B4M2B7N"
+  ],
+  "truth": {
+   "dims": {
+    "width": 224,
+    "depth": 71,
+    "height": 91,
+    "seat_height": 44,
+    "seat_depth": 43
+   },
+   "weight_kg": 54.0,
+   "max_load_kg": 330,
+   "material": "none_visible",
+   "care": "wash30",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "SIE-13-BLU",
+     "colour_family": "blue",
+     "ean": "8012345013012"
+    }
+   ]
+  },
+  "files": {
+   "SIENA_BLU_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIE-13-BLU",
+    "abo_item_id": "B07B4M2B7N"
+   },
+   "SIENA_BLU_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIE-13-BLU",
+    "abo_item_id": "B07B4M2B7N"
+   },
+   "SIENA_BLU_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "SIE-13-BLU",
+    "abo_item_id": "B07B4M2B7N"
+   },
+   "IMG_4287.JPG": {
+    "kind": "photo",
+    "shows_variant": "SIE-13-BLU",
+    "abo_item_id": "B07B4M2B7N"
+   },
+   "SIE13_label.png": {
+    "kind": "care_label",
+    "care": "wash30",
+    "fibre": "polyester"
+   },
+   "SIE13_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 224,
+     "depth": 71,
+     "height": 91,
+     "seat_height": 44,
+     "seat_depth": 43
+    }
+   },
+   "SIENA_scheda_tecnica.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D2",
+    "variant": null,
+    "attribute": "seat_depth",
+    "spec_value": "430 mm",
+    "true_value": "43 cm"
+   },
+   {
+    "id": "D3",
+    "variant": "SIE-13-BLU",
+    "attribute": "ean",
+    "spec_value": null,
+    "true_value": "8012345013012"
+   },
+   {
+    "id": "D12",
+    "variant": null,
+    "attribute": "manufacturer_address",
+    "spec_value": null,
+    "true_value": "required (GPSR a)"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-14",
+  "name": "AVEIRO",
+  "code": "AVE-14",
+  "folder": "SYN-14-AVEIRO",
+  "supplier": "Móveis Lusa, Lda.",
+  "category": "sofa",
+  "family": "ravenna-home-westcott-tufted-loveseat-sofa-couch-60-w",
+  "abo_item_ids": [
+   "B07MJL66B8",
+   "B07MJL5SZK",
+   "B07MCCNR27"
+  ],
+  "truth": {
+   "dims": {
+    "width": 152,
+    "depth": 78,
+    "height": 78,
+    "seat_height": 45,
+    "seat_depth": 47
+   },
+   "weight_kg": 30.4,
+   "max_load_kg": 220,
+   "material": "wood",
+   "care": "dry_clean",
+   "fibre": "polyester",
+   "variants": [
+    {
+     "code": "AVE-14-ANT",
+     "colour_family": "grey",
+     "ean": "5601234014013"
+    },
+    {
+     "code": "AVE-14-ARE",
+     "colour_family": "beige",
+     "ean": "5601234014020"
+    },
+    {
+     "code": "AVE-14-CIN",
+     "colour_family": "grey",
+     "ean": "5601234014037"
+    }
+   ]
+  },
+  "files": {
+   "AVE14_ANT_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-ANT",
+    "abo_item_id": "B07MJL66B8"
+   },
+   "AVE14_ANT_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-ANT",
+    "abo_item_id": "B07MJL66B8"
+   },
+   "AVE14_ANT_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-ANT",
+    "abo_item_id": "B07MJL66B8"
+   },
+   "AVE14_ARE_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-ARE",
+    "abo_item_id": "B07MJL5SZK"
+   },
+   "AVE14_ARE_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-ARE",
+    "abo_item_id": "B07MJL5SZK"
+   },
+   "AVE14_ARE_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-ARE",
+    "abo_item_id": "B07MJL5SZK"
+   },
+   "AVE14_ARE_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-ARE",
+    "abo_item_id": "B07MJL5SZK"
+   },
+   "AVE14_CIN_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-CIN",
+    "abo_item_id": "B07MCCNR27"
+   },
+   "AVE14_CIN_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-CIN",
+    "abo_item_id": "B07MCCNR27"
+   },
+   "AVE14_CIN_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-CIN",
+    "abo_item_id": "B07MCCNR27"
+   },
+   "AVE14_CIN_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-CIN",
+    "abo_item_id": "B07MCCNR27"
+   },
+   "IMG_4558.JPG": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-ANT",
+    "abo_item_id": "B07MJL66B8"
+   },
+   "AVE14_promo.jpg": {
+    "kind": "photo",
+    "shows_variant": "AVE-14-ANT",
+    "promo_overlay": true
+   },
+   "AVE14_label.png": {
+    "kind": "care_label",
+    "care": "dry_clean",
+    "fibre": "polyester"
+   },
+   "AVE14_dimensions.png": {
+    "kind": "dimension_drawing",
+    "dims": {
+     "width": 152,
+     "depth": 78,
+     "height": 78,
+     "seat_height": 45,
+     "seat_depth": 47
+    }
+   },
+   "AVE14_ficha_tecnica_v2.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D1",
+    "variant": null,
+    "attribute": "seat_height",
+    "spec_value": null,
+    "true_value": 45,
+    "evidence": "AVE14_dimensions.png"
+   },
+   {
+    "id": "D8",
+    "variant": "AVE-14-ANT",
+    "attribute": "photo",
+    "file": "AVE14_promo.jpg"
+   },
+   {
+    "id": "D15",
+    "variant": null,
+    "attribute": "claims",
+    "spec_value": "fireproof foam",
+    "true_value": "needs human review"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-15",
+  "name": "MOSEL",
+  "code": "MOS-15",
+  "folder": "SYN-15-MOSEL",
+  "supplier": "Nordholz Wohnen GmbH",
+  "category": "lamp",
+  "family": "ravenna-home-metal-adjustable-living-room-standing-pharmacy-",
+  "abo_item_ids": [
+   "B07DBDY58B",
+   "B07DBCG1QY"
+  ],
+  "truth": {
+   "dims": {
+    "height": 56,
+    "diameter": 39
+   },
+   "weight_kg": 6.3,
+   "max_load_kg": null,
+   "material": "metal",
+   "care": "lamp",
+   "fibre": null,
+   "variants": [
+    {
+     "code": "MOS-15-SCH",
+     "colour_family": "black",
+     "ean": "4012345015010"
+    },
+    {
+     "code": "MOS-15-SIL",
+     "colour_family": "silver",
+     "ean": "4012345015027"
+    }
+   ]
+  },
+  "files": {
+   "MOSEL-SCH-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "MOS-15-SCH",
+    "abo_item_id": "B07DBDY58B"
+   },
+   "MOSEL-SCH-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "MOS-15-SCH",
+    "abo_item_id": "B07DBDY58B"
+   },
+   "MOSEL-SCH-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "MOS-15-SCH",
+    "abo_item_id": "B07DBDY58B"
+   },
+   "MOSEL-SIL-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "MOS-15-SIL",
+    "abo_item_id": "B07DBCG1QY"
+   },
+   "MOSEL-SIL-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "MOS-15-SIL",
+    "abo_item_id": "B07DBCG1QY"
+   },
+   "MOSEL-SIL-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "MOS-15-SIL",
+    "abo_item_id": "B07DBCG1QY"
+   },
+   "MOSEL-SIL-4.jpg": {
+    "kind": "photo",
+    "shows_variant": "MOS-15-SIL",
+    "abo_item_id": "B07DBCG1QY"
+   },
+   "IMG_4241.JPG": {
+    "kind": "photo",
+    "shows_variant": "MOS-15-SCH",
+    "abo_item_id": "B07DBDY58B"
+   },
+   "MOSEL_Produktdatenblatt.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [],
+  "clean": true,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-16",
+  "name": "ASOLO",
+  "code": "ASO-16",
+  "folder": "SYN-16-ASOLO",
+  "supplier": "Arredo Brianza S.r.l.",
+  "category": "lamp",
+  "family": "ravenna-home-table-lamp-with-a-drum-shade-bulb-included-19-7",
+  "abo_item_ids": [
+   "B07MF1RQV5"
+  ],
+  "truth": {
+   "dims": {
+    "height": 39,
+    "diameter": 25
+   },
+   "weight_kg": 2.8,
+   "max_load_kg": null,
+   "material": "ceramic",
+   "care": "lamp",
+   "fibre": null,
+   "variants": [
+    {
+     "code": "ASO-16-BIA",
+     "colour_family": "white",
+     "ean": "8012345016013"
+    }
+   ]
+  },
+  "files": {
+   "ASOLO_BIA_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "ASO-16-BIA",
+    "abo_item_id": "B07MF1RQV5"
+   },
+   "ASOLO_BIA_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "ASO-16-BIA",
+    "abo_item_id": "B07MF1RQV5"
+   },
+   "ASOLO_BIA_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "ASO-16-BIA",
+    "abo_item_id": "B07MF1RQV5"
+   },
+   "IMG_4836.JPG": {
+    "kind": "photo",
+    "shows_variant": "ASO-16-BIA",
+    "abo_item_id": "B07MF1RQV5"
+   },
+   "ASO16_BIA_back_small.jpg": {
+    "kind": "photo",
+    "shows_variant": "ASO-16-BIA",
+    "low_res": true
+   },
+   "ASOLO_scheda_tecnica.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D9",
+    "variant": "ASO-16-BIA",
+    "attribute": "photo",
+    "file": "ASO16_BIA_back_small.jpg"
+   },
+   {
+    "id": "D12",
+    "variant": null,
+    "attribute": "manufacturer_address",
+    "spec_value": null,
+    "true_value": "required (GPSR a)"
+   },
+   {
+    "id": "D15",
+    "variant": null,
+    "attribute": "claims",
+    "spec_value": "hypoallergenic, non-toxic materials",
+    "true_value": "needs human review"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-17",
+  "name": "LAHN",
+  "code": "LAH-17",
+  "folder": "SYN-17-LAHN",
+  "supplier": "Nordholz Wohnen GmbH",
+  "category": "lamp",
+  "family": "ravenna-home-glass-table-lamp-bulb-included-15-5-h",
+  "abo_item_ids": [
+   "B07MF1S1YS"
+  ],
+  "truth": {
+   "dims": {
+    "height": 33,
+    "diameter": 22
+   },
+   "weight_kg": 2.8,
+   "max_load_kg": null,
+   "material": "glass",
+   "care": "lamp",
+   "fibre": null,
+   "variants": [
+    {
+     "code": "LAH-17-BLA",
+     "colour_family": "blue",
+     "ean": "4012345017014"
+    }
+   ]
+  },
+  "files": {
+   "LAHN-BLA-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "LAH-17-BLA",
+    "abo_item_id": "B07MF1S1YS"
+   },
+   "LAHN-BLA-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "LAH-17-BLA",
+    "abo_item_id": "B07MF1S1YS"
+   },
+   "LAHN-BLA-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "LAH-17-BLA",
+    "abo_item_id": "B07MF1S1YS"
+   },
+   "IMG_4328.JPG": {
+    "kind": "photo",
+    "shows_variant": "LAH-17-BLA",
+    "abo_item_id": "B07MF1S1YS"
+   },
+   "LAHN_Produktdatenblatt.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D4",
+    "variant": "LAH-17-BLA",
+    "attribute": "ean",
+    "spec_value": "4012345017015",
+    "true_value": "4012345017014"
+   },
+   {
+    "id": "D6",
+    "variant": null,
+    "attribute": "legs_or_base",
+    "spec_value": "powder-coated steel",
+    "true_value": "glass",
+    "evidence": "photo"
+   },
+   {
+    "id": "D13",
+    "variant": null,
+    "attribute": "eu_responsible_person",
+    "spec_value": null,
+    "true_value": "required (GPSR b)"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-18",
+  "name": "ORTA",
+  "code": "ORT-18",
+  "folder": "SYN-18-ORTA",
+  "supplier": "Arredo Brianza S.r.l.",
+  "category": "lamp",
+  "family": "ravenna-home-chevron-patterned-table-lamp-bulb-included-15-h",
+  "abo_item_ids": [
+   "B07MF1SVNL",
+   "B07M6PHS6W"
+  ],
+  "truth": {
+   "dims": {
+    "height": 34,
+    "diameter": 22
+   },
+   "weight_kg": 2.8,
+   "max_load_kg": null,
+   "material": "ceramic",
+   "care": "lamp",
+   "fibre": null,
+   "variants": [
+    {
+     "code": "ORT-18-BLU",
+     "colour_family": "blue",
+     "ean": "8012345018017"
+    },
+    {
+     "code": "ORT-18-BIA",
+     "colour_family": "white",
+     "ean": "8012345018024"
+    }
+   ]
+  },
+  "files": {
+   "ORTA_BLU_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "ORT-18-BLU",
+    "abo_item_id": "B07MF1SVNL"
+   },
+   "ORTA_BLU_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "ORT-18-BLU",
+    "abo_item_id": "B07MF1SVNL"
+   },
+   "ORTA_BLU_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "ORT-18-BLU",
+    "abo_item_id": "B07MF1SVNL"
+   },
+   "ORTA_BIA_01.jpg": {
+    "kind": "photo",
+    "shows_variant": "ORT-18-BIA",
+    "abo_item_id": "B07M6PHS6W"
+   },
+   "ORTA_BIA_02.jpg": {
+    "kind": "photo",
+    "shows_variant": "ORT-18-BIA",
+    "abo_item_id": "B07M6PHS6W"
+   },
+   "ORTA_BIA_03.jpg": {
+    "kind": "photo",
+    "shows_variant": "ORT-18-BIA",
+    "abo_item_id": "B07M6PHS6W"
+   },
+   "ORTA_BIA_04.jpg": {
+    "kind": "photo",
+    "shows_variant": "ORT-18-BIA",
+    "abo_item_id": "B07M6PHS6W"
+   },
+   "IMG_4606.JPG": {
+    "kind": "photo",
+    "shows_variant": "ORT-18-BLU",
+    "abo_item_id": "B07MF1SVNL"
+   },
+   "ORTA_BLU_05.jpg": {
+    "kind": "photo",
+    "shows_variant": "ORT-18-BIA",
+    "abo_item_id": "B07M6PHS6W"
+   },
+   "ORTA_scheda_tecnica.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D6",
+    "variant": null,
+    "attribute": "legs_or_base",
+    "spec_value": "powder-coated steel",
+    "true_value": "ceramic",
+    "evidence": "photo"
+   },
+   {
+    "id": "D16",
+    "variant": "ORT-18-BLU",
+    "attribute": "photo",
+    "true_value": "ORT-18-BIA",
+    "file": "ORTA_BLU_05.jpg"
+   },
+   {
+    "id": "D17",
+    "variant": null,
+    "attribute": "weight",
+    "spec_value": 28.0,
+    "true_value": 2.8
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-19",
+  "name": "FULDA",
+  "code": "FUL-19",
+  "folder": "SYN-19-FULDA",
+  "supplier": "Nordholz Wohnen GmbH",
+  "category": "lamp",
+  "family": "rivet-modern-suede-table-lamp-led-bulb-included-25-h",
+  "abo_item_ids": [
+   "B0825DBSV5",
+   "B0825D873Z"
+  ],
+  "truth": {
+   "dims": {
+    "height": 64,
+    "diameter": 30
+   },
+   "weight_kg": 0.6,
+   "max_load_kg": null,
+   "material": "fabric",
+   "care": "lamp",
+   "fibre": null,
+   "variants": [
+    {
+     "code": "FUL-19-MOO",
+     "colour_family": "green",
+     "ean": "4012345019018"
+    },
+    {
+     "code": "FUL-19-ANT",
+     "colour_family": "grey",
+     "ean": "4012345019025"
+    }
+   ]
+  },
+  "files": {
+   "FULDA-MOO-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "FUL-19-MOO",
+    "abo_item_id": "B0825DBSV5"
+   },
+   "FULDA-MOO-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "FUL-19-MOO",
+    "abo_item_id": "B0825DBSV5"
+   },
+   "FULDA-MOO-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "FUL-19-MOO",
+    "abo_item_id": "B0825DBSV5"
+   },
+   "FULDA-ANT-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "FUL-19-ANT",
+    "abo_item_id": "B0825D873Z"
+   },
+   "FULDA-ANT-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "FUL-19-ANT",
+    "abo_item_id": "B0825D873Z"
+   },
+   "FULDA-ANT-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "FUL-19-ANT",
+    "abo_item_id": "B0825D873Z"
+   },
+   "FULDA-ANT-4.jpg": {
+    "kind": "photo",
+    "shows_variant": "FUL-19-ANT",
+    "abo_item_id": "B0825D873Z"
+   },
+   "IMG_4639.JPG": {
+    "kind": "photo",
+    "shows_variant": "FUL-19-MOO",
+    "abo_item_id": "B0825DBSV5"
+   },
+   "FULDA_Produktdatenblatt.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [],
+  "clean": true,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-20",
+  "name": "LECH",
+  "code": "LEC-20",
+  "folder": "SYN-20-LECH",
+  "supplier": "Nordholz Wohnen GmbH",
+  "category": "rug",
+  "family": "amazon-basics-modern-plush-high-pile-shag-area-rug-4x6-3-11-",
+  "abo_item_ids": [
+   "B07QBS4RKK",
+   "B07Q9TF1MT"
+  ],
+  "truth": {
+   "dims": {
+    "length": 160,
+    "width": 120,
+    "pile_height": 5.1
+   },
+   "weight_kg": 6.5,
+   "max_load_kg": null,
+   "material": "none_visible",
+   "care": "professional",
+   "fibre": "polypropylene",
+   "variants": [
+    {
+     "code": "LEC-20-ANT",
+     "colour_family": "grey",
+     "ean": "4012345020014"
+    },
+    {
+     "code": "LEC-20-SAN",
+     "colour_family": "beige",
+     "ean": "4012345020021"
+    }
+   ]
+  },
+  "files": {
+   "LECH-ANT-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-20-ANT",
+    "abo_item_id": "B07QBS4RKK"
+   },
+   "LECH-ANT-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-20-ANT",
+    "abo_item_id": "B07QBS4RKK"
+   },
+   "LECH-ANT-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-20-ANT",
+    "abo_item_id": "B07QBS4RKK"
+   },
+   "LECH-SAN-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-20-SAN",
+    "abo_item_id": "B07Q9TF1MT"
+   },
+   "LECH-SAN-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-20-SAN",
+    "abo_item_id": "B07Q9TF1MT"
+   },
+   "LECH-SAN-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-20-SAN",
+    "abo_item_id": "B07Q9TF1MT"
+   },
+   "LECH-SAN-4.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-20-SAN",
+    "abo_item_id": "B07Q9TF1MT"
+   },
+   "IMG_4390.JPG": {
+    "kind": "photo",
+    "shows_variant": "LEC-20-ANT",
+    "abo_item_id": "B07QBS4RKK"
+   },
+   "LECH-ANT-5.jpg": {
+    "kind": "photo",
+    "shows_variant": "LEC-20-SAN",
+    "abo_item_id": "B07Q9TF1MT"
+   },
+   "LEC20_label.png": {
+    "kind": "care_label",
+    "care": "professional",
+    "fibre": "polypropylene"
+   },
+   "LECH_Produktdatenblatt.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D14",
+    "variant": null,
+    "attribute": "upholstery",
+    "spec_value": "no fibre composition",
+    "true_value": "100% polypropylene"
+   },
+   {
+    "id": "D16",
+    "variant": "LEC-20-ANT",
+    "attribute": "photo",
+    "true_value": "LEC-20-SAN",
+    "file": "LECH-ANT-5.jpg"
+   },
+   {
+    "id": "D17",
+    "variant": null,
+    "attribute": "weight",
+    "spec_value": 65.0,
+    "true_value": 6.5
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-21",
+  "name": "COIMBRA",
+  "code": "COI-21",
+  "folder": "SYN-21-COIMBRA",
+  "supplier": "Móveis Lusa, Lda.",
+  "category": "rug",
+  "family": "stone-beam-contemporary-interlocking-rings-wool-area-rug-7-6",
+  "abo_item_ids": [
+   "B07121ZVXN",
+   "B071J4VX6D"
+  ],
+  "truth": {
+   "dims": {
+    "length": 290,
+    "width": 229,
+    "pile_height": 1.3
+   },
+   "weight_kg": 25.4,
+   "max_load_kg": null,
+   "material": "none_visible",
+   "care": "professional",
+   "fibre": "wool",
+   "variants": [
+    {
+     "code": "COI-21-ARE",
+     "colour_family": "beige",
+     "ean": "5601234021011"
+    },
+    {
+     "code": "COI-21-AZU",
+     "colour_family": "blue",
+     "ean": "5601234021028"
+    }
+   ]
+  },
+  "files": {
+   "COI21_ARE_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "COI-21-ARE",
+    "abo_item_id": "B07121ZVXN"
+   },
+   "COI21_ARE_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "COI-21-ARE",
+    "abo_item_id": "B07121ZVXN"
+   },
+   "COI21_ARE_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "COI-21-ARE",
+    "abo_item_id": "B07121ZVXN"
+   },
+   "COI21_AZU_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "COI-21-AZU",
+    "abo_item_id": "B071J4VX6D"
+   },
+   "COI21_AZU_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "COI-21-AZU",
+    "abo_item_id": "B071J4VX6D"
+   },
+   "COI21_AZU_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "COI-21-AZU",
+    "abo_item_id": "B071J4VX6D"
+   },
+   "COI21_AZU_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "COI-21-AZU",
+    "abo_item_id": "B071J4VX6D"
+   },
+   "IMG_4964.JPG": {
+    "kind": "photo",
+    "shows_variant": "COI-21-ARE",
+    "abo_item_id": "B07121ZVXN"
+   },
+   "COI21_label.png": {
+    "kind": "care_label",
+    "care": "professional",
+    "fibre": "wool"
+   },
+   "COI21_ficha_tecnica_v2.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D4",
+    "variant": "COI-21-ARE",
+    "attribute": "ean",
+    "spec_value": "5601234021012",
+    "true_value": "5601234021011"
+   },
+   {
+    "id": "D5",
+    "variant": null,
+    "attribute": "care",
+    "spec_value": "machine washable at 30 °C",
+    "true_value": "do not wash; professional cleaning only",
+    "evidence": "COI21_label.png"
+   },
+   {
+    "id": "D10",
+    "variant": "COI-21-ARE",
+    "attribute": "colour",
+    "spec_value": "Antracite",
+    "true_value": "beige",
+    "evidence": "photo"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-22",
+  "name": "INN",
+  "code": "INN-22",
+  "folder": "SYN-22-INN",
+  "supplier": "Nordholz Wohnen GmbH",
+  "category": "rug",
+  "family": "amazon-basics-6-x9-solid-color-shag-rug",
+  "abo_item_ids": [
+   "B07TZMWH8M",
+   "B07TZMRR9Z"
+  ],
+  "truth": {
+   "dims": {
+    "length": 274,
+    "width": 178,
+    "pile_height": 3.0
+   },
+   "weight_kg": 10.0,
+   "max_load_kg": null,
+   "material": "none_visible",
+   "care": "professional",
+   "fibre": "polypropylene",
+   "variants": [
+    {
+     "code": "INN-22-SAN",
+     "colour_family": "beige",
+     "ean": "4012345022018"
+    },
+    {
+     "code": "INN-22-ANT",
+     "colour_family": "grey",
+     "ean": "4012345022025"
+    }
+   ]
+  },
+  "files": {
+   "INN-SAN-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "INN-22-SAN",
+    "abo_item_id": "B07TZMWH8M"
+   },
+   "INN-SAN-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "INN-22-SAN",
+    "abo_item_id": "B07TZMWH8M"
+   },
+   "INN-SAN-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "INN-22-SAN",
+    "abo_item_id": "B07TZMWH8M"
+   },
+   "INN-ANT-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "INN-22-ANT",
+    "abo_item_id": "B07TZMRR9Z"
+   },
+   "INN-ANT-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "INN-22-ANT",
+    "abo_item_id": "B07TZMRR9Z"
+   },
+   "INN-ANT-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "INN-22-ANT",
+    "abo_item_id": "B07TZMRR9Z"
+   },
+   "INN-ANT-4.jpg": {
+    "kind": "photo",
+    "shows_variant": "INN-22-ANT",
+    "abo_item_id": "B07TZMRR9Z"
+   },
+   "IMG_4957.JPG": {
+    "kind": "photo",
+    "shows_variant": "INN-22-SAN",
+    "abo_item_id": "B07TZMWH8M"
+   },
+   "INN22_label.png": {
+    "kind": "care_label",
+    "care": "professional",
+    "fibre": "polypropylene"
+   },
+   "INN_Produktdatenblatt.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D10",
+    "variant": "INN-22-SAN",
+    "attribute": "colour",
+    "spec_value": "Anthrazit",
+    "true_value": "beige",
+    "evidence": "photo"
+   },
+   {
+    "id": "D14",
+    "variant": null,
+    "attribute": "upholstery",
+    "spec_value": "no fibre composition",
+    "true_value": "100% polypropylene"
+   },
+   {
+    "id": "D15",
+    "variant": null,
+    "attribute": "claims",
+    "spec_value": "hypoallergenic, non-toxic",
+    "true_value": "needs human review"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-23",
+  "name": "TAVIRA",
+  "code": "TAV-23",
+  "folder": "SYN-23-TAVIRA",
+  "supplier": "Móveis Lusa, Lda.",
+  "category": "rug",
+  "family": "rivet-old-world-vintage-persian-area-rug-5-3-x-7-3",
+  "abo_item_ids": [
+   "B075Z9CXYZ",
+   "B079KV17MW"
+  ],
+  "truth": {
+   "dims": {
+    "length": 221,
+    "width": 160,
+    "pile_height": 1.3
+   },
+   "weight_kg": 6.4,
+   "max_load_kg": null,
+   "material": "none_visible",
+   "care": "professional",
+   "fibre": "polypropylene",
+   "variants": [
+    {
+     "code": "TAV-23-MUL",
+     "colour_family": "multicolour",
+     "ean": "5601234023015"
+    },
+    {
+     "code": "TAV-23-ROS",
+     "colour_family": "pink",
+     "ean": "5601234023022"
+    }
+   ]
+  },
+  "files": {
+   "TAV23_MUL_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "TAV-23-MUL",
+    "abo_item_id": "B075Z9CXYZ"
+   },
+   "TAV23_MUL_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "TAV-23-MUL",
+    "abo_item_id": "B075Z9CXYZ"
+   },
+   "TAV23_MUL_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "TAV-23-MUL",
+    "abo_item_id": "B075Z9CXYZ"
+   },
+   "TAV23_ROS_front.jpg": {
+    "kind": "photo",
+    "shows_variant": "TAV-23-ROS",
+    "abo_item_id": "B079KV17MW"
+   },
+   "TAV23_ROS_34.jpg": {
+    "kind": "photo",
+    "shows_variant": "TAV-23-ROS",
+    "abo_item_id": "B079KV17MW"
+   },
+   "TAV23_ROS_side.jpg": {
+    "kind": "photo",
+    "shows_variant": "TAV-23-ROS",
+    "abo_item_id": "B079KV17MW"
+   },
+   "TAV23_ROS_detail.jpg": {
+    "kind": "photo",
+    "shows_variant": "TAV-23-ROS",
+    "abo_item_id": "B079KV17MW"
+   },
+   "IMG_4682.JPG": {
+    "kind": "photo",
+    "shows_variant": "TAV-23-MUL",
+    "abo_item_id": "B075Z9CXYZ"
+   },
+   "TAV23_label.png": {
+    "kind": "care_label",
+    "care": "professional",
+    "fibre": "polypropylene"
+   },
+   "TAV23_ficha_tecnica_v2.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [],
+  "clean": true,
+  "photo_truth_confirmed": true
+ },
+ {
+  "product_id": "SYN-24",
+  "name": "SAALE",
+  "code": "SAA-24",
+  "folder": "SYN-24-SAALE",
+  "supplier": "Nordholz Wohnen GmbH",
+  "category": "rug",
+  "family": "stone-beam-braided-jute-area-rug-5-x-8-foot",
+  "abo_item_ids": [
+   "B0732GFWJF",
+   "B0732L9718",
+   "B0732FTB3W"
+  ],
+  "truth": {
+   "dims": {
+    "length": 244,
+    "width": 152,
+    "pile_height": 1.0
+   },
+   "weight_kg": 10.7,
+   "max_load_kg": null,
+   "material": "none_visible",
+   "care": "professional",
+   "fibre": "jute",
+   "variants": [
+    {
+     "code": "SAA-24-BLA",
+     "colour_family": "blue",
+     "ean": "4012345024012"
+    },
+    {
+     "code": "SAA-24-SAN",
+     "colour_family": "beige",
+     "ean": "4012345024029"
+    },
+    {
+     "code": "SAA-24-ANT",
+     "colour_family": "grey",
+     "ean": "4012345024036"
+    }
+   ]
+  },
+  "files": {
+   "SAALE-BLA-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-BLA",
+    "abo_item_id": "B0732GFWJF"
+   },
+   "SAALE-BLA-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-BLA",
+    "abo_item_id": "B0732GFWJF"
+   },
+   "SAALE-BLA-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-BLA",
+    "abo_item_id": "B0732GFWJF"
+   },
+   "SAALE-SAN-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-SAN",
+    "abo_item_id": "B0732L9718"
+   },
+   "SAALE-SAN-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-SAN",
+    "abo_item_id": "B0732L9718"
+   },
+   "SAALE-SAN-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-SAN",
+    "abo_item_id": "B0732L9718"
+   },
+   "SAALE-SAN-4.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-SAN",
+    "abo_item_id": "B0732L9718"
+   },
+   "SAALE-ANT-1.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-ANT",
+    "abo_item_id": "B0732FTB3W"
+   },
+   "SAALE-ANT-2.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-ANT",
+    "abo_item_id": "B0732FTB3W"
+   },
+   "SAALE-ANT-3.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-ANT",
+    "abo_item_id": "B0732FTB3W"
+   },
+   "SAALE-ANT-4.jpg": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-ANT",
+    "abo_item_id": "B0732FTB3W"
+   },
+   "IMG_4705.JPG": {
+    "kind": "photo",
+    "shows_variant": "SAA-24-BLA",
+    "abo_item_id": "B0732GFWJF"
+   },
+   "SAA24_label.png": {
+    "kind": "care_label",
+    "care": "professional",
+    "fibre": "jute"
+   },
+   "SAALE_Produktdatenblatt.pdf": {
+    "kind": "spec",
+    "path": "spec.pdf"
+   }
+  },
+  "planted_defects": [
+   {
+    "id": "D5",
+    "variant": null,
+    "attribute": "care",
+    "spec_value": "machine washable at 30 °C",
+    "true_value": "do not wash; professional cleaning only",
+    "evidence": "SAA24_label.png"
+   },
+   {
+    "id": "D14",
+    "variant": null,
+    "attribute": "upholstery",
+    "spec_value": "no fibre composition",
+    "true_value": "100% jute"
+   }
+  ],
+  "clean": false,
+  "photo_truth_confirmed": true
+ }
+]

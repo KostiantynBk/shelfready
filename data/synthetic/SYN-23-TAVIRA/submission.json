@@ -1,0 +1,83 @@
+{
+ "product_id": "SYN-23",
+ "supplier": "Móveis Lusa, Lda.",
+ "email": {
+  "from": "comercial@moveislusa.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-06",
+  "subject": "Nova coleção AW26 – tapete TAVIRA – ficha técnica + fotos",
+  "body": "Bom dia,\n\nSegue em anexo a ficha técnica do produto TAVIRA (2 cores) e as fotos.\nHi team, please find attached the spec sheet for TAVIRA and the photos.\n\nCumprimentos,\nRita Moreira\nMóveis Lusa, Lda.",
+  "attachments": [
+   "TAV23_ficha_tecnica_v2.pdf",
+   "TAV23_MUL_front.jpg",
+   "TAV23_MUL_34.jpg",
+   "TAV23_MUL_side.jpg",
+   "IMG_4682.JPG",
+   "TAV23_ROS_front.jpg",
+   "TAV23_ROS_34.jpg",
+   "TAV23_ROS_side.jpg",
+   "TAV23_ROS_detail.jpg",
+   "TAV23_label.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "TAV23_MUL_front.jpg",
+   "kind": "photo",
+   "abo_path": "72/7267bfbd.jpg",
+   "sha256": "bddb44128c9a4e1ce87bcde0c09e6cd82bd3cb2530e826c753e3af9b303a339a"
+  },
+  {
+   "file": "TAV23_MUL_34.jpg",
+   "kind": "photo",
+   "abo_path": "b3/b3b70e69.jpg",
+   "sha256": "caecb7b9bf7812d12c37463f185a84d2983f0bb71d8e940885221bcb868f398a"
+  },
+  {
+   "file": "TAV23_MUL_side.jpg",
+   "kind": "photo",
+   "abo_path": "38/385212fc.jpg",
+   "sha256": "6ef4edccfa77ced8a358f03ee5a31d2fec4accafbbee53f7d23c71f350771084"
+  },
+  {
+   "file": "IMG_4682.JPG",
+   "kind": "photo",
+   "abo_path": "1f/1fbc5de7.jpg",
+   "sha256": "51b93bfd8832dadf93a27e3583bf1b4914827994d0ead81655afb2497ebe90fb"
+  },
+  {
+   "file": "TAV23_ROS_front.jpg",
+   "kind": "photo",
+   "abo_path": "76/76d82ed7.jpg",
+   "sha256": "5bb0a31f42859f27eee4e9d0e3e6a96eb7d01b4b7aac0e7a8af671ce88bace86"
+  },
+  {
+   "file": "TAV23_ROS_34.jpg",
+   "kind": "photo",
+   "abo_path": "9f/9fd8e461.jpg",
+   "sha256": "12f6ffb646c2a4204130d1d6dd6068ff092e3abf5458028c54970338ebca3040"
+  },
+  {
+   "file": "TAV23_ROS_side.jpg",
+   "kind": "photo",
+   "abo_path": "be/bec1365a.jpg",
+   "sha256": "eac199d05dd1d39ca4d317b5d86d0f6d25ebad4f67c9a781120c7709103e8df2"
+  },
+  {
+   "file": "TAV23_ROS_detail.jpg",
+   "kind": "photo",
+   "abo_path": "41/41b04281.jpg",
+   "sha256": "ed366116aa0ff82bf3d130a2a94c3c95f3d40529f1501d33bd4c30cb041e5aeb"
+  },
+  {
+   "file": "TAV23_label.png",
+   "kind": "label",
+   "path": "TAV23_label.png"
+  }
+ ]
+}

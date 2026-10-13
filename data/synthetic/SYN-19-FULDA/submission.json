@@ -1,0 +1,77 @@
+{
+ "product_id": "SYN-19",
+ "supplier": "Nordholz Wohnen GmbH",
+ "email": {
+  "from": "vertrieb@nordholz-wohnen.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-02",
+  "subject": "Neuheit FULDA (Tischleuchte) – Produktdatenblatt und Fotos",
+  "body": "Guten Tag,\n\nanbei das Produktdatenblatt für FULDA (2 Farben) und die Fotos.\nAttached you will find the product data sheet and photos.\n\nMit freundlichen Grüßen\nJonas Weber\nNordholz Wohnen GmbH",
+  "attachments": [
+   "FULDA_Produktdatenblatt.pdf",
+   "FULDA-MOO-1.jpg",
+   "FULDA-MOO-2.jpg",
+   "FULDA-MOO-3.jpg",
+   "IMG_4639.JPG",
+   "FULDA-ANT-1.jpg",
+   "FULDA-ANT-2.jpg",
+   "FULDA-ANT-3.jpg",
+   "FULDA-ANT-4.jpg"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "FULDA_Produktdatenblatt.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "FULDA-MOO-1.jpg",
+   "kind": "photo",
+   "abo_path": "84/845e21a9.jpg",
+   "sha256": "1121ed60096ed74772dc50cf6129453f81b5b65a02a63dbeebe12f5017eb0d2c"
+  },
+  {
+   "file": "FULDA-MOO-2.jpg",
+   "kind": "photo",
+   "abo_path": "cd/cd25badd.jpg",
+   "sha256": "70add8d575dbdb521c890175845d8029f660deb40453d5ad3994a8e882df3dd9"
+  },
+  {
+   "file": "FULDA-MOO-3.jpg",
+   "kind": "photo",
+   "abo_path": "26/2660dc56.jpg",
+   "sha256": "7f0b4eaf3d1af1ef856835cd9a2ea5007572f24ce7566e3b5d6df257ae9e8e59"
+  },
+  {
+   "file": "IMG_4639.JPG",
+   "kind": "photo",
+   "abo_path": "44/44659e74.jpg",
+   "sha256": "94e869cfb69e3ac94d0b8ae426d322bf3852ccefab41932edbbee4418d0059d5"
+  },
+  {
+   "file": "FULDA-ANT-1.jpg",
+   "kind": "photo",
+   "abo_path": "2d/2dbbfffe.jpg",
+   "sha256": "518c1acf9ff5a6e75de8de84b082fa3d535997525251025869f895a7e02406ef"
+  },
+  {
+   "file": "FULDA-ANT-2.jpg",
+   "kind": "photo",
+   "abo_path": "38/3852198f.jpg",
+   "sha256": "623822046c72884b982e8201edc38c8c83a82093b460d10c5c5d185b128cb81d"
+  },
+  {
+   "file": "FULDA-ANT-3.jpg",
+   "kind": "photo",
+   "abo_path": "da/da72b74b.jpg",
+   "sha256": "904b182a422d1425376aa8218328c6e185c66b8ee2074ac02b0e7d56befac4aa"
+  },
+  {
+   "file": "FULDA-ANT-4.jpg",
+   "kind": "photo",
+   "abo_path": "2b/2b98f8ed.jpg",
+   "sha256": "131e0b5721da2d7f7c22b5cd5cd353c80bdefd70d65cf7f3d694937a88b481e2"
+  }
+ ]
+}

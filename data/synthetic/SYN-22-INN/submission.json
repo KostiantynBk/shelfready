@@ -1,0 +1,83 @@
+{
+ "product_id": "SYN-22",
+ "supplier": "Nordholz Wohnen GmbH",
+ "email": {
+  "from": "vertrieb@nordholz-wohnen.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-05",
+  "subject": "Neuheit INN (Teppich) – Produktdatenblatt und Fotos",
+  "body": "Guten Tag,\n\nanbei das Produktdatenblatt für INN (2 Farben) und die Fotos.\nAttached you will find the product data sheet and photos.\n\nMit freundlichen Grüßen\nJonas Weber\nNordholz Wohnen GmbH",
+  "attachments": [
+   "INN_Produktdatenblatt.pdf",
+   "INN-SAN-1.jpg",
+   "INN-SAN-2.jpg",
+   "INN-SAN-3.jpg",
+   "IMG_4957.JPG",
+   "INN-ANT-1.jpg",
+   "INN-ANT-2.jpg",
+   "INN-ANT-3.jpg",
+   "INN-ANT-4.jpg",
+   "INN22_label.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "INN_Produktdatenblatt.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "INN-SAN-1.jpg",
+   "kind": "photo",
+   "abo_path": "2e/2ef410af.jpg",
+   "sha256": "214af78147bdf830b7eb26ec9b38a651f3bb8b996a38408b5d023f358bccc67c"
+  },
+  {
+   "file": "INN-SAN-2.jpg",
+   "kind": "photo",
+   "abo_path": "2d/2d5c93b7.jpg",
+   "sha256": "a90d8e03b60dd60d519e90a8326022d6bbb5b62800923d83082e2fdf42706a9a"
+  },
+  {
+   "file": "INN-SAN-3.jpg",
+   "kind": "photo",
+   "abo_path": "25/25a4eaa6.jpg",
+   "sha256": "e65fdf9e92d7e306c06c24ca7fe3207b3aa4cde07fab71fe3a004ff79f59e451"
+  },
+  {
+   "file": "IMG_4957.JPG",
+   "kind": "photo",
+   "abo_path": "d8/d8e1b20d.jpg",
+   "sha256": "9a92a986976f998433d2aa13a78f02ccfaf68b10f852f8157ef2bf2632a5b25f"
+  },
+  {
+   "file": "INN-ANT-1.jpg",
+   "kind": "photo",
+   "abo_path": "93/93ce33ea.jpg",
+   "sha256": "441a8d83ea36885cd59e00a7aa83626c05c46fad27e9d565ea6f66c97fb6a6f5"
+  },
+  {
+   "file": "INN-ANT-2.jpg",
+   "kind": "photo",
+   "abo_path": "d9/d9ad59ad.jpg",
+   "sha256": "4f4048fe2598b69648c08dd6d260a814d55bd713301a99cb80ad241e7292d3ae"
+  },
+  {
+   "file": "INN-ANT-3.jpg",
+   "kind": "photo",
+   "abo_path": "09/09bdda6e.jpg",
+   "sha256": "d51188560b6bb24591125c37894b76f57d74cbfb8c907c6b0300f2274807f8f7"
+  },
+  {
+   "file": "INN-ANT-4.jpg",
+   "kind": "photo",
+   "abo_path": "5a/5a2581cd.jpg",
+   "sha256": "599e5e395230391384e83aba7bf59b134a2314eb8a90f3677c147fb16fbceaa4"
+  },
+  {
+   "file": "INN22_label.png",
+   "kind": "label",
+   "path": "INN22_label.png"
+  }
+ ]
+}

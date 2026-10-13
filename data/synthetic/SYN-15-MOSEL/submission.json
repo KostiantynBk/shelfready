@@ -1,0 +1,77 @@
+{
+ "product_id": "SYN-15",
+ "supplier": "Nordholz Wohnen GmbH",
+ "email": {
+  "from": "vertrieb@nordholz-wohnen.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-07",
+  "subject": "Neuheit MOSEL (Stehleuchte) – Produktdatenblatt und Fotos",
+  "body": "Guten Tag,\n\nanbei das Produktdatenblatt für MOSEL (2 Farben) und die Fotos.\nAttached you will find the product data sheet and photos.\n\nMit freundlichen Grüßen\nJonas Weber\nNordholz Wohnen GmbH",
+  "attachments": [
+   "MOSEL_Produktdatenblatt.pdf",
+   "MOSEL-SCH-1.jpg",
+   "MOSEL-SCH-2.jpg",
+   "MOSEL-SCH-3.jpg",
+   "IMG_4241.JPG",
+   "MOSEL-SIL-1.jpg",
+   "MOSEL-SIL-2.jpg",
+   "MOSEL-SIL-3.jpg",
+   "MOSEL-SIL-4.jpg"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "MOSEL-SCH-1.jpg",
+   "kind": "photo",
+   "abo_path": "fa/fa4df5eb.jpg",
+   "sha256": "61bc4bbd26b8b4361a87ef2e2cc1ecb1dcf77b0bb187c06c188e7f392cef2773"
+  },
+  {
+   "file": "MOSEL-SCH-2.jpg",
+   "kind": "photo",
+   "abo_path": "63/6310a6af.jpg",
+   "sha256": "68109641ea6765af22914ecc9252469e8cefd4c6f758e17f8c92f57da119288f"
+  },
+  {
+   "file": "MOSEL-SCH-3.jpg",
+   "kind": "photo",
+   "abo_path": "df/df38aad1.jpg",
+   "sha256": "71d40418adffff2842afa0c5b7478f7b3ff16e4fddbeaf50078b61cdae02f67b"
+  },
+  {
+   "file": "IMG_4241.JPG",
+   "kind": "photo",
+   "abo_path": "fe/fee3c9d8.jpg",
+   "sha256": "a9d4dac1c89454da5068e5d17d21e9ccc1a9aa5233a9133d09317b5b04fe7f96"
+  },
+  {
+   "file": "MOSEL-SIL-1.jpg",
+   "kind": "photo",
+   "abo_path": "8b/8bee5ffe.jpg",
+   "sha256": "0b2b12abad294a322ce7fe455509c3d507ab86d0158d4f0904eb0d5c5a53edfe"
+  },
+  {
+   "file": "MOSEL-SIL-2.jpg",
+   "kind": "photo",
+   "abo_path": "53/53136560.jpg",
+   "sha256": "ff4f862dd62cdfe73229df8fc4f1841229c87b6074c7592cee94466f898ed9ae"
+  },
+  {
+   "file": "MOSEL-SIL-3.jpg",
+   "kind": "photo",
+   "abo_path": "d6/d6e6062f.jpg",
+   "sha256": "602c052dec2a1cf305913ec4d0b8c0170e0ea1e1a69ea7808ca473dd7421a671"
+  },
+  {
+   "file": "MOSEL-SIL-4.jpg",
+   "kind": "photo",
+   "abo_path": "b4/b49765ba.jpg",
+   "sha256": "2115bfacd5768ce4edf6993a4181306bf4c37bd94b24b0f9068ed0b58f1435a9"
+  }
+ ]
+}

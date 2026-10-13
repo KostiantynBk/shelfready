@@ -1,0 +1,123 @@
+{
+ "product_id": "SYN-08",
+ "supplier": "Arredo Brianza S.r.l.",
+ "email": {
+  "from": "ordini@arredobrianza.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-09",
+  "subject": "Novità collezione 2027 – BRERA – scheda tecnica e foto",
+  "body": "Buongiorno,\n\nin allegato la scheda tecnica di BRERA (3 colori), il listino e le foto.\nPlease find attached the data sheet, price list and photos.\n\nCordiali saluti,\nGiulia Colombo\nArredo Brianza S.r.l.",
+  "attachments": [
+   "BRERA_scheda_tecnica.pdf",
+   "BRERA_ANT_01.jpg",
+   "BRERA_ANT_02.jpg",
+   "BRERA_ANT_03.jpg",
+   "IMG_4200.JPG",
+   "BRERA_COG_01.jpg",
+   "BRERA_COG_02.jpg",
+   "BRERA_COG_03.jpg",
+   "BRERA_COG_04.jpg",
+   "BRERA_SAB_01.jpg",
+   "BRERA_SAB_02.jpg",
+   "BRERA_SAB_03.jpg",
+   "BRERA_SAB_04.jpg",
+   "BRE08_promo.jpg",
+   "BRE08_label.png",
+   "BRE08_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "BRERA_scheda_tecnica.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "BRERA_ANT_01.jpg",
+   "kind": "photo",
+   "abo_path": "6a/6ac760cf.jpg",
+   "sha256": "1b3b9850a175fa8e42d9b1ad50f8f6d32029e563c61dc4ee26f57c5bf0ac3bb3"
+  },
+  {
+   "file": "BRERA_ANT_02.jpg",
+   "kind": "photo",
+   "abo_path": "3c/3c7c20e4.jpg",
+   "sha256": "b723d334b764d75c5b4aa424d77eef8d74d9133e5247ea73a50273b49402e5d5"
+  },
+  {
+   "file": "BRERA_ANT_03.jpg",
+   "kind": "photo",
+   "abo_path": "ed/ed4a8cdd.jpg",
+   "sha256": "6e351a81abc58d3e43d4a15c5ca5c27c96f55b359d3aa43454d4ca7e0242f423"
+  },
+  {
+   "file": "IMG_4200.JPG",
+   "kind": "photo",
+   "abo_path": "a0/a019e15c.jpg",
+   "sha256": "870aa8b1701e7fde0a35fc3c64a9e7f17352e0f60bf26630d03ecd3b1c1d148b"
+  },
+  {
+   "file": "BRERA_COG_01.jpg",
+   "kind": "photo",
+   "abo_path": "b7/b77c4535.jpg",
+   "sha256": "5addd1883d244d181da0e1955f0c8e972a03489a6421d31283b6aaaba30b762e"
+  },
+  {
+   "file": "BRERA_COG_02.jpg",
+   "kind": "photo",
+   "abo_path": "43/432e8e40.jpg",
+   "sha256": "949bf7095ea6d079db170c930b7d6034fd1167b10f750257c77064f042d7c7a0"
+  },
+  {
+   "file": "BRERA_COG_03.jpg",
+   "kind": "photo",
+   "abo_path": "5a/5a25937d.jpg",
+   "sha256": "31692fb725e65e33c7cce97af80e00d797231f24783a7faebd6408fedbe6a21f"
+  },
+  {
+   "file": "BRERA_COG_04.jpg",
+   "kind": "photo",
+   "abo_path": "5b/5b79318b.jpg",
+   "sha256": "cc75701a6f0b6f1ba1d9a04f1b93e17b6fc64f9b58eb79b30aee57843e1311cd"
+  },
+  {
+   "file": "BRERA_SAB_01.jpg",
+   "kind": "photo",
+   "abo_path": "d9/d93f5d26.jpg",
+   "sha256": "43cc43d6fa657a7c08cd2a315e2aca366e35fd9712aa4f7fe90a12aa9aa89aac"
+  },
+  {
+   "file": "BRERA_SAB_02.jpg",
+   "kind": "photo",
+   "abo_path": "3c/3c39db72.jpg",
+   "sha256": "266999c65a7b20302d4c0e5474bce04e97fea6e540dbab752b075e51f6a1e51d"
+  },
+  {
+   "file": "BRERA_SAB_03.jpg",
+   "kind": "photo",
+   "abo_path": "20/20f76c44.jpg",
+   "sha256": "bcf6aca551ebf706da53b8cd68337c86b1a90a5bd8e76bdc08659235d0888d6d"
+  },
+  {
+   "file": "BRERA_SAB_04.jpg",
+   "kind": "photo",
+   "abo_path": "8b/8b1f1d38.jpg",
+   "sha256": "78087086869c0b3bf894d8ae5239c1eedb2a9c3a48e39506718383068b83a39a"
+  },
+  {
+   "file": "BRE08_promo.jpg",
+   "kind": "photo",
+   "path": "BRE08_promo.jpg"
+  },
+  {
+   "file": "BRE08_label.png",
+   "kind": "label",
+   "path": "BRE08_label.png"
+  },
+  {
+   "file": "BRE08_dimensions.png",
+   "kind": "drawing",
+   "path": "BRE08_dimensions.png"
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "product_id": "SYN-14",
+ "supplier": "Móveis Lusa, Lda.",
+ "email": {
+  "from": "comercial@moveislusa.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-06",
+  "subject": "Nova coleção AW26 – sofá AVEIRO – ficha técnica + fotos",
+  "body": "Bom dia,\n\nSegue em anexo a ficha técnica do produto AVEIRO (3 cores) e as fotos.\nHi team, please find attached the spec sheet for AVEIRO and the photos.\n\nCumprimentos,\nRita Moreira\nMóveis Lusa, Lda.",
+  "attachments": [
+   "AVE14_ficha_tecnica_v2.pdf",
+   "AVE14_ANT_front.jpg",
+   "AVE14_ANT_34.jpg",
+   "AVE14_ANT_side.jpg",
+   "IMG_4558.JPG",
+   "AVE14_ARE_front.jpg",
+   "AVE14_ARE_34.jpg",
+   "AVE14_ARE_side.jpg",
+   "AVE14_ARE_detail.jpg",
+   "AVE14_CIN_front.jpg",
+   "AVE14_CIN_34.jpg",
+   "AVE14_CIN_side.jpg",
+   "AVE14_CIN_detail.jpg",
+   "AVE14_promo.jpg",
+   "AVE14_label.png",
+   "AVE14_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "AVE14_ANT_front.jpg",
+   "kind": "photo",
+   "abo_path": "88/88e26713.jpg",
+   "sha256": "4451f6f18bd44f6f8e5d3a862304e3f0b82a01f0dfe7ffff3e666e3c7b47c4e8"
+  },
+  {
+   "file": "AVE14_ANT_34.jpg",
+   "kind": "photo",
+   "abo_path": "06/06bc15c9.jpg",
+   "sha256": "4e08c281793f32c782454e2cb2230c5e5ed73fe62ee6afa6375adb6c942d3394"
+  },
+  {
+   "file": "AVE14_ANT_side.jpg",
+   "kind": "photo",
+   "abo_path": "5d/5de9d794.jpg",
+   "sha256": "627a35f1b46aa3f39ca004b1490297901cd017a21b07c8d9fa80f5b85b8a3ac3"
+  },
+  {
+   "file": "IMG_4558.JPG",
+   "kind": "photo",
+   "abo_path": "96/967304f3.jpg",
+   "sha256": "ca2d58f7e6d6030d019abd4748d89ccc4ff09889ae041a84f7c823ccde6490a5"
+  },
+  {
+   "file": "AVE14_ARE_front.jpg",
+   "kind": "photo",
+   "abo_path": "8a/8af0c0ac.jpg",
+   "sha256": "d2c748336386b3881dccf965f230a9ba36abb95d469c1170e39b02de2a4589ec"
+  },
+  {
+   "file": "AVE14_ARE_34.jpg",
+   "kind": "photo",
+   "abo_path": "48/48f5332c.jpg",
+   "sha256": "24e9d0a779b7d58d431bf85d8c868258e84e222a09a7b9bfa62c0a692291b572"
+  },
+  {
+   "file": "AVE14_ARE_side.jpg",
+   "kind": "photo",
+   "abo_path": "f2/f2fe4f99.jpg",
+   "sha256": "a763bc75749eb4aee0ab8bff580925d295881c4319931e6667cc35f1ddcf2815"
+  },
+  {
+   "file": "AVE14_ARE_detail.jpg",
+   "kind": "photo",
+   "abo_path": "ec/ec232460.jpg",
+   "sha256": "fc4440a36481c7a87b12ceb8d2756caf5cf1604235f27263a27ec8d236c5b87d"
+  },
+  {
+   "file": "AVE14_CIN_front.jpg",
+   "kind": "photo",
+   "abo_path": "00/00ed8003.jpg",
+   "sha256": "182d70cd174f4e68d6782867999b96c74a92506284f256688ade2ff41e0337fe"
+  },
+  {
+   "file": "AVE14_CIN_34.jpg",
+   "kind": "photo",
+   "abo_path": "d5/d56ea66e.jpg",
+   "sha256": "3a351d4ef5761f8aefb0953c90839fe956b0c8a5c234647140ac4dbafff3ac60"
+  },
+  {
+   "file": "AVE14_CIN_side.jpg",
+   "kind": "photo",
+   "abo_path": "6c/6c761998.jpg",
+   "sha256": "d2da6697050cc3946b75c250ece82b29e167937ed929b03ebea023699acff902"
+  },
+  {
+   "file": "AVE14_CIN_detail.jpg",
+   "kind": "photo",
+   "abo_path": "54/5446c1a8.jpg",
+   "sha256": "2de656e2b7eafd5905da5c211994adc4d212812085d609a8609802a9b544f116"
+  },
+  {
+   "file": "AVE14_promo.jpg",
+   "kind": "photo",
+   "path": "AVE14_promo.jpg"
+  },
+  {
+   "file": "AVE14_label.png",
+   "kind": "label",
+   "path": "AVE14_label.png"
+  },
+  {
+   "file": "AVE14_dimensions.png",
+   "kind": "drawing",
+   "path": "AVE14_dimensions.png"
+  }
+ ]
+}

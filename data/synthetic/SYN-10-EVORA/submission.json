@@ -1,0 +1,89 @@
+{
+ "product_id": "SYN-10",
+ "supplier": "Móveis Lusa, Lda.",
+ "email": {
+  "from": "comercial@moveislusa.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-02",
+  "subject": "Nova coleção AW26 – poltrona ÉVORA – ficha técnica + fotos",
+  "body": "Bom dia,\n\nSegue em anexo a ficha técnica do produto ÉVORA (2 cores) e as fotos.\nHi team, please find attached the spec sheet for ÉVORA and the photos.\n\nCumprimentos,\nRita Moreira\nMóveis Lusa, Lda.",
+  "attachments": [
+   "EVO10_ficha_tecnica_v2.pdf",
+   "EVO10_ROS_front.jpg",
+   "EVO10_ROS_34.jpg",
+   "EVO10_ROS_side.jpg",
+   "IMG_4234.JPG",
+   "EVO10_MUS_front.jpg",
+   "EVO10_MUS_34.jpg",
+   "EVO10_MUS_side.jpg",
+   "EVO10_MUS_detail.jpg",
+   "EVO10_label.png",
+   "EVO10_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "EVO10_ROS_front.jpg",
+   "kind": "photo",
+   "abo_path": "89/89496d4c.jpg",
+   "sha256": "092c200d421c6ab3c8fd5db518586749fd3c687f8ff75f6bb9fcc6c439f0bb66"
+  },
+  {
+   "file": "EVO10_ROS_34.jpg",
+   "kind": "photo",
+   "abo_path": "46/46161663.jpg",
+   "sha256": "ef2e480480dd941f3c72e554dadd78ae3a4db4acee81887b73f364a65b566a62"
+  },
+  {
+   "file": "EVO10_ROS_side.jpg",
+   "kind": "photo",
+   "abo_path": "98/9845764c.jpg",
+   "sha256": "87935f95fe174b7d2ae5743760232eb519cd6271e58c2bfb0608b44d18053db5"
+  },
+  {
+   "file": "IMG_4234.JPG",
+   "kind": "photo",
+   "abo_path": "b7/b7efd4da.jpg",
+   "sha256": "fd8cbf16c4a772a245ac710f26ef771028864f0099f6581290052758a88715d4"
+  },
+  {
+   "file": "EVO10_MUS_front.jpg",
+   "kind": "photo",
+   "abo_path": "32/32ce2793.jpg",
+   "sha256": "b435d422d581d7cfb51c0591be69f477c7aefa27794ab212e56ab889c4cd98ac"
+  },
+  {
+   "file": "EVO10_MUS_34.jpg",
+   "kind": "photo",
+   "abo_path": "d2/d29eba58.jpg",
+   "sha256": "08cbce0cf2593a340b69f9901d92b0d48a4a428e29a9b542d8b4ec35c547c9fd"
+  },
+  {
+   "file": "EVO10_MUS_side.jpg",
+   "kind": "photo",
+   "abo_path": "64/64be036b.jpg",
+   "sha256": "ae28101932ccb2972e7219a3f1e60d6fc463539015bba050db77af1f0b3bd258"
+  },
+  {
+   "file": "EVO10_MUS_detail.jpg",
+   "kind": "photo",
+   "abo_path": "d1/d1f80511.jpg",
+   "sha256": "ed66f2b92d93dd16eab59347b20276599f187fda89968d0753b0dad31d0fb021"
+  },
+  {
+   "file": "EVO10_label.png",
+   "kind": "label",
+   "path": "EVO10_label.png"
+  },
+  {
+   "file": "EVO10_dimensions.png",
+   "kind": "drawing",
+   "path": "EVO10_dimensions.png"
+  }
+ ]
+}

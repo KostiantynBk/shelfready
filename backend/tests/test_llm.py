@@ -309,6 +309,18 @@ async def test_reply_still_invalid_after_the_retry_raises(tmp_path):
         with pytest.raises(LLMOutputError) as info:
             await llm.chat_json(ASK, Listing, purpose="listing")
     assert info.value.content == "Still no JSON."
+    assert not list((tmp_path / "replay").glob("*.json"))  # failed answers are not kept for replay
+
+
+@pytest.mark.anyio
+async def test_cached_mode_asks_again_after_a_failed_answer(tmp_path):
+    # e.g. Token Factory returning token soup for a while (2026-10-13): the next run must not replay it
+    endpoint = Endpoint(ok("garbage"), ok("more garbage"), ok('{"title": "A", "bullets": []}'))
+    async with LLMClient(settings(tmp_path, llm_mode="cached"), http_client=endpoint.client()) as llm:
+        with pytest.raises(LLMOutputError):
+            await llm.chat_json(ASK, Listing, purpose="listing")
+        listing, result = await llm.chat_json(ASK, Listing, purpose="listing")
+    assert listing.title == "A" and result.source == "live" and len(endpoint.requests) == 3
 
 
 # --------------------------------------------------------------------------- errors and limits

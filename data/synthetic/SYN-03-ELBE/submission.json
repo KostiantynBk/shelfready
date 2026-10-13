@@ -1,0 +1,89 @@
+{
+ "product_id": "SYN-03",
+ "supplier": "Nordholz Wohnen GmbH",
+ "email": {
+  "from": "vertrieb@nordholz-wohnen.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-04",
+  "subject": "Neuheit ELBE (Sessel) – Produktdatenblatt und Fotos",
+  "body": "Guten Tag,\n\nanbei das Produktdatenblatt für ELBE (2 Farben) und die Fotos.\nAttached you will find the product data sheet and photos.\n\nMit freundlichen Grüßen\nJonas Weber\nNordholz Wohnen GmbH",
+  "attachments": [
+   "ELBE_Produktdatenblatt.pdf",
+   "ELBE-ANT-1.jpg",
+   "ELBE-ANT-2.jpg",
+   "ELBE-ANT-3.jpg",
+   "IMG_4226.JPG",
+   "ELBE-SAN-1.jpg",
+   "ELBE-SAN-2.jpg",
+   "ELBE-SAN-3.jpg",
+   "ELBE-SAN-4.jpg",
+   "ELB03_label.png",
+   "ELB03_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "ELBE-ANT-1.jpg",
+   "kind": "photo",
+   "abo_path": "bb/bb6f6ae9.jpg",
+   "sha256": "91fd6f42659688041146cc02cbcb75eab11f02ffe352fdd778146b2063d684a6"
+  },
+  {
+   "file": "ELBE-ANT-2.jpg",
+   "kind": "photo",
+   "abo_path": "87/87efdf59.jpg",
+   "sha256": "5d1b36195c42cf233c5db76c84b482c6b20233acbebdd1d89700804a2044d9d3"
+  },
+  {
+   "file": "ELBE-ANT-3.jpg",
+   "kind": "photo",
+   "abo_path": "dc/dc85afc0.jpg",
+   "sha256": "0c8f2f335263dad1bdfcccd56ecd8ced4f142bcf4fa407189e20965cf75bd9b6"
+  },
+  {
+   "file": "IMG_4226.JPG",
+   "kind": "photo",
+   "abo_path": "35/35f651ab.jpg",
+   "sha256": "45dff943af7ef847a1d95e92f748251d3c8cc25c1aed5890e6f4ad1c67a3cb71"
+  },
+  {
+   "file": "ELBE-SAN-1.jpg",
+   "kind": "photo",
+   "abo_path": "73/739822f4.jpg",
+   "sha256": "b0eadc19e5fc63245bae234cc3e241b9fdb1714c54effdcb1e924fbe30e95a0c"
+  },
+  {
+   "file": "ELBE-SAN-2.jpg",
+   "kind": "photo",
+   "abo_path": "24/244c33a6.jpg",
+   "sha256": "771daa2b292fd6c59b46c5e99acf1c2950699f88c7939b34d05d81b8b8a5d3fe"
+  },
+  {
+   "file": "ELBE-SAN-3.jpg",
+   "kind": "photo",
+   "abo_path": "73/73e8ef1f.jpg",
+   "sha256": "30ec942537c4171b7d0f4d51ece25ab0e52474f6ced1999d05ee22378fb64558"
+  },
+  {
+   "file": "ELBE-SAN-4.jpg",
+   "kind": "photo",
+   "abo_path": "13/137d45a2.jpg",
+   "sha256": "ba5bdcdf6dc90920ad4ea7ddc01915a9f863f1a25cd45cd3d1479a37ebb98edc"
+  },
+  {
+   "file": "ELB03_label.png",
+   "kind": "label",
+   "path": "ELB03_label.png"
+  },
+  {
+   "file": "ELB03_dimensions.png",
+   "kind": "drawing",
+   "path": "ELB03_dimensions.png"
+  }
+ ]
+}

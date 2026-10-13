@@ -13,6 +13,7 @@ dependencies = [
     "pydantic-settings>=2.15.0",
     "pypdfium2>=5.14.0",
     "python-multipart>=0.0.32",
+    "pyyaml>=6.0.3",
     "sqlmodel>=0.0.48",
     "uvicorn[standard]>=0.54.0",
 ]

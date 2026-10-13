@@ -1,0 +1,111 @@
+{
+ "product_id": "SYN-24",
+ "supplier": "Nordholz Wohnen GmbH",
+ "email": {
+  "from": "vertrieb@nordholz-wohnen.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-07",
+  "subject": "Neuheit SAALE (Teppich) – Produktdatenblatt und Fotos",
+  "body": "Guten Tag,\n\nanbei das Produktdatenblatt für SAALE (3 Farben) und die Fotos.\nAttached you will find the product data sheet and photos.\n\nMit freundlichen Grüßen\nJonas Weber\nNordholz Wohnen GmbH",
+  "attachments": [
+   "SAALE_Produktdatenblatt.pdf",
+   "SAALE-BLA-1.jpg",
+   "SAALE-BLA-2.jpg",
+   "SAALE-BLA-3.jpg",
+   "IMG_4705.JPG",
+   "SAALE-SAN-1.jpg",
+   "SAALE-SAN-2.jpg",
+   "SAALE-SAN-3.jpg",
+   "SAALE-SAN-4.jpg",
+   "SAALE-ANT-1.jpg",
+   "SAALE-ANT-2.jpg",
+   "SAALE-ANT-3.jpg",
+   "SAALE-ANT-4.jpg",
+   "SAA24_label.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "SAALE-BLA-1.jpg",
+   "kind": "photo",
+   "abo_path": "c6/c6b0c6e5.jpg",
+   "sha256": "180947ef63cc06563a7ac4e134abcfe677384abe4094a3dc28fc3aea0ce32310"
+  },
+  {
+   "file": "SAALE-BLA-2.jpg",
+   "kind": "photo",
+   "abo_path": "3f/3f36b6ae.jpg",
+   "sha256": "ddb0e851698c2f5ce7fa31d8f62ff5ad8f0a38e515fa18cd947ee714448adfb3"
+  },
+  {
+   "file": "SAALE-BLA-3.jpg",
+   "kind": "photo",
+   "abo_path": "a5/a5ff377d.jpg",
+   "sha256": "57c4ca5561948049894c1a074a9cefb57f815410d037d68df39a5738ee8ef8fb"
+  },
+  {
+   "file": "IMG_4705.JPG",
+   "kind": "photo",
+   "abo_path": "10/1033a438.jpg",
+   "sha256": "9152aa9a814c68d91c76d4187fd8df1f149fba493b19dc0b95b4f837f28d4d2b"
+  },
+  {
+   "file": "SAALE-SAN-1.jpg",
+   "kind": "photo",
+   "abo_path": "1a/1a70bb36.jpg",
+   "sha256": "982df09f52106d7a1106ba51e311a743c21c96b64fe6dd0cf80577d5727ef6af"
+  },
+  {
+   "file": "SAALE-SAN-2.jpg",
+   "kind": "photo",
+   "abo_path": "ed/ed976ba9.jpg",
+   "sha256": "e02c8226f980e890dbba7e3d19190e34b77546eac7bec2efd3f926f52d1856ba"
+  },
+  {
+   "file": "SAALE-SAN-3.jpg",
+   "kind": "photo",
+   "abo_path": "54/54f55925.jpg",
+   "sha256": "87fa09ccb911856ec291bfb2f5c2afbc5a4a44dae88674b0734ff0d500e7242c"
+  },
+  {
+   "file": "SAALE-SAN-4.jpg",
+   "kind": "photo",
+   "abo_path": "67/67b42ed5.jpg",
+   "sha256": "555030fbab9ebca2e9777a223beaf28af0fe1b355082e03dd11bb32791641cf1"
+  },
+  {
+   "file": "SAALE-ANT-1.jpg",
+   "kind": "photo",
+   "abo_path": "5b/5b60202c.jpg",
+   "sha256": "b5951f94848bfd54090a9b96816ef9d499543256ec7ed79d3f4c32da866b2dc1"
+  },
+  {
+   "file": "SAALE-ANT-2.jpg",
+   "kind": "photo",
+   "abo_path": "f5/f5bc5c05.jpg",
+   "sha256": "eb5df2dd63809c67528f4ab6ddd91f5f2a229df6294a45ce02ccab7dd550b3a5"
+  },
+  {
+   "file": "SAALE-ANT-3.jpg",
+   "kind": "photo",
+   "abo_path": "2b/2b774bc7.jpg",
+   "sha256": "54599a546d64c15daee0c051e95741cac3f8d1d29a99ad6b64a4d82ecf2f3357"
+  },
+  {
+   "file": "SAALE-ANT-4.jpg",
+   "kind": "photo",
+   "abo_path": "73/734c4559.jpg",
+   "sha256": "fb12b2ec2f5b2ca7f5a0ed9102c14e33372e21fca74355fa0f5066b51f4868ad"
+  },
+  {
+   "file": "SAA24_label.png",
+   "kind": "label",
+   "path": "SAA24_label.png"
+  }
+ ]
+}

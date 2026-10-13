@@ -27,7 +27,8 @@ class Settings(BaseSettings):
     llm_rpm: int = 18
     llm_concurrency: int = 6
     llm_max_retries: int = 4
-    llm_timeout_s: float = 300.0
+    # Calls normally take 1-15 s; fail over sooner when the endpoint hangs
+    llm_timeout_s: float = 90.0
     # Save every live answer so it can be replayed without the model
     llm_record: bool = True
     replay_dir: Path = Path(__file__).resolve().parents[2] / "data" / "replay"

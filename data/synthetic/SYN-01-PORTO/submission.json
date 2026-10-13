@@ -1,0 +1,89 @@
+{
+ "product_id": "SYN-01",
+ "supplier": "Móveis Lusa, Lda.",
+ "email": {
+  "from": "comercial@moveislusa.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-02",
+  "subject": "Nova coleção AW26 – poltrona PORTO – ficha técnica + fotos",
+  "body": "Bom dia,\n\nSegue em anexo a ficha técnica do produto PORTO (2 cores) e as fotos.\nHi team, please find attached the spec sheet for PORTO and the photos.\n\nCumprimentos,\nRita Moreira\nMóveis Lusa, Lda.",
+  "attachments": [
+   "POR01_ficha_tecnica_v2.pdf",
+   "POR01_AZU_front.jpg",
+   "POR01_AZU_34.jpg",
+   "POR01_AZU_side.jpg",
+   "IMG_4834.JPG",
+   "POR01_ANT_front.jpg",
+   "POR01_ANT_34.jpg",
+   "POR01_ANT_side.jpg",
+   "POR01_ANT_detail.jpg",
+   "POR01_label.png",
+   "POR01_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "POR01_AZU_front.jpg",
+   "kind": "photo",
+   "abo_path": "7c/7c7e06f2.jpg",
+   "sha256": "b814ad131bad1907a28f0da04adc38812bc56db19f36805c92157303ccedefc3"
+  },
+  {
+   "file": "POR01_AZU_34.jpg",
+   "kind": "photo",
+   "abo_path": "13/13abb626.jpg",
+   "sha256": "f15826294f3811071e7d3e47dd73019c47759a8d21f57011b605c079db5b16f0"
+  },
+  {
+   "file": "POR01_AZU_side.jpg",
+   "kind": "photo",
+   "abo_path": "4c/4c5e656c.jpg",
+   "sha256": "098629aa4200521c10df0649971c9105e59ca70d345faf4336f32f14c86f86d1"
+  },
+  {
+   "file": "IMG_4834.JPG",
+   "kind": "photo",
+   "abo_path": "1a/1abc7755.jpg",
+   "sha256": "efd69ccd26d644ff51840d88a58fb1957e62918c8e0ba3c457b8870eeb30b18b"
+  },
+  {
+   "file": "POR01_ANT_front.jpg",
+   "kind": "photo",
+   "abo_path": "d7/d7d5f6cd.jpg",
+   "sha256": "040c2b7ff2e5b5b2ae36f681f72b03e13d77cf142c70c88ee365eebc10e62b39"
+  },
+  {
+   "file": "POR01_ANT_34.jpg",
+   "kind": "photo",
+   "abo_path": "69/69bd57b4.jpg",
+   "sha256": "6cd030c1c7ca8489eda137772592b2e15d91959e0099907417b26b16226c7193"
+  },
+  {
+   "file": "POR01_ANT_side.jpg",
+   "kind": "photo",
+   "abo_path": "7f/7fd79202.jpg",
+   "sha256": "f0d1a34fe38f9a001bef9261d68b6e72e2a7a695afbf34abc9e7c28c68f678e0"
+  },
+  {
+   "file": "POR01_ANT_detail.jpg",
+   "kind": "photo",
+   "abo_path": "bf/bfa01cae.jpg",
+   "sha256": "7a2072508fb795e3c2e4f1cebc8663ddc57e9cedd8115f5a66620572be0a1d8a"
+  },
+  {
+   "file": "POR01_label.png",
+   "kind": "label",
+   "path": "POR01_label.png"
+  },
+  {
+   "file": "POR01_dimensions.png",
+   "kind": "drawing",
+   "path": "POR01_dimensions.png"
+  }
+ ]
+}

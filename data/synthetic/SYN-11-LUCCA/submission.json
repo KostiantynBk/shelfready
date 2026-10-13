@@ -1,0 +1,95 @@
+{
+ "product_id": "SYN-11",
+ "supplier": "Arredo Brianza S.r.l.",
+ "email": {
+  "from": "ordini@arredobrianza.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-03",
+  "subject": "Novità collezione 2027 – LUCCA – scheda tecnica e foto",
+  "body": "Buongiorno,\n\nin allegato la scheda tecnica di LUCCA (2 colori), il listino e le foto.\nPlease find attached the data sheet, price list and photos.\n\nCordiali saluti,\nGiulia Colombo\nArredo Brianza S.r.l.",
+  "attachments": [
+   "LUCCA_scheda_tecnica.pdf",
+   "LUCCA_ANT_01.jpg",
+   "LUCCA_ANT_02.jpg",
+   "LUCCA_ANT_03.jpg",
+   "IMG_4127.JPG",
+   "LUCCA_SAB_01.jpg",
+   "LUCCA_SAB_02.jpg",
+   "LUCCA_SAB_03.jpg",
+   "LUCCA_SAB_04.jpg",
+   "LUC11_SAB_back_small.jpg",
+   "LUC11_label.png",
+   "LUC11_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "LUCCA_ANT_01.jpg",
+   "kind": "photo",
+   "abo_path": "45/45c3b724.jpg",
+   "sha256": "b32ce2438098d178d236c2997a9c034079da90bf9d8b804925f3e00abbf8c45c"
+  },
+  {
+   "file": "LUCCA_ANT_02.jpg",
+   "kind": "photo",
+   "abo_path": "51/518317c0.jpg",
+   "sha256": "a6473293f2576f552f4af3304c94426993a3978471813d2a03f0e58ca32acd63"
+  },
+  {
+   "file": "LUCCA_ANT_03.jpg",
+   "kind": "photo",
+   "abo_path": "1d/1d0cb202.jpg",
+   "sha256": "71e7e7daaf5c4c1c65a8e902c3db5a20ae603bbc2d903a903bf2ce74aec5e8a8"
+  },
+  {
+   "file": "IMG_4127.JPG",
+   "kind": "photo",
+   "abo_path": "10/10f02a18.jpg",
+   "sha256": "a885395d1724d13fe29d4938ea75da2162d8c60229d54feacd02d131d09769a1"
+  },
+  {
+   "file": "LUCCA_SAB_01.jpg",
+   "kind": "photo",
+   "abo_path": "c2/c251dc5a.jpg",
+   "sha256": "6bc674b3e8e4b565932b2fcc0c6b0942663f835ebc46e5a67007595b534b4bda"
+  },
+  {
+   "file": "LUCCA_SAB_02.jpg",
+   "kind": "photo",
+   "abo_path": "aa/aad96778.jpg",
+   "sha256": "eb313ed308f20f3c07521c6c300419cc00cf0a6530b35dffcac56559c5f70222"
+  },
+  {
+   "file": "LUCCA_SAB_03.jpg",
+   "kind": "photo",
+   "abo_path": "00/00f785e2.jpg",
+   "sha256": "df33fa78993db1179ad674337781fe25d018322e04abc4da4f873031552fc6cb"
+  },
+  {
+   "file": "LUCCA_SAB_04.jpg",
+   "kind": "photo",
+   "abo_path": "eb/eb9547c9.jpg",
+   "sha256": "4630c88433c8b2c65fb9f92f8fb2b5f78e6e8636856c59002cc08a9fd4c7b015"
+  },
+  {
+   "file": "LUC11_SAB_back_small.jpg",
+   "kind": "photo",
+   "path": "LUC11_SAB_back_small.jpg"
+  },
+  {
+   "file": "LUC11_label.png",
+   "kind": "label",
+   "path": "LUC11_label.png"
+  },
+  {
+   "file": "LUC11_dimensions.png",
+   "kind": "drawing",
+   "path": "LUC11_dimensions.png"
+  }
+ ]
+}

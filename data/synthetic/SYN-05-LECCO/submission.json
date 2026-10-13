@@ -1,0 +1,89 @@
+{
+ "product_id": "SYN-05",
+ "supplier": "Arredo Brianza S.r.l.",
+ "email": {
+  "from": "ordini@arredobrianza.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-06",
+  "subject": "Novità collezione 2027 – LECCO – scheda tecnica e foto",
+  "body": "Buongiorno,\n\nin allegato la scheda tecnica di LECCO (2 colori), il listino e le foto.\nPlease find attached the data sheet, price list and photos.\n\nCordiali saluti,\nGiulia Colombo\nArredo Brianza S.r.l.",
+  "attachments": [
+   "LECCO_scheda_tecnica.pdf",
+   "LECCO_COG_01.jpg",
+   "LECCO_COG_02.jpg",
+   "LECCO_COG_03.jpg",
+   "IMG_4579.JPG",
+   "LECCO_ANT_01.jpg",
+   "LECCO_ANT_02.jpg",
+   "LECCO_ANT_03.jpg",
+   "LECCO_ANT_04.jpg",
+   "LEC05_label.png",
+   "LEC05_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "LECCO_scheda_tecnica.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "LECCO_COG_01.jpg",
+   "kind": "photo",
+   "abo_path": "b4/b47afc9f.jpg",
+   "sha256": "d799d12c1d37a62071f44a8729783817a64a03319a867d9f9b108616befe7b5d"
+  },
+  {
+   "file": "LECCO_COG_02.jpg",
+   "kind": "photo",
+   "abo_path": "78/7809ba08.jpg",
+   "sha256": "fa8fb82e5f0201f34e3dbf85f8db6cf5f80c7b5a453c793ee9782614059773f9"
+  },
+  {
+   "file": "LECCO_COG_03.jpg",
+   "kind": "photo",
+   "abo_path": "f0/f0b44fd1.jpg",
+   "sha256": "2b1f79c03b2009e12dcdfa68d0a988d982e50e1ffd45ed360af19f25f97be46c"
+  },
+  {
+   "file": "IMG_4579.JPG",
+   "kind": "photo",
+   "abo_path": "f2/f2786a14.jpg",
+   "sha256": "9d5dda1d904b752537895899973c4f1ebd28b6af159aa3603db2ec44c04a2834"
+  },
+  {
+   "file": "LECCO_ANT_01.jpg",
+   "kind": "photo",
+   "abo_path": "36/369c2f4c.jpg",
+   "sha256": "088ced92d6d48157ea91d63dce8bf9f380c9b33db0a2de9b821789eafe7f3a4f"
+  },
+  {
+   "file": "LECCO_ANT_02.jpg",
+   "kind": "photo",
+   "abo_path": "d0/d03d609e.jpg",
+   "sha256": "759ae0c2800a77cf5d6d4108d3d5a3791aaa03790000a0f0e3990ceb0da78b60"
+  },
+  {
+   "file": "LECCO_ANT_03.jpg",
+   "kind": "photo",
+   "abo_path": "67/67d65735.jpg",
+   "sha256": "fc97205df23159b340764f61d3c1708ba19c4c4343e915b19fa1476140887597"
+  },
+  {
+   "file": "LECCO_ANT_04.jpg",
+   "kind": "photo",
+   "abo_path": "6c/6c2d69c3.jpg",
+   "sha256": "a340424214fe9f8fb8775f56094aab5335c860f006bb1636f0c16d7420e21dd2"
+  },
+  {
+   "file": "LEC05_label.png",
+   "kind": "label",
+   "path": "LEC05_label.png"
+  },
+  {
+   "file": "LEC05_dimensions.png",
+   "kind": "drawing",
+   "path": "LEC05_dimensions.png"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "product_id": "SYN-06",
+ "supplier": "Nordholz Wohnen GmbH",
+ "email": {
+  "from": "vertrieb@nordholz-wohnen.example",
+  "to": "compras@casanord.example",
+  "date": "2026-10-07",
+  "subject": "Neuheit ISAR (Esszimmerstuhl) – Produktdatenblatt und Fotos",
+  "body": "Guten Tag,\n\nanbei das Produktdatenblatt für ISAR (2 Farben) und die Fotos.\nAttached you will find the product data sheet and photos.\n\nMit freundlichen Grüßen\nJonas Weber\nNordholz Wohnen GmbH",
+  "attachments": [
+   "ISAR_Produktdatenblatt.pdf",
+   "ISAR-ANT-1.jpg",
+   "ISAR-ANT-2.jpg",
+   "ISAR-ANT-3.jpg",
+   "IMG_4603.JPG",
+   "ISAR-SAN-1.jpg",
+   "ISAR-SAN-2.jpg",
+   "ISAR-SAN-3.jpg",
+   "ISAR-SAN-4.jpg",
+   "ISA06_label.png",
+   "ISA06_dimensions.png"
+  ]
+ },
+ "attachments": [
+  {
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "kind": "spec",
+   "path": "spec.pdf"
+  },
+  {
+   "file": "ISAR-ANT-1.jpg",
+   "kind": "photo",
+   "abo_path": "e6/e6191bce.jpg",
+   "sha256": "3dfce25934d4ea6317097103947d5b50b9c4623d759d6a7ae4f15fa514bf61e0"
+  },
+  {
+   "file": "ISAR-ANT-2.jpg",
+   "kind": "photo",
+   "abo_path": "1f/1fd9b7e5.jpg",
+   "sha256": "feb7a040b510aceed282d8d0bf4b77bf8ef67511312f9fa0a277348136cb0c6d"
+  },
+  {
+   "file": "ISAR-ANT-3.jpg",
+   "kind": "photo",
+   "abo_path": "9e/9eea9423.jpg",
+   "sha256": "8b836f62123f2afc2c72191718a2e61e995acac577f5911e832e2ddb6f25420e"
+  },
+  {
+   "file": "IMG_4603.JPG",
+   "kind": "photo",
+   "abo_path": "e8/e8c207ff.jpg",
+   "sha256": "9d3dfd559174fb7896ff144b0f3838b32e999b585feb176e4f07c2fad1b17b7b"
+  },
+  {
+   "file": "ISAR-SAN-1.jpg",
+   "kind": "photo",
+   "abo_path": "f8/f814a26e.jpg",
+   "sha256": "5c3ef41b6b8e5f3a56e802465681451bb51bbf4113008d9bc7feb917c87bc7a1"
+  },
+  {
+   "file": "ISAR-SAN-2.jpg",
+   "kind": "photo",
+   "abo_path": "e9/e985d6aa.jpg",
+   "sha256": "85603b7ef2078c97ac266f5881b0b8d427aa19bfb9a8ddf83c1ed350317bb7c4"
+  },
+  {
+   "file": "ISAR-SAN-3.jpg",
+   "kind": "photo",
+   "abo_path": "28/286ad7ed.jpg",
+   "sha256": "327cad5edf905e4c428a181076ecac1238e9b7ef11b72f9fe2f53ffc4fc6c9b4"
+  },
+  {
+   "file": "ISAR-SAN-4.jpg",
+   "kind": "photo",
+   "abo_path": "3f/3f619d87.jpg",
+   "sha256": "2dc1498d7fc7d55d514f168d36243024c78a05b740ef6a7911db5fb3737fb7c8"
+  },
+  {
+   "file": "ISA06_label.png",
+   "kind": "label",
+   "path": "ISA06_label.png"
+  },
+  {
+   "file": "ISA06_dimensions.png",
+   "kind": "drawing",
+   "path": "ISA06_dimensions.png"
+  }
+ ]
+}
