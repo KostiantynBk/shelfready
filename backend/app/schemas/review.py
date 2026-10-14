@@ -13,10 +13,10 @@ ReturnRisk = Literal["dimensions", "colour", "material", "care", "missing_info",
 
 
 class Issue(BaseModel):
-    rule: str  # D1…D17, the defect catalogue's id (data/defects.yaml)
+    rule: str  # D1…D17 (data/defects.yaml), A1…A9 (catalogue audit), T1…T5 (translation QA)
     product_id: str
     variant: str | None = None  # variant code, or None for the whole product
-    type: Literal["missing", "contradictory", "compliance", "quality"]
+    type: Literal["missing", "contradictory", "compliance", "quality", "translation"]
     severity: Severity
     return_risk: ReturnRisk
     title: str
@@ -28,3 +28,17 @@ class Issue(BaseModel):
     file: str | None = None  # the image the issue is about (overlay, low-res, misfiled photo)
     evidence: list[Evidence] = []
     status: Literal["open", "resolved", "asked_supplier"] = "open"
+
+    @property
+    def id(self) -> str:
+        """Stable key for decisions: the same finding gets the same id on every run."""
+        return ":".join([self.rule, self.variant or "", self.attribute, self.file or ""])
+
+
+class Decision(BaseModel):
+    """A person's answer to an issue. use_found takes the photo/label/drawing value (or the proposal);
+    edit sets `value`; accept keeps the supplier's data as it is (or acknowledges an info item)."""
+
+    action: Literal["use_spec", "use_found", "edit", "accept", "ask_supplier"]
+    value: str | None = None
+    note: str | None = None

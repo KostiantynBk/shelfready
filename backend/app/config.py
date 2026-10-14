@@ -51,9 +51,16 @@ class Settings(BaseSettings):
     gpu_hourly_usd: float = 1.99
     data_dir: Path = Path("./data/runtime")
 
+    # Browser origins allowed to call the API (the Next.js app locally and on Vercel)
+    cors_origins: str = "http://localhost:3000,https://shelfready-liard.vercel.app"
+
     @property
     def language_list(self) -> list[str]:
         return [code.strip() for code in self.languages.split(",") if code.strip()]
+
+    @property
+    def cors_origin_list(self) -> list[str]:
+        return [origin.strip() for origin in self.cors_origins.split(",") if origin.strip()]
 
 
 @lru_cache

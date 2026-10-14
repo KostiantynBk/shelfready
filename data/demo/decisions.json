@@ -1,0 +1,13 @@
+{
+ "SYN-00": {
+  "D1::seat_height:": {"action": "use_found", "note": "Seat height from the dimension drawing"},
+  "D2::seat_depth:": {"action": "accept", "note": "500 mm is shown as 50 cm"},
+  "D3:LIS-01-ANT:ean:": {"action": "ask_supplier"},
+  "D4:LIS-01-ARE:ean:": {"action": "ask_supplier"},
+  "D5::care:": {"action": "use_found", "note": "The sewn-in care label wins over the spec sheet"},
+  "D6:LIS-01-ANT:legs_or_base:": {"action": "use_found", "note": "All photos of Antracite show wooden legs"},
+  "D7::safety_warnings:": {"action": "accept", "note": "Warnings are translated into every shop language and checked"},
+  "D8::photo:LIS01_promo.jpg": {"action": "accept", "note": "Promo image left out of the shop photos"},
+  "D9::photo:LIS01_ARE_back_small.jpg": {"action": "accept", "note": "Low-resolution image left out"}
+ }
+}
