@@ -110,7 +110,7 @@ _COLOURS = _table({
     "blue": "blue|blu|azul|blau|bleu|navy|marine|marinho|denim|jeans|indigo|teal|petrol|ottanio|turquoise|turchese|aqua|celeste|cobalt",
     "brown": "brown|marrone|marron|castanho|braun|brun|cognac|caramel|chocolate|cioccolato|walnut|nogueira|nussbaum|chestnut|tabacco|tabaco|camel|mocha|saddle",
     "black": "black|nero|preto|schwarz|noir|negro|ebony|ebano|ebenholz",
-    "white": "white|bianco|branco|weiss|blanc|blanco|snow|chalk|ivory|avorio|marfim|elfenbein",
+    "white": "white|bianco|branco|weiss|blanc|blanco|snow|chalk|ivory|avorio|marfim|marfil|elfenbein",
     "pink": "pink|rosa|rose|cipria|blush|salmon|salmao|salmone|fuchsia",
     "red": "red|rosso|vermelho|rot|rouge|rojo|bordeaux|bordo|burgundy|wine|cherry|ciliegia|brick|mattone",
     "orange": "orange|arancio|laranja|naranja|terracot|terrakotta|rust|ruggine|coral",
@@ -135,6 +135,12 @@ def _first(table: list[tuple[re.Pattern[str], str]], text: str | None) -> str | 
 def colour_family(name: str | None) -> str | None:
     """'Antracite' → 'grey', 'Verde salvia' → 'green', 'Moosgrün' → 'green'."""
     return _first(_COLOURS, name)
+
+
+def colour_families(name: str | None) -> set[str]:
+    """Every colour named: 'Ivory Blue' → {'white', 'blue'}, 'Purple/Cream' → {'purple', 'beige'}."""
+    folded = _fold(name or "")
+    return {category for pattern, category in _COLOURS if pattern.search(folded)}
 
 
 def colours_compatible(a: str | None, b: str | None) -> bool:

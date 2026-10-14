@@ -1,0 +1,44 @@
+{
+ "key": "2345eaac14bae4dd37f1111541f1ce6faabfd15afb0014ce6a6b3e556d4ef92e",
+ "purpose": "audit-photo:B07TJWD8RP:71CHw+3R1aL",
+ "recorded_at": "2026-10-14T11:43:18+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"Box\": {\"properties\": {\"label\": {\"type\": \"string\"}, \"box_2d\": {\"description\": \"[y0, x0, y1, x1] normalised to 0-1000\", \"items\": {\"type\": \"integer\"}, \"maxItems\": 4, \"minItems\": 4, \"type\": \"array\"}}, \"required\": [\"label\", \"box_2d\"], \"type\": \"object\"}}, \"properties\": {\"role\": {\"enum\": [\"packshot\", \"detail\", \"lifestyle\", \"label\", \"dimension_drawing\", \"packaging\", \"promo\", \"other\"], \"type\": \"string\"}, \"product_type\": {\"description\": \"e.g. armchair, sofa, table lamp, area rug\", \"type\": \"string\"}, \"products_in_frame\": {\"type\": \"integer\"}, \"colour_family\": {\"description\": \"main colour of the product's upholstery, body or pile\", \"enum\": [\"black\", \"white\", \"grey\", \"beige\", \"brown\", \"red\", \"orange\", \"yellow\", \"green\", \"blue\", \"purple\", \"pink\", \"gold\", \"silver\", \"multicolour\"], \"type\": \"string\"}, \"upholstery_material\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"visible covering, e.g. velvet, leather, boucle; null if none\"}, \"legs_material\": {\"description\": \"seating: legs; 'none_visible' if no legs show\", \"enum\": [\"wood\", \"metal\", \"plastic\", \"glass\", \"ceramic\", \"stone\", \"fabric\", \"none_visible\", \"unsure\"], \"type\": \"string\"}, \"base_material\": {\"description\": \"lamps: base or body; 'none_visible' for other products\", \"enum\": [\"wood\", \"metal\", \"plastic\", \"glass\", \"ceramic\", \"stone\", \"fabric\", \"none_visible\", \"unsure\"], \"type\": \"string\"}, \"legs_finish\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"e.g. light oak, dark walnut, black matt, chrome; null if unsure\"}, \"text_in_image\": {\"description\": \"every piece of text printed on or in the photo, as read\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"has_text_overlay\": {\"description\": \"text or graphics added on top of the photo (e.g. a sale badge)\", \"type\": \"boolean\"}, \"white_background\": {\"type\": \"boolean\"}, \"confidence\": {\"maximum\": 1, \"minimum\": 0, \"type\": \"number\"}, \"boxes\": {\"description\": \"'leg' for each visible leg, 'base' for a lamp base, 'text' for text\", \"items\": {\"$ref\": \"#/$defs/Box\"}, \"type\": \"array\"}}, \"required\": [\"role\", \"product_type\", \"products_in_frame\", \"colour_family\", \"upholstery_material\", \"legs_material\", \"base_material\", \"legs_finish\", \"text_in_image\", \"has_text_overlay\", \"white_background\", \"confidence\", \"boxes\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "sha256:02b1b1939addf6e286dc5a155bb3bc82f44aee186d762bccdee07faed0f9c421@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "You are a product-data inspector for an online furniture and home shop. Describe only what is visible in this photo. Do not guess hidden details: use 'unsure' or 'none_visible' when you cannot see something. Dark-stained wood can look black: answer 'wood' or 'metal' only when wood grain or metal sheen is clearly visible, otherwise 'unsure'.\nPut a box_2d around every visible leg (label 'leg'), around a lamp's base (label 'base') and around any text, logo or badge printed on the image (label 'text'). box_2d is [y0, x0, y1, x1] normalised to 0-1000."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"role\": \"dimension_drawing\", \"product_type\": \"chair\", \"products_in_frame\": 1, \"colour_family\": \"white\", \"upholstery_material\": null, \"legs_material\": \"unsure\", \"base_material\": \"none_visible\", \"legs_finish\": null, \"text_in_image\": [\"850mm\", \"310mm\", \"420mm\", \"440mm\", \"400mm\", \"485mm\", \"490mm\", \"SIZE : 485*550*850mm\", \"Height+/-0.5cm\"], \"has_text_overlay\": false, \"white_background\": true, \"confidence\": 1.0, \"boxes\": [{\"label\": \"text\", \"box_2d\": [362, 46, 432, 82]}, {\"label\": \"text\", \"box_2d\": [67, 296, 98, 415]}, {\"label\": \"text\", \"box_2d\": [171, 306, 253, 353]}, {\"label\": \"text\", \"box_2d\": [275, 393, 307, 512]}, {\"label\": \"text\", \"box_2d\": [346, 562, 395, 681]}, {\"label\": \"text\", \"box_2d\": [382, 488, 416, 607]}, {\"label\": \"text\", \"box_2d\": [646, 933, 727, 970]}, {\"label\": \"text\", \"box_2d\": [912, 322, 941, 674]}, {\"label\": \"text\", \"box_2d\": [956, 368, 985, 628]}, {\"label\": \"leg\", \"box_2d\": [461, 168, 761, 441]}, {\"label\": \"leg\", \"box_2d\": [466, 450, 865, 512]}, {\"label\": \"leg\", \"box_2d\": [466, 547, 773, 841]}, {\"label\": \"leg\", \"box_2d\": [470, 497, 673, 541]}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1158,
+   "completion_tokens": 584
+  },
+  "latency_s": 16.594
+ }
+}
