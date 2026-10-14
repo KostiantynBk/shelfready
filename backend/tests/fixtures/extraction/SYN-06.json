@@ -1,0 +1,971 @@
+{
+ "submission_id": "SYN-06",
+ "spec": {
+  "product_name": "ISAR",
+  "supplier": "Nordholz Wohnen GmbH",
+  "product_type": "Esszimmerstuhl ISAR / ISAR dining chair",
+  "manufacturer": "Nordholz Wohnen GmbH",
+  "manufacturer_address": "Industriestraße 21, 32051 Herford, Deutschland · service@nordholz-wohnen.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Deutschland",
+  "width": {
+   "value": "59",
+   "unit": "cm",
+   "source_text": "59 x 50 x 89 cm"
+  },
+  "depth": {
+   "value": "50",
+   "unit": "cm",
+   "source_text": "59 x 50 x 89 cm"
+  },
+  "height": {
+   "value": "89",
+   "unit": "cm",
+   "source_text": "59 x 50 x 89 cm"
+  },
+  "seat_height": {
+   "value": "45",
+   "unit": "cm",
+   "source_text": "45 cm"
+  },
+  "seat_depth": {
+   "value": "300",
+   "unit": "mm",
+   "source_text": "300 mm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "9",
+   "unit": "kg",
+   "source_text": "9 kg"
+  },
+  "legs_or_base": "Pulverbeschichteter Stahl, schwarz matt / powder-coated steel, matt black",
+  "upholstery": "Webstoff, 100 % Polyester / woven fabric, 100% polyester",
+  "care": "Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C",
+  "variants": [
+   {
+    "code": "ISA-06-ANT",
+    "colour_name": "Anthrazit",
+    "ean": "4012345006018"
+   },
+   {
+    "code": "ISA-06-SAN",
+    "colour_name": "Anthrazit",
+    "ean": "4012345006025"
+   }
+  ],
+  "safety_warnings": [
+   "Nicht im Freien verwenden",
+   "Not for outdoor use.",
+   "Von Wärmequellen fernhalten",
+   "Keep away from heat sources.",
+   "Nicht auf die Sitzfläche stellen.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "de",
+   "en",
+   "de",
+   "en",
+   "de",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.1862877145581303,
+    0.42357390655264116,
+    0.1951959242047288
+   ],
+   "text": "59 x 50 x 89 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.1862877145581303,
+    0.42357390655264116,
+    0.1951959242047288
+   ],
+   "text": "59 x 50 x 89 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.1862877145581303,
+    0.42357390655264116,
+    0.1951959242047288
+   ],
+   "text": "59 x 50 x 89 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.2067765967453068,
+    0.36891555652683516,
+    0.2156848063919053
+   ],
+   "text": "45 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.2228113741091841,
+    0.38012421138679825,
+    0.2317195837557826
+   ],
+   "text": "300 mm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.23884615147306143,
+    0.37243634208981613,
+    0.24775436111965993
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.2548809288369386,
+    0.35841475187657756,
+    0.2637891384835371
+   ],
+   "text": "9 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.164908011406294,
+    0.747264595041507,
+    0.1738162210528925
+   ],
+   "text": "Pulverbeschichteter Stahl, schwarz matt / powder-coated steel, matt black",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.1488732340424167,
+    0.6578415650728967,
+    0.15778144368901517
+   ],
+   "text": "Webstoff, 100 % Polyester / woven fabric, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33458789681504997,
+    0.2709157062008159,
+    0.7658102713173569,
+    0.2798239158474144
+   ],
+   "text": "Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.20592594928799215,
+    0.4813116981118388,
+    0.6122800056310997,
+    0.48888367631144747
+   ],
+   "text": "Industriestraße 21, 32051 Herford, Deutschland · service@nordholz-wohnen.example",
+   "note": null
+  },
+  "ean:ISA-06-ANT": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.40482633901003234,
+    0.38494078967727646,
+    0.49596667539608275,
+    0.393848999323875
+   ],
+   "text": "4012345006018",
+   "note": null
+  },
+  "ean:ISA-06-SAN": {
+   "source": "pdf",
+   "file": "ISAR_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.40482633901003234,
+    0.4009755670411538,
+    0.49596667539608275,
+    0.4098837766877523
+   ],
+   "text": "4012345006025",
+   "note": null
+  }
+ },
+ "images": {
+  "ISAR-ANT-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "dining chair",
+    "products_in_frame": 2,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "dark brown",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       653,
+       62,
+       785,
+       88
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       653,
+       211,
+       972,
+       236
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       573,
+       453,
+       853,
+       478
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       573,
+       521,
+       855,
+       546
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       653,
+       753,
+       966,
+       778
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       573,
+       904,
+       793,
+       929
+      ]
+     }
+    ]
+   },
+   "size": [
+    2484,
+    1840
+   ],
+   "low_res": false
+  },
+  "ISAR-ANT-2.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "dark brown",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       585,
+       231,
+       803,
+       268
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       585,
+       714,
+       807,
+       746
+      ]
+     }
+    ]
+   },
+   "size": [
+    1707,
+    2560
+   ],
+   "low_res": false
+  },
+  "ISAR-ANT-3.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "dark brown",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       645,
+       255,
+       881,
+       293
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       645,
+       706,
+       881,
+       744
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       653,
+       284,
+       736,
+       322
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       653,
+       677,
+       736,
+       715
+      ]
+     }
+    ]
+   },
+   "size": [
+    1707,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4603.JPG": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "dark brown",
+    "text_in_image": [
+     "35\"",
+     "23.2\"",
+     "19.7\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       413,
+       43,
+       455,
+       135
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       803,
+       213,
+       903,
+       358
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       864,
+       658,
+       931,
+       813
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       543,
+       158,
+       762,
+       205
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       568,
+       433,
+       922,
+       485
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       543,
+       895,
+       822,
+       942
+      ]
+     }
+    ]
+   },
+   "size": [
+    1295,
+    1869
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 49.8,
+    "depth_cm": 58.9,
+    "height_cm": 88.9,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "ISAR-SAN-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "dining chair",
+    "products_in_frame": 2,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "bronze",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       573,
+       68,
+       914,
+       100
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       603,
+       191,
+       996,
+       216
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       611,
+       271,
+       861,
+       296
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       581,
+       441,
+       961,
+       466
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       581,
+       523,
+       961,
+       548
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       661,
+       678,
+       865,
+       703
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       603,
+       775,
+       992,
+       800
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       573,
+       895,
+       911,
+       926
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1586
+   ],
+   "low_res": false
+  },
+  "ISAR-SAN-2.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "bronze",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       601,
+       253,
+       988,
+       286
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       601,
+       714,
+       986,
+       747
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       601,
+       683,
+       863,
+       714
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       601,
+       283,
+       863,
+       314
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "ISAR-SAN-3.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "bronze",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       615,
+       231,
+       986,
+       292
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       613,
+       765,
+       986,
+       802
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "ISA06_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "care label",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "NORDHOLZ WOHNEN GMBH",
+     "ISA-06",
+     "100 % POLYESTER",
+     "100% POLYESTER",
+     "Bezug abnehmbar",
+     "Removable cover",
+     "30",
+     "Hergestellt in Deutschland"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       108,
+       193,
+       142,
+       806
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       168,
+       442,
+       201,
+       557
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       227,
+       308,
+       261,
+       691
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       288,
+       311,
+       322,
+       688
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       348,
+       337,
+       382,
+       662
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       409,
+       351,
+       443,
+       648
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       613,
+       253,
+       658,
+       306
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       778,
+       288,
+       812,
+       731
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYESTER",
+    "wash_max_temp_c": 30,
+    "do_not_wash": false,
+    "dry_clean_only": false,
+    "removable_cover": true,
+    "other_text": [
+     "NORDHOLZ WOHNEN GMBH",
+     "ISA-06",
+     "Bezug abnehmbar",
+     "Removable cover",
+     "Hergestellt in Deutschland"
+    ]
+   }
+  },
+  "ISA06_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "VORNE / FRONT",
+     "SEITE / SIDE",
+     "89",
+     "45",
+     "59 cm",
+     "50 cm",
+     "ISA-06 · Maße in cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       44,
+       91,
+       82,
+       253
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       44,
+       611,
+       82,
+       746
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       524,
+       7,
+       563,
+       31
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       674,
+       346,
+       713,
+       371
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       904,
+       171,
+       943,
+       238
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       904,
+       686,
+       943,
+       753
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       963,
+       824,
+       993,
+       991
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       102,
+       824,
+       115
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       295,
+       824,
+       308
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       618,
+       824,
+       631
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       791,
+       824,
+       804
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 59.0,
+    "depth_cm": 50.0,
+    "height_cm": 89.0,
+    "seat_height_cm": 45.0,
+    "product_code": "ISA-06"
+   }
+  }
+ },
+ "errors": {
+  "ISAR-SAN-4.jpg": "LLMError: photo:SYN-06:ISAR-SAN-4.jpg: gave up after 5 attempts: Error code: 500 - {'error': {'message': 'Error from provider self-dploy: 503 Service Unavailable {\"error\":{\"type\":\"Service Unavailable\",\"code\":\"no_available_workers\",\"message\":\"No available workers (all circuits open or unhealthy)\"}}',"
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

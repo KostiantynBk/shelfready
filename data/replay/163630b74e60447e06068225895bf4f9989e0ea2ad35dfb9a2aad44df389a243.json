@@ -1,0 +1,44 @@
+{
+ "key": "163630b74e60447e06068225895bf4f9989e0ea2ad35dfb9a2aad44df389a243",
+ "purpose": "drawing:SYN-13:SIE13_dimensions.png",
+ "recorded_at": "2026-10-14T05:54:23+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"description\": \"A technical dimension drawing: the labelled measurements in centimetres.\", \"properties\": {\"width_cm\": {\"anyOf\": [{\"type\": \"number\"}, {\"type\": \"null\"}]}, \"depth_cm\": {\"anyOf\": [{\"type\": \"number\"}, {\"type\": \"null\"}]}, \"height_cm\": {\"anyOf\": [{\"type\": \"number\"}, {\"type\": \"null\"}]}, \"seat_height_cm\": {\"anyOf\": [{\"type\": \"number\"}, {\"type\": \"null\"}], \"description\": \"null if the drawing does not show it\"}, \"product_code\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"code printed on the drawing, if any\"}}, \"required\": [\"width_cm\", \"depth_cm\", \"height_cm\", \"seat_height_cm\", \"product_code\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "sha256:8d8e14452f3bbf2c4c01614d8942d3af0065c0c3b05fa01401ac813350a64257@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "This is a technical dimension drawing of a piece of furniture, in centimetres. Read the labelled dimensions: overall width, depth and height, and the seat height if it is shown. Use null for a dimension that is not labelled."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"width_cm\": 224, \"depth_cm\": 71, \"height_cm\": 91, \"seat_height_cm\": 44, \"product_code\": \"SIE-13\"}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 536,
+   "completion_tokens": 51
+  },
+  "latency_s": 15.688
+ }
+}

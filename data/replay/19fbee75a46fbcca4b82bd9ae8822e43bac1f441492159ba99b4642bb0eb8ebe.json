@@ -1,0 +1,44 @@
+{
+ "key": "19fbee75a46fbcca4b82bd9ae8822e43bac1f441492159ba99b4642bb0eb8ebe",
+ "purpose": "drawing:SYN-11:LUC11_dimensions.png",
+ "recorded_at": "2026-10-14T05:54:07+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"description\": \"A technical dimension drawing: the labelled measurements in centimetres.\", \"properties\": {\"width_cm\": {\"anyOf\": [{\"type\": \"number\"}, {\"type\": \"null\"}]}, \"depth_cm\": {\"anyOf\": [{\"type\": \"number\"}, {\"type\": \"null\"}]}, \"height_cm\": {\"anyOf\": [{\"type\": \"number\"}, {\"type\": \"null\"}]}, \"seat_height_cm\": {\"anyOf\": [{\"type\": \"number\"}, {\"type\": \"null\"}], \"description\": \"null if the drawing does not show it\"}, \"product_code\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"code printed on the drawing, if any\"}}, \"required\": [\"width_cm\", \"depth_cm\", \"height_cm\", \"seat_height_cm\", \"product_code\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "sha256:29d90fdf58c633c8b4271bf40d16bcee7cc344de662b221c8056fdb52c3729fe@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "This is a technical dimension drawing of a piece of furniture, in centimetres. Read the labelled dimensions: overall width, depth and height, and the seat height if it is shown. Use null for a dimension that is not labelled."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"width_cm\": 226, \"depth_cm\": 107, \"height_cm\": 80, \"seat_height_cm\": 44, \"product_code\": \"LUC-11\"}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 536,
+   "completion_tokens": 53
+  },
+  "latency_s": 13.453
+ }
+}

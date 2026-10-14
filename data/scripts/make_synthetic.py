@@ -703,7 +703,9 @@ def spec_html(doc: dict, date: str) -> str:
         warning_lines = warnings[lang]
     head = f"<!DOCTYPE html><html><head><meta charset='utf-8'><style>@page{{size:A4;margin:14mm}}{STYLE[style]}</style></head><body>"
     title = f"{loc['sheet']} / {en['sheet']} · Ref. {doc['code']} · Rev. 2 · {date}"
-    footer = f"<div class='f'>{e(supplier['name'])} · {e(supplier['address'])}</div>"
+    # D12: the address is missing from the whole sheet, the footer included (the supplier is the manufacturer)
+    footer_text = supplier["name"] if doc["missing_address"] else f"{supplier['name']} · {supplier['address']}"
+    footer = f"<div class='f'>{e(footer_text)}</div>"
     var_head = f"<tr><th>{loc['code']}</th><th>{loc['colour']}</th><th>EAN</th><th>{loc['price']}</th><th>{loc['rrp']}</th></tr>"
     var_rows = "".join(f"<tr><td>{e(c)}</td><td>{e(n)}</td><td>{e(ean)}</td><td>{number(pr, lang)}</td>"
                        f"<td>{number(round(pr * 2.4), lang)}</td></tr>" for c, n, ean, pr in variants)  # fmt: skip
@@ -970,6 +972,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
+    parser.add_argument("--out", type=Path, default=OUT, help="output folder (default data/synthetic)")
     parser.add_argument("--allow-unconfirmed", action="store_true",
                         help="use unconfirmed (or ABO-derived) photo truth; for development only")  # fmt: skip
     args = parser.parse_args()
@@ -1006,11 +1009,13 @@ def main() -> int:
     clean = [pid for pid, ds in plan.items() if not ds]
     assert len(clean) == sum(catalogue["plan"]["clean_products"].values()), clean
 
-    for old in OUT.glob("SYN-*"):
+    out = args.out
+    out.mkdir(parents=True, exist_ok=True)
+    for old in out.glob("SYN-*"):
         shutil.rmtree(old)
     ground_truth = []
     for n, p in enumerate(products):
-        folder = OUT / f"{p['product_id']}-{ascii_upper(p['name'])}"
+        folder = out / f"{p['product_id']}-{ascii_upper(p['name'])}"
         folder.mkdir(parents=True)
         date = f"2026-10-{1 + n % 9:02d}"
         doc, planted_truth = apply_defects(p, plan[p["product_id"]], rng)
@@ -1040,9 +1045,9 @@ def main() -> int:
         print(
             f"{p['product_id']} {p['name']:9} {p['category']:5} {p['supplier']:8} {plan[p['product_id']] or 'clean'}"
         )
-    (OUT / "ground_truth.json").write_text(json.dumps(ground_truth, indent=1, ensure_ascii=False) + "\n",
+    (out / "ground_truth.json").write_text(json.dumps(ground_truth, indent=1, ensure_ascii=False) + "\n",
                                            encoding="utf-8")  # fmt: skip
-    digest = hashlib.sha256((OUT / "ground_truth.json").read_bytes()).hexdigest()[:12]
+    digest = hashlib.sha256((out / "ground_truth.json").read_bytes()).hexdigest()[:12]
     print(f"{len(products)} products, {len(clean)} clean, defects per type: {counts}; ground truth {digest}")
     return 0
 

@@ -1,0 +1,600 @@
+{
+ "submission_id": "SYN-22",
+ "spec": {
+  "product_name": "Teppich INN / INN rug",
+  "supplier": "Nordholz Wohnen GmbH",
+  "product_type": "Teppich / rug",
+  "manufacturer": "Nordholz Wohnen GmbH",
+  "manufacturer_address": "Industriestraße 21, 32051 Herford, Deutschland - service@nordholz-wohnen.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Deutschland",
+  "width": {
+   "value": "274",
+   "unit": "cm",
+   "source_text": "274 x 178 cm"
+  },
+  "depth": {
+   "value": "178",
+   "unit": "cm",
+   "source_text": "274 x 178 cm"
+  },
+  "height": {
+   "value": "3",
+   "unit": "cm",
+   "source_text": "3 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "max_load": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "weight": {
+   "value": "10",
+   "unit": "kg",
+   "source_text": "10 kg"
+  },
+  "legs_or_base": null,
+  "upholstery": "Handgetuftet / hand-tufted",
+  "care": "Nicht waschen; professionelle Reinigung / do not wash; professional cleaning only",
+  "variants": [
+   {
+    "code": "INN-22-SAN",
+    "colour_name": "Anthrazit",
+    "ean": "4012345022018"
+   },
+   {
+    "code": "INN-22-ANT",
+    "colour_name": "Anthrazit",
+    "ean": "4012345022025"
+   }
+  ],
+  "safety_warnings": [
+   "Auf glatten Böden eine Antirutschunterlage verwenden.",
+   "Use an anti-slip underlay on smooth floors.",
+   "Von offenem Feuer fernhalten.",
+   "Keep away from open flames."
+  ],
+  "safety_warnings_languages": [
+   "de",
+   "en",
+   "de",
+   "en"
+  ],
+  "claims": [
+   "Hypoallergen und schadstofffrei / hypoallergenic, non-toxic"
+  ]
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25146780468405516,
+    0.1488732340424167,
+    0.32714622962198187,
+    0.15778144368901517
+   ],
+   "text": "274 x 178 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25146780468405516,
+    0.1488732340424167,
+    0.32714622962198187,
+    0.15778144368901517
+   ],
+   "text": "274 x 178 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25146780468405516,
+    0.164908011406294,
+    0.2787846692892211,
+    0.1738162210528925
+   ],
+   "text": "3 cm",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25146780468405516,
+    0.1809427887701713,
+    0.2823054548522021,
+    0.1898509984167698
+   ],
+   "text": "10 kg",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25146780468405516,
+    0.13283845667853952,
+    0.39794356528627445,
+    0.141746666325138
+   ],
+   "text": "Handgetuftet / hand-tufted",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25146780468405516,
+    0.1969775661340485,
+    0.7090529850489046,
+    0.20588577578064698
+   ],
+   "text": "Nicht waschen; professionelle Reinigung / do not wash; professional cleaning only",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39906997087174684,
+    0.2290471208618031,
+    0.8771335665695205,
+    0.2379553305084016
+   ],
+   "text": "Industriestraße 21, 32051 Herford, Deutschland - service@nordholz-wohnen.example",
+   "note": null
+  },
+  "ean:INN-22-SAN": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4067172224791065,
+    0.30120361899925074,
+    0.497857558865157,
+    0.3101118286458492
+   ],
+   "text": "4012345022018",
+   "note": null
+  },
+  "ean:INN-22-ANT": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4067172224791065,
+    0.317238396363128,
+    0.497857558865157,
+    0.3261466060097265
+   ],
+   "text": "4012345022025",
+   "note": null
+  },
+  "claim:0": {
+   "source": "pdf",
+   "file": "INN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25146780468405516,
+    0.24508189822568027,
+    0.5782545697950322,
+    0.25399010787227877
+   ],
+   "text": "Hypoallergen und schadstofffrei / hypoallergenic, non-toxic",
+   "note": null
+  }
+ },
+ "images": {
+  "INN-SAN-1.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       653,
+       723,
+       703,
+       741
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       54,
+       843,
+       73
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       753,
+       291,
+       803,
+       311
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       211,
+       558,
+       448,
+       696
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "INN-SAN-2.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "INN-SAN-3.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4957.JPG": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "woven",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "UNIQUE LOOM"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       478,
+       56,
+       638,
+       325
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "INN-ANT-1.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       656,
+       722,
+       698,
+       738
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       48,
+       838,
+       68
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       751,
+       293,
+       796,
+       313
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       211,
+       558,
+       433,
+       706
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "INN-ANT-2.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "INN-ANT-4.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "INN22_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "NORDHOLZ WOHNEN GMBH",
+     "INN-22",
+     "100 % POLYPROPYLEN",
+     "100% POLYPROPYLENE",
+     "P",
+     "Hergestellt in Deutschland"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       108,
+       193,
+       142,
+       806
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       167,
+       438,
+       201,
+       561
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       227,
+       261,
+       261,
+       738
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       288,
+       252,
+       322,
+       747
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       608,
+       708,
+       668,
+       754
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       778,
+       288,
+       812,
+       732
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100 % POLYPROPYLEN / 100% POLYPROPYLENE",
+    "wash_max_temp_c": null,
+    "do_not_wash": true,
+    "dry_clean_only": true,
+    "removable_cover": false,
+    "other_text": [
+     "NORDHOLZ WOHNEN GMBH",
+     "INN-22",
+     "Hergestellt in Deutschland"
+    ]
+   }
+  },
+  "INN-ANT-3.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "9\"",
+     "6\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       466,
+       131,
+       491,
+       157
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       911,
+       476,
+       936,
+       503
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2559
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 15.24,
+    "depth_cm": null,
+    "height_cm": 22.86,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

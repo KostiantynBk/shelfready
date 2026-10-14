@@ -1,0 +1,1139 @@
+{
+ "submission_id": "SYN-02",
+ "spec": {
+  "product_name": "Poltrona COMO / COMO armchair",
+  "supplier": "Arredo Brianza S.r.l.",
+  "product_type": "Poltrona / Armchair",
+  "manufacturer": "Ningbo Brightway Home Co., Ltd.",
+  "manufacturer_address": "No. 88 Xingning Road, Yinzhou District, Ningbo 315000, China · export@brightway.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "China",
+  "width": {
+   "value": "104",
+   "unit": "cm",
+   "source_text": "104 x 104 x 81 cm"
+  },
+  "depth": {
+   "value": "104",
+   "unit": "cm",
+   "source_text": "104 x 104 x 81 cm"
+  },
+  "height": {
+   "value": "81",
+   "unit": "cm",
+   "source_text": "104 x 104 x 81 cm"
+  },
+  "seat_height": {
+   "value": "44",
+   "unit": "cm",
+   "source_text": "44 cm"
+  },
+  "seat_depth": {
+   "value": "62",
+   "unit": "cm",
+   "source_text": "62 cm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "44,5",
+   "unit": "kg",
+   "source_text": "44,5 kg"
+  },
+  "legs_or_base": "Acciaio cromato / chrome-plated steel",
+  "upholstery": "Pelle pieno fiore / top-grain leather",
+  "care": "Pulire con panno umido / wipe with a damp cloth",
+  "variants": [
+   {
+    "code": "COM-02-COG",
+    "colour_name": "Cognac",
+    "ean": "8012345002016"
+   },
+   {
+    "code": "COM-02-SAB",
+    "colour_name": "Sabbia",
+    "ean": "8012345002023"
+   },
+   {
+    "code": "COM-02-NER",
+    "colour_name": "Nero",
+    "ean": null
+   }
+  ],
+  "safety_warnings": [
+   "Non utilizzare all'aperto",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "it",
+   "en",
+   "it",
+   "en",
+   "it",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.2080449726846752,
+    0.20050504768334323,
+    0.21873482426059335
+   ],
+   "text": "104 x 104 x 81 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.2080449726846752,
+    0.20050504768334323,
+    0.21873482426059335
+   ],
+   "text": "104 x 104 x 81 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.2080449726846752,
+    0.20050504768334323,
+    0.21873482426059335
+   ],
+   "text": "104 x 104 x 81 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.2080449726846752,
+    0.5529923172835375,
+    0.21873482426059335
+   ],
+   "text": "44 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.244568632235729,
+    0.11808911939648982,
+    0.2552584838116472
+   ],
+   "text": "62 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.244568632235729,
+    0.5572172599591145,
+    0.2552584838116472
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.28109229178678263,
+    0.1265168460137174,
+    0.2917821433627008
+   ],
+   "text": "44,5 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.7648672863951052,
+    0.18221116470953955
+   ],
+   "text": "Acciaio cromato / chrome-plated steel",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.1715213131336214,
+    0.3081450658647415,
+    0.18221116470953955
+   ],
+   "text": "Pelle pieno fiore / top-grain leather",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.28109229178678263,
+    0.8363737035115711,
+    0.2917821433627008
+   ],
+   "text": "Pulire con panno umido / wipe with a damp cloth",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.31761595133783643,
+    0.8969115195005121,
+    0.3532487899242304
+   ],
+   "text": "No. 88 Xingning Road, Yinzhou District, Ningbo 315000, China · export@brightway.example",
+   "note": null
+  },
+  "ean:COM-02-COG": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.3151669478514345,
+    0.13054354875926844,
+    0.424535351514695,
+    0.14123340033518658
+   ],
+   "text": "8012345002016",
+   "note": null
+  },
+  "ean:COM-02-SAB": {
+   "source": "pdf",
+   "file": "COMO_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.3151669478514345,
+    0.15459571480508424,
+    0.424535351514695,
+    0.16528556638100242
+   ],
+   "text": "8012345002023",
+   "note": null
+  }
+ },
+ "images": {
+  "COMO_COG_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       548,
+       101,
+       831,
+       153
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       643,
+       293,
+       983,
+       361
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       664,
+       841,
+       926,
+       884
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COMO_COG_02.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       711,
+       56,
+       836,
+       105
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       654,
+       275,
+       983,
+       335
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       754,
+       833,
+       923,
+       878
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       456,
+       823,
+       646,
+       863
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COMO_COG_03.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "41\"",
+     "39\"",
+     "30\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       394,
+       5,
+       422,
+       53
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       865,
+       168,
+       894,
+       216
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       922,
+       683,
+       951,
+       731
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       653,
+       95,
+       786,
+       141
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       753,
+       316,
+       946,
+       373
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       683,
+       886,
+       877,
+       936
+      ]
+     }
+    ]
+   },
+   "size": [
+    2323,
+    2560
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 76.2,
+    "depth_cm": 99.06,
+    "height_cm": 104.14,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "IMG_4930.JPG": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "Marshall",
+     "Matisse Cut-outs",
+     "ROCK THE"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       783,
+       154,
+       882,
+       192
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       803,
+       562,
+       922,
+       605
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       124,
+       163,
+       145,
+       233
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       221,
+       154,
+       241,
+       294
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       476,
+       236,
+       491,
+       296
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COMO_SAB_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       643,
+       56,
+       841,
+       123
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       741,
+       413,
+       985,
+       480
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       688,
+       886,
+       904,
+       933
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COMO_SAB_02.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       543,
+       95,
+       984,
+       265
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       524,
+       821,
+       984,
+       908
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COMO_SAB_03.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "upholstery fabric",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "leather",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COMO_SAB_04.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "Marshall",
+     "Matisse Cut-outs",
+     "ROCK",
+     "Farmlife",
+     "AMERICAN BEAUTY",
+     "Living in the Countryside"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       738,
+       158,
+       905,
+       206
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       743,
+       566,
+       915,
+       616
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       688,
+       722,
+       823,
+       766
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       124,
+       166,
+       144,
+       234
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       224,
+       156,
+       245,
+       300
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       473,
+       234,
+       492,
+       276
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       833,
+       834,
+       852,
+       912
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       852,
+       792,
+       871,
+       944
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       871,
+       784,
+       890,
+       962
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COMO_NER_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "black",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       688,
+       56,
+       844,
+       112
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       753,
+       413,
+       986,
+       472
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       688,
+       888,
+       901,
+       936
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COMO_NER_02.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 2,
+    "colour_family": "black",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "wood",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "Great Escapes Europe",
+     "NOMAD DELUXE",
+     "ASPEN"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       845,
+       215,
+       888,
+       258
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       865,
+       502,
+       958,
+       545
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       835,
+       782,
+       888,
+       825
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       195,
+       315,
+       555,
+       465
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       892,
+       662,
+       908,
+       775
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       912,
+       662,
+       938,
+       795
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       942,
+       662,
+       968,
+       735
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COMO_NER_03.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "black",
+    "upholstery_material": "leather",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "41\"",
+     "39\"",
+     "30\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       411,
+       5,
+       441,
+       48
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       883,
+       213,
+       913,
+       256
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       911,
+       737,
+       941,
+       780
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       568,
+       82,
+       822,
+       146
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       544,
+       431,
+       953,
+       493
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       652,
+       888,
+       868,
+       936
+      ]
+     }
+    ]
+   },
+   "size": [
+    2553,
+    2560
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 76.2,
+    "depth_cm": 99.06,
+    "height_cm": 104.14,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "COMO_NER_04.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "upholstery swatch",
+    "products_in_frame": 1,
+    "colour_family": "black",
+    "upholstery_material": "leather",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "COM02_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRONTE / FRONT",
+     "LATO / SIDE",
+     "81",
+     "44",
+     "104 cm",
+     "104 cm",
+     "COM-02 · misure in cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       42,
+       94,
+       82,
+       267
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       42,
+       614,
+       82,
+       741
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       598,
+       8,
+       642,
+       31
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       694,
+       437,
+       738,
+       463
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       893,
+       220,
+       937,
+       297
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       893,
+       748,
+       937,
+       825
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       955,
+       791,
+       991,
+       991
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       778,
+       106,
+       833,
+       121
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       778,
+       382,
+       833,
+       397
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       778,
+       615,
+       833,
+       630
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       778,
+       908,
+       833,
+       923
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 104.0,
+    "depth_cm": 104.0,
+    "height_cm": 81.0,
+    "seat_height_cm": 44.0,
+    "product_code": "COM-02"
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

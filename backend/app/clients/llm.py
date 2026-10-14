@@ -282,6 +282,11 @@ class RateLimiter:
                 await self._sleep(wait)
 
 
+def _backoff(attempt: int) -> float:
+    """2, 4, 8, 16, 30, 30 s: patient enough for a provider that briefly has no free workers (503)."""
+    return min(2.0 ** (attempt + 1), 30.0)
+
+
 def _retry_after(error: openai.APIStatusError) -> float:
     try:
         return min(float(error.response.headers.get("retry-after", DEFAULT_RETRY_AFTER_S)), 120.0)
@@ -482,9 +487,9 @@ class LLMClient:
                         raise LLMError(
                             f"{purpose}: model endpoint returned {error.status_code}: {_error_text(error)}"
                         ) from error
-                    last, backoff = error, 2.0**attempt
+                    last, backoff = error, _backoff(attempt)
                 except openai.APIConnectionError as error:  # includes timeouts
-                    last, backoff = error, 2.0**attempt
+                    last, backoff = error, _backoff(attempt)
                 else:
                     choice = completion.choices[0]
                     usage = completion.usage

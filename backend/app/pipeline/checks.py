@@ -40,11 +40,16 @@ NON_EU = re.compile(
     r"bangladesh|pakistan|taiwan|thailand|mexico|united kingdom|uk)\b"
 )
 NON_TEXTILE = re.compile(r"leather|pele|pelle|leder|cuir|cuero")
+# A postal address has a street and a postcode; a company-register line (HRB, VAT number) is not one
+STREET = re.compile(
+    r"\b(rua|avenida|via|viale|piazza|corso|calle|carrer|rue|street|road|avenue|lane|no\.)\b|strasse|str\.|weg\b|platz\b|allee\b"
+)
+POSTCODE = re.compile(r"\b\d{4}-\d{3}\b|\b\d{4,6}\b")
 # A legs/base value that is really the frame row (no legs row on the sheet): not comparable with legs
 FRAME_ONLY = re.compile(r"plywood|contraplacado|sperrholz|multistrato|foam|espuma|schaum|poliuretano")
 # The photo must show this product, not another object in the scene (a sofa in a rug shot, a lampshade)
 SUBJECT = {"chair": r"chair|recliner|seat|rocker|glider", "sofa": r"sofa|couch|loveseat|sectional|settee|daybed",
-           "lamp": r"lamp(?!shade)", "rug": r"rug|carpet|mat"}  # fmt: skip
+           "lamp": r"lamp(?!shade)", "rug": r"rug|carpet|\bmat\b"}  # fmt: skip
 
 
 def product_category(spec: dict[str, Any]) -> str:
@@ -265,7 +270,7 @@ class _Checker:
                      title=f"Safety warnings only in {', '.join(sorted(languages)) or 'one language'}",
                      detail="GPSR Art. 19(d): warnings must be shown in the shop's languages. Translate them and have them checked.")  # fmt: skip
         maker = f"{spec.get('manufacturer') or ''} {spec.get('manufacturer_address') or ''}"
-        if not re.search(r"\d{4,}|\d{4}-\d{3}", maker):  # D12: no postal address (postcode)
+        if not (STREET.search(_fold(maker)) and POSTCODE.search(maker)):  # D12: no postal address
             self.add("D12", type="compliance", severity="blocking", return_risk="none", attribute="manufacturer_address",
                      title="Manufacturer address missing", spec_value=spec.get("manufacturer"),
                      detail="GPSR Art. 19(a): the listing must show the manufacturer's name, postal address and contact.")  # fmt: skip

@@ -26,7 +26,7 @@ class Settings(BaseSettings):
     # Token Factory allows 20 requests/min and 8 in flight per account; stay under both
     llm_rpm: int = 18
     llm_concurrency: int = 6
-    llm_max_retries: int = 4
+    llm_max_retries: int = 6  # with back-off 2-30 s: ~90 s of patience per call
     # Calls normally take 1-15 s; fail over sooner when the endpoint hangs
     llm_timeout_s: float = 90.0
     # Save every live answer so it can be replayed without the model

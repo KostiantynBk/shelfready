@@ -361,7 +361,7 @@ async def test_server_errors_back_off_then_give_up_and_are_logged(tmp_path):
     ) as llm:
         with pytest.raises(LLMError, match="gave up after 3 attempts"):
             await llm.chat(ASK, purpose="t")
-    assert time.slept == [1.0, 2.0]
+    assert time.slept == [2.0, 4.0]
     last = json.loads((tmp_path / "runtime" / "llm_calls.jsonl").read_text().splitlines()[-1])
     assert "gave up" in last["error"]
 

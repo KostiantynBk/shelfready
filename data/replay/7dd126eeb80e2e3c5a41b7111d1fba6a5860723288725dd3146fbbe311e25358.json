@@ -1,0 +1,50 @@
+{
+ "key": "7dd126eeb80e2e3c5a41b7111d1fba6a5860723288725dd3146fbbe311e25358",
+ "purpose": "spec:SYN-16",
+ "recorded_at": "2026-10-14T05:43:47+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"SpecValue\": {\"properties\": {\"value\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the value exactly as written, null if blank or a dash\"}, \"unit\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the unit exactly as written, e.g. cm, mm, kg; null if none\"}, \"source_text\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the exact text this was read from\"}}, \"required\": [\"value\", \"unit\", \"source_text\"], \"type\": \"object\"}, \"Variant\": {\"properties\": {\"code\": {\"type\": \"string\"}, \"colour_name\": {\"description\": \"colour name exactly as written by the supplier\", \"type\": \"string\"}, \"ean\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"EAN/GTIN digits exactly as written; null if missing\"}}, \"required\": [\"code\", \"colour_name\", \"ean\"], \"type\": \"object\"}}, \"properties\": {\"product_name\": {\"type\": \"string\"}, \"supplier\": {\"type\": \"string\"}, \"product_type\": {\"description\": \"as written, e.g. 'Poltrona / Armchair'\", \"type\": \"string\"}, \"manufacturer\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"manufacturer name as written\"}, \"manufacturer_address\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"postal address and contact as written\"}, \"eu_responsible_person\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"EU responsible person / importer as written\"}, \"country_of_origin\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}]}, \"width\": {\"$ref\": \"#/$defs/SpecValue\"}, \"depth\": {\"$ref\": \"#/$defs/SpecValue\"}, \"height\": {\"$ref\": \"#/$defs/SpecValue\"}, \"seat_height\": {\"$ref\": \"#/$defs/SpecValue\"}, \"seat_depth\": {\"$ref\": \"#/$defs/SpecValue\"}, \"max_load\": {\"$ref\": \"#/$defs/SpecValue\"}, \"weight\": {\"$ref\": \"#/$defs/SpecValue\"}, \"legs_or_base\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"material of the legs (seating) or base (lamps) as written\"}, \"upholstery\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"covering or pile, including fibre composition, as written\"}, \"care\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"care / cleaning instructions as written\"}, \"variants\": {\"items\": {\"$ref\": \"#/$defs/Variant\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"each safety warning exactly as written\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"safety_warnings_languages\": {\"description\": \"ISO 639-1 codes of the warnings' languages\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"claims\": {\"description\": \"marketing claims about health, safety or environment, as written\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}}, \"required\": [\"product_name\", \"supplier\", \"product_type\", \"manufacturer\", \"manufacturer_address\", \"eu_responsible_person\", \"country_of_origin\", \"width\", \"depth\", \"height\", \"seat_height\", \"seat_depth\", \"max_load\", \"weight\", \"legs_or_base\", \"upholstery\", \"care\", \"variants\", \"safety_warnings\", \"safety_warnings_languages\", \"claims\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "pdf:7a45441221946dfe668392822edf1eb680e4a8b1a935bd637ebff45a55a705db:p1@2x@1536"
+      }
+     },
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "pdf:7a45441221946dfe668392822edf1eb680e4a8b1a935bd637ebff45a55a705db:p2@2x@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "This is a supplier's technical spec sheet for a furniture or home product. It may mix Portuguese, Italian, German and English, and may span several pages (for example a separate price list). Extract the fields exactly as written: keep the original units (do not convert), keep decimal commas, and put the exact text you read in source_text. Use null for empty fields or dashes. variants: one entry per row of the variants or price table. safety_warnings: every warning sentence as written, one entry per language version. claims: only statements about health, safety or the environment (e.g. antibacterial, fireproof, eco-friendly), not design or comfort."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"product_name\": \"Lampada da tavolo ASOLO / ASOLO table lamp\",\n  \"supplier\": \"Arredo Brianza S.r.l.\",\n  \"product_type\": \"Lampada da tavolo / table lamp\",\n  \"manufacturer\": \"Arredo Brianza S.r.l.\",\n  \"manufacturer_address\": \"Via dei Mobilieri 7, 20821 Meda (MB), Italia · info@arredobrianza.example\",\n  \"eu_responsible_person\": null,\n  \"country_of_origin\": \"Italia\",\n  \"width\": {\n    \"value\": \"25\",\n    \"unit\": \"cm\",\n    \"source_text\": \"Ø 25 cm\"\n  },\n  \"depth\": {\n    \"value\": \"25\",\n    \"unit\": \"cm\",\n    \"source_text\": \"Ø 25 cm\"\n  },\n  \"height\": {\n    \"value\": \"39\",\n    \"unit\": \"cm\",\n    \"source_text\": \"Altezza Ø / Height Ø 39 cm\"\n  },\n  \"seat_height\": null,\n  \"seat_depth\": null,\n  \"max_load\": null,\n  \"weight\": {\n    \"value\": \"2,8\",\n    \"unit\": \"kg\",\n    \"source_text\": \"2,8 kg\"\n  },\n  \"legs_or_base\": \"Ceramica smaltata / glazed ceramic\",\n  \"upholstery\": null,\n  \"care\": \"Pulire con panno asciutto a lampada spenta / clean with a dry cloth when switched off\",\n  \"variants\": [\n    {\n      \"code\": \"ASO-16-BIA\",\n      \"colour_name\": \"Bianco\",\n      \"ean\": \"8012345016013\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Usare solo lampadine E27 max 40 W\",\n    \"Use only E27 bulbs, max. 40 W.\",\n    \"Scollegare prima della pulizia.\",\n    \"Disconnect before cleaning.\",\n    \"Solo per uso interno.\",\n    \"For indoor use only.\"\n  ],\n  \"safety_warnings_languages\": [\n    \"it\",\n    \"en\",\n    \"it\",\n    \"en\",\n    \"it\",\n    \"en\"\n  ],\n  \"claims\": [\n    \"Materiali anallergici e atossici / hypoallergenic, non-toxic materials\"\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1575,
+   "completion_tokens": 596
+  },
+  "latency_s": 49.781
+ }
+}

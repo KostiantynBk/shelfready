@@ -1,0 +1,1124 @@
+{
+ "submission_id": "SYN-07",
+ "spec": {
+  "product_name": "Poltrona FARO / FARO armchair",
+  "supplier": "MÓVEIS LUSA, LDA.",
+  "product_type": "Poltrona / Armchair",
+  "manufacturer": "Móveis Lusa, Lda.",
+  "manufacturer_address": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal - info@moveislusa.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Portugal",
+  "width": {
+   "value": "70",
+   "unit": "cm",
+   "source_text": "70 x 71 x 83 cm"
+  },
+  "depth": {
+   "value": "71",
+   "unit": "cm",
+   "source_text": "70 x 71 x 83 cm"
+  },
+  "height": {
+   "value": "83",
+   "unit": "cm",
+   "source_text": "70 x 71 x 83 cm"
+  },
+  "seat_height": {
+   "value": "45",
+   "unit": "cm",
+   "source_text": "45 cm"
+  },
+  "seat_depth": {
+   "value": "43",
+   "unit": "cm",
+   "source_text": "43 cm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "13,5",
+   "unit": "kg",
+   "source_text": "13,5 kg"
+  },
+  "legs_or_base": "Faia maciça, acabamento nogueira / solid beech, walnut stain",
+  "upholstery": "Tecido, 100% poliester / woven fabric, 100% polyester",
+  "care": "Capa removível, lavar a 30 °C / removable cover, washable at 30 °C",
+  "variants": [
+   {
+    "code": "FAR-07-ANT",
+    "colour_name": "Antracite",
+    "ean": "5601234007015"
+   },
+   {
+    "code": "FAR-07-AZU",
+    "colour_name": "Azul",
+    "ean": "5601234007022"
+   },
+   {
+    "code": "FAR-07-CIN",
+    "colour_name": "Cinza",
+    "ean": "5601234007039"
+   }
+  ],
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Not for outdoor use.",
+   "Manter afastado de fontes de calor.",
+   "Keep away from heat sources.",
+   "Não subir para o assento.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "pt",
+   "en",
+   "pt",
+   "en",
+   "pt",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.4990485947530581,
+    0.21534748625470326
+   ],
+   "text": "70 x 71 x 83 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.4990485947530581,
+    0.21534748625470326
+   ],
+   "text": "70 x 71 x 83 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.4990485947530581,
+    0.21534748625470326
+   ],
+   "text": "70 x 71 x 83 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.2389542418181893,
+    0.4347957957060043,
+    0.25008950387643736
+   ],
+   "text": "45 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.26122476593468547,
+    0.43516510888355786,
+    0.2723600279929335
+   ],
+   "text": "43 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.28349529005118174,
+    0.4382427185389303,
+    0.29463055210942984
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.3057658141676779,
+    0.4410356493850889,
+    0.316901076225926
+   ],
+   "text": "13,5 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.18194170007995902,
+    0.8195662683677952,
+    0.1930769621382071
+   ],
+   "text": "Faia maciça, acabamento nogueira / solid beech, walnut stain",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.32803633828417406,
+    0.8593751514952208,
+    0.33917160034242216
+   ],
+   "text": "Capa removível, lavar a 30 °C / removable cover, washable at 30 °C",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.37257738651716654,
+    0.8704930176338735,
+    0.39618414208065245
+   ],
+   "text": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal - info@moveislusa.example",
+   "note": null
+  },
+  "ean:FAR-07-ANT": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.35463914026835675,
+    0.48660246999362694,
+    0.46674877167036294,
+    0.4977377320518751
+   ],
+   "text": "5601234007015",
+   "note": null
+  },
+  "ean:FAR-07-AZU": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.35463914026835675,
+    0.5088729941101232,
+    0.46925702370730743,
+    0.5200082561683713
+   ],
+   "text": "5601234007022",
+   "note": null
+  },
+  "ean:FAR-07-CIN": {
+   "source": "pdf",
+   "file": "FAR07_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.35463914026835675,
+    0.5311435182266194,
+    0.46926471771214306,
+    0.5422787802848675
+   ],
+   "text": "5601234007039",
+   "note": null
+  }
+ },
+ "images": {
+  "FAR07_ANT_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       655,
+       104,
+       831,
+       186
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       701,
+       324,
+       972,
+       405
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       691,
+       508,
+       768,
+       552
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       644,
+       802,
+       877,
+       875
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_ANT_34.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       688,
+       213,
+       938,
+       327
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       685,
+       746,
+       945,
+       831
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_ANT_side.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       315,
+       81,
+       702,
+       243
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       463,
+       614,
+       966,
+       746
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4893.JPG": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       746,
+       425,
+       883,
+       473
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       748,
+       592,
+       816,
+       634
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       763,
+       772,
+       926,
+       820
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       746,
+       856,
+       851,
+       905
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       203,
+       286,
+       403,
+       408
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_AZU_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       645,
+       137,
+       814,
+       216
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       711,
+       333,
+       966,
+       412
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       686,
+       523,
+       746,
+       567
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       631,
+       811,
+       853,
+       884
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_AZU_34.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       424,
+       88,
+       743,
+       235
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       543,
+       441,
+       982,
+       562
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       538,
+       671,
+       655,
+       731
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_AZU_side.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       675,
+       193,
+       955,
+       287
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       675,
+       703,
+       955,
+       797
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_AZU_detail.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       686,
+       213,
+       936,
+       326
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       686,
+       748,
+       946,
+       831
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_CIN_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       656,
+       120,
+       842,
+       216
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       685,
+       344,
+       977,
+       426
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       701,
+       521,
+       773,
+       568
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       646,
+       826,
+       884,
+       901
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_CIN_34.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       693,
+       211,
+       964,
+       308
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       688,
+       765,
+       956,
+       835
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_CIN_side.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       688,
+       198,
+       965,
+       294
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       688,
+       715,
+       956,
+       821
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_CIN_detail.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "glass",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       203,
+       286,
+       403,
+       406
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       752,
+       422,
+       885,
+       472
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       748,
+       593,
+       806,
+       637
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       765,
+       775,
+       925,
+       825
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       741,
+       853,
+       852,
+       904
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "FAR07_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "care label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "MÓVEIS LUSA",
+     "FAR-07",
+     "100% POLIÉSTER",
+     "100% POLYESTER",
+     "Capa removível",
+     "Removable cover",
+     "30",
+     "Fabricado em Portugal"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       104,
+       350,
+       143,
+       657
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       167,
+       436,
+       201,
+       571
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       228,
+       318,
+       266,
+       687
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       291,
+       311,
+       330,
+       694
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       353,
+       362,
+       391,
+       643
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       415,
+       348,
+       453,
+       658
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       618,
+       254,
+       658,
+       306
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       782,
+       288,
+       821,
+       677
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYESTER",
+    "wash_max_temp_c": 30,
+    "do_not_wash": false,
+    "dry_clean_only": false,
+    "removable_cover": true,
+    "other_text": [
+     "MÓVEIS LUSA",
+     "FAR-07",
+     "100% POLIÉSTER",
+     "Capa removível",
+     "Removable cover",
+     "Fabricado em Portugal"
+    ]
+   }
+  },
+  "FAR07_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 2,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRENTE / FRONT",
+     "LADO / SIDE",
+     "83",
+     "45",
+     "70 cm",
+     "71 cm",
+     "FAR-07 · medidas em cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       91,
+       82,
+       266
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       616,
+       82,
+       745
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       524,
+       5,
+       563,
+       33
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       662,
+       411,
+       701,
+       439
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       886,
+       203,
+       925,
+       272
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       886,
+       728,
+       925,
+       797
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       954,
+       766,
+       988,
+       988
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       101,
+       835,
+       118
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       351,
+       835,
+       368
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       626,
+       835,
+       643
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       881,
+       835,
+       898
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 70.0,
+    "depth_cm": 71.0,
+    "height_cm": 83.0,
+    "seat_height_cm": 45.0,
+    "product_code": "FAR-07"
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

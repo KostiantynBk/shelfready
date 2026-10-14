@@ -1,0 +1,44 @@
+{
+ "key": "2af439d81b53322979f45e7d5a21d9088336118cb80a3098e280d6b14dfc2c1a",
+ "purpose": "label:SYN-13:SIE13_label.png",
+ "recorded_at": "2026-10-14T06:20:40+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"description\": \"A sewn-in care label: composition and care symbols, as printed.\", \"properties\": {\"composition\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"fibre composition exactly as printed, e.g. '100% polyester'\"}, \"wash_max_temp_c\": {\"anyOf\": [{\"type\": \"integer\"}, {\"type\": \"null\"}], \"description\": \"temperature in the wash-tub symbol; null if not washable\"}, \"do_not_wash\": {\"description\": \"the wash tub is crossed out\", \"type\": \"boolean\"}, \"dry_clean_only\": {\"description\": \"only professional / dry cleaning is allowed\", \"type\": \"boolean\"}, \"removable_cover\": {\"description\": \"the label says the cover is removable\", \"type\": \"boolean\"}, \"other_text\": {\"description\": \"any other text on the label, as printed\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}}, \"required\": [\"composition\", \"wash_max_temp_c\", \"do_not_wash\", \"dry_clean_only\", \"removable_cover\", \"other_text\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "sha256:c0e21892fb604142dea1420d8dce4497533d2ce269bb4ba855e7a129699f194e@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "This is a care label sewn into upholstery or a rug. Read the printed text and the care symbols: the wash tub (with a temperature, or crossed out), the triangle (bleach), the iron, and a circle (professional / dry cleaning). Report only what is printed."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"composition\": \"100% POLYESTER\", \"wash_max_temp_c\": 30, \"do_not_wash\": false, \"dry_clean_only\": false, \"removable_cover\": true, \"other_text\": [\"ARREDO BRIANZA S.R.L.\", \"SIE-13\", \"100% POLIESTERE\", \"Fodera sfoderabile\", \"Removable cover\", \"Prodotto in Italia\"]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 621,
+   "completion_tokens": 104
+  },
+  "latency_s": 81.015
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "key": "ce492ac4f95a5e2397f7ad3641285e2716eb1b4f90c85275fd87dd5a41037669",
+ "purpose": "spec:SYN-09",
+ "recorded_at": "2026-10-14T05:37:57+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"SpecValue\": {\"properties\": {\"value\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the value exactly as written, null if blank or a dash\"}, \"unit\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the unit exactly as written, e.g. cm, mm, kg; null if none\"}, \"source_text\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the exact text this was read from\"}}, \"required\": [\"value\", \"unit\", \"source_text\"], \"type\": \"object\"}, \"Variant\": {\"properties\": {\"code\": {\"type\": \"string\"}, \"colour_name\": {\"description\": \"colour name exactly as written by the supplier\", \"type\": \"string\"}, \"ean\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"EAN/GTIN digits exactly as written; null if missing\"}}, \"required\": [\"code\", \"colour_name\", \"ean\"], \"type\": \"object\"}}, \"properties\": {\"product_name\": {\"type\": \"string\"}, \"supplier\": {\"type\": \"string\"}, \"product_type\": {\"description\": \"as written, e.g. 'Poltrona / Armchair'\", \"type\": \"string\"}, \"manufacturer\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"manufacturer name as written\"}, \"manufacturer_address\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"postal address and contact as written\"}, \"eu_responsible_person\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"EU responsible person / importer as written\"}, \"country_of_origin\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}]}, \"width\": {\"$ref\": \"#/$defs/SpecValue\"}, \"depth\": {\"$ref\": \"#/$defs/SpecValue\"}, \"height\": {\"$ref\": \"#/$defs/SpecValue\"}, \"seat_height\": {\"$ref\": \"#/$defs/SpecValue\"}, \"seat_depth\": {\"$ref\": \"#/$defs/SpecValue\"}, \"max_load\": {\"$ref\": \"#/$defs/SpecValue\"}, \"weight\": {\"$ref\": \"#/$defs/SpecValue\"}, \"legs_or_base\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"material of the legs (seating) or base (lamps) as written\"}, \"upholstery\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"covering or pile, including fibre composition, as written\"}, \"care\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"care / cleaning instructions as written\"}, \"variants\": {\"items\": {\"$ref\": \"#/$defs/Variant\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"each safety warning exactly as written\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"safety_warnings_languages\": {\"description\": \"ISO 639-1 codes of the warnings' languages\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"claims\": {\"description\": \"marketing claims about health, safety or environment, as written\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}}, \"required\": [\"product_name\", \"supplier\", \"product_type\", \"manufacturer\", \"manufacturer_address\", \"eu_responsible_person\", \"country_of_origin\", \"width\", \"depth\", \"height\", \"seat_height\", \"seat_depth\", \"max_load\", \"weight\", \"legs_or_base\", \"upholstery\", \"care\", \"variants\", \"safety_warnings\", \"safety_warnings_languages\", \"claims\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "pdf:d7c19852ab24feacb61045ef34163d086faee3bb5dfcc9f71a33244b4b2639bd:p1@2x@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "This is a supplier's technical spec sheet for a furniture or home product. It may mix Portuguese, Italian, German and English, and may span several pages (for example a separate price list). Extract the fields exactly as written: keep the original units (do not convert), keep decimal commas, and put the exact text you read in source_text. Use null for empty fields or dashes. variants: one entry per row of the variants or price table. safety_warnings: every warning sentence as written, one entry per language version. claims: only statements about health, safety or the environment (e.g. antibacterial, fireproof, eco-friendly), not design or comfort."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"product_name\": \"WESER\",\n  \"supplier\": \"Nordholz Wohnen GmbH\",\n  \"product_type\": \"Esszimmerstuhl / dining chair\",\n  \"manufacturer\": \"Nordholz Wohnen GmbH\",\n  \"manufacturer_address\": \"Industriestraße 21, 32051 Herford, Deutschland\",\n  \"eu_responsible_person\": null,\n  \"country_of_origin\": \"Deutschland\",\n  \"width\": {\n    \"value\": \"78\",\n    \"unit\": \"x\",\n    \"source_text\": \"78 x 55 x 91 cm\"\n  },\n  \"depth\": {\n    \"value\": \"55\",\n    \"unit\": \"x\",\n    \"source_text\": \"78 x 55 x 91 cm\"\n  },\n  \"height\": {\n    \"value\": \"91\",\n    \"unit\": \"cm\",\n    \"source_text\": \"78 x 55 x 91 cm\"\n  },\n  \"seat_height\": {\n    \"value\": \"44\",\n    \"unit\": \"cm\",\n    \"source_text\": \"44 cm\"\n  },\n  \"seat_depth\": {\n    \"value\": \"33\",\n    \"unit\": \" \" ,\n    \"source_text\": \"33 cm\"\n  },\n  \"max_load\": {\n    \"value\": \"120\",\n    \"unit\": \"kg\",\n    \"source_text\": \"120 kg\"\n  },\n  \"weight\": {\n    \"value\": \"10\",\n    \"unit\": \"kg\",\n    \"source_text\": \"10 kg\"\n  },\n  \"legs_or_base\": \"Massive Buche, Nussbaum gebeizt / solid beech, walnut stain\",\n  \"upholstery\": \"Webstoff, 100 % Polyester / woven fabric, 100% polyester\",\n  \"care\": \"Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C\",\n  \"variants\": [\n    {\n      \"code\": \"WES-09-ANT\",\n      \"colour_name\": \"Anthrazit\",\n      \"ean\": \"4012345009019\"\n    },\n    {\n      \"code\": \"WES-09-SAN\",\n      \"colour_name\": \"Sand\",\n      \"ean\": \"4012345009026\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Nicht im Freien verwenden.\",\n    \"Von Wärmequellen fernhalten.\",\n    \"Nicht auf die Sitzfläche stellen.\"\n  ],\n  \"safety_warnings_languages\": [\n    \"de\"\n  ],\n  \"claims\": []\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1307,
+   "completion_tokens": 666
+  },
+  "latency_s": 41.453
+ }
+}

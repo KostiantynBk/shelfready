@@ -1,0 +1,50 @@
+{
+ "key": "de915ab3d9b258409f789191c76b2e1952e542fd36b18ab01ab6ef31970b66a5",
+ "purpose": "spec:SYN-11",
+ "recorded_at": "2026-10-14T05:40:32+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"SpecValue\": {\"properties\": {\"value\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the value exactly as written, null if blank or a dash\"}, \"unit\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the unit exactly as written, e.g. cm, mm, kg; null if none\"}, \"source_text\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the exact text this was read from\"}}, \"required\": [\"value\", \"unit\", \"source_text\"], \"type\": \"object\"}, \"Variant\": {\"properties\": {\"code\": {\"type\": \"string\"}, \"colour_name\": {\"description\": \"colour name exactly as written by the supplier\", \"type\": \"string\"}, \"ean\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"EAN/GTIN digits exactly as written; null if missing\"}}, \"required\": [\"code\", \"colour_name\", \"ean\"], \"type\": \"object\"}}, \"properties\": {\"product_name\": {\"type\": \"string\"}, \"supplier\": {\"type\": \"string\"}, \"product_type\": {\"description\": \"as written, e.g. 'Poltrona / Armchair'\", \"type\": \"string\"}, \"manufacturer\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"manufacturer name as written\"}, \"manufacturer_address\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"postal address and contact as written\"}, \"eu_responsible_person\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"EU responsible person / importer as written\"}, \"country_of_origin\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}]}, \"width\": {\"$ref\": \"#/$defs/SpecValue\"}, \"depth\": {\"$ref\": \"#/$defs/SpecValue\"}, \"height\": {\"$ref\": \"#/$defs/SpecValue\"}, \"seat_height\": {\"$ref\": \"#/$defs/SpecValue\"}, \"seat_depth\": {\"$ref\": \"#/$defs/SpecValue\"}, \"max_load\": {\"$ref\": \"#/$defs/SpecValue\"}, \"weight\": {\"$ref\": \"#/$defs/SpecValue\"}, \"legs_or_base\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"material of the legs (seating) or base (lamps) as written\"}, \"upholstery\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"covering or pile, including fibre composition, as written\"}, \"care\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"care / cleaning instructions as written\"}, \"variants\": {\"items\": {\"$ref\": \"#/$defs/Variant\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"each safety warning exactly as written\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"safety_warnings_languages\": {\"description\": \"ISO 639-1 codes of the warnings' languages\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"claims\": {\"description\": \"marketing claims about health, safety or environment, as written\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}}, \"required\": [\"product_name\", \"supplier\", \"product_type\", \"manufacturer\", \"manufacturer_address\", \"eu_responsible_person\", \"country_of_origin\", \"width\", \"depth\", \"height\", \"seat_height\", \"seat_depth\", \"max_load\", \"weight\", \"legs_or_base\", \"upholstery\", \"care\", \"variants\", \"safety_warnings\", \"safety_warnings_languages\", \"claims\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "pdf:731d450e69f0784d296d1b213a0febb1cdab800f18ed811f33f02d2265b585ad:p1@2x@1536"
+      }
+     },
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "pdf:731d450e69f0784d296d1b213a0febb1cdab800f18ed811f33f02d2265b585ad:p2@2x@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "This is a supplier's technical spec sheet for a furniture or home product. It may mix Portuguese, Italian, German and English, and may span several pages (for example a separate price list). Extract the fields exactly as written: keep the original units (do not convert), keep decimal commas, and put the exact text you read in source_text. Use null for empty fields or dashes. variants: one entry per row of the variants or price table. safety_warnings: every warning sentence as written, one entry per language version. claims: only statements about health, safety or the environment (e.g. antibacterial, fireproof, eco-friendly), not design or comfort."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"product_name\": \"Divano LUCCA / LUCCA sofa\",\n  \"supplier\": \"Arredo Brianza S.r.l.\",\n  \"product_type\": \"Divano / sofa\",\n  \"manufacturer\": \"Ningbo Brightway Home Co., Ltd.\",\n  \"manufacturer_address\": \"No. 88 Xingning Road, Yinzhou District, Ningbo 315000, China · export@brightway.example\",\n  \"eu_responsible_person\": null,\n  \"country_of_origin\": \"China\",\n  \"width\": {\n    \"value\": \"214\",\n    \"unit\": \"cm\",\n    \"source_text\": \"214 x 107 x 80 cm\"\n  },\n  \"depth\": {\n    \"value\": \"107\",\n    \"unit\": \"cm\",\n    \"source_text\": \"214 x 107 x 80 cm\"\n  },\n  \"height\": {\n    \"value\": \"80\",\n    \"unit\": \"cm\",\n    \"source_text\": \"214 x 107 x 80 cm\"\n  },\n  \"seat_height\": {\n    \"value\": \"44\",\n    \"unit\": \"cm\",\n    \"source_text\": \"44 cm\"\n  },\n  \"seat_depth\": {\n    \"value\": \"64\",\n    \"unit\": \"cm\",\n    \"source_text\": \"64 cm\"\n  },\n  \"max_load\": {\n    \"value\": \"330\",\n    \"unit\": \"kg\",\n    \"source_text\": \"330 kg\"\n  },\n  \"weight\": {\n    \"value\": \"61,8\",\n    \"unit\": \"kg\",\n    \"source_text\": \"61,8 kg\"\n  },\n  \"legs_or_base\": \"Pino + multistrato\",\n  \"upholstery\": \"Tessuto, 100% poliestere / woven fabric, 100% polyester\",\n  \"care\": \"Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C\",\n  \"variants\": [\n    {\n      \"code\": \"LUC-11-ANT\",\n      \"colour_name\": \"Antracite\",\n      \"ean\": \"8012345011018\"\n    },\n    {\n      \"code\": \"LUC-11-SAB\",\n      \"colour_name\": \"Sabbia\",\n      \"ean\": \"8012345011025\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Non utilizzare all'aperto.\",\n    \"Not for outdoor use.\",\n    \"Tenere lontano da fonti di calore.\",\n    \"Keep away from heat sources.\",\n    \"Non salire in piedi sulla seduta.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"safety_warnings_languages\": [\n    \"it\",\n    \"en\",\n    \"it\",\n    \"en\",\n    \"it\",\n    \"en\"\n  ],\n  \"claims\": []\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1575,
+   "completion_tokens": 754
+  },
+  "latency_s": 61.266
+ }
+}

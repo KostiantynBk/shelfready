@@ -1,0 +1,469 @@
+{
+ "submission_id": "SYN-15",
+ "spec": {
+  "product_name": "MOSEL",
+  "supplier": "Nordholz Wohnen GmbH",
+  "product_type": "Stehleuchte MOSEL / MOSEL floor lamp",
+  "manufacturer": "Ningbo Brightway Home Co., Ltd.",
+  "manufacturer_address": "No. 88 Xingning Road, Yinzhou District, Ningbo 315000, China",
+  "eu_responsible_person": "Nordholz Wohnen GmbH, Industriestraße 21, 32051 Herford, Deutschland",
+  "country_of_origin": "China",
+  "width": {
+   "value": "39",
+   "unit": "cm",
+   "source_text": "Ø 39 cm"
+  },
+  "depth": {
+   "value": "39",
+   "unit": "cm",
+   "source_text": "Ø 39 cm"
+  },
+  "height": {
+   "value": "56",
+   "unit": "cm",
+   "source_text": "56 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "max_load": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "weight": {
+   "value": "6,3",
+   "unit": "kg",
+   "source_text": "6,3 kg"
+  },
+  "legs_or_base": "Pulverbeschichteter Stahl, schwarz matt / powder-coated steel, matt black",
+  "upholstery": null,
+  "care": "Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off",
+  "variants": [
+   {
+    "code": "MOS-15-SCH",
+    "colour_name": "Schwarz",
+    "ean": "4012345015010"
+   },
+   {
+    "code": "MOS-15-SIL",
+    "colour_name": "Silber",
+    "ean": "4012345015027"
+   }
+  ],
+  "safety_warnings": [
+   "Nur Leuchtmittel E27 max. 40 W verwenden.",
+   "Use only E27 bulbs, max. 40 W.",
+   "Vor dem Reinigen vom Netz trennen.",
+   "Disconnect before cleaning.",
+   "Nur für den Innenbereich.",
+   "For indoor use only."
+  ],
+  "safety_warnings_languages": [
+   "de",
+   "en",
+   "de",
+   "en",
+   "de",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4242977542667895,
+    0.1488732340424167,
+    0.47193299877823924,
+    0.15778144368901517
+   ],
+   "text": "Ø 39 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4242977542667895,
+    0.1488732340424167,
+    0.47193299877823924,
+    0.15778144368901517
+   ],
+   "text": "Ø 39 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.1488732340424167,
+    0.41309525461069496,
+    0.15778144368901517
+   ],
+   "text": "56 cm",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.1809427887701713,
+    0.41310756501843204,
+    0.1898509984167698
+   ],
+   "text": "6,3 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.13283845667853952,
+    0.7914442931253668,
+    0.141746666325138
+   ],
+   "text": "Pulverbeschichteter Stahl, schwarz matt / powder-coated steel, matt black",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.1969775661340485,
+    0.8514946176234262,
+    0.20588577578064698
+   ],
+   "text": "Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.2290471208618031,
+    0.8860931097090168,
+    0.24775436111965993
+   ],
+   "text": "No. 88 Xingning Road, Yinzhou District, Ningbo 315000, China",
+   "note": null
+  },
+  "eu_responsible_person": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.2548809288369386,
+    0.7926445607790846,
+    0.2637891384835371
+   ],
+   "text": "Nordholz Wohnen GmbH, Industriestraße 21, 32051 Herford, Deutschland",
+   "note": null
+  },
+  "ean:MOS-15-SCH": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.41510801787312285,
+    0.32080168022176736,
+    0.5062483542591732,
+    0.32970988986836586
+   ],
+   "text": "4012345015010",
+   "note": null
+  },
+  "ean:MOS-15-SIL": {
+   "source": "pdf",
+   "file": "MOSEL_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.41510801787312285,
+    0.3368364575856447,
+    0.5062483542591732,
+    0.3457446672322432
+   ],
+   "text": "4012345015027",
+   "note": null
+  }
+ },
+ "images": {
+  "MOSEL-SCH-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "floor lamp",
+    "products_in_frame": 1,
+    "colour_family": "black",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "metal",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       905,
+       474,
+       966,
+       620
+      ]
+     }
+    ]
+   },
+   "size": [
+    1010,
+    1010
+   ],
+   "low_res": false
+  },
+  "MOSEL-SCH-2.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "lamp",
+    "products_in_frame": 1,
+    "colour_family": "black",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "metal",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       234,
+       67,
+       767,
+       1000
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "MOSEL-SCH-3.jpg": {
+   "analysis": {
+    "role": "other",
+    "product_type": "none",
+    "products_in_frame": 0,
+    "colour_family": "black",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "IMG_4241.JPG": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "floor lamp",
+    "products_in_frame": 1,
+    "colour_family": "black",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "metal",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       905,
+       492,
+       985,
+       660
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "MOSEL-SIL-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "floor lamp",
+    "products_in_frame": 1,
+    "colour_family": "silver",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "metal",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       904,
+       440,
+       983,
+       621
+      ]
+     }
+    ]
+   },
+   "size": [
+    1010,
+    1010
+   ],
+   "low_res": false
+  },
+  "MOSEL-SIL-3.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "floor lamp",
+    "products_in_frame": 1,
+    "colour_family": "silver",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "metal",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       142,
+       623,
+       1000,
+       733
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "MOSEL-SIL-4.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "THE KINFOLK HOME"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       752,
+       133,
+       806,
+       181
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       783,
+       206,
+       843,
+       255
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       721,
+       847,
+       773,
+       882
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       768,
+       16,
+       818,
+       116
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       884,
+       613,
+       896,
+       735
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  }
+ },
+ "errors": {
+  "MOSEL-SIL-2.jpg": "LLMError: drawing:SYN-15:MOSEL-SIL-2.jpg: gave up after 5 attempts: Error code: 500 - {'error': {'message': 'Error from provider self-dploy: 503 Service Unavailable {\"error\":{\"type\":\"Service Unavailable\",\"code\":\"no_available_workers\",\"message\":\"No available workers (all circuits open or unhealthy)\"}"
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

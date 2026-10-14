@@ -1,0 +1,44 @@
+{
+ "key": "6016f0887896f47a697f12706e2d80c57d88c5c889fab5b08290c8fff7b4ca05",
+ "purpose": "photo:SYN-05:LEC05_label.png",
+ "recorded_at": "2026-10-14T05:52:11+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"Box\": {\"properties\": {\"label\": {\"type\": \"string\"}, \"box_2d\": {\"description\": \"[y0, x0, y1, x1] normalised to 0-1000\", \"items\": {\"type\": \"integer\"}, \"maxItems\": 4, \"minItems\": 4, \"type\": \"array\"}}, \"required\": [\"label\", \"box_2d\"], \"type\": \"object\"}}, \"properties\": {\"role\": {\"enum\": [\"packshot\", \"detail\", \"lifestyle\", \"label\", \"dimension_drawing\", \"packaging\", \"promo\", \"other\"], \"type\": \"string\"}, \"product_type\": {\"description\": \"e.g. armchair, sofa, table lamp, area rug\", \"type\": \"string\"}, \"products_in_frame\": {\"type\": \"integer\"}, \"colour_family\": {\"description\": \"main colour of the product's upholstery, body or pile\", \"enum\": [\"black\", \"white\", \"grey\", \"beige\", \"brown\", \"red\", \"orange\", \"yellow\", \"green\", \"blue\", \"purple\", \"pink\", \"gold\", \"silver\", \"multicolour\"], \"type\": \"string\"}, \"upholstery_material\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"visible covering, e.g. velvet, leather, boucle; null if none\"}, \"legs_material\": {\"description\": \"seating: legs; 'none_visible' if no legs show\", \"enum\": [\"wood\", \"metal\", \"plastic\", \"glass\", \"ceramic\", \"stone\", \"fabric\", \"none_visible\", \"unsure\"], \"type\": \"string\"}, \"base_material\": {\"description\": \"lamps: base or body; 'none_visible' for other products\", \"enum\": [\"wood\", \"metal\", \"plastic\", \"glass\", \"ceramic\", \"stone\", \"fabric\", \"none_visible\", \"unsure\"], \"type\": \"string\"}, \"legs_finish\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"e.g. light oak, dark walnut, black matt, chrome; null if unsure\"}, \"text_in_image\": {\"description\": \"every piece of text printed on or in the photo, as read\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"has_text_overlay\": {\"description\": \"text or graphics added on top of the photo (e.g. a sale badge)\", \"type\": \"boolean\"}, \"white_background\": {\"type\": \"boolean\"}, \"confidence\": {\"maximum\": 1, \"minimum\": 0, \"type\": \"number\"}, \"boxes\": {\"description\": \"'leg' for each visible leg, 'base' for a lamp base, 'text' for text\", \"items\": {\"$ref\": \"#/$defs/Box\"}, \"type\": \"array\"}}, \"required\": [\"role\", \"product_type\", \"products_in_frame\", \"colour_family\", \"upholstery_material\", \"legs_material\", \"base_material\", \"legs_finish\", \"text_in_image\", \"has_text_overlay\", \"white_background\", \"confidence\", \"boxes\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "sha256:ac5a1bb3913f792084608c6878f4f51d600dd90884fedc26a1f4196e5a990fc4@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "You are a product-data inspector for an online furniture and home shop. Describe only what is visible in this photo. Do not guess hidden details: use 'unsure' or 'none_visible' when you cannot see something. Dark-stained wood can look black: answer 'wood' or 'metal' only when wood grain or metal sheen is clearly visible, otherwise 'unsure'.\nPut a box_2d around every visible leg (label 'leg'), around a lamp's base (label 'base') and around any text, logo or badge printed on the image (label 'text'). box_2d is [y0, x0, y1, x1] normalised to 0-1000."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"role\": \"label\", \"product_type\": \"label\", \"products_in_frame\": 0, \"colour_family\": \"white\", \"upholstery_material\": null, \"legs_material\": \"none_visible\", \"base_material\": \"none_visible\", \"legs_finish\": null, \"text_in_image\": [\"ARREDO BRIANZA S.R.L.\", \"LEC-05\", \"100% POLIESTERE\", \"100% POLYESTER\", \"Fodera sfoderabile\", \"Removable cover\", \"Prodotto in Italia\"], \"has_text_overlay\": false, \"white_background\": true, \"confidence\": 1.0, \"boxes\": [{\"label\": \"text\", \"box_2d\": [109, 230, 144, 776]}, {\"label\": \"text\", \"box_2d\": [167, 438, 201, 568]}, {\"label\": \"text\", \"box_2d\": [230, 308, 265, 698]}, {\"label\": \"text\", \"box_2d\": [292, 312, 327, 692]}, {\"label\": \"text\", \"box_2d\": [354, 335, 389, 670]}, {\"label\": \"text\", \"box_2d\": [416, 351, 451, 662]}, {\"label\": \"text\", \"box_2d\": [782, 291, 817, 565]}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1162,
+   "completion_tokens": 384
+  },
+  "latency_s": 30.281
+ }
+}

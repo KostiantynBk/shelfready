@@ -1,0 +1,1235 @@
+{
+ "submission_id": "SYN-08",
+ "spec": {
+  "product_name": "Poltrona BRERA / BRERA armchair",
+  "supplier": "Arredo Brianza S.r.l.",
+  "product_type": "Poltrona / Armchair",
+  "manufacturer": "Arredo Brianza S.r.l.",
+  "manufacturer_address": "Via dei Mobilieri 7, 20821 Meda (MB), Italia · info@arredobrianza.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Italia",
+  "width": {
+   "value": "122",
+   "unit": "cm",
+   "source_text": "122 x 117 x 95 cm"
+  },
+  "depth": {
+   "value": "117",
+   "unit": "cm",
+   "source_text": "122 x 117 x 95 cm"
+  },
+  "height": {
+   "value": "95",
+   "unit": "cm",
+   "source_text": "122 x 117 x 95 cm"
+  },
+  "seat_height": {
+   "value": "47",
+   "unit": "cm",
+   "source_text": "47 cm"
+  },
+  "seat_depth": {
+   "value": "70",
+   "unit": "cm",
+   "source_text": "70 cm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "38,4",
+   "unit": "kg",
+   "source_text": "38,4 kg"
+  },
+  "legs_or_base": "Pino + multistrato",
+  "upholstery": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+  "care": "Solo lavaggio a secco / dry clean only",
+  "variants": [
+   {
+    "code": "BRE-08-ANT",
+    "colour_name": "Antracite",
+    "ean": "8012345008018"
+   },
+   {
+    "code": "BRE-08-COG",
+    "colour_name": "Cognac",
+    "ean": "8012345008025"
+   },
+   {
+    "code": "BRE-08-SAB",
+    "colour_name": "Sabbia",
+    "ean": "8012345008032"
+   }
+  ],
+  "safety_warnings": [
+   "Non utilizzare all'aperto.",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "it",
+   "en",
+   "it",
+   "en",
+   "it",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6342855334602047,
+    0.18221116470953955
+   ],
+   "text": "122 x 117 x 95 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6342855334602047,
+    0.18221116470953955
+   ],
+   "text": "122 x 117 x 95 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6342855334602047,
+    0.18221116470953955
+   ],
+   "text": "122 x 117 x 95 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.2080449726846752,
+    0.11808911939648982,
+    0.21873482426059335
+   ],
+   "text": "47 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.2080449726846752,
+    0.5529923172835375,
+    0.21873482426059335
+   ],
+   "text": "70 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.244568632235729,
+    0.12231406207206698,
+    0.2552584838116472
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.244568632235729,
+    0.561420043900765,
+    0.2552584838116472
+   ],
+   "text": "38,4 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.12252616007732976,
+    0.6332883882148662,
+    0.13321601165324792
+   ],
+   "text": "Pino + multistrato",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.1715213131336214,
+    0.4561214695065345,
+    0.18221116470953955
+   ],
+   "text": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.28109229178678263,
+    0.3300010198825395,
+    0.2917821433627008
+   ],
+   "text": "Solo lavaggio a secco / dry clean only",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.31761595133783643,
+    0.4734644175094024,
+    0.34077729641899246
+   ],
+   "text": "Via dei Mobilieri 7, 20821 Meda (MB), Italia · info@arredobrianza.example",
+   "note": null
+  },
+  "ean:BRE-08-ANT": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.3182987172941436,
+    0.13054354875926844,
+    0.4276671209574041,
+    0.14123340033518658
+   ],
+   "text": "8012345008018",
+   "note": null
+  },
+  "ean:BRE-08-COG": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.3182987172941436,
+    0.15459571480508424,
+    0.4276671209574041,
+    0.16528556638100242
+   ],
+   "text": "8012345008025",
+   "note": null
+  },
+  "ean:BRE-08-SAB": {
+   "source": "pdf",
+   "file": "BRERA_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.3182987172941436,
+    0.17864788085090022,
+    0.4276671209574041,
+    0.18933773242681837
+   ],
+   "text": "8012345008032",
+   "note": null
+  }
+ },
+ "images": {
+  "BRERA_ANT_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       805,
+       46,
+       852,
+       93
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       933,
+       251,
+       987,
+       376
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       886,
+       871,
+       930,
+       962
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1863
+   ],
+   "low_res": false
+  },
+  "BRERA_ANT_02.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       518,
+       11,
+       598,
+       81
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "BRERA_ANT_03.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       656,
+       161,
+       861,
+       786
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4200.JPG": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "37.4\"",
+     "44.9\"",
+     "46.1\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       421,
+       21,
+       454,
+       56
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       856,
+       162,
+       891,
+       198
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       933,
+       593,
+       958,
+       631
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       753,
+       121,
+       793,
+       162
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       856,
+       291,
+       906,
+       403
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       813,
+       794,
+       846,
+       842
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1863
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 117.1,
+    "depth_cm": 114.0,
+    "height_cm": 94.9,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "BRERA_COG_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       806,
+       46,
+       851,
+       93
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       926,
+       246,
+       986,
+       385
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       883,
+       866,
+       931,
+       962
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1863
+   ],
+   "low_res": false
+  },
+  "BRERA_COG_02.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "37.4\"",
+     "44.9\"",
+     "46.1\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       422,
+       22,
+       456,
+       58
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       853,
+       161,
+       887,
+       197
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       933,
+       592,
+       956,
+       631
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       753,
+       122,
+       792,
+       168
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       856,
+       291,
+       907,
+       402
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       812,
+       795,
+       851,
+       881
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1863
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 117.1,
+    "depth_cm": 114.0,
+    "height_cm": 94.7,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "BRERA_COG_03.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       653,
+       156,
+       863,
+       805
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "BRERA_COG_04.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "glass",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       518,
+       11,
+       596,
+       81
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       866,
+       383,
+       897,
+       485
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       816,
+       858,
+       848,
+       918
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "BRERA_SAB_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       803,
+       44,
+       848,
+       96
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       931,
+       242,
+       986,
+       417
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       885,
+       831,
+       931,
+       961
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1903
+   ],
+   "low_res": false
+  },
+  "BRERA_SAB_02.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "fabric swatch",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "BRERA_SAB_03.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "KINFOR LAPHAM",
+     "THE KINFOLK",
+     "Farmhouse Modern",
+     "R"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       186,
+       348,
+       203,
+       446
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       616,
+       11,
+       634,
+       78
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       641,
+       11,
+       658,
+       128
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       401,
+       791,
+       506,
+       893
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "BRERA_SAB_04.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [
+     "37.4\"",
+     "44.9\"",
+     "46.1\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       426,
+       12,
+       462,
+       51
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       865,
+       156,
+       901,
+       196
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       933,
+       594,
+       969,
+       634
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       754,
+       117,
+       792,
+       163
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       856,
+       285,
+       908,
+       431
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       806,
+       778,
+       852,
+       884
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1903
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 117.1,
+    "depth_cm": 114.3,
+    "height_cm": 94.7,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "BRE08_promo.jpg": {
+   "analysis": {
+    "role": "promo",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "NOVITÀ -20%"
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       33,
+       18,
+       92,
+       318
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       806,
+       42,
+       853,
+       92
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       933,
+       251,
+       987,
+       383
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       887,
+       866,
+       931,
+       961
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    1164
+   ],
+   "low_res": false
+  },
+  "BRE08_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "ARREDO BRIANZA S.R.L.",
+     "BRE-08",
+     "100% POLIESTERE",
+     "100% POLYESTER",
+     "Fodera sfoderabile",
+     "Removable cover",
+     "30",
+     "Prodotto in Italia"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       109,
+       230,
+       144,
+       776
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       166,
+       441,
+       201,
+       576
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       228,
+       308,
+       263,
+       698
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       290,
+       312,
+       325,
+       692
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       352,
+       336,
+       387,
+       669
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       414,
+       351,
+       449,
+       661
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       613,
+       255,
+       658,
+       308
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       781,
+       291,
+       816,
+       565
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYESTER",
+    "wash_max_temp_c": 30,
+    "do_not_wash": false,
+    "dry_clean_only": false,
+    "removable_cover": true,
+    "other_text": [
+     "ARREDO BRIANZA S.R.L.",
+     "BRE-08",
+     "100% POLIESTERE",
+     "Fodera sfoderabile",
+     "Removable cover",
+     "Prodotto in Italia"
+    ]
+   }
+  },
+  "BRE08_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRONTE / FRONT",
+     "LATO / SIDE",
+     "95",
+     "47",
+     "114 cm",
+     "117 cm",
+     "BRE-08 · misure in cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       44,
+       93,
+       84,
+       265
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       44,
+       611,
+       84,
+       738
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       601,
+       8,
+       642,
+       32
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       716,
+       431,
+       757,
+       456
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       888,
+       214,
+       929,
+       291
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       888,
+       741,
+       929,
+       818
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       953,
+       792,
+       993,
+       986
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       105,
+       835,
+       121
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       371,
+       835,
+       387
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       621,
+       835,
+       637
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       907,
+       835,
+       923
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 114.0,
+    "depth_cm": 117.0,
+    "height_cm": 95.0,
+    "seat_height_cm": 47.0,
+    "product_code": "BRE-08"
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

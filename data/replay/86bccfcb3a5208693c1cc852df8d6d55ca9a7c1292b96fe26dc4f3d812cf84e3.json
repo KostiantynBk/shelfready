@@ -1,0 +1,44 @@
+{
+ "key": "86bccfcb3a5208693c1cc852df8d6d55ca9a7c1292b96fe26dc4f3d812cf84e3",
+ "purpose": "label:SYN-09:WES09_label.png",
+ "recorded_at": "2026-10-14T05:52:42+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"description\": \"A sewn-in care label: composition and care symbols, as printed.\", \"properties\": {\"composition\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"fibre composition exactly as printed, e.g. '100% polyester'\"}, \"wash_max_temp_c\": {\"anyOf\": [{\"type\": \"integer\"}, {\"type\": \"null\"}], \"description\": \"temperature in the wash-tub symbol; null if not washable\"}, \"do_not_wash\": {\"description\": \"the wash tub is crossed out\", \"type\": \"boolean\"}, \"dry_clean_only\": {\"description\": \"only professional / dry cleaning is allowed\", \"type\": \"boolean\"}, \"removable_cover\": {\"description\": \"the label says the cover is removable\", \"type\": \"boolean\"}, \"other_text\": {\"description\": \"any other text on the label, as printed\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}}, \"required\": [\"composition\", \"wash_max_temp_c\", \"do_not_wash\", \"dry_clean_only\", \"removable_cover\", \"other_text\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "sha256:882ec54d299b2c23dd67ca273807487d98b8fef6237bae8abe8d906f3875c81b@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "This is a care label sewn into upholstery or a rug. Read the printed text and the care symbols: the wash tub (with a temperature, or crossed out), the triangle (bleach), the iron, and a circle (professional / dry cleaning). Report only what is printed."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"composition\": \"100% POLYESTER\", \"wash_max_temp_c\": 30, \"do_not_wash\": false, \"dry_clean_only\": false, \"removable_cover\": true, \"other_text\": [\"NORDHOLZ WOHNEN GMBH\", \"WES-09\", \"Bezug abnehmbar\", \"Removable cover\", \"Hergestellt in Deutschland\"]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 621,
+   "completion_tokens": 93
+  },
+  "latency_s": 5.859
+ }
+}

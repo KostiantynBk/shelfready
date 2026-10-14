@@ -1,0 +1,44 @@
+{
+ "key": "9b823b1e5eed624d73c678fcdddd3406e6dabc0a09d2c5a8134d974c96fa2989",
+ "purpose": "spec:SYN-20",
+ "recorded_at": "2026-10-14T06:04:07+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"SpecValue\": {\"properties\": {\"value\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the value exactly as written, null if blank or a dash\"}, \"unit\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the unit exactly as written, e.g. cm, mm, kg; null if none\"}, \"source_text\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"the exact text this was read from\"}}, \"required\": [\"value\", \"unit\", \"source_text\"], \"type\": \"object\"}, \"Variant\": {\"properties\": {\"code\": {\"type\": \"string\"}, \"colour_name\": {\"description\": \"colour name exactly as written by the supplier\", \"type\": \"string\"}, \"ean\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"EAN/GTIN digits exactly as written; null if missing\"}}, \"required\": [\"code\", \"colour_name\", \"ean\"], \"type\": \"object\"}}, \"properties\": {\"product_name\": {\"type\": \"string\"}, \"supplier\": {\"type\": \"string\"}, \"product_type\": {\"description\": \"as written, e.g. 'Poltrona / Armchair'\", \"type\": \"string\"}, \"manufacturer\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"manufacturer name as written\"}, \"manufacturer_address\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"postal address and contact as written\"}, \"eu_responsible_person\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"EU responsible person / importer as written\"}, \"country_of_origin\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}]}, \"width\": {\"$ref\": \"#/$defs/SpecValue\"}, \"depth\": {\"$ref\": \"#/$defs/SpecValue\"}, \"height\": {\"$ref\": \"#/$defs/SpecValue\"}, \"seat_height\": {\"$ref\": \"#/$defs/SpecValue\"}, \"seat_depth\": {\"$ref\": \"#/$defs/SpecValue\"}, \"max_load\": {\"$ref\": \"#/$defs/SpecValue\"}, \"weight\": {\"$ref\": \"#/$defs/SpecValue\"}, \"legs_or_base\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"material of the legs (seating) or base (lamps) as written\"}, \"upholstery\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"covering or pile, including fibre composition, as written\"}, \"care\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"care / cleaning instructions as written\"}, \"variants\": {\"items\": {\"$ref\": \"#/$defs/Variant\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"each safety warning exactly as written\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"safety_warnings_languages\": {\"description\": \"ISO 639-1 codes of the warnings' languages\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"claims\": {\"description\": \"marketing claims about health, safety or environment, as written\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}}, \"required\": [\"product_name\", \"supplier\", \"product_type\", \"manufacturer\", \"manufacturer_address\", \"eu_responsible_person\", \"country_of_origin\", \"width\", \"depth\", \"height\", \"seat_height\", \"seat_depth\", \"max_load\", \"weight\", \"legs_or_base\", \"upholstery\", \"care\", \"variants\", \"safety_warnings\", \"safety_warnings_languages\", \"claims\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "pdf:6dca7f850ba48bd82106c387a499e72ac18b13951041c75d86b0974c0b94de4c:p1@2x@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "This is a supplier's technical spec sheet for a furniture or home product. It may mix Portuguese, Italian, German and English, and may span several pages (for example a separate price list). Extract the fields exactly as written: keep the original units (do not convert), keep decimal commas, and put the exact text you read in source_text. Use null for empty fields or dashes. variants: one entry per row of the variants or price table. safety_warnings: every warning sentence as written, one entry per language version. claims: only statements about health, safety or the environment (e.g. antibacterial, fireproof, eco-friendly), not design or comfort."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"product_name\": \"LECH\",\n  \"supplier\": \"Nordholz Wohnen GmbH\",\n  \"product_type\": \"Teppich LECH / LECH rug\",\n  \"manufacturer\": \"Nordholz Wohnen GmbH\",\n  \"manufacturer_address\": \"Industriestraße 21, 32051 Herford, Deutschland\",\n  \"eu_responsible_person\": \"Nordholz Wohnen GmbH, Industriestraße 21, 32051 Herford, Deutschland\",\n  \"country_of_origin\": \"Deutschland\",\n  \"width\": {\n    \"value\": \"160\",\n    \"unit\": \"cm\",\n    \"source_text\": \"160 x 120 cm\"\n  },\n  \"depth\": {\n    \"value\": \"120\",\n    \"unit\": \"cm\",\n    \"source_text\": \"160 x 120 cm\"\n  },\n  \"height\": {\n    \"value\": \"5,1\",\n    \"unit\": \"cm\",\n    \"source_text\": \"5,1 cm\"\n  },\n  \"seat_height\": null,\n  \"seat_depth\": null,\n  \"max_load\": null,\n  \"weight\": {\n    \"value\": \"65\",\n    \"unit\": \"kg\",\n    \"source_text\": \"65 kg\"\n  },\n  \"legs_or_base\": null,\n  \"upholstery\": \"Handgetuftet / hand-tufted\",\n  \"care\": \"Nicht waschen; professionelle Reinigung / do not wash; professional cleaning only\",\n  \"variants\": [\n    {\n      \"code\": \"LEC-20-ANT\",\n      \"colour_name\": \"Anthrazit\",\n      \"ean\": \"4012345020014\"\n    },\n    {\n      \"code\": \"LEC-20-SAN\",\n      \"colour_name\": \"Sand\",\n      \"ean\": \"4012345020021\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Auf glatten Böden eine Antirutschunterlage verwenden.\",\n    \"Use an anti-slip underlay on smooth floors.\",\n    \"Von offenem Feuer fernhalten.\",\n    \"Keep away from open flames.\"\n  ],\n  \"safety_warnings_languages\": [\n    \"de\",\n    \"en\",\n    \"de\",\n    \"en\"\n  ],\n  \"claims\": []\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1307,
+   "completion_tokens": 584
+  },
+  "latency_s": 26.328
+ }
+}

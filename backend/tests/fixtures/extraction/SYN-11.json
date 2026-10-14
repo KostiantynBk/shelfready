@@ -1,0 +1,915 @@
+{
+ "submission_id": "SYN-11",
+ "spec": {
+  "product_name": "Divano LUCCA / LUCCA sofa",
+  "supplier": "Arredo Brianza S.r.l.",
+  "product_type": "Divano / sofa",
+  "manufacturer": "Ningbo Brightway Home Co., Ltd.",
+  "manufacturer_address": "No. 88 Xingning Road, Yinzhou District, Ningbo 315000, China · export@brightway.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "China",
+  "width": {
+   "value": "214",
+   "unit": "cm",
+   "source_text": "214 x 107 x 80 cm"
+  },
+  "depth": {
+   "value": "107",
+   "unit": "cm",
+   "source_text": "214 x 107 x 80 cm"
+  },
+  "height": {
+   "value": "80",
+   "unit": "cm",
+   "source_text": "214 x 107 x 80 cm"
+  },
+  "seat_height": {
+   "value": "44",
+   "unit": "cm",
+   "source_text": "44 cm"
+  },
+  "seat_depth": {
+   "value": "64",
+   "unit": "cm",
+   "source_text": "64 cm"
+  },
+  "max_load": {
+   "value": "330",
+   "unit": "kg",
+   "source_text": "330 kg"
+  },
+  "weight": {
+   "value": "61,8",
+   "unit": "kg",
+   "source_text": "61,8 kg"
+  },
+  "legs_or_base": "Pino + multistrato",
+  "upholstery": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+  "care": "Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C",
+  "variants": [
+   {
+    "code": "LUC-11-ANT",
+    "colour_name": "Antracite",
+    "ean": "8012345011018"
+   },
+   {
+    "code": "LUC-11-SAB",
+    "colour_name": "Sabbia",
+    "ean": "8012345011025"
+   }
+  ],
+  "safety_warnings": [
+   "Non utilizzare all'aperto.",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "it",
+   "en",
+   "it",
+   "en",
+   "it",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6354082455703909,
+    0.18221116470953955
+   ],
+   "text": "214 x 107 x 80 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6354082455703909,
+    0.18221116470953955
+   ],
+   "text": "214 x 107 x 80 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6354082455703909,
+    0.18221116470953955
+   ],
+   "text": "214 x 107 x 80 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.2080449726846752,
+    0.11808911939648982,
+    0.21873482426059335
+   ],
+   "text": "44 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.2080449726846752,
+    0.5529923172835375,
+    0.21873482426059335
+   ],
+   "text": "64 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.244568632235729,
+    0.12231406207206698,
+    0.2552584838116472
+   ],
+   "text": "330 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.244568632235729,
+    0.561420043900765,
+    0.2552584838116472
+   ],
+   "text": "61,8 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.12252616007732976,
+    0.6332883882148662,
+    0.13321601165324792
+   ],
+   "text": "Pino + multistrato",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.1715213131336214,
+    0.4561214695065345,
+    0.18221116470953955
+   ],
+   "text": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.28109229178678263,
+    0.4352552732792675,
+    0.30425363686793866
+   ],
+   "text": "Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.3300874448430743,
+    0.46200832161346445,
+    0.3657202834294682
+   ],
+   "text": "No. 88 Xingning Road, Yinzhou District, Ningbo 315000, China · export@brightway.example",
+   "note": null
+  },
+  "ean:LUC-11-ANT": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.31292152373190896,
+    0.13054354875926844,
+    0.4211672156883717,
+    0.14123340033518658
+   ],
+   "text": "8012345011018",
+   "note": null
+  },
+  "ean:LUC-11-SAB": {
+   "source": "pdf",
+   "file": "LUCCA_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.31292152373190896,
+    0.15459571480508424,
+    0.4211672156883717,
+    0.16528556638100242
+   ],
+   "text": "8012345011025",
+   "note": null
+  }
+ },
+ "images": {
+  "LUCCA_ANT_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       648,
+       108,
+       688,
+       145
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       767,
+       210,
+       837,
+       291
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       623,
+       886,
+       662,
+       924
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1383
+   ],
+   "low_res": false
+  },
+  "LUCCA_ANT_02.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    1707
+   ],
+   "low_res": false
+  },
+  "LUCCA_ANT_03.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       823,
+       253,
+       861,
+       346
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       731,
+       908,
+       753,
+       934
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       316,
+       0,
+       862,
+       143
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "IMG_4127.JPG": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       706,
+       104,
+       753,
+       158
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       711,
+       842,
+       756,
+       896
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1275
+   ],
+   "low_res": false
+  },
+  "LUCCA_SAB_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       658,
+       108,
+       705,
+       137
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       773,
+       213,
+       851,
+       292
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       615,
+       838,
+       661,
+       878
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1242
+   ],
+   "low_res": false
+  },
+  "LUCCA_SAB_02.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       798,
+       185,
+       848,
+       276
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       798,
+       702,
+       851,
+       793
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1803
+   ],
+   "low_res": false
+  },
+  "LUCCA_SAB_03.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [
+     "31.5\"",
+     "42.1\"",
+     "75.6\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       348,
+       7,
+       421,
+       84
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       803,
+       106,
+       898,
+       201
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       782,
+       587,
+       866,
+       685
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       663,
+       104,
+       743,
+       138
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       824,
+       231,
+       903,
+       316
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       631,
+       912,
+       668,
+       951
+      ]
+     }
+    ]
+   },
+   "size": [
+    2255,
+    1058
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 192.0,
+    "depth_cm": 107.0,
+    "height_cm": 80.0,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "LUCCA_SAB_04.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "LUC11_SAB_back_small.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       798,
+       185,
+       844,
+       277
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       798,
+       701,
+       848,
+       793
+      ]
+     }
+    ]
+   },
+   "size": [
+    400,
+    282
+   ],
+   "low_res": true
+  },
+  "LUC11_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "ARREDO BRIANZA S.R.L.",
+     "LUC-11",
+     "100% POLIESTERE",
+     "100% POLYESTER",
+     "Fodera sfoderabile",
+     "Removable cover",
+     "30",
+     "Prodotto in Italia"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       109,
+       230,
+       143,
+       776
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       166,
+       436,
+       199,
+       569
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       228,
+       308,
+       263,
+       698
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       291,
+       312,
+       326,
+       692
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       353,
+       336,
+       388,
+       669
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       415,
+       351,
+       450,
+       662
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       614,
+       256,
+       658,
+       308
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       782,
+       290,
+       817,
+       565
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYESTER",
+    "wash_max_temp_c": 30,
+    "do_not_wash": false,
+    "dry_clean_only": false,
+    "removable_cover": true,
+    "other_text": [
+     "ARREDO BRIANZA S.R.L.",
+     "LUC-11",
+     "100% POLIESTERE",
+     "Fodera sfoderabile",
+     "Removable cover",
+     "Prodotto in Italia"
+    ]
+   }
+  },
+  "LUC11_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRONTE / FRONT",
+     "LATO / SIDE",
+     "80",
+     "44",
+     "226 cm",
+     "107 cm",
+     "LUC-11 misure in cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       42,
+       91,
+       81,
+       268
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       42,
+       613,
+       81,
+       741
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       711,
+       6,
+       754,
+       31
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       765,
+       502,
+       808,
+       527
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       886,
+       247,
+       929,
+       328
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       886,
+       673,
+       929,
+       754
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       956,
+       811,
+       993,
+       991
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       104,
+       848,
+       116
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       455,
+       848,
+       467
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       625,
+       848,
+       637
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       776,
+       848,
+       788
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 226.0,
+    "depth_cm": 107.0,
+    "height_cm": 80.0,
+    "seat_height_cm": 44.0,
+    "product_code": "LUC-11"
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

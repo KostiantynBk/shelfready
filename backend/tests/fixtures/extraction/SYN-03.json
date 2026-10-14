@@ -1,0 +1,815 @@
+{
+ "submission_id": "SYN-03",
+ "spec": {
+  "product_name": "Sessel ELBE / ELBE armchair",
+  "supplier": "Nordholz Wohnen GmbH",
+  "product_type": "Sessel ELBE / ELBE armchair",
+  "manufacturer": "Nordholz Wohnen GmbH",
+  "manufacturer_address": "Industriestraße 21, 32051 Herford, Deutschland · service@nordholz-wohnen.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Deutschland",
+  "width": {
+   "value": "78",
+   "unit": "x",
+   "source_text": "78 x 77 x 78 cm"
+  },
+  "depth": {
+   "value": "77",
+   "unit": "x",
+   "source_text": "78 x 77 x 78 cm"
+  },
+  "height": {
+   "value": "78",
+   "unit": "cm",
+   "source_text": "78 x 77 x 78 cm"
+  },
+  "seat_height": {
+   "value": "44",
+   "unit": "cm",
+   "source_text": "44 cm"
+  },
+  "seat_depth": {
+   "value": "46",
+   "unit": "cm",
+   "source_text": "46 cm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "20",
+   "unit": "kg",
+   "source_text": "20 kg"
+  },
+  "legs_or_base": "Kiefer + Sperrholz, Schaum 30 kg/m³ / pine + plywood, foam 30 kg/m³",
+  "upholstery": "Webstoff, 100 % Polyester / woven fabric, 100% polyester",
+  "care": "Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C",
+  "variants": [
+   {
+    "code": "ELB-03-ANT",
+    "colour_name": "Anthrazit",
+    "ean": "4012345003017"
+   },
+   {
+    "code": "ELB-03-SAN",
+    "colour_name": "Sand",
+    "ean": "4012345003024"
+   }
+  ],
+  "safety_warnings": [
+   "Nicht im Freien verwenden.",
+   "Not for outdoor use.",
+   "Von Wärmequellen fernhalten.",
+   "Keep away from heat sources.",
+   "Nicht auf die Sitzfläche steigen.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "de",
+   "en",
+   "de",
+   "en",
+   "de",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.17025293719425313,
+    0.42365269336385253,
+    0.17916114684085163
+   ],
+   "text": "78 x 77 x 78 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.17025293719425313,
+    0.42365269336385253,
+    0.17916114684085163
+   ],
+   "text": "78 x 77 x 78 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.17025293719425313,
+    0.42365269336385253,
+    0.17916114684085163
+   ],
+   "text": "78 x 77 x 78 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.19074181938142964,
+    0.36899434333804654,
+    0.19965002902802811
+   ],
+   "text": "44 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.2067765967453068,
+    0.36899434333804654,
+    0.2156848063919053
+   ],
+   "text": "46 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.2228113741091841,
+    0.3725151289010275,
+    0.2317195837557826
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.23884615147306143,
+    0.3655043337944083,
+    0.24775436111965993
+   ],
+   "text": "20 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.13283845667853952,
+    0.7242305323308236,
+    0.141746666325138
+   ],
+   "text": "Kiefer + Sperrholz, Schaum 30 kg/m³ / pine + plywood, foam 30 kg/m³",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.1488732340424167,
+    0.6579203518841081,
+    0.15778144368901517
+   ],
+   "text": "Webstoff, 100 % Polyester / woven fabric, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.33466668362626134,
+    0.2548809288369386,
+    0.7658890581285684,
+    0.2637891384835371
+   ],
+   "text": "Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.20592594928799215,
+    0.4652769207479615,
+    0.6122800056310997,
+    0.47284889894757015
+   ],
+   "text": "Industriestraße 21, 32051 Herford, Deutschland · service@nordholz-wohnen.example",
+   "note": null
+  },
+  "ean:ELB-03-ANT": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4095535476827177,
+    0.36890601231339915,
+    0.5006938840687681,
+    0.37781422195999764
+   ],
+   "text": "4012345003017",
+   "note": null
+  },
+  "ean:ELB-03-SAN": {
+   "source": "pdf",
+   "file": "ELBE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4095535476827177,
+    0.38494078967727646,
+    0.5006938840687681,
+    0.393848999323875
+   ],
+   "text": "4012345003024",
+   "note": null
+  }
+ },
+ "images": {
+  "ELBE-ANT-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       843,
+       201,
+       956,
+       746
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2533
+   ],
+   "low_res": false
+  },
+  "ELBE-ANT-2.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "ART HOUSE"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       365,
+       253,
+       546,
+       326
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       801,
+       158,
+       824,
+       256
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "ELBE-ANT-3.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       845,
+       181,
+       964,
+       821
+      ]
+     }
+    ]
+   },
+   "size": [
+    2518,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4226.JPG": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [
+     "30.7\"",
+     "30.7\"",
+     "30.3\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       406,
+       41,
+       446,
+       126
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       848,
+       195,
+       906,
+       293
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       853,
+       606,
+       906,
+       706
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       783,
+       278,
+       892,
+       738
+      ]
+     }
+    ]
+   },
+   "size": [
+    2199,
+    2193
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 77.0,
+    "depth_cm": 76.9,
+    "height_cm": 78.0,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "ELBE-SAN-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       833,
+       203,
+       926,
+       735
+      ]
+     }
+    ]
+   },
+   "size": [
+    2448,
+    2560
+   ],
+   "low_res": false
+  },
+  "ELBE-SAN-2.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       352,
+       93,
+       678,
+       994
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1707
+   ],
+   "low_res": false
+  },
+  "ELBE-SAN-3.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "boucle",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [
+     "ART HOUSE"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       403,
+       273,
+       546,
+       326
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       798,
+       158,
+       823,
+       258
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "ELBE-SAN-4.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "boucle",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    1707
+   ],
+   "low_res": false
+  },
+  "ELB03_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "NORDHOLZ WOHNEN GMBH",
+     "ELB-03",
+     "100 % POLYESTER",
+     "100% POLYESTER",
+     "Bezug abnehmbar",
+     "Removable cover",
+     "30",
+     "Hergestellt in Deutschland"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       108,
+       193,
+       142,
+       806
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       167,
+       436,
+       201,
+       563
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       228,
+       308,
+       262,
+       691
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       289,
+       311,
+       323,
+       688
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       350,
+       337,
+       384,
+       662
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       411,
+       351,
+       445,
+       648
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       613,
+       253,
+       658,
+       306
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       778,
+       288,
+       812,
+       731
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYESTER",
+    "wash_max_temp_c": 30,
+    "do_not_wash": false,
+    "dry_clean_only": false,
+    "removable_cover": true,
+    "other_text": [
+     "NORDHOLZ WOHNEN GMBH",
+     "ELB-03",
+     "Bezug abnehmbar",
+     "Removable cover",
+     "Hergestellt in Deutschland"
+    ]
+   }
+  },
+  "ELB03_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "VORNE / FRONT",
+     "SEITE / SIDE",
+     "78",
+     "44",
+     "78 cm",
+     "77 cm",
+     "ELB-03 · Maße in cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       42,
+       91,
+       82,
+       253
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       42,
+       605,
+       82,
+       745
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       543,
+       11,
+       587,
+       35
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       664,
+       442,
+       708,
+       467
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       896,
+       217,
+       940,
+       284
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       896,
+       743,
+       940,
+       810
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       956,
+       813,
+       996,
+       988
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       786,
+       103,
+       843,
+       118
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       786,
+       386,
+       843,
+       401
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       786,
+       621,
+       843,
+       636
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       786,
+       904,
+       843,
+       919
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 78.0,
+    "depth_cm": 77.0,
+    "height_cm": 78.0,
+    "seat_height_cm": 44.0,
+    "product_code": "ELB-03"
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

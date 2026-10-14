@@ -1,0 +1,44 @@
+{
+ "key": "9369d187f545e11f59adcca170b47537173b864a33b1c364cfaad2eae785b476",
+ "purpose": "label:SYN-10:EVO10_label.png",
+ "recorded_at": "2026-10-14T05:54:04+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"description\": \"A sewn-in care label: composition and care symbols, as printed.\", \"properties\": {\"composition\": {\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"null\"}], \"description\": \"fibre composition exactly as printed, e.g. '100% polyester'\"}, \"wash_max_temp_c\": {\"anyOf\": [{\"type\": \"integer\"}, {\"type\": \"null\"}], \"description\": \"temperature in the wash-tub symbol; null if not washable\"}, \"do_not_wash\": {\"description\": \"the wash tub is crossed out\", \"type\": \"boolean\"}, \"dry_clean_only\": {\"description\": \"only professional / dry cleaning is allowed\", \"type\": \"boolean\"}, \"removable_cover\": {\"description\": \"the label says the cover is removable\", \"type\": \"boolean\"}, \"other_text\": {\"description\": \"any other text on the label, as printed\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}}, \"required\": [\"composition\", \"wash_max_temp_c\", \"do_not_wash\", \"dry_clean_only\", \"removable_cover\", \"other_text\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "sha256:fe6ed64042cc2ef2f7e8d176acff03732bb900355172784b87056f823c4e48bf@1536"
+      }
+     },
+     {
+      "type": "text",
+      "text": "This is a care label sewn into upholstery or a rug. Read the printed text and the care symbols: the wash tub (with a temperature, or crossed out), the triangle (bleach), the iron, and a circle (professional / dry cleaning). Report only what is printed."
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"composition\": \"100% POLIÉSTER / 100% POLYESTER\",\n  \"wash_max_temp_c\": null,\n  \"do_not_wash\": true,\n  \"dry_clean_only\": true,\n  \"removable_cover\": false,\n  \"other_text\": [\n    \"MÓVEIS LUSA\",\n    \"EVO-10\",\n    \"Fabricado em Portugal\"\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 621,
+   "completion_tokens": 110
+  },
+  "latency_s": 77.796
+ }
+}

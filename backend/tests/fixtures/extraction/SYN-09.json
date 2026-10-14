@@ -1,0 +1,927 @@
+{
+ "submission_id": "SYN-09",
+ "spec": {
+  "product_name": "WESER",
+  "supplier": "Nordholz Wohnen GmbH",
+  "product_type": "Esszimmerstuhl WESER / WESER dining chair",
+  "manufacturer": "Nordholz Wohnen GmbH",
+  "manufacturer_address": "Amtsgericht Bad Oeynhausen HRB 12345 · USt-IdNr. DE123456789",
+  "eu_responsible_person": null,
+  "country_of_origin": "Deutschland",
+  "width": {
+   "value": "78",
+   "unit": "cm",
+   "source_text": "78 x 55 x 91 cm"
+  },
+  "depth": {
+   "value": "55",
+   "unit": "cm",
+   "source_text": "78 x 55 x 91 cm"
+  },
+  "height": {
+   "value": "91",
+   "unit": "cm",
+   "source_text": "78 x 55 x 91 cm"
+  },
+  "seat_height": {
+   "value": "44",
+   "unit": "cm",
+   "source_text": "44 cm"
+  },
+  "seat_depth": {
+   "value": "33",
+   "unit": "cm",
+   "source_text": "33 cm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "10",
+   "unit": "kg",
+   "source_text": "10 kg"
+  },
+  "legs_or_base": "Massive Buche, Nussbaum gebeizt / solid beech, walnut stain",
+  "upholstery": "Webstoff, 100 % Polyester / woven fabric, 100% polyester",
+  "care": "Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C",
+  "variants": [
+   {
+    "code": "WES-09-ANT",
+    "colour_name": "Anthrazit",
+    "ean": "4012345009019"
+   },
+   {
+    "code": "WES-09-SAN",
+    "colour_name": "Sand",
+    "ean": "4012345009026"
+   }
+  ],
+  "safety_warnings": [
+   "Nicht im Freien verwenden",
+   "Von Wärmequellen fernhalten",
+   "Nicht auf die Sitzfläche stellen"
+  ],
+  "safety_warnings_languages": [
+   "de"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.1809427887701713,
+    0.48358975368999674,
+    0.1898509984167698
+   ],
+   "text": "78 x 55 x 91 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.1809427887701713,
+    0.48358975368999674,
+    0.1898509984167698
+   ],
+   "text": "78 x 55 x 91 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.1809427887701713,
+    0.48358975368999674,
+    0.1898509984167698
+   ],
+   "text": "78 x 55 x 91 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.1969775661340485,
+    0.42893140366419075,
+    0.20588577578064698
+   ],
+   "text": "44 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.21301234349792578,
+    0.42893140366419075,
+    0.22192055314452427
+   ],
+   "text": "33 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.2290471208618031,
+    0.4324521892271717,
+    0.2379553305084016
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.24508189822568027,
+    0.42544139412055243,
+    0.25399010787227877
+   ],
+   "text": "10 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.164908011406294,
+    0.7393452834987935,
+    0.1738162210528925
+   ],
+   "text": "Massive Buche, Nussbaum gebeizt / solid beech, walnut stain",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.1488732340424167,
+    0.7178574122102522,
+    0.15778144368901517
+   ],
+   "text": "Webstoff, 100 % Polyester / woven fabric, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39460374395240555,
+    0.2611166755895576,
+    0.8258261184547125,
+    0.2700248852361561
+   ],
+   "text": "Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.49556483354639635,
+    0.4026938509058991,
+    0.503136811746005
+   ],
+   "text": "Amtsgericht Bad Oeynhausen HRB 12345 · USt-IdNr. DE123456789",
+   "note": null
+  },
+  "ean:WES-09-ANT": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4159943631963065,
+    0.3813775058186371,
+    0.507134699582357,
+    0.3902857154652356
+   ],
+   "text": "4012345009019",
+   "note": null
+  },
+  "ean:WES-09-SAN": {
+   "source": "pdf",
+   "file": "WESER_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4159943631963065,
+    0.39741228318251437,
+    0.507134699582357,
+    0.40632049282911287
+   ],
+   "text": "4012345009026",
+   "note": null
+  }
+ },
+ "images": {
+  "WESER-ANT-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       614,
+       203,
+       856,
+       301
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       644,
+       420,
+       987,
+       491
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       638,
+       516,
+       785,
+       558
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       614,
+       796,
+       907,
+       862
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "WESER-ANT-2.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       85,
+       0,
+       586,
+       103
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       211,
+       370,
+       943,
+       497
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       206,
+       600,
+       539,
+       666
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "WESER-ANT-3.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       652,
+       230,
+       982,
+       283
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       655,
+       286,
+       837,
+       343
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       652,
+       646,
+       833,
+       700
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       652,
+       713,
+       982,
+       766
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4604.JPG": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "dining chair",
+    "products_in_frame": 2,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark brown",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       738,
+       38,
+       852,
+       92
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       743,
+       96,
+       806,
+       136
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       743,
+       300,
+       852,
+       338
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       763,
+       386,
+       906,
+       442
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       775,
+       588,
+       932,
+       692
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       763,
+       784,
+       883,
+       854
+      ]
+     }
+    ]
+   },
+   "size": [
+    1280,
+    1920
+   ],
+   "low_res": false
+  },
+  "WESER-SAN-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       588,
+       170,
+       836,
+       268
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       633,
+       381,
+       971,
+       453
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       633,
+       475,
+       772,
+       521
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       593,
+       753,
+       884,
+       808
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "WESER-SAN-2.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       176,
+       364,
+       991,
+       545
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       0,
+       873,
+       291,
+       1000
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "WESER-SAN-3.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       558,
+       116,
+       854,
+       168
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       633,
+       404,
+       991,
+       463
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       633,
+       475,
+       771,
+       525
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       613,
+       693,
+       902,
+       791
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "WESER-SAN-4.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "fabric swatch",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "boucle",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "WES09_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "NORDHOLZ WOHNEN GMBH",
+     "WES-09",
+     "100 % POLYESTER",
+     "100% POLYESTER",
+     "Bezug abnehmbar",
+     "Removable cover",
+     "30",
+     "Hergestellt in Deutschland"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       108,
+       193,
+       142,
+       806
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       166,
+       431,
+       199,
+       568
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       227,
+       308,
+       261,
+       691
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       288,
+       311,
+       322,
+       688
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       349,
+       337,
+       383,
+       662
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       410,
+       351,
+       444,
+       648
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       612,
+       253,
+       656,
+       306
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       778,
+       288,
+       812,
+       731
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYESTER",
+    "wash_max_temp_c": 30,
+    "do_not_wash": false,
+    "dry_clean_only": false,
+    "removable_cover": true,
+    "other_text": [
+     "NORDHOLZ WOHNEN GMBH",
+     "WES-09",
+     "Bezug abnehmbar",
+     "Removable cover",
+     "Hergestellt in Deutschland"
+    ]
+   }
+  },
+  "WES09_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 2,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "VORNE / FRONT",
+     "91",
+     "66 cm",
+     "44",
+     "SEITE / SIDE",
+     "55 cm",
+     "WES-09 · Maße in cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       91,
+       82,
+       301
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       522,
+       8,
+       562,
+       31
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       906,
+       184,
+       945,
+       252
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       676,
+       366,
+       716,
+       392
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       607,
+       82,
+       746
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       906,
+       686,
+       945,
+       754
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       961,
+       811,
+       991,
+       991
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       783,
+       101,
+       831,
+       114
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       783,
+       314,
+       831,
+       327
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       783,
+       622,
+       831,
+       635
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       783,
+       807,
+       831,
+       820
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 66.0,
+    "depth_cm": 55.0,
+    "height_cm": 91.0,
+    "seat_height_cm": 44.0,
+    "product_code": "WES-09"
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}
