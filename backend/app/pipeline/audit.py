@@ -55,8 +55,17 @@ FIBRES = {"wool": r"wool|\blana\b|laine|(?<!baum)wolle|\bull\b", "cotton": r"cot
           "acrylic": r"acryl|acril", "polyurethane": r"polyureth|poliuretan", "silk": r"silk|seta|soie|seide|seda", "sisal": r"sisal"}  # fmt: skip
 
 
+# Fibre percentages in a description ('100% laine', '57 % polypropylene'); sizes in text ('87 x 181 x 90cm')
+PERCENT_FIBRE = re.compile(r"\d{1,3}\s?%\s*(?:" + "|".join(FIBRES.values()) + ")")
+SIZE_IN_TEXT = re.compile(r"\d+([.,]\d+)?\s*[x×]\s*\d+|\d+([.,]\d+)?\s*(cm|mm)\b")
+
+
 def _texts(listing: dict[str, Any], field: str) -> list[str]:
     return [v["value"] for v in listing.get(field, []) if isinstance(v, dict) and v.get("value")]
+
+
+def _fibres(text: str) -> set[str]:
+    return {fibre for fibre, pattern in FIBRES.items() if re.search(pattern, _fold(text))}
 
 
 def _colour_contradicts(colour_name: str, seen: str) -> bool:
@@ -116,6 +125,11 @@ def audit_listing(item: dict[str, Any], photos: dict[str, dict[str, Any]]) -> li
                 title=f"Listed as {category}, photos show a {other}", spec_value=category, found_value=other,
                 detail=f"Shoppers browsing {category}s will not expect a {other}. Check the category.",
                 evidence=[Evidence(source="photo", file=k) for k in theirs[:2]])  # fmt: skip
+    if complete and product_photos and not in_family and sample:  # the spot check counted these as a problem
+        add("A1", type="quality", severity="info", return_risk="none", attribute="category",
+            title=f"Fabric sample listed as a {category}", spec_value=category, found_value="fabric sample",
+            detail=f"This listing sells a fabric sample, not a {category}; shoppers browsing {category}s land on it. A separate 'samples' category avoids that.",
+            evidence=[Evidence(source="photo", file=k) for k in list(product_photos)[:2]])  # fmt: skip
 
     # A2: colour name vs photos of this product (not lamps: the name describes the base, photos show the shade)
     on_subject = {k: a for k, a in analysed.items()
@@ -140,18 +154,28 @@ def audit_listing(item: dict[str, Any], photos: dict[str, dict[str, Any]]) -> li
             title="Dimensions in inches on a European shop",
             detail="EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.")  # fmt: skip
 
-    # A4: key attributes missing (a fabric sample has no size)
-    if not dims and not sample:
+    # A4: size and colour fields empty (a fabric sample has no size); milder when the text gives them
+    if not dims and not sample and SIZE_IN_TEXT.search(text):
+        add("A4", type="missing", severity="info", return_risk="dimensions", attribute="dimensions",
+            title="Size only in the text", detail="The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.")  # fmt: skip
+    elif not dims and not sample:
         add("A4", type="missing", severity="review", return_risk="dimensions", attribute="dimensions",
             title="No dimensions", detail="Size is the top reason for furniture returns; add width, depth and height.")  # fmt: skip
     if not colour:
         add("A4", type="missing", severity="info", return_risk="colour", attribute="colour",
-            title="No colour", detail="Add the colour so shoppers can filter and compare.")  # fmt: skip
+            title="Colour only in the name" if colour_families(name) else "No colour",
+            detail="The colour field is empty; fill it so shoppers can filter and compare.")  # fmt: skip
 
-    # A5: rug fibre composition (EU Textile Regulation 1007/2011)
+    # A5: rug fibre composition (EU Textile Regulation 1007/2011), in the material field or the description
     materials = " ".join(_texts(listing, "material") + _texts(listing, "fabric_type"))
-    fibres = {f for f, pattern in FIBRES.items() if re.search(pattern, _fold(materials))}
-    if category == "rug" and not has_fibre_composition(materials):
+    fibres = _fibres(materials)
+    stated = [m.group(0) for m in PERCENT_FIBRE.finditer(_fold(" ".join(_texts(listing, "bullet_point"))))]
+    if category == "rug" and not has_fibre_composition(materials) and stated:
+        if materials.strip() and not (fibres and fibres <= _fibres(" ".join(stated))):
+            add("A5", type="contradictory", severity="review", return_risk="material", attribute="material",
+                title="Material field does not match the description", spec_value=materials, found_value=", ".join(stated),
+                detail=f"The material field says '{materials}', the description says '{', '.join(stated)}'.")  # fmt: skip
+    elif category == "rug" and not has_fibre_composition(materials):
         if not materials.strip():
             add("A5", type="compliance", severity="blocking", return_risk="material", attribute="material",
                 title="Fibre composition missing",

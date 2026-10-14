@@ -1,0 +1,394 @@
+{
+ "seed": 1014,
+ "flagged": [
+  {
+   "item_id": "B0732J9VG3",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07SMJY4M5",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "review",
+     "title": "Main image shows 2 products, the name does not say it is a set",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07R3TWDTM",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B081NT8KVD",
+   "findings": [
+    {
+     "rule": "A9",
+     "severity": "blocking",
+     "title": "No photo of the product",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07Q9CS6C3",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07J59D8V1",
+   "findings": [
+    {
+     "rule": "A1",
+     "severity": "review",
+     "title": "Listed as sofa, photos show a chair",
+     "spec_value": "sofa",
+     "found_value": "chair"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TGNYX6H",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07R4TY73P",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07JK8CKL6",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "review",
+     "title": "Main image shows 2 products, the name does not say it is a set",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07TFPC4D6",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07B4YVDH9",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07TFPCSRJ",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07Q9TCY28",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07TFP8SM1",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B073G7DN31",
+   "findings": [
+    {
+     "rule": "A9",
+     "severity": "blocking",
+     "title": "No photo of the product",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07TGNG6MZ",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07HHF8QZL",
+   "findings": [
+    {
+     "rule": "A2",
+     "severity": "review",
+     "title": "Colour 'Marrone' but the photos look grey",
+     "spec_value": "Marrone",
+     "found_value": "grey"
+    }
+   ]
+  },
+  {
+   "item_id": "B07R3TWDTT",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07VSV4783",
+   "findings": [
+    {
+     "rule": "A2",
+     "severity": "review",
+     "title": "Colour 'Verde Scuro' but the photos look grey",
+     "spec_value": "Verde Scuro",
+     "found_value": "grey"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TFP9PSH",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B071LNPYPF",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07J55B89H",
+   "findings": [
+    {
+     "rule": "A1",
+     "severity": "review",
+     "title": "Listed as chair, photos show a sofa",
+     "spec_value": "chair",
+     "found_value": "sofa"
+    }
+   ]
+  },
+  {
+   "item_id": "B086VYHGVF",
+   "findings": [
+    {
+     "rule": "A1",
+     "severity": "review",
+     "title": "Listed as chair, photos show a sofa",
+     "spec_value": "chair",
+     "found_value": "sofa"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TCGGCJ8",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07TBF32DV",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07TCG9YG5",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07K7SDQS6",
+   "findings": [
+    {
+     "rule": "A2",
+     "severity": "review",
+     "title": "Colour 'Cream' but the photos look black",
+     "spec_value": "Cream",
+     "found_value": "black"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B51HJZY",
+   "findings": [
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a lifestyle photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B07K2YMDKY",
+   "findings": [
+    {
+     "rule": "A1",
+     "severity": "blocking",
+     "title": "Listed as chair, photos show fabric swatch",
+     "spec_value": "chair",
+     "found_value": "fabric swatch"
+    },
+    {
+     "rule": "A8",
+     "severity": "info",
+     "title": "Main image is a detail photo",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  },
+  {
+   "item_id": "B088DWRJZV",
+   "findings": [
+    {
+     "rule": "A9",
+     "severity": "blocking",
+     "title": "No photo of the product",
+     "spec_value": null,
+     "found_value": null
+    }
+   ]
+  }
+ ],
+ "unflagged": [
+  "B082VMRLM7",
+  "B07HPQ6PLK",
+  "B0829F1BQN",
+  "B07K4ZCQC3",
+  "B07HK5JJD6",
+  "B07VMLF9CB",
+  "B07K29VZ2Q",
+  "B073P3HHFV",
+  "B07VC3QP7G",
+  "B07HH16Q89",
+  "B07CB5GN4D",
+  "B07SHYRLNJ",
+  "B07B4Z9PWF",
+  "B07K7K8YF9",
+  "B075YMY1Z9",
+  "B07VYL517P",
+  "B07JVNB871",
+  "B07K51RV9K",
+  "B0825F3GBJ",
+  "B001LF4HSY"
+ ]
+}

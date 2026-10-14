@@ -10,11 +10,12 @@ def photo(product_type="armchair", colour="green", role="packshot", white=True, 
 
 def item(
     category="chair", domain="amazon.es", colour="Verde", material="Madera", dims=True, images=2, small=False,
-    name="Sillón tapizado",
+    name="Sillón tapizado", bullets=(),
 ):  # fmt: skip
     listing = {"item_name": [{"language_tag": "es_ES", "value": name}],
                "color": [{"language_tag": "es_ES", "value": colour}] if colour else [],
-               "material": [{"language_tag": "es_ES", "value": material}]}  # fmt: skip
+               "material": [{"language_tag": "es_ES", "value": material}],
+               "bullet_point": [{"language_tag": "es_ES", "value": b} for b in bullets]}  # fmt: skip
     if dims:
         listing["item_dimensions"] = {"width": {"unit": "centimeters", "value": 80}}
     pics = [{"image_id": f"img{n}", "role": "main" if n == 0 else "other",
@@ -43,7 +44,8 @@ def test_wrong_category_when_every_photo_shows_something_else():  # e.g. a wrist
 
 def test_fabric_sample_listings_and_other_seats_are_not_wrong_category():
     swatch = {"img0": photo(product_type="fabric swatch", role="detail")}
-    assert audit_listing(item(images=1, name="Alloy Swatch", dims=False), swatch) == []
+    issues = audit_listing(item(images=1, name="Alloy Swatch", dims=False), swatch)
+    assert [(i.title, i.severity) for i in issues] == [("Fabric sample listed as a chair", "info")]
     assert audit_listing(item(name="Tabouret Wye"), two(product_type="stool")) == []
 
 
@@ -87,6 +89,19 @@ def test_rug_fibre_composition():
     mixed = audit_listing(item(category="rug", material="Coton, Laine", name="Tapis"), rug)
     assert mixed[0].severity == "blocking" and mixed[0].title == "Fibre percentages missing"
     assert audit_listing(item(category="rug", material="100% wool", name="Rug"), rug) == []
+
+
+def test_the_description_counts_for_size_colour_and_fibres():
+    rug = two(product_type="area rug")
+    described = item(category="rug", material="Coton / Laine", name="Tapis",
+                     bullets=["100% laine, tapis de main avec dos 100% coton"])  # fmt: skip
+    assert audit_listing(described, rug) == []
+    suede = item(category="rug", material="Camoscio", name="Tappeto", bullets=["100% lana"])  # suede vs wool
+    assert [i.title for i in audit_listing(suede, rug)] == ["Material field does not match the description"]
+    sofa_bed = item(dims=False, colour=None, name="Sofa Bed, 87 x 181 x 90cm, Grey")  # only the text has them
+    issues = audit_listing(sofa_bed, two(colour="grey"))
+    assert [i.title for i in issues] == ["Size only in the text", "Colour only in the name"]
+    assert {i.severity for i in issues} == {"info"}
 
 
 def test_image_quality_rules():
