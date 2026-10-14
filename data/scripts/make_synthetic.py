@@ -141,17 +141,17 @@ TYPES = {
 
 COLOUR_NAMES = {
     "pt": {"green": ["Musgo", "Verde"], "grey": ["Antracite", "Cinza"], "beige": ["Areia", "Bege"],
-           "blue": ["Azul", "Marinho"], "brown": ["Caramelo", "Castanho"], "black": ["Preto", "Grafite"],
+           "blue": ["Azul", "Marinho"], "brown": ["Caramelo", "Castanho"], "black": ["Preto", "Ébano"],
            "white": ["Branco", "Marfim"], "pink": ["Rosa", "Salmão"], "red": ["Vermelho", "Bordô"],
            "orange": ["Laranja", "Terracota"], "yellow": ["Mostarda", "Amarelo"], "purple": ["Roxo", "Lilás"],
            "gold": ["Dourado", "Latão"], "silver": ["Prateado", "Cromado"], "multicolour": ["Multicor", "Estampado"]},
     "it": {"green": ["Verde salvia", "Verde bosco"], "grey": ["Antracite", "Grigio"], "beige": ["Sabbia", "Beige"],
-           "blue": ["Blu", "Blu notte"], "brown": ["Cognac", "Marrone"], "black": ["Nero", "Grafite"],
+           "blue": ["Blu", "Blu notte"], "brown": ["Cognac", "Marrone"], "black": ["Nero", "Ebano"],
            "white": ["Bianco", "Avorio"], "pink": ["Rosa cipria", "Rosa"], "red": ["Rosso", "Bordeaux"],
            "orange": ["Arancio", "Terracotta"], "yellow": ["Senape", "Giallo"], "purple": ["Viola", "Lilla"],
            "gold": ["Ottone", "Oro"], "silver": ["Argento", "Cromo"], "multicolour": ["Multicolore", "Fantasia"]},
     "de": {"green": ["Moosgrün", "Salbei"], "grey": ["Anthrazit", "Grau"], "beige": ["Sand", "Beige"],
-           "blue": ["Blau", "Marine"], "brown": ["Cognac", "Braun"], "black": ["Schwarz", "Graphit"],
+           "blue": ["Blau", "Marine"], "brown": ["Cognac", "Braun"], "black": ["Schwarz", "Ebenholz"],
            "white": ["Weiß", "Elfenbein"], "pink": ["Rosé", "Altrosa"], "red": ["Rot", "Bordeaux"],
            "orange": ["Orange", "Terrakotta"], "yellow": ["Senf", "Gelb"], "purple": ["Lila", "Flieder"],
            "gold": ["Messing", "Gold"], "silver": ["Silber", "Chrom"], "multicolour": ["Bunt", "Gemustert"]},
@@ -525,7 +525,8 @@ def apply_defects(p: dict, defect_ids: list[str], rng: random.Random) -> tuple[d
         elif defect_id in ("D8", "D9"):
             entry |= {"attribute": "photo"}  # file names are added when the photos are laid out
         elif defect_id == "D10":
-            v = doc["variants"][-1] if hero else rng.choice(doc["variants"])
+            plain = [x for x in doc["variants"] if x["colour_family"] != "multicolour"]  # a clear colour only
+            v = doc["variants"][-1] if hero else rng.choice(plain)
             wrong = WRONG_COLOUR[v["colour_family"]]
             v["colour_name"] = COLOUR_NAMES[lang][wrong][0]
             entry |= {"variant": v["code"], "attribute": "colour", "spec_value": v["colour_name"],
