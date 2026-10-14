@@ -122,7 +122,8 @@ _COLOURS = _table({
 })  # fmt: skip
 # Neighbouring families a person would not call a contradiction (cream vs white, charcoal vs black …)
 _COMPATIBLE = {frozenset(p) for p in (("beige", "white"), ("grey", "silver"), ("grey", "black"), ("brown", "orange"),
-                                       ("gold", "yellow"), ("pink", "red"), ("beige", "brown"))}  # fmt: skip
+                                       ("gold", "yellow"), ("pink", "red"), ("beige", "brown"),
+                                       ("blue", "grey"))}  # dark navy vs charcoal  # fmt: skip
 
 
 def _first(table: list[tuple[re.Pattern[str], str]], text: str | None) -> str | None:

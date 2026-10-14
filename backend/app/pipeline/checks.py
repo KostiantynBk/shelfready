@@ -40,6 +40,11 @@ NON_EU = re.compile(
     r"bangladesh|pakistan|taiwan|thailand|mexico|united kingdom|uk)\b"
 )
 NON_TEXTILE = re.compile(r"leather|pele|pelle|leder|cuir|cuero")
+# A legs/base value that is really the frame row (no legs row on the sheet): not comparable with legs
+FRAME_ONLY = re.compile(r"plywood|contraplacado|sperrholz|multistrato|foam|espuma|schaum|poliuretano")
+# The photo must show this product, not another object in the scene (a sofa in a rug shot, a lampshade)
+SUBJECT = {"chair": r"chair|recliner|seat|rocker|glider", "sofa": r"sofa|couch|loveseat|sectional|settee|daybed",
+           "lamp": r"lamp(?!shade)", "rug": r"rug|carpet|mat"}  # fmt: skip
 
 
 def product_category(spec: dict[str, Any]) -> str:
@@ -97,9 +102,22 @@ class _Checker:
     def product_photos(self) -> dict[str, dict[str, Any]]:
         return {n: e for n, e in self.images.items() if e["analysis"]["role"] in PHOTO_ROLES}
 
+    def shows_product(self, name: str) -> bool:
+        return (
+            re.search(SUBJECT[self.category], _fold(self.images[name]["analysis"].get("product_type") or ""))
+            is not None
+        )
+
+    def colours(self, names: list[str]) -> dict[str, str]:
+        """Colour per photo; for lamps a white reading is usually the shade, so it only counts if nothing else is seen."""
+        seen = {n: self.images[n]["analysis"]["colour_family"] for n in names}
+        if self.category == "lamp" and any(c != "white" for c in seen.values()):
+            seen = {n: c for n, c in seen.items() if c != "white"}
+        return seen
+
     def photos_by_variant(self) -> dict[str, list[str]]:
         grouped: dict[str, list[str]] = {code: [] for code in self.codes}
-        for name in self.product_photos():
+        for name in filter(self.shows_product, self.product_photos()):
             if (code := _variant_of(name, self.suffixes)) is not None:
                 grouped[code].append(name)
         return grouped
@@ -179,7 +197,10 @@ class _Checker:
     def photos(self) -> None:
         grouped = self.photos_by_variant()
         key = "base_material" if self.category == "lamp" else "legs_material"
-        spec_materials = material_by_variant(self.spec.get("legs_or_base"), self.codes)
+        legs_text = self.spec.get("legs_or_base")
+        spec_materials = material_by_variant(
+            None if FRAME_ONLY.search(_fold(legs_text or "")) else legs_text, self.codes
+        )
         clashes = []
         for code, names in grouped.items():  # D6: material in the text vs the photos
             seen = _majority([self.images[n]["analysis"][key] for n in names
@@ -198,20 +219,26 @@ class _Checker:
                          evidence=[*self.pdf("legs_or_base"), *(self.photo(n, "leg" if part == "legs" else "base") for n in names[:2])])  # fmt: skip
         for variant in self.variants:  # D10: colour name vs the photos of that variant
             names = grouped.get(variant["code"], [])
-            seen = _majority([self.images[n]["analysis"]["colour_family"] for n in names])
+            readings = list(self.colours(names).values())
+            seen = _majority(readings)
             named = colour_family(variant.get("colour_name"))
-            if seen and named and not colours_compatible(seen, named):
+            if seen and readings.count(seen) >= 2 and named and not colours_compatible(seen, named):
                 self.add("D10", variant=variant["code"], type="contradictory", severity="review", return_risk="colour",
                          attribute="colour", spec_value=variant.get("colour_name"), found_value=seen,
                          title=f"{variant['code']}: '{variant.get('colour_name')}' but the photos look {seen}",
                          detail="The colour name in the spec sheet does not match the variant's photos.",
                          evidence=[self.photo(n) for n in names[:2]])  # fmt: skip
+        names_by_code = {v["code"]: colour_family(v.get("colour_name")) for v in self.variants}
         for code, names in grouped.items():  # D16: one photo's colour differs from its variant's other photos
-            colours = {n: self.images[n]["analysis"]["colour_family"] for n in names}
+            colours = self.colours(names)
+            named = names_by_code.get(code)
             for name, colour in colours.items():
                 others = _majority([c for n, c in colours.items() if n != name])
                 support = sum(1 for n, c in colours.items() if n != name and c == others)
-                if others and support >= 2 and not colours_compatible(colour, others):
+                odd = not colours_compatible(colour, others) and (
+                    named is None or not colours_compatible(colour, named)
+                )
+                if others and support >= 2 and odd:
                     self.add("D16", variant=code, type="contradictory", severity="review", return_risk="colour",
                              attribute="photo", file=name, found_value=colour, spec_value=others,
                              title=f"{name} looks {colour}, the other {code} photos are {others}",
