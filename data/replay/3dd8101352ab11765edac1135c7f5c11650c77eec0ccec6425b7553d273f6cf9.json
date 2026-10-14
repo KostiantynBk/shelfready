@@ -1,0 +1,38 @@
+{
+ "key": "3dd8101352ab11765edac1135c7f5c11650c77eec0ccec6425b7553d273f6cf9",
+ "purpose": "listing:SYN-12",
+ "recorded_at": "2026-10-14T18:07:58+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Sofá SINTRA / SINTRA sofa\", \"model\": \"SINTRA\", \"brand\": \"Móveis Lusa\", \"width_cm\": 182, \"depth_cm\": 86, \"height_cm\": 90, \"seat_height_cm\": 45, \"seat_depth_cm\": 52, \"max_load_kg\": 220, \"weight_kg\": 39.7, \"product_type\": \"Sofá / sofa\", \"legs_or_base\": \"Faia maciça, acabamento nogueira / solid beech, walnut stain\", \"upholstery\": \"Tecido, 100% poliester / woven fabric, 100% polyester\", \"care\": \"Capa removível, lavar a 30 °C / removable cover, washable at 30 °C\", \"country_of_origin\": \"Portugal\", \"safety_warnings\": [\"Não utilizar no exterior.\", \"Not for outdoor use.\", \"Manter afastado de fontes de calor.\", \"Keep away from heat sources.\", \"Não subir para o assento.\", \"Do not stand on the seat.\"], \"variants\": [{\"code\": \"SIN-12-ANT\", \"colour_name\": \"Antracite\"}, {\"code\": \"SIN-12-CAR\", \"colour_name\": \"Caramelo\"}]}\nPhotos: [{\"file\": \"SIN12_ANT_34.jpg\", \"variant\": \"SIN-12-ANT\", \"view\": \"three-quarter\", \"colour_seen\": \"grey\"}, {\"file\": \"SIN12_ANT_front.jpg\", \"variant\": \"SIN-12-ANT\", \"view\": \"front\", \"colour_seen\": \"grey\"}, {\"file\": \"SIN12_CAR_34.jpg\", \"variant\": \"SIN-12-CAR\", \"view\": \"three-quarter\", \"colour_seen\": \"brown\"}, {\"file\": \"SIN12_CAR_front.jpg\", \"variant\": \"SIN-12-CAR\", \"view\": \"front\", \"colour_seen\": \"brown\"}, {\"file\": \"IMG_4571.JPG\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"SIN12_ANT_side.jpg\", \"variant\": \"SIN-12-ANT\", \"view\": \"side\", \"colour_seen\": \"grey\"}, {\"file\": \"SIN12_CAR_detail.jpg\", \"variant\": \"SIN-12-CAR\", \"view\": \"detail\", \"colour_seen\": \"brown\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Móveis Lusa SINTRA Sofa\",\n  \"bullets\": [\n    \"Dimensions: 182 cm width, 86 cm depth, 90 cm height\",\n    \"Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C\",\n    \"Legs: Solid beech with walnut stain\",\n    \"Maximum load capacity: 220 kg\",\n    \"Made in Portugal\"\n  ],\n  \"description\": \"The SINTRA sofa by Móveis Lusa features a 100% polyester woven fabric upholstery and solid beech legs with a walnut stain. It includes a removable cover for easy maintenance, washable at 30 °C.\",\n  \"colours\": [\n    {\n      \"code\": \"SIN-12-ANT\",\n      \"name\": \"Anthracite\"\n    },\n    {\n      \"code\": \"SIN-12-CAR\",\n      \"name\": \"Caramel\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Not for outdoor use.\",\n    \"Keep away from heat sources.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"SIN12_ANT_34.jpg\",\n      \"text\": \"SINTRA sofa in grey, three-quarter view\"\n    },\n    {\n      \"file\": \"SIN12_ANT_front.jpg\",\n      \"text\": \"SINTRA sofa in grey, front view\"\n    },\n    {\n      \"file\": \"SIN12_CAR_34.jpg\",\n      \"text\": \"SINTRA sofa in brown, three-quarter view\"\n    },\n    {\n      \"file\": \"SIN12_CAR_front.jpg\",\n      \"text\": \"SINTRA sofa in brown, front view\"\n    },\n    {\n      \"file\": \"IMG_4571.JPG\",\n      \"text\": \"SINTRA sofa in grey, packshot view\"\n    },\n    {\n      \"file\": \"SIN12_ANT_side.jpg\",\n      \"text\": \"SINTRA sofa in grey, side view\"\n    },\n    {\n      \"file\": \"SIN12_CAR_detail.jpg\",\n      \"text\": \"SINTRA sofa in brown, detail view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1110,
+   "completion_tokens": 551
+  },
+  "latency_s": 16.282
+ }
+}

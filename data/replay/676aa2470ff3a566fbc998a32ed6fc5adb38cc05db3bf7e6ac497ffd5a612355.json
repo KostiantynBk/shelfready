@@ -1,0 +1,38 @@
+{
+ "key": "676aa2470ff3a566fbc998a32ed6fc5adb38cc05db3bf7e6ac497ffd5a612355",
+ "purpose": "translate:SYN-10:de",
+ "recorded_at": "2026-10-14T18:11:33+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into German. Translate all words into natural German, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a German term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'ÉVORA', 'EVO-10-MUS'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa ÉVORA Armchair\", \"bullets\": [\"Upholstery: 100% polyester velvet\", \"Base: Powder-coated steel with brass finish\", \"Maximum load capacity: 120 kg\", \"Dimensions: 82 cm height, 60 cm depth, 45 cm seat height, 36 cm seat depth\", \"Made in Portugal\"], \"description\": \"The ÉVORA armchair by Móveis Lusa features a velvet upholstery and a brass-finished powder-coated steel base. This piece weighs 10.4 kg and requires dry clean only care.\", \"colours\": [{\"code\": \"EVO-10-MUS\", \"name\": \"Moss Green\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"EVO10_MUS_34.jpg\", \"text\": \"Three-quarter view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in pink.\"}, {\"file\": \"IMG_4234.JPG\", \"text\": \"Three-quarter view of the ÉVORA armchair in pink.\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"text\": \"Detail view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in pink.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa ÉVORA Sessel\", \"bullets\": [\"Bezug: 100% Polyester-Samt\", \"Gestell: Pulverbeschichteter Stahl in Messing-Optik\", \"Maximale Belastbarkeit: 120 kg\", \"Maße: 82 cm Höhe, 60 cm Tiefe, 45 cm Sitzhöhe, 36 cm Sitztiefe\", \"Hergestellt in Portugal\"], \"description\": \"Der ÉVORA Sessel von Móveis Lusa besticht durch einen Samtbezug und ein pulverbeschichtetes Stahlgestell in Messing-Optik. Dieses Möbelstück wiegt 10,4 kg und ist nur chemisch zu reinigen.\", \"colours\": [{\"code\": \"EVO-10-MUS\", \"name\": \"Moosgrün\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"EVO10_MUS_34.jpg\", \"text\": \"Dreiviertelansicht des ÉVORA Sessels in Grün.\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"text\": \"Frontansicht des ÉVORA Sessels in Grün.\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"text\": \"Frontansicht des ÉVORA Sessels in Rosa.\"}, {\"file\": \"IMG_4234.JPG\", \"text\": \"Dreiviertelansicht des ÉVORA Sessels in Rosa.\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"text\": \"Detailansicht des ÉVORA Sessels in Grün.\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"text\": \"Seitenansicht des ÉVORA Sessels in Grün.\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"text\": \"Seitenansicht des ÉVORA Sessels in Rosa.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 867,
+   "completion_tokens": 423
+  },
+  "latency_s": 12.391
+ }
+}

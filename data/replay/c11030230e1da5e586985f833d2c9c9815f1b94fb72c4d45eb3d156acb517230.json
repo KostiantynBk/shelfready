@@ -1,0 +1,38 @@
+{
+ "key": "c11030230e1da5e586985f833d2c9c9815f1b94fb72c4d45eb3d156acb517230",
+ "purpose": "listing:SYN-17",
+ "recorded_at": "2026-10-14T18:08:09+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"LAHN\", \"model\": \"LAHN\", \"brand\": \"Ningbo Brightway Home Co.\", \"width_cm\": 22, \"depth_cm\": 22, \"height_cm\": 33, \"weight_kg\": 2.8, \"product_type\": \"Tischleuchte LAHN / LAHN table lamp\", \"care\": \"Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off\", \"country_of_origin\": \"China\", \"safety_warnings\": [\"Nur Leuchtmittel E27 max. 40 W verwenden.\", \"Use only E27 bulbs, max. 40 W.\", \"Vor dem Reinigen vom Netz trennen.\", \"Disconnect before cleaning.\", \"Nur für den Innenbereich.\", \"For indoor use only.\"], \"variants\": [{\"code\": \"LAH-17-BLA\", \"colour_name\": \"Blau\"}]}\nPhotos: [{\"file\": \"IMG_4328.JPG\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"blue\"}, {\"file\": \"LAHN-BLA-1.jpg\", \"variant\": \"LAH-17-BLA\", \"view\": \"packshot\", \"colour_seen\": \"blue\"}, {\"file\": \"LAHN-BLA-2.jpg\", \"variant\": \"LAH-17-BLA\", \"view\": \"packshot\", \"colour_seen\": \"white\"}, {\"file\": \"LAHN-BLA-3.jpg\", \"variant\": \"LAH-17-BLA\", \"view\": \"packshot\", \"colour_seen\": \"blue\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Ningbo Brightway Home Co. LAHN Table Lamp\",\n  \"bullets\": [\n    \"Dimensions: 22 cm width, 22 cm depth, 33 cm height\",\n    \"Weight: 2.8 kg\",\n    \"Compatible with E27 bulbs, max. 40 W\",\n    \"Clean with a dry cloth when switched off\"\n  ],\n  \"description\": \"The LAHN table lamp by Ningbo Brightway Home Co. is designed for indoor use. This compact lighting fixture measures 33 cm in height and 22 cm in width and depth.\",\n  \"colours\": [\n    {\n      \"code\": \"LAH-17-BLA\",\n      \"name\": \"Blue\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Use only E27 bulbs, max. 40 W.\",\n    \"Disconnect before cleaning.\",\n    \"For indoor use only.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4328.JPG\",\n      \"text\": \"LAHN table lamp in blue, packshot view\"\n    },\n    {\n      \"file\": \"LAHN-BLA-1.jpg\",\n      \"text\": \"LAHN table lamp in blue, packshot view\"\n    },\n    {\n      \"file\": \"LAHN-BLA-2.jpg\",\n      \"text\": \"LAHN table lamp in white, packshot view\"\n    },\n    {\n      \"file\": \"LAHN-BLA-3.jpg\",\n      \"text\": \"LAHN table lamp in blue, packshot view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 893,
+   "completion_tokens": 386
+  },
+  "latency_s": 10.296
+ }
+}

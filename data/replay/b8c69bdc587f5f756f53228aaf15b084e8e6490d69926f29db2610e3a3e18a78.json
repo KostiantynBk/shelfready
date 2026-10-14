@@ -1,0 +1,38 @@
+{
+ "key": "b8c69bdc587f5f756f53228aaf15b084e8e6490d69926f29db2610e3a3e18a78",
+ "purpose": "translate:SYN-17:de",
+ "recorded_at": "2026-10-14T18:14:16+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into German. Translate all words into natural German, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a German term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Ningbo Brightway Home Co.', 'LAHN', 'LAH-17-BLA'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Ningbo Brightway Home Co. LAHN Table Lamp\", \"bullets\": [\"Dimensions: 22 cm width, 22 cm depth, 33 cm height\", \"Weight: 2.8 kg\", \"Compatible with E27 bulbs, max. 40 W\", \"Clean with a dry cloth when switched off\"], \"description\": \"The LAHN table lamp by Ningbo Brightway Home Co. is designed for indoor use. This compact lighting fixture measures 33 cm in height and 22 cm in width and depth.\", \"colours\": [{\"code\": \"LAH-17-BLA\", \"name\": \"Blue\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"IMG_4328.JPG\", \"text\": \"LAHN table lamp in blue, packshot view\"}, {\"file\": \"LAHN-BLA-1.jpg\", \"text\": \"LAHN table lamp in blue, packshot view\"}, {\"file\": \"LAHN-BLA-2.jpg\", \"text\": \"LAHN table lamp in white, packshot view\"}, {\"file\": \"LAHN-BLA-3.jpg\", \"text\": \"LAHN table lamp in blue, packshot view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Ningbo Brightway Home Co. LAHN Tischlampe\", \"bullets\": [\"Maße: 22 cm Breite, 22 cm Tiefe, 33 cm Höhe\", \"Gewicht: 2,8 kg\", \"Kompatibel mit E27-Leuchtmitteln, max. 40 W\", \"Im ausgeschalteten Zustand mit einem trockenen Tuch reinigen\"], \"description\": \"Die LAHN Tischlampe von Ningbo Brightway Home Co. ist für den Innenbereich konzipiert. Diese kompakte Leuchte hat eine Höhe von 33 cm sowie eine Breite und Tiefe von jeweils 22 cm.\", \"colours\": [{\"code\": \"LAH-17-BLA\", \"name\": \"Blau\"}], \"safety_warnings\": [\"Nur E27-Leuchtmittel mit max. 40 W verwenden.\", \"Vor der Reinigung vom Stromnetz trennen.\", \"Nur für den Innenbereich geeignet.\"], \"alt_texts\": [{\"file\": \"IMG_4328.JPG\", \"text\": \"LAHN Tischlampe in Blau, Produktansicht\"}, {\"file\": \"LAHN-BLA-1.jpg\", \"text\": \"LAHN Tischlampe in Blau, Produktansicht\"}, {\"file\": \"LAHN-BLA-2.jpg\", \"text\": \"LAHN Tischlampe in Weiß, Produktansicht\"}, {\"file\": \"LAHN-BLA-3.jpg\", \"text\": \"LAHN Tischlampe in Blau, Produktansicht\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 779,
+   "completion_tokens": 332
+  },
+  "latency_s": 9.875
+ }
+}

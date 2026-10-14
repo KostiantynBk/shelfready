@@ -1,0 +1,38 @@
+{
+ "key": "061cedeb93feb159048fdff01ced82aa4b1d7c839553330700ecb91a1d1c3b3b",
+ "purpose": "translate:SYN-23:de",
+ "recorded_at": "2026-10-14T18:20:15+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into German. Translate all words into natural German, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a German term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'TAVIRA', 'TAV-23-MUL', 'TAV-23-ROS'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa TAVIRA Rug\", \"bullets\": [\"Dimensions: 221 cm width, 160 cm depth, and 1.3 cm height\", \"Hand-tufted construction made from 100% polypropylene\", \"Weight: 6.4 kg\", \"Made in Portugal\"], \"description\": \"The TAVIRA rug by Móveis Lusa is a hand-tufted floor covering made from 100% polypropylene. Professional cleaning is required as this item should not be washed.\", \"colours\": [{\"code\": \"TAV-23-MUL\", \"name\": \"Multicolour\"}, {\"code\": \"TAV-23-ROS\", \"name\": \"Pink\"}], \"safety_warnings\": [\"Use an anti-slip underlay on smooth floors.\", \"Keep away from open flames.\"], \"alt_texts\": [{\"file\": \"TAV23_MUL_34.jpg\", \"text\": \"Three-quarter view of the TAVIRA rug in blue.\"}, {\"file\": \"TAV23_MUL_front.jpg\", \"text\": \"Front view of the TAVIRA rug in multicolour.\"}, {\"file\": \"TAV23_ROS_34.jpg\", \"text\": \"Three-quarter view of the TAVIRA rug in multicolour.\"}, {\"file\": \"TAV23_ROS_front.jpg\", \"text\": \"Front view of the TAVIRA rug in red.\"}, {\"file\": \"IMG_4682.JPG\", \"text\": \"Detail view of the TAVIRA rug in grey.\"}, {\"file\": \"TAV23_MUL_side.jpg\", \"text\": \"Side view of the TAVIRA rug in grey.\"}, {\"file\": \"TAV23_ROS_detail.jpg\", \"text\": \"Detail view of the TAVIRA rug in multicolour.\"}, {\"file\": \"TAV23_ROS_side.jpg\", \"text\": \"Side view of the TAVIRA rug in red.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa TAVIRA Teppich\", \"bullets\": [\"Maße: 221 cm Breite, 160 cm Tiefe und 1,3 cm Höhe\", \"Handgetuftete Konstruktion aus 100% Polypropylen\", \"Gewicht: 6,4 kg\", \"Hergestellt in Portugal\"], \"description\": \"Der TAVIRA Teppich von Móveis Lusa ist ein handgetufteter Bodenbelag aus 100% Polypropylen. Eine professionelle Reinigung ist erforderlich, da dieser Artikel nicht gewaschen werden sollte.\", \"colours\": [{\"code\": \"TAV-23-MUL\", \"name\": \"Mehrfarbig\"}, {\"code\": \"TAV-23-ROS\", \"name\": \"Rosa\"}], \"safety_warnings\": [\"Auf glatten Böden eine rutschfeste Unterlage verwenden.\", \"Von offenen Flammen fernhalten.\"], \"alt_texts\": [{\"file\": \"TAV23_MUL_34.jpg\", \"text\": \"Dreiviertelansicht des TAVIRA Teppichs in Blau.\"}, {\"file\": \"TAV23_MUL_front.jpg\", \"text\": \"Frontansicht des TAVIRA Teppichs in Mehrfarbig.\"}, {\"file\": \"TAV23_ROS_34.jpg\", \"text\": \"Dreiviertelansicht des TAVIRA Teppichs in Mehrfarbig.\"}, {\"file\": \"TAV23_ROS_front.jpg\", \"text\": \"Frontansicht des TAVIRA Teppichs in Rot.\"}, {\"file\": \"IMG_4682.JPG\", \"text\": \"Detailansicht des TAVIRA Teppichs in Grau.\"}, {\"file\": \"TAV23_MUL_side.jpg\", \"text\": \"Seitenansicht des TAVIRA Teppichs in Grau.\"}, {\"file\": \"TAV23_ROS_detail.jpg\", \"text\": \"Detailansicht des TAVIRA Teppichs in Mehrfarbig.\"}, {\"file\": \"TAV23_ROS_side.jpg\", \"text\": \"Seitenansicht des TAVIRA Teppichs in Rot.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 929,
+   "completion_tokens": 484
+  },
+  "latency_s": 12.219
+ }
+}

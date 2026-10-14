@@ -1,0 +1,38 @@
+{
+ "key": "96a06ad8f99be3e08717ea396c8ca5314f03effc73181a6b9d0d14ba69a0fc84",
+ "purpose": "translate:SYN-15:fr",
+ "recorded_at": "2026-10-14T18:19:50+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into French. Translate all words into natural French, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a French term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Ningbo Brightway Home Co.', 'MOSEL', 'MOS-15-SCH', 'MOS-15-SIL'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Ningbo Brightway Home Co. MOSEL Floor Lamp\", \"bullets\": [\"Dimensions: 39 cm width, 39 cm depth, 56 cm height\", \"Weight: 6.3 kg\", \"Base made of matt black powder-coated steel\", \"Compatible with E27 bulbs up to 40 W\"], \"description\": \"The MOSEL floor lamp by Ningbo Brightway Home Co. features a powder-coated steel base in matt black. This indoor lighting fixture measures 56 cm in height and should be cleaned with a dry cloth when switched off.\", \"colours\": [{\"code\": \"MOS-15-SCH\", \"name\": \"Black\"}, {\"code\": \"MOS-15-SIL\", \"name\": \"Silver\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"IMG_4241.JPG\", \"text\": \"MOSEL floor lamp in black, packshot view\"}, {\"file\": \"MOSEL-SCH-1.jpg\", \"text\": \"MOSEL floor lamp in black, packshot view\"}, {\"file\": \"MOSEL-SCH-2.jpg\", \"text\": \"MOSEL floor lamp in black, packshot view\"}, {\"file\": \"MOSEL-SIL-1.jpg\", \"text\": \"MOSEL floor lamp in silver, packshot view\"}, {\"file\": \"MOSEL-SIL-3.jpg\", \"text\": \"MOSEL floor lamp in silver, packshot view\"}, {\"file\": \"MOSEL-SIL-4.jpg\", \"text\": \"MOSEL floor lamp in grey, lifestyle view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Lampadaire MOSEL de Ningbo Brightway Home Co.\", \"bullets\": [\"Dimensions : 39 cm de largeur, 39 cm de profondeur, 56 cm de hauteur\", \"Poids : 6,3 kg\", \"Base en acier avec revêtement par poudre noir mat\", \"Compatible avec les ampoules E27 jusqu'à 40 W\"], \"description\": \"Le lampadaire MOSEL de Ningbo Brightway Home Co. dispose d'une base en acier avec revêtement par poudre noir mat. Ce luminaire d'intérieur mesure 56 cm de hauteur et doit être nettoyé avec un chiffon sec lorsqu'il est éteint.\", \"colours\": [{\"code\": \"MOS-15-SCH\", \"name\": \"Noir\"}, {\"code\": \"MOS-15-SIL\", \"name\": \"Argent\"}], \"safety_warnings\": [\"Utiliser uniquement des ampoules E27, max. 40 W.\", \"Débrancher avant le nettoyage.\", \"Pour usage intérieur uniquement.\"], \"alt_texts\": [{\"file\": \"IMG_4241.JPG\", \"text\": \"Lampadaire MOSEL en noir, vue produit\"}, {\"file\": \"MOSEL-SCH-1.jpg\", \"text\": \"Lampadaire MOSEL en noir, vue produit\"}, {\"file\": \"MOSEL-SCH-2.jpg\", \"text\": \"Lampadaire MOSEL en noir, vue produit\"}, {\"file\": \"MOSEL-SIL-1.jpg\", \"text\": \"Lampadaire MOSEL en argent, vue produit\"}, {\"file\": \"MOSEL-SIL-3.jpg\", \"text\": \"Lampadaire MOSEL en argent, vue produit\"}, {\"file\": \"MOSEL-SIL-4.jpg\", \"text\": \"Lampadaire MOSEL en gris, vue d'ambiance\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 861,
+   "completion_tokens": 399
+  },
+  "latency_s": 10.156
+ }
+}

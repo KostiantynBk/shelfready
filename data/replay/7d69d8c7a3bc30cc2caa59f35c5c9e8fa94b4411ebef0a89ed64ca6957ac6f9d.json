@@ -1,0 +1,38 @@
+{
+ "key": "7d69d8c7a3bc30cc2caa59f35c5c9e8fa94b4411ebef0a89ed64ca6957ac6f9d",
+ "purpose": "translate:SYN-10:it",
+ "recorded_at": "2026-10-14T18:11:36+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Italian. Translate all words into natural Italian, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Italian term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'ÉVORA', 'EVO-10-MUS'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa ÉVORA Armchair\", \"bullets\": [\"Upholstery: 100% polyester velvet\", \"Base: Powder-coated steel with brass finish\", \"Maximum load capacity: 120 kg\", \"Dimensions: 82 cm height, 60 cm depth, 45 cm seat height, 36 cm seat depth\", \"Made in Portugal\"], \"description\": \"The ÉVORA armchair by Móveis Lusa features a velvet upholstery and a brass-finished powder-coated steel base. This piece weighs 10.4 kg and requires dry clean only care.\", \"colours\": [{\"code\": \"EVO-10-MUS\", \"name\": \"Moss Green\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"EVO10_MUS_34.jpg\", \"text\": \"Three-quarter view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in pink.\"}, {\"file\": \"IMG_4234.JPG\", \"text\": \"Three-quarter view of the ÉVORA armchair in pink.\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"text\": \"Detail view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in pink.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Poltrona Móveis Lusa ÉVORA\",\n  \"bullets\": [\n    \"Rivestimento: velluto 100% poliestere\",\n    \"Base: acciaio verniciato a polvere con finitura in ottone\",\n    \"Capacità di carico massima: 120 kg\",\n    \"Dimensioni: altezza 82 cm, profondità 60 cm, altezza seduta 45 cm, profondità seduta 36 cm\",\n    \"Made in Portugal\"\n  ],\n  \"description\": \"La poltrona ÉVORA di Móveis Lusa presenta un rivestimento in velluto e una base in acciaio verniciato a polvere con finitura in ottone. Questo pezzo pesa 10,4 kg e richiede esclusivamente la pulizia a secco.\",\n  \"colours\": [\n    {\n      \"code\": \"EVO-10-MUS\",\n      \"name\": \"Verde Muschio\"\n    }\n  ],\n  \"safety_warnings\": [],\n  \"alt_texts\": [\n    {\n      \"file\": \"EVO10_MUS_34.jpg\",\n      \"text\": \"Vista a tre quarti della poltrona ÉVORA in verde.\"\n    },\n    {\n      \"file\": \"EVO10_MUS_front.jpg\",\n      \"text\": \"Vista frontale della poltrona ÉVORA in verde.\"\n    },\n    {\n      \"file\": \"EVO10_ROS_front.jpg\",\n      \"text\": \"Vista frontale della poltrona ÉVORA in rosa.\"\n    },\n    {\n      \"file\": \"IMG_4234.JPG\",\n      \"text\": \"Vista a tre quarti della poltrona ÉVORA in rosa.\"\n    },\n    {\n      \"file\": \"EVO10_MUS_detail.jpg\",\n      \"text\": \"Vista di dettaglio della poltrona ÉVORA in verde.\"\n    },\n    {\n      \"file\": \"EVO10_MUS_side.jpg\",\n      \"text\": \"Vista laterale della poltrona ÉVORA in verde.\"\n    },\n    {\n      \"file\": \"EVO10_ROS_side.jpg\",\n      \"text\": \"Vista laterale della poltrona ÉVORA in rosa.\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 867,
+   "completion_tokens": 549
+  },
+  "latency_s": 15.813
+ }
+}

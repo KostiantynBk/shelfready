@@ -1,0 +1,38 @@
+{
+ "key": "09afe4b22eea2b9cd566ac93afb11999d147a09aac01b91ab066e2723a2286a8",
+ "purpose": "back:SYN-14:de",
+ "recorded_at": "2026-10-14T18:20:07+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa AVEIRO Sofa\", \"bullets\": [\"Maße: 152 cm Breite, 78 cm Tiefe, 78 cm Höhe\", \"Bezug: 100% Polyester-Samt\", \"Beine: Massivbuche mit Walnuss-Finish\", \"Maximale Belastbarkeit: 220 kg\", \"Hergestellt in Portugal\"], \"description\": \"Das AVEIRO Sofa von Móveis Lusa besticht durch einen Bezug aus 100% Polyester-Samt und Beine aus Massivbuche in Walnuss-Optik. Dieses Möbelstück hat eine Sitztiefe von 47 cm und ist nur für die chemische Reinigung geeignet.\", \"colours\": [{\"code\": \"AVE-14-ANT\", \"name\": \"Anthrazit\"}, {\"code\": \"AVE-14-ARE\", \"name\": \"Sand\"}, {\"code\": \"AVE-14-CIN\", \"name\": \"Grau\"}], \"safety_warnings\": [\"Nicht für den Außenbereich geeignet.\", \"Von Hitzequellen fernhalten.\", \"Nicht auf der Sitzfläche stehen.\"], \"alt_texts\": [{\"file\": \"AVE14_ANT_front.jpg\", \"text\": \"Frontansicht des AVEIRO Sofas in Anthrazitgrau.\"}, {\"file\": \"AVE14_ARE_34.jpg\", \"text\": \"Dreiviertelansicht des AVEIRO Sofas in Sandbeige.\"}, {\"file\": \"AVE14_ARE_front.jpg\", \"text\": \"Frontansicht des AVEIRO Sofas in Sandbeige.\"}, {\"file\": \"AVE14_CIN_front.jpg\", \"text\": \"Frontansicht des AVEIRO Sofas in Grau.\"}, {\"file\": \"AVE14_ANT_side.jpg\", \"text\": \"Seitenansicht des AVEIRO Sofas in Anthrazitgrau.\"}, {\"file\": \"AVE14_ARE_detail.jpg\", \"text\": \"Detailansicht des AVEIRO Sofas in Sandbeige.\"}, {\"file\": \"AVE14_ARE_side.jpg\", \"text\": \"Seitenansicht des AVEIRO Sofas in Sandbeige.\"}, {\"file\": \"AVE14_CIN_detail.jpg\", \"text\": \"Detailansicht des AVEIRO Sofas in Grau.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa AVEIRO Sofa\", \"bullets\": [\"Dimensions: 152 cm width, 78 cm depth, 78 cm height\", \"Cover: 100% polyester velvet\", \"Legs: solid beech with walnut finish\", \"Maximum load capacity: 220 kg\", \"Made in Portugal\"], \"description\": \"The AVEIRO sofa from Móveis Lusa impresses with a cover made of 100% polyester velvet and legs made of solid beech in walnut look. This piece of furniture has a seat depth of 47 cm and is only suitable for chemical cleaning.\", \"colours\": [{\"code\": \"AVE-14-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"AVE-14-ARE\", \"name\": \"Sand\"}, {\"code\": \"AVE-14-CIN\", \"name\": \"Grey\"}], \"safety_warnings\": [\"Not suitable for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat surface.\"], \"alt_texts\": [{\"file\": \"AVE14_ANT_front.jpg\", \"text\": \"Front view of the AVEIRO sofa in anthracite grey.\"}, {\"file\": \"AVE14_ARE_34.jpg\", \"text\": \"Three-quarter view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_ARE_front.jpg\", \"text\": \"Front view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_CIN_front.jpg\", \"text\": \"Front view of the AVEIRO sofa in grey.\"}, {\"file\": \"AVE14_ANT_side.jpg\", \"text\": \"Side view of the AVEIRO sofa in anthracite grey.\"}, {\"file\": \"AVE14_ARE_detail.jpg\", \"text\": \"Detailed view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_ARE_side.jpg\", \"text\": \"Side view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_CIN_detail.jpg\", \"text\": \"Detailed view of the AVEIRO sofa in grey.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 898,
+   "completion_tokens": 457
+  },
+  "latency_s": 14.047
+ }
+}

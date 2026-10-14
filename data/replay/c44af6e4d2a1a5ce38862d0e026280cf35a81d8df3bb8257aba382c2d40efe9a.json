@@ -1,0 +1,38 @@
+{
+ "key": "c44af6e4d2a1a5ce38862d0e026280cf35a81d8df3bb8257aba382c2d40efe9a",
+ "purpose": "translate:SYN-22:pt",
+ "recorded_at": "2026-10-14T18:16:07+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into European Portuguese. Translate all words into natural European Portuguese, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a European Portuguese term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'INN', 'INN-22-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen INN Rug\", \"bullets\": [\"Dimensions: 274 cm width, 178 cm depth, 3 cm height\", \"Weight: 10 kg\", \"Origin: Germany\", \"Care: Professional cleaning only; do not wash\"], \"description\": \"The Nordholz Wohnen INN rug is a high-quality home accessory made in Germany. It features a substantial size of 274 cm by 178 cm with a height of 3 cm.\", \"colours\": [{\"code\": \"INN-22-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Use an anti-slip underlay on smooth floors.\", \"Keep away from open flames.\"], \"alt_texts\": [{\"file\": \"IMG_4957.JPG\", \"text\": \"Detail view of a beige rug\"}, {\"file\": \"INN-ANT-1.jpg\", \"text\": \"Lifestyle view of the INN rug in brown\"}, {\"file\": \"INN-ANT-2.jpg\", \"text\": \"Packshot of the INN rug in grey\"}, {\"file\": \"INN-ANT-4.jpg\", \"text\": \"Detail view of the INN rug in grey\"}, {\"file\": \"INN-SAN-1.jpg\", \"text\": \"Lifestyle view of a brown rug\"}, {\"file\": \"INN-SAN-2.jpg\", \"text\": \"Packshot of a beige rug\"}, {\"file\": \"INN-SAN-3.jpg\", \"text\": \"Detail view of a beige rug\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Tapete Nordholz Wohnen INN\",\n  \"bullets\": [\n    \"Dimensões: 274 cm de largura, 178 cm de profundidade, 3 cm de altura\",\n    \"Peso: 10 kg\",\n    \"Origem: Alemanha\",\n    \"Cuidados: Apenas limpeza profissional; não lavar\"\n  ],\n  \"description\": \"O tapete Nordholz Wohnen INN é um acessório para a casa de alta qualidade fabricado na Alemanha. Apresenta dimensões generosas de 274 cm por 178 cm com uma altura de 3 cm.\",\n  \"colours\": [\n    {\n      \"code\": \"INN-22-ANT\",\n      \"name\": \"Antracite\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Utilize um tapete antiderrapante em pavimentos lisos.\",\n    \"Mantenha afastado de chamas abertas.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4957.JPG\",\n      \"text\": \"Vista detalhada de um tapete bege\"\n    },\n    {\n      \"file\": \"INN-ANT-1.jpg\",\n      \"text\": \"Vista de ambiente do tapete INN em castanho\"\n    },\n    {\n      \"file\": \"INN-ANT-2.jpg\",\n      \"text\": \"Fotografia de produto do tapete INN em cinzento\"\n    },\n    {\n      \"file\": \"INN-ANT-4.jpg\",\n      \"text\": \"Vista detalhada do tapete INN em cinzento\"\n    },\n    {\n      \"file\": \"INN-SAN-1.jpg\",\n      \"text\": \"Vista de ambiente de um tapete castanho\"\n    },\n    {\n      \"file\": \"INN-SAN-2.jpg\",\n      \"text\": \"Fotografia de produto de um tapete bege\"\n    },\n    {\n      \"file\": \"INN-SAN-3.jpg\",\n      \"text\": \"Vista detalhada de um tapete bege\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 819,
+   "completion_tokens": 500
+  },
+  "latency_s": 11.187
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "key": "17d334e408a2ef5e4629ce70333a23ca7885ec4f13b99e127948a54c8eab4491",
+ "purpose": "back:SYN-02:uk",
+ "recorded_at": "2026-10-14T18:18:41+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Крісло COMO від Ningbo Brightway Home Co.\", \"bullets\": [\"Оббивка з натуральної шкіри верхнього шару\", \"Розміри: ширина 104 см, глибина 104 см, висота 81 см\", \"Висота сидіння: 44 см; глибина сидіння: 62 см\", \"Максимальне навантаження: 120 кг\", \"Вага: 44.5 кг\"], \"description\": \"Крісло COMO від Ningbo Brightway Home Co. оббите натуральною шкірою верхнього шару. Догляд за виробом здійснюється за допомогою протирання вологою тканиною.\", \"colours\": [{\"code\": \"COM-02-COG\", \"name\": \"Коньячний\"}, {\"code\": \"COM-02-SAB\", \"name\": \"Пісочний\"}, {\"code\": \"COM-02-NER\", \"name\": \"Чорний\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"COMO_COG_01.jpg\", \"text\": \"Крісло COMO коричневого кольору, вигляд на білому фоні\"}, {\"file\": \"COMO_COG_02.jpg\", \"text\": \"Крісло COMO коричневого кольору, вигляд на білому фоні\"}, {\"file\": \"COMO_NER_01.jpg\", \"text\": \"Крісло COMO чорного кольору, вигляд на білому фоні\"}, {\"file\": \"COMO_NER_02.jpg\", \"text\": \"Крісло COMO чорного кольору, в інтер'єрі\"}, {\"file\": \"COMO_NER_04.jpg\", \"text\": \"Крісло COMO чорного кольору, детальний вигляд\"}, {\"file\": \"COMO_SAB_01.jpg\", \"text\": \"Крісло COMO бежевого кольору, вигляд на білому фоні\"}, {\"file\": \"COMO_SAB_02.jpg\", \"text\": \"Крісло COMO бежевого кольору, вигляд на білому фоні\"}, {\"file\": \"COMO_SAB_03.jpg\", \"text\": \"Крісло COMO бежевого кольору, детальний вигляд\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"COMO Armchair by Ningbo Brightway Home Co.\", \"bullets\": [\"Top grain natural leather upholstery\", \"Dimensions: width 104 cm, depth 104 cm, height 81 cm\", \"Seat height: 44 cm; seat depth: 62 cm\", \"Maximum load: 120 kg\", \"Weight: 44.5 kg\"], \"description\": \"The COMO armchair by Ningbo Brightway Home Co. is upholstered in top grain natural leather. Product care is performed by wiping with a damp cloth.\", \"colours\": [{\"code\": \"COM-02-COG\", \"name\": \"Cognac\"}, {\"code\": \"COM-02-SAB\", \"name\": \"Sand\"}, {\"code\": \"COM-02-NER\", \"name\": \"Black\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"COMO_COG_01.jpg\", \"text\": \"COMO armchair in brown, view on white background\"}, {\"file\": \"COMO_COG_02.jpg\", \"text\": \"COMO armchair in brown, view on white background\"}, {\"file\": \"COMO_NER_01.jpg\", \"text\": \"COMO armchair in black, view on white background\"}, {\"file\": \"COMO_NER_02.jpg\", \"text\": \"COMO armchair in black, in interior\"}, {\"file\": \"COMO_NER_04.jpg\", \"text\": \"COMO armchair in black, detailed view\"}, {\"file\": \"COMO_SAB_01.jpg\", \"text\": \"COMO armchair in beige, view on white background\"}, {\"file\": \"COMO_SAB_02.jpg\", \"text\": \"COMO armchair in beige, view on white background\"}, {\"file\": \"COMO_SAB_03.jpg\", \"text\": \"COMO armchair in beige, detailed view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 936,
+   "completion_tokens": 439
+  },
+  "latency_s": 10.922
+ }
+}

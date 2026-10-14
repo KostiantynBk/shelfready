@@ -1,0 +1,38 @@
+{
+ "key": "04721ed357a47c84a34d8c964c80db907e0a14a9e51c56416af824b619fa581d",
+ "purpose": "back:SYN-10:de",
+ "recorded_at": "2026-10-14T18:18:50+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa ÉVORA Sessel\", \"bullets\": [\"Bezug: 100% Polyester-Samt\", \"Gestell: Pulverbeschichteter Stahl in Messing-Optik\", \"Maximale Belastbarkeit: 120 kg\", \"Maße: 82 cm Höhe, 60 cm Tiefe, 45 cm Sitzhöhe, 36 cm Sitztiefe\", \"Hergestellt in Portugal\"], \"description\": \"Der ÉVORA Sessel von Móveis Lusa besticht durch einen Samtbezug und ein pulverbeschichtetes Stahlgestell in Messing-Optik. Dieses Möbelstück wiegt 10,4 kg und ist nur chemisch zu reinigen.\", \"colours\": [{\"code\": \"EVO-10-MUS\", \"name\": \"Moosgrün\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"EVO10_MUS_34.jpg\", \"text\": \"Dreiviertelansicht des ÉVORA Sessels in Grün.\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"text\": \"Frontansicht des ÉVORA Sessels in Grün.\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"text\": \"Frontansicht des ÉVORA Sessels in Rosa.\"}, {\"file\": \"IMG_4234.JPG\", \"text\": \"Dreiviertelansicht des ÉVORA Sessels in Rosa.\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"text\": \"Detailansicht des ÉVORA Sessels in Grün.\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"text\": \"Seitenansicht des ÉVORA Sessels in Grün.\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"text\": \"Seitenansicht des ÉVORA Sessels in Rosa.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa ÉVORA Armchair\", \"bullets\": [\"Cover: 100% polyester velvet\", \"Frame: Powder-coated steel in brass look\", \"Maximum load capacity: 120 kg\", \"Dimensions: 82 cm height, 60 cm depth, 45 cm seat height, 36 cm seat depth\", \"Made in Portugal\"], \"description\": \"The ÉVORA armchair from Móveis Lusa impresses with a velvet cover and a powder-coated steel frame in brass look. This piece of furniture weighs 10.4 kg and is only dry cleanable.\", \"colours\": [{\"code\": \"EVO-10-MUS\", \"name\": \"Moss Green\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"EVO10_MUS_34.jpg\", \"text\": \"Three-quarter view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in pink.\"}, {\"file\": \"IMG_4234.JPG\", \"text\": \"Three-quarter view of the ÉVORA armchair in pink.\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"text\": \"Detailed view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in pink.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 821,
+   "completion_tokens": 382
+  },
+  "latency_s": 10.547
+ }
+}

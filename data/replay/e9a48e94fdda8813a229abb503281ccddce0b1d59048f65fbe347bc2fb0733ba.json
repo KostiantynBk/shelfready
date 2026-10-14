@@ -1,0 +1,38 @@
+{
+ "key": "e9a48e94fdda8813a229abb503281ccddce0b1d59048f65fbe347bc2fb0733ba",
+ "purpose": "listing:SYN-11",
+ "recorded_at": "2026-10-14T18:07:59+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Divano LUCCA / LUCCA sofa\", \"model\": \"LUCCA\", \"brand\": \"Ningbo Brightway Home Co.\", \"depth_cm\": 107, \"height_cm\": 80, \"seat_height_cm\": 44, \"seat_depth_cm\": 64, \"max_load_kg\": 330, \"weight_kg\": 61.8, \"product_type\": \"Divano / sofa\", \"legs_or_base\": \"Pino + multistrato\", \"upholstery\": \"Tessuto, 100% poliestere / woven fabric, 100% polyester\", \"care\": \"Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C\", \"country_of_origin\": \"China\", \"safety_warnings\": [\"Non utilizzare all'aperto.\", \"Not for outdoor use.\", \"Tenere lontano da fonti di calore.\", \"Keep away from heat sources.\", \"Non salire in piedi sulla seduta.\", \"Do not stand on the seat.\"], \"variants\": [{\"code\": \"LUC-11-ANT\", \"colour_name\": \"Antracite\"}, {\"code\": \"LUC-11-SAB\", \"colour_name\": \"Sabbia\"}]}\nPhotos: [{\"file\": \"IMG_4127.JPG\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"LUCCA_ANT_01.jpg\", \"variant\": \"LUC-11-ANT\", \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"LUCCA_ANT_02.jpg\", \"variant\": \"LUC-11-ANT\", \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"LUCCA_ANT_03.jpg\", \"variant\": \"LUC-11-ANT\", \"view\": \"lifestyle\", \"colour_seen\": \"grey\"}, {\"file\": \"LUCCA_SAB_01.jpg\", \"variant\": \"LUC-11-SAB\", \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"LUCCA_SAB_02.jpg\", \"variant\": \"LUC-11-SAB\", \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"LUCCA_SAB_04.jpg\", \"variant\": \"LUC-11-SAB\", \"view\": \"detail\", \"colour_seen\": \"beige\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"LUCCA Sofa by Ningbo Brightway Home Co.\",\n  \"bullets\": [\n    \"Upholstery: 100% polyester woven fabric\",\n    \"Base and legs made of pine and multilayer\",\n    \"Removable cover washable at 30 °C\",\n    \"Maximum load capacity of 330 kg\",\n    \"Dimensions: 80 cm height, 107 cm depth, 44 cm seat height, and 64 cm seat depth\"\n  ],\n  \"description\": \"The LUCCA sofa by Ningbo Brightway Home Co. features a 100% polyester woven fabric upholstery and a pine and multilayer base. It includes a removable cover that is washable at 30 °C for easy maintenance.\",\n  \"colours\": [\n    {\n      \"code\": \"LUC-11-ANT\",\n      \"name\": \"Anthracite\"\n    },\n    {\n      \"code\": \"LUC-11-SAB\",\n      \"name\": \"Sand\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Not for outdoor use.\",\n    \"Keep away from heat sources.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4127.JPG\",\n      \"text\": \"LUCCA sofa in grey, packshot view\"\n    },\n    {\n      \"file\": \"LUCCA_ANT_01.jpg\",\n      \"text\": \"LUCCA sofa in anthracite grey, packshot view\"\n    },\n    {\n      \"file\": \"LUCCA_ANT_02.jpg\",\n      \"text\": \"Detail view of the LUCCA sofa in anthracite grey\"\n    },\n    {\n      \"file\": \"LUCCA_ANT_03.jpg\",\n      \"text\": \"LUCCA sofa in anthracite grey, lifestyle view\"\n    },\n    {\n      \"file\": \"LUCCA_SAB_01.jpg\",\n      \"text\": \"LUCCA sofa in sand beige, packshot view\"\n    },\n    {\n      \"file\": \"LUCCA_SAB_02.jpg\",\n      \"text\": \"LUCCA sofa in sand beige, packshot view\"\n    },\n    {\n      \"file\": \"LUCCA_SAB_04.jpg\",\n      \"text\": \"Detail view of the LUCCA sofa in sand beige\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1108,
+   "completion_tokens": 562
+  },
+  "latency_s": 17.844
+ }
+}

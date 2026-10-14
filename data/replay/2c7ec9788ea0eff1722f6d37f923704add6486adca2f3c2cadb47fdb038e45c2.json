@@ -1,0 +1,38 @@
+{
+ "key": "2c7ec9788ea0eff1722f6d37f923704add6486adca2f3c2cadb47fdb038e45c2",
+ "purpose": "translate:SYN-24:pl",
+ "recorded_at": "2026-10-14T18:17:23+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Polish. Translate all words into natural Polish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Polish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'SAALE', 'SAA-24-BLA', 'SAA-24-SAN'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen SAALE Rug\", \"bullets\": [\"Dimensions: 244 cm width, 152 cm depth, and 1 cm height\", \"Weight: 10.7 kg\", \"Country of origin: Deutschland\"], \"description\": \"The SAALE rug by Nordholz Wohnen is a home accessory designed for various interior spaces. It is available in multiple colour options.\", \"colours\": [{\"code\": \"SAA-24-BLA\", \"name\": \"Blue\"}, {\"code\": \"SAA-24-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Use an anti-slip underlay on smooth floors.\", \"Keep away from open flames.\"], \"alt_texts\": [{\"file\": \"IMG_4705.JPG\", \"text\": \"Grey SAALE rug, packshot view\"}, {\"file\": \"SAALE-ANT-1.jpg\", \"text\": \"Beige SAALE rug, lifestyle view\"}, {\"file\": \"SAALE-ANT-2.jpg\", \"text\": \"Beige SAALE rug, detail view\"}, {\"file\": \"SAALE-ANT-3.jpg\", \"text\": \"Beige SAALE rug, packshot view\"}, {\"file\": \"SAALE-ANT-4.jpg\", \"text\": \"Blue SAALE rug, lifestyle view\"}, {\"file\": \"SAALE-BLA-1.jpg\", \"text\": \"Grey SAALE rug, lifestyle view\"}, {\"file\": \"SAALE-BLA-2.jpg\", \"text\": \"Grey SAALE rug, detail view\"}, {\"file\": \"SAALE-BLA-3.jpg\", \"text\": \"Grey SAALE rug, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Dywan Nordholz Wohnen SAALE\", \"bullets\": [\"Wymiary: 244 cm szerokości, 152 cm głębokości i 1 cm wysokości\", \"Waga: 10.7 kg\", \"Kraj pochodzenia: Niemcy\"], \"description\": \"Dywan SAALE marki Nordholz Wohnen to dodatek do domu zaprojektowany do różnych wnętrz. Jest dostępny w wielu wariantach kolorystycznych.\", \"colours\": [{\"code\": \"SAA-24-BLA\", \"name\": \"Niebieski\"}, {\"code\": \"SAA-24-SAN\", \"name\": \"Piaskowy\"}], \"safety_warnings\": [\"Na gładkich podłogach należy stosować podkład antypoślizgowy.\", \"Trzymać z dala od otwartego ognia.\"], \"alt_texts\": [{\"file\": \"IMG_4705.JPG\", \"text\": \"Szary dywan SAALE, widok produktowy\"}, {\"file\": \"SAALE-ANT-1.jpg\", \"text\": \"Beżowy dywan SAALE, widok w aranżacji\"}, {\"file\": \"SAALE-ANT-2.jpg\", \"text\": \"Beżowy dywan SAALE, widok szczegółowy\"}, {\"file\": \"SAALE-ANT-3.jpg\", \"text\": \"Beżowy dywan SAALE, widok produktowy\"}, {\"file\": \"SAALE-ANT-4.jpg\", \"text\": \"Niebieski dywan SAALE, widok w aranżacji\"}, {\"file\": \"SAALE-BLA-1.jpg\", \"text\": \"Szary dywan SAALE, widok w aranżacji\"}, {\"file\": \"SAALE-BLA-2.jpg\", \"text\": \"Szary dywan SAALE, widok szczegółowy\"}, {\"file\": \"SAALE-BLA-3.jpg\", \"text\": \"Szary dywan SAALE, widok szczegółowy\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 856,
+   "completion_tokens": 442
+  },
+  "latency_s": 62.828
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "key": "fe642cc8c549838f345119ca8a6811f3acb205dd5efb21f2df4caf66cbeaa4d4",
+ "purpose": "back:SYN-08:uk",
+ "recorded_at": "2026-10-14T18:19:10+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Крісло Arredo Brianza BRERA\", \"bullets\": [\"Розміри: висота 95 см, глибина 117 см, висота сидіння 47 см, глибина сидіння 70 см\", \"Оббивка: 100% поліестерова тканина\", \"Матеріали основи: сосна та мультиплекс\", \"Максимальне навантаження: 120 кг\", \"Виготовлено в Італії\"], \"description\": \"Крісло BRERA від Arredo Brianza — це високоякісний варіант для відпочинку, виготовлений в Італії. Воно має міцну основу з сосни та мультиплексу з оббивкою зі 100% поліестерової тканини.\", \"colours\": [{\"code\": \"BRE-08-ANT\", \"name\": \"Антрацитовий\"}, {\"code\": \"BRE-08-COG\", \"name\": \"Коньячний\"}, {\"code\": \"BRE-08-SAB\", \"name\": \"Пісочний\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"BRERA_ANT_01.jpg\", \"text\": \"Крісло BRERA у сірому кольорі, студійне фото\"}, {\"file\": \"BRERA_ANT_02.jpg\", \"text\": \"Крісло BRERA у сірому кольорі, в інтер'єрі\"}, {\"file\": \"BRERA_ANT_03.jpg\", \"text\": \"Крісло BRERA у сірому кольорі, детальний вигляд\"}, {\"file\": \"BRERA_COG_01.jpg\", \"text\": \"Крісло BRERA у коричневому кольорі, студійне фото\"}, {\"file\": \"BRERA_COG_03.jpg\", \"text\": \"Крісло BRERA у коричневому кольорі, детальний вигляд\"}, {\"file\": \"BRERA_COG_04.jpg\", \"text\": \"Крісло BRERA у коричневому кольорі, в інтер'єрі\"}, {\"file\": \"BRERA_SAB_01.jpg\", \"text\": \"Крісло BRERA у бежевому кольорі, студійне фото\"}, {\"file\": \"BRERA_SAB_02.jpg\", \"text\": \"Крісло BRERA у бежевому кольорі, детальний вигляд\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Arredo Brianza BRERA Armchair\", \"bullets\": [\"Dimensions: height 95 cm, depth 117 cm, seat height 47 cm, seat depth 70 cm\", \"Upholstery: 100% polyester fabric\", \"Base materials: pine and multiplex\", \"Maximum load: 120 kg\", \"Made in Italy\"], \"description\": \"The BRERA armchair from Arredo Brianza is a high-quality option for relaxation, made in Italy. It has a sturdy base of pine and multiplex with upholstery made of 100% polyester fabric.\", \"colours\": [{\"code\": \"BRE-08-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"BRE-08-COG\", \"name\": \"Cognac\"}, {\"code\": \"BRE-08-SAB\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"BRERA_ANT_01.jpg\", \"text\": \"BRERA armchair in grey color, studio photo\"}, {\"file\": \"BRERA_ANT_02.jpg\", \"text\": \"BRERA armchair in grey color, in interior\"}, {\"file\": \"BRERA_ANT_03.jpg\", \"text\": \"BRERA armchair in grey color, detailed view\"}, {\"file\": \"BRERA_COG_01.jpg\", \"text\": \"BRERA armchair in brown color, studio photo\"}, {\"file\": \"BRERA_COG_03.jpg\", \"text\": \"BRERA armchair in brown color, detailed view\"}, {\"file\": \"BRERA_COG_04.jpg\", \"text\": \"BRERA armchair in brown color, in interior\"}, {\"file\": \"BRERA_SAB_01.jpg\", \"text\": \"BRERA armchair in beige color, studio photo\"}, {\"file\": \"BRERA_SAB_02.jpg\", \"text\": \"BRERA armchair in beige color, detailed view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 970,
+   "completion_tokens": 447
+  },
+  "latency_s": 16.218
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "key": "9c72c99ff659a834f69cf7ca54ff11a851b10eb490c2f521c21131747bbe8043",
+ "purpose": "back:SYN-05:uk",
+ "recorded_at": "2026-10-14T18:18:16+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Крісло-реклайнер Arredo Brianza LECCO\", \"bullets\": [\"Розміри: висота 112 см, глибина 107 см, висота сидіння 45 см, глибина сидіння 64 см\", \"Оббивка: 100% поліестерова тканина з одним чохлом, що знімається, який можна прати при 30 °C\", \"Основа: виготовлена з сосни та багатошарової плити\", \"Максимальна вантажопідйомність: 120 кг\", \"Виготовлено в Італії\"], \"description\": \"Крісло-реклайнер LECCO від Arredo Brianza — це комфортне рішення для відпочинку з оббивкою зі 100% поліестерової тканини. Це крісло італійського виробництва має знімний чохол для легкого догляду.\", \"colours\": [{\"code\": \"LEC-05-COG\", \"name\": \"Коньячний\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"IMG_4579.JPG\", \"text\": \"Детальний вигляд крісла-реклайнера LECCO в коричневому кольорі.\"}, {\"file\": \"LECCO_ANT_01.jpg\", \"text\": \"Загальний вигляд крісла-реклайнера LECCO в сірому кольорі.\"}, {\"file\": \"LECCO_ANT_02.jpg\", \"text\": \"Загальний вигляд крісла-реклайнера LECCO в сірому кольорі.\"}, {\"file\": \"LECCO_ANT_04.jpg\", \"text\": \"Загальний вигляд крісла-реклайнера LECCO в сірому кольорі.\"}, {\"file\": \"LECCO_COG_01.jpg\", \"text\": \"Загальний вигляд крісла-реклайнера LECCO в коньячно-коричневому кольорі.\"}, {\"file\": \"LECCO_COG_02.jpg\", \"text\": \"Детальний вигляд крісла-реклайнера LECCO в коньячно-коричневому кольорі.\"}, {\"file\": \"LECCO_COG_03.jpg\", \"text\": \"Детальний вигляд крісла-реклайнера LECCO в коньячно-коричневому кольорі.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Arredo Brianza LECCO Recliner Chair\", \"bullets\": [\"Dimensions: height 112 cm, depth 107 cm, seat height 45 cm, seat depth 64 cm\", \"Upholstery: 100% polyester fabric with one removable cover, washable at 30 °C\", \"Base: made of pine and multilayer board\", \"Maximum load capacity: 120 kg\", \"Made in Italy\"], \"description\": \"The LECCO recliner chair from Arredo Brianza is a comfortable relaxation solution with 100% polyester fabric upholstery. This Italian-made chair has a removable cover for easy care.\", \"colours\": [{\"code\": \"LEC-05-COG\", \"name\": \"Cognac\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4579.JPG\", \"text\": \"Detailed view of the LECCO recliner chair in brown.\"}, {\"file\": \"LECCO_ANT_01.jpg\", \"text\": \"General view of the LECCO recliner chair in grey.\"}, {\"file\": \"LECCO_ANT_02.jpg\", \"text\": \"General view of the LECCO recliner chair in grey.\"}, {\"file\": \"LECCO_ANT_04.jpg\", \"text\": \"General view of the LECCO recliner chair in grey.\"}, {\"file\": \"LECCO_COG_01.jpg\", \"text\": \"General view of the LECCO recliner chair in cognac-brown.\"}, {\"file\": \"LECCO_COG_02.jpg\", \"text\": \"Detailed view of the LECCO recliner chair in cognac-brown.\"}, {\"file\": \"LECCO_COG_03.jpg\", \"text\": \"Detailed view of the LECCO recliner chair in cognac-brown.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 976,
+   "completion_tokens": 413
+  },
+  "latency_s": 13.938
+ }
+}

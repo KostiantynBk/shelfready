@@ -1,0 +1,38 @@
+{
+ "key": "a9f4519326b7a5ba2bdfdf1beac47d6bdabd61d7162dc984cf801d42c78c50ba",
+ "purpose": "back:SYN-21:de",
+ "recorded_at": "2026-10-14T18:21:12+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa COIMBRA Teppich\", \"bullets\": [\"Handgetuftet, 100% Wolle\", \"Maße: 290 cm Breite, 229 cm Tiefe und 1,3 cm Höhe\", \"Gewicht: 25,4 kg\", \"Hergestellt in Portugal\"], \"description\": \"Der COIMBRA Teppich von Móveis Lusa ist ein handgetuftetes Stück aus 100% Wolle. Dieser in Portugal gefertigte Teppich misst 290 cm mal 229 cm.\", \"colours\": [{\"code\": \"COI-21-ARE\", \"name\": \"Anthrazit\"}, {\"code\": \"COI-21-AZU\", \"name\": \"Blau\"}], \"safety_warnings\": [\"Auf glatten Böden eine rutschfeste Unterlage verwenden.\", \"Von offenen Flammen fernhalten.\"], \"alt_texts\": [{\"file\": \"COI21_ARE_34.jpg\", \"text\": \"COIMBRA Teppich in Beige, Dreiviertelansicht\"}, {\"file\": \"COI21_ARE_front.jpg\", \"text\": \"COIMBRA Teppich in Beige, Vorderansicht\"}, {\"file\": \"COI21_AZU_34.jpg\", \"text\": \"COIMBRA Teppich in Blau, Dreiviertelansicht\"}, {\"file\": \"COI21_AZU_front.jpg\", \"text\": \"COIMBRA Teppich in Beige, Vorderansicht\"}, {\"file\": \"COI21_ARE_side.jpg\", \"text\": \"COIMBRA Teppich in Beige, Seitenansicht\"}, {\"file\": \"COI21_AZU_detail.jpg\", \"text\": \"COIMBRA Teppich in Blau, Detailansicht\"}, {\"file\": \"COI21_AZU_side.jpg\", \"text\": \"COIMBRA Teppich in Blau, Seitenansicht\"}, {\"file\": \"IMG_4964.JPG\", \"text\": \"COIMBRA Teppich in Beige, Detailansicht\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa COIMBRA Rug\", \"bullets\": [\"Hand-tufted, 100% wool\", \"Dimensions: 290 cm width, 229 cm depth and 1.3 cm height\", \"Weight: 25.4 kg\", \"Made in Portugal\"], \"description\": \"The COIMBRA rug from Móveis Lusa is a hand-tufted piece made of 100% wool. This rug, manufactured in Portugal, measures 290 cm by 229 cm.\", \"colours\": [{\"code\": \"COI-21-ARE\", \"name\": \"Anthracite\"}, {\"code\": \"COI-21-AZU\", \"name\": \"Blue\"}], \"safety_warnings\": [\"Use a non-slip underlay on smooth floors.\", \"Keep away from open flames.\"], \"alt_texts\": [{\"file\": \"COI21_ARE_34.jpg\", \"text\": \"COIMBRA rug in beige, three-quarter view\"}, {\"file\": \"COI21_ARE_front.jpg\", \"text\": \"COIMBRA rug in beige, front view\"}, {\"file\": \"COI21_AZU_34.jpg\", \"text\": \"COIMBRA rug in blue, three-quarter view\"}, {\"file\": \"COI21_AZU_front.jpg\", \"text\": \"COIMBRA rug in beige, front view\"}, {\"file\": \"COI21_ARE_side.jpg\", \"text\": \"COIMBRA rug in beige, side view\"}, {\"file\": \"COI21_AZU_detail.jpg\", \"text\": \"COIMBRA rug in blue, detail view\"}, {\"file\": \"COI21_AZU_side.jpg\", \"text\": \"COIMBRA rug in blue, side view\"}, {\"file\": \"IMG_4964.JPG\", \"text\": \"COIMBRA rug in beige, detail view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 874,
+   "completion_tokens": 433
+  },
+  "latency_s": 10.094
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "key": "0ff3294554fc0025be99f44c9f29be1bcb09f7ab2ce25159d66c03ac6efc746a",
+ "purpose": "translate:SYN-17:pl",
+ "recorded_at": "2026-10-14T18:14:33+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Polish. Translate all words into natural Polish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Polish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Ningbo Brightway Home Co.', 'LAHN', 'LAH-17-BLA'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Ningbo Brightway Home Co. LAHN Table Lamp\", \"bullets\": [\"Dimensions: 22 cm width, 22 cm depth, 33 cm height\", \"Weight: 2.8 kg\", \"Compatible with E27 bulbs, max. 40 W\", \"Clean with a dry cloth when switched off\"], \"description\": \"The LAHN table lamp by Ningbo Brightway Home Co. is designed for indoor use. This compact lighting fixture measures 33 cm in height and 22 cm in width and depth.\", \"colours\": [{\"code\": \"LAH-17-BLA\", \"name\": \"Blue\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"IMG_4328.JPG\", \"text\": \"LAHN table lamp in blue, packshot view\"}, {\"file\": \"LAHN-BLA-1.jpg\", \"text\": \"LAHN table lamp in blue, packshot view\"}, {\"file\": \"LAHN-BLA-2.jpg\", \"text\": \"LAHN table lamp in white, packshot view\"}, {\"file\": \"LAHN-BLA-3.jpg\", \"text\": \"LAHN table lamp in blue, packshot view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Lampa stołowa Ningbo Brightway Home Co. LAHN\", \"bullets\": [\"Wymiary: 22 cm szerokości, 22 cm głębokości, 33 cm wysokości\", \"Waga: 2.8 kg\", \"Kompatybilna z żarówkami E27, maks. 40 W\", \"Czyścić suchą szmatką po wyłączeniu\"], \"description\": \"Lampa stołowa LAHN od Ningbo Brightway Home Co. została zaprojektowana do użytku wewnątrz pomieszczeń. Ta kompaktowa oprawa oświetleniowa ma 33 cm wysokości oraz 22 cm szerokości i głębokości.\", \"colours\": [{\"code\": \"LAH-17-BLA\", \"name\": \"Niebieski\"}], \"safety_warnings\": [\"Stosować tylko żarówki E27, maks. 40 W.\", \"Odłączyć z sieci przed czyszczeniem.\", \"Wyłącznie do użytku wewnątrz pomieszczeń.\"], \"alt_texts\": [{\"file\": \"IMG_4328.JPG\", \"text\": \"Lampa stołowa LAHN w kolorze niebieskim, widok produktowy\"}, {\"file\": \"LAHN-BLA-1.jpg\", \"text\": \"Lampa stołowa LAHN w kolorze niebieskim, widok produktowy\"}, {\"file\": \"LAHN-BLA-2.jpg\", \"text\": \"Lampa stołowa LAHN w kolorze białym, widok produktowy\"}, {\"file\": \"LAHN-BLA-3.jpg\", \"text\": \"Lampa stołowa LAHN w kolorze niebieskim, widok produktowy\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 779,
+   "completion_tokens": 378
+  },
+  "latency_s": 12.657
+ }
+}

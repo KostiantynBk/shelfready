@@ -1,0 +1,38 @@
+{
+ "key": "39b42939b6eb08ade3fab268ad2a11736c6ae8a2c105c6a574f34e738d84f0fc",
+ "purpose": "back:SYN-07:de",
+ "recorded_at": "2026-10-14T18:19:11+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa FARO Sessel\", \"bullets\": [\"Maße: 70 cm Breite, 71 cm Tiefe, 83 cm Höhe\", \"Sitzhöhe: 45 cm; Sitztiefe: 43 cm\", \"Beine aus massivem Buchenholz mit Walnuss-Finish\", \"Bezug aus 100% Polyester-Webstoff\", \"Abnehmbarer Bezug, waschbar bei 30 °C\", \"Maximale Belastbarkeit: 120 kg\"], \"description\": \"Der FARO Sessel von Móveis Lusa wird in Portugal gefertigt. Er verfügt über einen Bezug aus 100% Polyester-Webstoff und Beine aus massivem Buchenholz mit Walnuss-Finish.\", \"colours\": [{\"code\": \"FAR-07-ANT\", \"name\": \"Anthrazit\"}, {\"code\": \"FAR-07-AZU\", \"name\": \"Blau\"}, {\"code\": \"FAR-07-CIN\", \"name\": \"Grau\"}], \"safety_warnings\": [\"Nicht für den Außenbereich geeignet.\", \"Von Hitzequellen fernhalten.\", \"Nicht auf der Sitzfläche stehen.\"], \"alt_texts\": [{\"file\": \"FAR07_ANT_34.jpg\", \"text\": \"FARO Sessel in Anthrazitgrau, Dreiviertelansicht\"}, {\"file\": \"FAR07_ANT_front.jpg\", \"text\": \"FARO Sessel in Anthrazitgrau, Frontansicht\"}, {\"file\": \"FAR07_AZU_34.jpg\", \"text\": \"FARO Sessel in Blau, Dreiviertelansicht\"}, {\"file\": \"FAR07_AZU_front.jpg\", \"text\": \"FARO Sessel in Blau, Frontansicht\"}, {\"file\": \"FAR07_CIN_34.jpg\", \"text\": \"FARO Sessel in Grau, Dreiviertelansicht\"}, {\"file\": \"FAR07_CIN_front.jpg\", \"text\": \"FARO Sessel in Grau, Frontansicht\"}, {\"file\": \"FAR07_ANT_side.jpg\", \"text\": \"FARO Sessel in Anthrazitgrau, Seitenansicht\"}, {\"file\": \"FAR07_AZU_detail.jpg\", \"text\": \"Detailansicht des FARO Sessels in Blau\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa FARO Armchair\", \"bullets\": [\"Dimensions: 70 cm width, 71 cm depth, 83 cm height\", \"Seat height: 45 cm; Seat depth: 43 cm\", \"Legs made of solid beech wood with walnut finish\", \"Cover made of 100% polyester woven fabric\", \"Removable cover, washable at 30 °C\", \"Maximum load capacity: 120 kg\"], \"description\": \"The FARO armchair from Móveis Lusa is manufactured in Portugal. It features a cover made of 100% polyester woven fabric and legs made of solid beech wood with a walnut finish.\", \"colours\": [{\"code\": \"FAR-07-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"FAR-07-AZU\", \"name\": \"Blue\"}, {\"code\": \"FAR-07-CIN\", \"name\": \"Grey\"}], \"safety_warnings\": [\"Not suitable for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat surface.\"], \"alt_texts\": [{\"file\": \"FAR07_ANT_34.jpg\", \"text\": \"FARO armchair in anthracite grey, three-quarter view\"}, {\"file\": \"FAR07_ANT_front.jpg\", \"text\": \"FARO armchair in anthracite grey, front view\"}, {\"file\": \"FAR07_AZU_34.jpg\", \"text\": \"FARO armchair in blue, three-quarter view\"}, {\"file\": \"FAR07_AZU_front.jpg\", \"text\": \"FARO armchair in blue, front view\"}, {\"file\": \"FAR07_CIN_34.jpg\", \"text\": \"FARO armchair in grey, three-quarter view\"}, {\"file\": \"FAR07_CIN_front.jpg\", \"text\": \"FARO armchair in grey, front view\"}, {\"file\": \"FAR07_ANT_side.jpg\", \"text\": \"FARO armchair in anthracite grey, side view\"}, {\"file\": \"FAR07_AZU_detail.jpg\", \"text\": \"Detailed view of the FARO armchair in blue\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 923,
+   "completion_tokens": 473
+  },
+  "latency_s": 15.547
+ }
+}

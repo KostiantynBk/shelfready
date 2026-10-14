@@ -1,0 +1,38 @@
+{
+ "key": "9dde328bd3188454339dd30f254948ddd643a44482b70d081aa1b644365908c9",
+ "purpose": "back:SYN-16:uk",
+ "recorded_at": "2026-10-14T18:19:39+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Настільна лампа Arredo Brianza ASOLO\", \"bullets\": [\"Виготовлено в Італії\", \"Глазурована керамічна основа\", \"Розміри: висота 39 см, ширина 25 см, глибина 25 см\", \"Вага: 2.8 кг\"], \"description\": \"Настільна лампа ASOLO від Arredo Brianza має глазуровану керамічну основу. Ця лампа італійського виробництва призначена для використання в приміщенні.\", \"colours\": [{\"code\": \"ASO-16-BIA\", \"name\": \"Білий\"}], \"safety_warnings\": [\"Використовуйте лише лампи E27, макс. 40 Вт.\", \"Відключіть від мережі перед очищенням.\", \"Тільки для внутрішнього використання.\"], \"alt_texts\": [{\"file\": \"ASOLO_BIA_01.jpg\", \"text\": \"Настільна лампа ASOLO білого кольору, вид на білому фоні\"}, {\"file\": \"ASOLO_BIA_02.jpg\", \"text\": \"Настільна лампа ASOLO білого кольору, вид на білому фоні\"}, {\"file\": \"ASOLO_BIA_03.jpg\", \"text\": \"Настільна лампа ASOLO чорного кольору, в інтер'єрі\"}, {\"file\": \"IMG_4836.JPG\", \"text\": \"Детальний вигляд бежевої настільної лампи\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Arredo Brianza ASOLO Table Lamp\", \"bullets\": [\"Made in Italy\", \"Glazed ceramic base\", \"Dimensions: height 39 cm, width 25 cm, depth 25 cm\", \"Weight: 2.8 kg\"], \"description\": \"The ASOLO table lamp from Arredo Brianza features a glazed ceramic base. This Italian-made lamp is designed for indoor use.\", \"colours\": [{\"code\": \"ASO-16-BIA\", \"name\": \"White\"}], \"safety_warnings\": [\"Use only E27 bulbs, max 40 W.\", \"Disconnect from the network before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"ASOLO_BIA_01.jpg\", \"text\": \"ASOLO table lamp in white, view on a white background\"}, {\"file\": \"ASOLO_BIA_02.jpg\", \"text\": \"ASOLO table lamp in white, view on a white background\"}, {\"file\": \"ASOLO_BIA_03.jpg\", \"text\": \"ASOLO table lamp in black, in an interior\"}, {\"file\": \"IMG_4836.JPG\", \"text\": \"Detailed view of a beige table lamp\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 742,
+   "completion_tokens": 270
+  },
+  "latency_s": 9.078
+ }
+}

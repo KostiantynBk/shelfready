@@ -1,0 +1,38 @@
+{
+ "key": "64f8eefed75fe9a4a23d7d4ccd8b7cbae6e236c34327501e49c81059dd60afc2",
+ "purpose": "translate:SYN-21:pt",
+ "recorded_at": "2026-10-14T18:18:03+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into European Portuguese. Translate all words into natural European Portuguese, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a European Portuguese term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'COIMBRA', 'COI-21-ARE', 'COI-21-AZU'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa COIMBRA Rug\", \"bullets\": [\"Hand-tufted, 100% wool construction\", \"Dimensions: 290 cm width, 229 cm depth, and 1.3 cm height\", \"Weight: 25.4 kg\", \"Made in Portugal\"], \"description\": \"The COIMBRA rug by Móveis Lusa is a hand-tufted piece made from 100% wool. This Portuguese-made rug measures 290 cm by 229 cm.\", \"colours\": [{\"code\": \"COI-21-ARE\", \"name\": \"Anthracite\"}, {\"code\": \"COI-21-AZU\", \"name\": \"Blue\"}], \"safety_warnings\": [\"Use an anti-slip underlay on smooth floors.\", \"Keep away from open flames.\"], \"alt_texts\": [{\"file\": \"COI21_ARE_34.jpg\", \"text\": \"COIMBRA rug in beige, three-quarter view\"}, {\"file\": \"COI21_ARE_front.jpg\", \"text\": \"COIMBRA rug in beige, front view\"}, {\"file\": \"COI21_AZU_34.jpg\", \"text\": \"COIMBRA rug in blue, three-quarter view\"}, {\"file\": \"COI21_AZU_front.jpg\", \"text\": \"COIMBRA rug in beige, front view\"}, {\"file\": \"COI21_ARE_side.jpg\", \"text\": \"COIMBRA rug in beige, side view\"}, {\"file\": \"COI21_AZU_detail.jpg\", \"text\": \"COIMBRA rug in blue, detail view\"}, {\"file\": \"COI21_AZU_side.jpg\", \"text\": \"COIMBRA rug in blue, side view\"}, {\"file\": \"IMG_4964.JPG\", \"text\": \"COIMBRA rug in beige, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Tapete Móveis Lusa COIMBRA\",\n  \"bullets\": [\n    \"Construção em lã 100%, tufado à mão\",\n    \"Dimensões: 290 cm de largura, 229 cm de profundidade e 1,3 cm de altura\",\n    \"Peso: 25,4 kg\",\n    \"Fabricado em Portugal\"\n  ],\n  \"description\": \"O tapete COIMBRA da Móveis Lusa é uma peça tufada à mão, fabricada em 100% lã. Este tapete de fabrico português mede 290 cm por 229 cm.\",\n  \"colours\": [\n    {\n      \"code\": \"COI-21-ARE\",\n      \"name\": \"Antracite\"\n    },\n    {\n      \"code\": \"COI-21-AZU\",\n      \"name\": \"Azul\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Utilize um tapete antiderrapante em pavimentos lisos.\",\n    \"Mantenha afastado de chamas abertas.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"COI21_ARE_34.jpg\",\n      \"text\": \"Tapete COIMBRA em bege, vista em três quartos\"\n    },\n    {\n      \"file\": \"COI21_ARE_front.jpg\",\n      \"text\": \"Tapete COIMBRA em bege, vista frontal\"\n    },\n    {\n      \"file\": \"COI21_AZU_34.jpg\",\n      \"text\": \"Tapete COIMBRA em azul, vista em três quartos\"\n    },\n    {\n      \"file\": \"COI21_AZU_front.jpg\",\n      \"text\": \"Tapete COIMBRA em bege, vista frontal\"\n    },\n    {\n      \"file\": \"COI21_ARE_side.jpg\",\n      \"text\": \"Tapete COIMBRA em bege, vista lateral\"\n    },\n    {\n      \"file\": \"COI21_AZU_detail.jpg\",\n      \"text\": \"Tapete COIMBRA em azul, vista de detalhe\"\n    },\n    {\n      \"file\": \"COI21_AZU_side.jpg\",\n      \"text\": \"Tapete COIMBRA em azul, vista lateral\"\n    },\n    {\n      \"file\": \"IMG_4964.JPG\",\n      \"text\": \"Tapete COIMBRA em bege, vista de detalhe\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 932,
+   "completion_tokens": 608
+  },
+  "latency_s": 18.297
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "key": "f4e2618664918bc21afad823a1fe2ed3ea7cbb1ec991aacb771b05617cc4c5fa",
+ "purpose": "translate:SYN-08:pt",
+ "recorded_at": "2026-10-14T18:12:24+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into European Portuguese. Translate all words into natural European Portuguese, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a European Portuguese term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Arredo Brianza', 'BRERA', 'BRE-08-ANT', 'BRE-08-COG', 'BRE-08-SAB'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Arredo Brianza BRERA Armchair\", \"bullets\": [\"Dimensions: 95 cm height, 117 cm depth, 47 cm seat height, and 70 cm seat depth\", \"Upholstery: 100% polyester woven fabric\", \"Base materials: Pine and multiplex\", \"Maximum load capacity: 120 kg\", \"Made in Italia\"], \"description\": \"The BRERA armchair by Arredo Brianza is a high-quality seating option made in Italia. It features a sturdy pine and multiplex base with 100% polyester woven fabric upholstery.\", \"colours\": [{\"code\": \"BRE-08-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"BRE-08-COG\", \"name\": \"Cognac\"}, {\"code\": \"BRE-08-SAB\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"BRERA_ANT_01.jpg\", \"text\": \"BRERA armchair in grey, packshot view\"}, {\"file\": \"BRERA_ANT_02.jpg\", \"text\": \"BRERA armchair in grey, lifestyle view\"}, {\"file\": \"BRERA_ANT_03.jpg\", \"text\": \"BRERA armchair in grey, detail view\"}, {\"file\": \"BRERA_COG_01.jpg\", \"text\": \"BRERA armchair in brown, packshot view\"}, {\"file\": \"BRERA_COG_03.jpg\", \"text\": \"BRERA armchair in brown, detail view\"}, {\"file\": \"BRERA_COG_04.jpg\", \"text\": \"BRERA armchair in brown, lifestyle view\"}, {\"file\": \"BRERA_SAB_01.jpg\", \"text\": \"BRERA armchair in beige, packshot view\"}, {\"file\": \"BRERA_SAB_02.jpg\", \"text\": \"BRERA armchair in beige, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Poltrona Arredo Brianza BRERA\",\n  \"bullets\": [\n    \"Dimensões: 95 cm de altura, 117 cm de profundidade, 47 cm de altura do assento e 70 cm de profundidade do assento\",\n    \"Estofos: Tecido tecido 100% poliéster\",\n    \"Materiais da base: Pinho e multiplex\",\n    \"Capacidade de carga máxima: 120 kg\",\n    \"Fabricado em Itália\"\n  ],\n  \"description\": \"A poltrona BRERA da Arredo Brianza é uma opção de assento de alta qualidade fabricada em Itália. Apresenta uma base robusta em pinho e multiplex com estofos em tecido tecido 100% poliéster.\",\n  \"colours\": [\n    {\n      \"code\": \"BRE-08-ANT\",\n      \"name\": \"Antracite\"\n    },\n    {\n      \"code\": \"BRE-08-COG\",\n      \"name\": \"Cognac\"\n    },\n    {\n      \"code\": \"BRE-08-SAB\",\n      \"name\": \"Areia\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Não utilizar no exterior.\",\n    \"Manter afastado de fontes de calor.\",\n    \"Não se levantar sobre o assento.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"BRERA_ANT_01.jpg\",\n      \"text\": \"Poltrona BRERA em cinzento, vista de catálogo\"\n    },\n    {\n      \"file\": \"BRERA_ANT_02.jpg\",\n      \"text\": \"Poltrona BRERA em cinzento, vista de ambiente\"\n    },\n    {\n      \"file\": \"BRERA_ANT_03.jpg\",\n      \"text\": \"Poltrona BRERA em cinzento, vista de detalhe\"\n    },\n    {\n      \"file\": \"BRERA_COG_01.jpg\",\n      \"text\": \"Poltrona BRERA em castanho, vista de catálogo\"\n    },\n    {\n      \"file\": \"BRERA_COG_03.jpg\",\n      \"text\": \"Poltrona BRERA em castanho, vista de detalhe\"\n    },\n    {\n      \"file\": \"BRERA_COG_04.jpg\",\n      \"text\": \"Poltrona BRERA em castanho, vista de ambiente\"\n    },\n    {\n      \"file\": \"BRERA_SAB_01.jpg\",\n      \"text\": \"Poltrona BRERA em bege, vista de catálogo\"\n    },\n    {\n      \"file\": \"BRERA_SAB_02.jpg\",\n      \"text\": \"Poltrona BRERA em bege, vista de detalhe\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 944,
+   "completion_tokens": 672
+  },
+  "latency_s": 27.953
+ }
+}

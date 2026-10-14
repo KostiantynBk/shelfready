@@ -76,7 +76,7 @@ GLOSSARY = {
         "de": "polyester",
         "fr": "polyester",
         "pt": "poliester",
-        "pl": "poliester",
+        "pl": "poliest",  # poliester, poliestrowa
         "uk": "поліестер|полиэстер",
     },
     "wool": {
@@ -85,7 +85,7 @@ GLOSSARY = {
         "de": "woll",
         "fr": "laine",
         "pt": "la",
-        "pl": "weln|wel",
+        "pl": "weln",  # wełna, wełniany (ł folded to l)
         "uk": "вовн",
     },
     "cotton": {
@@ -174,7 +174,7 @@ def check_translation(
     lost = [t for t in protected if t not in target]
     if lost:
         problems.append(f"protected names changed: {', '.join(lost)}")
-    folded = _fold(target)
+    folded = _fold(target).replace("ł", "l")  # NFKD keeps the Polish ł
     wrong = [
         term
         for term in glossary_terms(source)

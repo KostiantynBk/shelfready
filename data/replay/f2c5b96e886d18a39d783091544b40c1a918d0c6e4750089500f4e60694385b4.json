@@ -1,0 +1,38 @@
+{
+ "key": "f2c5b96e886d18a39d783091544b40c1a918d0c6e4750089500f4e60694385b4",
+ "purpose": "translate:SYN-14:uk",
+ "recorded_at": "2026-10-14T18:15:46+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Ukrainian. Translate all words into natural Ukrainian, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Ukrainian term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'AVEIRO', 'AVE-14-ANT', 'AVE-14-ARE', 'AVE-14-CIN'. Keep every number exactly, with its unit (см, мм, кг, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa AVEIRO Sofa\", \"bullets\": [\"Dimensions: 152 cm width, 78 cm depth, 78 cm height\", \"Upholstery: 100% polyester velvet\", \"Legs: Solid beech with walnut stain\", \"Maximum load capacity: 220 kg\", \"Made in Portugal\"], \"description\": \"The AVEIRO sofa by Móveis Lusa features a 100% polyester velvet upholstery and solid beech legs with a walnut stain. This piece has a seat depth of 47 cm and requires dry clean only care.\", \"colours\": [{\"code\": \"AVE-14-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"AVE-14-ARE\", \"name\": \"Sand\"}, {\"code\": \"AVE-14-CIN\", \"name\": \"Grey\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"AVE14_ANT_front.jpg\", \"text\": \"Front view of the AVEIRO sofa in anthracite grey.\"}, {\"file\": \"AVE14_ARE_34.jpg\", \"text\": \"Three-quarter view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_ARE_front.jpg\", \"text\": \"Front view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_CIN_front.jpg\", \"text\": \"Front view of the AVEIRO sofa in grey.\"}, {\"file\": \"AVE14_ANT_side.jpg\", \"text\": \"Side view of the AVEIRO sofa in anthracite grey.\"}, {\"file\": \"AVE14_ARE_detail.jpg\", \"text\": \"Detail view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_ARE_side.jpg\", \"text\": \"Side view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_CIN_detail.jpg\", \"text\": \"Detail view of the AVEIRO sofa in grey.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Диван Móveis Lusa AVEIRO\", \"bullets\": [\"Розміри: ширина 152 см, глибина 78 см, висота 78 см\", \"Оббивка: 100% поліестеровий оксамит\", \"Ніжки: масив бука з покриттям під горіх\", \"Максимальне навантаження: 220 кг\", \"Виготовлено в Португалії\"], \"description\": \"Диван AVEIRO від Móveis Lusa має оббивку зі 100% поліестерового оксамиту та ніжки з масиву бука з покриттям під горіх. Глибина сидіння становить 47 см; рекомендується тільки суха чистка.\", \"colours\": [{\"code\": \"AVE-14-ANT\", \"name\": \"Антрацитовий\"}, {\"code\": \"AVE-14-ARE\", \"name\": \"Пісочний\"}, {\"code\": \"AVE-14-CIN\", \"name\": \"Сірий\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"AVE14_ANT_front.jpg\", \"text\": \"Вигляд спереду дивана AVEIRO в антрацитовому кольорі.\"}, {\"file\": \"AVE14_ARE_34.jpg\", \"text\": \"Вигляд під кутом 3/4 дивана AVEIRO в пісочно-бежевому кольорі.\"}, {\"file\": \"AVE14_ARE_front.jpg\", \"text\": \"Вигляд спереду дивана AVEIRO в пісочно-бежевому кольорі.\"}, {\"file\": \"AVE14_CIN_front.jpg\", \"text\": \"Вигляд спереду дивана AVEIRO в сірому кольорі.\"}, {\"file\": \"AVE14_ANT_side.jpg\", \"text\": \"Вигляд збоку дивана AVEIRO в антрацитовому кольорі.\"}, {\"file\": \"AVE14_ARE_detail.jpg\", \"text\": \"Детальний вигляд дивана AVEIRO в пісочно-бежевому кольорі.\"}, {\"file\": \"AVE14_ARE_side.jpg\", \"text\": \"Вигляд збоку дивана AVEIRO в пісочно-бежевому кольорі.\"}, {\"file\": \"AVE14_CIN_detail.jpg\", \"text\": \"Детальний вигляд дивана AVEIRO в сірому кольорі.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 950,
+   "completion_tokens": 580
+  },
+  "latency_s": 16.25
+ }
+}

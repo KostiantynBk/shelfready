@@ -1,0 +1,38 @@
+{
+ "key": "51535ddeda8ddd571c49b93a2ac1f557f6b9fd05175fbcbba805acf3a5a60dce",
+ "purpose": "listing:SYN-19",
+ "recorded_at": "2026-10-14T18:08:36+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"FULDA\", \"model\": \"FULDA\", \"brand\": \"Ningbo Brightway Home Co.\", \"width_cm\": 30, \"height_cm\": 64, \"weight_kg\": 0.6, \"product_type\": \"Tischleuchte FULDA / FULDA table lamp\", \"care\": \"Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off\", \"country_of_origin\": \"China\", \"safety_warnings\": [\"Nur Leuchtmittel E27 max. 40 W verwenden.\", \"Use only E27 bulbs, max. 40 W.\", \"Vor dem Reinigen vom Netz trennen.\", \"Disconnect before cleaning.\", \"Nur für den Innenbereich.\", \"For indoor use only.\"], \"variants\": [{\"code\": \"FUL-19-MOO\", \"colour_name\": \"Moosgrün\"}, {\"code\": \"FUL-19-ANT\", \"colour_name\": \"Anthrazit\"}]}\nPhotos: [{\"file\": \"FULDA-ANT-1.jpg\", \"variant\": \"FUL-19-ANT\", \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"FULDA-ANT-2.jpg\", \"variant\": \"FUL-19-ANT\", \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"FULDA-ANT-3.jpg\", \"variant\": \"FUL-19-ANT\", \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"FULDA-ANT-4.jpg\", \"variant\": \"FUL-19-ANT\", \"view\": \"packshot\", \"colour_seen\": \"white\"}, {\"file\": \"FULDA-MOO-1.jpg\", \"variant\": \"FUL-19-MOO\", \"view\": \"packshot\", \"colour_seen\": \"green\"}, {\"file\": \"FULDA-MOO-2.jpg\", \"variant\": \"FUL-19-MOO\", \"view\": \"packshot\", \"colour_seen\": \"green\"}, {\"file\": \"FULDA-MOO-3.jpg\", \"variant\": \"FUL-19-MOO\", \"view\": \"detail\", \"colour_seen\": \"green\"}, {\"file\": \"IMG_4639.JPG\", \"variant\": null, \"view\": \"detail\", \"colour_seen\": \"green\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Ningbo Brightway Home Co. FULDA Table Lamp\",\n  \"bullets\": [\n    \"Dimensions: 30 cm width and 64 cm height\",\n    \"Weight: 0.6 kg\",\n    \"Compatible with E27 bulbs up to 40 W\",\n    \"Clean with a dry cloth when switched off\"\n  ],\n  \"description\": \"The FULDA table lamp by Ningbo Brightway Home Co. is designed for indoor use. This lighting fixture measures 64 cm in height and 30 cm in width.\",\n  \"colours\": [\n    {\n      \"code\": \"FUL-19-MOO\",\n      \"name\": \"Moss Green\"\n    },\n    {\n      \"code\": \"FUL-19-ANT\",\n      \"name\": \"Anthracite\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Use only E27 bulbs, max. 40 W.\",\n    \"Disconnect before cleaning.\",\n    \"For indoor use only.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"FULDA-ANT-1.jpg\",\n      \"text\": \"FULDA table lamp in grey, packshot view\"\n    },\n    {\n      \"file\": \"FULDA-ANT-2.jpg\",\n      \"text\": \"FULDA table lamp in grey, detail view\"\n    },\n    {\n      \"file\": \"FULDA-ANT-3.jpg\",\n      \"text\": \"FULDA table lamp in grey, detail view\"\n    },\n    {\n      \"file\": \"FULDA-ANT-4.jpg\",\n      \"text\": \"FULDA table lamp in white, packshot view\"\n    },\n    {\n      \"file\": \"FULDA-MOO-1.jpg\",\n      \"text\": \"FULDA table lamp in green, packshot view\"\n    },\n    {\n      \"file\": \"FULDA-MOO-2.jpg\",\n      \"text\": \"FULDA table lamp in green, packshot view\"\n    },\n    {\n      \"file\": \"FULDA-MOO-3.jpg\",\n      \"text\": \"FULDA table lamp in green, detail view\"\n    },\n    {\n      \"file\": \"IMG_4639.JPG\",\n      \"text\": \"FULDA table lamp in green, detail view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1061,
+   "completion_tokens": 556
+  },
+  "latency_s": 16.031
+ }
+}

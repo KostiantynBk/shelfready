@@ -1,0 +1,38 @@
+{
+ "key": "dd0590b3ae86399a33bf5ffa6577222b0b8fa5331bd046da272d41fd98dfa4b1",
+ "purpose": "translate:SYN-19:fr",
+ "recorded_at": "2026-10-14T18:17:37+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into French. Translate all words into natural French, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a French term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Ningbo Brightway Home Co.', 'FULDA', 'FUL-19-MOO', 'FUL-19-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Ningbo Brightway Home Co. FULDA Table Lamp\", \"bullets\": [\"Dimensions: 30 cm width and 64 cm height\", \"Weight: 0.6 kg\", \"Compatible with E27 bulbs up to 40 W\", \"Clean with a dry cloth when switched off\"], \"description\": \"The FULDA table lamp by Ningbo Brightway Home Co. is designed for indoor use. This lighting fixture measures 64 cm in height and 30 cm in width.\", \"colours\": [{\"code\": \"FUL-19-MOO\", \"name\": \"Moss Green\"}, {\"code\": \"FUL-19-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"FULDA-ANT-1.jpg\", \"text\": \"FULDA table lamp in grey, packshot view\"}, {\"file\": \"FULDA-ANT-2.jpg\", \"text\": \"FULDA table lamp in grey, detail view\"}, {\"file\": \"FULDA-ANT-3.jpg\", \"text\": \"FULDA table lamp in grey, detail view\"}, {\"file\": \"FULDA-ANT-4.jpg\", \"text\": \"FULDA table lamp in white, packshot view\"}, {\"file\": \"FULDA-MOO-1.jpg\", \"text\": \"FULDA table lamp in green, packshot view\"}, {\"file\": \"FULDA-MOO-2.jpg\", \"text\": \"FULDA table lamp in green, packshot view\"}, {\"file\": \"FULDA-MOO-3.jpg\", \"text\": \"FULDA table lamp in green, detail view\"}, {\"file\": \"IMG_4639.JPG\", \"text\": \"FULDA table lamp in green, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Lampe à poser FULDA de Ningbo Brightway Home Co.\", \"bullets\": [\"Dimensions : 30 cm de largeur et 64 cm de hauteur\", \"Poids : 0,6 kg\", \"Compatible avec les ampoules E27 jusqu'à 40 W\", \"Nettoyer avec un chiffon sec lorsqu'elle est éteinte\"], \"description\": \"La lampe à poser FULDA de Ningbo Brightway Home Co. est conçue pour un usage intérieur. Ce luminaire mesure 64 cm de hauteur et 30 cm de largeur.\", \"colours\": [{\"code\": \"FUL-19-MOO\", \"name\": \"Vert Mousse\"}, {\"code\": \"FUL-19-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Utiliser uniquement des ampoules E27, max. 40 W.\", \"Débrancher avant le nettoyage.\", \"Pour usage intérieur uniquement.\"], \"alt_texts\": [{\"file\": \"FULDA-ANT-1.jpg\", \"text\": \"Lampe à poser FULDA en gris, vue d'ensemble\"}, {\"file\": \"FULDA-ANT-2.jpg\", \"text\": \"Lampe à poser FULDA en gris, vue détaillée\"}, {\"file\": \"FULDA-ANT-3.jpg\", \"text\": \"Lampe à poser FULDA en gris, vue détaillée\"}, {\"file\": \"FULDA-ANT-4.jpg\", \"text\": \"Lampe à poser FULDA en blanc, vue d'ensemble\"}, {\"file\": \"FULDA-MOO-1.jpg\", \"text\": \"Lampe à poser FULDA en vert, vue d'ensemble\"}, {\"file\": \"FULDA-MOO-2.jpg\", \"text\": \"Lampe à poser FULDA en vert, vue d'ensemble\"}, {\"file\": \"FULDA-MOO-3.jpg\", \"text\": \"Lampe à poser FULDA en vert, vue détaillée\"}, {\"file\": \"IMG_4639.JPG\", \"text\": \"Lampe à poser FULDA en vert, vue détaillée\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 907,
+   "completion_tokens": 465
+  },
+  "latency_s": 13.64
+ }
+}

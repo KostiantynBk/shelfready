@@ -1,0 +1,38 @@
+{
+ "key": "90fe7004ee8a4ea7aa675a5217c58a9dce8d42c886b6a344edbe7c50d695a271",
+ "purpose": "listing:SYN-14",
+ "recorded_at": "2026-10-14T18:08:12+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Sofá AVEIRO / AVEIRO sofa\", \"model\": \"AVEIRO\", \"brand\": \"Móveis Lusa\", \"width_cm\": 152, \"depth_cm\": 78, \"height_cm\": 78, \"seat_depth_cm\": 47, \"max_load_kg\": 220, \"weight_kg\": 30.4, \"product_type\": \"Sofá / sofa\", \"legs_or_base\": \"Faia maciça, acabamento nogueira / solid beech, walnut stain\", \"upholstery\": \"Veludo, 100% poliéster / velvet, 100% polyester\", \"care\": \"Apenas limpeza a seco / dry clean only\", \"country_of_origin\": \"Portugal\", \"safety_warnings\": [\"Não utilizar no exterior.\", \"Not for outdoor use.\", \"Manter afastado de fontes de calor.\", \"Keep away from heat sources.\", \"Não subir para o assento.\", \"Do not stand on the seat.\"], \"variants\": [{\"code\": \"AVE-14-ANT\", \"colour_name\": \"Antracite\"}, {\"code\": \"AVE-14-ARE\", \"colour_name\": \"Areia\"}, {\"code\": \"AVE-14-CIN\", \"colour_name\": \"Cinza\"}]}\nPhotos: [{\"file\": \"AVE14_ANT_front.jpg\", \"variant\": \"AVE-14-ANT\", \"view\": \"front\", \"colour_seen\": \"grey\"}, {\"file\": \"AVE14_ARE_34.jpg\", \"variant\": \"AVE-14-ARE\", \"view\": \"three-quarter\", \"colour_seen\": \"beige\"}, {\"file\": \"AVE14_ARE_front.jpg\", \"variant\": \"AVE-14-ARE\", \"view\": \"front\", \"colour_seen\": \"beige\"}, {\"file\": \"AVE14_CIN_front.jpg\", \"variant\": \"AVE-14-CIN\", \"view\": \"front\", \"colour_seen\": \"grey\"}, {\"file\": \"AVE14_ANT_side.jpg\", \"variant\": \"AVE-14-ANT\", \"view\": \"side\", \"colour_seen\": \"grey\"}, {\"file\": \"AVE14_ARE_detail.jpg\", \"variant\": \"AVE-14-ARE\", \"view\": \"detail\", \"colour_seen\": \"beige\"}, {\"file\": \"AVE14_ARE_side.jpg\", \"variant\": \"AVE-14-ARE\", \"view\": \"side\", \"colour_seen\": \"beige\"}, {\"file\": \"AVE14_CIN_detail.jpg\", \"variant\": \"AVE-14-CIN\", \"view\": \"detail\", \"colour_seen\": \"grey\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Móveis Lusa AVEIRO Sofa\",\n  \"bullets\": [\n    \"Dimensions: 152 cm width, 78 cm depth, 78 cm height\",\n    \"Upholstery: 100% polyester velvet\",\n    \"Legs: Solid beech with walnut stain\",\n    \"Maximum load capacity: 220 kg\",\n    \"Made in Portugal\"\n  ],\n  \"description\": \"The AVEIRO sofa by Móveis Lusa features a 100% polyester velvet upholstery and solid beech legs with a walnut stain. This piece has a seat depth of 47 cm and requires dry clean only care.\",\n  \"colours\": [\n    {\n      \"code\": \"AVE-14-ANT\",\n      \"name\": \"Anthracite\"\n    },\n    {\n      \"code\": \"AVE-14-ARE\",\n      \"name\": \"Sand\"\n    },\n    {\n      \"code\": \"AVE-14-CIN\",\n      \"name\": \"Grey\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Not for outdoor use.\",\n    \"Keep away from heat sources.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"AVE14_ANT_front.jpg\",\n      \"text\": \"Front view of the AVEIRO sofa in anthracite grey.\"\n    },\n    {\n      \"file\": \"AVE14_ARE_34.jpg\",\n      \"text\": \"Three-quarter view of the AVEIRO sofa in sand beige.\"\n    },\n    {\n      \"file\": \"AVE14_ARE_front.jpg\",\n      \"text\": \"Front view of the AVEIRO sofa in sand beige.\"\n    },\n    {\n      \"file\": \"AVE14_CIN_front.jpg\",\n      \"text\": \"Front view of the AVEIRO sofa in grey.\"\n    },\n    {\n      \"file\": \"AVE14_ANT_side.jpg\",\n      \"text\": \"Side view of the AVEIRO sofa in anthracite grey.\"\n    },\n    {\n      \"file\": \"AVE14_ARE_detail.jpg\",\n      \"text\": \"Detail view of the AVEIRO sofa in sand beige.\"\n    },\n    {\n      \"file\": \"AVE14_ARE_side.jpg\",\n      \"text\": \"Side view of the AVEIRO sofa in sand beige.\"\n    },\n    {\n      \"file\": \"AVE14_CIN_detail.jpg\",\n      \"text\": \"Detail view of the AVEIRO sofa in grey.\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1142,
+   "completion_tokens": 605
+  },
+  "latency_s": 19.563
+ }
+}

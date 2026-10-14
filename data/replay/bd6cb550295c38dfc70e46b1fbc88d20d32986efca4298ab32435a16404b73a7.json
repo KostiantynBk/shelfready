@@ -1,0 +1,38 @@
+{
+ "key": "bd6cb550295c38dfc70e46b1fbc88d20d32986efca4298ab32435a16404b73a7",
+ "purpose": "back:SYN-00:uk",
+ "recorded_at": "2026-10-14T18:06:51+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Крісло Móveis Lusa LISBOA\", \"bullets\": [\"Розміри: ширина 88 см, глибина 83 см, висота 90 см\", \"Глибина сидіння: 50 см\", \"Оббивка: 100% поліестеровий букле (Martindale 40,000)\", \"Максимальне навантаження: 120 кг\", \"Виготовлено в Португалії\"], \"description\": \"Крісло LISBOA від Móveis Lusa оббите 100% поліестеровим букле. Вага виробу становить 23.5 кг, виробництво — Португалія.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Моховий\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Пісочний\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Антрацитовий\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"Крісло LISBOA у сірому кольорі, вигляд у три чверті\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"Крісло LISBOA у сірому кольорі, вигляд спереду\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"Крісло LISBOA у бежевому кольорі, вигляд у три чверті\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"Крісло LISBOA у бежевому кольорі, вигляд спереду\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"Крісло LISBOA у зеленому кольорі, вигляд у три чверті\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"Крісло LISBOA у зеленому кольорі, вигляд спереду\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"Крісло LISBOA у сірому кольорі, вигляд ззаду\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Детальний вигляд крісла LISBOA у сірому кольорі\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa LISBOA Armchair\", \"bullets\": [\"Dimensions: width 88 cm, depth 83 cm, height 90 cm\", \"Seat depth: 50 cm\", \"Upholstery: 100% polyester boucle (Martindale 40,000)\", \"Maximum load: 120 kg\", \"Made in Portugal\"], \"description\": \"The LISBOA armchair from Móveis Lusa is upholstered in 100% polyester boucle. The product weight is 23.5 kg, production — Portugal.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Moss\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Sand\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"LISBOA armchair in grey color, three-quarter view\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"LISBOA armchair in grey color, front view\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"LISBOA armchair in beige color, three-quarter view\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"LISBOA armchair in beige color, front view\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"LISBOA armchair in green color, three-quarter view\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"LISBOA armchair in green color, front view\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"LISBOA armchair in grey color, back view\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Detailed view of the LISBOA armchair in grey color\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 950,
+   "completion_tokens": 442
+  },
+  "latency_s": 12.14
+ }
+}

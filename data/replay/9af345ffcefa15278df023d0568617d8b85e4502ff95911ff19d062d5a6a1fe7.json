@@ -1,0 +1,38 @@
+{
+ "key": "9af345ffcefa15278df023d0568617d8b85e4502ff95911ff19d062d5a6a1fe7",
+ "purpose": "listing:SYN-00",
+ "recorded_at": "2026-10-14T18:05:57+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Poltrona LISBOA / LISBOA armchair\", \"model\": \"LISBOA\", \"brand\": \"Móveis Lusa\", \"width_cm\": 88, \"depth_cm\": 83, \"height_cm\": 90, \"seat_depth_cm\": 50, \"max_load_kg\": 120, \"weight_kg\": 23.5, \"product_type\": \"Poltrona / Armchair\", \"upholstery\": \"Bouclé, 100% poliester, Martindale 40.000 / bouclé, 100% polyester\", \"country_of_origin\": \"Portugal\", \"variants\": [{\"code\": \"LIS-01-MUS\", \"colour_name\": \"Musgo\"}, {\"code\": \"LIS-01-ARE\", \"colour_name\": \"Areia\"}, {\"code\": \"LIS-01-ANT\", \"colour_name\": \"Antracite\"}]}\nPhotos: [{\"file\": \"LIS01_ANT_34.jpg\", \"variant\": \"LIS-01-ANT\", \"view\": \"three-quarter\", \"colour_seen\": \"grey\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"variant\": \"LIS-01-ANT\", \"view\": \"front\", \"colour_seen\": \"grey\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"variant\": \"LIS-01-ARE\", \"view\": \"three-quarter\", \"colour_seen\": \"beige\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"variant\": \"LIS-01-ARE\", \"view\": \"front\", \"colour_seen\": \"beige\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"variant\": \"LIS-01-MUS\", \"view\": \"three-quarter\", \"colour_seen\": \"green\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"variant\": \"LIS-01-MUS\", \"view\": \"front\", \"colour_seen\": \"green\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"variant\": \"LIS-01-ANT\", \"view\": \"back\", \"colour_seen\": \"grey\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"variant\": \"LIS-01-ANT\", \"view\": \"detail\", \"colour_seen\": \"grey\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Móveis Lusa LISBOA Armchair\",\n  \"bullets\": [\n    \"Dimensions: 88 cm width, 83 cm depth, 90 cm height\",\n    \"Seat depth: 50 cm\",\n    \"Upholstery: 100% polyester bouclé (Martindale 40,000)\",\n    \"Maximum load capacity: 120 kg\",\n    \"Made in Portugal\"\n  ],\n  \"description\": \"The LISBOA armchair by Móveis Lusa is upholstered in 100% polyester bouclé. This piece weighs 23.5 kg and is manufactured in Portugal.\",\n  \"colours\": [\n    {\n      \"code\": \"LIS-01-MUS\",\n      \"name\": \"Moss\"\n    },\n    {\n      \"code\": \"LIS-01-ARE\",\n      \"name\": \"Sand\"\n    },\n    {\n      \"code\": \"LIS-01-ANT\",\n      \"name\": \"Anthracite\"\n    }\n  ],\n  \"safety_warnings\": [],\n  \"alt_texts\": [\n    {\n      \"file\": \"LIS01_ANT_34.jpg\",\n      \"text\": \"LISBOA armchair in grey, three-quarter view\"\n    },\n    {\n      \"file\": \"LIS01_ANT_front.jpg\",\n      \"text\": \"LISBOA armchair in grey, front view\"\n    },\n    {\n      \"file\": \"LIS01_ARE_34.jpg\",\n      \"text\": \"LISBOA armchair in beige, three-quarter view\"\n    },\n    {\n      \"file\": \"LIS01_ARE_front.jpg\",\n      \"text\": \"LISBOA armchair in beige, front view\"\n    },\n    {\n      \"file\": \"LIS01_MUS_34.jpg\",\n      \"text\": \"LISBOA armchair in green, three-quarter view\"\n    },\n    {\n      \"file\": \"LIS01_MUS_front.jpg\",\n      \"text\": \"LISBOA armchair in green, front view\"\n    },\n    {\n      \"file\": \"LIS01_ANT_back.jpg\",\n      \"text\": \"LISBOA armchair in grey, back view\"\n    },\n    {\n      \"file\": \"LIS01_ANT_detail.jpg\",\n      \"text\": \"Detail view of the LISBOA armchair in grey\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1078,
+   "completion_tokens": 582
+  },
+  "latency_s": 18.172
+ }
+}

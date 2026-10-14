@@ -1,0 +1,38 @@
+{
+ "key": "b17bcd668a103053a1fb929b1abe4473a31a85d4b384869faa08571d70c25546",
+ "purpose": "back:SYN-04:uk",
+ "recorded_at": "2026-10-14T18:18:47+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Крісло-реклайнер Móveis Lusa BRAGA\", \"bullets\": [\"Розміри: ширина 112 см, глибина 84 см, висота 99 см\", \"Висота сидіння: 44 см; глибина сидіння: 50 см\", \"Оббивка: 100% поліестерова тканина\", \"Знімний чохол, що переється при 30 °C\", \"Виготовлено в Португалії\"], \"description\": \"Крісло-реклайнер BRAGA від Móveis Lusa — це комфортний варіант для відпочинку з оббивкою зі 100% поліестерової тканини. Воно має знімний чохол для легкого догляду та важить 39.9 кг.\", \"colours\": [{\"code\": \"BRA-04-ARE\", \"name\": \"Пісочний\"}, {\"code\": \"BRA-04-BEG\", \"name\": \"Бежевий\"}, {\"code\": \"BRA-04-ANT\", \"name\": \"Антрацитовий\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"BRA04_ANT_34.jpg\", \"text\": \"Крісло-реклайнер BRAGA у сірому кольорі, вигляд у три чверті\"}, {\"file\": \"BRA04_ANT_front.jpg\", \"text\": \"Крісло-реклайнер BRAGA у сірому кольорі, вигляд спереду\"}, {\"file\": \"BRA04_ARE_34.jpg\", \"text\": \"Крісло-реклайнер BRAGA у білому кольорі, вигляд у три чверті\"}, {\"file\": \"BRA04_ARE_front.jpg\", \"text\": \"Крісло-реклайнер BRAGA у білому кольорі, вигляд спереду\"}, {\"file\": \"BRA04_BEG_34.jpg\", \"text\": \"Крісло-реклайнер BRAGA у бежевому кольорі, вигляд у три чверті\"}, {\"file\": \"BRA04_BEG_front.jpg\", \"text\": \"Крісло-реклайнер BRAGA у бежевому кольорі, вигляд спереду\"}, {\"file\": \"BRA04_ANT_detail.jpg\", \"text\": \"Детальний вигляд крісла-реклайнера BRAGA у сірому кольорі\"}, {\"file\": \"BRA04_ARE_side.jpg\", \"text\": \"Крісло-реклайнер BRAGA у білому кольорі, вигляд збоку\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa BRAGA Recliner Chair\", \"bullets\": [\"Dimensions: width 112 cm, depth 84 cm, height 99 cm\", \"Seat height: 44 cm; seat depth: 50 cm\", \"Upholstery: 100% polyester fabric\", \"Removable cover, washable at 30 °C\", \"Made in Portugal\"], \"description\": \"The BRAGA recliner chair from Móveis Lusa is a comfortable option for relaxation with 100% polyester fabric upholstery. It has a removable cover for easy care and weighs 39.9 kg.\", \"colours\": [{\"code\": \"BRA-04-ARE\", \"name\": \"Sand\"}, {\"code\": \"BRA-04-BEG\", \"name\": \"Beige\"}, {\"code\": \"BRA-04-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"BRA04_ANT_34.jpg\", \"text\": \"BRAGA recliner chair in grey, three-quarter view\"}, {\"file\": \"BRA04_ANT_front.jpg\", \"text\": \"BRAGA recliner chair in grey, front view\"}, {\"file\": \"BRA04_ARE_34.jpg\", \"text\": \"BRAGA recliner chair in white, three-quarter view\"}, {\"file\": \"BRA04_ARE_front.jpg\", \"text\": \"BRAGA recliner chair in white, front view\"}, {\"file\": \"BRA04_BEG_34.jpg\", \"text\": \"BRAGA recliner chair in beige, three-quarter view\"}, {\"file\": \"BRA04_BEG_front.jpg\", \"text\": \"BRAGA recliner chair in beige, front view\"}, {\"file\": \"BRA04_ANT_detail.jpg\", \"text\": \"Detailed view of the BRAGA recliner chair in grey\"}, {\"file\": \"BRA04_ARE_side.jpg\", \"text\": \"BRAGA recliner chair in white, side view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1031,
+   "completion_tokens": 473
+  },
+  "latency_s": 12.047
+ }
+}

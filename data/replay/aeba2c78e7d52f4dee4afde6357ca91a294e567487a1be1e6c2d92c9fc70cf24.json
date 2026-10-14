@@ -1,0 +1,38 @@
+{
+ "key": "aeba2c78e7d52f4dee4afde6357ca91a294e567487a1be1e6c2d92c9fc70cf24",
+ "purpose": "back:SYN-15:uk",
+ "recorded_at": "2026-10-14T18:19:55+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Підлоговий світильник Ningbo Brightway Home Co. MOSEL\", \"bullets\": [\"Розміри: ширина 39 см, глибина 39 см, висота 56 см\", \"Вага: 6.3 кг\", \"Основа виготовлена зі сталі з матовим чорним порошковим покриттям\", \"Сумісний з лампами E27 потужністю до 40 Вт\"], \"description\": \"Підлоговий світильник MOSEL від Ningbo Brightway Home Co. має сталеву основу з матовим чорним порошковим покриттям. Цей світильник для внутрішнього освітлення має висоту 56 см; очищати його слід сухою ганчіркою у вимкненому стані.\", \"colours\": [{\"code\": \"MOS-15-SCH\", \"name\": \"Чорний\"}, {\"code\": \"MOS-15-SIL\", \"name\": \"Сріблястий\"}], \"safety_warnings\": [\"Використовуйте лише лампи E27, макс. 40 Вт.\", \"Від'єднайте від мережі перед очищенням.\", \"Тільки для внутрішнього використання.\"], \"alt_texts\": [{\"file\": \"IMG_4241.JPG\", \"text\": \"Підлоговий світильник MOSEL у чорному кольорі, вигляд виробу\"}, {\"file\": \"MOSEL-SCH-1.jpg\", \"text\": \"Підлоговий світильник MOSEL у чорному кольорі, вигляд виробу\"}, {\"file\": \"MOSEL-SCH-2.jpg\", \"text\": \"Підлоговий світильник MOSEL у чорному кольорі, вигляд виробу\"}, {\"file\": \"MOSEL-SIL-1.jpg\", \"text\": \"Підлоговий світильник MOSEL у сріблястому кольорі, вигляд виробу\"}, {\"file\": \"MOSEL-SIL-3.jpg\", \"text\": \"Підлоговий світильник MOSEL у сріблястому кольорі, вигляд виробу\"}, {\"file\": \"MOSEL-SIL-4.jpg\", \"text\": \"Підлоговий світильник MOSEL у сірому кольорі, інтер'єрний вигляд\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Ningbo Brightway Home Co. MOSEL Floor Lamp\", \"bullets\": [\"Dimensions: width 39 cm, depth 39 cm, height 56 cm\", \"Weight: 6.3 kg\", \"Base made of steel with a matte black powder coating\", \"Compatible with E27 bulbs up to 40 W\"], \"description\": \"The MOSEL floor lamp from Ningbo Brightway Home Co. features a steel base with a matte black powder coating. This indoor lighting fixture has a height of 56 cm; it should be cleaned with a dry cloth while switched off.\", \"colours\": [{\"code\": \"MOS-15-SCH\", \"name\": \"Black\"}, {\"code\": \"MOS-15-SIL\", \"name\": \"Silver\"}], \"safety_warnings\": [\"Use only E27 bulbs, max 40 W.\", \"Disconnect from the mains before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"IMG_4241.JPG\", \"text\": \"MOSEL floor lamp in black, product view\"}, {\"file\": \"MOSEL-SCH-1.jpg\", \"text\": \"MOSEL floor lamp in black, product view\"}, {\"file\": \"MOSEL-SCH-2.jpg\", \"text\": \"MOSEL floor lamp in black, product view\"}, {\"file\": \"MOSEL-SIL-1.jpg\", \"text\": \"MOSEL floor lamp in silver, product view\"}, {\"file\": \"MOSEL-SIL-3.jpg\", \"text\": \"MOSEL floor lamp in silver, product view\"}, {\"file\": \"MOSEL-SIL-4.jpg\", \"text\": \"MOSEL floor lamp in grey, interior view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 912,
+   "completion_tokens": 368
+  },
+  "latency_s": 9.938
+ }
+}

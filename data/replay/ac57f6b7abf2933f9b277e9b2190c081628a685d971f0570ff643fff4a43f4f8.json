@@ -1,0 +1,38 @@
+{
+ "key": "ac57f6b7abf2933f9b277e9b2190c081628a685d971f0570ff643fff4a43f4f8",
+ "purpose": "translate:SYN-04:fr",
+ "recorded_at": "2026-10-14T18:11:00+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into French. Translate all words into natural French, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a French term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'BRAGA', 'BRA-04-ARE', 'BRA-04-BEG', 'BRA-04-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa BRAGA Recliner\", \"bullets\": [\"Dimensions: 112 cm width, 84 cm depth, 99 cm height\", \"Seat height: 44 cm; seat depth: 50 cm\", \"Upholstery: 100% polyester woven fabric\", \"Removable cover, washable at 30 °C\", \"Made in Portugal\"], \"description\": \"The BRAGA recliner by Móveis Lusa is a comfortable seating option upholstered in 100% polyester woven fabric. It features a removable cover for easy maintenance and weighs 39.9 kg.\", \"colours\": [{\"code\": \"BRA-04-ARE\", \"name\": \"Sand\"}, {\"code\": \"BRA-04-BEG\", \"name\": \"Beige\"}, {\"code\": \"BRA-04-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"BRA04_ANT_34.jpg\", \"text\": \"BRAGA recliner in grey, three-quarter view\"}, {\"file\": \"BRA04_ANT_front.jpg\", \"text\": \"BRAGA recliner in grey, front view\"}, {\"file\": \"BRA04_ARE_34.jpg\", \"text\": \"BRAGA recliner in white, three-quarter view\"}, {\"file\": \"BRA04_ARE_front.jpg\", \"text\": \"BRAGA recliner in white, front view\"}, {\"file\": \"BRA04_BEG_34.jpg\", \"text\": \"BRAGA recliner in beige, three-quarter view\"}, {\"file\": \"BRA04_BEG_front.jpg\", \"text\": \"BRAGA recliner in beige, front view\"}, {\"file\": \"BRA04_ANT_detail.jpg\", \"text\": \"Detail view of the BRAGA recliner in grey\"}, {\"file\": \"BRA04_ARE_side.jpg\", \"text\": \"BRAGA recliner in white, side view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Fauteuil inclinable Móveis Lusa BRAGA\",\n  \"bullets\": [\n    \"Dimensions : 112 cm de largeur, 84 cm de profondeur, 99 cm de hauteur\",\n    \"Hauteur d'assise : 44 cm ; profondeur d'assise : 50 cm\",\n    \"Revêtement : tissu tissé 100 % polyester\",\n    \"Housse amovible, lavable à 30 °C\",\n    \"Fabriqué au Portugal\"\n  ],\n  \"description\": \"Le fauteuil inclinable BRAGA de Móveis Lusa est une option d'assise confortable revêtue d'un tissu tissé 100 % polyester. Il dispose d'une housse amovible pour un entretien facile et pèse 39,9 kg.\",\n  \"colours\": [\n    {\n      \"code\": \"BRA-04-ARE\",\n      \"name\": \"Sable\"\n    },\n    {\n      \"code\": \"BRA-04-BEG\",\n      \"name\": \"Beige\"\n    },\n    {\n      \"code\": \"BRA-04-ANT\",\n      \"name\": \"Anthracite\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Ne pas utiliser à l'extérieur.\",\n    \"Tenir à l'écart des sources de chaleur.\",\n    \"Ne pas se tenir debout sur le siège.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"BRA04_ANT_34.jpg\",\n      \"text\": \"Fauteuil inclinable BRAGA en gris, vue de trois quarts\"\n    },\n    {\n      \"file\": \"BRA04_ANT_front.jpg\",\n      \"text\": \"Fauteuil inclinable BRAGA en gris, vue de face\"\n    },\n    {\n      \"file\": \"BRA04_ARE_34.jpg\",\n      \"text\": \"Fauteuil inclinable BRAGA en blanc, vue de trois quarts\"\n    },\n    {\n      \"file\": \"BRA04_ARE_front.jpg\",\n      \"text\": \"Fauteuil inclinable BRAGA en blanc, vue de face\"\n    },\n    {\n      \"file\": \"BRA04_BEG_34.jpg\",\n      \"text\": \"Fauteuil inclinable BRAGA en beige, vue de trois quarts\"\n    },\n    {\n      \"file\": \"BRA04_BEG_front.jpg\",\n      \"text\": \"Fauteuil inclinable BRAGA en beige, vue de face\"\n    },\n    {\n      \"file\": \"BRA04_ANT_detail.jpg\",\n      \"text\": \"Vue détaillée du fauteuil inclinable BRAGA en gris\"\n    },\n    {\n      \"file\": \"BRA04_ARE_side.jpg\",\n      \"text\": \"Fauteuil inclinable BRAGA en blanc, vue de profil\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 965,
+   "completion_tokens": 689
+  },
+  "latency_s": 21.296
+ }
+}

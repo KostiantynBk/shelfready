@@ -1,0 +1,38 @@
+{
+ "key": "cc4c301e8fbd84a888a13c88743d2dc6cfb26e97bf9ec60fc4f0a6fa0c339dc2",
+ "purpose": "back:SYN-09:de",
+ "recorded_at": "2026-10-14T18:18:49+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen WESER Esszimmerstuhl\", \"bullets\": [\"Beine aus Massivbuche mit Walnuss-Beize\", \"Bezug aus 100% Polyester-Webstoff\", \"Abnehmbarer Bezug, waschbar bei 30 °C\", \"Maximale Belastbarkeit von 120 kg\", \"Hergestellt in Deutschland\"], \"description\": \"Der Esszimmerstuhl WESER von Nordholz Wohnen verfügt über ein Gestell aus Massivbuche mit Walnuss-Beize. Er ist mit einem Webstoff aus 100% Polyester bezogen, wobei der abnehmbare und waschbare Bezug eine einfache Pflege ermöglicht.\", \"colours\": [{\"code\": \"WES-09-ANT\", \"name\": \"Anthrazit\"}, {\"code\": \"WES-09-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"IMG_4604.JPG\", \"text\": \"WESER Esszimmerstuhl in Grau in einem Wohnambiente\"}, {\"file\": \"WESER-ANT-1.jpg\", \"text\": \"WESER Esszimmerstuhl, Anthrazit, Gesamtansicht\"}, {\"file\": \"WESER-ANT-2.jpg\", \"text\": \"WESER Esszimmerstuhl, Anthrazit, Detailansicht\"}, {\"file\": \"WESER-ANT-3.jpg\", \"text\": \"WESER Esszimmerstuhl, Anthrazit, Gesamtansicht\"}, {\"file\": \"WESER-SAN-1.jpg\", \"text\": \"WESER Esszimmerstuhl, Sand, Gesamtansicht\"}, {\"file\": \"WESER-SAN-2.jpg\", \"text\": \"WESER Esszimmerstuhl, Sand, Detailansicht\"}, {\"file\": \"WESER-SAN-3.jpg\", \"text\": \"WESER Esszimmerstuhl, Sand, Gesamtansicht\"}, {\"file\": \"WESER-SAN-4.jpg\", \"text\": \"WESER Esszimmerstuhl, Sand, Detailansicht\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Nordholz Wohnen WESER Dining Chair\", \"bullets\": [\"Solid beech legs with walnut stain\", \"Cover made of 100% polyester woven fabric\", \"Removable cover, washable at 30 °C\", \"Maximum load capacity of 120 kg\", \"Made in Germany\"], \"description\": \"The WESER dining chair from Nordholz Wohnen features a frame made of solid beech with walnut stain. It is upholstered in a 100% polyester woven fabric, with the removable and washable cover allowing for easy care.\", \"colours\": [{\"code\": \"WES-09-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"WES-09-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"IMG_4604.JPG\", \"text\": \"WESER dining chair in grey in a living environment\"}, {\"file\": \"WESER-ANT-1.jpg\", \"text\": \"WESER dining chair, Anthracite, overall view\"}, {\"file\": \"WESER-ANT-2.jpg\", \"text\": \"WESER dining chair, Anthracite, detail view\"}, {\"file\": \"WESER-ANT-3.jpg\", \"text\": \"WESER dining chair, Anthracite, overall view\"}, {\"file\": \"WESER-SAN-1.jpg\", \"text\": \"WESER dining chair, Sand, overall view\"}, {\"file\": \"WESER-SAN-2.jpg\", \"text\": \"WESER dining chair, Sand, detail view\"}, {\"file\": \"WESER-SAN-3.jpg\", \"text\": \"WESER dining chair, Sand, overall view\"}, {\"file\": \"WESER-SAN-4.jpg\", \"text\": \"WESER dining chair, Sand, detail view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 854,
+   "completion_tokens": 411
+  },
+  "latency_s": 11.656
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "key": "6e098a8ecfb55d5d00297381d0190a233918e2cc2d6ffe9d533b0bdc40b9f0f3",
+ "purpose": "back:SYN-01:uk",
+ "recorded_at": "2026-10-14T18:18:15+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Крісло Móveis Lusa PORTO\", \"bullets\": [\"Розміри: 79 см ширина, 92 см глибина, 95 см висота\", \"Глибина сидіння: 55 см\", \"Оббивка: 100% поліестеровий оксамит\", \"Ніжки: Масив бука з натуральним масляним покриттям\", \"Максимальне навантаження: 120 кг\"], \"description\": \"Крісло PORTO від Móveis Lusa виготовлено в Португалії. Воно має оксамитову оббивку та ніжки з масиву бука з натуральним масляним покриттям.\", \"colours\": [{\"code\": \"POR-01-AZU\", \"name\": \"Синій\"}, {\"code\": \"POR-01-ANT\", \"name\": \"Антрацитовий\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"IMG_4834.JPG\", \"text\": \"Крісло PORTO в синьому кольорі, вигляд у три чверті.\"}, {\"file\": \"POR01_ANT_34.jpg\", \"text\": \"Крісло PORTO в антрацитовому кольорі, вигляд у три чверті.\"}, {\"file\": \"POR01_ANT_front.jpg\", \"text\": \"Крісло PORTO в антрацитовому кольорі, вигляд спереду.\"}, {\"file\": \"POR01_AZU_34.jpg\", \"text\": \"Крісло PORTO в синьому кольорі, вигляд у три чверті.\"}, {\"file\": \"POR01_AZU_front.jpg\", \"text\": \"Крісло PORTO в синьому кольорі, вигляд спереду.\"}, {\"file\": \"POR01_ANT_detail.jpg\", \"text\": \"Детальний вигляд крісла PORTO в антрацитовому кольорі.\"}, {\"file\": \"POR01_ANT_side.jpg\", \"text\": \"Крісло PORTO в антрацитовому кольорі, вигляд збоку.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa PORTO Armchair\", \"bullets\": [\"Dimensions: 79 cm width, 92 cm depth, 95 cm height\", \"Seat depth: 55 cm\", \"Upholstery: 100% polyester velvet\", \"Legs: Solid beech with natural oil finish\", \"Maximum load: 120 kg\"], \"description\": \"The PORTO armchair from Móveis Lusa is made in Portugal. It features velvet upholstery and solid beech legs with a natural oil finish.\", \"colours\": [{\"code\": \"POR-01-AZU\", \"name\": \"Blue\"}, {\"code\": \"POR-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4834.JPG\", \"text\": \"PORTO armchair in blue, three-quarter view.\"}, {\"file\": \"POR01_ANT_34.jpg\", \"text\": \"PORTO armchair in anthracite, three-quarter view.\"}, {\"file\": \"POR01_ANT_front.jpg\", \"text\": \"PORTO armchair in anthracite, front view.\"}, {\"file\": \"POR01_AZU_34.jpg\", \"text\": \"PORTO armchair in blue, three-quarter view.\"}, {\"file\": \"POR01_AZU_front.jpg\", \"text\": \"PORTO armchair in blue, front view.\"}, {\"file\": \"POR01_ANT_detail.jpg\", \"text\": \"Detailed view of the PORTO armchair in anthracite.\"}, {\"file\": \"POR01_ANT_side.jpg\", \"text\": \"PORTO armchair in anthracite, side view.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 915,
+   "completion_tokens": 386
+  },
+  "latency_s": 12.125
+ }
+}

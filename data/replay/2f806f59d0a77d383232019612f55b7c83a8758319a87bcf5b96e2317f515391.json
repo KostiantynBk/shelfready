@@ -1,0 +1,38 @@
+{
+ "key": "2f806f59d0a77d383232019612f55b7c83a8758319a87bcf5b96e2317f515391",
+ "purpose": "back:SYN-03:uk",
+ "recorded_at": "2026-10-14T18:21:34+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Крісло Nordholz Wohnen ELBE\", \"bullets\": [\"Розміри: висота 78 см, висота сидіння 44 см, глибина сидіння 46 см\", \"Оббивка: 100% поліестерова тканина з одним знімним чохлом, що переється при 30 °C\", \"Конструкція: каркас із сосни та фанери з пінополіуретаном щільністю 30 кг/м³\", \"Максимальне навантаження: 120 кг\", \"Виготовлено в Німеччині\"], \"description\": \"Крісло Nordholz Wohnen ELBE має міцний каркас із сосни та фанери з наповнювачем із пінополіуретану щільністю 30 кг/м³. Воно оббите 100% поліестеровою тканиною зі знімним чохлом, що легко переється для зручного догляду.\", \"colours\": [{\"code\": \"ELB-03-ANT\", \"name\": \"Антрацитовий\"}, {\"code\": \"ELB-03-SAN\", \"name\": \"Пісочний\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"ELBE-ANT-1.jpg\", \"text\": \"Крісло ELBE у сірому кольорі, студійне фото\"}, {\"file\": \"ELBE-ANT-2.jpg\", \"text\": \"Крісло ELBE у сірому кольорі в інтер'єрі\"}, {\"file\": \"ELBE-ANT-3.jpg\", \"text\": \"Крісло ELBE у сірому кольорі, студійне фото\"}, {\"file\": \"ELBE-SAN-1.jpg\", \"text\": \"Крісло ELBE у бежевому кольорі, студійне фото\"}, {\"file\": \"ELBE-SAN-2.jpg\", \"text\": \"Крісло ELBE у бежевому кольорі, детальний вигляд\"}, {\"file\": \"ELBE-SAN-3.jpg\", \"text\": \"Крісло ELBE у бежевому кольорі в інтер'єрі\"}, {\"file\": \"ELBE-SAN-4.jpg\", \"text\": \"Крісло ELBE у бежевому кольорі, детальний вигляд\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Nordholz Wohnen ELBE Armchair\", \"bullets\": [\"Dimensions: height 78 cm, seat height 44 cm, seat depth 46 cm\", \"Upholstery: 100% polyester fabric with one removable cover, washable at 30 °C\", \"Construction: pine and plywood frame with polyurethane foam density 30 kg/m³\", \"Maximum load: 120 kg\", \"Made in Germany\"], \"description\": \"The Nordholz Wohnen ELBE armchair has a sturdy pine and plywood frame with polyurethane foam filling with a density of 30 kg/m³. It is upholstered in 100% polyester fabric with a removable cover that is easily washable for convenient care.\", \"colours\": [{\"code\": \"ELB-03-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"ELB-03-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"ELBE-ANT-1.jpg\", \"text\": \"ELBE armchair in grey color, studio photo\"}, {\"file\": \"ELBE-ANT-2.jpg\", \"text\": \"ELBE armchair in grey color in the interior\"}, {\"file\": \"ELBE-ANT-3.jpg\", \"text\": \"ELBE armchair in grey color, studio photo\"}, {\"file\": \"ELBE-SAN-1.jpg\", \"text\": \"ELBE armchair in beige color, studio photo\"}, {\"file\": \"ELBE-SAN-2.jpg\", \"text\": \"ELBE armchair in beige color, detailed view\"}, {\"file\": \"ELBE-SAN-3.jpg\", \"text\": \"ELBE armchair in beige color in the interior\"}, {\"file\": \"ELBE-SAN-4.jpg\", \"text\": \"ELBE armchair in beige color, detailed view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 955,
+   "completion_tokens": 419
+  },
+  "latency_s": 10.656
+ }
+}

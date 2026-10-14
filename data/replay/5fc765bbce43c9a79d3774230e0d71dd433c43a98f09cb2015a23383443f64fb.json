@@ -1,0 +1,38 @@
+{
+ "key": "5fc765bbce43c9a79d3774230e0d71dd433c43a98f09cb2015a23383443f64fb",
+ "purpose": "translate:SYN-11:pl",
+ "recorded_at": "2026-10-14T18:13:20+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Polish. Translate all words into natural Polish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Polish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Ningbo Brightway Home Co.', 'LUCCA', 'LUC-11-ANT', 'LUC-11-SAB'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"LUCCA Sofa by Ningbo Brightway Home Co.\", \"bullets\": [\"Upholstery: 100% polyester woven fabric\", \"Base and legs made of pine and multilayer\", \"Removable cover washable at 30 °C\", \"Maximum load capacity of 330 kg\", \"Dimensions: 80 cm height, 107 cm depth, 44 cm seat height, and 64 cm seat depth\"], \"description\": \"The LUCCA sofa by Ningbo Brightway Home Co. features a 100% polyester woven fabric upholstery and a pine and multilayer base. It includes a removable cover that is washable at 30 °C for easy maintenance.\", \"colours\": [{\"code\": \"LUC-11-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"LUC-11-SAB\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4127.JPG\", \"text\": \"LUCCA sofa in grey, packshot view\"}, {\"file\": \"LUCCA_ANT_01.jpg\", \"text\": \"LUCCA sofa in anthracite grey, packshot view\"}, {\"file\": \"LUCCA_ANT_02.jpg\", \"text\": \"Detail view of the LUCCA sofa in anthracite grey\"}, {\"file\": \"LUCCA_ANT_03.jpg\", \"text\": \"LUCCA sofa in anthracite grey, lifestyle view\"}, {\"file\": \"LUCCA_SAB_01.jpg\", \"text\": \"LUCCA sofa in sand beige, packshot view\"}, {\"file\": \"LUCCA_SAB_02.jpg\", \"text\": \"LUCCA sofa in sand beige, packshot view\"}, {\"file\": \"LUCCA_SAB_04.jpg\", \"text\": \"Detail view of the LUCCA sofa in sand beige\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Sofa LUCCA od Ningbo Brightway Home Co.\", \"bullets\": [\"Obicie: 100% poliestrowa tkanina pleciona\", \"Podstawa i nogi wykonane z sosny i wielowarstwowej płyty\", \"Zdejnowalna pokrowa nadająca się do prania w 30 °C\", \"Maksymalne obciążenie do 330 kg\", \"Wymiary: 80 cm wysokości, 107 cm głębokości, 44 cm wysokości siedziska i 64 cm głębokości siedziska\"], \"description\": \"Sofa LUCCA od Ningbo Brightway Home Co. posiada obicie z 100% poliestrowej tkaniny plecionej oraz podstawę z sosny i płyty wielowarstwowej. Wyposażona jest w zdejmowany pokrowiec, który można prać w 30 °C, co ułatwia konserwację.\", \"colours\": [{\"code\": \"LUC-11-ANT\", \"name\": \"Antracyt\"}, {\"code\": \"LUC-11-SAB\", \"name\": \"Piasek\"}], \"safety_warnings\": [\"Produkt nieprzeznaczony do użytku zewnętrznego.\", \"Trzymać z dala od źródeł ciepła.\", \"Nie stać na siedzisku.\"], \"alt_texts\": [{\"file\": \"IMG_4127.JPG\", \"text\": \"Sofa LUCCA w kolorze szarym, widok produktowy\"}, {\"file\": \"LUCCA_ANT_01.jpg\", \"text\": \"Sofa LUCCA w kolorze szarym antracytowym, widok produktowy\"}, {\"file\": \"LUCCA_ANT_02.jpg\", \"text\": \"Zbliżenie na detale sofy LUCCA w kolorze szarym antracytowym\"}, {\"file\": \"LUCCA_ANT_03.jpg\", \"text\": \"Sofa LUCCA w kolorze szarym antracytowym, widok w aranżacji\"}, {\"file\": \"LUCCA_SAB_01.jpg\", \"text\": \"Sofa LUCCA w kolorze piaskowym beżu, widok produktowy\"}, {\"file\": \"LUCCA_SAB_02.jpg\", \"text\": \"Sofa LUCCA w kolorze piaskowym beżu, widok produktowy\"}, {\"file\": \"LUCCA_SAB_04.jpg\", \"text\": \"Zbliżenie na detale sofy LUCCA w kolorze piaskowym beżu\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 923,
+   "completion_tokens": 570
+  },
+  "latency_s": 13.343
+ }
+}

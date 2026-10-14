@@ -1,0 +1,38 @@
+{
+ "key": "704641775c736561037ae7a7b5ff8ecfbf34f84f0ef40e5c3692bdbb4b164bdb",
+ "purpose": "listing:SYN-15",
+ "recorded_at": "2026-10-14T18:08:10+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"MOSEL\", \"model\": \"MOSEL\", \"brand\": \"Ningbo Brightway Home Co.\", \"width_cm\": 39, \"depth_cm\": 39, \"height_cm\": 56, \"weight_kg\": 6.3, \"product_type\": \"Stehleuchte MOSEL / MOSEL floor lamp\", \"legs_or_base\": \"Pulverbeschichteter Stahl, schwarz matt / powder-coated steel, matt black\", \"care\": \"Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off\", \"country_of_origin\": \"China\", \"safety_warnings\": [\"Nur Leuchtmittel E27 max. 40 W verwenden.\", \"Use only E27 bulbs, max. 40 W.\", \"Vor dem Reinigen vom Netz trennen.\", \"Disconnect before cleaning.\", \"Nur für den Innenbereich.\", \"For indoor use only.\"], \"variants\": [{\"code\": \"MOS-15-SCH\", \"colour_name\": \"Schwarz\"}, {\"code\": \"MOS-15-SIL\", \"colour_name\": \"Silber\"}]}\nPhotos: [{\"file\": \"IMG_4241.JPG\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"black\"}, {\"file\": \"MOSEL-SCH-1.jpg\", \"variant\": \"MOS-15-SCH\", \"view\": \"packshot\", \"colour_seen\": \"black\"}, {\"file\": \"MOSEL-SCH-2.jpg\", \"variant\": \"MOS-15-SCH\", \"view\": \"packshot\", \"colour_seen\": \"black\"}, {\"file\": \"MOSEL-SIL-1.jpg\", \"variant\": \"MOS-15-SIL\", \"view\": \"packshot\", \"colour_seen\": \"silver\"}, {\"file\": \"MOSEL-SIL-3.jpg\", \"variant\": \"MOS-15-SIL\", \"view\": \"packshot\", \"colour_seen\": \"silver\"}, {\"file\": \"MOSEL-SIL-4.jpg\", \"variant\": \"MOS-15-SIL\", \"view\": \"lifestyle\", \"colour_seen\": \"grey\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Ningbo Brightway Home Co. MOSEL Floor Lamp\",\n  \"bullets\": [\n    \"Dimensions: 39 cm width, 39 cm depth, 56 cm height\",\n    \"Weight: 6.3 kg\",\n    \"Base made of matt black powder-coated steel\",\n    \"Compatible with E27 bulbs up to 40 W\"\n  ],\n  \"description\": \"The MOSEL floor lamp by Ningbo Brightway Home Co. features a powder-coated steel base in matt black. This indoor lighting fixture measures 56 cm in height and should be cleaned with a dry cloth when switched off.\",\n  \"colours\": [\n    {\n      \"code\": \"MOS-15-SCH\",\n      \"name\": \"Black\"\n    },\n    {\n      \"code\": \"MOS-15-SIL\",\n      \"name\": \"Silver\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Use only E27 bulbs, max. 40 W.\",\n    \"Disconnect before cleaning.\",\n    \"For indoor use only.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4241.JPG\",\n      \"text\": \"MOSEL floor lamp in black, packshot view\"\n    },\n    {\n      \"file\": \"MOSEL-SCH-1.jpg\",\n      \"text\": \"MOSEL floor lamp in black, packshot view\"\n    },\n    {\n      \"file\": \"MOSEL-SCH-2.jpg\",\n      \"text\": \"MOSEL floor lamp in black, packshot view\"\n    },\n    {\n      \"file\": \"MOSEL-SIL-1.jpg\",\n      \"text\": \"MOSEL floor lamp in silver, packshot view\"\n    },\n    {\n      \"file\": \"MOSEL-SIL-3.jpg\",\n      \"text\": \"MOSEL floor lamp in silver, packshot view\"\n    },\n    {\n      \"file\": \"MOSEL-SIL-4.jpg\",\n      \"text\": \"MOSEL floor lamp in grey, lifestyle view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1007,
+   "completion_tokens": 491
+  },
+  "latency_s": 15.203
+ }
+}

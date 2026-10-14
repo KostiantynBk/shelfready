@@ -1,0 +1,38 @@
+{
+ "key": "008ab60f10728d9984849bbc030af4a64fea11da2d2edc3a54e472cab65ce9ea",
+ "purpose": "listing:SYN-02",
+ "recorded_at": "2026-10-14T18:07:41+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Poltrona COMO / COMO armchair\", \"model\": \"COMO\", \"brand\": \"Ningbo Brightway Home Co.\", \"width_cm\": 104, \"depth_cm\": 104, \"height_cm\": 81, \"seat_height_cm\": 44, \"seat_depth_cm\": 62, \"max_load_kg\": 120, \"weight_kg\": 44.5, \"product_type\": \"Poltrona / Armchair\", \"upholstery\": \"Pelle pieno fiore / top-grain leather\", \"care\": \"Pulire con panno umido / wipe with a damp cloth\", \"country_of_origin\": \"China\", \"safety_warnings\": [\"Non utilizzare all'aperto\", \"Not for outdoor use.\", \"Tenere lontano da fonti di calore.\", \"Keep away from heat sources.\", \"Non salire in piedi sulla seduta.\", \"Do not stand on the seat.\"], \"variants\": [{\"code\": \"COM-02-COG\", \"colour_name\": \"Cognac\"}, {\"code\": \"COM-02-SAB\", \"colour_name\": \"Sabbia\"}, {\"code\": \"COM-02-NER\", \"colour_name\": \"Nero\"}]}\nPhotos: [{\"file\": \"COMO_COG_01.jpg\", \"variant\": \"COM-02-COG\", \"view\": \"packshot\", \"colour_seen\": \"brown\"}, {\"file\": \"COMO_COG_02.jpg\", \"variant\": \"COM-02-COG\", \"view\": \"packshot\", \"colour_seen\": \"brown\"}, {\"file\": \"COMO_NER_01.jpg\", \"variant\": \"COM-02-NER\", \"view\": \"packshot\", \"colour_seen\": \"black\"}, {\"file\": \"COMO_NER_02.jpg\", \"variant\": \"COM-02-NER\", \"view\": \"lifestyle\", \"colour_seen\": \"black\"}, {\"file\": \"COMO_NER_04.jpg\", \"variant\": \"COM-02-NER\", \"view\": \"detail\", \"colour_seen\": \"black\"}, {\"file\": \"COMO_SAB_01.jpg\", \"variant\": \"COM-02-SAB\", \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"COMO_SAB_02.jpg\", \"variant\": \"COM-02-SAB\", \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"COMO_SAB_03.jpg\", \"variant\": \"COM-02-SAB\", \"view\": \"detail\", \"colour_seen\": \"beige\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"COMO Armchair by Ningbo Brightway Home Co.\",\n  \"bullets\": [\n    \"Upholstery made from top-grain leather\",\n    \"Dimensions: 104 cm width, 104 cm depth, 81 cm height\",\n    \"Seat height: 44 cm; seat depth: 62 cm\",\n    \"Maximum load capacity: 120 kg\",\n    \"Weight: 44.5 kg\"\n  ],\n  \"description\": \"The COMO armchair by Ningbo Brightway Home Co. is upholstered in top-grain leather. This piece can be maintained by wiping with a damp cloth.\",\n  \"colours\": [\n    {\n      \"code\": \"COM-02-COG\",\n      \"name\": \"Cognac\"\n    },\n    {\n      \"code\": \"COM-02-SAB\",\n      \"name\": \"Sand\"\n    },\n    {\n      \"code\": \"COM-02-NER\",\n      \"name\": \"Black\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Not for outdoor use.\",\n    \"Keep away from heat sources.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"COMO_COG_01.jpg\",\n      \"text\": \"COMO armchair in brown, packshot view\"\n    },\n    {\n      \"file\": \"COMO_COG_02.jpg\",\n      \"text\": \"COMO armchair in brown, packshot view\"\n    },\n    {\n      \"file\": \"COMO_NER_01.jpg\",\n      \"text\": \"COMO armchair in black, packshot view\"\n    },\n    {\n      \"file\": \"COMO_NER_02.jpg\",\n      \"text\": \"COMO armchair in black, lifestyle view\"\n    },\n    {\n      \"file\": \"COMO_NER_04.jpg\",\n      \"text\": \"COMO armchair in black, detail view\"\n    },\n    {\n      \"file\": \"COMO_SAB_01.jpg\",\n      \"text\": \"COMO armchair in beige, packshot view\"\n    },\n    {\n      \"file\": \"COMO_SAB_02.jpg\",\n      \"text\": \"COMO armchair in beige, packshot view\"\n    },\n    {\n      \"file\": \"COMO_SAB_03.jpg\",\n      \"text\": \"COMO armchair in beige, detail view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1138,
+   "completion_tokens": 595
+  },
+  "latency_s": 20.687
+ }
+}

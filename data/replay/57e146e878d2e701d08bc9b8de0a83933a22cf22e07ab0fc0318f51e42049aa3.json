@@ -1,0 +1,38 @@
+{
+ "key": "57e146e878d2e701d08bc9b8de0a83933a22cf22e07ab0fc0318f51e42049aa3",
+ "purpose": "listing:SYN-20",
+ "recorded_at": "2026-10-14T18:15:55+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"LECH\", \"model\": \"LECH\", \"brand\": \"Nordholz Wohnen\", \"width_cm\": 160, \"depth_cm\": 120, \"height_cm\": 5.1, \"product_type\": \"Teppich LECH / LECH rug\", \"care\": \"Nicht waschen; professionelle Reinigung / do not wash; professional cleaning only\", \"country_of_origin\": \"Deutschland\", \"safety_warnings\": [\"Auf glatten Böden eine Antirutschunterlage verwenden.\", \"Use an anti-slip underlay on smooth floors.\", \"Von offenem Feuer fernhalten.\", \"Keep away from open flames.\"], \"variants\": [{\"code\": \"LEC-20-ANT\", \"colour_name\": \"Anthrazit\"}, {\"code\": \"LEC-20-SAN\", \"colour_name\": \"Sand\"}]}\nPhotos: [{\"file\": \"IMG_4390.JPG\", \"variant\": null, \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"LECH-ANT-1.jpg\", \"variant\": \"LEC-20-ANT\", \"view\": \"lifestyle\", \"colour_seen\": \"grey\"}, {\"file\": \"LECH-ANT-2.jpg\", \"variant\": \"LEC-20-ANT\", \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"LECH-ANT-3.jpg\", \"variant\": \"LEC-20-ANT\", \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"LECH-SAN-1.jpg\", \"variant\": \"LEC-20-SAN\", \"view\": \"lifestyle\", \"colour_seen\": \"grey\"}, {\"file\": \"LECH-SAN-2.jpg\", \"variant\": \"LEC-20-SAN\", \"view\": \"detail\", \"colour_seen\": \"beige\"}, {\"file\": \"LECH-SAN-3.jpg\", \"variant\": \"LEC-20-SAN\", \"view\": \"detail\", \"colour_seen\": \"beige\"}, {\"file\": \"LECH-SAN-4.jpg\", \"variant\": \"LEC-20-SAN\", \"view\": \"detail\", \"colour_seen\": \"beige\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Nordholz Wohnen LECH Rug\",\n  \"bullets\": [\n    \"Dimensions: 160 cm width, 120 cm depth, and 5.1 cm height\",\n    \"Origin: Made in Deutschland\",\n    \"Care: Professional cleaning only; do not wash\"\n  ],\n  \"description\": \"The LECH rug by Nordholz Wohnen is a high-quality home accessory. It is available in multiple colours to suit your interior design.\",\n  \"colours\": [\n    {\n      \"code\": \"LEC-20-ANT\",\n      \"name\": \"Anthracite\"\n    },\n    {\n      \"code\": \"LEC-20-SAN\",\n      \"name\": \"Sand\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Use an anti-slip underlay on smooth floors.\",\n    \"Keep away from open flames.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4390.JPG\",\n      \"text\": \"Detail view of the LECH rug in grey\"\n    },\n    {\n      \"file\": \"LECH-ANT-1.jpg\",\n      \"text\": \"Lifestyle view of the LECH rug in anthracite grey\"\n    },\n    {\n      \"file\": \"LECH-ANT-2.jpg\",\n      \"text\": \"Detail view of the LECH rug in anthracite grey\"\n    },\n    {\n      \"file\": \"LECH-ANT-3.jpg\",\n      \"text\": \"Detail view of the LECH rug in anthracite grey\"\n    },\n    {\n      \"file\": \"LECH-SAN-1.jpg\",\n      \"text\": \"Lifestyle view of the LECH rug in sand grey\"\n    },\n    {\n      \"file\": \"LECH-SAN-2.jpg\",\n      \"text\": \"Detail view of the LECH rug in sand beige\"\n    },\n    {\n      \"file\": \"LECH-SAN-3.jpg\",\n      \"text\": \"Detail view of the LECH rug in sand beige\"\n    },\n    {\n      \"file\": \"LECH-SAN-4.jpg\",\n      \"text\": \"Detail view of the LECH rug in sand beige\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1020,
+   "completion_tokens": 524
+  },
+  "latency_s": 14.953
+ }
+}

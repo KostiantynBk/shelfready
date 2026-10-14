@@ -1,0 +1,38 @@
+{
+ "key": "317e03cf3a3fccb5e00a9b1eeadc1656f1e9ae87e73fdf08ab768ea75322b84c",
+ "purpose": "back:SYN-11:uk",
+ "recorded_at": "2026-10-14T18:19:35+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Диван LUCCA від Ningbo Brightway Home Co.\", \"bullets\": [\"Оббивка: 100% поліестерова тканина\", \"Основа та ніжки виготовлені з сосни та багатошарового дерева\", \"Знімний чохол, що переється при 30 °C\", \"Максимальна вантажопідйомність 330 кг\", \"Розміри: висота 80 см, глибина 107 см, висота сидіння 44 см, глибина сидіння 64 см\"], \"description\": \"Диван LUCCA від Ningbo Brightway Home Co. має оббивку зі 100% поліестерової тканини та основу з сосни та багатошарового дерева. Він оснащений знімним чохлом, який можна прати при 30 °C для легкого догляду.\", \"colours\": [{\"code\": \"LUC-11-ANT\", \"name\": \"Антрацитовий\"}, {\"code\": \"LUC-11-SAB\", \"name\": \"Пісочний\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"IMG_4127.JPG\", \"text\": \"Сірий диван LUCCA, вигляд виробу\"}, {\"file\": \"LUCCA_ANT_01.jpg\", \"text\": \"Диван LUCCA в антрацитово-сірому кольорі, вигляд виробу\"}, {\"file\": \"LUCCA_ANT_02.jpg\", \"text\": \"Детальний вигляд дивана LUCCA в антрацитово-сірому кольорі\"}, {\"file\": \"LUCCA_ANT_03.jpg\", \"text\": \"Диван LUCCA в антрацитово-сірому кольорі в інтер'єрі\"}, {\"file\": \"LUCCA_SAB_01.jpg\", \"text\": \"Диван LUCCA в пісочно-бежевому кольорі, вигляд виробу\"}, {\"file\": \"LUCCA_SAB_02.jpg\", \"text\": \"Диван LUCCA в пісочно-бежевому кольорі, вигляд виробу\"}, {\"file\": \"LUCCA_SAB_04.jpg\", \"text\": \"Детальний вигляд дивана LUCCA в пісочно-бежевому кольорі\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"LUCCA Sofa by Ningbo Brightway Home Co.\", \"bullets\": [\"Upholstery: 100% polyester fabric\", \"Frame and legs made of pine and plywood\", \"Removable cover, washable at 30 °C\", \"Maximum load capacity 330 kg\", \"Dimensions: height 80 cm, depth 107 cm, seat height 44 cm, seat depth 64 cm\"], \"description\": \"The LUCCA sofa from Ningbo Brightway Home Co. features 100% polyester fabric upholstery and a frame made of pine and plywood. It is equipped with a removable cover that can be washed at 30 °C for easy care.\", \"colours\": [{\"code\": \"LUC-11-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"LUC-11-SAB\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4127.JPG\", \"text\": \"Grey LUCCA sofa, product view\"}, {\"file\": \"LUCCA_ANT_01.jpg\", \"text\": \"LUCCA sofa in anthracite grey, product view\"}, {\"file\": \"LUCCA_ANT_02.jpg\", \"text\": \"Detailed view of the LUCCA sofa in anthracite grey\"}, {\"file\": \"LUCCA_ANT_03.jpg\", \"text\": \"LUCCA sofa in anthracite grey in an interior\"}, {\"file\": \"LUCCA_SAB_01.jpg\", \"text\": \"LUCCA sofa in sand beige, product view\"}, {\"file\": \"LUCCA_SAB_02.jpg\", \"text\": \"LUCCA sofa in sand beige, product view\"}, {\"file\": \"LUCCA_SAB_04.jpg\", \"text\": \"Detailed view of the LUCCA sofa in sand beige\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 958,
+   "completion_tokens": 423
+  },
+  "latency_s": 12.829
+ }
+}

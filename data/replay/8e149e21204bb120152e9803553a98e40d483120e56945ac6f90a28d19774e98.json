@@ -1,0 +1,38 @@
+{
+ "key": "8e149e21204bb120152e9803553a98e40d483120e56945ac6f90a28d19774e98",
+ "purpose": "back:SYN-19:de",
+ "recorded_at": "2026-10-14T18:21:09+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Ningbo Brightway Home Co. FULDA Tischlampe\", \"bullets\": [\"Maße: 30 cm Breite und 64 cm Höhe\", \"Gewicht: 0,6 kg\", \"Kompatibel mit E27-Leuchtmitteln bis zu 40 W\", \"Im ausgeschalteten Zustand mit einem trockenen Tuch reinigen\"], \"description\": \"Die FULDA Tischlampe von Ningbo Brightway Home Co. ist für den Innenbereich konzipiert. Diese Leuchte hat eine Höhe von 64 cm und eine Breite von 30 cm.\", \"colours\": [{\"code\": \"FUL-19-MOO\", \"name\": \"Moosgrün\"}, {\"code\": \"FUL-19-ANT\", \"name\": \"Anthrazit\"}], \"safety_warnings\": [\"Nur E27-Leuchtmittel verwenden, max. 40 W.\", \"Vor der Reinigung vom Stromnetz trennen.\", \"Nur für den Innenbereich geeignet.\"], \"alt_texts\": [{\"file\": \"FULDA-ANT-1.jpg\", \"text\": \"FULDA Tischlampe in Grau, Produktansicht\"}, {\"file\": \"FULDA-ANT-2.jpg\", \"text\": \"FULDA Tischlampe in Grau, Detailansicht\"}, {\"file\": \"FULDA-ANT-3.jpg\", \"text\": \"FULDA Tischlampe in Grau, Detailansicht\"}, {\"file\": \"FULDA-ANT-4.jpg\", \"text\": \"FULDA Tischlampe in Weiß, Produktansicht\"}, {\"file\": \"FULDA-MOO-1.jpg\", \"text\": \"FULDA Tischlampe in Grün, Produktansicht\"}, {\"file\": \"FULDA-MOO-2.jpg\", \"text\": \"FULDA Tischlampe in Grün, Produktansicht\"}, {\"file\": \"FULDA-MOO-3.jpg\", \"text\": \"FULDA Tischlampe in Grün, Detailansicht\"}, {\"file\": \"IMG_4639.JPG\", \"text\": \"FULDA Tischlampe in Grün, Detailansicht\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Ningbo Brightway Home Co. FULDA Table Lamp\", \"bullets\": [\"Dimensions: 30 cm width and 64 cm height\", \"Weight: 0.6 kg\", \"Compatible with E27 bulbs up to 40 W\", \"Clean with a dry cloth when switched off\"], \"description\": \"The FULDA table lamp from Ningbo Brightway Home Co. is designed for indoor use. This lamp has a height of 64 cm and a width of 30 cm.\", \"colours\": [{\"code\": \"FUL-19-MOO\", \"name\": \"Moss Green\"}, {\"code\": \"FUL-19-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect from the power supply before cleaning.\", \"Suitable for indoor use only.\"], \"alt_texts\": [{\"file\": \"FULDA-ANT-1.jpg\", \"text\": \"FULDA table lamp in grey, product view\"}, {\"file\": \"FULDA-ANT-2.jpg\", \"text\": \"FULDA table lamp in grey, detail view\"}, {\"file\": \"FULDA-ANT-3.jpg\", \"text\": \"FULDA table lamp in grey, detail view\"}, {\"file\": \"FULDA-ANT-4.jpg\", \"text\": \"FULDA table lamp in white, product view\"}, {\"file\": \"FULDA-MOO-1.jpg\", \"text\": \"FULDA table lamp in green, product view\"}, {\"file\": \"FULDA-MOO-2.jpg\", \"text\": \"FULDA table lamp in green, product view\"}, {\"file\": \"FULDA-MOO-3.jpg\", \"text\": \"FULDA table lamp in green, detail view\"}, {\"file\": \"IMG_4639.JPG\", \"text\": \"FULDA table lamp in green, detail view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 855,
+   "completion_tokens": 415
+  },
+  "latency_s": 11.235
+ }
+}

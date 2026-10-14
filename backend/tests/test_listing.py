@@ -95,6 +95,13 @@ def test_a_faithful_translation_passes():
     assert numbers("Martindale 40 000, 23,5 kg") == numbers("Martindale 40,000, 23.5 kg")  # FR/DE/EN formats
 
 
+def test_polish_word_forms_count_as_the_key_term():
+    pl = spanish(
+        replace=[("poliéster", "poliestrowa"), ("haya", "bukowe"), ("nogal", "orzech"), ("Bouclé", "Bouclé")]
+    )
+    assert check_translation(EN, pl, "pl", protected()).glossary_ok
+
+
 def test_ukrainian_units_in_cyrillic_are_fine():
     words = [(" cm", " см"), (" kg", " кг"), ("haya", "бук"), ("bouclé", "букле"), ("Bouclé", "Букле"),
              ("poliéster", "поліестер"), ("nogal", "горіх")]  # fmt: skip

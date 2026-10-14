@@ -1,0 +1,38 @@
+{
+ "key": "4b98834faa4a8f6001bd8a1fbae3d22c1e2810eb1ba983013472b2a5a69d47d7",
+ "purpose": "back:SYN-09:uk",
+ "recorded_at": "2026-10-14T18:18:55+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Обідній стілець Nordholz Wohnen WESER\", \"bullets\": [\"Ніжки з масиву бука з морілкою кольору горіха\", \"Оббивка зі 100% поліестерової тканини\", \"Знімний чохол, що переється при 30 °C\", \"Максимальне навантаження 120 кг\", \"Виготовлено в Німеччині\"], \"description\": \"Обідній стілець WESER від Nordholz Wohnen має основу з масиву бука з покриттям кольору горіха. Він оббитий 100% поліестеровою тканиною та має знімний чохол, що переється, для легкого догляду.\", \"colours\": [{\"code\": \"WES-09-ANT\", \"name\": \"Антрацитовий\"}, {\"code\": \"WES-09-SAN\", \"name\": \"Пісочний\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"IMG_4604.JPG\", \"text\": \"Сірий обідній стілець WESER в інтер'єрі\"}, {\"file\": \"WESER-ANT-1.jpg\", \"text\": \"Обідній стілець WESER, антрацитовий, повний вигляд\"}, {\"file\": \"WESER-ANT-2.jpg\", \"text\": \"Обідній стілець WESER, антрацитовий, детальний вигляд\"}, {\"file\": \"WESER-ANT-3.jpg\", \"text\": \"Обідній стілець WESER, антрацитовий, повний вигляд\"}, {\"file\": \"WESER-SAN-1.jpg\", \"text\": \"Обідній стілець WESER, пісочний, повний вигляд\"}, {\"file\": \"WESER-SAN-2.jpg\", \"text\": \"Обідній стілець WESER, пісочний, детальний вигляд\"}, {\"file\": \"WESER-SAN-3.jpg\", \"text\": \"Обідній стілець WESER, пісочний, повний вигляд\"}, {\"file\": \"WESER-SAN-4.jpg\", \"text\": \"Обідній стілець WESER, пісочний, детальний вигляд\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Nordholz Wohnen WESER Dining Chair\", \"bullets\": [\"Solid beech legs with walnut color stain\", \"Upholstery made of 100% polyester fabric\", \"Removable cover, washable at 30 °C\", \"Maximum load 120 kg\", \"Made in Germany\"], \"description\": \"The WESER dining chair from Nordholz Wohnen has a solid beech base with a walnut color coating. It is upholstered in 100% polyester fabric and has a removable, washable cover for easy care.\", \"colours\": [{\"code\": \"WES-09-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"WES-09-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"IMG_4604.JPG\", \"text\": \"Grey WESER dining chair in an interior\"}, {\"file\": \"WESER-ANT-1.jpg\", \"text\": \"WESER dining chair, anthracite, full view\"}, {\"file\": \"WESER-ANT-2.jpg\", \"text\": \"WESER dining chair, anthracite, detailed view\"}, {\"file\": \"WESER-ANT-3.jpg\", \"text\": \"WESER dining chair, anthracite, full view\"}, {\"file\": \"WESER-SAN-1.jpg\", \"text\": \"WESER dining chair, sand, full view\"}, {\"file\": \"WESER-SAN-2.jpg\", \"text\": \"WESER dining chair, sand, detailed view\"}, {\"file\": \"WESER-SAN-3.jpg\", \"text\": \"WESER dining chair, sand, full view\"}, {\"file\": \"WESER-SAN-4.jpg\", \"text\": \"WESER dining chair, sand, detailed view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 937,
+   "completion_tokens": 400
+  },
+  "latency_s": 10.031
+ }
+}

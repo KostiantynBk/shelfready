@@ -1,0 +1,38 @@
+{
+ "key": "36ce59051a5b30da050268d3b21895fd762a5758a816f6b87864de9ba92a5c39",
+ "purpose": "listing:SYN-07",
+ "recorded_at": "2026-10-14T18:07:55+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Poltrona FARO / FARO armchair\", \"model\": \"FARO\", \"brand\": \"Móveis Lusa\", \"width_cm\": 70, \"depth_cm\": 71, \"height_cm\": 83, \"seat_height_cm\": 45, \"seat_depth_cm\": 43, \"max_load_kg\": 120, \"weight_kg\": 13.5, \"product_type\": \"Poltrona / Armchair\", \"legs_or_base\": \"Faia maciça, acabamento nogueira / solid beech, walnut stain\", \"upholstery\": \"Tecido, 100% poliester / woven fabric, 100% polyester\", \"care\": \"Capa removível, lavar a 30 °C / removable cover, washable at 30 °C\", \"country_of_origin\": \"Portugal\", \"safety_warnings\": [\"Não utilizar no exterior.\", \"Not for outdoor use.\", \"Manter afastado de fontes de calor.\", \"Keep away from heat sources.\", \"Não subir para o assento.\", \"Do not stand on the seat.\"], \"variants\": [{\"code\": \"FAR-07-ANT\", \"colour_name\": \"Antracite\"}, {\"code\": \"FAR-07-AZU\", \"colour_name\": \"Azul\"}, {\"code\": \"FAR-07-CIN\", \"colour_name\": \"Cinza\"}]}\nPhotos: [{\"file\": \"FAR07_ANT_34.jpg\", \"variant\": \"FAR-07-ANT\", \"view\": \"three-quarter\", \"colour_seen\": \"grey\"}, {\"file\": \"FAR07_ANT_front.jpg\", \"variant\": \"FAR-07-ANT\", \"view\": \"front\", \"colour_seen\": \"grey\"}, {\"file\": \"FAR07_AZU_34.jpg\", \"variant\": \"FAR-07-AZU\", \"view\": \"three-quarter\", \"colour_seen\": \"blue\"}, {\"file\": \"FAR07_AZU_front.jpg\", \"variant\": \"FAR-07-AZU\", \"view\": \"front\", \"colour_seen\": \"blue\"}, {\"file\": \"FAR07_CIN_34.jpg\", \"variant\": \"FAR-07-CIN\", \"view\": \"three-quarter\", \"colour_seen\": \"grey\"}, {\"file\": \"FAR07_CIN_front.jpg\", \"variant\": \"FAR-07-CIN\", \"view\": \"front\", \"colour_seen\": \"grey\"}, {\"file\": \"FAR07_ANT_side.jpg\", \"variant\": \"FAR-07-ANT\", \"view\": \"side\", \"colour_seen\": \"grey\"}, {\"file\": \"FAR07_AZU_detail.jpg\", \"variant\": \"FAR-07-AZU\", \"view\": \"detail\", \"colour_seen\": \"blue\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Móveis Lusa FARO Armchair\",\n  \"bullets\": [\n    \"Dimensions: 70 cm width, 71 cm depth, 83 cm height\",\n    \"Seat height: 45 cm; seat depth: 43 cm\",\n    \"Solid beech legs with walnut stain\",\n    \"100% polyester woven fabric upholstery\",\n    \"Removable cover washable at 30 °C\",\n    \"Maximum load capacity: 120 kg\"\n  ],\n  \"description\": \"The FARO armchair by Móveis Lusa is crafted in Portugal. It features a 100% polyester woven fabric upholstery and solid beech legs with a walnut stain.\",\n  \"colours\": [\n    {\n      \"code\": \"FAR-07-ANT\",\n      \"name\": \"Anthracite\"\n    },\n    {\n      \"code\": \"FAR-07-AZU\",\n      \"name\": \"Blue\"\n    },\n    {\n      \"code\": \"FAR-07-CIN\",\n      \"name\": \"Grey\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Not for outdoor use.\",\n    \"Keep away from heat sources.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"FAR07_ANT_34.jpg\",\n      \"text\": \"FARO armchair in anthracite grey, three-quarter view\"\n    },\n    {\n      \"file\": \"FAR07_ANT_front.jpg\",\n      \"text\": \"FARO armchair in anthracite grey, front view\"\n    },\n    {\n      \"file\": \"FAR07_AZU_34.jpg\",\n      \"text\": \"FARO armchair in blue, three-quarter view\"\n    },\n    {\n      \"file\": \"FAR07_AZU_front.jpg\",\n      \"text\": \"FARO armchair in blue, front view\"\n    },\n    {\n      \"file\": \"FAR07_CIN_34.jpg\",\n      \"text\": \"FARO armchair in grey, three-quarter view\"\n    },\n    {\n      \"file\": \"FAR07_CIN_front.jpg\",\n      \"text\": \"FARO armchair in grey, front view\"\n    },\n    {\n      \"file\": \"FAR07_ANT_side.jpg\",\n      \"text\": \"FARO armchair in anthracite grey, side view\"\n    },\n    {\n      \"file\": \"FAR07_AZU_detail.jpg\",\n      \"text\": \"Detail view of the FARO armchair in blue\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1183,
+   "completion_tokens": 615
+  },
+  "latency_s": 19.907
+ }
+}

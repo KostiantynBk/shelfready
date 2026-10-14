@@ -1,0 +1,38 @@
+{
+ "key": "d7b4d8e703b4e3c5a8e4c7ee4ec45f35e03afc41fb44ce9f7406b2eed65f1ba7",
+ "purpose": "translate:SYN-07:pl",
+ "recorded_at": "2026-10-14T18:12:42+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Polish. Translate all words into natural Polish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Polish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'FARO', 'FAR-07-ANT', 'FAR-07-AZU', 'FAR-07-CIN'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa FARO Armchair\", \"bullets\": [\"Dimensions: 70 cm width, 71 cm depth, 83 cm height\", \"Seat height: 45 cm; seat depth: 43 cm\", \"Solid beech legs with walnut stain\", \"100% polyester woven fabric upholstery\", \"Removable cover washable at 30 °C\", \"Maximum load capacity: 120 kg\"], \"description\": \"The FARO armchair by Móveis Lusa is crafted in Portugal. It features a 100% polyester woven fabric upholstery and solid beech legs with a walnut stain.\", \"colours\": [{\"code\": \"FAR-07-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"FAR-07-AZU\", \"name\": \"Blue\"}, {\"code\": \"FAR-07-CIN\", \"name\": \"Grey\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"FAR07_ANT_34.jpg\", \"text\": \"FARO armchair in anthracite grey, three-quarter view\"}, {\"file\": \"FAR07_ANT_front.jpg\", \"text\": \"FARO armchair in anthracite grey, front view\"}, {\"file\": \"FAR07_AZU_34.jpg\", \"text\": \"FARO armchair in blue, three-quarter view\"}, {\"file\": \"FAR07_AZU_front.jpg\", \"text\": \"FARO armchair in blue, front view\"}, {\"file\": \"FAR07_CIN_34.jpg\", \"text\": \"FARO armchair in grey, three-quarter view\"}, {\"file\": \"FAR07_CIN_front.jpg\", \"text\": \"FARO armchair in grey, front view\"}, {\"file\": \"FAR07_ANT_side.jpg\", \"text\": \"FARO armchair in anthracite grey, side view\"}, {\"file\": \"FAR07_AZU_detail.jpg\", \"text\": \"Detail view of the FARO armchair in blue\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Fotel Móveis Lusa FARO\", \"bullets\": [\"Wymiary: 70 cm szerokości, 71 cm głębokości, 83 cm wysokości\", \"Wysokość siedziska: 45 cm; głębokość siedziska: 43 cm\", \"Nogi z litego buka bejcowane na kolor orzecha\", \"Obicie z tkanej tkaniny 100% poliester\", \"Zdejmijna pokrowa nadająca się do prania w 30 °C\", \"Maksymalne obciążenie: 120 kg\"], \"description\": \"Fotel FARO marki Móveis Lusa został wykonany w Portugalii. Charakteryzuje się obiciem z tkanej tkaniny 100% poliester oraz nogami z litego buka bejcowanego na kolor orzecha.\", \"colours\": [{\"code\": \"FAR-07-ANT\", \"name\": \"Antracytowy\"}, {\"code\": \"FAR-07-AZU\", \"name\": \"Niebieski\"}, {\"code\": \"FAR-07-CIN\", \"name\": \"Szary\"}], \"safety_warnings\": [\"Produkt nieprzeznaczony do użytku zewnętrznego.\", \"Trzymać z dala od źródeł ciepła.\", \"Nie stać na siedzisku.\"], \"alt_texts\": [{\"file\": \"FAR07_ANT_34.jpg\", \"text\": \"Fotel FARO w kolorze antracytowym, widok z trzech czwartych\"}, {\"file\": \"FAR07_ANT_front.jpg\", \"text\": \"Fotel FARO w kolorze antracytowym, widok z przodu\"}, {\"file\": \"FAR07_AZU_34.jpg\", \"text\": \"Fotel FARO w kolorze niebieskim, widok z trzech czwartych\"}, {\"file\": \"FAR07_AZU_front.jpg\", \"text\": \"Fotel FARO w kolorze niebieskim, widok z przodu\"}, {\"file\": \"FAR07_CIN_34.jpg\", \"text\": \"Fotel FARO w kolorze szarym, widok z trzech czwartych\"}, {\"file\": \"FAR07_CIN_front.jpg\", \"text\": \"Fotel FARO w kolorze szarym, widok z przodu\"}, {\"file\": \"FAR07_ANT_side.jpg\", \"text\": \"Fotel FARO w kolorze antracytowym, widok z boku\"}, {\"file\": \"FAR07_AZU_detail.jpg\", \"text\": \"Zbliżenie na detale fotela FARO w kolorze niebieskim\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 959,
+   "completion_tokens": 600
+  },
+  "latency_s": 21.297
+ }
+}

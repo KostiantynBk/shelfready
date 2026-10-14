@@ -1,0 +1,38 @@
+{
+ "key": "b980322e12c58af1f339a87dee3e8cecb852a60eb3875be6de97d235a2fd59ee",
+ "purpose": "listing:SYN-24",
+ "recorded_at": "2026-10-14T18:08:35+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Teppich SAALE / SAALE rug\", \"model\": \"SAALE\", \"brand\": \"Nordholz Wohnen\", \"width_cm\": 244, \"depth_cm\": 152, \"height_cm\": 1, \"weight_kg\": 10.7, \"product_type\": \"Teppich / rug\", \"country_of_origin\": \"Deutschland\", \"safety_warnings\": [\"Auf glatten Böden eine Antirutschunterlage verwenden.\", \"Use an anti-slip underlay on smooth floors.\", \"Von offenen Feuern fernhalten.\", \"Keep away from open flames.\"], \"variants\": [{\"code\": \"SAA-24-BLA\", \"colour_name\": \"Blau\"}, {\"code\": \"SAA-24-SAN\", \"colour_name\": \"Sand\"}]}\nPhotos: [{\"file\": \"IMG_4705.JPG\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"SAALE-ANT-1.jpg\", \"variant\": null, \"view\": \"lifestyle\", \"colour_seen\": \"beige\"}, {\"file\": \"SAALE-ANT-2.jpg\", \"variant\": null, \"view\": \"detail\", \"colour_seen\": \"beige\"}, {\"file\": \"SAALE-ANT-3.jpg\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"SAALE-ANT-4.jpg\", \"variant\": null, \"view\": \"lifestyle\", \"colour_seen\": \"blue\"}, {\"file\": \"SAALE-BLA-1.jpg\", \"variant\": \"SAA-24-BLA\", \"view\": \"lifestyle\", \"colour_seen\": \"grey\"}, {\"file\": \"SAALE-BLA-2.jpg\", \"variant\": \"SAA-24-BLA\", \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"SAALE-BLA-3.jpg\", \"variant\": \"SAA-24-BLA\", \"view\": \"detail\", \"colour_seen\": \"grey\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Nordholz Wohnen SAALE Rug\",\n  \"bullets\": [\n    \"Dimensions: 244 cm width, 152 cm depth, and 1 cm height\",\n    \"Weight: 10.7 kg\",\n    \"Country of origin: Deutschland\"\n  ],\n  \"description\": \"The SAALE rug by Nordholz Wohnen is a home accessory designed for various interior spaces. It is available in multiple colour options.\",\n  \"colours\": [\n    {\n      \"code\": \"SAA-24-BLA\",\n      \"name\": \"Blue\"\n    },\n    {\n      \"code\": \"SAA-24-SAN\",\n      \"name\": \"Sand\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Use an anti-slip underlay on smooth floors.\",\n    \"Keep away from open flames.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4705.JPG\",\n      \"text\": \"Grey SAALE rug, packshot view\"\n    },\n    {\n      \"file\": \"SAALE-ANT-1.jpg\",\n      \"text\": \"Beige SAALE rug, lifestyle view\"\n    },\n    {\n      \"file\": \"SAALE-ANT-2.jpg\",\n      \"text\": \"Beige SAALE rug, detail view\"\n    },\n    {\n      \"file\": \"SAALE-ANT-3.jpg\",\n      \"text\": \"Beige SAALE rug, packshot view\"\n    },\n    {\n      \"file\": \"SAALE-ANT-4.jpg\",\n      \"text\": \"Blue SAALE rug, lifestyle view\"\n    },\n    {\n      \"file\": \"SAALE-BLA-1.jpg\",\n      \"text\": \"Grey SAALE rug, lifestyle view\"\n    },\n    {\n      \"file\": \"SAALE-BLA-2.jpg\",\n      \"text\": \"Grey SAALE rug, detail view\"\n    },\n    {\n      \"file\": \"SAALE-BLA-3.jpg\",\n      \"text\": \"Grey SAALE rug, detail view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 996,
+   "completion_tokens": 503
+  },
+  "latency_s": 14.281
+ }
+}

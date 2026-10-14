@@ -1,0 +1,38 @@
+{
+ "key": "6a1ab9287efe25c60f19bbf2568d63142bfb4272cce31c704a894a7ee714e02e",
+ "purpose": "translate:SYN-22:pl",
+ "recorded_at": "2026-10-14T18:16:05+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Polish. Translate all words into natural Polish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Polish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'INN', 'INN-22-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen INN Rug\", \"bullets\": [\"Dimensions: 274 cm width, 178 cm depth, 3 cm height\", \"Weight: 10 kg\", \"Origin: Germany\", \"Care: Professional cleaning only; do not wash\"], \"description\": \"The Nordholz Wohnen INN rug is a high-quality home accessory made in Germany. It features a substantial size of 274 cm by 178 cm with a height of 3 cm.\", \"colours\": [{\"code\": \"INN-22-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Use an anti-slip underlay on smooth floors.\", \"Keep away from open flames.\"], \"alt_texts\": [{\"file\": \"IMG_4957.JPG\", \"text\": \"Detail view of a beige rug\"}, {\"file\": \"INN-ANT-1.jpg\", \"text\": \"Lifestyle view of the INN rug in brown\"}, {\"file\": \"INN-ANT-2.jpg\", \"text\": \"Packshot of the INN rug in grey\"}, {\"file\": \"INN-ANT-4.jpg\", \"text\": \"Detail view of the INN rug in grey\"}, {\"file\": \"INN-SAN-1.jpg\", \"text\": \"Lifestyle view of a brown rug\"}, {\"file\": \"INN-SAN-2.jpg\", \"text\": \"Packshot of a beige rug\"}, {\"file\": \"INN-SAN-3.jpg\", \"text\": \"Detail view of a beige rug\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Dywan Nordholz Wohnen INN\", \"bullets\": [\"Wymiary: 274 cm szerokości, 178 cm głębokości, 3 cm wysokości\", \"Waga: 10 kg\", \"Pochodzenie: Niemcy\", \"Pielęgnacja: Tylko czyszczenie profesjonalne; nie prać\"], \"description\": \"Dywan Nordholz Wohnen INN to wysokiej jakości dodatek do domu wykonany w Niemczech. Charakteryzuje się znacznym rozmiarem 274 cm na 178 cm oraz wysokością 3 cm.\", \"colours\": [{\"code\": \"INN-22-ANT\", \"name\": \"Antracytowy\"}], \"safety_warnings\": [\"Na gładkich podłogach należy stosować podkład antypoślizgowy.\", \"Trzymać z dala od otwartego ognia.\"], \"alt_texts\": [{\"file\": \"IMG_4957.JPG\", \"text\": \"Zbliżenie na beżowy dywan\"}, {\"file\": \"INN-ANT-1.jpg\", \"text\": \"Widok aranżacyjny dywanu INN w kolorze brązowym\"}, {\"file\": \"INN-ANT-2.jpg\", \"text\": \"Zdjęcie produktowe dywanu INN w kolorze szarym\"}, {\"file\": \"INN-ANT-4.jpg\", \"text\": \"Zbliżenie na dywan INN w kolorze szarym\"}, {\"file\": \"INN-SAN-1.jpg\", \"text\": \"Widok aranżacyjny brązowego dywanu\"}, {\"file\": \"INN-SAN-2.jpg\", \"text\": \"Zdjęcie produktowe beżowego dywanu\"}, {\"file\": \"INN-SAN-3.jpg\", \"text\": \"Zbliżenie na beżowy dywan\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 816,
+   "completion_tokens": 415
+  },
+  "latency_s": 8.75
+ }
+}

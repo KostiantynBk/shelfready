@@ -1,0 +1,38 @@
+{
+ "key": "e0461250d48bb98d273e93461dcc51c0a3757506ed4639618596005466daf7c2",
+ "purpose": "translate:SYN-18:pl",
+ "recorded_at": "2026-10-14T18:15:16+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Polish. Translate all words into natural Polish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Polish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Arredo Brianza', 'ORTA', 'ORT-18-BLU', 'ORT-18-BIA'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Arredo Brianza ORTA Table Lamp\", \"bullets\": [\"Dimensions: 34 cm height, 22 cm width, 22 cm depth\", \"Made in Italia\", \"Compatible with E27 bulbs, max 40 W\", \"Clean with a dry cloth when switched off\"], \"description\": \"The ORTA table lamp by Arredo Brianza is a stylish lighting solution made in Italia. It features a compact design suitable for various indoor surfaces.\", \"colours\": [{\"code\": \"ORT-18-BLU\", \"name\": \"Blue\"}, {\"code\": \"ORT-18-BIA\", \"name\": \"White\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"ORTA_BIA_01.jpg\", \"text\": \"White ORTA table lamp, packshot view\"}, {\"file\": \"ORTA_BIA_03.jpg\", \"text\": \"White ORTA table lamp, packshot view\"}, {\"file\": \"ORTA_BIA_04.jpg\", \"text\": \"Detail view of the white ORTA table lamp\"}, {\"file\": \"ORTA_BLU_01.jpg\", \"text\": \"Blue ORTA table lamp, packshot view\"}, {\"file\": \"ORTA_BLU_02.jpg\", \"text\": \"White ORTA table lamp, packshot view\"}, {\"file\": \"ORTA_BLU_03.jpg\", \"text\": \"White ORTA table lamp in a lifestyle setting\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Lampa stołowa Arredo Brianza ORTA\", \"bullets\": [\"Wymiary: 34 cm wysokości, 22 cm szerokości, 22 cm głębokości\", \"Wyprodukowano we Włoszech\", \"Kompatybilna z żarówkami E27, max 40 W\", \"Czyścić suchą szmatką po wyłączeniu\"], \"description\": \"Lampa stołowa ORTA marki Arredo Brianza to stylowe rozwiązanie oświetleniowe wykonane we Włoszech. Charakteryzuje się kompaktowym designem, idealnym na różne powierzchnie wewnątrz pomieszczeń.\", \"colours\": [{\"code\": \"ORT-18-BLU\", \"name\": \"Niebieski\"}, {\"code\": \"ORT-18-BIA\", \"name\": \"Biały\"}], \"safety_warnings\": [\"Stosować tylko żarówki E27, max. 40 W.\", \"Odłączyć z sieci przed czyszczeniem.\", \"Wyłącznie do użytku wewnątrz pomieszczeń.\"], \"alt_texts\": [{\"file\": \"ORTA_BIA_01.jpg\", \"text\": \"Biała lampa stołowa ORTA, widok produktowy\"}, {\"file\": \"ORTA_BIA_03.jpg\", \"text\": \"Biała lampa stołowa ORTA, widok produktowy\"}, {\"file\": \"ORTA_BIA_04.jpg\", \"text\": \"Zbliżenie na białą lampę stołową ORTA\"}, {\"file\": \"ORTA_BLU_01.jpg\", \"text\": \"Niebieska lampa stołowa ORTA, widok produktowy\"}, {\"file\": \"ORTA_BLU_02.jpg\", \"text\": \"Biała lampa stołowa ORTA, widok produktowy\"}, {\"file\": \"ORTA_BLU_03.jpg\", \"text\": \"Biała lampa stołowa ORTA w aranżacji wnętrza\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 845,
+   "completion_tokens": 453
+  },
+  "latency_s": 11.265
+ }
+}

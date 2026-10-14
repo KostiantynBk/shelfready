@@ -1,0 +1,38 @@
+{
+ "key": "5af2c92f68df3e7a49cd43294311a58e4da4bd9dcbef4b778267f06fd033f99f",
+ "purpose": "translate:SYN-13:pl",
+ "recorded_at": "2026-10-14T18:13:37+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Polish. Translate all words into natural Polish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Polish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Arredo Brianza', 'SIENA', 'SIE-13-BLU'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Arredo Brianza SIENA Sofa\", \"bullets\": [\"Dimensions: 224 cm width, 71 cm depth, 91 cm height\", \"Seat height: 44 cm; seat depth: 43 cm\", \"Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C\", \"Base made of pine and multiplex\", \"Maximum load capacity: 330 kg\"], \"description\": \"The SIENA sofa by Arredo Brianza is a high-quality piece of furniture made in Italia. It features a durable 100% polyester fabric upholstery and a sturdy pine and multiplex base.\", \"colours\": [{\"code\": \"SIE-13-BLU\", \"name\": \"Blue\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4287.JPG\", \"text\": \"SIENA sofa in grey, packshot view\"}, {\"file\": \"SIENA_BLU_01.jpg\", \"text\": \"SIENA sofa in grey, packshot view\"}, {\"file\": \"SIENA_BLU_02.jpg\", \"text\": \"SIENA sofa in grey, packshot view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Sofa Arredo Brianza SIENA\", \"bullets\": [\"Wymiary: szerokość 224 cm, głębokość 71 cm, wysokość 91 cm\", \"Wysokość siedziska: 44 cm; głębokość siedziska: 43 cm\", \"Obicie: tkanina pleciona 100% poliester z zdejmowaną pokrową, możliwa do prania w 30 °C\", \"Podstawa wykonana z sosny i sklejki\", \"Maksymalne obciążenie: 330 kg\"], \"description\": \"Sofa SIENA marki Arredo Brianza to wysokiej jakości mebel wyprodukowany we Włoszech. Charakteryzuje się trwałym obiciem z tkaniny 100% poliester oraz solidną podstawą z sosny i sklejki.\", \"colours\": [{\"code\": \"SIE-13-BLU\", \"name\": \"Niebieski\"}], \"safety_warnings\": [\"Produkt nieprzeznaczony do użytku zewnętrznego.\", \"Trzymać z dala od źródeł ciepła.\", \"Nie stać na siedzisku.\"], \"alt_texts\": [{\"file\": \"IMG_4287.JPG\", \"text\": \"Sofa SIENA w kolorze szarym, widok produktowy\"}, {\"file\": \"SIENA_BLU_01.jpg\", \"text\": \"Sofa SIENA w kolorze szarym, widok produktowy\"}, {\"file\": \"SIENA_BLU_02.jpg\", \"text\": \"Sofa SIENA w kolorze szarym, widok produktowy\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 766,
+   "completion_tokens": 372
+  },
+  "latency_s": 10.234
+ }
+}

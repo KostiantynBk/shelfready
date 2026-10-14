@@ -1,0 +1,38 @@
+{
+ "key": "de74910d74ba128f2241f454d5b27822330962bc82cbec8896b7896a061d8812",
+ "purpose": "translate:SYN-16:de",
+ "recorded_at": "2026-10-14T18:13:52+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into German. Translate all words into natural German, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a German term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Arredo Brianza', 'ASOLO', 'ASO-16-BIA'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Arredo Brianza ASOLO Table Lamp\", \"bullets\": [\"Made in Italia\", \"Glazed ceramic base\", \"Dimensions: 39 cm height, 25 cm width, 25 cm depth\", \"Weight: 2.8 kg\"], \"description\": \"The ASOLO table lamp by Arredo Brianza features a glazed ceramic base. This Italian-made lamp is designed for indoor use.\", \"colours\": [{\"code\": \"ASO-16-BIA\", \"name\": \"White\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"ASOLO_BIA_01.jpg\", \"text\": \"ASOLO table lamp in white, packshot view\"}, {\"file\": \"ASOLO_BIA_02.jpg\", \"text\": \"ASOLO table lamp in white, packshot view\"}, {\"file\": \"ASOLO_BIA_03.jpg\", \"text\": \"ASOLO table lamp in black, lifestyle view\"}, {\"file\": \"IMG_4836.JPG\", \"text\": \"Detail view of a beige table lamp\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Arredo Brianza ASOLO Tischleuchte\", \"bullets\": [\"Hergestellt in Italien\", \"Glasierter Keramikfuß\", \"Maße: 39 cm Höhe, 25 cm Breite, 25 cm Tiefe\", \"Gewicht: 2,8 kg\"], \"description\": \"Die ASOLO Tischleuchte von Arredo Brianza besticht durch einen glasierten Keramikfuß. Diese in Italien gefertigte Lampe ist für den Innenbereich konzipiert.\", \"colours\": [{\"code\": \"ASO-16-BIA\", \"name\": \"Weiß\"}], \"safety_warnings\": [\"Nur E27-Leuchtmittel verwenden, max. 40 W.\", \"Vor der Reinigung vom Stromnetz trennen.\", \"Nur für den Innenbereich geeignet.\"], \"alt_texts\": [{\"file\": \"ASOLO_BIA_01.jpg\", \"text\": \"ASOLO Tischleuchte in Weiß, Produktansicht\"}, {\"file\": \"ASOLO_BIA_02.jpg\", \"text\": \"ASOLO Tischleuchte in Weiß, Produktansicht\"}, {\"file\": \"ASOLO_BIA_03.jpg\", \"text\": \"ASOLO Tischleuchte in Schwarz, Lifestyle-Ansicht\"}, {\"file\": \"IMG_4836.JPG\", \"text\": \"Detailansicht einer beigen Tischleuchte\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 748,
+   "completion_tokens": 301
+  },
+  "latency_s": 8.25
+ }
+}

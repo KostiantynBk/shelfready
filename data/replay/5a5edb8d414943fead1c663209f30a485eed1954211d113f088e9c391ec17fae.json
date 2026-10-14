@@ -1,0 +1,38 @@
+{
+ "key": "5a5edb8d414943fead1c663209f30a485eed1954211d113f088e9c391ec17fae",
+ "purpose": "back:SYN-18:de",
+ "recorded_at": "2026-10-14T18:19:56+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Arredo Brianza ORTA Tischleuchte\", \"bullets\": [\"Maße: 34 cm Höhe, 22 cm Breite, 22 cm Tiefe\", \"Hergestellt in Italien\", \"Kompatibel mit E27-Leuchtmitteln, max. 40 W\", \"Im ausgeschalteten Zustand mit einem trockenen Tuch reinigen\"], \"description\": \"Die ORTA Tischleuchte von Arredo Brianza ist eine stilvolle Beleuchtungslösung aus italienischer Herstellung. Ihr kompaktes Design eignet sich für verschiedene Innenbereiche.\", \"colours\": [{\"code\": \"ORT-18-BLU\", \"name\": \"Blau\"}, {\"code\": \"ORT-18-BIA\", \"name\": \"Weiß\"}], \"safety_warnings\": [\"Nur E27-Leuchtmittel, max. 40 W verwenden.\", \"Vor der Reinigung vom Stromnetz trennen.\", \"Nur für den Innenbereich geeignet.\"], \"alt_texts\": [{\"file\": \"ORTA_BIA_01.jpg\", \"text\": \"Weiße ORTA Tischleuchte, Produktansicht\"}, {\"file\": \"ORTA_BIA_03.jpg\", \"text\": \"Weiße ORTA Tischleuchte, Produktansicht\"}, {\"file\": \"ORTA_BIA_04.jpg\", \"text\": \"Detailansicht der weißen ORTA Tischleuchte\"}, {\"file\": \"ORTA_BLU_01.jpg\", \"text\": \"Blaue ORTA Tischleuchte, Produktansicht\"}, {\"file\": \"ORTA_BLU_02.jpg\", \"text\": \"Weiße ORTA Tischleuchte, Produktansicht\"}, {\"file\": \"ORTA_BLU_03.jpg\", \"text\": \"Weiße ORTA Tischleuchte in einer Wohnumgebung\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Arredo Brianza ORTA Table Lamp\", \"bullets\": [\"Dimensions: 34 cm height, 22 cm width, 22 cm depth\", \"Made in Italy\", \"Compatible with E27 bulbs, max. 40 W\", \"Clean with a dry cloth when switched off\"], \"description\": \"The ORTA table lamp from Arredo Brianza is a stylish lighting solution of Italian manufacture. Its compact design is suitable for various interior areas.\", \"colours\": [{\"code\": \"ORT-18-BLU\", \"name\": \"Blue\"}, {\"code\": \"ORT-18-BIA\", \"name\": \"White\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect from the mains before cleaning.\", \"Suitable for indoor use only.\"], \"alt_texts\": [{\"file\": \"ORTA_BIA_01.jpg\", \"text\": \"White ORTA table lamp, product view\"}, {\"file\": \"ORTA_BIA_03.jpg\", \"text\": \"White ORTA table lamp, product view\"}, {\"file\": \"ORTA_BIA_04.jpg\", \"text\": \"Detailed view of the white ORTA table lamp\"}, {\"file\": \"ORTA_BLU_01.jpg\", \"text\": \"Blue ORTA table lamp, product view\"}, {\"file\": \"ORTA_BLU_02.jpg\", \"text\": \"White ORTA table lamp, product view\"}, {\"file\": \"ORTA_BLU_03.jpg\", \"text\": \"White ORTA table lamp in a living environment\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 796,
+   "completion_tokens": 352
+  },
+  "latency_s": 9.016
+ }
+}

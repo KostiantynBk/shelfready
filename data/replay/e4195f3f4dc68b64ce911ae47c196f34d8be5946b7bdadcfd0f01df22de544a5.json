@@ -1,0 +1,38 @@
+{
+ "key": "e4195f3f4dc68b64ce911ae47c196f34d8be5946b7bdadcfd0f01df22de544a5",
+ "purpose": "listing:SYN-21",
+ "recorded_at": "2026-10-14T18:08:37+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Tapete COIMBRA / COIMBRA rug\", \"model\": \"COIMBRA\", \"brand\": \"Móveis Lusa\", \"width_cm\": 290, \"depth_cm\": 229, \"height_cm\": 1.3, \"weight_kg\": 25.4, \"product_type\": \"Tapete / rug\", \"upholstery\": \"Tufado à mão, 100% lã / hand-tufted, 100% wool\", \"country_of_origin\": \"Portugal\", \"safety_warnings\": [\"Usar base antiderrapante em pisos lisos.\", \"Use an anti-slip underlay on smooth floors.\", \"Manter afastado de chamas abertas.\", \"Keep away from open flames.\"], \"variants\": [{\"code\": \"COI-21-ARE\", \"colour_name\": \"Antracite\"}, {\"code\": \"COI-21-AZU\", \"colour_name\": \"Azul\"}]}\nPhotos: [{\"file\": \"COI21_ARE_34.jpg\", \"variant\": \"COI-21-ARE\", \"view\": \"three-quarter\", \"colour_seen\": \"beige\"}, {\"file\": \"COI21_ARE_front.jpg\", \"variant\": \"COI-21-ARE\", \"view\": \"front\", \"colour_seen\": \"beige\"}, {\"file\": \"COI21_AZU_34.jpg\", \"variant\": \"COI-21-AZU\", \"view\": \"three-quarter\", \"colour_seen\": \"blue\"}, {\"file\": \"COI21_AZU_front.jpg\", \"variant\": \"COI-21-AZU\", \"view\": \"front\", \"colour_seen\": \"beige\"}, {\"file\": \"COI21_ARE_side.jpg\", \"variant\": \"COI-21-ARE\", \"view\": \"side\", \"colour_seen\": \"beige\"}, {\"file\": \"COI21_AZU_detail.jpg\", \"variant\": \"COI-21-AZU\", \"view\": \"detail\", \"colour_seen\": \"blue\"}, {\"file\": \"COI21_AZU_side.jpg\", \"variant\": \"COI-21-AZU\", \"view\": \"side\", \"colour_seen\": \"blue\"}, {\"file\": \"IMG_4964.JPG\", \"variant\": null, \"view\": \"detail\", \"colour_seen\": \"beige\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Móveis Lusa COIMBRA Rug\",\n  \"bullets\": [\n    \"Hand-tufted, 100% wool construction\",\n    \"Dimensions: 290 cm width, 229 cm depth, and 1.3 cm height\",\n    \"Weight: 25.4 kg\",\n    \"Made in Portugal\"\n  ],\n  \"description\": \"The COIMBRA rug by Móveis Lusa is a hand-tufted piece made from 100% wool. This Portuguese-made rug measures 290 cm by 229 cm.\",\n  \"colours\": [\n    {\n      \"code\": \"COI-21-ARE\",\n      \"name\": \"Anthracite\"\n    },\n    {\n      \"code\": \"COI-21-AZU\",\n      \"name\": \"Blue\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Use an anti-slip underlay on smooth floors.\",\n    \"Keep away from open flames.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"COI21_ARE_34.jpg\",\n      \"text\": \"COIMBRA rug in beige, three-quarter view\"\n    },\n    {\n      \"file\": \"COI21_ARE_front.jpg\",\n      \"text\": \"COIMBRA rug in beige, front view\"\n    },\n    {\n      \"file\": \"COI21_AZU_34.jpg\",\n      \"text\": \"COIMBRA rug in blue, three-quarter view\"\n    },\n    {\n      \"file\": \"COI21_AZU_front.jpg\",\n      \"text\": \"COIMBRA rug in beige, front view\"\n    },\n    {\n      \"file\": \"COI21_ARE_side.jpg\",\n      \"text\": \"COIMBRA rug in beige, side view\"\n    },\n    {\n      \"file\": \"COI21_AZU_detail.jpg\",\n      \"text\": \"COIMBRA rug in blue, detail view\"\n    },\n    {\n      \"file\": \"COI21_AZU_side.jpg\",\n      \"text\": \"COIMBRA rug in blue, side view\"\n    },\n    {\n      \"file\": \"IMG_4964.JPG\",\n      \"text\": \"COIMBRA rug in beige, detail view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1087,
+   "completion_tokens": 574
+  },
+  "latency_s": 16.75
+ }
+}

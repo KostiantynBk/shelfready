@@ -1,0 +1,38 @@
+{
+ "key": "bd34e8db3cc216eac35f473f63fd8946ec9ce14ea40f9e20ed9e7c33f57f0944",
+ "purpose": "translate:SYN-01:es",
+ "recorded_at": "2026-10-14T18:09:38+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Spanish. Translate all words into natural Spanish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Spanish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'PORTO', 'POR-01-AZU', 'POR-01-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa PORTO Armchair\", \"bullets\": [\"Dimensions: 79 cm width, 92 cm depth, 95 cm height\", \"Seat depth: 55 cm\", \"Upholstery: 100% polyester velvet\", \"Legs: Solid beech with natural oil finish\", \"Maximum load capacity: 120 kg\"], \"description\": \"The PORTO armchair by Móveis Lusa is manufactured in Portugal. It features a velvet upholstery and solid beech legs with a natural oil finish.\", \"colours\": [{\"code\": \"POR-01-AZU\", \"name\": \"Blue\"}, {\"code\": \"POR-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4834.JPG\", \"text\": \"Three-quarter view of the PORTO armchair in blue.\"}, {\"file\": \"POR01_ANT_34.jpg\", \"text\": \"Three-quarter view of the PORTO armchair in anthracite grey.\"}, {\"file\": \"POR01_ANT_front.jpg\", \"text\": \"Front view of the PORTO armchair in anthracite grey.\"}, {\"file\": \"POR01_AZU_34.jpg\", \"text\": \"Three-quarter view of the PORTO armchair in blue.\"}, {\"file\": \"POR01_AZU_front.jpg\", \"text\": \"Front view of the PORTO armchair in blue.\"}, {\"file\": \"POR01_ANT_detail.jpg\", \"text\": \"Detail view of the PORTO armchair in anthracite grey.\"}, {\"file\": \"POR01_ANT_side.jpg\", \"text\": \"Side view of the PORTO armchair in anthracite grey.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Sillón Móveis Lusa PORTO\", \"bullets\": [\"Dimensiones: 79 cm de ancho, 92 cm de profundidad, 95 cm de altura\", \"Profundidad del asiento: 55 cm\", \"Tapicería: Terciopelo 100% poliéster\", \"Patas: Haya maciza con acabado en aceite natural\", \"Capacidad de carga máxima: 120 kg\"], \"description\": \"El sillón PORTO de Móveis Lusa está fabricado en Portugal. Cuenta con una tapicería de terciopelo y patas de haya maciza con un acabado en aceite natural.\", \"colours\": [{\"code\": \"POR-01-AZU\", \"name\": \"Azul\"}, {\"code\": \"POR-01-ANT\", \"name\": \"Antracita\"}], \"safety_warnings\": [\"No apto para uso exterior.\", \"Mantener alejado de fuentes de calor.\", \"No subirse al asiento.\"], \"alt_texts\": [{\"file\": \"IMG_4834.JPG\", \"text\": \"Vista en tres cuartos del sillón PORTO en azul.\"}, {\"file\": \"POR01_ANT_34.jpg\", \"text\": \"Vista en tres cuartos del sillón PORTO en gris antracita.\"}, {\"file\": \"POR01_ANT_front.jpg\", \"text\": \"Vista frontal del sillón PORTO en gris antracita.\"}, {\"file\": \"POR01_AZU_34.jpg\", \"text\": \"Vista en tres cuartos del sillón PORTO en azul.\"}, {\"file\": \"POR01_AZU_front.jpg\", \"text\": \"Vista frontal del sillón PORTO en azul.\"}, {\"file\": \"POR01_ANT_detail.jpg\", \"text\": \"Vista de detalle del sillón PORTO en gris antracita.\"}, {\"file\": \"POR01_ANT_side.jpg\", \"text\": \"Vista lateral del sillón PORTO en gris antracita.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 891,
+   "completion_tokens": 442
+  },
+  "latency_s": 17.281
+ }
+}

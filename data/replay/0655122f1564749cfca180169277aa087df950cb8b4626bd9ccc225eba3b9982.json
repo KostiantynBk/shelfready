@@ -1,0 +1,38 @@
+{
+ "key": "0655122f1564749cfca180169277aa087df950cb8b4626bd9ccc225eba3b9982",
+ "purpose": "listing:SYN-23",
+ "recorded_at": "2026-10-14T18:15:53+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Tapete TAVIRA / TAVIRA rug\", \"model\": \"TAVIRA\", \"brand\": \"Móveis Lusa\", \"width_cm\": 221, \"depth_cm\": 160, \"height_cm\": 1.3, \"weight_kg\": 6.4, \"product_type\": \"Tapete / rug\", \"upholstery\": \"Tufado à mão, 100% polipropileno / hand-tufted, 100% polypropylene\", \"care\": \"Não lavar; limpeza profissional / do not wash; professional cleaning only\", \"country_of_origin\": \"Portugal\", \"safety_warnings\": [\"Usar base antiderrapante em pisos lisos.\", \"Use an anti-slip underlay on smooth floors.\", \"Manter afastado de chamas abertas.\", \"Keep away from open flames.\"], \"variants\": [{\"code\": \"TAV-23-MUL\", \"colour_name\": \"Multicor\"}, {\"code\": \"TAV-23-ROS\", \"colour_name\": \"Rosa\"}]}\nPhotos: [{\"file\": \"TAV23_MUL_34.jpg\", \"variant\": \"TAV-23-MUL\", \"view\": \"three-quarter\", \"colour_seen\": \"blue\"}, {\"file\": \"TAV23_MUL_front.jpg\", \"variant\": \"TAV-23-MUL\", \"view\": \"front\", \"colour_seen\": \"multicolour\"}, {\"file\": \"TAV23_ROS_34.jpg\", \"variant\": \"TAV-23-ROS\", \"view\": \"three-quarter\", \"colour_seen\": \"multicolour\"}, {\"file\": \"TAV23_ROS_front.jpg\", \"variant\": \"TAV-23-ROS\", \"view\": \"front\", \"colour_seen\": \"red\"}, {\"file\": \"IMG_4682.JPG\", \"variant\": null, \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"TAV23_MUL_side.jpg\", \"variant\": \"TAV-23-MUL\", \"view\": \"side\", \"colour_seen\": \"grey\"}, {\"file\": \"TAV23_ROS_detail.jpg\", \"variant\": \"TAV-23-ROS\", \"view\": \"detail\", \"colour_seen\": \"multicolour\"}, {\"file\": \"TAV23_ROS_side.jpg\", \"variant\": \"TAV-23-ROS\", \"view\": \"side\", \"colour_seen\": \"red\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Móveis Lusa TAVIRA Rug\",\n  \"bullets\": [\n    \"Dimensions: 221 cm width, 160 cm depth, and 1.3 cm height\",\n    \"Hand-tufted construction made from 100% polypropylene\",\n    \"Weight: 6.4 kg\",\n    \"Made in Portugal\"\n  ],\n  \"description\": \"The TAVIRA rug by Móveis Lusa is a hand-tufted floor covering made from 100% polypropylene. Professional cleaning is required as this item should not be washed.\",\n  \"colours\": [\n    {\n      \"code\": \"TAV-23-MUL\",\n      \"name\": \"Multicolour\"\n    },\n    {\n      \"code\": \"TAV-23-ROS\",\n      \"name\": \"Pink\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Use an anti-slip underlay on smooth floors.\",\n    \"Keep away from open flames.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"TAV23_MUL_34.jpg\",\n      \"text\": \"Three-quarter view of the TAVIRA rug in blue.\"\n    },\n    {\n      \"file\": \"TAV23_MUL_front.jpg\",\n      \"text\": \"Front view of the TAVIRA rug in multicolour.\"\n    },\n    {\n      \"file\": \"TAV23_ROS_34.jpg\",\n      \"text\": \"Three-quarter view of the TAVIRA rug in multicolour.\"\n    },\n    {\n      \"file\": \"TAV23_ROS_front.jpg\",\n      \"text\": \"Front view of the TAVIRA rug in red.\"\n    },\n    {\n      \"file\": \"IMG_4682.JPG\",\n      \"text\": \"Detail view of the TAVIRA rug in grey.\"\n    },\n    {\n      \"file\": \"TAV23_MUL_side.jpg\",\n      \"text\": \"Side view of the TAVIRA rug in grey.\"\n    },\n    {\n      \"file\": \"TAV23_ROS_detail.jpg\",\n      \"text\": \"Detail view of the TAVIRA rug in multicolour.\"\n    },\n    {\n      \"file\": \"TAV23_ROS_side.jpg\",\n      \"text\": \"Side view of the TAVIRA rug in red.\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1099,
+   "completion_tokens": 575
+  },
+  "latency_s": 14.718
+ }
+}

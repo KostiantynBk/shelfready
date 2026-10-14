@@ -1,0 +1,38 @@
+{
+ "key": "b55c4baba64ab7fb12a263c639df556d90787b9d884e20d3bbd2d6f4853266e1",
+ "purpose": "listing:SYN-10",
+ "recorded_at": "2026-10-14T18:07:52+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Poltrona ÉVORA / ÉVORA armchair\", \"model\": \"ÉVORA\", \"brand\": \"Móveis Lusa\", \"depth_cm\": 60, \"height_cm\": 82, \"seat_height_cm\": 45, \"seat_depth_cm\": 36, \"max_load_kg\": 120, \"weight_kg\": 10.4, \"product_type\": \"Poltrona / Armchair\", \"legs_or_base\": \"Aço lacado, acabamento latão / powder-coated steel, brass finish\", \"upholstery\": \"Veludo, 100% poliéster / velvet, 100% polyester\", \"care\": \"Apenas limpeza a seco / dry clean only\", \"country_of_origin\": \"Portugal\", \"variants\": [{\"code\": \"EVO-10-MUS\", \"colour_name\": \"Musgo\"}]}\nPhotos: [{\"file\": \"EVO10_MUS_34.jpg\", \"variant\": \"EVO-10-MUS\", \"view\": \"three-quarter\", \"colour_seen\": \"green\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"variant\": \"EVO-10-MUS\", \"view\": \"front\", \"colour_seen\": \"green\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"variant\": null, \"view\": \"front\", \"colour_seen\": \"pink\"}, {\"file\": \"IMG_4234.JPG\", \"variant\": null, \"view\": \"three-quarter\", \"colour_seen\": \"pink\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"variant\": \"EVO-10-MUS\", \"view\": \"detail\", \"colour_seen\": \"green\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"variant\": \"EVO-10-MUS\", \"view\": \"side\", \"colour_seen\": \"green\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"variant\": null, \"view\": \"side\", \"colour_seen\": \"pink\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Móveis Lusa ÉVORA Armchair\",\n  \"bullets\": [\n    \"Upholstery: 100% polyester velvet\",\n    \"Base: Powder-coated steel with brass finish\",\n    \"Maximum load capacity: 120 kg\",\n    \"Dimensions: 82 cm height, 60 cm depth, 45 cm seat height, 36 cm seat depth\",\n    \"Made in Portugal\"\n  ],\n  \"description\": \"The ÉVORA armchair by Móveis Lusa features a velvet upholstery and a brass-finished powder-coated steel base. This piece weighs 10.4 kg and requires dry clean only care.\",\n  \"colours\": [\n    {\n      \"code\": \"EVO-10-MUS\",\n      \"name\": \"Moss Green\"\n    }\n  ],\n  \"safety_warnings\": [],\n  \"alt_texts\": [\n    {\n      \"file\": \"EVO10_MUS_34.jpg\",\n      \"text\": \"Three-quarter view of the ÉVORA armchair in green.\"\n    },\n    {\n      \"file\": \"EVO10_MUS_front.jpg\",\n      \"text\": \"Front view of the ÉVORA armchair in green.\"\n    },\n    {\n      \"file\": \"EVO10_ROS_front.jpg\",\n      \"text\": \"Front view of the ÉVORA armchair in pink.\"\n    },\n    {\n      \"file\": \"IMG_4234.JPG\",\n      \"text\": \"Three-quarter view of the ÉVORA armchair in pink.\"\n    },\n    {\n      \"file\": \"EVO10_MUS_detail.jpg\",\n      \"text\": \"Detail view of the ÉVORA armchair in green.\"\n    },\n    {\n      \"file\": \"EVO10_MUS_side.jpg\",\n      \"text\": \"Side view of the ÉVORA armchair in green.\"\n    },\n    {\n      \"file\": \"EVO10_ROS_side.jpg\",\n      \"text\": \"Side view of the ÉVORA armchair in pink.\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1014,
+   "completion_tokens": 496
+  },
+  "latency_s": 13.062
+ }
+}

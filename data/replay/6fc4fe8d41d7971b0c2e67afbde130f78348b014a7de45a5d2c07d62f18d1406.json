@@ -1,0 +1,38 @@
+{
+ "key": "6fc4fe8d41d7971b0c2e67afbde130f78348b014a7de45a5d2c07d62f18d1406",
+ "purpose": "translate:SYN-15:it",
+ "recorded_at": "2026-10-14T18:14:37+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Italian. Translate all words into natural Italian, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Italian term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Ningbo Brightway Home Co.', 'MOSEL', 'MOS-15-SCH', 'MOS-15-SIL'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Ningbo Brightway Home Co. MOSEL Floor Lamp\", \"bullets\": [\"Dimensions: 39 cm width, 39 cm depth, 56 cm height\", \"Weight: 6.3 kg\", \"Base made of matt black powder-coated steel\", \"Compatible with E27 bulbs up to 40 W\"], \"description\": \"The MOSEL floor lamp by Ningbo Brightway Home Co. features a powder-coated steel base in matt black. This indoor lighting fixture measures 56 cm in height and should be cleaned with a dry cloth when switched off.\", \"colours\": [{\"code\": \"MOS-15-SCH\", \"name\": \"Black\"}, {\"code\": \"MOS-15-SIL\", \"name\": \"Silver\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"IMG_4241.JPG\", \"text\": \"MOSEL floor lamp in black, packshot view\"}, {\"file\": \"MOSEL-SCH-1.jpg\", \"text\": \"MOSEL floor lamp in black, packshot view\"}, {\"file\": \"MOSEL-SCH-2.jpg\", \"text\": \"MOSEL floor lamp in black, packshot view\"}, {\"file\": \"MOSEL-SIL-1.jpg\", \"text\": \"MOSEL floor lamp in silver, packshot view\"}, {\"file\": \"MOSEL-SIL-3.jpg\", \"text\": \"MOSEL floor lamp in silver, packshot view\"}, {\"file\": \"MOSEL-SIL-4.jpg\", \"text\": \"MOSEL floor lamp in grey, lifestyle view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Lampada da terra Ningbo Brightway Home Co. MOSEL\", \"bullets\": [\"Dimensioni: 39 cm di larghezza, 39 cm di profondità, 56 cm di altezza\", \"Peso: 6,3 kg\", \"Base in acciaio verniciato a polvere nero opaco\", \"Compatibile con lampadine E27 fino a 40 W\"], \"description\": \"La lampada da terra MOSEL di Ningbo Brightway Home Co. presenta una base in acciaio verniciato a polvere nero opaco. Questo apparecchio di illuminazione per interni misura 56 cm di altezza e deve essere pulito con un panno asciutto quando è spento.\", \"colours\": [{\"code\": \"MOS-15-SCH\", \"name\": \"Nero\"}, {\"code\": \"MOS-15-SIL\", \"name\": \"Argento\"}], \"safety_warnings\": [\"Utilizzare solo lampadine E27, max. 40 W.\", \"Scollegare prima della pulizia.\", \"Solo per uso interno.\"], \"alt_texts\": [{\"file\": \"IMG_4241.JPG\", \"text\": \"Lampada da terra MOSEL in nero, vista prodotto\"}, {\"file\": \"MOSEL-SCH-1.jpg\", \"text\": \"Lampada da terra MOSEL in nero, vista prodotto\"}, {\"file\": \"MOSEL-SCH-2.jpg\", \"text\": \"Lampada da terra MOSEL in nero, vista prodotto\"}, {\"file\": \"MOSEL-SIL-1.jpg\", \"text\": \"Lampada da terra MOSEL in argento, vista prodotto\"}, {\"file\": \"MOSEL-SIL-3.jpg\", \"text\": \"Lampada da terra MOSEL in argento, vista prodotto\"}, {\"file\": \"MOSEL-SIL-4.jpg\", \"text\": \"Lampada da terra MOSEL in grigio, vista ambientata\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 861,
+   "completion_tokens": 416
+  },
+  "latency_s": 11.813
+ }
+}

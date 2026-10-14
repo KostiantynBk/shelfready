@@ -1,0 +1,38 @@
+{
+ "key": "ad8ee96c8873733e7e8565c13d522e4b7a9299a0b07ffd23facf7058cc677372",
+ "purpose": "listing:SYN-01",
+ "recorded_at": "2026-10-14T18:07:38+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Poltrona PORTO / PORTO armchair\", \"model\": \"PORTO\", \"brand\": \"Móveis Lusa\", \"width_cm\": 79, \"depth_cm\": 92, \"height_cm\": 95, \"seat_depth_cm\": 55, \"max_load_kg\": 120, \"weight_kg\": 30.8, \"product_type\": \"Poltrona / Armchair\", \"legs_or_base\": \"Faia maciça, acabamento natural a óleo / solid beech, natural oil finish\", \"upholstery\": \"Veludo, 100% poliéster / velvet, 100% polyester\", \"country_of_origin\": \"Portugal\", \"safety_warnings\": [\"Não utilizar no exterior.\", \"Not for outdoor use.\", \"Manter afastado de fontes de calor.\", \"Keep away from heat sources.\", \"Não subir para o assento.\", \"Do not stand on the seat.\"], \"variants\": [{\"code\": \"POR-01-AZU\", \"colour_name\": \"Azul\"}, {\"code\": \"POR-01-ANT\", \"colour_name\": \"Antracite\"}]}\nPhotos: [{\"file\": \"IMG_4834.JPG\", \"variant\": null, \"view\": \"three-quarter\", \"colour_seen\": \"blue\"}, {\"file\": \"POR01_ANT_34.jpg\", \"variant\": \"POR-01-ANT\", \"view\": \"three-quarter\", \"colour_seen\": \"grey\"}, {\"file\": \"POR01_ANT_front.jpg\", \"variant\": \"POR-01-ANT\", \"view\": \"front\", \"colour_seen\": \"grey\"}, {\"file\": \"POR01_AZU_34.jpg\", \"variant\": \"POR-01-AZU\", \"view\": \"three-quarter\", \"colour_seen\": \"blue\"}, {\"file\": \"POR01_AZU_front.jpg\", \"variant\": \"POR-01-AZU\", \"view\": \"front\", \"colour_seen\": \"blue\"}, {\"file\": \"POR01_ANT_detail.jpg\", \"variant\": \"POR-01-ANT\", \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"POR01_ANT_side.jpg\", \"variant\": \"POR-01-ANT\", \"view\": \"side\", \"colour_seen\": \"grey\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Móveis Lusa PORTO Armchair\",\n  \"bullets\": [\n    \"Dimensions: 79 cm width, 92 cm depth, 95 cm height\",\n    \"Seat depth: 55 cm\",\n    \"Upholstery: 100% polyester velvet\",\n    \"Legs: Solid beech with natural oil finish\",\n    \"Maximum load capacity: 120 kg\"\n  ],\n  \"description\": \"The PORTO armchair by Móveis Lusa is manufactured in Portugal. It features a velvet upholstery and solid beech legs with a natural oil finish.\",\n  \"colours\": [\n    {\n      \"code\": \"POR-01-AZU\",\n      \"name\": \"Blue\"\n    },\n    {\n      \"code\": \"POR-01-ANT\",\n      \"name\": \"Anthracite\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Not for outdoor use.\",\n    \"Keep away from heat sources.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4834.JPG\",\n      \"text\": \"Three-quarter view of the PORTO armchair in blue.\"\n    },\n    {\n      \"file\": \"POR01_ANT_34.jpg\",\n      \"text\": \"Three-quarter view of the PORTO armchair in anthracite grey.\"\n    },\n    {\n      \"file\": \"POR01_ANT_front.jpg\",\n      \"text\": \"Front view of the PORTO armchair in anthracite grey.\"\n    },\n    {\n      \"file\": \"POR01_AZU_34.jpg\",\n      \"text\": \"Three-quarter view of the PORTO armchair in blue.\"\n    },\n    {\n      \"file\": \"POR01_AZU_front.jpg\",\n      \"text\": \"Front view of the PORTO armchair in blue.\"\n    },\n    {\n      \"file\": \"POR01_ANT_detail.jpg\",\n      \"text\": \"Detail view of the PORTO armchair in anthracite grey.\"\n    },\n    {\n      \"file\": \"POR01_ANT_side.jpg\",\n      \"text\": \"Side view of the PORTO armchair in anthracite grey.\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1075,
+   "completion_tokens": 533
+  },
+  "latency_s": 17.188
+ }
+}

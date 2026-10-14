@@ -1,0 +1,38 @@
+{
+ "key": "e7d24464a808b51b207d00f0567798a1376baa6bd3a43a54db1171fb6b1402ad",
+ "purpose": "translate:SYN-06:es",
+ "recorded_at": "2026-10-14T18:08:47+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Spanish. Translate all words into natural Spanish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Spanish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'ISAR', 'ISA-06-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen ISAR Dining Chair\", \"bullets\": [\"Dimensions: 59 cm width, 50 cm depth, 89 cm height\", \"Seat height: 45 cm; seat depth: 30 cm\", \"Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C\", \"Base: Matt black powder-coated steel legs\", \"Maximum load capacity: 120 kg\"], \"description\": \"The ISAR dining chair by Nordholz Wohnen features a woven fabric upholstery and a sturdy powder-coated steel base. This chair is manufactured in Germany and includes a removable, washable cover for easy maintenance.\", \"colours\": [{\"code\": \"ISA-06-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"ISAR-ANT-1.jpg\", \"text\": \"ISAR dining chair in grey, packshot view\"}, {\"file\": \"ISAR-ANT-2.jpg\", \"text\": \"ISAR dining chair in grey, packshot view\"}, {\"file\": \"ISAR-ANT-3.jpg\", \"text\": \"ISAR dining chair in grey, packshot view\"}, {\"file\": \"ISAR-SAN-1.jpg\", \"text\": \"ISAR dining chair in beige, packshot view\"}, {\"file\": \"ISAR-SAN-2.jpg\", \"text\": \"ISAR dining chair in beige, packshot view\"}, {\"file\": \"ISAR-SAN-3.jpg\", \"text\": \"ISAR dining chair in beige, packshot view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Silla de Comedor Nordholz Wohnen ISAR\", \"bullets\": [\"Dimensiones: 59 cm de ancho, 50 cm de profundidad, 89 cm de altura\", \"Altura del asiento: 45 cm; profundidad del asiento: 30 cm\", \"Tapicería: tejido 100% poliéster con funda extraíble lavable a 30 °C\", \"Base: patas de acero con recubrimiento de polvo negro mate\", \"Capacidad de carga máxima: 120 kg\"], \"description\": \"La silla de comedor ISAR de Nordholz Wohnen presenta una tapicería de tejido y una robusta base de acero con recubrimiento de polvo. Esta silla está fabricada en Alemania e incluye una funda extraíble y lavable para facilitar su mantenimiento.\", \"colours\": [{\"code\": \"ISA-06-ANT\", \"name\": \"Antracita\"}], \"safety_warnings\": [\"No apto para uso exterior.\", \"Mantener alejado de fuentes de calor.\", \"No subirse al asiento.\"], \"alt_texts\": [{\"file\": \"ISAR-ANT-1.jpg\", \"text\": \"Silla de comedor ISAR en gris, vista de producto\"}, {\"file\": \"ISAR-ANT-2.jpg\", \"text\": \"Silla de comedor ISAR en gris, vista de producto\"}, {\"file\": \"ISAR-ANT-3.jpg\", \"text\": \"Silla de comedor ISAR en gris, vista de producto\"}, {\"file\": \"ISAR-SAN-1.jpg\", \"text\": \"Silla de comedor ISAR en beige, vista de producto\"}, {\"file\": \"ISAR-SAN-2.jpg\", \"text\": \"Silla de comedor ISAR en beige, vista de producto\"}, {\"file\": \"ISAR-SAN-3.jpg\", \"text\": \"Silla de comedor ISAR en beige, vista de producto\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 852,
+   "completion_tokens": 417
+  },
+  "latency_s": 11.985
+ }
+}

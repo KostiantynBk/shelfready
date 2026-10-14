@@ -1,0 +1,38 @@
+{
+ "key": "a043e21712788ae66d0ac956824ed615496d1d507bf0b212f58f046e476c6f72",
+ "purpose": "back:SYN-17:uk",
+ "recorded_at": "2026-10-14T18:19:43+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Настільна лампа Ningbo Brightway Home Co. LAHN\", \"bullets\": [\"Розміри: ширина 22 см, глибина 22 см, висота 33 см\", \"Вага: 2.8 кг\", \"Сумісна з лампами E27, макс. 40 Вт\", \"Очищати сухою ганчіркою у вимкненому стані\"], \"description\": \"Настільна лампа LAHN від Ningbo Brightway Home Co. призначена для використання всередині приміщень. Цей компактний освітлювальний прилад має висоту 33 см, а ширину та глибину — 22 см.\", \"colours\": [{\"code\": \"LAH-17-BLA\", \"name\": \"Синій\"}], \"safety_warnings\": [\"Використовуйте лише лампи E27, макс. 40 Вт.\", \"Від'єднайте від мережі перед очищенням.\", \"Тільки для внутрішнього використання.\"], \"alt_texts\": [{\"file\": \"IMG_4328.JPG\", \"text\": \"Настільна лампа LAHN у синьому кольорі, вигляд виробу\"}, {\"file\": \"LAHN-BLA-1.jpg\", \"text\": \"Настільна лампа LAHN у синьому кольорі, вигляд виробу\"}, {\"file\": \"LAHN-BLA-2.jpg\", \"text\": \"Настільна лампа LAHN у білому кольорі, вигляд виробу\"}, {\"file\": \"LAHN-BLA-3.jpg\", \"text\": \"Настільна лампа LAHN у синьому кольорі, вигляд виробу\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Ningbo Brightway Home Co. LAHN Table Lamp\", \"bullets\": [\"Dimensions: width 22 cm, depth 22 cm, height 33 cm\", \"Weight: 2.8 kg\", \"Compatible with E27 bulbs, max 40 W\", \"Clean with a dry cloth when switched off\"], \"description\": \"The LAHN table lamp from Ningbo Brightway Home Co. is designed for indoor use. This compact lighting fixture has a height of 33 cm, and a width and depth of 22 cm.\", \"colours\": [{\"code\": \"LAH-17-BLA\", \"name\": \"Blue\"}], \"safety_warnings\": [\"Use only E27 bulbs, max 40 W.\", \"Disconnect from the network before cleaning.\", \"For indoor use only.\"], \"alt_texts\": [{\"file\": \"IMG_4328.JPG\", \"text\": \"LAHN table lamp in blue, product view\"}, {\"file\": \"LAHN-BLA-1.jpg\", \"text\": \"LAHN table lamp in blue, product view\"}, {\"file\": \"LAHN-BLA-2.jpg\", \"text\": \"LAHN table lamp in white, product view\"}, {\"file\": \"LAHN-BLA-3.jpg\", \"text\": \"LAHN table lamp in blue, product view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 789,
+   "completion_tokens": 293
+  },
+  "latency_s": 8.172
+ }
+}

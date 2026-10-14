@@ -1,0 +1,38 @@
+{
+ "key": "7e074323d6717871a84bca9bf94e1cbcbe809c693df0bd44669542c0bc77776a",
+ "purpose": "translate:SYN-06:pl",
+ "recorded_at": "2026-10-14T18:09:00+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Polish. Translate all words into natural Polish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Polish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'ISAR', 'ISA-06-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen ISAR Dining Chair\", \"bullets\": [\"Dimensions: 59 cm width, 50 cm depth, 89 cm height\", \"Seat height: 45 cm; seat depth: 30 cm\", \"Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C\", \"Base: Matt black powder-coated steel legs\", \"Maximum load capacity: 120 kg\"], \"description\": \"The ISAR dining chair by Nordholz Wohnen features a woven fabric upholstery and a sturdy powder-coated steel base. This chair is manufactured in Germany and includes a removable, washable cover for easy maintenance.\", \"colours\": [{\"code\": \"ISA-06-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"ISAR-ANT-1.jpg\", \"text\": \"ISAR dining chair in grey, packshot view\"}, {\"file\": \"ISAR-ANT-2.jpg\", \"text\": \"ISAR dining chair in grey, packshot view\"}, {\"file\": \"ISAR-ANT-3.jpg\", \"text\": \"ISAR dining chair in grey, packshot view\"}, {\"file\": \"ISAR-SAN-1.jpg\", \"text\": \"ISAR dining chair in beige, packshot view\"}, {\"file\": \"ISAR-SAN-2.jpg\", \"text\": \"ISAR dining chair in beige, packshot view\"}, {\"file\": \"ISAR-SAN-3.jpg\", \"text\": \"ISAR dining chair in beige, packshot view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Krzesło jadalniane Nordholz Wohnen ISAR\", \"bullets\": [\"Wymiary: 59 cm szerokości, 50 cm głębokości, 89 cm wysokości\", \"Wysokość siedziska: 45 cm; głębokość siedziska: 30 cm\", \"Tapicerka: 100% poliestrowa tkanina pleciona ze zdejmowaną pokrowcem, możliwym do prania w 30 °C\", \"Podstawa: Matowe, czarne malowane proszkowo stalowe nogi\", \"Maksymalne obciążenie: 120 kg\"], \"description\": \"Krzesło jadalniane ISAR od Nordholz Wohnen charakteryzuje się plecioną tapicerką i solidną podstawie ze stali malowanej proszkowo. Krzesło jest produkowane w Niemczech i posiada zdejmowany, możliwy do prania pokrowiec, co ułatwia konserwację.\", \"colours\": [{\"code\": \"ISA-06-ANT\", \"name\": \"Antracytowy\"}], \"safety_warnings\": [\"Nie do użytku zewnętrznego.\", \"Trzymać z dala od źródeł ciepła.\", \"Nie stać na siedzisku.\"], \"alt_texts\": [{\"file\": \"ISAR-ANT-1.jpg\", \"text\": \"Krzesło jadalniane ISAR w kolorze szarym, widok produktowy\"}, {\"file\": \"ISAR-ANT-2.jpg\", \"text\": \"Krzesło jadalniane ISAR w kolorze szarym, widok produktowy\"}, {\"file\": \"ISAR-ANT-3.jpg\", \"text\": \"Krzesło jadalniane ISAR w kolorze szarym, widok produktowy\"}, {\"file\": \"ISAR-SAN-1.jpg\", \"text\": \"Krzesło jadalniane ISAR w kolorze beżowym, widok produktowy\"}, {\"file\": \"ISAR-SAN-2.jpg\", \"text\": \"Krzesło jadalniane ISAR w kolorze beżowym, widok produktowy\"}, {\"file\": \"ISAR-SAN-3.jpg\", \"text\": \"Krzesło jadalniane ISAR w kolorze beżowym, widok produktowy\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 852,
+   "completion_tokens": 517
+  },
+  "latency_s": 17.782
+ }
+}

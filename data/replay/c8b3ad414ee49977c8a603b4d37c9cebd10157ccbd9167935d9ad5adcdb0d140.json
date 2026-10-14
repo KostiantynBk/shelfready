@@ -1,0 +1,38 @@
+{
+ "key": "c8b3ad414ee49977c8a603b4d37c9cebd10157ccbd9167935d9ad5adcdb0d140",
+ "purpose": "translate:SYN-12:es",
+ "recorded_at": "2026-10-14T18:12:39+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Spanish. Translate all words into natural Spanish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Spanish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'SINTRA', 'SIN-12-ANT', 'SIN-12-CAR'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa SINTRA Sofa\", \"bullets\": [\"Dimensions: 182 cm width, 86 cm depth, 90 cm height\", \"Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C\", \"Legs: Solid beech with walnut stain\", \"Maximum load capacity: 220 kg\", \"Made in Portugal\"], \"description\": \"The SINTRA sofa by Móveis Lusa features a 100% polyester woven fabric upholstery and solid beech legs with a walnut stain. It includes a removable cover for easy maintenance, washable at 30 °C.\", \"colours\": [{\"code\": \"SIN-12-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"SIN-12-CAR\", \"name\": \"Caramel\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"SIN12_ANT_34.jpg\", \"text\": \"SINTRA sofa in grey, three-quarter view\"}, {\"file\": \"SIN12_ANT_front.jpg\", \"text\": \"SINTRA sofa in grey, front view\"}, {\"file\": \"SIN12_CAR_34.jpg\", \"text\": \"SINTRA sofa in brown, three-quarter view\"}, {\"file\": \"SIN12_CAR_front.jpg\", \"text\": \"SINTRA sofa in brown, front view\"}, {\"file\": \"IMG_4571.JPG\", \"text\": \"SINTRA sofa in grey, packshot view\"}, {\"file\": \"SIN12_ANT_side.jpg\", \"text\": \"SINTRA sofa in grey, side view\"}, {\"file\": \"SIN12_CAR_detail.jpg\", \"text\": \"SINTRA sofa in brown, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Sofá SINTRA de Móveis Lusa\", \"bullets\": [\"Dimensiones: 182 cm de ancho, 86 cm de profundidad, 90 cm de altura\", \"Tapicería: tejido 100% poliéster con funda extraíble lavable a 30 °C\", \"Patas: haya maciza con acabado en nogal\", \"Capacidad de carga máxima: 220 kg\", \"Fabricado en Portugal\"], \"description\": \"El sofá SINTRA de Móveis Lusa presenta una tapicería de tejido 100% poliéster y patas de haya maciza con acabado en nogal. Incluye una funda extraíble para facilitar el mantenimiento, lavable a 30 °C.\", \"colours\": [{\"code\": \"SIN-12-ANT\", \"name\": \"Antracita\"}, {\"code\": \"SIN-12-CAR\", \"name\": \"Caramelo\"}], \"safety_warnings\": [\"No apto para uso exterior.\", \"Mantener alejado de fuentes de calor.\", \"No subirse al asiento.\"], \"alt_texts\": [{\"file\": \"SIN12_ANT_34.jpg\", \"text\": \"Sofá SINTRA en gris, vista en tres cuartos\"}, {\"file\": \"SIN12_ANT_front.jpg\", \"text\": \"Sofá SINTRA en gris, vista frontal\"}, {\"file\": \"SIN12_CAR_34.jpg\", \"text\": \"Sofá SINTRA en marrón, vista en tres cuartos\"}, {\"file\": \"SIN12_CAR_front.jpg\", \"text\": \"Sofá SINTRA en marrón, vista frontal\"}, {\"file\": \"IMG_4571.JPG\", \"text\": \"Sofá SINTRA en gris, vista de catálogo\"}, {\"file\": \"SIN12_ANT_side.jpg\", \"text\": \"Sofá SINTRA en gris, vista lateral\"}, {\"file\": \"SIN12_CAR_detail.jpg\", \"text\": \"Sofá SINTRA en marrón, vista de detalle\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 909,
+   "completion_tokens": 457
+  },
+  "latency_s": 14.0
+ }
+}

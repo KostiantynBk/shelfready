@@ -1,0 +1,38 @@
+{
+ "key": "fe6857a99c6224437a2a38176ca5bd5f7cb62d355693611c7ea3c1a5acb6c439",
+ "purpose": "translate:SYN-20:pt",
+ "recorded_at": "2026-10-14T18:20:56+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into European Portuguese. Translate all words into natural European Portuguese, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a European Portuguese term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'LECH', 'LEC-20-ANT', 'LEC-20-SAN'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen LECH Rug\", \"bullets\": [\"Dimensions: 160 cm width, 120 cm depth, and 5.1 cm height\", \"Origin: Made in Deutschland\", \"Care: Professional cleaning only; do not wash\"], \"description\": \"The LECH rug by Nordholz Wohnen is a high-quality home accessory. It is available in multiple colours to suit your interior design.\", \"colours\": [{\"code\": \"LEC-20-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"LEC-20-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Use an anti-slip underlay on smooth floors.\", \"Keep away from open flames.\"], \"alt_texts\": [{\"file\": \"IMG_4390.JPG\", \"text\": \"Detail view of the LECH rug in grey\"}, {\"file\": \"LECH-ANT-1.jpg\", \"text\": \"Lifestyle view of the LECH rug in anthracite grey\"}, {\"file\": \"LECH-ANT-2.jpg\", \"text\": \"Detail view of the LECH rug in anthracite grey\"}, {\"file\": \"LECH-ANT-3.jpg\", \"text\": \"Detail view of the LECH rug in anthracite grey\"}, {\"file\": \"LECH-SAN-1.jpg\", \"text\": \"Lifestyle view of the LECH rug in sand grey\"}, {\"file\": \"LECH-SAN-2.jpg\", \"text\": \"Detail view of the LECH rug in sand beige\"}, {\"file\": \"LECH-SAN-3.jpg\", \"text\": \"Detail view of the LECH rug in sand beige\"}, {\"file\": \"LECH-SAN-4.jpg\", \"text\": \"Detail view of the LECH rug in sand beige\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Tapete Nordholz Wohnen LECH\",\n  \"bullets\": [\n    \"Dimensões: 160 cm de largura, 120 cm de profundidade e 5,1 cm de altura\",\n    \"Origem: Fabricado na Alemanha\",\n    \"Cuidados: Apenas limpeza profissional; não lavar\"\n  ],\n  \"description\": \"O tapete LECH da Nordholz Wohnen é um acessório para a casa de alta qualidade. Está disponível em várias cores para se adaptar ao design do seu interior.\",\n  \"colours\": [\n    {\n      \"code\": \"LEC-20-ANT\",\n      \"name\": \"Antracite\"\n    },\n    {\n      \"code\": \"LEC-20-SAN\",\n      \"name\": \"Areia\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Utilize um tapete antiderrapante em pavimentos lisos.\",\n    \"Mantenha afastado de chamas abertas.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4390.JPG\",\n      \"text\": \"Vista detalhada do tapete LECH em cinzento\"\n    },\n    {\n      \"file\": \"LECH-ANT-1.jpg\",\n      \"text\": \"Vista de ambiente do tapete LECH em cinzento antracite\"\n    },\n    {\n      \"file\": \"LECH-ANT-2.jpg\",\n      \"text\": \"Vista detalhada do tapete LECH em cinzento antracite\"\n    },\n    {\n      \"file\": \"LECH-ANT-3.jpg\",\n      \"text\": \"Vista detalhada do tapete LECH em cinzento antracite\"\n    },\n    {\n      \"file\": \"LECH-SAN-1.jpg\",\n      \"text\": \"Vista de ambiente do tapete LECH em cinzento areia\"\n    },\n    {\n      \"file\": \"LECH-SAN-2.jpg\",\n      \"text\": \"Vista detalhada do tapete LECH em bege areia\"\n    },\n    {\n      \"file\": \"LECH-SAN-3.jpg\",\n      \"text\": \"Vista detalhada do tapete LECH em bege areia\"\n    },\n    {\n      \"file\": \"LECH-SAN-4.jpg\",\n      \"text\": \"Vista detalhada do tapete LECH em bege areia\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 879,
+   "completion_tokens": 576
+  },
+  "latency_s": 17.203
+ }
+}

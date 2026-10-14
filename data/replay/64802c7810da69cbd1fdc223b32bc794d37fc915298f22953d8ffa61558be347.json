@@ -1,0 +1,38 @@
+{
+ "key": "64802c7810da69cbd1fdc223b32bc794d37fc915298f22953d8ffa61558be347",
+ "purpose": "translate:SYN-04:pl",
+ "recorded_at": "2026-10-14T18:11:06+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Polish. Translate all words into natural Polish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Polish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'BRAGA', 'BRA-04-ARE', 'BRA-04-BEG', 'BRA-04-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa BRAGA Recliner\", \"bullets\": [\"Dimensions: 112 cm width, 84 cm depth, 99 cm height\", \"Seat height: 44 cm; seat depth: 50 cm\", \"Upholstery: 100% polyester woven fabric\", \"Removable cover, washable at 30 °C\", \"Made in Portugal\"], \"description\": \"The BRAGA recliner by Móveis Lusa is a comfortable seating option upholstered in 100% polyester woven fabric. It features a removable cover for easy maintenance and weighs 39.9 kg.\", \"colours\": [{\"code\": \"BRA-04-ARE\", \"name\": \"Sand\"}, {\"code\": \"BRA-04-BEG\", \"name\": \"Beige\"}, {\"code\": \"BRA-04-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"BRA04_ANT_34.jpg\", \"text\": \"BRAGA recliner in grey, three-quarter view\"}, {\"file\": \"BRA04_ANT_front.jpg\", \"text\": \"BRAGA recliner in grey, front view\"}, {\"file\": \"BRA04_ARE_34.jpg\", \"text\": \"BRAGA recliner in white, three-quarter view\"}, {\"file\": \"BRA04_ARE_front.jpg\", \"text\": \"BRAGA recliner in white, front view\"}, {\"file\": \"BRA04_BEG_34.jpg\", \"text\": \"BRAGA recliner in beige, three-quarter view\"}, {\"file\": \"BRA04_BEG_front.jpg\", \"text\": \"BRAGA recliner in beige, front view\"}, {\"file\": \"BRA04_ANT_detail.jpg\", \"text\": \"Detail view of the BRAGA recliner in grey\"}, {\"file\": \"BRA04_ARE_side.jpg\", \"text\": \"BRAGA recliner in white, side view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Fotel rozkładany Móveis Lusa BRAGA\", \"bullets\": [\"Wymiary: 112 cm szerokości, 84 cm głębokości, 99 cm wysokości\", \"Wysokość siedziska: 44 cm; głębokość siedziska: 50 cm\", \"Obicie: 100% poliestrowa tkanina pleciona\", \"Zdejnowalna pokrowa, możliwa do prania w 30 °C\", \"Wyprodukowano w Portugalii\"], \"description\": \"Fotel rozkładany BRAGA marki Móveis Lusa to komfortowe rozwiązanie do wypoczynku, obite w 100% poliestrową tkaninę plecioną. Posiada zdejmowany pokrowiec dla łatwiejszej konserwacji i waży 39.9 kg.\", \"colours\": [{\"code\": \"BRA-04-ARE\", \"name\": \"Piaskowy\"}, {\"code\": \"BRA-04-BEG\", \"name\": \"Beżowy\"}, {\"code\": \"BRA-04-ANT\", \"name\": \"Antracytowy\"}], \"safety_warnings\": [\"Nie do użytku zewnętrznego.\", \"Trzymać z dala od źródeł ciepła.\", \"Nie stać na siedzisku.\"], \"alt_texts\": [{\"file\": \"BRA04_ANT_34.jpg\", \"text\": \"Fotel rozkładany BRAGA w kolorze szarym, widok z trzech czwartych\"}, {\"file\": \"BRA04_ANT_front.jpg\", \"text\": \"Fotel rozkładany BRAGA w kolorze szarym, widok z przodu\"}, {\"file\": \"BRA04_ARE_34.jpg\", \"text\": \"Fotel rozkładany BRAGA w kolorze białym, widok z trzech czwartych\"}, {\"file\": \"BRA04_ARE_front.jpg\", \"text\": \"Fotel rozkładany BRAGA w kolorze białym, widok z przodu\"}, {\"file\": \"BRA04_BEG_34.jpg\", \"text\": \"Fotel rozkładany BRAGA w kolorze beżowym, widok z trzech czwartych\"}, {\"file\": \"BRA04_BEG_front.jpg\", \"text\": \"Fotel rozkładany BRAGA w kolorze beżowym, widok z przodu\"}, {\"file\": \"BRA04_ANT_detail.jpg\", \"text\": \"Zbliżenie na detale fotela rozkładanego BRAGA w kolorze szarym\"}, {\"file\": \"BRA04_ARE_side.jpg\", \"text\": \"Fotel rozkładany BRAGA w kolorze białym, widok z boku\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 965,
+   "completion_tokens": 610
+  },
+  "latency_s": 21.578
+ }
+}

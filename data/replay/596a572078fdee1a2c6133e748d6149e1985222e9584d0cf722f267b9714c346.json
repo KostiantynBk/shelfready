@@ -1,0 +1,38 @@
+{
+ "key": "596a572078fdee1a2c6133e748d6149e1985222e9584d0cf722f267b9714c346",
+ "purpose": "translate:SYN-06:uk",
+ "recorded_at": "2026-10-14T18:09:12+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Ukrainian. Translate all words into natural Ukrainian, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Ukrainian term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'ISAR', 'ISA-06-ANT'. Keep every number exactly, with its unit (см, мм, кг, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen ISAR Dining Chair\", \"bullets\": [\"Dimensions: 59 cm width, 50 cm depth, 89 cm height\", \"Seat height: 45 cm; seat depth: 30 cm\", \"Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C\", \"Base: Matt black powder-coated steel legs\", \"Maximum load capacity: 120 kg\"], \"description\": \"The ISAR dining chair by Nordholz Wohnen features a woven fabric upholstery and a sturdy powder-coated steel base. This chair is manufactured in Germany and includes a removable, washable cover for easy maintenance.\", \"colours\": [{\"code\": \"ISA-06-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"ISAR-ANT-1.jpg\", \"text\": \"ISAR dining chair in grey, packshot view\"}, {\"file\": \"ISAR-ANT-2.jpg\", \"text\": \"ISAR dining chair in grey, packshot view\"}, {\"file\": \"ISAR-ANT-3.jpg\", \"text\": \"ISAR dining chair in grey, packshot view\"}, {\"file\": \"ISAR-SAN-1.jpg\", \"text\": \"ISAR dining chair in beige, packshot view\"}, {\"file\": \"ISAR-SAN-2.jpg\", \"text\": \"ISAR dining chair in beige, packshot view\"}, {\"file\": \"ISAR-SAN-3.jpg\", \"text\": \"ISAR dining chair in beige, packshot view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Обідній стілець Nordholz Wohnen ISAR\", \"bullets\": [\"Розміри: ширина 59 см, глибина 50 см, висота 89 см\", \"Висота сидіння: 45 см; глибина сидіння: 30 см\", \"Оббивка: 100% поліестерова тканина з одним чохлом, що знімається та переється при 30 °C\", \"Основа: сталеві ніжки з матовим чорним порошковим покриттям\", \"Максимальне навантаження: 120 кг\"], \"description\": \"Обідній стілець ISAR від Nordholz Wohnen має оббивку з тканої тканини та міцну основу зі сталі з порошковим покриттям. Цей стілець виготовлено в Німеччині, він оснащений знімним чохлом, що переється, для легкого догляду.\", \"colours\": [{\"code\": \"ISA-06-ANT\", \"name\": \"Антрацитовий\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"ISAR-ANT-1.jpg\", \"text\": \"Обідній стілець ISAR у сірому кольорі, вигляд виробу\"}, {\"file\": \"ISAR-ANT-2.jpg\", \"text\": \"Обідній стілець ISAR у сірому кольорі, вигляд виробу\"}, {\"file\": \"ISAR-ANT-3.jpg\", \"text\": \"Обідній стілець ISAR у сірому кольорі, вигляд виробу\"}, {\"file\": \"ISAR-SAN-1.jpg\", \"text\": \"Обідній стілець ISAR у бежевому кольорі, вигляд виробу\"}, {\"file\": \"ISAR-SAN-2.jpg\", \"text\": \"Обідній стілець ISAR у бежевому кольорі, вигляд виробу\"}, {\"file\": \"ISAR-SAN-3.jpg\", \"text\": \"Обідній стілець ISAR у бежевому кольорі, вигляд виробу\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 852,
+   "completion_tokens": 526
+  },
+  "latency_s": 20.625
+ }
+}

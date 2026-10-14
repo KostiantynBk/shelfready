@@ -1,0 +1,38 @@
+{
+ "key": "233f55ce7d3c126a7c6d3e7517bed861b9173354fa98e5615d8971231ce7e7bf",
+ "purpose": "translate:SYN-01:pt",
+ "recorded_at": "2026-10-14T18:09:59+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into European Portuguese. Translate all words into natural European Portuguese, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a European Portuguese term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'PORTO', 'POR-01-AZU', 'POR-01-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa PORTO Armchair\", \"bullets\": [\"Dimensions: 79 cm width, 92 cm depth, 95 cm height\", \"Seat depth: 55 cm\", \"Upholstery: 100% polyester velvet\", \"Legs: Solid beech with natural oil finish\", \"Maximum load capacity: 120 kg\"], \"description\": \"The PORTO armchair by Móveis Lusa is manufactured in Portugal. It features a velvet upholstery and solid beech legs with a natural oil finish.\", \"colours\": [{\"code\": \"POR-01-AZU\", \"name\": \"Blue\"}, {\"code\": \"POR-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4834.JPG\", \"text\": \"Three-quarter view of the PORTO armchair in blue.\"}, {\"file\": \"POR01_ANT_34.jpg\", \"text\": \"Three-quarter view of the PORTO armchair in anthracite grey.\"}, {\"file\": \"POR01_ANT_front.jpg\", \"text\": \"Front view of the PORTO armchair in anthracite grey.\"}, {\"file\": \"POR01_AZU_34.jpg\", \"text\": \"Three-quarter view of the PORTO armchair in blue.\"}, {\"file\": \"POR01_AZU_front.jpg\", \"text\": \"Front view of the PORTO armchair in blue.\"}, {\"file\": \"POR01_ANT_detail.jpg\", \"text\": \"Detail view of the PORTO armchair in anthracite grey.\"}, {\"file\": \"POR01_ANT_side.jpg\", \"text\": \"Side view of the PORTO armchair in anthracite grey.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Poltrona Móveis Lusa PORTO\",\n  \"bullets\": [\n    \"Dimensões: 79 cm de largura, 92 cm de profundidade, 95 cm de altura\",\n    \"Profundidade do assento: 55 cm\",\n    \"Estofos: Veludo 100% poliéster\",\n    \"Pernas: Faia maciça com acabamento em óleo natural\",\n    \"Capacidade de carga máxima: 120 kg\"\n  ],\n  \"description\": \"A poltrona PORTO da Móveis Lusa é fabricada em Portugal. Apresenta estofos em veludo e pernas em faia maciça com acabamento em óleo natural.\",\n  \"colours\": [\n    {\n      \"code\": \"POR-01-AZU\",\n      \"name\": \"Azul\"\n    },\n    {\n      \"code\": \"POR-01-ANT\",\n      \"name\": \"Antracite\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Não utilizar no exterior.\",\n    \"Manter afastado de fontes de calor.\",\n    \"Não se levantar sobre o assento.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4834.JPG\",\n      \"text\": \"Vista de três quartos da poltrona PORTO em azul.\"\n    },\n    {\n      \"file\": \"POR01_ANT_34.jpg\",\n      \"text\": \"Vista de três quartos da poltrona PORTO em cinzento antracite.\"\n    },\n    {\n      \"file\": \"POR01_ANT_front.jpg\",\n      \"text\": \"Vista frontal da poltrona PORTO em cinzento antracite.\"\n    },\n    {\n      \"file\": \"POR01_AZU_34.jpg\",\n      \"text\": \"Vista de três quartos da poltrona PORTO em azul.\"\n    },\n    {\n      \"file\": \"POR01_AZU_front.jpg\",\n      \"text\": \"Vista frontal da poltrona PORTO em azul.\"\n    },\n    {\n      \"file\": \"POR01_ANT_detail.jpg\",\n      \"text\": \"Vista detalhada da poltrona PORTO em cinzento antracite.\"\n    },\n    {\n      \"file\": \"POR01_ANT_side.jpg\",\n      \"text\": \"Vista lateral da poltrona PORTO em cinzento antracite.\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 894,
+   "completion_tokens": 594
+  },
+  "latency_s": 21.593
+ }
+}

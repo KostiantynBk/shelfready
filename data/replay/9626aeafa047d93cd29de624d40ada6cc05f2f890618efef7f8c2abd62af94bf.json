@@ -1,0 +1,38 @@
+{
+ "key": "9626aeafa047d93cd29de624d40ada6cc05f2f890618efef7f8c2abd62af94bf",
+ "purpose": "listing:SYN-06",
+ "recorded_at": "2026-10-14T18:07:35+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"ISAR\", \"model\": \"ISAR\", \"brand\": \"Nordholz Wohnen\", \"width_cm\": 59, \"depth_cm\": 50, \"height_cm\": 89, \"seat_height_cm\": 45, \"seat_depth_cm\": 30, \"max_load_kg\": 120, \"weight_kg\": 9, \"product_type\": \"Esszimmerstuhl ISAR / ISAR dining chair\", \"legs_or_base\": \"Pulverbeschichteter Stahl, schwarz matt / powder-coated steel, matt black\", \"upholstery\": \"Webstoff, 100 % Polyester / woven fabric, 100% polyester\", \"care\": \"Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C\", \"country_of_origin\": \"Deutschland\", \"safety_warnings\": [\"Nicht im Freien verwenden\", \"Not for outdoor use.\", \"Von Wärmequellen fernhalten\", \"Keep away from heat sources.\", \"Nicht auf die Sitzfläche stellen.\", \"Do not stand on the seat.\"], \"variants\": [{\"code\": \"ISA-06-ANT\", \"colour_name\": \"Anthrazit\"}]}\nPhotos: [{\"file\": \"ISAR-ANT-1.jpg\", \"variant\": \"ISA-06-ANT\", \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"ISAR-ANT-2.jpg\", \"variant\": \"ISA-06-ANT\", \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"ISAR-ANT-3.jpg\", \"variant\": \"ISA-06-ANT\", \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"ISAR-SAN-1.jpg\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"ISAR-SAN-2.jpg\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"ISAR-SAN-3.jpg\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"beige\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Nordholz Wohnen ISAR Dining Chair\",\n  \"bullets\": [\n    \"Dimensions: 59 cm width, 50 cm depth, 89 cm height\",\n    \"Seat height: 45 cm; seat depth: 30 cm\",\n    \"Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C\",\n    \"Base: Matt black powder-coated steel legs\",\n    \"Maximum load capacity: 120 kg\"\n  ],\n  \"description\": \"The ISAR dining chair by Nordholz Wohnen features a woven fabric upholstery and a sturdy powder-coated steel base. This chair is manufactured in Germany and includes a removable, washable cover for easy maintenance.\",\n  \"colours\": [\n    {\n      \"code\": \"ISA-06-ANT\",\n      \"name\": \"Anthracite\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Not for outdoor use.\",\n    \"Keep away from heat sources.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"ISAR-ANT-1.jpg\",\n      \"text\": \"ISAR dining chair in grey, packshot view\"\n    },\n    {\n      \"file\": \"ISAR-ANT-2.jpg\",\n      \"text\": \"ISAR dining chair in grey, packshot view\"\n    },\n    {\n      \"file\": \"ISAR-ANT-3.jpg\",\n      \"text\": \"ISAR dining chair in grey, packshot view\"\n    },\n    {\n      \"file\": \"ISAR-SAN-1.jpg\",\n      \"text\": \"ISAR dining chair in beige, packshot view\"\n    },\n    {\n      \"file\": \"ISAR-SAN-2.jpg\",\n      \"text\": \"ISAR dining chair in beige, packshot view\"\n    },\n    {\n      \"file\": \"ISAR-SAN-3.jpg\",\n      \"text\": \"ISAR dining chair in beige, packshot view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1025,
+   "completion_tokens": 484
+  },
+  "latency_s": 14.875
+ }
+}

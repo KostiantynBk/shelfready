@@ -1,0 +1,38 @@
+{
+ "key": "8fd5eb19f0e56a14b3b41de187f59ba3f034e9344be48e556b08ca9c4bbe745d",
+ "purpose": "back:SYN-15:de",
+ "recorded_at": "2026-10-14T18:19:46+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Ningbo Brightway Home Co. MOSEL Stehlampe\", \"bullets\": [\"Maße: 39 cm Breite, 39 cm Tiefe, 56 cm Höhe\", \"Gewicht: 6,3 kg\", \"Fuß aus matt schwarz pulverbeschichtetem Stahl\", \"Kompatibel mit E27-Leuchtmitteln bis zu 40 W\"], \"description\": \"Die Stehlampe MOSEL von Ningbo Brightway Home Co. verfügt über einen pulverbeschichteten Stahlfuß in Matt Schwarz. Diese Innenleuchte hat eine Höhe von 56 cm und sollte im ausgeschalteten Zustand mit einem trockenen Tuch gereinigt werden.\", \"colours\": [{\"code\": \"MOS-15-SCH\", \"name\": \"Schwarz\"}, {\"code\": \"MOS-15-SIL\", \"name\": \"Silber\"}], \"safety_warnings\": [\"Nur E27-Leuchtmittel, max. 40 W verwenden.\", \"Vor der Reinigung vom Stromnetz trennen.\", \"Nur für den Innenbereich geeignet.\"], \"alt_texts\": [{\"file\": \"IMG_4241.JPG\", \"text\": \"MOSEL Stehlampe in Schwarz, Produktansicht\"}, {\"file\": \"MOSEL-SCH-1.jpg\", \"text\": \"MOSEL Stehlampe in Schwarz, Produktansicht\"}, {\"file\": \"MOSEL-SCH-2.jpg\", \"text\": \"MOSEL Stehlampe in Schwarz, Produktansicht\"}, {\"file\": \"MOSEL-SIL-1.jpg\", \"text\": \"MOSEL Stehlampe in Silber, Produktansicht\"}, {\"file\": \"MOSEL-SIL-3.jpg\", \"text\": \"MOSEL Stehlampe in Silber, Produktansicht\"}, {\"file\": \"MOSEL-SIL-4.jpg\", \"text\": \"MOSEL Stehlampe in Grau, Lifestyle-Ansicht\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Ningbo Brightway Home Co. MOSEL Floor Lamp\", \"bullets\": [\"Dimensions: 39 cm width, 39 cm depth, 56 cm height\", \"Weight: 6.3 kg\", \"Base made of matte black powder-coated steel\", \"Compatible with E27 bulbs up to 40 W\"], \"description\": \"The MOSEL floor lamp from Ningbo Brightway Home Co. features a powder-coated steel base in Matte Black. This indoor light has a height of 56 cm and should be cleaned with a dry cloth when switched off.\", \"colours\": [{\"code\": \"MOS-15-SCH\", \"name\": \"Black\"}, {\"code\": \"MOS-15-SIL\", \"name\": \"Silver\"}], \"safety_warnings\": [\"Use only E27 bulbs, max. 40 W.\", \"Disconnect from the mains before cleaning.\", \"Suitable for indoor use only.\"], \"alt_texts\": [{\"file\": \"IMG_4241.JPG\", \"text\": \"MOSEL floor lamp in black, product view\"}, {\"file\": \"MOSEL-SCH-1.jpg\", \"text\": \"MOSEL floor lamp in black, product view\"}, {\"file\": \"MOSEL-SCH-2.jpg\", \"text\": \"MOSEL floor lamp in black, product view\"}, {\"file\": \"MOSEL-SIL-1.jpg\", \"text\": \"MOSEL floor lamp in silver, product view\"}, {\"file\": \"MOSEL-SIL-3.jpg\", \"text\": \"MOSEL floor lamp in silver, product view\"}, {\"file\": \"MOSEL-SIL-4.jpg\", \"text\": \"MOSEL floor lamp in grey, lifestyle view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 817,
+   "completion_tokens": 367
+  },
+  "latency_s": 9.438
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "key": "d545df0f292fefda3431c66e17b9203def90f2a4a3da6a45fd37b4d131e5b6be",
+ "purpose": "back:SYN-00:de",
+ "recorded_at": "2026-10-14T18:06:46+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa LISBOA Sessel\", \"bullets\": [\"Maße: 88 cm Breite, 83 cm Tiefe, 90 cm Höhe\", \"Sitztiefe: 50 cm\", \"Bezug: 100% Polyester-Bouclé (Martindale 40,000)\", \"Maximale Belastbarkeit: 120 kg\", \"Hergestellt in Portugal\"], \"description\": \"Der LISBOA Sessel von Móveis Lusa ist mit 100% Polyester-Bouclé bezogen. Dieses Möbelstück wiegt 23,5 kg und wird in Portugal gefertigt.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Moos\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Sand\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Anthrazit\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"LISBOA Sessel in Grau, Dreiviertelansicht\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"LISBOA Sessel in Grau, Vorderansicht\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"LISBOA Sessel in Beige, Dreiviertelansicht\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"LISBOA Sessel in Beige, Vorderansicht\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"LISBOA Sessel in Grün, Dreiviertelansicht\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"LISBOA Sessel in Grün, Vorderansicht\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"LISBOA Sessel in Grau, Rückansicht\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Detailansicht des LISBOA Sessels in Grau\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa LISBOA Armchair\", \"bullets\": [\"Dimensions: 88 cm width, 83 cm depth, 90 cm height\", \"Seat depth: 50 cm\", \"Cover: 100% polyester bouclé (Martindale 40,000)\", \"Maximum load capacity: 120 kg\", \"Made in Portugal\"], \"description\": \"The LISBOA armchair from Móveis Lusa is covered in 100% polyester bouclé. This piece of furniture weighs 23.5 kg and is manufactured in Portugal.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Moss\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Sand\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"LISBOA armchair in grey, three-quarter view\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"LISBOA armchair in grey, front view\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"LISBOA armchair in beige, three-quarter view\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"LISBOA armchair in beige, front view\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"LISBOA armchair in green, three-quarter view\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"LISBOA armchair in green, front view\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"LISBOA armchair in grey, rear view\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Detailed view of the LISBOA armchair in grey\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 867,
+   "completion_tokens": 437
+  },
+  "latency_s": 11.578
+ }
+}

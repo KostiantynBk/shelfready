@@ -1,0 +1,38 @@
+{
+ "key": "fc0818604de16a297bc84a20c27c4ed19737fe3c64158d693ac877987854e9f2",
+ "purpose": "listing:SYN-09",
+ "recorded_at": "2026-10-14T18:07:52+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"WESER\", \"model\": \"WESER\", \"brand\": \"Nordholz Wohnen\", \"depth_cm\": 55, \"height_cm\": 91, \"seat_height_cm\": 44, \"seat_depth_cm\": 33, \"max_load_kg\": 120, \"weight_kg\": 10, \"product_type\": \"Esszimmerstuhl WESER / WESER dining chair\", \"legs_or_base\": \"Massive Buche, Nussbaum gebeizt / solid beech, walnut stain\", \"upholstery\": \"Webstoff, 100 % Polyester / woven fabric, 100% polyester\", \"care\": \"Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C\", \"country_of_origin\": \"Deutschland\", \"variants\": [{\"code\": \"WES-09-ANT\", \"colour_name\": \"Anthrazit\"}, {\"code\": \"WES-09-SAN\", \"colour_name\": \"Sand\"}]}\nPhotos: [{\"file\": \"IMG_4604.JPG\", \"variant\": null, \"view\": \"lifestyle\", \"colour_seen\": \"grey\"}, {\"file\": \"WESER-ANT-1.jpg\", \"variant\": \"WES-09-ANT\", \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"WESER-ANT-2.jpg\", \"variant\": \"WES-09-ANT\", \"view\": \"detail\", \"colour_seen\": \"grey\"}, {\"file\": \"WESER-ANT-3.jpg\", \"variant\": \"WES-09-ANT\", \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"WESER-SAN-1.jpg\", \"variant\": \"WES-09-SAN\", \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"WESER-SAN-2.jpg\", \"variant\": \"WES-09-SAN\", \"view\": \"detail\", \"colour_seen\": \"beige\"}, {\"file\": \"WESER-SAN-3.jpg\", \"variant\": \"WES-09-SAN\", \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"WESER-SAN-4.jpg\", \"variant\": \"WES-09-SAN\", \"view\": \"detail\", \"colour_seen\": \"beige\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Nordholz Wohnen WESER Dining Chair\",\n  \"bullets\": [\n    \"Solid beech legs with walnut stain\",\n    \"100% polyester woven fabric upholstery\",\n    \"Removable cover, washable at 30 °C\",\n    \"Maximum load capacity of 120 kg\",\n    \"Made in Germany\"\n  ],\n  \"description\": \"The WESER dining chair by Nordholz Wohnen features a solid beech base with a walnut stain. It is upholstered in a 100% polyester woven fabric with a removable, washable cover for easy maintenance.\",\n  \"colours\": [\n    {\n      \"code\": \"WES-09-ANT\",\n      \"name\": \"Anthracite\"\n    },\n    {\n      \"code\": \"WES-09-SAN\",\n      \"name\": \"Sand\"\n    }\n  ],\n  \"safety_warnings\": [],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4604.JPG\",\n      \"text\": \"WESER dining chair in grey in a lifestyle setting\"\n    },\n    {\n      \"file\": \"WESER-ANT-1.jpg\",\n      \"text\": \"WESER dining chair, anthracite, full view\"\n    },\n    {\n      \"file\": \"WESER-ANT-2.jpg\",\n      \"text\": \"WESER dining chair, anthracite, detail view\"\n    },\n    {\n      \"file\": \"WESER-ANT-3.jpg\",\n      \"text\": \"WESER dining chair, anthracite, full view\"\n    },\n    {\n      \"file\": \"WESER-SAN-1.jpg\",\n      \"text\": \"WESER dining chair, sand, full view\"\n    },\n    {\n      \"file\": \"WESER-SAN-2.jpg\",\n      \"text\": \"WESER dining chair, sand, detail view\"\n    },\n    {\n      \"file\": \"WESER-SAN-3.jpg\",\n      \"text\": \"WESER dining chair, sand, full view\"\n    },\n    {\n      \"file\": \"WESER-SAN-4.jpg\",\n      \"text\": \"WESER dining chair, sand, detail view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1092,
+   "completion_tokens": 534
+  },
+  "latency_s": 14.204
+ }
+}

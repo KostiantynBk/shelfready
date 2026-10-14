@@ -1,0 +1,38 @@
+{
+ "key": "aeaebe9696c80aaa73c1818c08101f601322b344619f255db79caae70f33e081",
+ "purpose": "back:SYN-21:uk",
+ "recorded_at": "2026-10-14T18:21:33+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Килим Móveis Lusa COIMBRA\", \"bullets\": [\"Ручна робота (тафтинг), склад: 100% вовна\", \"Розміри: ширина 290 см, глибина 229 см, висота 1.3 см\", \"Вага: 25.4 кг\", \"Виготовлено в Португалії\"], \"description\": \"Килим COIMBRA від Móveis Lusa — це виріб ручної роботи з 100% вовни. Цей килим португальського виробництва має розміри 290 см на 229 см.\", \"colours\": [{\"code\": \"COI-21-ARE\", \"name\": \"Антрацитовий\"}, {\"code\": \"COI-21-AZU\", \"name\": \"Синій\"}], \"safety_warnings\": [\"Використовуйте протиковзну підкладку на гладких підлогах.\", \"Тримайте подалі від відкритого вогню.\"], \"alt_texts\": [{\"file\": \"COI21_ARE_34.jpg\", \"text\": \"Килим COIMBRA бежевого кольору, вигляд у три чверті\"}, {\"file\": \"COI21_ARE_front.jpg\", \"text\": \"Килим COIMBRA бежевого кольору, вигляд спереду\"}, {\"file\": \"COI21_AZU_34.jpg\", \"text\": \"Килим COIMBRA синього кольору, вигляд у три чверті\"}, {\"file\": \"COI21_AZU_front.jpg\", \"text\": \"Килим COIMBRA бежевого кольору, вигляд спереду\"}, {\"file\": \"COI21_ARE_side.jpg\", \"text\": \"Килим COIMBRA бежевого кольору, вигляд збоку\"}, {\"file\": \"COI21_AZU_detail.jpg\", \"text\": \"Килим COIMBRA синього кольору, детальний вигляд\"}, {\"file\": \"COI21_AZU_side.jpg\", \"text\": \"Килим COIMBRA синього кольору, вигляд збоку\"}, {\"file\": \"IMG_4964.JPG\", \"text\": \"Килим COIMBRA бежевого кольору, детальний вигляд\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa COIMBRA Rug\", \"bullets\": [\"Handmade (tufting), composition: 100% wool\", \"Dimensions: width 290 cm, depth 229 cm, height 1.3 cm\", \"Weight: 25.4 kg\", \"Made in Portugal\"], \"description\": \"The COIMBRA rug from Móveis Lusa is a handmade product made of 100% wool. This Portuguese-made rug measures 290 cm by 229 cm.\", \"colours\": [{\"code\": \"COI-21-ARE\", \"name\": \"Anthracite\"}, {\"code\": \"COI-21-AZU\", \"name\": \"Blue\"}], \"safety_warnings\": [\"Use a non-slip underlay on smooth floors.\", \"Keep away from open flames.\"], \"alt_texts\": [{\"file\": \"COI21_ARE_34.jpg\", \"text\": \"COIMBRA rug in beige, three-quarter view\"}, {\"file\": \"COI21_ARE_front.jpg\", \"text\": \"COIMBRA rug in beige, front view\"}, {\"file\": \"COI21_AZU_34.jpg\", \"text\": \"COIMBRA rug in blue, three-quarter view\"}, {\"file\": \"COI21_AZU_front.jpg\", \"text\": \"COIMBRA rug in beige, front view\"}, {\"file\": \"COI21_ARE_side.jpg\", \"text\": \"COIMBRA rug in beige, side view\"}, {\"file\": \"COI21_AZU_detail.jpg\", \"text\": \"COIMBRA rug in blue, detailed view\"}, {\"file\": \"COI21_AZU_side.jpg\", \"text\": \"COIMBRA rug in blue, side view\"}, {\"file\": \"IMG_4964.JPG\", \"text\": \"COIMBRA rug in beige, detailed view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 933,
+   "completion_tokens": 431
+  },
+  "latency_s": 10.843
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "key": "0c4255c51f7d5a5fb5f7b784995d6ec8a4b31e9f6b7d91e67de3ec13ac8a6bb4",
+ "purpose": "translate:SYN-08:it",
+ "recorded_at": "2026-10-14T18:12:02+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Italian. Translate all words into natural Italian, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Italian term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Arredo Brianza', 'BRERA', 'BRE-08-ANT', 'BRE-08-COG', 'BRE-08-SAB'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Arredo Brianza BRERA Armchair\", \"bullets\": [\"Dimensions: 95 cm height, 117 cm depth, 47 cm seat height, and 70 cm seat depth\", \"Upholstery: 100% polyester woven fabric\", \"Base materials: Pine and multiplex\", \"Maximum load capacity: 120 kg\", \"Made in Italia\"], \"description\": \"The BRERA armchair by Arredo Brianza is a high-quality seating option made in Italia. It features a sturdy pine and multiplex base with 100% polyester woven fabric upholstery.\", \"colours\": [{\"code\": \"BRE-08-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"BRE-08-COG\", \"name\": \"Cognac\"}, {\"code\": \"BRE-08-SAB\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"BRERA_ANT_01.jpg\", \"text\": \"BRERA armchair in grey, packshot view\"}, {\"file\": \"BRERA_ANT_02.jpg\", \"text\": \"BRERA armchair in grey, lifestyle view\"}, {\"file\": \"BRERA_ANT_03.jpg\", \"text\": \"BRERA armchair in grey, detail view\"}, {\"file\": \"BRERA_COG_01.jpg\", \"text\": \"BRERA armchair in brown, packshot view\"}, {\"file\": \"BRERA_COG_03.jpg\", \"text\": \"BRERA armchair in brown, detail view\"}, {\"file\": \"BRERA_COG_04.jpg\", \"text\": \"BRERA armchair in brown, lifestyle view\"}, {\"file\": \"BRERA_SAB_01.jpg\", \"text\": \"BRERA armchair in beige, packshot view\"}, {\"file\": \"BRERA_SAB_02.jpg\", \"text\": \"BRERA armchair in beige, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Poltrona Arredo Brianza BRERA\", \"bullets\": [\"Dimensioni: altezza 95 cm, profondità 117 cm, altezza seduta 47 cm e profondità seduta 70 cm\", \"Rivestimento: tessuto intrecciato 100% poliestere\", \"Materiali della base: pino e multiplex\", \"Capacità di carico massima: 120 kg\", \"Made in Italia\"], \"description\": \"La poltrona BRERA di Arredo Brianza è una soluzione di seduta di alta qualità Made in Italia. Presenta una robusta base in pino e multiplex con rivestimento in tessuto intrecciato 100% poliestere.\", \"colours\": [{\"code\": \"BRE-08-ANT\", \"name\": \"Antracite\"}, {\"code\": \"BRE-08-COG\", \"name\": \"Cognac\"}, {\"code\": \"BRE-08-SAB\", \"name\": \"Sabbia\"}], \"safety_warnings\": [\"Non utilizzare all'aperto.\", \"Tenere lontano da fonti di calore.\", \"Non stare in piedi sulla seduta.\"], \"alt_texts\": [{\"file\": \"BRERA_ANT_01.jpg\", \"text\": \"Poltrona BRERA in grigio, vista prodotto\"}, {\"file\": \"BRERA_ANT_02.jpg\", \"text\": \"Poltrona BRERA in grigio, vista ambientata\"}, {\"file\": \"BRERA_ANT_03.jpg\", \"text\": \"Poltrona BRERA in grigio, vista dettaglio\"}, {\"file\": \"BRERA_COG_01.jpg\", \"text\": \"Poltrona BRERA in marrone, vista prodotto\"}, {\"file\": \"BRERA_COG_03.jpg\", \"text\": \"Poltrona BRERA in marrone, vista dettaglio\"}, {\"file\": \"BRERA_COG_04.jpg\", \"text\": \"Poltrona BRERA in marrone, vista ambientata\"}, {\"file\": \"BRERA_SAB_01.jpg\", \"text\": \"Poltrona BRERA in beige, vista prodotto\"}, {\"file\": \"BRERA_SAB_02.jpg\", \"text\": \"Poltrona BRERA in beige, vista dettaglio\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 941,
+   "completion_tokens": 500
+  },
+  "latency_s": 19.516
+ }
+}

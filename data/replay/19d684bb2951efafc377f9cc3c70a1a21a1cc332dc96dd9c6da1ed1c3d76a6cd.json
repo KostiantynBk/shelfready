@@ -1,0 +1,38 @@
+{
+ "key": "19d684bb2951efafc377f9cc3c70a1a21a1cc332dc96dd9c6da1ed1c3d76a6cd",
+ "purpose": "translate:SYN-09:pt",
+ "recorded_at": "2026-10-14T18:11:27+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into European Portuguese. Translate all words into natural European Portuguese, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a European Portuguese term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'WESER', 'WES-09-ANT', 'WES-09-SAN'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen WESER Dining Chair\", \"bullets\": [\"Solid beech legs with walnut stain\", \"100% polyester woven fabric upholstery\", \"Removable cover, washable at 30 °C\", \"Maximum load capacity of 120 kg\", \"Made in Germany\"], \"description\": \"The WESER dining chair by Nordholz Wohnen features a solid beech base with a walnut stain. It is upholstered in a 100% polyester woven fabric with a removable, washable cover for easy maintenance.\", \"colours\": [{\"code\": \"WES-09-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"WES-09-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"IMG_4604.JPG\", \"text\": \"WESER dining chair in grey in a lifestyle setting\"}, {\"file\": \"WESER-ANT-1.jpg\", \"text\": \"WESER dining chair, anthracite, full view\"}, {\"file\": \"WESER-ANT-2.jpg\", \"text\": \"WESER dining chair, anthracite, detail view\"}, {\"file\": \"WESER-ANT-3.jpg\", \"text\": \"WESER dining chair, anthracite, full view\"}, {\"file\": \"WESER-SAN-1.jpg\", \"text\": \"WESER dining chair, sand, full view\"}, {\"file\": \"WESER-SAN-2.jpg\", \"text\": \"WESER dining chair, sand, detail view\"}, {\"file\": \"WESER-SAN-3.jpg\", \"text\": \"WESER dining chair, sand, full view\"}, {\"file\": \"WESER-SAN-4.jpg\", \"text\": \"WESER dining chair, sand, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Cadeira de Jantar Nordholz Wohnen WESER\",\n  \"bullets\": [\n    \"Pernas em faia maciça com acabamento em nogueira\",\n    \"Estofos em tecido tecido 100% poliéster\",\n    \"Capa removível, lavável a 30 °C\",\n    \"Capacidade de carga máxima de 120 kg\",\n    \"Fabricado na Alemanha\"\n  ],\n  \"description\": \"A cadeira de jantar WESER da Nordholz Wohnen apresenta uma base em faia maciça com acabamento em nogueira. Está estofada num tecido 100% poliéster com uma capa removível e lavável para facilitar a manutenção.\",\n  \"colours\": [\n    {\n      \"code\": \"WES-09-ANT\",\n      \"name\": \"Antracite\"\n    },\n    {\n      \"code\": \"WES-09-SAN\",\n      \"name\": \"Areia\"\n    }\n  ],\n  \"safety_warnings\": [],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4604.JPG\",\n      \"text\": \"Cadeira de jantar WESER em cinzento num ambiente decorado\"\n    },\n    {\n      \"file\": \"WESER-ANT-1.jpg\",\n      \"text\": \"Cadeira de jantar WESER, antracite, vista completa\"\n    },\n    {\n      \"file\": \"WESER-ANT-2.jpg\",\n      \"text\": \"Cadeira de jantar WESER, antracite, vista detalhada\"\n    },\n    {\n      \"file\": \"WESER-ANT-3.jpg\",\n      \"text\": \"Cadeira de jantar WESER, antracite, vista completa\"\n    },\n    {\n      \"file\": \"WESER-SAN-1.jpg\",\n      \"text\": \"Cadeira de jantar WESER, areia, vista completa\"\n    },\n    {\n      \"file\": \"WESER-SAN-2.jpg\",\n      \"text\": \"Cadeira de jantar WESER, areia, vista detalhada\"\n    },\n    {\n      \"file\": \"WESER-SAN-3.jpg\",\n      \"text\": \"Cadeira de jantar WESER, areia, vista completa\"\n    },\n    {\n      \"file\": \"WESER-SAN-4.jpg\",\n      \"text\": \"Cadeira de jantar WESER, areia, vista detalhada\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 896,
+   "completion_tokens": 600
+  },
+  "latency_s": 20.609
+ }
+}

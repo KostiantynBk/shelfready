@@ -1,0 +1,38 @@
+{
+ "key": "4e78f6ee9d5e9147e71a29a572e076a828b10ed82b0466d7b880afaa6df8a6f0",
+ "purpose": "translate:SYN-01:fr",
+ "recorded_at": "2026-10-14T18:09:38+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into French. Translate all words into natural French, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a French term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'PORTO', 'POR-01-AZU', 'POR-01-ANT'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa PORTO Armchair\", \"bullets\": [\"Dimensions: 79 cm width, 92 cm depth, 95 cm height\", \"Seat depth: 55 cm\", \"Upholstery: 100% polyester velvet\", \"Legs: Solid beech with natural oil finish\", \"Maximum load capacity: 120 kg\"], \"description\": \"The PORTO armchair by Móveis Lusa is manufactured in Portugal. It features a velvet upholstery and solid beech legs with a natural oil finish.\", \"colours\": [{\"code\": \"POR-01-AZU\", \"name\": \"Blue\"}, {\"code\": \"POR-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4834.JPG\", \"text\": \"Three-quarter view of the PORTO armchair in blue.\"}, {\"file\": \"POR01_ANT_34.jpg\", \"text\": \"Three-quarter view of the PORTO armchair in anthracite grey.\"}, {\"file\": \"POR01_ANT_front.jpg\", \"text\": \"Front view of the PORTO armchair in anthracite grey.\"}, {\"file\": \"POR01_AZU_34.jpg\", \"text\": \"Three-quarter view of the PORTO armchair in blue.\"}, {\"file\": \"POR01_AZU_front.jpg\", \"text\": \"Front view of the PORTO armchair in blue.\"}, {\"file\": \"POR01_ANT_detail.jpg\", \"text\": \"Detail view of the PORTO armchair in anthracite grey.\"}, {\"file\": \"POR01_ANT_side.jpg\", \"text\": \"Side view of the PORTO armchair in anthracite grey.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Fauteuil Móveis Lusa PORTO\", \"bullets\": [\"Dimensions : 79 cm de largeur, 92 cm de profondeur, 95 cm de hauteur\", \"Profondeur d'assise : 55 cm\", \"Revêtement : velours 100% polyester\", \"Pieds : hêtre massif avec finition à l'huile naturelle\", \"Capacité de charge maximale : 120 kg\"], \"description\": \"Le fauteuil PORTO de Móveis Lusa est fabriqué au Portugal. Il dispose d'un revêtement en velours et de pieds en hêtre massif avec une finition à l'huile naturelle.\", \"colours\": [{\"code\": \"POR-01-AZU\", \"name\": \"Bleu\"}, {\"code\": \"POR-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Ne pas utiliser à l'extérieur.\", \"Tenir à l'écart des sources de chaleur.\", \"Ne pas se tenir debout sur le siège.\"], \"alt_texts\": [{\"file\": \"IMG_4834.JPG\", \"text\": \"Vue de trois-quarts du fauteuil PORTO en bleu.\"}, {\"file\": \"POR01_ANT_34.jpg\", \"text\": \"Vue de trois-quarts du fauteuil PORTO en gris anthracite.\"}, {\"file\": \"POR01_ANT_front.jpg\", \"text\": \"Vue de face du fauteuil PORTO en gris anthracite.\"}, {\"file\": \"POR01_AZU_34.jpg\", \"text\": \"Vue de trois-quarts du fauteuil PORTO en bleu.\"}, {\"file\": \"POR01_AZU_front.jpg\", \"text\": \"Vue de face du fauteuil PORTO en bleu.\"}, {\"file\": \"POR01_ANT_detail.jpg\", \"text\": \"Vue détaillée du fauteuil PORTO en gris anthracite.\"}, {\"file\": \"POR01_ANT_side.jpg\", \"text\": \"Vue latérale du fauteuil PORTO en gris anthracite.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 891,
+   "completion_tokens": 447
+  },
+  "latency_s": 17.906
+ }
+}

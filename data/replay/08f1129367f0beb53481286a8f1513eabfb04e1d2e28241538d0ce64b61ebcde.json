@@ -1,0 +1,38 @@
+{
+ "key": "08f1129367f0beb53481286a8f1513eabfb04e1d2e28241538d0ce64b61ebcde",
+ "purpose": "back:SYN-02:de",
+ "recorded_at": "2026-10-14T18:18:40+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"COMO Sessel von Ningbo Brightway Home Co.\", \"bullets\": [\"Bezug aus hochwertigem Vollleder\", \"Maße: 104 cm Breite, 104 cm Tiefe, 81 cm Höhe\", \"Sitzhöhe: 44 cm; Sitztiefe: 62 cm\", \"Maximale Belastbarkeit: 120 kg\", \"Gewicht: 44.5 kg\"], \"description\": \"Der COMO Sessel von Ningbo Brightway Home Co. ist mit Vollleder bezogen. Dieses Möbelstück kann durch Abwischen mit einem feuchten Tuch gepflegt werden.\", \"colours\": [{\"code\": \"COM-02-COG\", \"name\": \"Cognac\"}, {\"code\": \"COM-02-SAB\", \"name\": \"Sand\"}, {\"code\": \"COM-02-NER\", \"name\": \"Schwarz\"}], \"safety_warnings\": [\"Nicht für den Außenbereich geeignet.\", \"Von Hitzequellen fernhalten.\", \"Nicht auf der Sitzfläche stehen.\"], \"alt_texts\": [{\"file\": \"COMO_COG_01.jpg\", \"text\": \"COMO Sessel in Braun, Produktansicht\"}, {\"file\": \"COMO_COG_02.jpg\", \"text\": \"COMO Sessel in Braun, Produktansicht\"}, {\"file\": \"COMO_NER_01.jpg\", \"text\": \"COMO Sessel in Schwarz, Produktansicht\"}, {\"file\": \"COMO_NER_02.jpg\", \"text\": \"COMO Sessel in Schwarz, Lifestyle-Ansicht\"}, {\"file\": \"COMO_NER_04.jpg\", \"text\": \"COMO Sessel in Schwarz, Detailansicht\"}, {\"file\": \"COMO_SAB_01.jpg\", \"text\": \"COMO Sessel in Beige, Produktansicht\"}, {\"file\": \"COMO_SAB_02.jpg\", \"text\": \"COMO Sessel in Beige, Produktansicht\"}, {\"file\": \"COMO_SAB_03.jpg\", \"text\": \"COMO Sessel in Beige, Detailansicht\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"COMO Armchair by Ningbo Brightway Home Co.\", \"bullets\": [\"Cover made of high-quality full leather\", \"Dimensions: 104 cm width, 104 cm depth, 81 cm height\", \"Seat height: 44 cm; Seat depth: 62 cm\", \"Maximum load capacity: 120 kg\", \"Weight: 44.5 kg\"], \"description\": \"The COMO armchair from Ningbo Brightway Home Co. is covered in full leather. This piece of furniture can be maintained by wiping with a damp cloth.\", \"colours\": [{\"code\": \"COM-02-COG\", \"name\": \"Cognac\"}, {\"code\": \"COM-02-SAB\", \"name\": \"Sand\"}, {\"code\": \"COM-02-NER\", \"name\": \"Black\"}], \"safety_warnings\": [\"Not suitable for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat surface.\"], \"alt_texts\": [{\"file\": \"COMO_COG_01.jpg\", \"text\": \"COMO armchair in brown, product view\"}, {\"file\": \"COMO_COG_02.jpg\", \"text\": \"COMO armchair in brown, product view\"}, {\"file\": \"COMO_NER_01.jpg\", \"text\": \"COMO armchair in black, product view\"}, {\"file\": \"COMO_NER_02.jpg\", \"text\": \"COMO armchair in black, lifestyle view\"}, {\"file\": \"COMO_NER_04.jpg\", \"text\": \"COMO armchair in black, detail view\"}, {\"file\": \"COMO_SAB_01.jpg\", \"text\": \"COMO armchair in beige, product view\"}, {\"file\": \"COMO_SAB_02.jpg\", \"text\": \"COMO armchair in beige, product view\"}, {\"file\": \"COMO_SAB_03.jpg\", \"text\": \"COMO armchair in beige, detail view\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 866,
+   "completion_tokens": 436
+  },
+  "latency_s": 11.594
+ }
+}

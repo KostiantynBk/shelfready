@@ -1,0 +1,38 @@
+{
+ "key": "2a8dc246617bef7653dcdc523f71a9a44d7dc0cd7f49cf4eb88a38ad72bd23cc",
+ "purpose": "translate:SYN-03:fr",
+ "recorded_at": "2026-10-14T18:10:13+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into French. Translate all words into natural French, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a French term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'ELBE', 'ELB-03-ANT', 'ELB-03-SAN'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen ELBE Armchair\", \"bullets\": [\"Dimensions: 78 cm height, 44 cm seat height, and 46 cm seat depth\", \"Upholstery: 100% polyester woven fabric with a removable cover washable at 30 °C\", \"Construction: Pine and plywood frame with 30 kg/m³ foam\", \"Maximum load capacity: 120 kg\", \"Made in Germany\"], \"description\": \"The Nordholz Wohnen ELBE armchair features a sturdy pine and plywood frame with 30 kg/m³ foam. It is upholstered in a 100% polyester woven fabric with a removable, washable cover for easy maintenance.\", \"colours\": [{\"code\": \"ELB-03-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"ELB-03-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"ELBE-ANT-1.jpg\", \"text\": \"ELBE armchair in grey, packshot view\"}, {\"file\": \"ELBE-ANT-2.jpg\", \"text\": \"ELBE armchair in grey, lifestyle view\"}, {\"file\": \"ELBE-ANT-3.jpg\", \"text\": \"ELBE armchair in grey, packshot view\"}, {\"file\": \"ELBE-SAN-1.jpg\", \"text\": \"ELBE armchair in beige, packshot view\"}, {\"file\": \"ELBE-SAN-2.jpg\", \"text\": \"ELBE armchair in beige, detail view\"}, {\"file\": \"ELBE-SAN-3.jpg\", \"text\": \"ELBE armchair in beige, lifestyle view\"}, {\"file\": \"ELBE-SAN-4.jpg\", \"text\": \"ELBE armchair in beige, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Fauteuil Nordholz Wohnen ELBE\", \"bullets\": [\"Dimensions : 78 cm de hauteur, 44 cm de hauteur d'assise et 46 cm de profondeur d'assise\", \"Revêtement : tissu tissé 100 % polyester avec housse amovible lavable à 30 °C\", \"Construction : structure en pin et contreplaqué avec mousse de 30 kg/m³\", \"Capacité de charge maximale : 120 kg\", \"Fabriqué en Allemagne\"], \"description\": \"Le fauteuil Nordholz Wohnen ELBE dispose d'une structure robuste en pin et contreplaqué avec une mousse de 30 kg/m³. Il est revêtu d'un tissu tissé 100 % polyester avec une housse amovible et lavable pour un entretien facile.\", \"colours\": [{\"code\": \"ELB-03-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"ELB-03-SAN\", \"name\": \"Sable\"}], \"safety_warnings\": [\"Ne pas utiliser à l'extérieur.\", \"Tenir à l'écart des sources de chaleur.\", \"Ne pas se tenir debout sur le siège.\"], \"alt_texts\": [{\"file\": \"ELBE-ANT-1.jpg\", \"text\": \"Fauteuil ELBE en gris, vue packshot\"}, {\"file\": \"ELBE-ANT-2.jpg\", \"text\": \"Fauteuil ELBE en gris, vue d'ambiance\"}, {\"file\": \"ELBE-ANT-3.jpg\", \"text\": \"Fauteuil ELBE en gris, vue packshot\"}, {\"file\": \"ELBE-SAN-1.jpg\", \"text\": \"Fauteuil ELBE en beige, vue packshot\"}, {\"file\": \"ELBE-SAN-2.jpg\", \"text\": \"Fauteuil ELBE en beige, vue détaillée\"}, {\"file\": \"ELBE-SAN-3.jpg\", \"text\": \"Fauteuil ELBE en beige, vue d'ambiance\"}, {\"file\": \"ELBE-SAN-4.jpg\", \"text\": \"Fauteuil ELBE en beige, vue détaillée\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 903,
+   "completion_tokens": 476
+  },
+  "latency_s": 17.594
+ }
+}

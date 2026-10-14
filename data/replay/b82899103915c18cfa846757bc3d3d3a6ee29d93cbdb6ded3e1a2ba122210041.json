@@ -1,0 +1,38 @@
+{
+ "key": "b82899103915c18cfa846757bc3d3d3a6ee29d93cbdb6ded3e1a2ba122210041",
+ "purpose": "back:SYN-20:uk",
+ "recorded_at": "2026-10-14T18:21:40+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Килим Nordholz Wohnen LECH\", \"bullets\": [\"Розміри: ширина 160 см, глибина 120 см та висота 5.1 см\", \"Походження: Виготовлено в Deutschland\", \"Догляд: Тільки професійна чистка; не прати\"], \"description\": \"Килим LECH від Nordholz Wohnen — це високоякісний аксесуар для дому. Він доступний у кількох кольорах, щоб підійти до вашого інтер'єру.\", \"colours\": [{\"code\": \"LEC-20-ANT\", \"name\": \"Антрацитовий\"}, {\"code\": \"LEC-20-SAN\", \"name\": \"Пісочний\"}], \"safety_warnings\": [\"Використовуйте протиковзну підкладку на гладких підлогах.\", \"Тримайте подалі від відкритого вогню.\"], \"alt_texts\": [{\"file\": \"IMG_4390.JPG\", \"text\": \"Детальний вигляд килима LECH у сірому кольорі\"}, {\"file\": \"LECH-ANT-1.jpg\", \"text\": \"Килим LECH в антрацитово-сірому кольорі в інтер'єрі\"}, {\"file\": \"LECH-ANT-2.jpg\", \"text\": \"Детальний вигляд килима LECH в антрацитово-сірому кольорі\"}, {\"file\": \"LECH-ANT-3.jpg\", \"text\": \"Детальний вигляд килима LECH в антрацитово-сірому кольорі\"}, {\"file\": \"LECH-SAN-1.jpg\", \"text\": \"Килим LECH у пісочно-сірому кольорі в інтер'єрі\"}, {\"file\": \"LECH-SAN-2.jpg\", \"text\": \"Детальний вигляд килима LECH у пісочно-бежевому кольорі\"}, {\"file\": \"LECH-SAN-3.jpg\", \"text\": \"Детальний вигляд килима LECH у пісочно-бежевому кольорі\"}, {\"file\": \"LECH-SAN-4.jpg\", \"text\": \"Детальний вигляд килима LECH у пісочно-бежевому кольорі\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Nordholz Wohnen LECH Rug\", \"bullets\": [\"Dimensions: width 160 cm, depth 120 cm and height 5.1 cm\", \"Origin: Made in Deutschland\", \"Care: Professional cleaning only; do not wash\"], \"description\": \"The LECH rug from Nordholz Wohnen is a high-quality home accessory. It is available in several colors to match your interior.\", \"colours\": [{\"code\": \"LEC-20-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"LEC-20-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Use a non-slip underlay on smooth floors.\", \"Keep away from open fire.\"], \"alt_texts\": [{\"file\": \"IMG_4390.JPG\", \"text\": \"Detailed view of the LECH rug in gray color\"}, {\"file\": \"LECH-ANT-1.jpg\", \"text\": \"LECH rug in anthracite-gray color in the interior\"}, {\"file\": \"LECH-ANT-2.jpg\", \"text\": \"Detailed view of the LECH rug in anthracite-gray color\"}, {\"file\": \"LECH-ANT-3.jpg\", \"text\": \"Detailed view of the LECH rug in anthracite-gray color\"}, {\"file\": \"LECH-SAN-1.jpg\", \"text\": \"LECH rug in sand-gray color in the interior\"}, {\"file\": \"LECH-SAN-2.jpg\", \"text\": \"Detailed view of the LECH rug in sand-beige color\"}, {\"file\": \"LECH-SAN-3.jpg\", \"text\": \"Detailed view of the LECH rug in sand-beige color\"}, {\"file\": \"LECH-SAN-4.jpg\", \"text\": \"Detailed view of the LECH rug in sand-beige color\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 914,
+   "completion_tokens": 396
+  },
+  "latency_s": 9.812
+ }
+}

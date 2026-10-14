@@ -1,0 +1,38 @@
+{
+ "key": "ec12060862146e809ac55d6c6b94bf8407e9783d311ecc81e9cb16d96386e1aa",
+ "purpose": "listing:SYN-03",
+ "recorded_at": "2026-10-14T18:07:39+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Sessel ELBE / ELBE armchair\", \"model\": \"ELBE\", \"brand\": \"Nordholz Wohnen\", \"height_cm\": 78, \"seat_height_cm\": 44, \"seat_depth_cm\": 46, \"max_load_kg\": 120, \"weight_kg\": 20, \"product_type\": \"Sessel ELBE / ELBE armchair\", \"legs_or_base\": \"Kiefer + Sperrholz, Schaum 30 kg/m³ / pine + plywood, foam 30 kg/m³\", \"upholstery\": \"Webstoff, 100 % Polyester / woven fabric, 100% polyester\", \"care\": \"Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C\", \"country_of_origin\": \"Deutschland\", \"safety_warnings\": [\"Nicht im Freien verwenden.\", \"Not for outdoor use.\", \"Von Wärmequellen fernhalten.\", \"Keep away from heat sources.\", \"Nicht auf die Sitzfläche steigen.\", \"Do not stand on the seat.\"], \"variants\": [{\"code\": \"ELB-03-ANT\", \"colour_name\": \"Anthrazit\"}, {\"code\": \"ELB-03-SAN\", \"colour_name\": \"Sand\"}]}\nPhotos: [{\"file\": \"ELBE-ANT-1.jpg\", \"variant\": \"ELB-03-ANT\", \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"ELBE-ANT-2.jpg\", \"variant\": \"ELB-03-ANT\", \"view\": \"lifestyle\", \"colour_seen\": \"grey\"}, {\"file\": \"ELBE-ANT-3.jpg\", \"variant\": \"ELB-03-ANT\", \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"ELBE-SAN-1.jpg\", \"variant\": \"ELB-03-SAN\", \"view\": \"packshot\", \"colour_seen\": \"beige\"}, {\"file\": \"ELBE-SAN-2.jpg\", \"variant\": \"ELB-03-SAN\", \"view\": \"detail\", \"colour_seen\": \"beige\"}, {\"file\": \"ELBE-SAN-3.jpg\", \"variant\": \"ELB-03-SAN\", \"view\": \"lifestyle\", \"colour_seen\": \"beige\"}, {\"file\": \"ELBE-SAN-4.jpg\", \"variant\": \"ELB-03-SAN\", \"view\": \"detail\", \"colour_seen\": \"beige\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Nordholz Wohnen ELBE Armchair\",\n  \"bullets\": [\n    \"Dimensions: 78 cm height, 44 cm seat height, and 46 cm seat depth\",\n    \"Upholstery: 100% polyester woven fabric with a removable cover washable at 30 °C\",\n    \"Construction: Pine and plywood frame with 30 kg/m³ foam\",\n    \"Maximum load capacity: 120 kg\",\n    \"Made in Germany\"\n  ],\n  \"description\": \"The Nordholz Wohnen ELBE armchair features a sturdy pine and plywood frame with 30 kg/m³ foam. It is upholstered in a 100% polyester woven fabric with a removable, washable cover for easy maintenance.\",\n  \"colours\": [\n    {\n      \"code\": \"ELB-03-ANT\",\n      \"name\": \"Anthracite\"\n    },\n    {\n      \"code\": \"ELB-03-SAN\",\n      \"name\": \"Sand\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Not for outdoor use.\",\n    \"Keep away from heat sources.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"ELBE-ANT-1.jpg\",\n      \"text\": \"ELBE armchair in grey, packshot view\"\n    },\n    {\n      \"file\": \"ELBE-ANT-2.jpg\",\n      \"text\": \"ELBE armchair in grey, lifestyle view\"\n    },\n    {\n      \"file\": \"ELBE-ANT-3.jpg\",\n      \"text\": \"ELBE armchair in grey, packshot view\"\n    },\n    {\n      \"file\": \"ELBE-SAN-1.jpg\",\n      \"text\": \"ELBE armchair in beige, packshot view\"\n    },\n    {\n      \"file\": \"ELBE-SAN-2.jpg\",\n      \"text\": \"ELBE armchair in beige, detail view\"\n    },\n    {\n      \"file\": \"ELBE-SAN-3.jpg\",\n      \"text\": \"ELBE armchair in beige, lifestyle view\"\n    },\n    {\n      \"file\": \"ELBE-SAN-4.jpg\",\n      \"text\": \"ELBE armchair in beige, detail view\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1106,
+   "completion_tokens": 545
+  },
+  "latency_s": 18.844
+ }
+}

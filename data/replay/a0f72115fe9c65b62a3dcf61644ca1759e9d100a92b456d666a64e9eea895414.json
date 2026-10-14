@@ -1,0 +1,38 @@
+{
+ "key": "a0f72115fe9c65b62a3dcf61644ca1759e9d100a92b456d666a64e9eea895414",
+ "purpose": "translate:SYN-05:it",
+ "recorded_at": "2026-10-14T18:09:12+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Italian. Translate all words into natural Italian, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Italian term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Arredo Brianza', 'LECCO', 'LEC-05-COG'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Arredo Brianza LECCO Recliner\", \"bullets\": [\"Dimensions: 112 cm height, 107 cm depth, 45 cm seat height, and 64 cm seat depth\", \"Upholstery: 100% polyester woven fabric with a removable cover washable at 30 °C\", \"Base: Constructed from pine and multilayer\", \"Maximum load capacity: 120 kg\", \"Made in Italia\"], \"description\": \"The LECCO recliner by Arredo Brianza is a comfortable seating solution featuring a 100% polyester woven fabric upholstery. This Italian-made chair includes a removable cover for easy maintenance.\", \"colours\": [{\"code\": \"LEC-05-COG\", \"name\": \"Cognac\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4579.JPG\", \"text\": \"Detail view of the LECCO recliner in brown.\"}, {\"file\": \"LECCO_ANT_01.jpg\", \"text\": \"Packshot of the LECCO recliner in grey.\"}, {\"file\": \"LECCO_ANT_02.jpg\", \"text\": \"Packshot of the LECCO recliner in grey.\"}, {\"file\": \"LECCO_ANT_04.jpg\", \"text\": \"Packshot of the LECCO recliner in grey.\"}, {\"file\": \"LECCO_COG_01.jpg\", \"text\": \"Packshot of the LECCO recliner in Cognac brown.\"}, {\"file\": \"LECCO_COG_02.jpg\", \"text\": \"Detail view of the LECCO recliner in Cognac brown.\"}, {\"file\": \"LECCO_COG_03.jpg\", \"text\": \"Detail view of the LECCO recliner in Cognac brown.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Poltrona Relax Arredo Brianza LECCO\", \"bullets\": [\"Dimensioni: altezza 112 cm, profondità 107 cm, altezza seduta 45 cm e profondità seduta 64 cm\", \"Rivestimento: tessuto intrecciato 100% poliestere con fodera rimovibile lavabile a 30 °C\", \"Base: realizzata in pino e multistrato\", \"Capacità di carico massima: 120 kg\", \"Made in Italia\"], \"description\": \"La poltrona relax LECCO di Arredo Brianza è una soluzione di seduta confortevole caratterizzata da un rivestimento in tessuto intrecciato 100% poliestere. Questa sedia di produzione italiana include una fodera rimovibile per una facile manutenzione.\", \"colours\": [{\"code\": \"LEC-05-COG\", \"name\": \"Cognac\"}], \"safety_warnings\": [\"Non utilizzare all'aperto.\", \"Tenere lontano da fonti di calore.\", \"Non stare in piedi sulla seduta.\"], \"alt_texts\": [{\"file\": \"IMG_4579.JPG\", \"text\": \"Vista dettagliata della poltrona LECCO in marrone.\"}, {\"file\": \"LECCO_ANT_01.jpg\", \"text\": \"Immagine prodotto della poltrona LECCO in grigio.\"}, {\"file\": \"LECCO_ANT_02.jpg\", \"text\": \"Immagine prodotto della poltrona LECCO in grigio.\"}, {\"file\": \"LECCO_ANT_04.jpg\", \"text\": \"Immagine prodotto della poltrona LECCO in grigio.\"}, {\"file\": \"LECCO_COG_01.jpg\", \"text\": \"Immagine prodotto della poltrona LECCO in marrone Cognac.\"}, {\"file\": \"LECCO_COG_02.jpg\", \"text\": \"Vista dettagliata della poltrona LECCO in marrone Cognac.\"}, {\"file\": \"LECCO_COG_03.jpg\", \"text\": \"Vista dettagliata della poltrona LECCO in marrone Cognac.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 889,
+   "completion_tokens": 468
+  },
+  "latency_s": 16.937
+ }
+}

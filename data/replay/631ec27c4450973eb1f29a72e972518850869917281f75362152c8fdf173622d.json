@@ -1,0 +1,38 @@
+{
+ "key": "631ec27c4450973eb1f29a72e972518850869917281f75362152c8fdf173622d",
+ "purpose": "translate:SYN-00:uk",
+ "recorded_at": "2026-10-14T18:06:49+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Ukrainian. Translate all words into natural Ukrainian, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Ukrainian term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'LISBOA', 'LIS-01-MUS', 'LIS-01-ARE', 'LIS-01-ANT', 'Martindale'. Keep every number exactly, with its unit (см, мм, кг, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa LISBOA Armchair\", \"bullets\": [\"Dimensions: 88 cm width, 83 cm depth, 90 cm height\", \"Seat height: 47 cm; Seat depth: 50 cm\", \"Upholstery: 100% polyester bouclé (Martindale 40,000)\", \"Maximum load capacity: 120 kg\", \"Made in Portugal\"], \"description\": \"The LISBOA armchair by Móveis Lusa features a 100% polyester bouclé upholstery that is washable at 30 °C. This piece is constructed with wood legs and weighs 23.5 kg.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Moss\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Sand\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"Grey LISBOA armchair, three-quarter view\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"Grey LISBOA armchair, front view\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"Beige LISBOA armchair, three-quarter view\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"Beige LISBOA armchair, front view\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"Green LISBOA armchair, three-quarter view\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"Green LISBOA armchair, front view\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"Grey LISBOA armchair, back view\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Detail view of grey LISBOA armchair\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Крісло Móveis Lusa LISBOA\", \"bullets\": [\"Розміри: ширина 88 см, глибина 83 см, висота 90 см\", \"Висота сидіння: 47 см; Глибина сидіння: 50 см\", \"Оббивка: 100% поліестеровий букле (Martindale 40,000)\", \"Максимальне навантаження: 120 кг\", \"Виготовлено в Португалії\"], \"description\": \"Крісло LISBOA від Móveis Lusa має оббивку з 100% поліестерового букле, яку можна прати при 30 °C. Модель має дерев'яні ніжки та важить 23.5 кг.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Моховий\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Пісочний\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Антрацитовий\"}], \"safety_warnings\": [\"Не використовувати на вулиці.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"Сіре крісло LISBOA, вигляд у три чверті\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"Сіре крісло LISBOA, вигляд спереду\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"Бежеве крісло LISBOA, вигляд у три чверті\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"Бежеве крісло LISBOA, вигляд спереду\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"Зелене крісло LISBOA, вигляд у три чверті\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"Зелене крісло LISBOA, вигляд спереду\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"Сіре крісло LISBOA, вигляд ззаду\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Детальний вигляд сірого крісла LISBOA\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 981,
+   "completion_tokens": 574
+  },
+  "latency_s": 15.813
+ }
+}

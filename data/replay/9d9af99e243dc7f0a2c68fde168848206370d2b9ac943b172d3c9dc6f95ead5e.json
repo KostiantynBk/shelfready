@@ -1,0 +1,38 @@
+{
+ "key": "9d9af99e243dc7f0a2c68fde168848206370d2b9ac943b172d3c9dc6f95ead5e",
+ "purpose": "back:SYN-07:uk",
+ "recorded_at": "2026-10-14T18:19:12+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this Ukrainian product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Крісло Móveis Lusa FARO\", \"bullets\": [\"Розміри: ширина 70 см, глибина 71 см, висота 83 см\", \"Висота сидіння: 45 см; глибина сидіння: 43 см\", \"Ніжки з масиву бука з морілкою кольору горіха\", \"Оббивка зі 100% поліестерової тканини\", \"Знімний чохол, що переється при 30 °C\", \"Максимальне навантаження: 120 кг\"], \"description\": \"Крісло FARO від Móveis Lusa виготовлено в Португалії. Воно має оббивку зі 100% поліестерової тканини та ніжки з масиву бука з морілкою кольору горіха.\", \"colours\": [{\"code\": \"FAR-07-ANT\", \"name\": \"Антрацитовий\"}, {\"code\": \"FAR-07-AZU\", \"name\": \"Синій\"}, {\"code\": \"FAR-07-CIN\", \"name\": \"Сірий\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"FAR07_ANT_34.jpg\", \"text\": \"Крісло FARO в антрацитово-сірому кольорі, вигляд у три чверті\"}, {\"file\": \"FAR07_ANT_front.jpg\", \"text\": \"Крісло FARO в антрацитово-сірому кольорі, вигляд спереду\"}, {\"file\": \"FAR07_AZU_34.jpg\", \"text\": \"Крісло FARO в синьому кольорі, вигляд у три чверті\"}, {\"file\": \"FAR07_AZU_front.jpg\", \"text\": \"Крісло FARO в синьому кольорі, вигляд спереду\"}, {\"file\": \"FAR07_CIN_34.jpg\", \"text\": \"Крісло FARO в сірому кольорі, вигляд у три чверті\"}, {\"file\": \"FAR07_CIN_front.jpg\", \"text\": \"Крісло FARO в сірому кольорі, вигляд спереду\"}, {\"file\": \"FAR07_ANT_side.jpg\", \"text\": \"Крісло FARO в антрацитово-сірому кольорі, вигляд збоку\"}, {\"file\": \"FAR07_AZU_detail.jpg\", \"text\": \"Детальний вигляд крісла FARO в синьому кольорі\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa FARO Armchair\", \"bullets\": [\"Dimensions: width 70 cm, depth 71 cm, height 83 cm\", \"Seat height: 45 cm; seat depth: 43 cm\", \"Solid beech legs with walnut color stain\", \"Upholstery made of 100% polyester fabric\", \"Removable cover, washable at 30 °C\", \"Maximum load: 120 kg\"], \"description\": \"The FARO armchair from Móveis Lusa is made in Portugal. It features upholstery made of 100% polyester fabric and solid beech legs with walnut color stain.\", \"colours\": [{\"code\": \"FAR-07-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"FAR-07-AZU\", \"name\": \"Blue\"}, {\"code\": \"FAR-07-CIN\", \"name\": \"Grey\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"FAR07_ANT_34.jpg\", \"text\": \"FARO armchair in anthracite-grey color, three-quarter view\"}, {\"file\": \"FAR07_ANT_front.jpg\", \"text\": \"FARO armchair in anthracite-grey color, front view\"}, {\"file\": \"FAR07_AZU_34.jpg\", \"text\": \"FARO armchair in blue color, three-quarter view\"}, {\"file\": \"FAR07_AZU_front.jpg\", \"text\": \"FARO armchair in blue color, front view\"}, {\"file\": \"FAR07_CIN_34.jpg\", \"text\": \"FARO armchair in grey color, three-quarter view\"}, {\"file\": \"FAR07_CIN_front.jpg\", \"text\": \"FARO armchair in grey color, front view\"}, {\"file\": \"FAR07_ANT_side.jpg\", \"text\": \"FARO armchair in anthracite-grey color, side view\"}, {\"file\": \"FAR07_AZU_detail.jpg\", \"text\": \"Detailed view of the FARO armchair in blue color\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1013,
+   "completion_tokens": 474
+  },
+  "latency_s": 14.453
+ }
+}

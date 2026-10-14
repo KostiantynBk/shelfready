@@ -1,0 +1,38 @@
+{
+ "key": "fa59c99e5d4f924472933428493035d4bf8abb5c10eee0f9d824cd2bf87e756c",
+ "purpose": "listing:SYN-05",
+ "recorded_at": "2026-10-14T18:07:37+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Write an English product listing for an EU online furniture and home shop using ONLY the verified facts below. Do not add facts, claims or measurements that are not listed. Facts may be written in Portuguese, Italian or German, often followed by an English version after '/': write natural English. Corrections override the supplier's text. Keep every number exactly as given with its unit (cm, kg, °C), and keep the brand, product name and codes unchanged. colours: one entry per variant code, with an English colour name. safety_warnings: every warning, translated faithfully into English (empty list if none are given). alt_texts: one per photo listed, saying what the photo shows for a blind shopper (product, colour, view), without marketing words.\nFacts: {\"product_name\": \"Poltrona relax LECCO / LECCO recliner\", \"model\": \"LECCO\", \"brand\": \"Arredo Brianza\", \"depth_cm\": 107, \"height_cm\": 112, \"seat_height_cm\": 45, \"seat_depth_cm\": 64, \"max_load_kg\": 120, \"weight_kg\": 52.2, \"product_type\": \"Poltrona relax / recliner\", \"legs_or_base\": \"Pino + multistrato\", \"upholstery\": \"Tessuto, 100% poliestere / woven fabric, 100% polyester\", \"care\": \"Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C\", \"country_of_origin\": \"Italia\", \"safety_warnings\": [\"Non utilizzare all'aperto.\", \"Not for outdoor use.\", \"Tenere lontano da fonti di calore.\", \"Keep away from heat sources.\", \"Non salire in piedi sulla seduta.\", \"Do not stand on the seat.\"], \"variants\": [{\"code\": \"LEC-05-COG\", \"colour_name\": \"Cognac\"}]}\nPhotos: [{\"file\": \"IMG_4579.JPG\", \"variant\": null, \"view\": \"detail\", \"colour_seen\": \"brown\"}, {\"file\": \"LECCO_ANT_01.jpg\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"LECCO_ANT_02.jpg\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"LECCO_ANT_04.jpg\", \"variant\": null, \"view\": \"packshot\", \"colour_seen\": \"grey\"}, {\"file\": \"LECCO_COG_01.jpg\", \"variant\": \"LEC-05-COG\", \"view\": \"packshot\", \"colour_seen\": \"brown\"}, {\"file\": \"LECCO_COG_02.jpg\", \"variant\": \"LEC-05-COG\", \"view\": \"detail\", \"colour_seen\": \"brown\"}, {\"file\": \"LECCO_COG_03.jpg\", \"variant\": \"LEC-05-COG\", \"view\": \"detail\", \"colour_seen\": \"brown\"}]"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Arredo Brianza LECCO Recliner\",\n  \"bullets\": [\n    \"Dimensions: 112 cm height, 107 cm depth, 45 cm seat height, and 64 cm seat depth\",\n    \"Upholstery: 100% polyester woven fabric with a removable cover washable at 30 °C\",\n    \"Base: Constructed from pine and multilayer\",\n    \"Maximum load capacity: 120 kg\",\n    \"Made in Italia\"\n  ],\n  \"description\": \"The LECCO recliner by Arredo Brianza is a comfortable seating solution featuring a 100% polyester woven fabric upholstery. This Italian-made chair includes a removable cover for easy maintenance.\",\n  \"colours\": [\n    {\n      \"code\": \"LEC-05-COG\",\n      \"name\": \"Cognac\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Not for outdoor use.\",\n    \"Keep away from heat sources.\",\n    \"Do not stand on the seat.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4579.JPG\",\n      \"text\": \"Detail view of the LECCO recliner in brown.\"\n    },\n    {\n      \"file\": \"LECCO_ANT_01.jpg\",\n      \"text\": \"Packshot of the LECCO recliner in grey.\"\n    },\n    {\n      \"file\": \"LECCO_ANT_02.jpg\",\n      \"text\": \"Packshot of the LECCO recliner in grey.\"\n    },\n    {\n      \"file\": \"LECCO_ANT_04.jpg\",\n      \"text\": \"Packshot of the LECCO recliner in grey.\"\n    },\n    {\n      \"file\": \"LECCO_COG_01.jpg\",\n      \"text\": \"Packshot of the LECCO recliner in Cognac brown.\"\n    },\n    {\n      \"file\": \"LECCO_COG_02.jpg\",\n      \"text\": \"Detail view of the LECCO recliner in Cognac brown.\"\n    },\n    {\n      \"file\": \"LECCO_COG_03.jpg\",\n      \"text\": \"Detail view of the LECCO recliner in Cognac brown.\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1058,
+   "completion_tokens": 531
+  },
+  "latency_s": 16.61
+ }
+}

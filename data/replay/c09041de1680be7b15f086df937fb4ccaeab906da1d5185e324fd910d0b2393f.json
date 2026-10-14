@@ -1,0 +1,38 @@
+{
+ "key": "c09041de1680be7b15f086df937fb4ccaeab906da1d5185e324fd910d0b2393f",
+ "purpose": "translate:SYN-24:es",
+ "recorded_at": "2026-10-14T18:16:17+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Spanish. Translate all words into natural Spanish, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Spanish term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Nordholz Wohnen', 'SAALE', 'SAA-24-BLA', 'SAA-24-SAN'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Nordholz Wohnen SAALE Rug\", \"bullets\": [\"Dimensions: 244 cm width, 152 cm depth, and 1 cm height\", \"Weight: 10.7 kg\", \"Country of origin: Deutschland\"], \"description\": \"The SAALE rug by Nordholz Wohnen is a home accessory designed for various interior spaces. It is available in multiple colour options.\", \"colours\": [{\"code\": \"SAA-24-BLA\", \"name\": \"Blue\"}, {\"code\": \"SAA-24-SAN\", \"name\": \"Sand\"}], \"safety_warnings\": [\"Use an anti-slip underlay on smooth floors.\", \"Keep away from open flames.\"], \"alt_texts\": [{\"file\": \"IMG_4705.JPG\", \"text\": \"Grey SAALE rug, packshot view\"}, {\"file\": \"SAALE-ANT-1.jpg\", \"text\": \"Beige SAALE rug, lifestyle view\"}, {\"file\": \"SAALE-ANT-2.jpg\", \"text\": \"Beige SAALE rug, detail view\"}, {\"file\": \"SAALE-ANT-3.jpg\", \"text\": \"Beige SAALE rug, packshot view\"}, {\"file\": \"SAALE-ANT-4.jpg\", \"text\": \"Blue SAALE rug, lifestyle view\"}, {\"file\": \"SAALE-BLA-1.jpg\", \"text\": \"Grey SAALE rug, lifestyle view\"}, {\"file\": \"SAALE-BLA-2.jpg\", \"text\": \"Grey SAALE rug, detail view\"}, {\"file\": \"SAALE-BLA-3.jpg\", \"text\": \"Grey SAALE rug, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Alfombra Nordholz Wohnen SAALE\",\n  \"bullets\": [\n    \"Dimensiones: 244 cm de ancho, 152 cm de profundidad y 1 cm de altura\",\n    \"Peso: 10.7 kg\",\n    \"País de origen: Deutschland\"\n  ],\n  \"description\": \"La alfombra SAALE de Nordholz Wohnen es un accesorio para el hogar diseñado para diversos espacios interiores. Está disponible en múltiples opciones de color.\",\n  \"colours\": [\n    {\n      \"code\": \"SAA-24-BLA\",\n      \"name\": \"Azul\"\n    },\n    {\n      \"code\": \"SAA-24-SAN\",\n      \"name\": \"Arena\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Utilice una base antideslizante en suelos lisos.\",\n    \"Mantener alejado de llamas abiertas.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"IMG_4705.JPG\",\n      \"text\": \"Alfombra SAALE gris, vista de producto\"\n    },\n    {\n      \"file\": \"SAALE-ANT-1.jpg\",\n      \"text\": \"Alfombra SAALE beige, vista de ambiente\"\n    },\n    {\n      \"file\": \"SAALE-ANT-2.jpg\",\n      \"text\": \"Alfombra SAALE beige, vista de detalle\"\n    },\n    {\n      \"file\": \"SAALE-ANT-3.jpg\",\n      \"text\": \"Alfombra SAALE beige, vista de producto\"\n    },\n    {\n      \"file\": \"SAALE-ANT-4.jpg\",\n      \"text\": \"Alfombra SAALE azul, vista de ambiente\"\n    },\n    {\n      \"file\": \"SAALE-BLA-1.jpg\",\n      \"text\": \"Alfombra SAALE gris, vista de ambiente\"\n    },\n    {\n      \"file\": \"SAALE-BLA-2.jpg\",\n      \"text\": \"Alfombra SAALE gris, vista de detalle\"\n    },\n    {\n      \"file\": \"SAALE-BLA-3.jpg\",\n      \"text\": \"Alfombra SAALE gris, vista de detalle\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 856,
+   "completion_tokens": 528
+  },
+  "latency_s": 12.187
+ }
+}

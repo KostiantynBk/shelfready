@@ -1,0 +1,38 @@
+{
+ "key": "bf505abe2f01f9827116f1db0663944d031286e716bb25e0ee06948432a88412",
+ "purpose": "translate:SYN-14:pt",
+ "recorded_at": "2026-10-14T18:15:42+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into European Portuguese. Translate all words into natural European Portuguese, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a European Portuguese term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'AVEIRO', 'AVE-14-ANT', 'AVE-14-ARE', 'AVE-14-CIN'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa AVEIRO Sofa\", \"bullets\": [\"Dimensions: 152 cm width, 78 cm depth, 78 cm height\", \"Upholstery: 100% polyester velvet\", \"Legs: Solid beech with walnut stain\", \"Maximum load capacity: 220 kg\", \"Made in Portugal\"], \"description\": \"The AVEIRO sofa by Móveis Lusa features a 100% polyester velvet upholstery and solid beech legs with a walnut stain. This piece has a seat depth of 47 cm and requires dry clean only care.\", \"colours\": [{\"code\": \"AVE-14-ANT\", \"name\": \"Anthracite\"}, {\"code\": \"AVE-14-ARE\", \"name\": \"Sand\"}, {\"code\": \"AVE-14-CIN\", \"name\": \"Grey\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"AVE14_ANT_front.jpg\", \"text\": \"Front view of the AVEIRO sofa in anthracite grey.\"}, {\"file\": \"AVE14_ARE_34.jpg\", \"text\": \"Three-quarter view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_ARE_front.jpg\", \"text\": \"Front view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_CIN_front.jpg\", \"text\": \"Front view of the AVEIRO sofa in grey.\"}, {\"file\": \"AVE14_ANT_side.jpg\", \"text\": \"Side view of the AVEIRO sofa in anthracite grey.\"}, {\"file\": \"AVE14_ARE_detail.jpg\", \"text\": \"Detail view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_ARE_side.jpg\", \"text\": \"Side view of the AVEIRO sofa in sand beige.\"}, {\"file\": \"AVE14_CIN_detail.jpg\", \"text\": \"Detail view of the AVEIRO sofa in grey.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Sofá Móveis Lusa AVEIRO\",\n  \"bullets\": [\n    \"Dimensões: 152 cm de largura, 78 cm de profundidade, 78 cm de altura\",\n    \"Estofos: Veludo 100% poliéster\",\n    \"Pés: Faia maciça com acabamento em nogueira\",\n    \"Capacidade de carga máxima: 220 kg\",\n    \"Fabricado em Portugal\"\n  ],\n  \"description\": \"O sofá AVEIRO da Móveis Lusa apresenta estofos em veludo 100% poliéster e pés em faia maciça com acabamento em nogueira. Esta peça tem uma profundidade de assento de 47 cm e requer apenas limpeza a seco.\",\n  \"colours\": [\n    {\n      \"code\": \"AVE-14-ANT\",\n      \"name\": \"Antracite\"\n    },\n    {\n      \"code\": \"AVE-14-ARE\",\n      \"name\": \"Areia\"\n    },\n    {\n      \"code\": \"AVE-14-CIN\",\n      \"name\": \"Cinzento\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Não utilizar no exterior.\",\n    \"Manter afastado de fontes de calor.\",\n    \"Não se levantar sobre o assento.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"AVE14_ANT_front.jpg\",\n      \"text\": \"Vista frontal do sofá AVEIRO em cinzento antracite.\"\n    },\n    {\n      \"file\": \"AVE14_ARE_34.jpg\",\n      \"text\": \"Vista de três quartos do sofá AVEIRO em bege areia.\"\n    },\n    {\n      \"file\": \"AVE14_ARE_front.jpg\",\n      \"text\": \"Vista frontal do sofá AVEIRO em bege areia.\"\n    },\n    {\n      \"file\": \"AVE14_CIN_front.jpg\",\n      \"text\": \"Vista frontal do sofá AVEIRO em cinzento.\"\n    },\n    {\n      \"file\": \"AVE14_ANT_side.jpg\",\n      \"text\": \"Vista lateral do sofá AVEIRO em cinzento antracite.\"\n    },\n    {\n      \"file\": \"AVE14_ARE_detail.jpg\",\n      \"text\": \"Vista detalhada do sofá AVEIRO em bege areia.\"\n    },\n    {\n      \"file\": \"AVE14_ARE_side.jpg\",\n      \"text\": \"Vista lateral do sofá AVEIRO em bege areia.\"\n    },\n    {\n      \"file\": \"AVE14_CIN_detail.jpg\",\n      \"text\": \"Vista detalhada do sofá AVEIRO em cinzento.\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 953,
+   "completion_tokens": 654
+  },
+  "latency_s": 18.484
+ }
+}

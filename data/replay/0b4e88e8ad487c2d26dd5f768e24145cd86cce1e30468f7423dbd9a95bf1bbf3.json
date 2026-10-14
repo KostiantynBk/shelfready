@@ -1,0 +1,38 @@
+{
+ "key": "0b4e88e8ad487c2d26dd5f768e24145cd86cce1e30468f7423dbd9a95bf1bbf3",
+ "purpose": "translate:SYN-10:fr",
+ "recorded_at": "2026-10-14T18:11:37+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into French. Translate all words into natural French, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a French term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'ÉVORA', 'EVO-10-MUS'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa ÉVORA Armchair\", \"bullets\": [\"Upholstery: 100% polyester velvet\", \"Base: Powder-coated steel with brass finish\", \"Maximum load capacity: 120 kg\", \"Dimensions: 82 cm height, 60 cm depth, 45 cm seat height, 36 cm seat depth\", \"Made in Portugal\"], \"description\": \"The ÉVORA armchair by Móveis Lusa features a velvet upholstery and a brass-finished powder-coated steel base. This piece weighs 10.4 kg and requires dry clean only care.\", \"colours\": [{\"code\": \"EVO-10-MUS\", \"name\": \"Moss Green\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"EVO10_MUS_34.jpg\", \"text\": \"Three-quarter view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in pink.\"}, {\"file\": \"IMG_4234.JPG\", \"text\": \"Three-quarter view of the ÉVORA armchair in pink.\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"text\": \"Detail view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in green.\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in pink.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Fauteuil Móveis Lusa ÉVORA\", \"bullets\": [\"Revêtement : velours 100 % polyester\", \"Piètement : acier thermolaqué avec finition laiton\", \"Capacité de charge maximale : 120 kg\", \"Dimensions : 82 cm de hauteur, 60 cm de profondeur, 45 cm de hauteur d'assise, 36 cm de profondeur d'assise\", \"Fabriqué au Portugal\"], \"description\": \"Le fauteuil ÉVORA de Móveis Lusa présente un revêtement en velours et un piètement en acier thermolaqué avec finition laiton. Cette pièce pèse 10,4 kg et nécessite un nettoyage à sec uniquement.\", \"colours\": [{\"code\": \"EVO-10-MUS\", \"name\": \"Vert Mousse\"}], \"safety_warnings\": [], \"alt_texts\": [{\"file\": \"EVO10_MUS_34.jpg\", \"text\": \"Vue de trois-quarts du fauteuil ÉVORA en vert.\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"text\": \"Vue de face du fauteuil ÉVORA en vert.\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"text\": \"Vue de face du fauteuil ÉVORA en rose.\"}, {\"file\": \"IMG_4234.JPG\", \"text\": \"Vue de trois-quarts du fauteuil ÉVORA en rose.\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"text\": \"Vue détaillée du fauteuil ÉVORA en vert.\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"text\": \"Vue de profil du fauteuil ÉVORA en vert.\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"text\": \"Vue de profil du fauteuil ÉVORA en rose.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 867,
+   "completion_tokens": 417
+  },
+  "latency_s": 11.766
+ }
+}

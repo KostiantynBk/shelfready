@@ -1,0 +1,38 @@
+{
+ "key": "cea2674d786fda1a88086d78e475f1f491842aabb529bf9c93a78be56cbfa476",
+ "purpose": "translate:SYN-05:fr",
+ "recorded_at": "2026-10-14T18:09:14+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into French. Translate all words into natural French, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a French term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Arredo Brianza', 'LECCO', 'LEC-05-COG'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Arredo Brianza LECCO Recliner\", \"bullets\": [\"Dimensions: 112 cm height, 107 cm depth, 45 cm seat height, and 64 cm seat depth\", \"Upholstery: 100% polyester woven fabric with a removable cover washable at 30 °C\", \"Base: Constructed from pine and multilayer\", \"Maximum load capacity: 120 kg\", \"Made in Italia\"], \"description\": \"The LECCO recliner by Arredo Brianza is a comfortable seating solution featuring a 100% polyester woven fabric upholstery. This Italian-made chair includes a removable cover for easy maintenance.\", \"colours\": [{\"code\": \"LEC-05-COG\", \"name\": \"Cognac\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"IMG_4579.JPG\", \"text\": \"Detail view of the LECCO recliner in brown.\"}, {\"file\": \"LECCO_ANT_01.jpg\", \"text\": \"Packshot of the LECCO recliner in grey.\"}, {\"file\": \"LECCO_ANT_02.jpg\", \"text\": \"Packshot of the LECCO recliner in grey.\"}, {\"file\": \"LECCO_ANT_04.jpg\", \"text\": \"Packshot of the LECCO recliner in grey.\"}, {\"file\": \"LECCO_COG_01.jpg\", \"text\": \"Packshot of the LECCO recliner in Cognac brown.\"}, {\"file\": \"LECCO_COG_02.jpg\", \"text\": \"Detail view of the LECCO recliner in Cognac brown.\"}, {\"file\": \"LECCO_COG_03.jpg\", \"text\": \"Detail view of the LECCO recliner in Cognac brown.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Fauteuil inclinable Arredo Brianza LECCO\", \"bullets\": [\"Dimensions : 112 cm de hauteur, 107 cm de profondeur, 45 cm de hauteur d'assise et 64 cm de profondeur d'assise\", \"Revêtement : tissu tissé 100 % polyester avec housse amovible lavable à 30 °C\", \"Structure : conçue en pin et multicouche\", \"Capacité de charge maximale : 120 kg\", \"Fabriqué en Italie\"], \"description\": \"Le fauteuil inclinable LECCO d'Arredo Brianza est une solution d'assise confortable dotée d'un revêtement en tissu tissé 100 % polyester. Ce fauteuil fabriqué en Italie comprend une housse amovible pour un entretien facile.\", \"colours\": [{\"code\": \"LEC-05-COG\", \"name\": \"Cognac\"}], \"safety_warnings\": [\"Ne pas utiliser à l'extérieur.\", \"Tenir à l'écart des sources de chaleur.\", \"Ne pas se tenir debout sur le siège.\"], \"alt_texts\": [{\"file\": \"IMG_4579.JPG\", \"text\": \"Vue détaillée du fauteuil LECCO en marron.\"}, {\"file\": \"LECCO_ANT_01.jpg\", \"text\": \"Photo produit du fauteuil LECCO en gris.\"}, {\"file\": \"LECCO_ANT_02.jpg\", \"text\": \"Photo produit du fauteuil LECCO en gris.\"}, {\"file\": \"LECCO_ANT_04.jpg\", \"text\": \"Photo produit du fauteuil LECCO en gris.\"}, {\"file\": \"LECCO_COG_01.jpg\", \"text\": \"Photo produit du fauteuil LECCO en marron Cognac.\"}, {\"file\": \"LECCO_COG_02.jpg\", \"text\": \"Vue détaillée du fauteuil LECCO en marron Cognac.\"}, {\"file\": \"LECCO_COG_03.jpg\", \"text\": \"Vue détaillée du fauteuil LECCO en marron Cognac.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 889,
+   "completion_tokens": 451
+  },
+  "latency_s": 14.469
+ }
+}

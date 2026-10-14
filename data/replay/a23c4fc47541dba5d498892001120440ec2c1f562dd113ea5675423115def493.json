@@ -1,0 +1,38 @@
+{
+ "key": "a23c4fc47541dba5d498892001120440ec2c1f562dd113ea5675423115def493",
+ "purpose": "translate:SYN-02:pt",
+ "recorded_at": "2026-10-14T18:18:41+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into European Portuguese. Translate all words into natural European Portuguese, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a European Portuguese term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Ningbo Brightway Home Co.', 'COMO', 'COM-02-COG', 'COM-02-SAB', 'COM-02-NER'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"COMO Armchair by Ningbo Brightway Home Co.\", \"bullets\": [\"Upholstery made from top-grain leather\", \"Dimensions: 104 cm width, 104 cm depth, 81 cm height\", \"Seat height: 44 cm; seat depth: 62 cm\", \"Maximum load capacity: 120 kg\", \"Weight: 44.5 kg\"], \"description\": \"The COMO armchair by Ningbo Brightway Home Co. is upholstered in top-grain leather. This piece can be maintained by wiping with a damp cloth.\", \"colours\": [{\"code\": \"COM-02-COG\", \"name\": \"Cognac\"}, {\"code\": \"COM-02-SAB\", \"name\": \"Sand\"}, {\"code\": \"COM-02-NER\", \"name\": \"Black\"}], \"safety_warnings\": [\"Not for outdoor use.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"COMO_COG_01.jpg\", \"text\": \"COMO armchair in brown, packshot view\"}, {\"file\": \"COMO_COG_02.jpg\", \"text\": \"COMO armchair in brown, packshot view\"}, {\"file\": \"COMO_NER_01.jpg\", \"text\": \"COMO armchair in black, packshot view\"}, {\"file\": \"COMO_NER_02.jpg\", \"text\": \"COMO armchair in black, lifestyle view\"}, {\"file\": \"COMO_NER_04.jpg\", \"text\": \"COMO armchair in black, detail view\"}, {\"file\": \"COMO_SAB_01.jpg\", \"text\": \"COMO armchair in beige, packshot view\"}, {\"file\": \"COMO_SAB_02.jpg\", \"text\": \"COMO armchair in beige, packshot view\"}, {\"file\": \"COMO_SAB_03.jpg\", \"text\": \"COMO armchair in beige, detail view\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\n  \"title\": \"Poltrona COMO da Ningbo Brightway Home Co.\",\n  \"bullets\": [\n    \"Estofos em pele de flor\",\n    \"Dimensões: 104 cm de largura, 104 cm de profundidade, 81 cm de altura\",\n    \"Altura do assento: 44 cm; profundidade do assento: 62 cm\",\n    \"Capacidade de carga máxima: 120 kg\",\n    \"Peso: 44.5 kg\"\n  ],\n  \"description\": \"A poltrona COMO da Ningbo Brightway Home Co. é estofada em pele de flor. Esta peça pode ser mantida limpando-a com um pano húmido.\",\n  \"colours\": [\n    {\n      \"code\": \"COM-02-COG\",\n      \"name\": \"Conhaque\"\n    },\n    {\n      \"code\": \"COM-02-SAB\",\n      \"name\": \"Areia\"\n    },\n    {\n      \"code\": \"COM-02-NER\",\n      \"name\": \"Preto\"\n    }\n  ],\n  \"safety_warnings\": [\n    \"Não utilizar no exterior.\",\n    \"Manter afastado de fontes de calor.\",\n    \"Não se levantar sobre o assento.\"\n  ],\n  \"alt_texts\": [\n    {\n      \"file\": \"COMO_COG_01.jpg\",\n      \"text\": \"Poltrona COMO em castanho, vista de catálogo\"\n    },\n    {\n      \"file\": \"COMO_COG_02.jpg\",\n      \"text\": \"Poltrona COMO em castanho, vista de catálogo\"\n    },\n    {\n      \"file\": \"COMO_NER_01.jpg\",\n      \"text\": \"Poltrona COMO em preto, vista de catálogo\"\n    },\n    {\n      \"file\": \"COMO_NER_02.jpg\",\n      \"text\": \"Poltrona COMO em preto, vista de ambiente\"\n    },\n    {\n      \"file\": \"COMO_NER_04.jpg\",\n      \"text\": \"Poltrona COMO em preto, vista de detalhe\"\n    },\n    {\n      \"file\": \"COMO_SAB_01.jpg\",\n      \"text\": \"Poltrona COMO em bege, vista de catálogo\"\n    },\n    {\n      \"file\": \"COMO_SAB_02.jpg\",\n      \"text\": \"Poltrona COMO em bege, vista de catálogo\"\n    },\n    {\n      \"file\": \"COMO_SAB_03.jpg\",\n      \"text\": \"Poltrona COMO em bege, vista de detalhe\"\n    }\n  ]\n}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 945,
+   "completion_tokens": 638
+  },
+  "latency_s": 15.078
+ }
+}
