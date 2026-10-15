@@ -17,6 +17,7 @@ from app.pipeline.normalise import (
     care_category,
     colour_family,
     colours_compatible,
+    gtin_check_digit,
     gtin_valid,
     has_fibre_composition,
     material_by_variant,
@@ -171,15 +172,21 @@ class _Checker:
     def eans(self) -> None:
         for variant in self.variants:
             ean = (variant.get("ean") or "").strip()
+            code, colour = variant["code"], variant.get("colour_name") or variant["code"]
             if not ean:  # D3
-                self.add("D3", variant=variant["code"], type="missing", severity="blocking", return_risk="none",
-                         attribute="ean", title=f"{variant['code']}: EAN missing",
-                         detail="Marketplaces need a GTIN/EAN per variant. Ask the supplier.")  # fmt: skip
+                self.add("D3", variant=code, type="missing", severity="blocking", return_risk="none",
+                         attribute="ean", title=f"Barcode (EAN) missing for {colour}",
+                         detail=f"The supplier's variant table has no EAN for {colour} ({code}). Amazon, Google Shopping and "
+                                "most marketplaces need one barcode per colour to list it (it is not a legal requirement). "
+                                "Ask the supplier for it, or enter it if you have it.")  # fmt: skip
             elif not gtin_valid(ean):  # D4
-                self.add("D4", variant=variant["code"], type="contradictory", severity="blocking", return_risk="none",
-                         attribute="ean", title=f"{variant['code']}: EAN check digit is wrong", spec_value=ean,
-                         detail="The GS1 check digit does not match; it is probably a typo. Ask the supplier.",
-                         evidence=self.pdf(f"ean:{variant['code']}"))  # fmt: skip
+                why = (f"The last digit of an EAN is calculated from the other twelve: for {ean} it should be "
+                       f"{gtin_check_digit(ean[:-1])}, so one digit was mistyped and we cannot tell which."
+                       if ean.isdigit() and len(ean) == 13 else f"'{ean}' is not a 13-digit EAN.")  # fmt: skip
+                self.add("D4", variant=code, type="contradictory", severity="blocking", return_risk="none",
+                         attribute="ean", title=f"Barcode (EAN) for {colour} has a typo", spec_value=ean,
+                         detail=f"{why} Ask the supplier for the correct number.",
+                         evidence=self.pdf(f"ean:{code}"))  # fmt: skip
 
     def care(self) -> None:  # D5
         spec_care = care_category(self.spec.get("care"))

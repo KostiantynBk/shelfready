@@ -87,9 +87,13 @@ def gtin_valid(code: str | None) -> bool:
     code = (code or "").strip()
     if not code.isdigit() or len(code) not in (8, 12, 13, 14):
         return False
-    body, check = code[:-1], int(code[-1])
+    return gtin_check_digit(code[:-1]) == int(code[-1])
+
+
+def gtin_check_digit(body: str) -> int:
+    """The GS1 check digit for the digits before it: '560123400002' → 3."""
     total = sum(int(d) * (3 if i % 2 == 0 else 1) for i, d in enumerate(reversed(body)))
-    return (10 - total % 10) % 10 == check
+    return (10 - total % 10) % 10
 
 
 # --------------------------------------------------------------------------- words → categories

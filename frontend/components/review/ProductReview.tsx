@@ -314,13 +314,15 @@ function IssueRow({
             <div className="small muted">Supplier&apos;s spec</div>
             {issue.spec_value ?? "—"}
           </div>
-          <div>
-            <div className="small muted">{issue.found_value ? "Photos, label or drawing" : "Proposed"}</div>
-            {found ?? "—"}
-          </div>
+          {found && (
+            <div>
+              <div className="small muted">{issue.found_value ? "Photos, label or drawing" : "Proposed"}</div>
+              {found}
+            </div>
+          )}
         </div>
       )}
-      {!issue.spec_value && !found && <p className="small muted detail">{issue.detail}</p>}
+      {(on || (!issue.spec_value && !found)) && <p className="small muted detail">{issue.detail}</p>}
       {issue.decision ? (
         <div className="acts-row">
           <span className="small">{describe(issue.decision, issue)}</span>
