@@ -12,6 +12,7 @@ import {
   type BBox,
   type Decision,
   type Evidence,
+  type FileEntry,
   type Issue,
   type ListingCopy,
   type Product,
@@ -444,6 +445,7 @@ function EvidenceViewer({
               <span className="muted">No images</span>
             )}
           </div>
+          {file && <Reading file={file} attribute={issue?.attribute} />}
         </div>
       </div>
       <div className="thumbs">
@@ -454,12 +456,49 @@ function EvidenceViewer({
             title={f.name}
             onClick={() => onShowFile(f.name)}
           >
-            <img src={f.thumb_url ?? fileUrl(f.url)} alt={f.name} />
+            <img src={fileUrl(f.thumb_url ?? f.url)} alt={f.name} />
           </button>
         ))}
       </div>
     </Card>
   );
+}
+
+const DRAWING_PARTS: [string, string][] = [
+  ["width_cm", "width"],
+  ["depth_cm", "depth"],
+  ["height_cm", "overall height"],
+  ["seat_height_cm", "seat height"],
+];
+
+/** What the model read on a dimension drawing or care label; the value the finding is about is marked. */
+function Reading({ file, attribute }: { file: FileEntry; attribute?: string }) {
+  const r = file.reading;
+  if (!r) return null;
+  if ("height_cm" in r || "seat_height_cm" in r) {
+    const parts = DRAWING_PARTS.filter(([key]) => r[key] != null);
+    return (
+      <p className="reading small">
+        The drawing reads:{" "}
+        {parts.map(([key, label], n) => (
+          <span key={key}>
+            {n > 0 && " · "}
+            <span className={attribute && key === `${attribute}_cm` ? "hit" : undefined}>
+              {label} {String(r[key])} cm
+            </span>
+          </span>
+        ))}
+      </p>
+    );
+  }
+  const bits = [
+    r.composition,
+    r.wash_max_temp_c ? `wash at ${r.wash_max_temp_c} °C` : null,
+    r.dry_clean_only ? "dry clean only" : null,
+    r.do_not_wash ? "do not wash" : null,
+    r.removable_cover ? "removable cover" : null,
+  ].filter(Boolean);
+  return <p className="reading small">The care label reads: {bits.join(" · ")}</p>;
 }
 
 // ------------------------------------------------------------------------------------------ copy, facts, checks

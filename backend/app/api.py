@@ -13,6 +13,7 @@ from typing import Annotated, Any
 
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import FileResponse, RedirectResponse
+from PIL import Image
 
 from app.clients.llm import LLMClient
 from app.config import get_settings
@@ -104,11 +105,12 @@ def _files(
             entry["analysis"] = images[a["file"]].get("analysis")
             entry["size"] = images[a["file"]].get("size")
             entry["low_res"] = images[a["file"]].get("low_res")
-        if a.get("abo_path"):
-            entry["thumb_url"] = ABO_URL.format(size="small", path=a["abo_path"])
+            entry["reading"] = images[a["file"]].get("drawing") or images[a["file"]].get("label")
         if a["kind"] == "spec":
             entry["pages"] = [{"number": p.number, "url": f"/files/{pid}/{a['file']}/pages/{p.number}",
                                "width_pt": p.width_pt, "height_pt": p.height_pt} for p in _pages(folder / a["path"], str(store.settings.data_dir))]  # fmt: skip
+        else:
+            entry["thumb_url"] = f"/files/{pid}/{a['file']}?size=thumb"
         files.append(entry)
     return files
 
@@ -170,14 +172,8 @@ def summary(store: Store, pid: str) -> dict[str, Any]:
     facts, _ = store.facts(pid)
     issues = _all_issues(store, pid, store.copy_for(pid, facts) if facts else None)
     still_open = [i for i in issues if i.id not in decisions]
-    thumb = next(
-        (
-            ABO_URL.format(size="small", path=a["abo_path"])
-            for a in manifest["attachments"]
-            if a.get("abo_path")
-        ),
-        None,
-    )
+    first_photo = next((a["file"] for a in manifest["attachments"] if a["kind"] == "photo"), None)
+    thumb = f"/files/{pid}/{first_photo}?size=thumb" if first_photo else None
     return {"id": pid, "model": model_name(spec) or pid, "product_name": spec.get("product_name"),
             "supplier": manifest["supplier"], "received": manifest["email"]["date"], "subject": manifest["email"]["subject"],
             "category": product_category(spec) if spec else None,
@@ -297,19 +293,40 @@ def reset(store: StoreDep) -> dict[str, str]:
 
 
 @router.get("/files/{pid}/{name}")
-def file(pid: str, name: str, store: StoreDep):
+def file(pid: str, name: str, store: StoreDep, size: str | None = None):
+    """A supplier file; size=thumb gives a small JPEG (made from the local file, cached under DATA_DIR/thumbs)."""
     folder, manifest = _product(store, pid)
     attachment = next((a for a in manifest["attachments"] if a["file"] == name), None)
     if attachment is None:
         raise HTTPException(404, f"no file {name}")
-    if attachment.get("path"):
-        return FileResponse(folder / attachment["path"])
-    local = store.settings.abo_images_dir / attachment["abo_path"]
-    if local.exists():
-        return FileResponse(local)
-    return RedirectResponse(
-        ABO_URL.format(size="original", path=attachment["abo_path"])
-    )  # public ABO copy (CC BY 4.0)
+    local = (
+        folder / attachment["path"]
+        if attachment.get("path")
+        else store.settings.abo_images_dir / attachment["abo_path"]
+    )
+    if not local.exists():
+        if not attachment.get("abo_path"):
+            raise HTTPException(404, f"{name} is not available")
+        # public ABO copy (CC BY 4.0) when the photos were not downloaded
+        return RedirectResponse(
+            ABO_URL.format(size="small" if size == "thumb" else "original", path=attachment["abo_path"])
+        )
+    if size == "thumb" and local.suffix.lower() != ".pdf":
+        return FileResponse(_thumbnail(local, str(store.settings.data_dir)))
+    return FileResponse(local)
+
+
+def _thumbnail(path: Path, data_dir: str, side: int = 240) -> Path:
+    target = Path(data_dir) / "thumbs" / f"{hashlib.sha1(str(path.resolve()).encode()).hexdigest()[:20]}.jpg"
+    if not target.exists():
+        target.parent.mkdir(parents=True, exist_ok=True)
+        with _RENDER, Image.open(path) as image:
+            image = image.convert("RGBA")
+            flat = Image.new("RGB", image.size, "white")
+            flat.paste(image, mask=image.getchannel("A"))
+            flat.thumbnail((side, side))
+            flat.save(target, "JPEG", quality=85)
+    return target
 
 
 @router.get("/files/{pid}/{name}/pages/{number}")

@@ -605,3 +605,14 @@ tr:last-child td {
 .copy p {
   margin: 0 0 8px;
 }
+.reading {
+  margin: 0;
+  padding: 8px 12px;
+  border-top: 1px solid var(--border-subdued);
+}
+.hit {
+  background: var(--attention-bg);
+  border-radius: 3px;
+  padding: 0 4px;
+  font-weight: 650;
+}

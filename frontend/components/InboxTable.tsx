@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { api, STATUS, type Summary } from "@/lib/api";
+import { api, fileUrl, STATUS, type Summary } from "@/lib/api";
 import { Badge, EmptyState } from "./ui";
 
 export function InboxTable() {
@@ -37,8 +37,8 @@ export function InboxTable() {
             <td>
               <Link href={`/products/${row.id}`} className="prod">
                 {row.thumb_url ? (
-                  // eslint-disable-next-line @next/next/no-img-element -- public ABO photo, no optimisation needed
-                  <img src={row.thumb_url} alt="" width={40} height={40} />
+                  // eslint-disable-next-line @next/next/no-img-element -- small thumbnail from the API
+                  <img src={fileUrl(row.thumb_url)} alt="" width={40} height={40} />
                 ) : (
                   <span className="noimg" />
                 )}

@@ -139,9 +139,13 @@ class _Checker:
         drawings = self.own_drawings()
         if seating and parse_number((self.spec.get("seat_height") or {}).get("value")) is None:  # D1
             proposal = next(((n, d["seat_height_cm"]) for n, d in drawings if d.get("seat_height_cm")), None)
+            overall = parse_number((self.spec.get("height") or {}).get("value"))
             self.add("D1", type="missing", severity="review", return_risk="dimensions", attribute="seat_height",
-                     title="Seat height missing",
-                     detail="The spec sheet has no seat height." + (" The dimension drawing shows one; confirm it." if proposal else ""),
+                     title="Seat height (floor to seat) missing",
+                     detail="Seat height runs from the floor to the top of the seat, a separate value from the overall height. "
+                            + (f"The spec sheet gives the overall height ({overall:g} {(self.spec.get('height') or {}).get('unit') or 'cm'}) but leaves the seat height empty." if overall
+                               else "The spec sheet leaves it empty.")
+                            + (" The dimension drawing shows it; confirm it." if proposal else ""),
                      proposed_value=f"{proposal[1]:g} cm" if proposal else None,
                      evidence=[Evidence(source="drawing", file=proposal[0], note="seat height")] if proposal else [])  # fmt: skip
         lengths = {n: self.measure(n) for n in ("width", "depth", "height", "seat_height", "seat_depth")}

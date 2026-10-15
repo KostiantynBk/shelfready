@@ -52,6 +52,7 @@ export type FileEntry = {
   size?: [number, number];
   low_res?: boolean;
   pages?: { number: number; url: string; width_pt: number; height_pt: number }[];
+  reading?: Record<string, unknown> | null; // what a dimension drawing or care label says
 };
 
 export type ListingCopy = {
