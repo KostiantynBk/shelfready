@@ -182,6 +182,14 @@ def material_by_variant(text: str | None, variant_codes: list[str]) -> dict[str,
     return result
 
 
+def variant_text(text: str | None, code: str) -> str | None:
+    """The part of a split text that names this variant: 'Aço cromado / chrome-plated steel (ANT)'."""
+    for chunk, suffixes in _VARIANT_GROUP.findall(text or ""):
+        if any(s and code.endswith(s) for s in re.split(r"[ ,/]+", suffixes.strip())):
+            return f"{chunk.strip(' -·')} ({suffixes.strip()})"
+    return None
+
+
 _CARE = [  # order matters: the more specific phrases first
     ("professional", r"do not wash|nao lavar|non lavare|nicht waschen|ne pas laver|no lavar|professional|profissional|professionale|professionelle"),
     ("dry_clean", r"dry.?clean|limpeza a seco|lavaggio a secco|chemische reinigung|nettoyage a sec|limpieza en seco"),

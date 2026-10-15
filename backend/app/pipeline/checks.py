@@ -23,6 +23,7 @@ from app.pipeline.normalise import (
     parse_number,
     to_cm,
     to_kg,
+    variant_text,
 )
 from app.pipeline.photos import to_bbox
 from app.schemas.documents import Evidence
@@ -219,12 +220,17 @@ class _Checker:
                 clashes.append((code, claimed, seen, names))
         if clashes:
             whole = len(clashes) == len(self.codes) and len({c[1] for c in clashes}) == 1
+            text = self.spec.get("legs_or_base")
+            colours = {v["code"]: v.get("colour_name") or v["code"] for v in self.variants}
             for code, claimed, seen, names in clashes[:1] if whole else clashes:
                 part = "legs" if key == "legs_material" else "base"
+                quoted = (text if whole else variant_text(text, code)) or text or claimed
+                which = "" if whole else f" of {colours[code]}"
                 self.add("D6", variant=None if whole else code, type="contradictory", severity="review",
-                         return_risk="material", attribute="legs_or_base", spec_value=claimed, found_value=seen,
-                         title=f"{part.capitalize()}: spec says {claimed}, photos show {seen}",
-                         detail="The material in the spec sheet does not match the photos. A person decides; ask the supplier.",
+                         return_risk="material", attribute="legs_or_base", spec_value=quoted, found_value=seen,
+                         title=f"{part.capitalize()}{which}: spec says {claimed}, photos show {seen}",
+                         detail=(f"For {colours[code]} ({code}) the spec sheet says “{quoted}”" if not whole else f"The spec sheet says “{quoted}”")
+                                + f", but the photos show {seen} {part}. Decide which is right, or ask the supplier.",
                          evidence=[*self.pdf("legs_or_base"), *(self.photo(n, "leg" if part == "legs" else "base") for n in names[:2])])  # fmt: skip
         for variant in self.variants:  # D10: colour name vs the photos of that variant
             names = grouped.get(variant["code"], [])

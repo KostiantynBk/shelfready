@@ -128,10 +128,13 @@ export function ProductReview({ params }: { params: Promise<{ id: string }> }) {
   const current = product.issues.find((i) => i.id === selected) ?? open[0] ?? asked[0] ?? notes[0] ?? null;
   const photos = product.files.filter((f) => f.kind !== "spec").length;
   const status = STATUS[product.status];
+  const variants = (product.spec.variants as { code: string; colour_name: string }[] | undefined) ?? [];
+  const colourOf = Object.fromEntries(variants.map((v) => [v.code, v.colour_name]));
   const row = (issue: Issue) => (
     <IssueRow
       key={issue.id}
       issue={issue}
+      variant={issue.variant ? `${colourOf[issue.variant] ?? ""} · ${issue.variant}` : null}
       on={issue.id === current?.id}
       busy={busy}
       onSelect={() => {
@@ -277,6 +280,7 @@ function StatusBanner({
 
 function IssueRow({
   issue,
+  variant,
   on,
   busy,
   onSelect,
@@ -284,6 +288,7 @@ function IssueRow({
   onReopen,
 }: {
   issue: Issue;
+  variant: string | null;
   on: boolean;
   busy: boolean;
   onSelect: () => void;
@@ -302,6 +307,7 @@ function IssueRow({
           <Badge tone={issue.decision ? "succ" : severity.tone}>{issue.decision ? "Decided" : severity.label}</Badge>
         )}
       </div>
+      {variant && <div className="small variant">Only this colour: {variant}</div>}
       {(issue.spec_value || found) && (
         <div className="vs">
           <div>

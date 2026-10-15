@@ -117,3 +117,12 @@ def test_fibre_composition_present_or_missing():
         assert has_fibre_composition(f"Bouclé, {text}"), lang
     for lang, text in gen.UPHOLSTERY["velvet"].items():
         assert not has_fibre_composition(text), lang  # D14: no composition
+
+
+def test_variant_text_quotes_the_part_for_one_variant():
+    from app.pipeline.normalise import variant_text
+
+    text = "Faia maciça / solid beech, walnut stain (MUS, ARE) · Aço cromado / chrome-plated steel (ANT)"
+    assert variant_text(text, "LIS-01-ANT") == "Aço cromado / chrome-plated steel (ANT)"
+    assert variant_text(text, "LIS-01-MUS") == "Faia maciça / solid beech, walnut stain (MUS, ARE)"
+    assert variant_text("Solid oak", "LIS-01-MUS") is None

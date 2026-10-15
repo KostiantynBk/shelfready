@@ -616,3 +616,8 @@ tr:last-child td {
   padding: 0 4px;
   font-weight: 650;
 }
+.issue .variant {
+  color: var(--info-text);
+  font-weight: 550;
+  margin-top: 2px;
+}
