@@ -361,3 +361,247 @@ tr:last-child td {
   font-weight: 650;
   margin: 0 0 4px;
 }
+
+/* Inbox */
+.inbox .prod {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.inbox .prod > span {
+  display: flex;
+  flex-direction: column;
+}
+.inbox .prod img,
+.noimg {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #f6f6f3;
+  box-shadow: 0 0 0 1px var(--border);
+  flex-shrink: 0;
+}
+.inbox tbody tr:hover {
+  background: var(--bg-surface-secondary);
+}
+.counts {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Review screen */
+.back {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--text-secondary);
+  padding: 0 4px;
+}
+.btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.banner.succ {
+  background: #edfdf3;
+  box-shadow: 0 0 0 1px #aee9d1 inset;
+}
+.banner.info {
+  background: #eaf4ff;
+  box-shadow: 0 0 0 1px #c5e0ff inset;
+}
+.banner.att {
+  background: #fff8db;
+  box-shadow: 0 0 0 1px #ffe58a inset;
+}
+.banner .reasons {
+  margin: 4px 0 0;
+  padding-left: 18px;
+}
+.grid.review {
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  align-items: start;
+}
+.detail {
+  margin: 4px 0 0;
+}
+.card > .cb > .detail {
+  margin: 0 0 8px;
+}
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+  margin: 0 -16px;
+}
+.pane {
+  background: var(--bg-surface);
+  min-width: 0;
+}
+.pane .cap {
+  padding: 8px 12px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.stage {
+  background: #e8e8e5;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+}
+.fig {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
+.fig img {
+  display: block;
+  max-width: 100%;
+  max-height: 400px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+.hl {
+  position: absolute;
+  border: 2px solid #e51c00;
+  background: rgba(229, 28, 0, 0.08);
+  border-radius: 2px;
+}
+.hl.soft {
+  border-color: #2c6ecb;
+  background: rgba(44, 110, 203, 0.05);
+}
+.hl em {
+  position: absolute;
+  left: -2px;
+  bottom: 100%;
+  margin-bottom: 2px;
+  background: #e51c00;
+  color: #fff;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 18px;
+  padding: 0 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.thumbs {
+  display: flex;
+  gap: 8px;
+  padding: 12px 0 0;
+  overflow-x: auto;
+}
+.thumbs button {
+  border: 0;
+  padding: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px var(--border);
+  background: #f6f6f3;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.thumbs button.on {
+  box-shadow: 0 0 0 2px var(--bg-fill-brand);
+}
+.thumbs img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  display: block;
+}
+.issue {
+  padding: 12px 16px;
+  margin: 0 -16px;
+  border-top: 1px solid var(--border-subdued);
+  cursor: pointer;
+}
+.card .cb > .issue:first-child {
+  border-top: 0;
+}
+.issue.on {
+  background: var(--bg-surface-secondary);
+  box-shadow: 3px 0 0 var(--bg-fill-brand) inset;
+}
+.issue .row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.issue .row .bd {
+  margin-left: auto;
+}
+.vs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 8px 0 0;
+}
+.acts-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+.check {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 5px 0;
+}
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  font-weight: 700;
+}
+.dot.ok {
+  background: #047b5d;
+}
+.dot.no {
+  background: #c70a24;
+}
+.held {
+  background: var(--bg-surface-secondary);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  margin: 0 0 12px;
+}
+.tabs button.tab {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 550;
+}
+.tabs button.tab.on {
+  background: var(--bg-nav);
+}
+.copy {
+  padding-top: 12px;
+}
+.copy h3 {
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+.copy ul {
+  margin: 0 0 8px;
+  padding-left: 18px;
+}
+.copy p {
+  margin: 0 0 8px;
+}

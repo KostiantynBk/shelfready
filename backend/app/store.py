@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import sqlite3
+import threading
 from datetime import UTC, datetime
 from functools import cached_property
 from pathlib import Path
@@ -41,6 +42,7 @@ class Store:
         Path(settings.data_dir).mkdir(parents=True, exist_ok=True)
         self.db = sqlite3.connect(Path(settings.data_dir) / "shelfready.db", check_same_thread=False)
         self.db.row_factory = sqlite3.Row
+        self._lock = threading.Lock()
         self.db.executescript(SCHEMA)
 
     # ------------------------------------------------------------------ submissions and pipeline results
@@ -82,19 +84,27 @@ class Store:
         path = self.results / name
         return json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
 
+    # ------------------------------------------------------------------ SQLite (one connection, shared by the request threads)
+    def _read(self, sql: str, params: tuple[Any, ...] = ()) -> list[sqlite3.Row]:
+        with self._lock:
+            return self.db.execute(sql, params).fetchall()
+
+    def _write(self, sql: str, params: tuple[Any, ...] = ()) -> None:
+        with self._lock, self.db:
+            self.db.execute(sql, params)
+
     # ------------------------------------------------------------------ people's decisions
     def decisions(self, pid: str) -> dict[str, Decision]:
-        rows = self.db.execute("SELECT * FROM decision WHERE product_id = ?", (pid,)).fetchall()
+        rows = self._read("SELECT * FROM decision WHERE product_id = ?", (pid,))
         return {r["issue_id"]: Decision(action=r["action"], value=r["value"], note=r["note"]) for r in rows}
 
     def decided_at(self, pid: str) -> dict[str, str]:
-        rows = self.db.execute("SELECT issue_id, decided_at FROM decision WHERE product_id = ?", (pid,))
+        rows = self._read("SELECT issue_id, decided_at FROM decision WHERE product_id = ?", (pid,))
         return {r["issue_id"]: r["decided_at"] for r in rows}
 
     def decide(self, pid: str, issue_id: str, decision: Decision) -> None:
-        with self.db:
-            self.db.execute("INSERT OR REPLACE INTO decision VALUES (?, ?, ?, ?, ?, ?)",
-                            (pid, issue_id, decision.action, decision.value, decision.note, _now()))  # fmt: skip
+        self._write("INSERT OR REPLACE INTO decision VALUES (?, ?, ?, ?, ?, ?)",
+                    (pid, issue_id, decision.action, decision.value, decision.note, _now()))  # fmt: skip
         self.log(
             pid,
             "decision",
@@ -102,8 +112,7 @@ class Store:
         )
 
     def undo(self, pid: str, issue_id: str) -> None:
-        with self.db:
-            self.db.execute("DELETE FROM decision WHERE product_id = ? AND issue_id = ?", (pid, issue_id))
+        self._write("DELETE FROM decision WHERE product_id = ? AND issue_id = ?", (pid, issue_id))
         self.log(pid, "reopened", issue_id)
 
     def facts(self, pid: str) -> tuple[dict[str, Any], list[dict[str, Any]]]:
@@ -114,26 +123,23 @@ class Store:
 
     # ------------------------------------------------------------------ publishing and the event log
     def published_at(self, pid: str) -> str | None:
-        row = self.db.execute("SELECT published_at FROM published WHERE product_id = ?", (pid,)).fetchone()
-        return row["published_at"] if row else None
+        rows = self._read("SELECT published_at FROM published WHERE product_id = ?", (pid,))
+        return rows[0]["published_at"] if rows else None
 
     def publish(self, pid: str) -> None:
-        with self.db:
-            self.db.execute("INSERT OR REPLACE INTO published VALUES (?, ?)", (pid, _now()))
+        self._write("INSERT OR REPLACE INTO published VALUES (?, ?)", (pid, _now()))
         self.log(pid, "published", "")
 
     def log(self, pid: str, kind: str, detail: str) -> None:
-        with self.db:
-            self.db.execute(
-                "INSERT INTO event (product_id, at, kind, detail) VALUES (?, ?, ?, ?)",
-                (pid, _now(), kind, detail),
-            )
+        self._write(
+            "INSERT INTO event (product_id, at, kind, detail) VALUES (?, ?, ?, ?)",
+            (pid, _now(), kind, detail),
+        )
 
     def events(self, pid: str) -> list[dict[str, Any]]:
-        rows = self.db.execute("SELECT at, kind, detail FROM event WHERE product_id = ? ORDER BY id", (pid,))
+        rows = self._read("SELECT at, kind, detail FROM event WHERE product_id = ? ORDER BY id", (pid,))
         return [dict(r) for r in rows]
 
     def reset(self) -> None:
-        with self.db:
-            for table in ("decision", "published", "event"):
-                self.db.execute(f"DELETE FROM {table}")  # noqa: S608 (fixed table names)
+        for table in ("decision", "published", "event"):
+            self._write(f"DELETE FROM {table}")  # noqa: S608 (fixed table names)

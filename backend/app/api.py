@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import threading
 from functools import lru_cache
 from pathlib import Path
 from typing import Annotated, Any
@@ -112,10 +113,14 @@ def _files(
     return files
 
 
+_RENDER = threading.Lock()  # two first requests must not write the same page PNG at once
+
+
 @lru_cache(maxsize=64)
 def _pages(path: Path, data_dir: str) -> list[Any]:
     """The document's pages rendered to PNG (cached by file hash under DATA_DIR/pages)."""
-    return render_pdf(path, hashlib.sha256(path.read_bytes()).hexdigest(), Path(data_dir) / "pages")
+    with _RENDER:
+        return render_pdf(path, hashlib.sha256(path.read_bytes()).hexdigest(), Path(data_dir) / "pages")
 
 
 def product_payload(store: Store, pid: str) -> dict[str, Any]:
