@@ -56,11 +56,12 @@ function actionsFor(issue: Issue): Action[] {
   if (issue.severity === "info")
     return [found ? { label: `Use ${found}`, decision: { action: "use_found" } } : { label: "OK", decision: { action: "accept" } }];
   const actions: Action[] = [];
-  if (found) actions.push({ label: `Use ${found}`, decision: { action: "use_found" }, primary: true });
+  if (found) actions.push({ label: `Use ${found}`, decision: { action: "use_found" } });
   if (issue.type === "contradictory" && issue.spec_value) actions.push({ label: "Keep supplier's", decision: { action: "use_spec" } });
   if (issue.rule === "D7") actions.push({ label: "Use our checked translations", decision: { action: "accept" }, primary: true });
-  else if (issue.type === "compliance" || issue.type === "quality") actions.push({ label: "Accept", decision: { action: "accept" } });
-  actions.push({ label: "Ask supplier", decision: { action: "ask_supplier" } });
+  else if ((issue.type === "compliance" || issue.type === "quality") && issue.severity !== "blocking")
+    actions.push({ label: "Accept", decision: { action: "accept" } });
+  actions.push({ label: "Ask supplier", decision: { action: "ask_supplier" }, primary: issue.rule !== "D7" });
   return actions;
 }
 
