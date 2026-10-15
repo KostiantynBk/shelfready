@@ -207,7 +207,13 @@ class _Checker:
                 )
                 self.add("D5", type="contradictory", severity="review", return_risk="care", attribute="care",
                          title="Care instructions contradict the care label", spec_value=self.spec.get("care"),
-                         found_value=found, detail="The spec sheet and the sewn-in label give different care. A person decides; ask the supplier.",
+                         found_value=found,
+                         detail=("The care label sewn into the product shows a crossed-out wash tub (do not wash) and a circle "
+                                 "(professional dry cleaning only), but the spec sheet says it can be washed. Shoppers who "
+                                 "follow the website may ruin it. Decide which is right, or ask the supplier."
+                                 if label_care == "no washing" else
+                                 f"The care label sewn into the product allows washing at {label['wash_max_temp_c']} °C, "
+                                 "but the spec sheet says dry clean only. Decide which is right, or ask the supplier."),
                          evidence=[*self.pdf("care"), Evidence(source="label", file=name, note=found)])  # fmt: skip
                 return
 
