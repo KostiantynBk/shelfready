@@ -95,6 +95,17 @@ export function ProductReview({ params }: { params: Promise<{ id: string }> }) {
       .catch((e: Error) => setError(e.message));
   }, [id]);
 
+  const writing = product?.copy_state === "writing";
+  useEffect(() => {
+    if (!writing) return; // the copy is being written in the background: refresh until it is saved
+    const timer = setInterval(() => {
+      api<Product>(`/api/products/${id}`)
+        .then(setProduct)
+        .catch(() => {});
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [writing, id]);
+
   async function call(path: string, init: RequestInit) {
     setBusy(true);
     setBlocked(null);
@@ -528,11 +539,25 @@ function CopyPanel({ product, busy, onWrite }: { product: Product; busy: boolean
           {heldNames.join(", ")}. The copy leaves these out rather than guess.
         </p>
       )}
-      {!copy ? (
+      {product.copy_state === "writing" ? (
         <div className="empty">
-          <p className="muted">No copy yet for the current decisions.</p>
-          <button className="btn" disabled={busy} onClick={onWrite}>
-            Write copy
+          <p>
+            <b>Writing the copy…</b>
+          </p>
+          <p className="muted">
+            English from the verified facts, then 7 translations, each checked in code. The model takes a few minutes;
+            this page updates by itself.
+          </p>
+        </div>
+      ) : !copy ? (
+        <div className="empty">
+          {lastFailure(product) && <p className="small failure">The last attempt failed: {lastFailure(product)}</p>}
+          <p className="muted">
+            Your decisions changed the verified facts, so the copy has to be written again (8 languages, checked in
+            code; about a minute with the model).
+          </p>
+          <button className="btn pri" disabled={busy} onClick={onWrite}>
+            {busy ? "Writing…" : "Write copy"}
           </button>
         </div>
       ) : (
@@ -583,6 +608,11 @@ function CopyPanel({ product, busy, onWrite }: { product: Product; busy: boolean
       )}
     </Card>
   );
+}
+
+function lastFailure(product: Product): string | null {
+  const last = [...product.events].reverse().find((e) => e.kind.startsWith("copy"));
+  return last?.kind === "copy_failed" ? last.detail : null;
 }
 
 function FactsCard({ product }: { product: Product }) {

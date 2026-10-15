@@ -4,6 +4,7 @@ catalogue audit, insights, and the supplier files (PDF pages rendered as PNG).""
 
 from __future__ import annotations
 
+import asyncio
 import hashlib
 import json
 import threading
@@ -27,6 +28,7 @@ from app.store import Store
 router = APIRouter()
 ABO_URL = "https://amazon-berkeley-objects.s3.amazonaws.com/images/{size}/{path}"
 BLOCKS = ("blocking", "review")  # info findings never block publishing
+_WRITING: dict[str, asyncio.Task[None]] = {}  # product id → copy being written in the background
 # Compliance checklist: the item is met when no finding of these rules is still open (runbook §4 ComplianceItem)
 CHECKLIST = [
     ("gpsr_a", "Manufacturer name, postal and electronic address", "GPSR Art. 19(a)", {"D12"}),
@@ -158,7 +160,13 @@ def product_payload(store: Store, pid: str) -> dict[str, Any]:
         "facts": facts,
         "held_back": held,
         "copy": copy and {k: copy[k] for k in ("en", "translations", "photos", "protected", "model")},
-        "copy_state": "ready" if copy else ("needs_model" if facts else "no_spec"),
+        "copy_state": "ready"
+        if copy
+        else "writing"
+        if pid in _WRITING
+        else "needs_model"
+        if facts
+        else "no_spec",
         "checklist": _checklist(issues, decisions, copy),
         "events": store.events(pid),
         "model_used": (result or {}).get("model"),
@@ -211,32 +219,56 @@ def reopen(pid: str, issue_id: str, store: StoreDep) -> dict[str, Any]:
 
 @router.post("/api/products/{pid}/copy")
 async def write_product_copy(pid: str, store: StoreDep) -> dict[str, Any]:
-    """Write the copy for the current decisions when no recorded copy matches (needs the model)."""
+    """Start writing the copy for the current decisions (needs the model; takes minutes, so it runs in the
+    background and the payload says copy_state "writing" until it is saved)."""
     _product(store, pid)
-    settings = store.settings
     facts, _ = store.facts(pid)
-    if store.copy_for(pid, facts):
+    if store.copy_for(pid, facts) or pid in _WRITING:
         return product_payload(store, pid)
-    if settings.llm_mode == "replay":
+    if store.settings.llm_mode == "replay":
         raise HTTPException(
             409, "The model is not connected (replay mode); copy exists only for the recorded decisions."
         )
-    async with LLMClient(settings) as llm:
-        copy = await write_copy(llm, store.result(pid), store.decisions(pid))
-    store.save_copy(pid, copy)
-    store.log(pid, "copy", f"written by {copy.get('model')}")
+    result, decisions = store.result(pid), store.decisions(pid)
+
+    async def job() -> None:
+        try:
+            async with LLMClient(store.settings) as llm:
+                copy = await write_copy(llm, result, decisions)
+            store.save_copy(pid, copy)
+            store.log(pid, "copy", f"written by {copy.get('model')}")
+        except Exception as error:  # shown on the review screen; the person can try again
+            text = str(error)
+            if "no_available_workers" in text or "503" in text or "Timeout" in type(error).__name__:
+                text = "The model service (AMD Token Factory) is not answering right now. Try again in a few minutes."
+            store.log(pid, "copy_failed", text[:300])
+        finally:
+            _WRITING.pop(pid, None)
+
+    _WRITING[pid] = asyncio.create_task(job())
+    store.log(pid, "copy_started", "")
     return product_payload(store, pid)
 
 
 @router.post("/api/products/{pid}/publish")
 def publish(pid: str, store: StoreDep) -> dict[str, Any]:
     payload = product_payload(store, pid)
+    open_ = [i for i in payload["issues"] if not i["decision"] and i["severity"] in BLOCKS]
+    asked = [i for i in payload["issues"] if (i["decision"] or {}).get("action") == "ask_supplier"]
     reasons = []
-    if payload["status"] != "ready":
-        reasons.append(f"status is {payload['status']}")
+    if open_:
+        reasons.append(
+            f"{len(open_)} {'finding still needs' if len(open_) == 1 else 'findings still need'} your decision."
+        )
+    if asked:
+        reasons.append(f"{len(asked)} {'question is' if len(asked) == 1 else 'questions are'} still open with the supplier: "
+                       + "; ".join(i["title"] for i in asked) + ".")  # fmt: skip
     if payload["copy_state"] != "ready":
-        reasons.append("no copy for the current decisions")
-    reasons += [f"not met: {c['label']}" for c in payload["checklist"] if not c["ok"]]
+        reasons.append(
+            "The shop copy has not been written for your latest decisions yet: click “Write copy”."
+        )
+    reasons += [f"Not met: {c['label']} ({c['law']})." for c in payload["checklist"]
+                if not c["ok"] and not (c["code"] == "alt_text" and payload["copy_state"] != "ready")]  # fmt: skip
     if reasons:
         raise HTTPException(409, {"message": "Publishing is blocked", "reasons": reasons})
     store.publish(pid)

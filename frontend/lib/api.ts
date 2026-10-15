@@ -99,7 +99,7 @@ export type Product = {
     protected: string[];
     model: string;
   } | null;
-  copy_state: "ready" | "needs_model" | "no_spec";
+  copy_state: "ready" | "writing" | "needs_model" | "no_spec";
   checklist: { code: string; label: string; law: string; ok: boolean }[];
   events: { at: string; kind: string; detail: string }[];
   model_used: string | null;

@@ -56,7 +56,10 @@ def test_review_decide_and_publish(client):
         product["status"] == "waiting_supplier" and product["held_back"] == []
     )  # EANs asked, nothing else open
     blocked = http.post("/api/products/SYN-00/publish")
-    assert blocked.status_code == 409 and "status is waiting_supplier" in blocked.json()["detail"]["reasons"]
+    reasons = blocked.json()["detail"]["reasons"]
+    assert blocked.status_code == 409 and any(
+        "2 questions are still open with the supplier" in r for r in reasons
+    )
 
     decide(http, "D3:LIS-01-ANT:ean:", {"action": "edit", "value": "5601234000030"})  # the supplier answered
     product = decide(http, "D4:LIS-01-ARE:ean:", {"action": "edit", "value": "5601234000023"})

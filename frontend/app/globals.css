@@ -621,3 +621,6 @@ tr:last-child td {
   font-weight: 550;
   margin-top: 2px;
 }
+.failure {
+  color: var(--critical-text);
+}
