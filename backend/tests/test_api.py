@@ -139,4 +139,4 @@ def test_evolus_writes_the_supplier_email_and_answers_shoppers(client, monkeypat
     store.settings.evolus_agent_id = "agent-1"
     response = http.post("/api/shop/SYN-00/ask", json={"question": "How wide?"})
     assert response.json() == {"answer": "It is 88 cm wide.", "conversation_id": "conv-1"}
-    assert FakeEvolus.calls[-1] == ("ask", "[Product LISBOA] How wide?")
+    assert FakeEvolus.calls[-1] == ("ask", "[Product LISBOA] (Reply in English.) How wide?")

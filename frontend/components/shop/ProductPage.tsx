@@ -128,7 +128,7 @@ export function ProductPage({ params }: { params: Promise<{ id: string }> }) {
                     </section>
                   )}
                 </div>
-                <AskBox id={id} />
+                <AskBox id={id} language={lang} />
               </div>
             </div>
           </>
@@ -147,7 +147,7 @@ function askProblem(e: unknown): string {
   return "Your question could not be sent. Please try again.";
 }
 
-function AskBox({ id }: { id: string }) {
+function AskBox({ id, language }: { id: string; language: string }) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [question, setQuestion] = useState("");
   const [conversationId, setConversationId] = useState<string | null>(null);
@@ -171,7 +171,7 @@ function AskBox({ id }: { id: string }) {
     try {
       const reply = await api<AskReply>(`/api/shop/${encodeURIComponent(id)}/ask`, {
         method: "POST",
-        body: JSON.stringify({ question: text, conversation_id: conversationId }),
+        body: JSON.stringify({ question: text, conversation_id: conversationId, language }),
       });
       setMessages((m) => [...m, { from: "shop", text: reply.answer }]);
       setConversationId(reply.conversation_id);

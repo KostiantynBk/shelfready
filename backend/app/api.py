@@ -301,12 +301,17 @@ def _facts_document(payload: dict[str, Any]) -> bytes:
              f"Product {payload['model']} (id {payload['id']}), {payload['category'] or 'furniture'}, sold by Casa Nord. "
              "Every fact below was checked against the supplier's documents and photos.", "", "## Verified facts"]  # fmt: skip
     for key, value in facts.items():
-        if key == "variants":
-            lines.append("- colours: " + ", ".join(f"{v.get('colour_name')} ({v['code']})" for v in value))
-        elif key != "corrections":
-            unit = " cm" if key.endswith("_cm") else " kg" if key.endswith("_kg") else ""
-            name = key.removesuffix("_cm").removesuffix("_kg").replace("_", " ")
-            lines.append(f"- {name}: {', '.join(value) if isinstance(value, list) else value}{unit}")
+        if key in (
+            "variants",
+            "corrections",
+            "safety_warnings",
+        ):  # taken from the copy, where decisions are applied
+            continue
+        unit = " cm" if key.endswith("_cm") else " kg" if key.endswith("_kg") else ""
+        name = key.removesuffix("_cm").removesuffix("_kg").replace("_", " ")
+        lines.append(f"- {name}: {', '.join(value) if isinstance(value, list) else value}{unit}")
+    if copy.get("colours"):
+        lines.append("- colours: " + ", ".join(f"{c['name']} ({c['code']})" for c in copy["colours"]))
     lines += [
         "",
         "## Description",
@@ -341,9 +346,14 @@ def supplier_email(pid: str, store: StoreDep) -> dict[str, str]:
     return {"email": email}
 
 
+LANGUAGE_NAMES = {"en": "English", "es": "Spanish", "it": "Italian", "de": "German", "fr": "French",
+                  "pt": "Portuguese", "pl": "Polish", "uk": "Ukrainian"}  # fmt: skip
+
+
 class Question(BaseModel):
     question: str = Field(min_length=1, max_length=500)
     conversation_id: str | None = None
+    language: str = "en"  # the shop page's language: the agent's own default is Italian
 
 
 @router.post("/api/shop/{pid}/ask")
@@ -355,8 +365,9 @@ def ask(pid: str, body: Question, store: StoreDep) -> dict[str, str | None]:
         raise HTTPException(503, "The shop assistant is not connected on this server.")
     model = model_name((store.result(pid) or {}).get("spec") or {}) or pid
     try:
+        language = LANGUAGE_NAMES.get(body.language, "English")
         answer, conversation = Evolus(store.settings).ask(
-            agent, f"[Product {model}] {body.question}", body.conversation_id
+            agent, f"[Product {model}] (Reply in {language}.) {body.question}", body.conversation_id
         )
     except EvolusError as error:
         raise HTTPException(503, str(error)) from error
