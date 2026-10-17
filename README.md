@@ -28,9 +28,10 @@ Built for the AMD Developer Hackathon: ACT III, **Reinvent Commerce** track. Mod
    in the spec vs the drawing, colour name vs the photos, washing instructions vs the sewn-in care label, missing
    EU responsible person, unclear health claims, invalid barcodes. Units and numbers are handled in code, not by
    the model.
-4. **Asks a person only what the evidence cannot settle.** A colour the photos clearly show or a width the drawing
-   shows is settled automatically and shown as one line ("Checked: colour beige (photo)") that a person can change.
-   Everything else waits for a decision; open facts are **held back** from the copy instead of guessed.
+4. **Asks a person only what the evidence cannot settle.** A size that the supplier's own dimension drawing shows
+   is settled automatically and shown as one line ("Checked: width 226 cm (drawing)") that a person can change.
+   Photo readings such as colour or material always go to a person, with both sources side by side. Open facts are
+   **held back** from the copy instead of guessed.
 5. **Writes the listing from verified facts only** (title, bullets, description, safety warnings, alt text for every
    photo) in English, then translates it into Spanish, Italian, German, French, Portuguese, Polish and Ukrainian.
    **Every translation is checked in code**: numbers, units, protected names and a glossary.
@@ -125,7 +126,7 @@ cd frontend && npx tsc --noEmit && npm run lint
 
 1. **Supplier inbox** → open **LISBOA** (armchair, 9 planted defects): see the spec sheet and photos side by side with
    the contradiction highlighted, decide each finding, and publish.
-2. Findings settled from evidence collapse into one "Checked from evidence" line, e.g. on **INN** (rug).
+2. Findings settled from evidence collapse into one "Checked from evidence" line, e.g. the width on **LUCCA** (sofa).
 3. **Catalogue health** shows the audit of 250 real listings; **Insights** shows the measured results above.
 4. `POST /api/demo/reset` clears all decisions.
 

@@ -119,6 +119,72 @@ export type Summary = {
   thumb_url: string | null;
 };
 
+// Catalogue health audit of existing listings (GET /api/audit, data/results/audit.json)
+export type AuditIssue = Pick<
+  Issue,
+  "rule" | "type" | "severity" | "return_risk" | "title" | "detail" | "attribute" | "spec_value" | "found_value" | "file" | "evidence"
+>;
+
+export type AuditListing = {
+  item_id: string;
+  domain: string; // marketplace, e.g. amazon.de
+  category: string;
+  name: string;
+  score: number;
+  photos_analysed: number;
+  issues: AuditIssue[];
+  images: { image_id: string; role: string; thumb_url: string; url: string }[];
+};
+
+export type AuditSummary = {
+  listings: number;
+  photos_analysed: number;
+  health_score: number;
+  listings_with_blocking_issues: number;
+  issues_by_rule: Record<string, number>;
+  score_by_category: Record<string, number>;
+  score_by_marketplace: Record<string, number>;
+  how_calculated: string;
+};
+
+export type AuditReport = { summary: AuditSummary; listings: AuditListing[] };
+
+// Measured results (GET /api/insights)
+export type RuleStats = {
+  planted: number;
+  found: number;
+  flags: number;
+  correct_flags: number;
+  precision: number | null;
+  recall: number | null;
+};
+
+export type EvalReport = {
+  products: number;
+  evaluated: number;
+  precision: number | null;
+  recall: number | null;
+  clean_products: number;
+  clean_products_with_false_alarms: number;
+  per_rule: Record<string, RuleStats>;
+  misses: { product: string; rule: string; variant: string | null; file: string | null }[];
+  false_alarms: { product: string; rule: string; variant: string | null; file: string | null; title: string }[];
+};
+
+export type SpotcheckScore = {
+  precision_by_rule: Record<string, { correct?: number; wrong?: number; unsure?: number; precision: number | null }>;
+  precision_photo_findings: number | null;
+  unflagged: { fine?: number; missed?: number; unsure?: number; miss_rate: number | null };
+  missed_notes: Record<string, string>;
+};
+
+export type Insights = {
+  eval: EvalReport | null;
+  audit: AuditSummary | null;
+  spotcheck: SpotcheckScore | null;
+  model_calls: { live: number; median_latency_s: number | null; tokens_in: number; tokens_out: number };
+};
+
 export class ApiError extends Error {
   constructor(
     public status: number,

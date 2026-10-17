@@ -624,3 +624,158 @@ tr:last-child td {
 .failure {
   color: var(--critical-text);
 }
+
+/* Catalogue health + insights */
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.kpi {
+  padding: 14px 16px;
+}
+.kpi + .kpi {
+  box-shadow: 1px 0 0 var(--border-subdued) inset;
+}
+.kpi .lbl {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 550;
+  color: var(--text-secondary);
+}
+.kpi .val {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.kpi .val small {
+  font-size: 14px;
+  font-weight: 550;
+  color: var(--text-secondary);
+}
+.kpi .val.crit {
+  color: var(--critical-text);
+}
+.grid.side {
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  align-items: start;
+}
+.filterline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border-subdued);
+}
+.listing {
+  display: flex;
+  gap: 16px;
+  padding: 14px 16px;
+  border-top: 1px solid var(--border-subdued);
+}
+.filterline + .listing,
+.tabs + .listing {
+  border-top: 0;
+}
+.lthumbs {
+  display: grid;
+  grid-template-columns: repeat(2, 52px);
+  gap: 6px;
+  align-content: start;
+  flex-shrink: 0;
+}
+.lthumbs a {
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 0 1px var(--border);
+}
+.lthumbs a.flag {
+  box-shadow: 0 0 0 2px #e51c00;
+}
+.lthumbs img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  display: block;
+}
+.lbody {
+  flex: 1;
+  min-width: 0;
+}
+.lhead {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.lhead b {
+  flex: 1;
+  min-width: 0;
+}
+.findings {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+.findings li {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr);
+  gap: 8px;
+  padding: 4px 0;
+}
+.findings .bd {
+  justify-self: start;
+}
+.listfoot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--border-subdued);
+}
+.listfoot .btn {
+  margin-left: auto;
+}
+.linkbtn {
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: var(--text-link);
+  cursor: pointer;
+  text-align: left;
+}
+.linkbtn.on {
+  font-weight: 650;
+  color: var(--text);
+}
+.kv td {
+  padding: 6px 0;
+}
+.kv td + td {
+  padding-left: 12px;
+  text-align: right;
+  white-space: nowrap;
+}
+.kv tr.total td {
+  font-weight: 650;
+  border-top: 1px solid var(--border);
+}
+.kv th {
+  background: none;
+  padding: 0 0 6px;
+}
+.kv th + th {
+  padding-left: 12px;
+  text-align: right;
+}
+.how p {
+  margin: 0 0 10px;
+}
+.how p:last-child {
+  margin-bottom: 0;
+}
+.how b {
+  font-weight: 650;
+}

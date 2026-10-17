@@ -1,0 +1,44 @@
+{
+ "precision_by_rule": {
+  "A1 (blocking)": {
+   "correct": 1,
+   "precision": 1.0
+  },
+  "A1 (review)": {
+   "correct": 3,
+   "precision": 1.0
+  },
+  "A2 (review)": {
+   "correct": 2,
+   "unsure": 1,
+   "precision": 1.0
+  },
+  "A8 (info)": {
+   "correct": 18,
+   "wrong": 1,
+   "precision": 0.947
+  },
+  "A8 (review)": {
+   "correct": 2,
+   "precision": 1.0
+  },
+  "A9 (blocking)": {
+   "correct": 3,
+   "precision": 1.0
+  }
+ },
+ "precision_photo_findings": 0.967,
+ "unflagged": {
+  "fine": 14,
+  "missed": 6,
+  "miss_rate": 0.3
+ },
+ "missed_notes": {
+  "B0829F1BQN": "It is black and white. I assume Rojo means red from Spanish and there is no red.",
+  "B07K29VZ2Q": "It is just a photo of black lather. There is no chair. Also Google search did not find \"Steamboat Charcoal\" color",
+  "B07HH16Q89": "there are multiple chairs in the main photo",
+  "B07K7K8YF9": "There are two chairs in the MAIN photo",
+  "B07K51RV9K": "It has multiple color and one of them looks like Nickel",
+  "B001LF4HSY": "Color is empty but it is kind of blue"
+ }
+}

@@ -2,7 +2,7 @@
 """The demo's data for the API.
 
 Read-only: the supplier submissions (data/synthetic) and what the pipeline made of them
-(data/results: extraction, copy, audit, eval; rebuilt from the recorded model answers by app.prepare).
+(data/results: extraction, copy, audit, eval; the committed pipeline output).
 Read-write: people's decisions, published products and the event log, kept in SQLite under DATA_DIR so
 they survive restarts. "Reset demo" clears them.
 """
@@ -23,8 +23,9 @@ from app.pipeline.listing import verified_facts
 from app.schemas.review import Decision, Issue
 
 ROOT = Path(__file__).resolve().parents[2]
-# The supplier's own photos or drawing settle these; a person's decision replaces the settled value.
-SETTLED_BY_EVIDENCE = {"D10", "D11"}
+# A measurement on the supplier's own dimension drawing settles a size; a person's decision replaces it.
+# Photo readings (colour D10, material D6) stay with a person: colour was right in 4 of 5 flags in the eval.
+SETTLED_BY_EVIDENCE = {"D11"}
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS decision (product_id TEXT, issue_id TEXT, action TEXT, value TEXT, note TEXT,
                                      decided_at TEXT, PRIMARY KEY (product_id, issue_id));

@@ -37,13 +37,14 @@ def decide(http, issue_id, decision):
     return response.json()
 
 
-def test_photos_and_drawing_settle_colour_and_width_until_a_person_decides(tmp_path):
+def test_the_drawing_settles_the_width_until_a_person_decides(tmp_path):
     results = tmp_path / "data" / "results" / "extraction"
     results.mkdir(parents=True)
     shutil.copy(Path(__file__).parent / "fixtures" / "extraction" / "SYN-10.json", results)
     store = Store(Settings(data_dir=tmp_path / "runtime"), root=tmp_path)
     colour, width = "D10:EVO-10-ROS:colour:", "D11::width:"
-    assert {colour, width} <= store.settled("SYN-10").keys()
+    assert width in store.settled("SYN-10")
+    assert colour not in store.settled("SYN-10")  # photo colour readings always go to a person
     assert "D7::safety_warnings:" not in store.settled("SYN-10")
     assert store.decisions("SYN-10")[width].action == "use_found"
     store.decide("SYN-10", width, Decision(action="use_spec"))
