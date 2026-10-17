@@ -1,0 +1,168 @@
+{
+ "item_id": "B07ZQT5NT9",
+ "photos": {
+  "91LRnRKTq8L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      214,
+      916,
+      463
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      445,
+      983,
+      554
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      536,
+      934,
+      786
+     ]
+    }
+   ]
+  },
+  "61JjSw5TuPL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      182,
+      741,
+      485
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      643,
+      368,
+      976,
+      535
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      633,
+      541,
+      883,
+      812
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      548,
+      643,
+      772
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      500,
+      400,
+      613,
+      485
+     ]
+    }
+   ]
+  },
+  "61IThKFvzUL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      803,
+      291,
+      913,
+      478
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      833,
+      416,
+      995,
+      525
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      803,
+      525,
+      962,
+      694
+     ]
+    }
+   ]
+  },
+  "61Noc8nNkhL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "mesh",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

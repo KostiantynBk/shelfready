@@ -1,0 +1,853 @@
+{
+ "product_id": "SYN-08",
+ "decisions": {},
+ "facts": {
+  "product_name": "Poltrona BRERA / BRERA armchair",
+  "model": "BRERA",
+  "brand": "Arredo Brianza",
+  "depth_cm": 117,
+  "height_cm": 95,
+  "seat_height_cm": 47,
+  "seat_depth_cm": 70,
+  "max_load_kg": 120,
+  "weight_kg": 38.4,
+  "product_type": "Poltrona / Armchair",
+  "legs_or_base": "Pino + multistrato",
+  "upholstery": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+  "country_of_origin": "Italia",
+  "safety_warnings": [
+   "Non utilizzare all'aperto.",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "BRE-08-ANT",
+    "colour_name": "Antracite"
+   },
+   {
+    "code": "BRE-08-COG",
+    "colour_name": "Cognac"
+   },
+   {
+    "code": "BRE-08-SAB",
+    "colour_name": "Sabbia"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "care",
+   "variant": null,
+   "reason": "Care instructions contradict the care label",
+   "issue": "D5::care:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "width",
+   "variant": null,
+   "reason": "Width: spec 122 cm, drawing 114 cm",
+   "issue": "D11::width:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "BRERA_ANT_01.jpg",
+   "variant": "BRE-08-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "BRERA_ANT_02.jpg",
+   "variant": "BRE-08-ANT",
+   "view": "lifestyle",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "BRERA_ANT_03.jpg",
+   "variant": "BRE-08-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "BRERA_COG_01.jpg",
+   "variant": "BRE-08-COG",
+   "view": "packshot",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "BRERA_COG_03.jpg",
+   "variant": "BRE-08-COG",
+   "view": "detail",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "BRERA_COG_04.jpg",
+   "variant": "BRE-08-COG",
+   "view": "lifestyle",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "BRERA_SAB_01.jpg",
+   "variant": "BRE-08-SAB",
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "BRERA_SAB_02.jpg",
+   "variant": "BRE-08-SAB",
+   "view": "detail",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Arredo Brianza",
+  "BRERA",
+  "BRE-08-ANT",
+  "BRE-08-COG",
+  "BRE-08-SAB"
+ ],
+ "en": {
+  "title": "Arredo Brianza BRERA Armchair",
+  "bullets": [
+   "Dimensions: 95 cm height, 117 cm depth, 47 cm seat height, and 70 cm seat depth",
+   "Upholstery: 100% polyester woven fabric",
+   "Base materials: Pine and multiplex",
+   "Maximum load capacity: 120 kg",
+   "Made in Italia"
+  ],
+  "description": "The BRERA armchair by Arredo Brianza is a high-quality seating option made in Italia. It features a sturdy pine and multiplex base with 100% polyester woven fabric upholstery.",
+  "colours": [
+   {
+    "code": "BRE-08-ANT",
+    "name": "Anthracite"
+   },
+   {
+    "code": "BRE-08-COG",
+    "name": "Cognac"
+   },
+   {
+    "code": "BRE-08-SAB",
+    "name": "Sand"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "BRERA_ANT_01.jpg",
+    "text": "BRERA armchair in grey, packshot view"
+   },
+   {
+    "file": "BRERA_ANT_02.jpg",
+    "text": "BRERA armchair in grey, lifestyle view"
+   },
+   {
+    "file": "BRERA_ANT_03.jpg",
+    "text": "BRERA armchair in grey, detail view"
+   },
+   {
+    "file": "BRERA_COG_01.jpg",
+    "text": "BRERA armchair in brown, packshot view"
+   },
+   {
+    "file": "BRERA_COG_03.jpg",
+    "text": "BRERA armchair in brown, detail view"
+   },
+   {
+    "file": "BRERA_COG_04.jpg",
+    "text": "BRERA armchair in brown, lifestyle view"
+   },
+   {
+    "file": "BRERA_SAB_01.jpg",
+    "text": "BRERA armchair in beige, packshot view"
+   },
+   {
+    "file": "BRERA_SAB_02.jpg",
+    "text": "BRERA armchair in beige, detail view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sillón Arredo Brianza BRERA",
+    "bullets": [
+     "Dimensiones: 95 cm de altura, 117 cm de profundidad, 47 cm de altura del asiento y 70 cm de profundidad del asiento",
+     "Tapicería: tejido tejido 100% poliéster",
+     "Materiales de la base: pino y multiplex",
+     "Capacidad de carga máxima: 120 kg",
+     "Fabricado en Italia"
+    ],
+    "description": "El sillón BRERA de Arredo Brianza es una opción de asiento de alta calidad fabricada en Italia. Cuenta con una robusta base de pino y multiplex con tapicería de tejido 100% poliéster.",
+    "colours": [
+     {
+      "code": "BRE-08-ANT",
+      "name": "Antracita"
+     },
+     {
+      "code": "BRE-08-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "BRE-08-SAB",
+      "name": "Arena"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRERA_ANT_01.jpg",
+      "text": "Sillón BRERA en gris, vista de producto"
+     },
+     {
+      "file": "BRERA_ANT_02.jpg",
+      "text": "Sillón BRERA en gris, vista de ambiente"
+     },
+     {
+      "file": "BRERA_ANT_03.jpg",
+      "text": "Sillón BRERA en gris, vista de detalle"
+     },
+     {
+      "file": "BRERA_COG_01.jpg",
+      "text": "Sillón BRERA en marrón, vista de producto"
+     },
+     {
+      "file": "BRERA_COG_03.jpg",
+      "text": "Sillón BRERA en marrón, vista de detalle"
+     },
+     {
+      "file": "BRERA_COG_04.jpg",
+      "text": "Sillón BRERA en marrón, vista de ambiente"
+     },
+     {
+      "file": "BRERA_SAB_01.jpg",
+      "text": "Sillón BRERA en beige, vista de producto"
+     },
+     {
+      "file": "BRERA_SAB_02.jpg",
+      "text": "Sillón BRERA en beige, vista de detalle"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Poltrona Arredo Brianza BRERA",
+    "bullets": [
+     "Dimensioni: altezza 95 cm, profondità 117 cm, altezza seduta 47 cm e profondità seduta 70 cm",
+     "Rivestimento: tessuto intrecciato 100% poliestere",
+     "Materiali della base: pino e multiplex",
+     "Capacità di carico massima: 120 kg",
+     "Made in Italia"
+    ],
+    "description": "La poltrona BRERA di Arredo Brianza è una soluzione di seduta di alta qualità Made in Italia. Presenta una robusta base in pino e multiplex con rivestimento in tessuto intrecciato 100% poliestere.",
+    "colours": [
+     {
+      "code": "BRE-08-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "BRE-08-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "BRE-08-SAB",
+      "name": "Sabbia"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sulla seduta."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRERA_ANT_01.jpg",
+      "text": "Poltrona BRERA in grigio, vista prodotto"
+     },
+     {
+      "file": "BRERA_ANT_02.jpg",
+      "text": "Poltrona BRERA in grigio, vista ambientata"
+     },
+     {
+      "file": "BRERA_ANT_03.jpg",
+      "text": "Poltrona BRERA in grigio, vista dettaglio"
+     },
+     {
+      "file": "BRERA_COG_01.jpg",
+      "text": "Poltrona BRERA in marrone, vista prodotto"
+     },
+     {
+      "file": "BRERA_COG_03.jpg",
+      "text": "Poltrona BRERA in marrone, vista dettaglio"
+     },
+     {
+      "file": "BRERA_COG_04.jpg",
+      "text": "Poltrona BRERA in marrone, vista ambientata"
+     },
+     {
+      "file": "BRERA_SAB_01.jpg",
+      "text": "Poltrona BRERA in beige, vista prodotto"
+     },
+     {
+      "file": "BRERA_SAB_02.jpg",
+      "text": "Poltrona BRERA in beige, vista dettaglio"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Arredo Brianza BRERA Sessel",
+    "bullets": [
+     "Maße: 95 cm Höhe, 117 cm Tiefe, 47 cm Sitzhöhe und 70 cm Sitztiefe",
+     "Bezug: 100% Polyester-Webstoff",
+     "Basis-Materialien: Kiefer und Multiplex",
+     "Maximale Belastbarkeit: 120 kg",
+     "Hergestellt in Italien"
+    ],
+    "description": "Der BRERA Sessel von Arredo Brianza ist eine hochwertige Sitzmöglichkeit aus italienischer Herstellung. Er verfügt über ein stabiles Gestell aus Kiefer und Multiplex sowie einen Bezug aus 100% Polyester-Webstoff.",
+    "colours": [
+     {
+      "code": "BRE-08-ANT",
+      "name": "Anthrazit"
+     },
+     {
+      "code": "BRE-08-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "BRE-08-SAB",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRERA_ANT_01.jpg",
+      "text": "BRERA Sessel in Grau, Produktansicht"
+     },
+     {
+      "file": "BRERA_ANT_02.jpg",
+      "text": "BRERA Sessel in Grau, Lifestyle-Ansicht"
+     },
+     {
+      "file": "BRERA_ANT_03.jpg",
+      "text": "BRERA Sessel in Grau, Detailansicht"
+     },
+     {
+      "file": "BRERA_COG_01.jpg",
+      "text": "BRERA Sessel in Braun, Produktansicht"
+     },
+     {
+      "file": "BRERA_COG_03.jpg",
+      "text": "BRERA Sessel in Braun, Detailansicht"
+     },
+     {
+      "file": "BRERA_COG_04.jpg",
+      "text": "BRERA Sessel in Braun, Lifestyle-Ansicht"
+     },
+     {
+      "file": "BRERA_SAB_01.jpg",
+      "text": "BRERA Sessel in Beige, Produktansicht"
+     },
+     {
+      "file": "BRERA_SAB_02.jpg",
+      "text": "BRERA Sessel in Beige, Detailansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza BRERA Armchair",
+    "bullets": [
+     "Dimensions: 95 cm height, 117 cm depth, 47 cm seat height and 70 cm seat depth",
+     "Cover: 100% polyester woven fabric",
+     "Base materials: Pine and multiplex",
+     "Maximum load capacity: 120 kg",
+     "Made in Italy"
+    ],
+    "description": "The BRERA armchair from Arredo Brianza is a high-quality seating option of Italian manufacture. It features a stable frame made of pine and multiplex as well as a cover made of 100% polyester woven fabric.",
+    "colours": [
+     {
+      "code": "BRE-08-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "BRE-08-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "BRE-08-SAB",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRERA_ANT_01.jpg",
+      "text": "BRERA armchair in grey, product view"
+     },
+     {
+      "file": "BRERA_ANT_02.jpg",
+      "text": "BRERA armchair in grey, lifestyle view"
+     },
+     {
+      "file": "BRERA_ANT_03.jpg",
+      "text": "BRERA armchair in grey, detail view"
+     },
+     {
+      "file": "BRERA_COG_01.jpg",
+      "text": "BRERA armchair in brown, product view"
+     },
+     {
+      "file": "BRERA_COG_03.jpg",
+      "text": "BRERA armchair in brown, detail view"
+     },
+     {
+      "file": "BRERA_COG_04.jpg",
+      "text": "BRERA armchair in brown, lifestyle view"
+     },
+     {
+      "file": "BRERA_SAB_01.jpg",
+      "text": "BRERA armchair in beige, product view"
+     },
+     {
+      "file": "BRERA_SAB_02.jpg",
+      "text": "BRERA armchair in beige, detail view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Fauteuil Arredo Brianza BRERA",
+    "bullets": [
+     "Dimensions : 95 cm de hauteur, 117 cm de profondeur, 47 cm de hauteur d'assise et 70 cm de profondeur d'assise",
+     "Revêtement : tissu tissé 100% polyester",
+     "Matériaux de la base : pin et multiplex",
+     "Capacité de charge maximale : 120 kg",
+     "Fabriqué en Italie"
+    ],
+    "description": "Le fauteuil BRERA d'Arredo Brianza est une option d'assise de haute qualité fabriquée en Italie. Il dispose d'une base robuste en pin et multiplex avec un revêtement en tissu tissé 100% polyester.",
+    "colours": [
+     {
+      "code": "BRE-08-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "BRE-08-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "BRE-08-SAB",
+      "name": "Sable"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRERA_ANT_01.jpg",
+      "text": "Fauteuil BRERA en gris, vue packshot"
+     },
+     {
+      "file": "BRERA_ANT_02.jpg",
+      "text": "Fauteuil BRERA en gris, vue d'ambiance"
+     },
+     {
+      "file": "BRERA_ANT_03.jpg",
+      "text": "Fauteuil BRERA en gris, vue détaillée"
+     },
+     {
+      "file": "BRERA_COG_01.jpg",
+      "text": "Fauteuil BRERA en marron, vue packshot"
+     },
+     {
+      "file": "BRERA_COG_03.jpg",
+      "text": "Fauteuil BRERA en marron, vue détaillée"
+     },
+     {
+      "file": "BRERA_COG_04.jpg",
+      "text": "Fauteuil BRERA en marron, vue d'ambiance"
+     },
+     {
+      "file": "BRERA_SAB_01.jpg",
+      "text": "Fauteuil BRERA en beige, vue packshot"
+     },
+     {
+      "file": "BRERA_SAB_02.jpg",
+      "text": "Fauteuil BRERA en beige, vue détaillée"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Poltrona Arredo Brianza BRERA",
+    "bullets": [
+     "Dimensões: 95 cm de altura, 117 cm de profundidade, 47 cm de altura do assento e 70 cm de profundidade do assento",
+     "Estofos: Tecido tecido 100% poliéster",
+     "Materiais da base: Pinho e multiplex",
+     "Capacidade de carga máxima: 120 kg",
+     "Fabricado em Itália"
+    ],
+    "description": "A poltrona BRERA da Arredo Brianza é uma opção de assento de alta qualidade fabricada em Itália. Apresenta uma base robusta em pinho e multiplex com estofos em tecido tecido 100% poliéster.",
+    "colours": [
+     {
+      "code": "BRE-08-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "BRE-08-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "BRE-08-SAB",
+      "name": "Areia"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRERA_ANT_01.jpg",
+      "text": "Poltrona BRERA em cinzento, vista de catálogo"
+     },
+     {
+      "file": "BRERA_ANT_02.jpg",
+      "text": "Poltrona BRERA em cinzento, vista de ambiente"
+     },
+     {
+      "file": "BRERA_ANT_03.jpg",
+      "text": "Poltrona BRERA em cinzento, vista de detalhe"
+     },
+     {
+      "file": "BRERA_COG_01.jpg",
+      "text": "Poltrona BRERA em castanho, vista de catálogo"
+     },
+     {
+      "file": "BRERA_COG_03.jpg",
+      "text": "Poltrona BRERA em castanho, vista de detalhe"
+     },
+     {
+      "file": "BRERA_COG_04.jpg",
+      "text": "Poltrona BRERA em castanho, vista de ambiente"
+     },
+     {
+      "file": "BRERA_SAB_01.jpg",
+      "text": "Poltrona BRERA em bege, vista de catálogo"
+     },
+     {
+      "file": "BRERA_SAB_02.jpg",
+      "text": "Poltrona BRERA em bege, vista de detalhe"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Fotel Arredo Brianza BRERA",
+    "bullets": [
+     "Wymiary: wysokość 95 cm, głębokość 117 cm, wysokość siedziska 47 cm i głębokość siedziska 70 cm",
+     "Obicie: tkana tkanina 100% poliester",
+     "Materiały podstawy: sosna i sklejka",
+     "Maksymalne obciążenie: 120 kg",
+     "Wyprodukowano we Włoszech"
+    ],
+    "description": "Fotel BRERA marki Arredo Brianza to wysokiej jakości mebel wypoczynkowy wyprodukowany we Włoszech. Posiada solidną podstawę z sosny i sklejki oraz obicie z tkanej tkaniny 100% poliester.",
+    "colours": [
+     {
+      "code": "BRE-08-ANT",
+      "name": "Antracytowy"
+     },
+     {
+      "code": "BRE-08-COG",
+      "name": "Koniakowy"
+     },
+     {
+      "code": "BRE-08-SAB",
+      "name": "Piaskowy"
+     }
+    ],
+    "safety_warnings": [
+     "Produkt nieprzeznaczony do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRERA_ANT_01.jpg",
+      "text": "Fotel BRERA w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "BRERA_ANT_02.jpg",
+      "text": "Fotel BRERA w kolorze szarym, widok w aranżacji"
+     },
+     {
+      "file": "BRERA_ANT_03.jpg",
+      "text": "Fotel BRERA w kolorze szarym, widok szczegółowy"
+     },
+     {
+      "file": "BRERA_COG_01.jpg",
+      "text": "Fotel BRERA w kolorze brązowym, widok produktowy"
+     },
+     {
+      "file": "BRERA_COG_03.jpg",
+      "text": "Fotel BRERA w kolorze brązowym, widok szczegółowy"
+     },
+     {
+      "file": "BRERA_COG_04.jpg",
+      "text": "Fotel BRERA w kolorze brązowym, widok w aranżacji"
+     },
+     {
+      "file": "BRERA_SAB_01.jpg",
+      "text": "Fotel BRERA w kolorze beżowym, widok produktowy"
+     },
+     {
+      "file": "BRERA_SAB_02.jpg",
+      "text": "Fotel BRERA w kolorze beżowym, widok szczegółowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Крісло Arredo Brianza BRERA",
+    "bullets": [
+     "Розміри: висота 95 см, глибина 117 см, висота сидіння 47 см, глибина сидіння 70 см",
+     "Оббивка: 100% поліестерова тканина",
+     "Матеріали основи: сосна та мультиплекс",
+     "Максимальне навантаження: 120 кг",
+     "Виготовлено в Італії"
+    ],
+    "description": "Крісло BRERA від Arredo Brianza — це високоякісний варіант для відпочинку, виготовлений в Італії. Воно має міцну основу з сосни та мультиплексу з оббивкою зі 100% поліестерової тканини.",
+    "colours": [
+     {
+      "code": "BRE-08-ANT",
+      "name": "Антрацитовий"
+     },
+     {
+      "code": "BRE-08-COG",
+      "name": "Коньячний"
+     },
+     {
+      "code": "BRE-08-SAB",
+      "name": "Пісочний"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRERA_ANT_01.jpg",
+      "text": "Крісло BRERA у сірому кольорі, студійне фото"
+     },
+     {
+      "file": "BRERA_ANT_02.jpg",
+      "text": "Крісло BRERA у сірому кольорі, в інтер'єрі"
+     },
+     {
+      "file": "BRERA_ANT_03.jpg",
+      "text": "Крісло BRERA у сірому кольорі, детальний вигляд"
+     },
+     {
+      "file": "BRERA_COG_01.jpg",
+      "text": "Крісло BRERA у коричневому кольорі, студійне фото"
+     },
+     {
+      "file": "BRERA_COG_03.jpg",
+      "text": "Крісло BRERA у коричневому кольорі, детальний вигляд"
+     },
+     {
+      "file": "BRERA_COG_04.jpg",
+      "text": "Крісло BRERA у коричневому кольорі, в інтер'єрі"
+     },
+     {
+      "file": "BRERA_SAB_01.jpg",
+      "text": "Крісло BRERA у бежевому кольорі, студійне фото"
+     },
+     {
+      "file": "BRERA_SAB_02.jpg",
+      "text": "Крісло BRERA у бежевому кольорі, детальний вигляд"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza BRERA Armchair",
+    "bullets": [
+     "Dimensions: height 95 cm, depth 117 cm, seat height 47 cm, seat depth 70 cm",
+     "Upholstery: 100% polyester fabric",
+     "Base materials: pine and multiplex",
+     "Maximum load: 120 kg",
+     "Made in Italy"
+    ],
+    "description": "The BRERA armchair from Arredo Brianza is a high-quality option for relaxation, made in Italy. It has a sturdy base of pine and multiplex with upholstery made of 100% polyester fabric.",
+    "colours": [
+     {
+      "code": "BRE-08-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "BRE-08-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "BRE-08-SAB",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRERA_ANT_01.jpg",
+      "text": "BRERA armchair in grey color, studio photo"
+     },
+     {
+      "file": "BRERA_ANT_02.jpg",
+      "text": "BRERA armchair in grey color, in interior"
+     },
+     {
+      "file": "BRERA_ANT_03.jpg",
+      "text": "BRERA armchair in grey color, detailed view"
+     },
+     {
+      "file": "BRERA_COG_01.jpg",
+      "text": "BRERA armchair in brown color, studio photo"
+     },
+     {
+      "file": "BRERA_COG_03.jpg",
+      "text": "BRERA armchair in brown color, detailed view"
+     },
+     {
+      "file": "BRERA_COG_04.jpg",
+      "text": "BRERA armchair in brown color, in interior"
+     },
+     {
+      "file": "BRERA_SAB_01.jpg",
+      "text": "BRERA armchair in beige color, studio photo"
+     },
+     {
+      "file": "BRERA_SAB_02.jpg",
+      "text": "BRERA armchair in beige color, detailed view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

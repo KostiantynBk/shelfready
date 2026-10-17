@@ -1,0 +1,94 @@
+{
+ "item_id": "B07Q9CS6C3",
+ "photos": {
+  "815D6J28vgL": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "shag",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "818zPK3HvpL": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "shag",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "81JOvT0SL-L": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "shag",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "912DiqNTYAL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      714,
+      686,
+      746
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      291,
+      803,
+      322
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      783,
+      55,
+      837,
+      87
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

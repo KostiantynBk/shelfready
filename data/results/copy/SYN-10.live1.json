@@ -1,0 +1,769 @@
+{
+ "product_id": "SYN-10",
+ "decisions": {
+  "D10:EVO-10-ROS:colour:": {
+   "action": "use_found",
+   "value": null,
+   "note": "Decided by Craft Agent from the front photo (pink) and the spec code EVO-10-ROS; not checked by a person."
+  },
+  "D11::width:": {
+   "action": "use_found",
+   "value": null,
+   "note": "Decided by Craft Agent from the dimension drawing (66 cm front width, matches depth, height and seat figures); not checked by a person."
+  },
+  "D7::safety_warnings:": {
+   "action": "accept",
+   "value": null,
+   "note": "Decided by Craft Agent: the warnings are held back until the copy step writes them in every shop language; the copy must be checked before publishing."
+  }
+ },
+ "facts": {
+  "product_name": "Poltrona ÉVORA / ÉVORA armchair",
+  "model": "ÉVORA",
+  "brand": "Móveis Lusa",
+  "width_cm": 66,
+  "depth_cm": 60,
+  "height_cm": 82,
+  "seat_height_cm": 45,
+  "seat_depth_cm": 36,
+  "max_load_kg": 120,
+  "weight_kg": 10.4,
+  "product_type": "Poltrona / Armchair",
+  "legs_or_base": "Aço lacado, acabamento latão / powder-coated steel, brass finish",
+  "upholstery": "Veludo, 100% poliéster / velvet, 100% polyester",
+  "care": "Apenas limpeza a seco / dry clean only",
+  "country_of_origin": "Portugal",
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Manter afastado de fontes de calor.",
+   "Não subir para o assento."
+  ],
+  "corrections": [
+   {
+    "attribute": "colour",
+    "variant": "EVO-10-ROS",
+    "value": "pink"
+   }
+  ],
+  "variants": [
+   {
+    "code": "EVO-10-ROS",
+    "colour_name": "Azul"
+   },
+   {
+    "code": "EVO-10-MUS",
+    "colour_name": "Musgo"
+   }
+  ]
+ },
+ "held_back": [],
+ "photos": [
+  {
+   "file": "EVO10_MUS_34.jpg",
+   "variant": "EVO-10-MUS",
+   "view": "three-quarter",
+   "colour_seen": "green"
+  },
+  {
+   "file": "EVO10_MUS_front.jpg",
+   "variant": "EVO-10-MUS",
+   "view": "front",
+   "colour_seen": "green"
+  },
+  {
+   "file": "EVO10_ROS_front.jpg",
+   "variant": "EVO-10-ROS",
+   "view": "front",
+   "colour_seen": "pink"
+  },
+  {
+   "file": "IMG_4234.JPG",
+   "variant": null,
+   "view": "three-quarter",
+   "colour_seen": "pink"
+  },
+  {
+   "file": "EVO10_MUS_detail.jpg",
+   "variant": "EVO-10-MUS",
+   "view": "detail",
+   "colour_seen": "green"
+  },
+  {
+   "file": "EVO10_MUS_side.jpg",
+   "variant": "EVO-10-MUS",
+   "view": "side",
+   "colour_seen": "green"
+  },
+  {
+   "file": "EVO10_ROS_side.jpg",
+   "variant": "EVO-10-ROS",
+   "view": "side",
+   "colour_seen": "pink"
+  }
+ ],
+ "protected": [
+  "Móveis Lusa",
+  "ÉVORA",
+  "EVO-10-ROS",
+  "EVO-10-MUS"
+ ],
+ "en": {
+  "title": "Móveis Lusa ÉVORA Armchair",
+  "bullets": [
+   "Upholstery: 100% polyester velvet",
+   "Base: Powder-coated steel with brass finish",
+   "Maximum load capacity: 120 kg",
+   "Dimensions: 66 cm width, 60 cm depth, 82 cm height",
+   "Made in Portugal"
+  ],
+  "description": "The ÉVORA armchair by Móveis Lusa features a velvet upholstery and a brass-finished steel base. This piece is designed for indoor use and requires dry clean only care.",
+  "colours": [
+   {
+    "code": "EVO-10-ROS",
+    "name": "pink"
+   },
+   {
+    "code": "EVO-10-MUS",
+    "name": "moss green"
+   }
+  ],
+  "safety_warnings": [
+   "Do not use outdoors.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "EVO10_MUS_34.jpg",
+    "text": "Three-quarter view of the ÉVORA armchair in green"
+   },
+   {
+    "file": "EVO10_MUS_front.jpg",
+    "text": "Front view of the ÉVORA armchair in green"
+   },
+   {
+    "file": "EVO10_ROS_front.jpg",
+    "text": "Front view of the ÉVORA armchair in pink"
+   },
+   {
+    "file": "IMG_4234.JPG",
+    "text": "Three-quarter view of the ÉVORA armchair in pink"
+   },
+   {
+    "file": "EVO10_MUS_detail.jpg",
+    "text": "Detail view of the ÉVORA armchair in green"
+   },
+   {
+    "file": "EVO10_MUS_side.jpg",
+    "text": "Side view of the ÉVORA armchair in green"
+   },
+   {
+    "file": "EVO10_ROS_side.jpg",
+    "text": "Side view of the ÉVORA armchair in pink"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sillón Móveis Lusa ÉVORA",
+    "bullets": [
+     "Tapicería: Terciopelo 100% poliéster",
+     "Base: Acero con recubrimiento de polvo y acabado en latón",
+     "Capacidad de carga máxima: 120 kg",
+     "Dimensiones: 66 cm de ancho, 60 cm de profundidad, 82 cm de altura",
+     "Fabricado en Portugal"
+    ],
+    "description": "El sillón ÉVORA de Móveis Lusa presenta una tapicería de terciopelo y una base de acero con acabado en latón. Esta pieza está diseñada para uso interior y requiere limpieza en seco únicamente.",
+    "colours": [
+     {
+      "code": "EVO-10-ROS",
+      "name": "rosa"
+     },
+     {
+      "code": "EVO-10-MUS",
+      "name": "verde musgo"
+     }
+    ],
+    "safety_warnings": [
+     "No utilizar en exteriores.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "EVO10_MUS_34.jpg",
+      "text": "Vista en tres cuartos del sillón ÉVORA en verde"
+     },
+     {
+      "file": "EVO10_MUS_front.jpg",
+      "text": "Vista frontal del sillón ÉVORA en verde"
+     },
+     {
+      "file": "EVO10_ROS_front.jpg",
+      "text": "Vista frontal del sillón ÉVORA en rosa"
+     },
+     {
+      "file": "IMG_4234.JPG",
+      "text": "Vista en tres cuartos del sillón ÉVORA en rosa"
+     },
+     {
+      "file": "EVO10_MUS_detail.jpg",
+      "text": "Vista de detalle del sillón ÉVORA en verde"
+     },
+     {
+      "file": "EVO10_MUS_side.jpg",
+      "text": "Vista lateral del sillón ÉVORA en verde"
+     },
+     {
+      "file": "EVO10_ROS_side.jpg",
+      "text": "Vista lateral del sillón ÉVORA en rosa"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Poltrona Móveis Lusa ÉVORA",
+    "bullets": [
+     "Rivestimento: velluto 100% poliestere",
+     "Base: acciaio verniciato a polvere con finitura in ottone",
+     "Capacità di carico massima: 120 kg",
+     "Dimensioni: 66 cm di larghezza, 60 cm di profondità, 82 cm di altezza",
+     "Prodotto in Portogallo"
+    ],
+    "description": "La poltrona ÉVORA di Móveis Lusa presenta un rivestimento in velluto e una base in acciaio con finitura in ottone. Questo pezzo è progettato per l'uso interno e richiede esclusivamente la pulizia a secco.",
+    "colours": [
+     {
+      "code": "EVO-10-ROS",
+      "name": "rosa"
+     },
+     {
+      "code": "EVO-10-MUS",
+      "name": "verde muschio"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sul sedile."
+    ],
+    "alt_texts": [
+     {
+      "file": "EVO10_MUS_34.jpg",
+      "text": "Vista a tre quarti della poltrona ÉVORA in verde"
+     },
+     {
+      "file": "EVO10_MUS_front.jpg",
+      "text": "Vista frontale della poltrona ÉVORA in verde"
+     },
+     {
+      "file": "EVO10_ROS_front.jpg",
+      "text": "Vista frontale della poltrona ÉVORA in rosa"
+     },
+     {
+      "file": "IMG_4234.JPG",
+      "text": "Vista a tre quarti della poltrona ÉVORA in rosa"
+     },
+     {
+      "file": "EVO10_MUS_detail.jpg",
+      "text": "Vista di dettaglio della poltrona ÉVORA in verde"
+     },
+     {
+      "file": "EVO10_MUS_side.jpg",
+      "text": "Vista laterale della poltrona ÉVORA in verde"
+     },
+     {
+      "file": "EVO10_ROS_side.jpg",
+      "text": "Vista laterale della poltrona ÉVORA in rosa"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Móveis Lusa ÉVORA Sessel",
+    "bullets": [
+     "Bezug: 100% Polyester-Samt",
+     "Gestell: Pulverbeschichteter Stahl mit Messing-Finish",
+     "Maximale Belastbarkeit: 120 kg",
+     "Maße: 66 cm Breite, 60 cm Tiefe, 82 cm Höhe",
+     "Hergestellt in Portugal"
+    ],
+    "description": "Der ÉVORA Sessel von Móveis Lusa besticht durch einen Samtbezug und ein Stahlgestell in Messing-Optik. Dieses Möbelstück ist für den Innenbereich konzipiert und darf nur chemisch gereinigt werden.",
+    "colours": [
+     {
+      "code": "EVO-10-ROS",
+      "name": "Rosa"
+     },
+     {
+      "code": "EVO-10-MUS",
+      "name": "Moosgrün"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht im Außenbereich verwenden.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "EVO10_MUS_34.jpg",
+      "text": "Dreiviertelansicht des ÉVORA Sessels in Grün"
+     },
+     {
+      "file": "EVO10_MUS_front.jpg",
+      "text": "Frontansicht des ÉVORA Sessels in Grün"
+     },
+     {
+      "file": "EVO10_ROS_front.jpg",
+      "text": "Frontansicht des ÉVORA Sessels in Rosa"
+     },
+     {
+      "file": "IMG_4234.JPG",
+      "text": "Dreiviertelansicht des ÉVORA Sessels in Rosa"
+     },
+     {
+      "file": "EVO10_MUS_detail.jpg",
+      "text": "Detailansicht des ÉVORA Sessels in Grün"
+     },
+     {
+      "file": "EVO10_MUS_side.jpg",
+      "text": "Seitenansicht des ÉVORA Sessels in Grün"
+     },
+     {
+      "file": "EVO10_ROS_side.jpg",
+      "text": "Seitenansicht des ÉVORA Sessels in Rosa"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa ÉVORA Armchair",
+    "bullets": [
+     "Cover: 100% polyester velvet",
+     "Frame: Powder-coated steel with brass finish",
+     "Maximum load capacity: 120 kg",
+     "Dimensions: 66 cm width, 60 cm depth, 82 cm height",
+     "Made in Portugal"
+    ],
+    "description": "The ÉVORA armchair from Móveis Lusa impresses with a velvet cover and a steel frame in brass look. This piece of furniture is designed for indoor use and may only be dry cleaned.",
+    "colours": [
+     {
+      "code": "EVO-10-ROS",
+      "name": "Pink"
+     },
+     {
+      "code": "EVO-10-MUS",
+      "name": "Moss Green"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "EVO10_MUS_34.jpg",
+      "text": "Three-quarter view of the ÉVORA armchair in green"
+     },
+     {
+      "file": "EVO10_MUS_front.jpg",
+      "text": "Front view of the ÉVORA armchair in green"
+     },
+     {
+      "file": "EVO10_ROS_front.jpg",
+      "text": "Front view of the ÉVORA armchair in pink"
+     },
+     {
+      "file": "IMG_4234.JPG",
+      "text": "Three-quarter view of the ÉVORA armchair in pink"
+     },
+     {
+      "file": "EVO10_MUS_detail.jpg",
+      "text": "Detailed view of the ÉVORA armchair in green"
+     },
+     {
+      "file": "EVO10_MUS_side.jpg",
+      "text": "Side view of the ÉVORA armchair in green"
+     },
+     {
+      "file": "EVO10_ROS_side.jpg",
+      "text": "Side view of the ÉVORA armchair in pink"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Fauteuil Móveis Lusa ÉVORA",
+    "bullets": [
+     "Revêtement : velours 100 % polyester",
+     "Piètement : acier thermolaqué avec finition laiton",
+     "Capacité de charge maximale : 120 kg",
+     "Dimensions : 66 cm de largeur, 60 cm de profondeur, 82 cm de hauteur",
+     "Fabriqué au Portugal"
+    ],
+    "description": "Le fauteuil ÉVORA de Móveis Lusa présente un revêtement en velours et un piètement en acier avec finition laiton. Ce meuble est conçu pour un usage intérieur et nécessite un nettoyage à sec uniquement.",
+    "colours": [
+     {
+      "code": "EVO-10-ROS",
+      "name": "rose"
+     },
+     {
+      "code": "EVO-10-MUS",
+      "name": "vert mousse"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "EVO10_MUS_34.jpg",
+      "text": "Vue de trois-quarts du fauteuil ÉVORA en vert"
+     },
+     {
+      "file": "EVO10_MUS_front.jpg",
+      "text": "Vue de face du fauteuil ÉVORA en vert"
+     },
+     {
+      "file": "EVO10_ROS_front.jpg",
+      "text": "Vue de face du fauteuil ÉVORA en rose"
+     },
+     {
+      "file": "IMG_4234.JPG",
+      "text": "Vue de trois-quarts du fauteuil ÉVORA en rose"
+     },
+     {
+      "file": "EVO10_MUS_detail.jpg",
+      "text": "Vue détaillée du fauteuil ÉVORA en vert"
+     },
+     {
+      "file": "EVO10_MUS_side.jpg",
+      "text": "Vue de profil du fauteuil ÉVORA en vert"
+     },
+     {
+      "file": "EVO10_ROS_side.jpg",
+      "text": "Vue de profil du fauteuil ÉVORA en rose"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Poltrona Móveis Lusa ÉVORA",
+    "bullets": [
+     "Estofos: veludo 100% poliéster",
+     "Base: aço com pintura eletrostática e acabamento em latão",
+     "Capacidade de carga máxima: 120 kg",
+     "Dimensões: 66 cm de largura, 60 cm de profundidade, 82 cm de altura",
+     "Fabricado em Portugal"
+    ],
+    "description": "A poltrona ÉVORA da Móveis Lusa apresenta estofos em veludo e uma base de aço com acabamento em latão. Esta peça foi concebida para uso interior e requer apenas limpeza a seco.",
+    "colours": [
+     {
+      "code": "EVO-10-ROS",
+      "name": "rosa"
+     },
+     {
+      "code": "EVO-10-MUS",
+      "name": "verde musgo"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "EVO10_MUS_34.jpg",
+      "text": "Vista de três quartos da poltrona ÉVORA em verde"
+     },
+     {
+      "file": "EVO10_MUS_front.jpg",
+      "text": "Vista frontal da poltrona ÉVORA em verde"
+     },
+     {
+      "file": "EVO10_ROS_front.jpg",
+      "text": "Vista frontal da poltrona ÉVORA em rosa"
+     },
+     {
+      "file": "IMG_4234.JPG",
+      "text": "Vista de três quartos da poltrona ÉVORA em rosa"
+     },
+     {
+      "file": "EVO10_MUS_detail.jpg",
+      "text": "Vista detalhada da poltrona ÉVORA em verde"
+     },
+     {
+      "file": "EVO10_MUS_side.jpg",
+      "text": "Vista lateral da poltrona ÉVORA em verde"
+     },
+     {
+      "file": "EVO10_ROS_side.jpg",
+      "text": "Vista lateral da poltrona ÉVORA em rosa"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Fotel Móveis Lusa ÉVORA",
+    "bullets": [
+     "Obicie: 100% poliester, welur",
+     "Podstawa: Stal malowana proszkowo z mosiężnym wykończeniem",
+     "Maksymalne obciążenie: 120 kg",
+     "Wymiary: 66 cm szerokości, 60 cm głębokości, 82 cm wysokości",
+     "Wyprodukowano w Portugalii"
+    ],
+    "description": "Fotel ÉVORA marki Móveis Lusa charakteryzuje się welurowym obiciem i stalową podstawą z mosiężnym wykończeniem. Produkt przeznaczony do użytku wewnątrz pomieszczeń; dopuszczalne wyłącznie czyszczenie chemiczne.",
+    "colours": [
+     {
+      "code": "EVO-10-ROS",
+      "name": "różowy"
+     },
+     {
+      "code": "EVO-10-MUS",
+      "name": "mchowy zielony"
+     }
+    ],
+    "safety_warnings": [
+     "Nie używać na zewnątrz.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stawać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "EVO10_MUS_34.jpg",
+      "text": "Widok z trzech czwartych fotela ÉVORA w kolorze zielonym"
+     },
+     {
+      "file": "EVO10_MUS_front.jpg",
+      "text": "Widok z przodu fotela ÉVORA w kolorze zielonym"
+     },
+     {
+      "file": "EVO10_ROS_front.jpg",
+      "text": "Widok z przodu fotela ÉVORA w kolorze różowym"
+     },
+     {
+      "file": "IMG_4234.JPG",
+      "text": "Widok z trzech czwartych fotela ÉVORA w kolorze różowym"
+     },
+     {
+      "file": "EVO10_MUS_detail.jpg",
+      "text": "Zbliżenie na detale fotela ÉVORA w kolorze zielonym"
+     },
+     {
+      "file": "EVO10_MUS_side.jpg",
+      "text": "Widok z boku fotela ÉVORA w kolorze zielonym"
+     },
+     {
+      "file": "EVO10_ROS_side.jpg",
+      "text": "Widok z boku fotela ÉVORA w kolorze różowym"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Крісло Móveis Lusa ÉVORA",
+    "bullets": [
+     "Оббивка: 100% поліестеровий оксамит",
+     "Основа: Сталь з порошковим покриттям та латунним оздобленням",
+     "Максимальне навантаження: 120 кг",
+     "Розміри: 66 см ширина, 60 см глибина, 82 см висота",
+     "Виготовлено в Португалії"
+    ],
+    "description": "Крісло ÉVORA від Móveis Lusa має оксамитову оббивку та сталеву основу з латунним оздобленням. Цей виріб призначений для використання в приміщенні та потребує лише сухої чистки.",
+    "colours": [
+     {
+      "code": "EVO-10-ROS",
+      "name": "рожевий"
+     },
+     {
+      "code": "EVO-10-MUS",
+      "name": "мохово-зелений"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "EVO10_MUS_34.jpg",
+      "text": "Крісло ÉVORA зеленого кольору, вигляд у три чверті"
+     },
+     {
+      "file": "EVO10_MUS_front.jpg",
+      "text": "Крісло ÉVORA зеленого кольору, вигляд спереду"
+     },
+     {
+      "file": "EVO10_ROS_front.jpg",
+      "text": "Крісло ÉVORA рожевого кольору, вигляд спереду"
+     },
+     {
+      "file": "IMG_4234.JPG",
+      "text": "Крісло ÉVORA рожевого кольору, вигляд у три чверті"
+     },
+     {
+      "file": "EVO10_MUS_detail.jpg",
+      "text": "Детальний вигляд крісла ÉVORA зеленого кольору"
+     },
+     {
+      "file": "EVO10_MUS_side.jpg",
+      "text": "Крісло ÉVORA зеленого кольору, вигляд збоку"
+     },
+     {
+      "file": "EVO10_ROS_side.jpg",
+      "text": "Крісло ÉVORA рожевого кольору, вигляд збоку"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa ÉVORA Armchair",
+    "bullets": [
+     "Upholstery: 100% polyester velvet",
+     "Base: Powder-coated steel with brass finish",
+     "Maximum load: 120 kg",
+     "Dimensions: 66 cm width, 60 cm depth, 82 cm height",
+     "Made in Portugal"
+    ],
+    "description": "The ÉVORA armchair from Móveis Lusa features velvet upholstery and a steel base with a brass finish. This product is intended for indoor use and requires dry cleaning only.",
+    "colours": [
+     {
+      "code": "EVO-10-ROS",
+      "name": "pink"
+     },
+     {
+      "code": "EVO-10-MUS",
+      "name": "moss green"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "EVO10_MUS_34.jpg",
+      "text": "ÉVORA armchair in green, three-quarter view"
+     },
+     {
+      "file": "EVO10_MUS_front.jpg",
+      "text": "ÉVORA armchair in green, front view"
+     },
+     {
+      "file": "EVO10_ROS_front.jpg",
+      "text": "ÉVORA armchair in pink, front view"
+     },
+     {
+      "file": "IMG_4234.JPG",
+      "text": "ÉVORA armchair in pink, three-quarter view"
+     },
+     {
+      "file": "EVO10_MUS_detail.jpg",
+      "text": "Detailed view of the ÉVORA armchair in green"
+     },
+     {
+      "file": "EVO10_MUS_side.jpg",
+      "text": "ÉVORA armchair in green, side view"
+     },
+     {
+      "file": "EVO10_ROS_side.jpg",
+      "text": "ÉVORA armchair in pink, side view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

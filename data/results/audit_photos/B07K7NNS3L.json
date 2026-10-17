@@ -1,0 +1,316 @@
+{
+ "item_id": "B07K7NNS3L",
+ "photos": {
+  "51dToOGrkrL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      140,
+      821,
+      181
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      306,
+      845,
+      352
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      614,
+      403,
+      785,
+      448
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      551,
+      821,
+      592
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      731,
+      845,
+      777
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      614,
+      818,
+      785,
+      856
+     ]
+    }
+   ]
+  },
+  "51yfNx6mdtL": {
+   "role": "dimension_drawing",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "1050 mm",
+    "420 mm",
+    "480 mm",
+    "450 mm",
+    "580 mm"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      546,
+      123,
+      728,
+      166
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      546,
+      332,
+      728,
+      367
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      546,
+      572,
+      728,
+      626
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      546,
+      801,
+      728,
+      836
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      375,
+      391,
+      476,
+      434
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      412,
+      682,
+      441,
+      783
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      556,
+      855,
+      658,
+      898
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      773,
+      195,
+      802,
+      297
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      773,
+      635,
+      802,
+      737
+     ]
+    }
+   ]
+  },
+  "51aHhmdnD1L": {
+   "role": "dimension_drawing",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "grey",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "1050 mm",
+    "420 mm",
+    "480 mm",
+    "450 mm",
+    "580 mm"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      122,
+      728,
+      166
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      332,
+      728,
+      367
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      572,
+      728,
+      626
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      801,
+      728,
+      836
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      375,
+      391,
+      476,
+      433
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      412,
+      681,
+      441,
+      784
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      556,
+      855,
+      663,
+      897
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      773,
+      195,
+      802,
+      299
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      773,
+      635,
+      802,
+      739
+     ]
+    }
+   ]
+  },
+  "71RQZgaIrjL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      321,
+      974,
+      378
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      641,
+      633,
+      964,
+      704
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

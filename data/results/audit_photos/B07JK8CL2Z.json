@@ -1,0 +1,254 @@
+{
+ "item_id": "B07JK8CL2Z",
+ "photos": {
+  "31H8zV2KwyL": {
+   "role": "detail",
+   "product_type": "furniture leg",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      336,
+      933,
+      669
+     ]
+    }
+   ]
+  },
+  "61QQq0CCqvL": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "yellow",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "57",
+    "57",
+    "79"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      46,
+      342,
+      91,
+      396
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      114,
+      686,
+      161,
+      741
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      463,
+      133,
+      510,
+      188
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      576,
+      256,
+      864,
+      342
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      576,
+      426,
+      946,
+      468
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      566,
+      538,
+      826,
+      576
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      716,
+      884,
+      791
+     ]
+    }
+   ]
+  },
+  "61xHTUmRDLL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      204,
+      876,
+      314
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      406,
+      982,
+      454
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      521,
+      832,
+      566
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      716,
+      914,
+      816
+     ]
+    }
+   ]
+  },
+  "71e6pSj3D8L": {
+   "role": "lifestyle",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "yellow",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      638,
+      67,
+      866,
+      126
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      162,
+      901,
+      203
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      645,
+      225,
+      836,
+      263
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      292,
+      881,
+      361
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      531,
+      791,
+      586
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      667,
+      755,
+      705
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      723,
+      832,
+      761
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      794,
+      786,
+      871
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

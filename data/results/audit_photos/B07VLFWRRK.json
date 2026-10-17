@@ -1,0 +1,151 @@
+{
+ "item_id": "B07VLFWRRK",
+ "photos": {
+  "518T7U0i-DL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black matt",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      253,
+      181,
+      341,
+      232
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      233,
+      543,
+      930,
+      921
+     ]
+    }
+   ]
+  },
+  "61x7QLPtjEL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      933,
+      238,
+      1000,
+      328
+     ]
+    }
+   ]
+  },
+  "91NhqpgmFnL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      725,
+      80,
+      851,
+      178
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      772,
+      448,
+      983,
+      547
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      751,
+      665,
+      903,
+      794
+     ]
+    }
+   ]
+  },
+  "91dzQ5PCcrL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      703,
+      253,
+      833,
+      316
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      368,
+      973,
+      441
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      733,
+      841,
+      910,
+      948
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

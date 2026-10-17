@@ -1,0 +1,193 @@
+{
+ "item_id": "B073P3NL8B",
+ "photos": {
+  "71Kf4PKK2DL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      943,
+      385,
+      991,
+      555
+     ]
+    }
+   ]
+  },
+  "71TMx7acsPL": {
+   "role": "dimension_drawing",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "58.5\"",
+    "17\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      881,
+      391,
+      924,
+      558
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      492,
+      293,
+      513,
+      345
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      943,
+      481,
+      964,
+      516
+     ]
+    }
+   ]
+  },
+  "A1UiddwtYeL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 3,
+   "colour_family": "yellow",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "NEW YORK",
+    "MADE IN LA"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      66,
+      313,
+      213,
+      408
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      286,
+      313,
+      432,
+      408
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      152,
+      862,
+      544
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      845,
+      795,
+      884,
+      898
+     ]
+    }
+   ]
+  },
+  "A18n8uz-hgL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "metal",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      733,
+      306,
+      816,
+      346
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      773,
+      412,
+      901,
+      462
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      751,
+      585,
+      793,
+      625
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      755,
+      744,
+      871,
+      778
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      836,
+      145,
+      892,
+      291
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

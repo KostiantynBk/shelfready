@@ -1,0 +1,168 @@
+{
+ "item_id": "B07K4YTVKW",
+ "photos": {
+  "61YJcUQB4UL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      931,
+      406,
+      994,
+      572
+     ]
+    }
+   ]
+  },
+  "81zoszxpEmL": {
+   "role": "lifestyle",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "KINFOLK",
+    "Seni",
+    "KINFOLK",
+    "Portraits of a Year",
+    "THE KINFOLK HOME",
+    "MUSKOTEL",
+    "DECORATES",
+    "TOME"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      872,
+      125,
+      931,
+      263
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      311,
+      785,
+      423,
+      805
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      306,
+      807,
+      423,
+      827
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      306,
+      830,
+      423,
+      849
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      306,
+      852,
+      423,
+      872
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      306,
+      874,
+      423,
+      894
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      306,
+      896,
+      423,
+      916
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      306,
+      918,
+      423,
+      938
+     ]
+    }
+   ]
+  },
+  "81eemTyXzNL": {
+   "role": "packshot",
+   "product_type": "cable switch",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71ePRz8hLlL": {
+   "role": "detail",
+   "product_type": "lamp base",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      0,
+      994,
+      1000
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

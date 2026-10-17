@@ -1,0 +1,185 @@
+{
+ "item_id": "B07SGZQXZH",
+ "photos": {
+  "71otcnfPwDL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "711IP2RQlRL": {
+   "role": "packshot",
+   "product_type": "chaise longue",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "51O55e2NlOL": {
+   "role": "detail",
+   "product_type": "furniture base",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": null,
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      172,
+      355,
+      221,
+      414
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      262,
+      785,
+      312,
+      845
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      461,
+      100,
+      518,
+      166
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      646,
+      544,
+      718,
+      624
+     ]
+    }
+   ]
+  },
+  "61vKtzykaJL": {
+   "role": "dimension_drawing",
+   "product_type": "bed",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "unsure",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "82",
+    "50",
+    "26",
+    "45",
+    "138",
+    "145",
+    "93",
+    "33"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      366,
+      24,
+      398,
+      66
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      285,
+      554,
+      321,
+      594
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      344,
+      414,
+      378,
+      456
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      392,
+      318,
+      426,
+      359
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      622,
+      204,
+      664,
+      263
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      738,
+      177,
+      781,
+      238
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      833,
+      658,
+      868,
+      698
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      636,
+      945,
+      672,
+      985
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

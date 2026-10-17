@@ -1,0 +1,78 @@
+{
+ "item_id": "B07TCG9H3N",
+ "photos": {
+  "91CZiTf1aBL": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "91hsZ57xmNL": {
+   "role": "packshot",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "multicolour",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "A1roQwv8WoL": {
+   "role": "lifestyle",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "KINFOLK"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      88,
+      545,
+      125,
+      638
+     ]
+    }
+   ]
+  },
+  "91nIGRl3icL": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "shag",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,127 @@
+{
+ "item_id": "B07K4ZCQC3",
+ "photos": {
+  "710hiiDMinL": {
+   "role": "detail",
+   "product_type": "unsure",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.8,
+   "boxes": []
+  },
+  "61XbvHqB50L": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      932,
+      478,
+      994,
+      632
+     ]
+    }
+   ]
+  },
+  "81hiYjDWp7L": {
+   "role": "detail",
+   "product_type": "table",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "81cln1X6ebL": {
+   "role": "lifestyle",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "KINFOLK",
+    "Personal Style",
+    "KINFOLK",
+    "HOUSEHOLD SECRETS"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      843,
+      666,
+      886,
+      781
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      701,
+      323,
+      816,
+      341
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      701,
+      342,
+      816,
+      360
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      701,
+      361,
+      816,
+      379
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      701,
+      381,
+      816,
+      399
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

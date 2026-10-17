@@ -1,0 +1,122 @@
+{
+ "item_id": "B075X4R6CT",
+ "photos": {
+  "91iNur8dupL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      634,
+      51,
+      678,
+      93
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      687,
+      188,
+      741,
+      245
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      616,
+      931,
+      660,
+      973
+     ]
+    }
+   ]
+  },
+  "A1MMsEmt5KL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "A1KDambstGL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      805,
+      38,
+      853,
+      78
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      803,
+      821,
+      841,
+      861
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      381,
+      876,
+      822,
+      946
+     ]
+    }
+   ]
+  },
+  "B1sLAHbjBSS": {
+   "role": "detail",
+   "product_type": "upholstery fabric",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

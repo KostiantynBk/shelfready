@@ -1,0 +1,190 @@
+{
+ "item_id": "B07HPJ9V3J",
+ "photos": {
+  "51tRXy82nnL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      486,
+      151,
+      738,
+      233
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      402,
+      694,
+      438
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      575,
+      924,
+      632
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      552,
+      753,
+      841,
+      855
+     ]
+    }
+   ]
+  },
+  "71p2tJYtaQL": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "pile",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "51-Hvjsj1BL": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "84 cm",
+    "61 cm",
+    "115 cm"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      242,
+      794,
+      332
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      445,
+      856,
+      491
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      546,
+      592,
+      666,
+      635
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      500,
+      768,
+      701,
+      847
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      544,
+      122,
+      581,
+      223
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      912,
+      165,
+      951,
+      267
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      866,
+      785,
+      905,
+      906
+     ]
+    }
+   ]
+  },
+  "61lkf663E0L": {
+   "role": "detail",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      633,
+      204,
+      881,
+      323
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      855,
+      642,
+      1000,
+      722
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

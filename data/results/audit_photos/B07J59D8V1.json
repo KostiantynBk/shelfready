@@ -1,0 +1,160 @@
+{
+ "item_id": "B07J59D8V1",
+ "photos": {
+  "51osjNc9XuL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "purple",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      744,
+      181,
+      783,
+      222
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      812,
+      405,
+      865,
+      454
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      732,
+      767,
+      768,
+      807
+     ]
+    }
+   ]
+  },
+  "51wXNdjRRPL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "purple",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      812,
+      201,
+      853,
+      258
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      812,
+      742,
+      853,
+      798
+     ]
+    }
+   ]
+  },
+  "51mGbp4GL5L": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "purple",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      842,
+      536,
+      882,
+      586
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      732,
+      787,
+      763,
+      825
+     ]
+    }
+   ]
+  },
+  "5141CDDMA-L": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "purple",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      791,
+      191,
+      834,
+      241
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      825,
+      553,
+      881,
+      604
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      737,
+      804,
+      774,
+      848
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

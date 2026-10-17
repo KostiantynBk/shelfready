@@ -1,0 +1,141 @@
+{
+ "item_id": "B000W9BP4O",
+ "photos": {
+  "9195kujJxxS": {
+   "role": "packshot",
+   "product_type": "bench",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "dark bronze",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      588,
+      305,
+      915,
+      395
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      565,
+      843,
+      986,
+      923
+     ]
+    }
+   ]
+  },
+  "A1Non7m7BES": {
+   "role": "detail",
+   "product_type": "furniture detail",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "91csvspDRhS": {
+   "role": "packshot",
+   "product_type": "bench",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "dark bronze",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      286,
+      747,
+      323
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      431,
+      986,
+      493
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      443,
+      895,
+      661,
+      941
+     ]
+    }
+   ]
+  },
+  "91i1o-FzwpS": {
+   "role": "packshot",
+   "product_type": "bench",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "dark bronze",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      458,
+      213,
+      993,
+      288
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      463,
+      691,
+      631,
+      721
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      463,
+      896,
+      756,
+      938
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

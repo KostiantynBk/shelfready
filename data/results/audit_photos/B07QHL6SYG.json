@@ -1,0 +1,66 @@
+{
+ "item_id": "B07QHL6SYG",
+ "photos": {
+  "A1ja54jsGaL": {
+   "role": "lifestyle",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "91WaVgkBj4L": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "synthetic",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "81lpb-MecGL": {
+   "role": "packshot",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "A1QMPfRaGSL": {
+   "role": "packshot",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

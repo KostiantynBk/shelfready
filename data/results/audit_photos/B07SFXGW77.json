@@ -1,0 +1,172 @@
+{
+ "item_id": "B07SFXGW77",
+ "photos": {
+  "61Omh1XfMjL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      632,
+      58,
+      652,
+      98
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      757,
+      397,
+      787,
+      463
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      652,
+      891,
+      677,
+      938
+     ]
+    }
+   ]
+  },
+  "71XEgSYB-eL": {
+   "role": "lifestyle",
+   "product_type": "modular sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "71M4vzRXzdL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      588,
+      138,
+      622,
+      216
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      846,
+      783,
+      888,
+      906
+     ]
+    }
+   ]
+  },
+  "619uYrDR-pL": {
+   "role": "dimension_drawing",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "unsure",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "33",
+    "93",
+    "93"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      495,
+      48,
+      534,
+      91
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      704,
+      345,
+      743,
+      388
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      655,
+      811,
+      694,
+      854
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      601,
+      138,
+      623,
+      171
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      747,
+      611,
+      771,
+      644
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      892,
+      560,
+      925
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

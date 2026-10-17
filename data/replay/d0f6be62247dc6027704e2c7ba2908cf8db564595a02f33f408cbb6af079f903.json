@@ -1,0 +1,38 @@
+{
+ "key": "d0f6be62247dc6027704e2c7ba2908cf8db564595a02f33f408cbb6af079f903",
+ "purpose": "translate:SYN-00:pt",
+ "recorded_at": "2026-10-15T07:27:55+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into European Portuguese. Translate all words into natural European Portuguese, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a European Portuguese term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'LISBOA', 'LIS-01-MUS', 'LIS-01-ARE', 'LIS-01-ANT', 'Martindale'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa LISBOA Armchair\", \"bullets\": [\"Dimensions: 88 cm width, 83 cm depth, 90 cm height\", \"Seat height: 47 cm; seat depth: 50 cm\", \"Upholstery: 100% polyester bouclé with Martindale 40,000\", \"Maximum load capacity: 120 kg\", \"Made in Portugal\"], \"description\": \"The LISBOA armchair by Móveis Lusa features a 100% polyester bouclé upholstery that is washable at 30 °C. Depending on the variant, it is supported by either solid beech legs with a walnut stain or chrome-plated steel legs.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Moss\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Sand\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"Three-quarter view of the LISBOA armchair in grey.\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"Front view of the LISBOA armchair in grey.\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"Three-quarter view of the LISBOA armchair in beige.\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"Front view of the LISBOA armchair in beige.\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"Three-quarter view of the LISBOA armchair in green.\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"Front view of the LISBOA armchair in green.\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"Back view of the LISBOA armchair in grey.\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Detail view of the LISBOA armchair in grey.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Poltrona Móveis Lusa LISBOA\", \"bullets\": [\"Dimensões: 88 cm de largura, 83 cm de profundidade, 90 cm de altura\", \"Altura do assento: 47 cm; profundidade do assento: 50 cm\", \"Estofos: bouclé 100% poliéster com Martindale 40,000\", \"Capacidade de carga máxima: 120 kg\", \"Fabricado em Portugal\"], \"description\": \"A poltrona LISBOA da Móveis Lusa apresenta um estofos em bouclé 100% poliéster lavável a 30 °C. Dependendo da variante, é suportada por pernas de faia maciça com acabamento em nogueira ou pernas de aço cromado.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Musgo\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Areia\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Antracite\"}], \"safety_warnings\": [\"Não utilizar no exterior.\", \"Manter afastado de fontes de calor.\", \"Não se levantar sobre o assento.\"], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"Vista de três quartos da poltrona LISBOA em cinzento.\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"Vista frontal da poltrona LISBOA em cinzento.\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"Vista de três quartos da poltrona LISBOA em bege.\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"Vista frontal da poltrona LISBOA em bege.\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"Vista de três quartos da poltrona LISBOA em verde.\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"Vista frontal da poltrona LISBOA em verde.\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"Vista traseira da poltrona LISBOA em cinzento.\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Vista detalhada da poltrona LISBOA em cinzento.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1006,
+   "completion_tokens": 550
+  },
+  "latency_s": 86.641
+ }
+}

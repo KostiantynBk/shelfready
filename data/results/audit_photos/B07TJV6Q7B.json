@@ -1,0 +1,133 @@
+{
+ "item_id": "B07TJV6Q7B",
+ "photos": {
+  "81ifR0mA1fL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      156,
+      958,
+      832
+     ]
+    }
+   ]
+  },
+  "81HBhwJFzLL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      127,
+      826,
+      466
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      361,
+      977,
+      495
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      504,
+      753,
+      623
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      511,
+      887,
+      914
+     ]
+    }
+   ]
+  },
+  "81-j11Q3VBL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      531,
+      145,
+      938,
+      881
+     ]
+    }
+   ]
+  },
+  "81gIqeFgdJL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black matt",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      615,
+      141,
+      926,
+      763
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

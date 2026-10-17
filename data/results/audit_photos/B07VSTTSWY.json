@@ -1,0 +1,163 @@
+{
+ "item_id": "B07VSTTSWY",
+ "photos": {
+  "61fsgG6PoSL": {
+   "role": "detail",
+   "product_type": "upholstery fabric",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "51W5VzpwBsL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      825,
+      183,
+      1000,
+      281
+     ]
+    }
+   ]
+  },
+  "71y6hJ6gIrL": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "2000",
+    "850",
+    "830"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      323,
+      401,
+      355,
+      496
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      317,
+      766,
+      349,
+      841
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      521,
+      72,
+      576,
+      118
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      668,
+      344,
+      712,
+      376
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      542,
+      821,
+      574,
+      853
+     ]
+    }
+   ]
+  },
+  "81tWWKXeQ7L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black matt",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      121,
+      798,
+      143
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      785,
+      248,
+      983,
+      278
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      705,
+      503,
+      766,
+      525
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      871,
+      734,
+      894
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,140 @@
+{
+ "item_id": "B07K51RV9K",
+ "photos": {
+  "919NrXmGAnL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      618,
+      230,
+      992,
+      608
+     ]
+    }
+   ]
+  },
+  "71C39YJEnHL": {
+   "role": "packshot",
+   "product_type": "power cable with switch",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [
+    "H03VVHF-F 2x0.75mm² No.WV2211"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      353,
+      643,
+      504,
+      998
+     ]
+    }
+   ]
+  },
+  "81gtb7MjbuL": {
+   "role": "lifestyle",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [
+    "THE KINFOLK HOME"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      676,
+      435,
+      788,
+      544
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      586,
+      0,
+      734,
+      21
+     ]
+    }
+   ]
+  },
+  "81yCr56cLBL": {
+   "role": "lifestyle",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [
+    "KINEFOLK",
+    "BEST EDITION"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      666,
+      438,
+      791,
+      542
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      613,
+      33,
+      713,
+      63
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      613,
+      11,
+      713,
+      31
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

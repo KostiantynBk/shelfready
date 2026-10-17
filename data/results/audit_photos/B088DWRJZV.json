@@ -1,0 +1,33 @@
+{
+ "item_id": "B088DWRJZV",
+ "photos": {
+  "61OnkGVhMWL": {
+   "role": "other",
+   "product_type": "logo",
+   "products_in_frame": 0,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "amazonbasics"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      402,
+      0,
+      606,
+      1000
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

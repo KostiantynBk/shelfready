@@ -1,0 +1,233 @@
+{
+ "item_id": "B07JX7P4L3",
+ "photos": {
+  "61YA+Kg1rpL": {
+   "role": "detail",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "71YDsEi0juL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 3,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "MacLife"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      531,
+      51,
+      644,
+      116
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      133,
+      644,
+      183
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      188,
+      644,
+      241
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      241,
+      644,
+      301
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      525,
+      481,
+      644,
+      556
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      525,
+      541,
+      644,
+      598
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      611,
+      753,
+      685
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      711,
+      922,
+      761
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      781,
+      872,
+      821
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      851,
+      947,
+      898
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      911,
+      912,
+      971
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      691,
+      133,
+      731,
+      251
+     ]
+    }
+   ]
+  },
+  "41G6C4LcowL": {
+   "role": "detail",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      453,
+      50,
+      678,
+      206
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      924,
+      561,
+      1000,
+      661
+     ]
+    }
+   ]
+  },
+  "51FsBkcgAzL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      251,
+      852,
+      444
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      382,
+      956,
+      501
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      517,
+      816,
+      556
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      563,
+      896,
+      851
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

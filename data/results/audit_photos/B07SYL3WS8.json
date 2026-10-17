@@ -1,0 +1,213 @@
+{
+ "item_id": "B07SYL3WS8",
+ "photos": {
+  "61xA-ZRoCfL": {
+   "role": "packshot",
+   "product_type": "bean bag chair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      706,
+      41,
+      741,
+      87
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      861,
+      423,
+      896,
+      486
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      751,
+      896,
+      777,
+      946
+     ]
+    }
+   ]
+  },
+  "41F4DlqRpPL": {
+   "role": "detail",
+   "product_type": "furniture component",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      172,
+      358,
+      221,
+      421
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      261,
+      786,
+      312,
+      851
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      458,
+      101,
+      516,
+      168
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      548,
+      718,
+      626
+     ]
+    }
+   ]
+  },
+  "61mAoWojHIL": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "unsure",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "82",
+    "75",
+    "67",
+    "50",
+    "33",
+    "93",
+    "100",
+    "93"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      493,
+      21,
+      531,
+      65
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      306,
+      336,
+      344,
+      381
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      564,
+      317,
+      602,
+      361
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      336,
+      727,
+      374,
+      771
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      558,
+      934,
+      596,
+      978
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      694,
+      766,
+      732,
+      810
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      785,
+      778,
+      823,
+      834
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      851,
+      326,
+      889,
+      371
+     ]
+    }
+   ]
+  },
+  "716J3W0H+xL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,124 @@
+{
+ "item_id": "B07B4Z9PWF",
+ "photos": {
+  "71aF4fftphL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "stone",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      464,
+      416,
+      987,
+      594
+     ]
+    }
+   ]
+  },
+  "81qaHo22-4L": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "stone",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      496,
+      414,
+      988,
+      596
+     ]
+    }
+   ]
+  },
+  "91fQUsgjq7L": {
+   "role": "lifestyle",
+   "product_type": "bed",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      778,
+      405,
+      895,
+      447
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      924,
+      836,
+      957
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      511,
+      92,
+      594,
+      128
+     ]
+    }
+   ]
+  },
+  "81qPyZ2hXSL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "stone",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      282,
+      213,
+      1000,
+      768
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

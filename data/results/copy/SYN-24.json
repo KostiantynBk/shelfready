@@ -1,0 +1,779 @@
+{
+ "product_id": "SYN-24",
+ "decisions": {},
+ "facts": {
+  "product_name": "Teppich SAALE / SAALE rug",
+  "model": "SAALE",
+  "brand": "Nordholz Wohnen",
+  "width_cm": 244,
+  "depth_cm": 152,
+  "height_cm": 1,
+  "weight_kg": 10.7,
+  "product_type": "Teppich / rug",
+  "country_of_origin": "Deutschland",
+  "safety_warnings": [
+   "Auf glatten Böden eine Antirutschunterlage verwenden.",
+   "Use an anti-slip underlay on smooth floors.",
+   "Von offenen Feuern fernhalten.",
+   "Keep away from open flames."
+  ],
+  "variants": [
+   {
+    "code": "SAA-24-BLA",
+    "colour_name": "Blau"
+   },
+   {
+    "code": "SAA-24-SAN",
+    "colour_name": "Sand"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "care",
+   "variant": null,
+   "reason": "Care instructions contradict the care label",
+   "issue": "D5::care:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "colour",
+   "variant": "SAA-24-ANT",
+   "reason": "SAA-24-ANT: 'Anthrazit' but the photos look beige",
+   "issue": "D10:SAA-24-ANT:colour:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "upholstery",
+   "variant": null,
+   "reason": "Fibre composition missing",
+   "issue": "D14::upholstery:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "IMG_4705.JPG",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "SAALE-ANT-1.jpg",
+   "variant": null,
+   "view": "lifestyle",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "SAALE-ANT-2.jpg",
+   "variant": null,
+   "view": "detail",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "SAALE-ANT-3.jpg",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "SAALE-ANT-4.jpg",
+   "variant": null,
+   "view": "lifestyle",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "SAALE-BLA-1.jpg",
+   "variant": "SAA-24-BLA",
+   "view": "lifestyle",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "SAALE-BLA-2.jpg",
+   "variant": "SAA-24-BLA",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "SAALE-BLA-3.jpg",
+   "variant": "SAA-24-BLA",
+   "view": "detail",
+   "colour_seen": "grey"
+  }
+ ],
+ "protected": [
+  "Nordholz Wohnen",
+  "SAALE",
+  "SAA-24-BLA",
+  "SAA-24-SAN"
+ ],
+ "en": {
+  "title": "Nordholz Wohnen SAALE Rug",
+  "bullets": [
+   "Dimensions: 244 cm width, 152 cm depth, and 1 cm height",
+   "Weight: 10.7 kg",
+   "Country of origin: Deutschland"
+  ],
+  "description": "The SAALE rug by Nordholz Wohnen is a home accessory designed for various interior spaces. It is available in multiple colour options.",
+  "colours": [
+   {
+    "code": "SAA-24-BLA",
+    "name": "Blue"
+   },
+   {
+    "code": "SAA-24-SAN",
+    "name": "Sand"
+   }
+  ],
+  "safety_warnings": [
+   "Use an anti-slip underlay on smooth floors.",
+   "Keep away from open flames."
+  ],
+  "alt_texts": [
+   {
+    "file": "IMG_4705.JPG",
+    "text": "Grey SAALE rug, packshot view"
+   },
+   {
+    "file": "SAALE-ANT-1.jpg",
+    "text": "Beige SAALE rug, lifestyle view"
+   },
+   {
+    "file": "SAALE-ANT-2.jpg",
+    "text": "Beige SAALE rug, detail view"
+   },
+   {
+    "file": "SAALE-ANT-3.jpg",
+    "text": "Beige SAALE rug, packshot view"
+   },
+   {
+    "file": "SAALE-ANT-4.jpg",
+    "text": "Blue SAALE rug, lifestyle view"
+   },
+   {
+    "file": "SAALE-BLA-1.jpg",
+    "text": "Grey SAALE rug, lifestyle view"
+   },
+   {
+    "file": "SAALE-BLA-2.jpg",
+    "text": "Grey SAALE rug, detail view"
+   },
+   {
+    "file": "SAALE-BLA-3.jpg",
+    "text": "Grey SAALE rug, detail view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Alfombra Nordholz Wohnen SAALE",
+    "bullets": [
+     "Dimensiones: 244 cm de ancho, 152 cm de profundidad y 1 cm de altura",
+     "Peso: 10.7 kg",
+     "País de origen: Deutschland"
+    ],
+    "description": "La alfombra SAALE de Nordholz Wohnen es un accesorio para el hogar diseñado para diversos espacios interiores. Está disponible en múltiples opciones de color.",
+    "colours": [
+     {
+      "code": "SAA-24-BLA",
+      "name": "Azul"
+     },
+     {
+      "code": "SAA-24-SAN",
+      "name": "Arena"
+     }
+    ],
+    "safety_warnings": [
+     "Utilice una base antideslizante en suelos lisos.",
+     "Mantener alejado de llamas abiertas."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4705.JPG",
+      "text": "Alfombra SAALE gris, vista de producto"
+     },
+     {
+      "file": "SAALE-ANT-1.jpg",
+      "text": "Alfombra SAALE beige, vista de ambiente"
+     },
+     {
+      "file": "SAALE-ANT-2.jpg",
+      "text": "Alfombra SAALE beige, vista de detalle"
+     },
+     {
+      "file": "SAALE-ANT-3.jpg",
+      "text": "Alfombra SAALE beige, vista de producto"
+     },
+     {
+      "file": "SAALE-ANT-4.jpg",
+      "text": "Alfombra SAALE azul, vista de ambiente"
+     },
+     {
+      "file": "SAALE-BLA-1.jpg",
+      "text": "Alfombra SAALE gris, vista de ambiente"
+     },
+     {
+      "file": "SAALE-BLA-2.jpg",
+      "text": "Alfombra SAALE gris, vista de detalle"
+     },
+     {
+      "file": "SAALE-BLA-3.jpg",
+      "text": "Alfombra SAALE gris, vista de detalle"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Tappeto Nordholz Wohnen SAALE",
+    "bullets": [
+     "Dimensioni: 244 cm di larghezza, 152 cm di profondità e 1 cm di altezza",
+     "Peso: 10.7 kg",
+     "Paese di origine: Deutschland"
+    ],
+    "description": "Il tappeto SAALE di Nordholz Wohnen è un accessorio per la casa progettato per diversi spazi interni. È disponibile in diverse opzioni di colore.",
+    "colours": [
+     {
+      "code": "SAA-24-BLA",
+      "name": "Blu"
+     },
+     {
+      "code": "SAA-24-SAN",
+      "name": "Sabbia"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizzare un sottofondo antiscivolo su pavimenti lisci.",
+     "Tenere lontano da fiamme libere."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4705.JPG",
+      "text": "Tappeto SAALE grigio, vista prodotto"
+     },
+     {
+      "file": "SAALE-ANT-1.jpg",
+      "text": "Tappeto SAALE beige, vista d'ambiente"
+     },
+     {
+      "file": "SAALE-ANT-2.jpg",
+      "text": "Tappeto SAALE beige, vista dettaglio"
+     },
+     {
+      "file": "SAALE-ANT-3.jpg",
+      "text": "Tappeto SAALE beige, vista prodotto"
+     },
+     {
+      "file": "SAALE-ANT-4.jpg",
+      "text": "Tappeto SAALE blu, vista d'ambiente"
+     },
+     {
+      "file": "SAALE-BLA-1.jpg",
+      "text": "Tappeto SAALE grigio, vista d'ambiente"
+     },
+     {
+      "file": "SAALE-BLA-2.jpg",
+      "text": "Tappeto SAALE grigio, vista dettaglio"
+     },
+     {
+      "file": "SAALE-BLA-3.jpg",
+      "text": "Tappeto SAALE grigio, vista dettaglio"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Nordholz Wohnen SAALE Teppich",
+    "bullets": [
+     "Maße: 244 cm Breite, 152 cm Tiefe und 1 cm Höhe",
+     "Gewicht: 10,7 kg",
+     "Herkunftsland: Deutschland"
+    ],
+    "description": "Der SAALE Teppich von Nordholz Wohnen ist ein Wohnaccessoire, das für verschiedene Innenräume entworfen wurde. Er ist in mehreren Farboptionen erhältlich.",
+    "colours": [
+     {
+      "code": "SAA-24-BLA",
+      "name": "Blau"
+     },
+     {
+      "code": "SAA-24-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Auf glatten Böden eine rutschfeste Unterlage verwenden.",
+     "Von offenen Flammen fernhalten."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4705.JPG",
+      "text": "Grauer SAALE Teppich, Produktansicht"
+     },
+     {
+      "file": "SAALE-ANT-1.jpg",
+      "text": "Beiger SAALE Teppich, Lifestyle-Ansicht"
+     },
+     {
+      "file": "SAALE-ANT-2.jpg",
+      "text": "Beiger SAALE Teppich, Detailansicht"
+     },
+     {
+      "file": "SAALE-ANT-3.jpg",
+      "text": "Beiger SAALE Teppich, Produktansicht"
+     },
+     {
+      "file": "SAALE-ANT-4.jpg",
+      "text": "Blauer SAALE Teppich, Lifestyle-Ansicht"
+     },
+     {
+      "file": "SAALE-BLA-1.jpg",
+      "text": "Grauer SAALE Teppich, Lifestyle-Ansicht"
+     },
+     {
+      "file": "SAALE-BLA-2.jpg",
+      "text": "Grauer SAALE Teppich, Detailansicht"
+     },
+     {
+      "file": "SAALE-BLA-3.jpg",
+      "text": "Grauer SAALE Teppich, Detailansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen SAALE Carpet",
+    "bullets": [
+     "Dimensions: 244 cm width, 152 cm depth and 1 cm height",
+     "Weight: 10.7 kg",
+     "Country of origin: Germany"
+    ],
+    "description": "The SAALE carpet from Nordholz Wohnen is a home accessory designed for various interiors. It is available in several color options.",
+    "colours": [
+     {
+      "code": "SAA-24-BLA",
+      "name": "Blue"
+     },
+     {
+      "code": "SAA-24-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Use a non-slip underlay on smooth floors.",
+     "Keep away from open flames."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4705.JPG",
+      "text": "Grey SAALE carpet, product view"
+     },
+     {
+      "file": "SAALE-ANT-1.jpg",
+      "text": "Beige SAALE carpet, lifestyle view"
+     },
+     {
+      "file": "SAALE-ANT-2.jpg",
+      "text": "Beige SAALE carpet, detail view"
+     },
+     {
+      "file": "SAALE-ANT-3.jpg",
+      "text": "Beige SAALE carpet, product view"
+     },
+     {
+      "file": "SAALE-ANT-4.jpg",
+      "text": "Blue SAALE carpet, lifestyle view"
+     },
+     {
+      "file": "SAALE-BLA-1.jpg",
+      "text": "Grey SAALE carpet, lifestyle view"
+     },
+     {
+      "file": "SAALE-BLA-2.jpg",
+      "text": "Grey SAALE carpet, detail view"
+     },
+     {
+      "file": "SAALE-BLA-3.jpg",
+      "text": "Grey SAALE carpet, detail view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Tapis Nordholz Wohnen SAALE",
+    "bullets": [
+     "Dimensions : 244 cm de largeur, 152 cm de profondeur et 1 cm de hauteur",
+     "Poids : 10,7 kg",
+     "Pays d'origine : Deutschland"
+    ],
+    "description": "Le tapis SAALE de Nordholz Wohnen est un accessoire de maison conçu pour divers espaces intérieurs. Il est disponible en plusieurs options de couleurs.",
+    "colours": [
+     {
+      "code": "SAA-24-BLA",
+      "name": "Bleu"
+     },
+     {
+      "code": "SAA-24-SAN",
+      "name": "Sable"
+     }
+    ],
+    "safety_warnings": [
+     "Utiliser un sous-tapis antidérapant sur les sols lisses.",
+     "Tenir à l'écart des flammes nues."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4705.JPG",
+      "text": "Tapis SAALE gris, vue produit"
+     },
+     {
+      "file": "SAALE-ANT-1.jpg",
+      "text": "Tapis SAALE beige, vue d'ambiance"
+     },
+     {
+      "file": "SAALE-ANT-2.jpg",
+      "text": "Tapis SAALE beige, vue détaillée"
+     },
+     {
+      "file": "SAALE-ANT-3.jpg",
+      "text": "Tapis SAALE beige, vue produit"
+     },
+     {
+      "file": "SAALE-ANT-4.jpg",
+      "text": "Tapis SAALE bleu, vue d'ambiance"
+     },
+     {
+      "file": "SAALE-BLA-1.jpg",
+      "text": "Tapis SAALE gris, vue d'ambiance"
+     },
+     {
+      "file": "SAALE-BLA-2.jpg",
+      "text": "Tapis SAALE gris, vue détaillée"
+     },
+     {
+      "file": "SAALE-BLA-3.jpg",
+      "text": "Tapis SAALE gris, vue détaillée"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Tapete Nordholz Wohnen SAALE",
+    "bullets": [
+     "Dimensões: 244 cm de largura, 152 cm de profundidade e 1 cm de altura",
+     "Peso: 10.7 kg",
+     "País de origem: Alemanha"
+    ],
+    "description": "O tapete SAALE da Nordholz Wohnen é um acessório para a casa concebido para diversos espaços interiores. Está disponível em várias opções de cores.",
+    "colours": [
+     {
+      "code": "SAA-24-BLA",
+      "name": "Azul"
+     },
+     {
+      "code": "SAA-24-SAN",
+      "name": "Areia"
+     }
+    ],
+    "safety_warnings": [
+     "Utilize um tapete antiderrapante em pavimentos lisos.",
+     "Mantenha afastado de chamas abertas."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4705.JPG",
+      "text": "Tapete SAALE cinzento, vista de produto"
+     },
+     {
+      "file": "SAALE-ANT-1.jpg",
+      "text": "Tapete SAALE bege, vista de ambiente"
+     },
+     {
+      "file": "SAALE-ANT-2.jpg",
+      "text": "Tapete SAALE bege, vista de detalhe"
+     },
+     {
+      "file": "SAALE-ANT-3.jpg",
+      "text": "Tapete SAALE bege, vista de produto"
+     },
+     {
+      "file": "SAALE-ANT-4.jpg",
+      "text": "Tapete SAALE azul, vista de ambiente"
+     },
+     {
+      "file": "SAALE-BLA-1.jpg",
+      "text": "Tapete SAALE cinzento, vista de ambiente"
+     },
+     {
+      "file": "SAALE-BLA-2.jpg",
+      "text": "Tapete SAALE cinzento, vista de detalhe"
+     },
+     {
+      "file": "SAALE-BLA-3.jpg",
+      "text": "Tapete SAALE cinzento, vista de detalhe"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Dywan Nordholz Wohnen SAALE",
+    "bullets": [
+     "Wymiary: 244 cm szerokości, 152 cm głębokości i 1 cm wysokości",
+     "Waga: 10.7 kg",
+     "Kraj pochodzenia: Niemcy"
+    ],
+    "description": "Dywan SAALE marki Nordholz Wohnen to dodatek do domu zaprojektowany do różnych wnętrz. Jest dostępny w wielu wariantach kolorystycznych.",
+    "colours": [
+     {
+      "code": "SAA-24-BLA",
+      "name": "Niebieski"
+     },
+     {
+      "code": "SAA-24-SAN",
+      "name": "Piaskowy"
+     }
+    ],
+    "safety_warnings": [
+     "Na gładkich podłogach należy stosować podkład antypoślizgowy.",
+     "Trzymać z dala od otwartego ognia."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4705.JPG",
+      "text": "Szary dywan SAALE, widok produktowy"
+     },
+     {
+      "file": "SAALE-ANT-1.jpg",
+      "text": "Beżowy dywan SAALE, widok w aranżacji"
+     },
+     {
+      "file": "SAALE-ANT-2.jpg",
+      "text": "Beżowy dywan SAALE, widok szczegółowy"
+     },
+     {
+      "file": "SAALE-ANT-3.jpg",
+      "text": "Beżowy dywan SAALE, widok produktowy"
+     },
+     {
+      "file": "SAALE-ANT-4.jpg",
+      "text": "Niebieski dywan SAALE, widok w aranżacji"
+     },
+     {
+      "file": "SAALE-BLA-1.jpg",
+      "text": "Szary dywan SAALE, widok w aranżacji"
+     },
+     {
+      "file": "SAALE-BLA-2.jpg",
+      "text": "Szary dywan SAALE, widok szczegółowy"
+     },
+     {
+      "file": "SAALE-BLA-3.jpg",
+      "text": "Szary dywan SAALE, widok szczegółowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Килим Nordholz Wohnen SAALE",
+    "bullets": [
+     "Розміри: ширина 244 см, глибина 152 см та висота 1 см",
+     "Вага: 10.7 кг",
+     "Країна походження: Німеччина"
+    ],
+    "description": "Килим SAALE від Nordholz Wohnen — це домашній аксесуар, розроблений для різних інтер'єрів. Доступний у кількох варіантах кольорів.",
+    "colours": [
+     {
+      "code": "SAA-24-BLA",
+      "name": "Синій"
+     },
+     {
+      "code": "SAA-24-SAN",
+      "name": "Пісочний"
+     }
+    ],
+    "safety_warnings": [
+     "Використовуйте протиковзну підкладку на гладких підлогах.",
+     "Тримайте подалі від відкритого вогню."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4705.JPG",
+      "text": "Сірий килим SAALE, вид виробу"
+     },
+     {
+      "file": "SAALE-ANT-1.jpg",
+      "text": "Бежевий килим SAALE в інтер'єрі"
+     },
+     {
+      "file": "SAALE-ANT-2.jpg",
+      "text": "Бежевий килим SAALE, детальний вид"
+     },
+     {
+      "file": "SAALE-ANT-3.jpg",
+      "text": "Бежевий килим SAALE, вид виробу"
+     },
+     {
+      "file": "SAALE-ANT-4.jpg",
+      "text": "Синій килим SAALE в інтер'єрі"
+     },
+     {
+      "file": "SAALE-BLA-1.jpg",
+      "text": "Сірий килим SAALE в інтер'єрі"
+     },
+     {
+      "file": "SAALE-BLA-2.jpg",
+      "text": "Сірий килим SAALE, детальний вид"
+     },
+     {
+      "file": "SAALE-BLA-3.jpg",
+      "text": "Сірий килим SAALE, детальний вид"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen SAALE Rug",
+    "bullets": [
+     "Dimensions: width 244 cm, depth 152 cm and height 1 cm",
+     "Weight: 10.7 kg",
+     "Country of origin: Germany"
+    ],
+    "description": "The SAALE rug from Nordholz Wohnen is a home accessory designed for various interiors. Available in several color options.",
+    "colours": [
+     {
+      "code": "SAA-24-BLA",
+      "name": "Blue"
+     },
+     {
+      "code": "SAA-24-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Use a non-slip underlay on smooth floors.",
+     "Keep away from open fire."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4705.JPG",
+      "text": "Grey SAALE rug, product view"
+     },
+     {
+      "file": "SAALE-ANT-1.jpg",
+      "text": "Beige SAALE rug in interior"
+     },
+     {
+      "file": "SAALE-ANT-2.jpg",
+      "text": "Beige SAALE rug, detailed view"
+     },
+     {
+      "file": "SAALE-ANT-3.jpg",
+      "text": "Beige SAALE rug, product view"
+     },
+     {
+      "file": "SAALE-ANT-4.jpg",
+      "text": "Blue SAALE rug in interior"
+     },
+     {
+      "file": "SAALE-BLA-1.jpg",
+      "text": "Grey SAALE rug in interior"
+     },
+     {
+      "file": "SAALE-BLA-2.jpg",
+      "text": "Grey SAALE rug, detailed view"
+     },
+     {
+      "file": "SAALE-BLA-3.jpg",
+      "text": "Grey SAALE rug, detailed view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

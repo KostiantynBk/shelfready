@@ -1,0 +1,850 @@
+{
+ "product_id": "SYN-07",
+ "decisions": {},
+ "facts": {
+  "product_name": "Poltrona FARO / FARO armchair",
+  "model": "FARO",
+  "brand": "Móveis Lusa",
+  "width_cm": 70,
+  "depth_cm": 71,
+  "height_cm": 83,
+  "seat_height_cm": 45,
+  "seat_depth_cm": 43,
+  "max_load_kg": 120,
+  "weight_kg": 13.5,
+  "product_type": "Poltrona / Armchair",
+  "legs_or_base": "Faia maciça, acabamento nogueira / solid beech, walnut stain",
+  "upholstery": "Tecido, 100% poliester / woven fabric, 100% polyester",
+  "care": "Capa removível, lavar a 30 °C / removable cover, washable at 30 °C",
+  "country_of_origin": "Portugal",
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Not for outdoor use.",
+   "Manter afastado de fontes de calor.",
+   "Keep away from heat sources.",
+   "Não subir para o assento.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "FAR-07-ANT",
+    "colour_name": "Antracite"
+   },
+   {
+    "code": "FAR-07-AZU",
+    "colour_name": "Azul"
+   },
+   {
+    "code": "FAR-07-CIN",
+    "colour_name": "Cinza"
+   }
+  ]
+ },
+ "held_back": [],
+ "photos": [
+  {
+   "file": "FAR07_ANT_34.jpg",
+   "variant": "FAR-07-ANT",
+   "view": "three-quarter",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "FAR07_ANT_front.jpg",
+   "variant": "FAR-07-ANT",
+   "view": "front",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "FAR07_AZU_34.jpg",
+   "variant": "FAR-07-AZU",
+   "view": "three-quarter",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "FAR07_AZU_front.jpg",
+   "variant": "FAR-07-AZU",
+   "view": "front",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "FAR07_CIN_34.jpg",
+   "variant": "FAR-07-CIN",
+   "view": "three-quarter",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "FAR07_CIN_front.jpg",
+   "variant": "FAR-07-CIN",
+   "view": "front",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "FAR07_ANT_side.jpg",
+   "variant": "FAR-07-ANT",
+   "view": "side",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "FAR07_AZU_detail.jpg",
+   "variant": "FAR-07-AZU",
+   "view": "detail",
+   "colour_seen": "blue"
+  }
+ ],
+ "protected": [
+  "Móveis Lusa",
+  "FARO",
+  "FAR-07-ANT",
+  "FAR-07-AZU",
+  "FAR-07-CIN"
+ ],
+ "en": {
+  "title": "Móveis Lusa FARO Armchair",
+  "bullets": [
+   "Dimensions: 70 cm width, 71 cm depth, 83 cm height",
+   "Seat height: 45 cm; seat depth: 43 cm",
+   "Solid beech legs with walnut stain",
+   "100% polyester woven fabric upholstery",
+   "Removable cover washable at 30 °C",
+   "Maximum load capacity: 120 kg"
+  ],
+  "description": "The FARO armchair by Móveis Lusa is crafted in Portugal. It features a 100% polyester woven fabric upholstery and solid beech legs with a walnut stain.",
+  "colours": [
+   {
+    "code": "FAR-07-ANT",
+    "name": "Anthracite"
+   },
+   {
+    "code": "FAR-07-AZU",
+    "name": "Blue"
+   },
+   {
+    "code": "FAR-07-CIN",
+    "name": "Grey"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "FAR07_ANT_34.jpg",
+    "text": "FARO armchair in anthracite grey, three-quarter view"
+   },
+   {
+    "file": "FAR07_ANT_front.jpg",
+    "text": "FARO armchair in anthracite grey, front view"
+   },
+   {
+    "file": "FAR07_AZU_34.jpg",
+    "text": "FARO armchair in blue, three-quarter view"
+   },
+   {
+    "file": "FAR07_AZU_front.jpg",
+    "text": "FARO armchair in blue, front view"
+   },
+   {
+    "file": "FAR07_CIN_34.jpg",
+    "text": "FARO armchair in grey, three-quarter view"
+   },
+   {
+    "file": "FAR07_CIN_front.jpg",
+    "text": "FARO armchair in grey, front view"
+   },
+   {
+    "file": "FAR07_ANT_side.jpg",
+    "text": "FARO armchair in anthracite grey, side view"
+   },
+   {
+    "file": "FAR07_AZU_detail.jpg",
+    "text": "Detail view of the FARO armchair in blue"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sillón FARO de Móveis Lusa",
+    "bullets": [
+     "Dimensiones: 70 cm de ancho, 71 cm de profundidad, 83 cm de altura",
+     "Altura del asiento: 45 cm; profundidad del asiento: 43 cm",
+     "Patas de haya maciza con tinte de nogal",
+     "Tapicería de tejido 100% poliéster",
+     "Funda extraíble lavable a 30 °C",
+     "Capacidad de carga máxima: 120 kg"
+    ],
+    "description": "El sillón FARO de Móveis Lusa está fabricado en Portugal. Cuenta con una tapicería de tejido 100% poliéster y patas de haya maciza con un acabado en tinte de nogal.",
+    "colours": [
+     {
+      "code": "FAR-07-ANT",
+      "name": "Antracita"
+     },
+     {
+      "code": "FAR-07-AZU",
+      "name": "Azul"
+     },
+     {
+      "code": "FAR-07-CIN",
+      "name": "Gris"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "FAR07_ANT_34.jpg",
+      "text": "Sillón FARO en gris antracita, vista en tres cuartos"
+     },
+     {
+      "file": "FAR07_ANT_front.jpg",
+      "text": "Sillón FARO en gris antracita, vista frontal"
+     },
+     {
+      "file": "FAR07_AZU_34.jpg",
+      "text": "Sillón FARO en azul, vista en tres cuartos"
+     },
+     {
+      "file": "FAR07_AZU_front.jpg",
+      "text": "Sillón FARO en azul, vista frontal"
+     },
+     {
+      "file": "FAR07_CIN_34.jpg",
+      "text": "Sillón FARO en gris, vista en tres cuartos"
+     },
+     {
+      "file": "FAR07_CIN_front.jpg",
+      "text": "Sillón FARO en gris, vista frontal"
+     },
+     {
+      "file": "FAR07_ANT_side.jpg",
+      "text": "Sillón FARO en gris antracita, vista lateral"
+     },
+     {
+      "file": "FAR07_AZU_detail.jpg",
+      "text": "Vista de detalle del sillón FARO en azul"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Poltrona Móveis Lusa FARO",
+    "bullets": [
+     "Dimensioni: 70 cm di larghezza, 71 cm di profondità, 83 cm di altezza",
+     "Altezza seduta: 45 cm; profondità seduta: 43 cm",
+     "Gambe in faggio massello con finitura noce",
+     "Rivestimento in tessuto intrecciato 100% poliestere",
+     "Cover rimovibile lavabile a 30 °C",
+     "Capacità di carico massima: 120 kg"
+    ],
+    "description": "La poltrona FARO di Móveis Lusa è realizzata in Portogallo. Presenta un rivestimento in tessuto intrecciato 100% poliestere e gambe in faggio massello con finitura noce.",
+    "colours": [
+     {
+      "code": "FAR-07-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "FAR-07-AZU",
+      "name": "Blu"
+     },
+     {
+      "code": "FAR-07-CIN",
+      "name": "Grigio"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sulla seduta."
+    ],
+    "alt_texts": [
+     {
+      "file": "FAR07_ANT_34.jpg",
+      "text": "Poltrona FARO in grigio antracite, vista a tre quarti"
+     },
+     {
+      "file": "FAR07_ANT_front.jpg",
+      "text": "Poltrona FARO in grigio antracite, vista frontale"
+     },
+     {
+      "file": "FAR07_AZU_34.jpg",
+      "text": "Poltrona FARO in blu, vista a tre quarti"
+     },
+     {
+      "file": "FAR07_AZU_front.jpg",
+      "text": "Poltrona FARO in blu, vista frontale"
+     },
+     {
+      "file": "FAR07_CIN_34.jpg",
+      "text": "Poltrona FARO in grigio, vista a tre quarti"
+     },
+     {
+      "file": "FAR07_CIN_front.jpg",
+      "text": "Poltrona FARO in grigio, vista frontale"
+     },
+     {
+      "file": "FAR07_ANT_side.jpg",
+      "text": "Poltrona FARO in grigio antracite, vista laterale"
+     },
+     {
+      "file": "FAR07_AZU_detail.jpg",
+      "text": "Vista dettagliata della poltrona FARO in blu"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Móveis Lusa FARO Sessel",
+    "bullets": [
+     "Maße: 70 cm Breite, 71 cm Tiefe, 83 cm Höhe",
+     "Sitzhöhe: 45 cm; Sitztiefe: 43 cm",
+     "Beine aus massivem Buchenholz mit Walnuss-Finish",
+     "Bezug aus 100% Polyester-Webstoff",
+     "Abnehmbarer Bezug, waschbar bei 30 °C",
+     "Maximale Belastbarkeit: 120 kg"
+    ],
+    "description": "Der FARO Sessel von Móveis Lusa wird in Portugal gefertigt. Er verfügt über einen Bezug aus 100% Polyester-Webstoff und Beine aus massivem Buchenholz mit Walnuss-Finish.",
+    "colours": [
+     {
+      "code": "FAR-07-ANT",
+      "name": "Anthrazit"
+     },
+     {
+      "code": "FAR-07-AZU",
+      "name": "Blau"
+     },
+     {
+      "code": "FAR-07-CIN",
+      "name": "Grau"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "FAR07_ANT_34.jpg",
+      "text": "FARO Sessel in Anthrazitgrau, Dreiviertelansicht"
+     },
+     {
+      "file": "FAR07_ANT_front.jpg",
+      "text": "FARO Sessel in Anthrazitgrau, Frontansicht"
+     },
+     {
+      "file": "FAR07_AZU_34.jpg",
+      "text": "FARO Sessel in Blau, Dreiviertelansicht"
+     },
+     {
+      "file": "FAR07_AZU_front.jpg",
+      "text": "FARO Sessel in Blau, Frontansicht"
+     },
+     {
+      "file": "FAR07_CIN_34.jpg",
+      "text": "FARO Sessel in Grau, Dreiviertelansicht"
+     },
+     {
+      "file": "FAR07_CIN_front.jpg",
+      "text": "FARO Sessel in Grau, Frontansicht"
+     },
+     {
+      "file": "FAR07_ANT_side.jpg",
+      "text": "FARO Sessel in Anthrazitgrau, Seitenansicht"
+     },
+     {
+      "file": "FAR07_AZU_detail.jpg",
+      "text": "Detailansicht des FARO Sessels in Blau"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa FARO Armchair",
+    "bullets": [
+     "Dimensions: 70 cm width, 71 cm depth, 83 cm height",
+     "Seat height: 45 cm; Seat depth: 43 cm",
+     "Legs made of solid beech wood with walnut finish",
+     "Cover made of 100% polyester woven fabric",
+     "Removable cover, washable at 30 °C",
+     "Maximum load capacity: 120 kg"
+    ],
+    "description": "The FARO armchair from Móveis Lusa is manufactured in Portugal. It features a cover made of 100% polyester woven fabric and legs made of solid beech wood with a walnut finish.",
+    "colours": [
+     {
+      "code": "FAR-07-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "FAR-07-AZU",
+      "name": "Blue"
+     },
+     {
+      "code": "FAR-07-CIN",
+      "name": "Grey"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "FAR07_ANT_34.jpg",
+      "text": "FARO armchair in anthracite grey, three-quarter view"
+     },
+     {
+      "file": "FAR07_ANT_front.jpg",
+      "text": "FARO armchair in anthracite grey, front view"
+     },
+     {
+      "file": "FAR07_AZU_34.jpg",
+      "text": "FARO armchair in blue, three-quarter view"
+     },
+     {
+      "file": "FAR07_AZU_front.jpg",
+      "text": "FARO armchair in blue, front view"
+     },
+     {
+      "file": "FAR07_CIN_34.jpg",
+      "text": "FARO armchair in grey, three-quarter view"
+     },
+     {
+      "file": "FAR07_CIN_front.jpg",
+      "text": "FARO armchair in grey, front view"
+     },
+     {
+      "file": "FAR07_ANT_side.jpg",
+      "text": "FARO armchair in anthracite grey, side view"
+     },
+     {
+      "file": "FAR07_AZU_detail.jpg",
+      "text": "Detailed view of the FARO armchair in blue"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Fauteuil FARO de Móveis Lusa",
+    "bullets": [
+     "Dimensions : 70 cm de largeur, 71 cm de profondeur, 83 cm de hauteur",
+     "Hauteur d'assise : 45 cm ; profondeur d'assise : 43 cm",
+     "Pieds en hêtre massif avec teinture noyer",
+     "Revêtement en tissu tissé 100 % polyester",
+     "Housse amovible lavable à 30 °C",
+     "Capacité de charge maximale : 120 kg"
+    ],
+    "description": "Le fauteuil FARO de Móveis Lusa est fabriqué au Portugal. Il dispose d'un revêtement en tissu tissé 100 % polyester et de pieds en hêtre massif avec une teinture noyer.",
+    "colours": [
+     {
+      "code": "FAR-07-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "FAR-07-AZU",
+      "name": "Bleu"
+     },
+     {
+      "code": "FAR-07-CIN",
+      "name": "Gris"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "FAR07_ANT_34.jpg",
+      "text": "Fauteuil FARO en gris anthracite, vue de trois quarts"
+     },
+     {
+      "file": "FAR07_ANT_front.jpg",
+      "text": "Fauteuil FARO en gris anthracite, vue de face"
+     },
+     {
+      "file": "FAR07_AZU_34.jpg",
+      "text": "Fauteuil FARO en bleu, vue de trois quarts"
+     },
+     {
+      "file": "FAR07_AZU_front.jpg",
+      "text": "Fauteuil FARO en bleu, vue de face"
+     },
+     {
+      "file": "FAR07_CIN_34.jpg",
+      "text": "Fauteuil FARO en gris, vue de trois quarts"
+     },
+     {
+      "file": "FAR07_CIN_front.jpg",
+      "text": "Fauteuil FARO en gris, vue de face"
+     },
+     {
+      "file": "FAR07_ANT_side.jpg",
+      "text": "Fauteuil FARO en gris anthracite, vue de profil"
+     },
+     {
+      "file": "FAR07_AZU_detail.jpg",
+      "text": "Vue détaillée du fauteuil FARO en bleu"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Poltrona Móveis Lusa FARO",
+    "bullets": [
+     "Dimensões: 70 cm de largura, 71 cm de profundidade, 83 cm de altura",
+     "Altura do assento: 45 cm; profundidade do assento: 43 cm",
+     "Pernas em faia maciça com acabamento em nogueira",
+     "Estofos em tecido tecido 100% poliéster",
+     "Capa removível lavável a 30 °C",
+     "Capacidade de carga máxima: 120 kg"
+    ],
+    "description": "A poltrona FARO da Móveis Lusa é fabricada em Portugal. Apresenta estofos em tecido 100% poliéster e pernas em faia maciça com acabamento em nogueira.",
+    "colours": [
+     {
+      "code": "FAR-07-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "FAR-07-AZU",
+      "name": "Azul"
+     },
+     {
+      "code": "FAR-07-CIN",
+      "name": "Cinzento"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "FAR07_ANT_34.jpg",
+      "text": "Poltrona FARO em cinzento antracite, vista de três quartos"
+     },
+     {
+      "file": "FAR07_ANT_front.jpg",
+      "text": "Poltrona FARO em cinzento antracite, vista frontal"
+     },
+     {
+      "file": "FAR07_AZU_34.jpg",
+      "text": "Poltrona FARO em azul, vista de três quartos"
+     },
+     {
+      "file": "FAR07_AZU_front.jpg",
+      "text": "Poltrona FARO em azul, vista frontal"
+     },
+     {
+      "file": "FAR07_CIN_34.jpg",
+      "text": "Poltrona FARO em cinzento, vista de três quartos"
+     },
+     {
+      "file": "FAR07_CIN_front.jpg",
+      "text": "Poltrona FARO em cinzento, vista frontal"
+     },
+     {
+      "file": "FAR07_ANT_side.jpg",
+      "text": "Poltrona FARO em cinzento antracite, vista lateral"
+     },
+     {
+      "file": "FAR07_AZU_detail.jpg",
+      "text": "Vista detalhada da poltrona FARO em azul"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Fotel Móveis Lusa FARO",
+    "bullets": [
+     "Wymiary: 70 cm szerokości, 71 cm głębokości, 83 cm wysokości",
+     "Wysokość siedziska: 45 cm; głębokość siedziska: 43 cm",
+     "Nogi z litego buka bejcowane na kolor orzecha",
+     "Obicie z tkanej tkaniny 100% poliester",
+     "Zdejmijna pokrowa nadająca się do prania w 30 °C",
+     "Maksymalne obciążenie: 120 kg"
+    ],
+    "description": "Fotel FARO marki Móveis Lusa został wykonany w Portugalii. Charakteryzuje się obiciem z tkanej tkaniny 100% poliester oraz nogami z litego buka bejcowanego na kolor orzecha.",
+    "colours": [
+     {
+      "code": "FAR-07-ANT",
+      "name": "Antracytowy"
+     },
+     {
+      "code": "FAR-07-AZU",
+      "name": "Niebieski"
+     },
+     {
+      "code": "FAR-07-CIN",
+      "name": "Szary"
+     }
+    ],
+    "safety_warnings": [
+     "Produkt nieprzeznaczony do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "FAR07_ANT_34.jpg",
+      "text": "Fotel FARO w kolorze antracytowym, widok z trzech czwartych"
+     },
+     {
+      "file": "FAR07_ANT_front.jpg",
+      "text": "Fotel FARO w kolorze antracytowym, widok z przodu"
+     },
+     {
+      "file": "FAR07_AZU_34.jpg",
+      "text": "Fotel FARO w kolorze niebieskim, widok z trzech czwartych"
+     },
+     {
+      "file": "FAR07_AZU_front.jpg",
+      "text": "Fotel FARO w kolorze niebieskim, widok z przodu"
+     },
+     {
+      "file": "FAR07_CIN_34.jpg",
+      "text": "Fotel FARO w kolorze szarym, widok z trzech czwartych"
+     },
+     {
+      "file": "FAR07_CIN_front.jpg",
+      "text": "Fotel FARO w kolorze szarym, widok z przodu"
+     },
+     {
+      "file": "FAR07_ANT_side.jpg",
+      "text": "Fotel FARO w kolorze antracytowym, widok z boku"
+     },
+     {
+      "file": "FAR07_AZU_detail.jpg",
+      "text": "Zbliżenie na detale fotela FARO w kolorze niebieskim"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Крісло Móveis Lusa FARO",
+    "bullets": [
+     "Розміри: ширина 70 см, глибина 71 см, висота 83 см",
+     "Висота сидіння: 45 см; глибина сидіння: 43 см",
+     "Ніжки з масиву бука з морілкою кольору горіха",
+     "Оббивка зі 100% поліестерової тканини",
+     "Знімний чохол, що переється при 30 °C",
+     "Максимальне навантаження: 120 кг"
+    ],
+    "description": "Крісло FARO від Móveis Lusa виготовлено в Португалії. Воно має оббивку зі 100% поліестерової тканини та ніжки з масиву бука з морілкою кольору горіха.",
+    "colours": [
+     {
+      "code": "FAR-07-ANT",
+      "name": "Антрацитовий"
+     },
+     {
+      "code": "FAR-07-AZU",
+      "name": "Синій"
+     },
+     {
+      "code": "FAR-07-CIN",
+      "name": "Сірий"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "FAR07_ANT_34.jpg",
+      "text": "Крісло FARO в антрацитово-сірому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "FAR07_ANT_front.jpg",
+      "text": "Крісло FARO в антрацитово-сірому кольорі, вигляд спереду"
+     },
+     {
+      "file": "FAR07_AZU_34.jpg",
+      "text": "Крісло FARO в синьому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "FAR07_AZU_front.jpg",
+      "text": "Крісло FARO в синьому кольорі, вигляд спереду"
+     },
+     {
+      "file": "FAR07_CIN_34.jpg",
+      "text": "Крісло FARO в сірому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "FAR07_CIN_front.jpg",
+      "text": "Крісло FARO в сірому кольорі, вигляд спереду"
+     },
+     {
+      "file": "FAR07_ANT_side.jpg",
+      "text": "Крісло FARO в антрацитово-сірому кольорі, вигляд збоку"
+     },
+     {
+      "file": "FAR07_AZU_detail.jpg",
+      "text": "Детальний вигляд крісла FARO в синьому кольорі"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa FARO Armchair",
+    "bullets": [
+     "Dimensions: width 70 cm, depth 71 cm, height 83 cm",
+     "Seat height: 45 cm; seat depth: 43 cm",
+     "Solid beech legs with walnut color stain",
+     "Upholstery made of 100% polyester fabric",
+     "Removable cover, washable at 30 °C",
+     "Maximum load: 120 kg"
+    ],
+    "description": "The FARO armchair from Móveis Lusa is made in Portugal. It features upholstery made of 100% polyester fabric and solid beech legs with walnut color stain.",
+    "colours": [
+     {
+      "code": "FAR-07-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "FAR-07-AZU",
+      "name": "Blue"
+     },
+     {
+      "code": "FAR-07-CIN",
+      "name": "Grey"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "FAR07_ANT_34.jpg",
+      "text": "FARO armchair in anthracite-grey color, three-quarter view"
+     },
+     {
+      "file": "FAR07_ANT_front.jpg",
+      "text": "FARO armchair in anthracite-grey color, front view"
+     },
+     {
+      "file": "FAR07_AZU_34.jpg",
+      "text": "FARO armchair in blue color, three-quarter view"
+     },
+     {
+      "file": "FAR07_AZU_front.jpg",
+      "text": "FARO armchair in blue color, front view"
+     },
+     {
+      "file": "FAR07_CIN_34.jpg",
+      "text": "FARO armchair in grey color, three-quarter view"
+     },
+     {
+      "file": "FAR07_CIN_front.jpg",
+      "text": "FARO armchair in grey color, front view"
+     },
+     {
+      "file": "FAR07_ANT_side.jpg",
+      "text": "FARO armchair in anthracite-grey color, side view"
+     },
+     {
+      "file": "FAR07_AZU_detail.jpg",
+      "text": "Detailed view of the FARO armchair in blue color"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

@@ -1,0 +1,95 @@
+{
+ "item_id": "B086VZJYKP",
+ "photos": {
+  "71oz5AZdNhL": {
+   "role": "packshot",
+   "product_type": "recliner chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71oPgHkg8gL": {
+   "role": "packshot",
+   "product_type": "recliner chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "716fkj9nx2L": {
+   "role": "packshot",
+   "product_type": "recliner chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      856,
+      378,
+      888,
+      408
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      856,
+      588,
+      888,
+      618
+     ]
+    }
+   ]
+  },
+  "71+nE-IFFiL": {
+   "role": "packshot",
+   "product_type": "recliner chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      768,
+      501,
+      890,
+      703
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

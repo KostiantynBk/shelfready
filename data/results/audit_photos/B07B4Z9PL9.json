@@ -1,0 +1,163 @@
+{
+ "item_id": "B07B4Z9PL9",
+ "photos": {
+  "61nYNW3KzZL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      896,
+      339,
+      987,
+      513
+     ]
+    }
+   ]
+  },
+  "91z36Az-LGL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [
+    "KINFOLK",
+    "diptyque"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      663,
+      56,
+      723,
+      91
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      643,
+      0,
+      692,
+      48
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      702,
+      326,
+      723,
+      408
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      572,
+      548,
+      585,
+      581
+     ]
+    }
+   ]
+  },
+  "71YzKy3hTRL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      894,
+      304,
+      991,
+      475
+     ]
+    }
+   ]
+  },
+  "91DPiWA1xyL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "metal",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      845,
+      136,
+      905,
+      184
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      882,
+      342,
+      965,
+      427
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      852,
+      782,
+      932,
+      848
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      912,
+      61,
+      976,
+      216
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

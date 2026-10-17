@@ -1,0 +1,854 @@
+{
+ "product_id": "SYN-02",
+ "decisions": {},
+ "facts": {
+  "product_name": "Poltrona COMO / COMO armchair",
+  "model": "COMO",
+  "brand": "Ningbo Brightway Home Co.",
+  "width_cm": 104,
+  "depth_cm": 104,
+  "height_cm": 81,
+  "seat_height_cm": 44,
+  "seat_depth_cm": 62,
+  "max_load_kg": 120,
+  "weight_kg": 44.5,
+  "product_type": "Poltrona / Armchair",
+  "upholstery": "Pelle pieno fiore / top-grain leather",
+  "care": "Pulire con panno umido / wipe with a damp cloth",
+  "country_of_origin": "China",
+  "safety_warnings": [
+   "Non utilizzare all'aperto",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "COM-02-COG",
+    "colour_name": "Cognac"
+   },
+   {
+    "code": "COM-02-SAB",
+    "colour_name": "Sabbia"
+   },
+   {
+    "code": "COM-02-NER",
+    "colour_name": "Nero"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "legs_or_base",
+   "variant": null,
+   "reason": "Legs: spec says metal, photos show wood",
+   "issue": "D6::legs_or_base:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "eu_responsible_person",
+   "variant": null,
+   "reason": "Non-EU manufacturer without an EU responsible person",
+   "issue": "D13::eu_responsible_person:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "COMO_COG_01.jpg",
+   "variant": "COM-02-COG",
+   "view": "packshot",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "COMO_COG_02.jpg",
+   "variant": "COM-02-COG",
+   "view": "packshot",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "COMO_NER_01.jpg",
+   "variant": "COM-02-NER",
+   "view": "packshot",
+   "colour_seen": "black"
+  },
+  {
+   "file": "COMO_NER_02.jpg",
+   "variant": "COM-02-NER",
+   "view": "lifestyle",
+   "colour_seen": "black"
+  },
+  {
+   "file": "COMO_NER_04.jpg",
+   "variant": "COM-02-NER",
+   "view": "detail",
+   "colour_seen": "black"
+  },
+  {
+   "file": "COMO_SAB_01.jpg",
+   "variant": "COM-02-SAB",
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "COMO_SAB_02.jpg",
+   "variant": "COM-02-SAB",
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "COMO_SAB_03.jpg",
+   "variant": "COM-02-SAB",
+   "view": "detail",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Ningbo Brightway Home Co.",
+  "COMO",
+  "COM-02-COG",
+  "COM-02-SAB",
+  "COM-02-NER"
+ ],
+ "en": {
+  "title": "COMO Armchair by Ningbo Brightway Home Co.",
+  "bullets": [
+   "Upholstery made from top-grain leather",
+   "Dimensions: 104 cm width, 104 cm depth, 81 cm height",
+   "Seat height: 44 cm; seat depth: 62 cm",
+   "Maximum load capacity: 120 kg",
+   "Weight: 44.5 kg"
+  ],
+  "description": "The COMO armchair by Ningbo Brightway Home Co. is upholstered in top-grain leather. This piece can be maintained by wiping with a damp cloth.",
+  "colours": [
+   {
+    "code": "COM-02-COG",
+    "name": "Cognac"
+   },
+   {
+    "code": "COM-02-SAB",
+    "name": "Sand"
+   },
+   {
+    "code": "COM-02-NER",
+    "name": "Black"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "COMO_COG_01.jpg",
+    "text": "COMO armchair in brown, packshot view"
+   },
+   {
+    "file": "COMO_COG_02.jpg",
+    "text": "COMO armchair in brown, packshot view"
+   },
+   {
+    "file": "COMO_NER_01.jpg",
+    "text": "COMO armchair in black, packshot view"
+   },
+   {
+    "file": "COMO_NER_02.jpg",
+    "text": "COMO armchair in black, lifestyle view"
+   },
+   {
+    "file": "COMO_NER_04.jpg",
+    "text": "COMO armchair in black, detail view"
+   },
+   {
+    "file": "COMO_SAB_01.jpg",
+    "text": "COMO armchair in beige, packshot view"
+   },
+   {
+    "file": "COMO_SAB_02.jpg",
+    "text": "COMO armchair in beige, packshot view"
+   },
+   {
+    "file": "COMO_SAB_03.jpg",
+    "text": "COMO armchair in beige, detail view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sillón COMO de Ningbo Brightway Home Co.",
+    "bullets": [
+     "Tapicería fabricada en cuero de grano superior",
+     "Dimensiones: 104 cm de ancho, 104 cm de profundidad, 81 cm de altura",
+     "Altura del asiento: 44 cm; profundidad del asiento: 62 cm",
+     "Capacidad de carga máxima: 120 kg",
+     "Peso: 44.5 kg"
+    ],
+    "description": "El sillón COMO de Ningbo Brightway Home Co. está tapizado en cuero de grano superior. Esta pieza se puede mantener limpiándola con un paño húmedo.",
+    "colours": [
+     {
+      "code": "COM-02-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "COM-02-SAB",
+      "name": "Arena"
+     },
+     {
+      "code": "COM-02-NER",
+      "name": "Negro"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso en exteriores.",
+     "Mantener alejado de fuentes de calor.",
+     "No pararse sobre el asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "COMO_COG_01.jpg",
+      "text": "Sillón COMO en marrón, vista de producto"
+     },
+     {
+      "file": "COMO_COG_02.jpg",
+      "text": "Sillón COMO en marrón, vista de producto"
+     },
+     {
+      "file": "COMO_NER_01.jpg",
+      "text": "Sillón COMO en negro, vista de producto"
+     },
+     {
+      "file": "COMO_NER_02.jpg",
+      "text": "Sillón COMO en negro, vista de ambiente"
+     },
+     {
+      "file": "COMO_NER_04.jpg",
+      "text": "Sillón COMO en negro, vista de detalle"
+     },
+     {
+      "file": "COMO_SAB_01.jpg",
+      "text": "Sillón COMO en beige, vista de producto"
+     },
+     {
+      "file": "COMO_SAB_02.jpg",
+      "text": "Sillón COMO en beige, vista de producto"
+     },
+     {
+      "file": "COMO_SAB_03.jpg",
+      "text": "Sillón COMO en beige, vista de detalle"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Poltrona COMO di Ningbo Brightway Home Co.",
+    "bullets": [
+     "Rivestimento in pelle pieno fiore",
+     "Dimensioni: 104 cm di larghezza, 104 cm di profondità, 81 cm di altezza",
+     "Altezza seduta: 44 cm; profondità seduta: 62 cm",
+     "Capacità di carico massima: 120 kg",
+     "Peso: 44.5 kg"
+    ],
+    "description": "La poltrona COMO di Ningbo Brightway Home Co. è rivestita in pelle pieno fiore. Questo complemento d'arredo può essere pulito passandovi un panno umido.",
+    "colours": [
+     {
+      "code": "COM-02-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "COM-02-SAB",
+      "name": "Sabbia"
+     },
+     {
+      "code": "COM-02-NER",
+      "name": "Nero"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sulla seduta."
+    ],
+    "alt_texts": [
+     {
+      "file": "COMO_COG_01.jpg",
+      "text": "Poltrona COMO in marrone, vista prodotto"
+     },
+     {
+      "file": "COMO_COG_02.jpg",
+      "text": "Poltrona COMO in marrone, vista prodotto"
+     },
+     {
+      "file": "COMO_NER_01.jpg",
+      "text": "Poltrona COMO in nero, vista prodotto"
+     },
+     {
+      "file": "COMO_NER_02.jpg",
+      "text": "Poltrona COMO in nero, vista d'ambiente"
+     },
+     {
+      "file": "COMO_NER_04.jpg",
+      "text": "Poltrona COMO in nero, vista dettaglio"
+     },
+     {
+      "file": "COMO_SAB_01.jpg",
+      "text": "Poltrona COMO in beige, vista prodotto"
+     },
+     {
+      "file": "COMO_SAB_02.jpg",
+      "text": "Poltrona COMO in beige, vista prodotto"
+     },
+     {
+      "file": "COMO_SAB_03.jpg",
+      "text": "Poltrona COMO in beige, vista dettaglio"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "COMO Sessel von Ningbo Brightway Home Co.",
+    "bullets": [
+     "Bezug aus hochwertigem Vollleder",
+     "Maße: 104 cm Breite, 104 cm Tiefe, 81 cm Höhe",
+     "Sitzhöhe: 44 cm; Sitztiefe: 62 cm",
+     "Maximale Belastbarkeit: 120 kg",
+     "Gewicht: 44.5 kg"
+    ],
+    "description": "Der COMO Sessel von Ningbo Brightway Home Co. ist mit Vollleder bezogen. Dieses Möbelstück kann durch Abwischen mit einem feuchten Tuch gepflegt werden.",
+    "colours": [
+     {
+      "code": "COM-02-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "COM-02-SAB",
+      "name": "Sand"
+     },
+     {
+      "code": "COM-02-NER",
+      "name": "Schwarz"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "COMO_COG_01.jpg",
+      "text": "COMO Sessel in Braun, Produktansicht"
+     },
+     {
+      "file": "COMO_COG_02.jpg",
+      "text": "COMO Sessel in Braun, Produktansicht"
+     },
+     {
+      "file": "COMO_NER_01.jpg",
+      "text": "COMO Sessel in Schwarz, Produktansicht"
+     },
+     {
+      "file": "COMO_NER_02.jpg",
+      "text": "COMO Sessel in Schwarz, Lifestyle-Ansicht"
+     },
+     {
+      "file": "COMO_NER_04.jpg",
+      "text": "COMO Sessel in Schwarz, Detailansicht"
+     },
+     {
+      "file": "COMO_SAB_01.jpg",
+      "text": "COMO Sessel in Beige, Produktansicht"
+     },
+     {
+      "file": "COMO_SAB_02.jpg",
+      "text": "COMO Sessel in Beige, Produktansicht"
+     },
+     {
+      "file": "COMO_SAB_03.jpg",
+      "text": "COMO Sessel in Beige, Detailansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "COMO Armchair by Ningbo Brightway Home Co.",
+    "bullets": [
+     "Cover made of high-quality full leather",
+     "Dimensions: 104 cm width, 104 cm depth, 81 cm height",
+     "Seat height: 44 cm; Seat depth: 62 cm",
+     "Maximum load capacity: 120 kg",
+     "Weight: 44.5 kg"
+    ],
+    "description": "The COMO armchair from Ningbo Brightway Home Co. is covered in full leather. This piece of furniture can be maintained by wiping with a damp cloth.",
+    "colours": [
+     {
+      "code": "COM-02-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "COM-02-SAB",
+      "name": "Sand"
+     },
+     {
+      "code": "COM-02-NER",
+      "name": "Black"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "COMO_COG_01.jpg",
+      "text": "COMO armchair in brown, product view"
+     },
+     {
+      "file": "COMO_COG_02.jpg",
+      "text": "COMO armchair in brown, product view"
+     },
+     {
+      "file": "COMO_NER_01.jpg",
+      "text": "COMO armchair in black, product view"
+     },
+     {
+      "file": "COMO_NER_02.jpg",
+      "text": "COMO armchair in black, lifestyle view"
+     },
+     {
+      "file": "COMO_NER_04.jpg",
+      "text": "COMO armchair in black, detail view"
+     },
+     {
+      "file": "COMO_SAB_01.jpg",
+      "text": "COMO armchair in beige, product view"
+     },
+     {
+      "file": "COMO_SAB_02.jpg",
+      "text": "COMO armchair in beige, product view"
+     },
+     {
+      "file": "COMO_SAB_03.jpg",
+      "text": "COMO armchair in beige, detail view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Fauteuil COMO par Ningbo Brightway Home Co.",
+    "bullets": [
+     "Revêtement en cuir pleine fleur",
+     "Dimensions : 104 cm de largeur, 104 cm de profondeur, 81 cm de hauteur",
+     "Hauteur d'assise : 44 cm ; profondeur d'assise : 62 cm",
+     "Capacité de charge maximale : 120 kg",
+     "Poids : 44.5 kg"
+    ],
+    "description": "Le fauteuil COMO par Ningbo Brightway Home Co. est revêtu de cuir pleine fleur. Ce meuble s'entretient en le nettoyant avec un chiffon humide.",
+    "colours": [
+     {
+      "code": "COM-02-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "COM-02-SAB",
+      "name": "Sable"
+     },
+     {
+      "code": "COM-02-NER",
+      "name": "Noir"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "COMO_COG_01.jpg",
+      "text": "Fauteuil COMO en marron, vue packshot"
+     },
+     {
+      "file": "COMO_COG_02.jpg",
+      "text": "Fauteuil COMO en marron, vue packshot"
+     },
+     {
+      "file": "COMO_NER_01.jpg",
+      "text": "Fauteuil COMO en noir, vue packshot"
+     },
+     {
+      "file": "COMO_NER_02.jpg",
+      "text": "Fauteuil COMO en noir, vue d'ambiance"
+     },
+     {
+      "file": "COMO_NER_04.jpg",
+      "text": "Fauteuil COMO en noir, vue détaillée"
+     },
+     {
+      "file": "COMO_SAB_01.jpg",
+      "text": "Fauteuil COMO en beige, vue packshot"
+     },
+     {
+      "file": "COMO_SAB_02.jpg",
+      "text": "Fauteuil COMO en beige, vue packshot"
+     },
+     {
+      "file": "COMO_SAB_03.jpg",
+      "text": "Fauteuil COMO en beige, vue détaillée"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Poltrona COMO da Ningbo Brightway Home Co.",
+    "bullets": [
+     "Estofos em pele de flor",
+     "Dimensões: 104 cm de largura, 104 cm de profundidade, 81 cm de altura",
+     "Altura do assento: 44 cm; profundidade do assento: 62 cm",
+     "Capacidade de carga máxima: 120 kg",
+     "Peso: 44.5 kg"
+    ],
+    "description": "A poltrona COMO da Ningbo Brightway Home Co. é estofada em pele de flor. Esta peça pode ser mantida limpando-a com um pano húmido.",
+    "colours": [
+     {
+      "code": "COM-02-COG",
+      "name": "Conhaque"
+     },
+     {
+      "code": "COM-02-SAB",
+      "name": "Areia"
+     },
+     {
+      "code": "COM-02-NER",
+      "name": "Preto"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "COMO_COG_01.jpg",
+      "text": "Poltrona COMO em castanho, vista de catálogo"
+     },
+     {
+      "file": "COMO_COG_02.jpg",
+      "text": "Poltrona COMO em castanho, vista de catálogo"
+     },
+     {
+      "file": "COMO_NER_01.jpg",
+      "text": "Poltrona COMO em preto, vista de catálogo"
+     },
+     {
+      "file": "COMO_NER_02.jpg",
+      "text": "Poltrona COMO em preto, vista de ambiente"
+     },
+     {
+      "file": "COMO_NER_04.jpg",
+      "text": "Poltrona COMO em preto, vista de detalhe"
+     },
+     {
+      "file": "COMO_SAB_01.jpg",
+      "text": "Poltrona COMO em bege, vista de catálogo"
+     },
+     {
+      "file": "COMO_SAB_02.jpg",
+      "text": "Poltrona COMO em bege, vista de catálogo"
+     },
+     {
+      "file": "COMO_SAB_03.jpg",
+      "text": "Poltrona COMO em bege, vista de detalhe"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Fotel COMO od Ningbo Brightway Home Co.",
+    "bullets": [
+     "Obicie wykonane z licowej skóry naturalnej",
+     "Wymiary: 104 cm szerokości, 104 cm głębokości, 81 cm wysokości",
+     "Wysokość siedziska: 44 cm; głębokość siedziska: 62 cm",
+     "Maksymalne obciążenie: 120 kg",
+     "Waga: 44.5 kg"
+    ],
+    "description": "Fotel COMO od Ningbo Brightway Home Co. jest obity licową skórą naturalną. Mebel ten można konserwować, przecierając go wilgotną szmatką.",
+    "colours": [
+     {
+      "code": "COM-02-COG",
+      "name": "Koniakowy"
+     },
+     {
+      "code": "COM-02-SAB",
+      "name": "Piaskowy"
+     },
+     {
+      "code": "COM-02-NER",
+      "name": "Czarny"
+     }
+    ],
+    "safety_warnings": [
+     "Produkt nieprzeznaczony do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "COMO_COG_01.jpg",
+      "text": "Fotel COMO w kolorze brązowym, widok produktowy"
+     },
+     {
+      "file": "COMO_COG_02.jpg",
+      "text": "Fotel COMO w kolorze brązowym, widok produktowy"
+     },
+     {
+      "file": "COMO_NER_01.jpg",
+      "text": "Fotel COMO w kolorze czarnym, widok produktowy"
+     },
+     {
+      "file": "COMO_NER_02.jpg",
+      "text": "Fotel COMO w kolorze czarnym, widok w aranżacji"
+     },
+     {
+      "file": "COMO_NER_04.jpg",
+      "text": "Fotel COMO w kolorze czarnym, widok szczegółowy"
+     },
+     {
+      "file": "COMO_SAB_01.jpg",
+      "text": "Fotel COMO w kolorze beżowym, widok produktowy"
+     },
+     {
+      "file": "COMO_SAB_02.jpg",
+      "text": "Fotel COMO w kolorze beżowym, widok produktowy"
+     },
+     {
+      "file": "COMO_SAB_03.jpg",
+      "text": "Fotel COMO w kolorze beżowym, widok szczegółowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Крісло COMO від Ningbo Brightway Home Co.",
+    "bullets": [
+     "Оббивка з натуральної шкіри верхнього шару",
+     "Розміри: ширина 104 см, глибина 104 см, висота 81 см",
+     "Висота сидіння: 44 см; глибина сидіння: 62 см",
+     "Максимальне навантаження: 120 кг",
+     "Вага: 44.5 кг"
+    ],
+    "description": "Крісло COMO від Ningbo Brightway Home Co. оббите натуральною шкірою верхнього шару. Догляд за виробом здійснюється за допомогою протирання вологою тканиною.",
+    "colours": [
+     {
+      "code": "COM-02-COG",
+      "name": "Коньячний"
+     },
+     {
+      "code": "COM-02-SAB",
+      "name": "Пісочний"
+     },
+     {
+      "code": "COM-02-NER",
+      "name": "Чорний"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "COMO_COG_01.jpg",
+      "text": "Крісло COMO коричневого кольору, вигляд на білому фоні"
+     },
+     {
+      "file": "COMO_COG_02.jpg",
+      "text": "Крісло COMO коричневого кольору, вигляд на білому фоні"
+     },
+     {
+      "file": "COMO_NER_01.jpg",
+      "text": "Крісло COMO чорного кольору, вигляд на білому фоні"
+     },
+     {
+      "file": "COMO_NER_02.jpg",
+      "text": "Крісло COMO чорного кольору, в інтер'єрі"
+     },
+     {
+      "file": "COMO_NER_04.jpg",
+      "text": "Крісло COMO чорного кольору, детальний вигляд"
+     },
+     {
+      "file": "COMO_SAB_01.jpg",
+      "text": "Крісло COMO бежевого кольору, вигляд на білому фоні"
+     },
+     {
+      "file": "COMO_SAB_02.jpg",
+      "text": "Крісло COMO бежевого кольору, вигляд на білому фоні"
+     },
+     {
+      "file": "COMO_SAB_03.jpg",
+      "text": "Крісло COMO бежевого кольору, детальний вигляд"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "COMO Armchair by Ningbo Brightway Home Co.",
+    "bullets": [
+     "Top grain natural leather upholstery",
+     "Dimensions: width 104 cm, depth 104 cm, height 81 cm",
+     "Seat height: 44 cm; seat depth: 62 cm",
+     "Maximum load: 120 kg",
+     "Weight: 44.5 kg"
+    ],
+    "description": "The COMO armchair by Ningbo Brightway Home Co. is upholstered in top grain natural leather. Product care is performed by wiping with a damp cloth.",
+    "colours": [
+     {
+      "code": "COM-02-COG",
+      "name": "Cognac"
+     },
+     {
+      "code": "COM-02-SAB",
+      "name": "Sand"
+     },
+     {
+      "code": "COM-02-NER",
+      "name": "Black"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "COMO_COG_01.jpg",
+      "text": "COMO armchair in brown, view on white background"
+     },
+     {
+      "file": "COMO_COG_02.jpg",
+      "text": "COMO armchair in brown, view on white background"
+     },
+     {
+      "file": "COMO_NER_01.jpg",
+      "text": "COMO armchair in black, view on white background"
+     },
+     {
+      "file": "COMO_NER_02.jpg",
+      "text": "COMO armchair in black, in interior"
+     },
+     {
+      "file": "COMO_NER_04.jpg",
+      "text": "COMO armchair in black, detailed view"
+     },
+     {
+      "file": "COMO_SAB_01.jpg",
+      "text": "COMO armchair in beige, view on white background"
+     },
+     {
+      "file": "COMO_SAB_02.jpg",
+      "text": "COMO armchair in beige, view on white background"
+     },
+     {
+      "file": "COMO_SAB_03.jpg",
+      "text": "COMO armchair in beige, detailed view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

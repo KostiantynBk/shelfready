@@ -1,0 +1,689 @@
+{
+ "product_id": "SYN-15",
+ "decisions": {},
+ "facts": {
+  "product_name": "MOSEL",
+  "model": "MOSEL",
+  "brand": "Ningbo Brightway Home Co.",
+  "width_cm": 39,
+  "depth_cm": 39,
+  "height_cm": 56,
+  "weight_kg": 6.3,
+  "product_type": "Stehleuchte MOSEL / MOSEL floor lamp",
+  "legs_or_base": "Pulverbeschichteter Stahl, schwarz matt / powder-coated steel, matt black",
+  "care": "Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off",
+  "country_of_origin": "China",
+  "safety_warnings": [
+   "Nur Leuchtmittel E27 max. 40 W verwenden.",
+   "Use only E27 bulbs, max. 40 W.",
+   "Vor dem Reinigen vom Netz trennen.",
+   "Disconnect before cleaning.",
+   "Nur für den Innenbereich.",
+   "For indoor use only."
+  ],
+  "variants": [
+   {
+    "code": "MOS-15-SCH",
+    "colour_name": "Schwarz"
+   },
+   {
+    "code": "MOS-15-SIL",
+    "colour_name": "Silber"
+   }
+  ]
+ },
+ "held_back": [],
+ "photos": [
+  {
+   "file": "IMG_4241.JPG",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "black"
+  },
+  {
+   "file": "MOSEL-SCH-1.jpg",
+   "variant": "MOS-15-SCH",
+   "view": "packshot",
+   "colour_seen": "black"
+  },
+  {
+   "file": "MOSEL-SCH-2.jpg",
+   "variant": "MOS-15-SCH",
+   "view": "packshot",
+   "colour_seen": "black"
+  },
+  {
+   "file": "MOSEL-SIL-1.jpg",
+   "variant": "MOS-15-SIL",
+   "view": "packshot",
+   "colour_seen": "silver"
+  },
+  {
+   "file": "MOSEL-SIL-3.jpg",
+   "variant": "MOS-15-SIL",
+   "view": "packshot",
+   "colour_seen": "silver"
+  },
+  {
+   "file": "MOSEL-SIL-4.jpg",
+   "variant": "MOS-15-SIL",
+   "view": "lifestyle",
+   "colour_seen": "grey"
+  }
+ ],
+ "protected": [
+  "Ningbo Brightway Home Co.",
+  "MOSEL",
+  "MOS-15-SCH",
+  "MOS-15-SIL"
+ ],
+ "en": {
+  "title": "Ningbo Brightway Home Co. MOSEL Floor Lamp",
+  "bullets": [
+   "Dimensions: 39 cm width, 39 cm depth, 56 cm height",
+   "Weight: 6.3 kg",
+   "Base made of matt black powder-coated steel",
+   "Compatible with E27 bulbs up to 40 W"
+  ],
+  "description": "The MOSEL floor lamp by Ningbo Brightway Home Co. features a powder-coated steel base in matt black. This indoor lighting fixture measures 56 cm in height and should be cleaned with a dry cloth when switched off.",
+  "colours": [
+   {
+    "code": "MOS-15-SCH",
+    "name": "Black"
+   },
+   {
+    "code": "MOS-15-SIL",
+    "name": "Silver"
+   }
+  ],
+  "safety_warnings": [
+   "Use only E27 bulbs, max. 40 W.",
+   "Disconnect before cleaning.",
+   "For indoor use only."
+  ],
+  "alt_texts": [
+   {
+    "file": "IMG_4241.JPG",
+    "text": "MOSEL floor lamp in black, packshot view"
+   },
+   {
+    "file": "MOSEL-SCH-1.jpg",
+    "text": "MOSEL floor lamp in black, packshot view"
+   },
+   {
+    "file": "MOSEL-SCH-2.jpg",
+    "text": "MOSEL floor lamp in black, packshot view"
+   },
+   {
+    "file": "MOSEL-SIL-1.jpg",
+    "text": "MOSEL floor lamp in silver, packshot view"
+   },
+   {
+    "file": "MOSEL-SIL-3.jpg",
+    "text": "MOSEL floor lamp in silver, packshot view"
+   },
+   {
+    "file": "MOSEL-SIL-4.jpg",
+    "text": "MOSEL floor lamp in grey, lifestyle view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Lámpara de pie MOSEL de Ningbo Brightway Home Co.",
+    "bullets": [
+     "Dimensiones: 39 cm de ancho, 39 cm de profundidad, 56 cm de altura",
+     "Peso: 6.3 kg",
+     "Base de acero con recubrimiento de polvo negro mate",
+     "Compatible con bombillas E27 de hasta 40 W"
+    ],
+    "description": "La lámpara de pie MOSEL de Ningbo Brightway Home Co. cuenta con una base de acero con recubrimiento de polvo en color negro mate. Esta luminaria de interior mide 56 cm de altura y debe limpiarse con un paño seco cuando esté apagada.",
+    "colours": [
+     {
+      "code": "MOS-15-SCH",
+      "name": "Negro"
+     },
+     {
+      "code": "MOS-15-SIL",
+      "name": "Plata"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizar únicamente bombillas E27, máx. 40 W.",
+     "Desconectar antes de limpiar.",
+     "Para uso exclusivo en interiores."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4241.JPG",
+      "text": "Lámpara de pie MOSEL en negro, vista de producto"
+     },
+     {
+      "file": "MOSEL-SCH-1.jpg",
+      "text": "Lámpara de pie MOSEL en negro, vista de producto"
+     },
+     {
+      "file": "MOSEL-SCH-2.jpg",
+      "text": "Lámpara de pie MOSEL en negro, vista de producto"
+     },
+     {
+      "file": "MOSEL-SIL-1.jpg",
+      "text": "Lámpara de pie MOSEL en plata, vista de producto"
+     },
+     {
+      "file": "MOSEL-SIL-3.jpg",
+      "text": "Lámpara de pie MOSEL en plata, vista de producto"
+     },
+     {
+      "file": "MOSEL-SIL-4.jpg",
+      "text": "Lámpara de pie MOSEL en gris, vista de ambiente"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Lampada da terra Ningbo Brightway Home Co. MOSEL",
+    "bullets": [
+     "Dimensioni: 39 cm di larghezza, 39 cm di profondità, 56 cm di altezza",
+     "Peso: 6,3 kg",
+     "Base in acciaio verniciato a polvere nero opaco",
+     "Compatibile con lampadine E27 fino a 40 W"
+    ],
+    "description": "La lampada da terra MOSEL di Ningbo Brightway Home Co. presenta una base in acciaio verniciato a polvere nero opaco. Questo apparecchio di illuminazione per interni misura 56 cm di altezza e deve essere pulito con un panno asciutto quando è spento.",
+    "colours": [
+     {
+      "code": "MOS-15-SCH",
+      "name": "Nero"
+     },
+     {
+      "code": "MOS-15-SIL",
+      "name": "Argento"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizzare solo lampadine E27, max. 40 W.",
+     "Scollegare prima della pulizia.",
+     "Solo per uso interno."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4241.JPG",
+      "text": "Lampada da terra MOSEL in nero, vista prodotto"
+     },
+     {
+      "file": "MOSEL-SCH-1.jpg",
+      "text": "Lampada da terra MOSEL in nero, vista prodotto"
+     },
+     {
+      "file": "MOSEL-SCH-2.jpg",
+      "text": "Lampada da terra MOSEL in nero, vista prodotto"
+     },
+     {
+      "file": "MOSEL-SIL-1.jpg",
+      "text": "Lampada da terra MOSEL in argento, vista prodotto"
+     },
+     {
+      "file": "MOSEL-SIL-3.jpg",
+      "text": "Lampada da terra MOSEL in argento, vista prodotto"
+     },
+     {
+      "file": "MOSEL-SIL-4.jpg",
+      "text": "Lampada da terra MOSEL in grigio, vista ambientata"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Ningbo Brightway Home Co. MOSEL Stehlampe",
+    "bullets": [
+     "Maße: 39 cm Breite, 39 cm Tiefe, 56 cm Höhe",
+     "Gewicht: 6,3 kg",
+     "Fuß aus matt schwarz pulverbeschichtetem Stahl",
+     "Kompatibel mit E27-Leuchtmitteln bis zu 40 W"
+    ],
+    "description": "Die Stehlampe MOSEL von Ningbo Brightway Home Co. verfügt über einen pulverbeschichteten Stahlfuß in Matt Schwarz. Diese Innenleuchte hat eine Höhe von 56 cm und sollte im ausgeschalteten Zustand mit einem trockenen Tuch gereinigt werden.",
+    "colours": [
+     {
+      "code": "MOS-15-SCH",
+      "name": "Schwarz"
+     },
+     {
+      "code": "MOS-15-SIL",
+      "name": "Silber"
+     }
+    ],
+    "safety_warnings": [
+     "Nur E27-Leuchtmittel, max. 40 W verwenden.",
+     "Vor der Reinigung vom Stromnetz trennen.",
+     "Nur für den Innenbereich geeignet."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4241.JPG",
+      "text": "MOSEL Stehlampe in Schwarz, Produktansicht"
+     },
+     {
+      "file": "MOSEL-SCH-1.jpg",
+      "text": "MOSEL Stehlampe in Schwarz, Produktansicht"
+     },
+     {
+      "file": "MOSEL-SCH-2.jpg",
+      "text": "MOSEL Stehlampe in Schwarz, Produktansicht"
+     },
+     {
+      "file": "MOSEL-SIL-1.jpg",
+      "text": "MOSEL Stehlampe in Silber, Produktansicht"
+     },
+     {
+      "file": "MOSEL-SIL-3.jpg",
+      "text": "MOSEL Stehlampe in Silber, Produktansicht"
+     },
+     {
+      "file": "MOSEL-SIL-4.jpg",
+      "text": "MOSEL Stehlampe in Grau, Lifestyle-Ansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Ningbo Brightway Home Co. MOSEL Floor Lamp",
+    "bullets": [
+     "Dimensions: 39 cm width, 39 cm depth, 56 cm height",
+     "Weight: 6.3 kg",
+     "Base made of matte black powder-coated steel",
+     "Compatible with E27 bulbs up to 40 W"
+    ],
+    "description": "The MOSEL floor lamp from Ningbo Brightway Home Co. features a powder-coated steel base in Matte Black. This indoor light has a height of 56 cm and should be cleaned with a dry cloth when switched off.",
+    "colours": [
+     {
+      "code": "MOS-15-SCH",
+      "name": "Black"
+     },
+     {
+      "code": "MOS-15-SIL",
+      "name": "Silver"
+     }
+    ],
+    "safety_warnings": [
+     "Use only E27 bulbs, max. 40 W.",
+     "Disconnect from the mains before cleaning.",
+     "Suitable for indoor use only."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4241.JPG",
+      "text": "MOSEL floor lamp in black, product view"
+     },
+     {
+      "file": "MOSEL-SCH-1.jpg",
+      "text": "MOSEL floor lamp in black, product view"
+     },
+     {
+      "file": "MOSEL-SCH-2.jpg",
+      "text": "MOSEL floor lamp in black, product view"
+     },
+     {
+      "file": "MOSEL-SIL-1.jpg",
+      "text": "MOSEL floor lamp in silver, product view"
+     },
+     {
+      "file": "MOSEL-SIL-3.jpg",
+      "text": "MOSEL floor lamp in silver, product view"
+     },
+     {
+      "file": "MOSEL-SIL-4.jpg",
+      "text": "MOSEL floor lamp in grey, lifestyle view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Lampadaire MOSEL de Ningbo Brightway Home Co.",
+    "bullets": [
+     "Dimensions : 39 cm de largeur, 39 cm de profondeur, 56 cm de hauteur",
+     "Poids : 6,3 kg",
+     "Base en acier avec revêtement par poudre noir mat",
+     "Compatible avec les ampoules E27 jusqu'à 40 W"
+    ],
+    "description": "Le lampadaire MOSEL de Ningbo Brightway Home Co. dispose d'une base en acier avec revêtement par poudre noir mat. Ce luminaire d'intérieur mesure 56 cm de hauteur et doit être nettoyé avec un chiffon sec lorsqu'il est éteint.",
+    "colours": [
+     {
+      "code": "MOS-15-SCH",
+      "name": "Noir"
+     },
+     {
+      "code": "MOS-15-SIL",
+      "name": "Argent"
+     }
+    ],
+    "safety_warnings": [
+     "Utiliser uniquement des ampoules E27, max. 40 W.",
+     "Débrancher avant le nettoyage.",
+     "Pour usage intérieur uniquement."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4241.JPG",
+      "text": "Lampadaire MOSEL en noir, vue produit"
+     },
+     {
+      "file": "MOSEL-SCH-1.jpg",
+      "text": "Lampadaire MOSEL en noir, vue produit"
+     },
+     {
+      "file": "MOSEL-SCH-2.jpg",
+      "text": "Lampadaire MOSEL en noir, vue produit"
+     },
+     {
+      "file": "MOSEL-SIL-1.jpg",
+      "text": "Lampadaire MOSEL en argent, vue produit"
+     },
+     {
+      "file": "MOSEL-SIL-3.jpg",
+      "text": "Lampadaire MOSEL en argent, vue produit"
+     },
+     {
+      "file": "MOSEL-SIL-4.jpg",
+      "text": "Lampadaire MOSEL en gris, vue d'ambiance"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Candeeiro de Pé Ningbo Brightway Home Co. MOSEL",
+    "bullets": [
+     "Dimensões: 39 cm de largura, 39 cm de profundidade, 56 cm de altura",
+     "Peso: 6.3 kg",
+     "Base em aço com revestimento de pó preto mate",
+     "Compatível com lâmpadas E27 até 40 W"
+    ],
+    "description": "O candeeiro de pé MOSEL da Ningbo Brightway Home Co. apresenta uma base de aço com revestimento de pó em preto mate. Esta luminária de interior tem 56 cm de altura e deve ser limpa com um pano seco quando desligada.",
+    "colours": [
+     {
+      "code": "MOS-15-SCH",
+      "name": "Preto"
+     },
+     {
+      "code": "MOS-15-SIL",
+      "name": "Prateado"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizar apenas lâmpadas E27, máx. 40 W.",
+     "Desligar da corrente antes de limpar.",
+     "Apenas para utilização no interior."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4241.JPG",
+      "text": "Candeeiro de pé MOSEL em preto, vista de produto"
+     },
+     {
+      "file": "MOSEL-SCH-1.jpg",
+      "text": "Candeeiro de pé MOSEL em preto, vista de produto"
+     },
+     {
+      "file": "MOSEL-SCH-2.jpg",
+      "text": "Candeeiro de pé MOSEL em preto, vista de produto"
+     },
+     {
+      "file": "MOSEL-SIL-1.jpg",
+      "text": "Candeeiro de pé MOSEL em prateado, vista de produto"
+     },
+     {
+      "file": "MOSEL-SIL-3.jpg",
+      "text": "Candeeiro de pé MOSEL em prateado, vista de produto"
+     },
+     {
+      "file": "MOSEL-SIL-4.jpg",
+      "text": "Candeeiro de pé MOSEL em cinzento, vista de ambiente"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Lampa podłogowa Ningbo Brightway Home Co. MOSEL",
+    "bullets": [
+     "Wymiary: 39 cm szerokości, 39 cm głębokości, 56 cm wysokości",
+     "Waga: 6.3 kg",
+     "Podstawa wykonana z matowo czarnej stali malowanej proszkowo",
+     "Kompatybilna z żarówkami E27 do 40 W"
+    ],
+    "description": "Lampa podłogowa MOSEL od Ningbo Brightway Home Co. posiada podstawę ze stali malowanej proszkowo w kolorze matowej czerni. Ta lampa do wnętrz ma 56 cm wysokości i powinna być czyszczona suchą szmatką po wyłączeniu.",
+    "colours": [
+     {
+      "code": "MOS-15-SCH",
+      "name": "Czarny"
+     },
+     {
+      "code": "MOS-15-SIL",
+      "name": "Srebrny"
+     }
+    ],
+    "safety_warnings": [
+     "Stosować tylko żarówki E27, max. 40 W.",
+     "Odłączyć z sieci przed czyszczeniem.",
+     "Wyłącznie do użytku wewnątrz pomieszczeń."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4241.JPG",
+      "text": "Czarna lampa podłogowa MOSEL, widok produktowy"
+     },
+     {
+      "file": "MOSEL-SCH-1.jpg",
+      "text": "Czarna lampa podłogowa MOSEL, widok produktowy"
+     },
+     {
+      "file": "MOSEL-SCH-2.jpg",
+      "text": "Czarna lampa podłogowa MOSEL, widok produktowy"
+     },
+     {
+      "file": "MOSEL-SIL-1.jpg",
+      "text": "Srebrna lampa podłogowa MOSEL, widok produktowy"
+     },
+     {
+      "file": "MOSEL-SIL-3.jpg",
+      "text": "Srebrna lampa podłogowa MOSEL, widok produktowy"
+     },
+     {
+      "file": "MOSEL-SIL-4.jpg",
+      "text": "Szara lampa podłogowa MOSEL, widok w aranżacji"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Підлоговий світильник Ningbo Brightway Home Co. MOSEL",
+    "bullets": [
+     "Розміри: ширина 39 см, глибина 39 см, висота 56 см",
+     "Вага: 6.3 кг",
+     "Основа виготовлена зі сталі з матовим чорним порошковим покриттям",
+     "Сумісний з лампами E27 потужністю до 40 Вт"
+    ],
+    "description": "Підлоговий світильник MOSEL від Ningbo Brightway Home Co. має сталеву основу з матовим чорним порошковим покриттям. Цей світильник для внутрішнього освітлення має висоту 56 см; очищати його слід сухою ганчіркою у вимкненому стані.",
+    "colours": [
+     {
+      "code": "MOS-15-SCH",
+      "name": "Чорний"
+     },
+     {
+      "code": "MOS-15-SIL",
+      "name": "Сріблястий"
+     }
+    ],
+    "safety_warnings": [
+     "Використовуйте лише лампи E27, макс. 40 Вт.",
+     "Від'єднайте від мережі перед очищенням.",
+     "Тільки для внутрішнього використання."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4241.JPG",
+      "text": "Підлоговий світильник MOSEL у чорному кольорі, вигляд виробу"
+     },
+     {
+      "file": "MOSEL-SCH-1.jpg",
+      "text": "Підлоговий світильник MOSEL у чорному кольорі, вигляд виробу"
+     },
+     {
+      "file": "MOSEL-SCH-2.jpg",
+      "text": "Підлоговий світильник MOSEL у чорному кольорі, вигляд виробу"
+     },
+     {
+      "file": "MOSEL-SIL-1.jpg",
+      "text": "Підлоговий світильник MOSEL у сріблястому кольорі, вигляд виробу"
+     },
+     {
+      "file": "MOSEL-SIL-3.jpg",
+      "text": "Підлоговий світильник MOSEL у сріблястому кольорі, вигляд виробу"
+     },
+     {
+      "file": "MOSEL-SIL-4.jpg",
+      "text": "Підлоговий світильник MOSEL у сірому кольорі, інтер'єрний вигляд"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Ningbo Brightway Home Co. MOSEL Floor Lamp",
+    "bullets": [
+     "Dimensions: width 39 cm, depth 39 cm, height 56 cm",
+     "Weight: 6.3 kg",
+     "Base made of steel with a matte black powder coating",
+     "Compatible with E27 bulbs up to 40 W"
+    ],
+    "description": "The MOSEL floor lamp from Ningbo Brightway Home Co. features a steel base with a matte black powder coating. This indoor lighting fixture has a height of 56 cm; it should be cleaned with a dry cloth while switched off.",
+    "colours": [
+     {
+      "code": "MOS-15-SCH",
+      "name": "Black"
+     },
+     {
+      "code": "MOS-15-SIL",
+      "name": "Silver"
+     }
+    ],
+    "safety_warnings": [
+     "Use only E27 bulbs, max 40 W.",
+     "Disconnect from the mains before cleaning.",
+     "For indoor use only."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4241.JPG",
+      "text": "MOSEL floor lamp in black, product view"
+     },
+     {
+      "file": "MOSEL-SCH-1.jpg",
+      "text": "MOSEL floor lamp in black, product view"
+     },
+     {
+      "file": "MOSEL-SCH-2.jpg",
+      "text": "MOSEL floor lamp in black, product view"
+     },
+     {
+      "file": "MOSEL-SIL-1.jpg",
+      "text": "MOSEL floor lamp in silver, product view"
+     },
+     {
+      "file": "MOSEL-SIL-3.jpg",
+      "text": "MOSEL floor lamp in silver, product view"
+     },
+     {
+      "file": "MOSEL-SIL-4.jpg",
+      "text": "MOSEL floor lamp in grey, interior view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

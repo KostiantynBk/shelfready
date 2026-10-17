@@ -1,0 +1,779 @@
+{
+ "product_id": "SYN-19",
+ "decisions": {},
+ "facts": {
+  "product_name": "FULDA",
+  "model": "FULDA",
+  "brand": "Ningbo Brightway Home Co.",
+  "width_cm": 30,
+  "height_cm": 64,
+  "weight_kg": 0.6,
+  "product_type": "Tischleuchte FULDA / FULDA table lamp",
+  "care": "Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off",
+  "country_of_origin": "China",
+  "safety_warnings": [
+   "Nur Leuchtmittel E27 max. 40 W verwenden.",
+   "Use only E27 bulbs, max. 40 W.",
+   "Vor dem Reinigen vom Netz trennen.",
+   "Disconnect before cleaning.",
+   "Nur für den Innenbereich.",
+   "For indoor use only."
+  ],
+  "variants": [
+   {
+    "code": "FUL-19-MOO",
+    "colour_name": "Moosgrün"
+   },
+   {
+    "code": "FUL-19-ANT",
+    "colour_name": "Anthrazit"
+   }
+  ]
+ },
+ "held_back": [],
+ "photos": [
+  {
+   "file": "FULDA-ANT-1.jpg",
+   "variant": "FUL-19-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "FULDA-ANT-2.jpg",
+   "variant": "FUL-19-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "FULDA-ANT-3.jpg",
+   "variant": "FUL-19-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "FULDA-ANT-4.jpg",
+   "variant": "FUL-19-ANT",
+   "view": "packshot",
+   "colour_seen": "white"
+  },
+  {
+   "file": "FULDA-MOO-1.jpg",
+   "variant": "FUL-19-MOO",
+   "view": "packshot",
+   "colour_seen": "green"
+  },
+  {
+   "file": "FULDA-MOO-2.jpg",
+   "variant": "FUL-19-MOO",
+   "view": "packshot",
+   "colour_seen": "green"
+  },
+  {
+   "file": "FULDA-MOO-3.jpg",
+   "variant": "FUL-19-MOO",
+   "view": "detail",
+   "colour_seen": "green"
+  },
+  {
+   "file": "IMG_4639.JPG",
+   "variant": null,
+   "view": "detail",
+   "colour_seen": "green"
+  }
+ ],
+ "protected": [
+  "Ningbo Brightway Home Co.",
+  "FULDA",
+  "FUL-19-MOO",
+  "FUL-19-ANT"
+ ],
+ "en": {
+  "title": "Ningbo Brightway Home Co. FULDA Table Lamp",
+  "bullets": [
+   "Dimensions: 30 cm width and 64 cm height",
+   "Weight: 0.6 kg",
+   "Compatible with E27 bulbs up to 40 W",
+   "Clean with a dry cloth when switched off"
+  ],
+  "description": "The FULDA table lamp by Ningbo Brightway Home Co. is designed for indoor use. This lighting fixture measures 64 cm in height and 30 cm in width.",
+  "colours": [
+   {
+    "code": "FUL-19-MOO",
+    "name": "Moss Green"
+   },
+   {
+    "code": "FUL-19-ANT",
+    "name": "Anthracite"
+   }
+  ],
+  "safety_warnings": [
+   "Use only E27 bulbs, max. 40 W.",
+   "Disconnect before cleaning.",
+   "For indoor use only."
+  ],
+  "alt_texts": [
+   {
+    "file": "FULDA-ANT-1.jpg",
+    "text": "FULDA table lamp in grey, packshot view"
+   },
+   {
+    "file": "FULDA-ANT-2.jpg",
+    "text": "FULDA table lamp in grey, detail view"
+   },
+   {
+    "file": "FULDA-ANT-3.jpg",
+    "text": "FULDA table lamp in grey, detail view"
+   },
+   {
+    "file": "FULDA-ANT-4.jpg",
+    "text": "FULDA table lamp in white, packshot view"
+   },
+   {
+    "file": "FULDA-MOO-1.jpg",
+    "text": "FULDA table lamp in green, packshot view"
+   },
+   {
+    "file": "FULDA-MOO-2.jpg",
+    "text": "FULDA table lamp in green, packshot view"
+   },
+   {
+    "file": "FULDA-MOO-3.jpg",
+    "text": "FULDA table lamp in green, detail view"
+   },
+   {
+    "file": "IMG_4639.JPG",
+    "text": "FULDA table lamp in green, detail view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Lámpara de mesa FULDA de Ningbo Brightway Home Co.",
+    "bullets": [
+     "Dimensiones: 30 cm de ancho y 64 cm de alto",
+     "Peso: 0.6 kg",
+     "Compatible con bombillas E27 de hasta 40 W",
+     "Limpiar con un paño seco cuando esté apagada"
+    ],
+    "description": "La lámpara de mesa FULDA de Ningbo Brightway Home Co. está diseñada para uso interior. Esta luminaria mide 64 cm de altura y 30 cm de ancho.",
+    "colours": [
+     {
+      "code": "FUL-19-MOO",
+      "name": "Verde Musgo"
+     },
+     {
+      "code": "FUL-19-ANT",
+      "name": "Antracita"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizar únicamente bombillas E27, máx. 40 W.",
+     "Desconectar antes de limpiar.",
+     "Para uso interior únicamente."
+    ],
+    "alt_texts": [
+     {
+      "file": "FULDA-ANT-1.jpg",
+      "text": "Lámpara de mesa FULDA en gris, vista de producto"
+     },
+     {
+      "file": "FULDA-ANT-2.jpg",
+      "text": "Lámpara de mesa FULDA en gris, vista de detalle"
+     },
+     {
+      "file": "FULDA-ANT-3.jpg",
+      "text": "Lámpara de mesa FULDA en gris, vista de detalle"
+     },
+     {
+      "file": "FULDA-ANT-4.jpg",
+      "text": "Lámpara de mesa FULDA en blanco, vista de producto"
+     },
+     {
+      "file": "FULDA-MOO-1.jpg",
+      "text": "Lámpara de mesa FULDA en verde, vista de producto"
+     },
+     {
+      "file": "FULDA-MOO-2.jpg",
+      "text": "Lámpara de mesa FULDA en verde, vista de producto"
+     },
+     {
+      "file": "FULDA-MOO-3.jpg",
+      "text": "Lámpara de mesa FULDA en verde, vista de detalle"
+     },
+     {
+      "file": "IMG_4639.JPG",
+      "text": "Lámpara de mesa FULDA en verde, vista de detalle"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Lampada da tavolo FULDA di Ningbo Brightway Home Co.",
+    "bullets": [
+     "Dimensioni: 30 cm di larghezza e 64 cm di altezza",
+     "Peso: 0,6 kg",
+     "Compatibile con lampadine E27 fino a 40 W",
+     "Pulire con un panno asciutto quando è spenta"
+    ],
+    "description": "La lampada da tavolo FULDA di Ningbo Brightway Home Co. è progettata per l'uso interno. Questo apparecchio di illuminazione misura 64 cm di altezza e 30 cm di larghezza.",
+    "colours": [
+     {
+      "code": "FUL-19-MOO",
+      "name": "Verde Muschio"
+     },
+     {
+      "code": "FUL-19-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizzare solo lampadine E27, max. 40 W.",
+     "Scollegare prima della pulizia.",
+     "Solo per uso interno."
+    ],
+    "alt_texts": [
+     {
+      "file": "FULDA-ANT-1.jpg",
+      "text": "Lampada da tavolo FULDA in grigio, vista d'insieme"
+     },
+     {
+      "file": "FULDA-ANT-2.jpg",
+      "text": "Lampada da tavolo FULDA in grigio, vista di dettaglio"
+     },
+     {
+      "file": "FULDA-ANT-3.jpg",
+      "text": "Lampada da tavolo FULDA in grigio, vista di dettaglio"
+     },
+     {
+      "file": "FULDA-ANT-4.jpg",
+      "text": "Lampada da tavolo FULDA in bianco, vista d'insieme"
+     },
+     {
+      "file": "FULDA-MOO-1.jpg",
+      "text": "Lampada da tavolo FULDA in verde, vista d'insieme"
+     },
+     {
+      "file": "FULDA-MOO-2.jpg",
+      "text": "Lampada da tavolo FULDA in verde, vista d'insieme"
+     },
+     {
+      "file": "FULDA-MOO-3.jpg",
+      "text": "Lampada da tavolo FULDA in verde, vista di dettaglio"
+     },
+     {
+      "file": "IMG_4639.JPG",
+      "text": "Lampada da tavolo FULDA in verde, vista di dettaglio"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Ningbo Brightway Home Co. FULDA Tischlampe",
+    "bullets": [
+     "Maße: 30 cm Breite und 64 cm Höhe",
+     "Gewicht: 0,6 kg",
+     "Kompatibel mit E27-Leuchtmitteln bis zu 40 W",
+     "Im ausgeschalteten Zustand mit einem trockenen Tuch reinigen"
+    ],
+    "description": "Die FULDA Tischlampe von Ningbo Brightway Home Co. ist für den Innenbereich konzipiert. Diese Leuchte hat eine Höhe von 64 cm und eine Breite von 30 cm.",
+    "colours": [
+     {
+      "code": "FUL-19-MOO",
+      "name": "Moosgrün"
+     },
+     {
+      "code": "FUL-19-ANT",
+      "name": "Anthrazit"
+     }
+    ],
+    "safety_warnings": [
+     "Nur E27-Leuchtmittel verwenden, max. 40 W.",
+     "Vor der Reinigung vom Stromnetz trennen.",
+     "Nur für den Innenbereich geeignet."
+    ],
+    "alt_texts": [
+     {
+      "file": "FULDA-ANT-1.jpg",
+      "text": "FULDA Tischlampe in Grau, Produktansicht"
+     },
+     {
+      "file": "FULDA-ANT-2.jpg",
+      "text": "FULDA Tischlampe in Grau, Detailansicht"
+     },
+     {
+      "file": "FULDA-ANT-3.jpg",
+      "text": "FULDA Tischlampe in Grau, Detailansicht"
+     },
+     {
+      "file": "FULDA-ANT-4.jpg",
+      "text": "FULDA Tischlampe in Weiß, Produktansicht"
+     },
+     {
+      "file": "FULDA-MOO-1.jpg",
+      "text": "FULDA Tischlampe in Grün, Produktansicht"
+     },
+     {
+      "file": "FULDA-MOO-2.jpg",
+      "text": "FULDA Tischlampe in Grün, Produktansicht"
+     },
+     {
+      "file": "FULDA-MOO-3.jpg",
+      "text": "FULDA Tischlampe in Grün, Detailansicht"
+     },
+     {
+      "file": "IMG_4639.JPG",
+      "text": "FULDA Tischlampe in Grün, Detailansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Ningbo Brightway Home Co. FULDA Table Lamp",
+    "bullets": [
+     "Dimensions: 30 cm width and 64 cm height",
+     "Weight: 0.6 kg",
+     "Compatible with E27 bulbs up to 40 W",
+     "Clean with a dry cloth when switched off"
+    ],
+    "description": "The FULDA table lamp from Ningbo Brightway Home Co. is designed for indoor use. This lamp has a height of 64 cm and a width of 30 cm.",
+    "colours": [
+     {
+      "code": "FUL-19-MOO",
+      "name": "Moss Green"
+     },
+     {
+      "code": "FUL-19-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Use only E27 bulbs, max. 40 W.",
+     "Disconnect from the power supply before cleaning.",
+     "Suitable for indoor use only."
+    ],
+    "alt_texts": [
+     {
+      "file": "FULDA-ANT-1.jpg",
+      "text": "FULDA table lamp in grey, product view"
+     },
+     {
+      "file": "FULDA-ANT-2.jpg",
+      "text": "FULDA table lamp in grey, detail view"
+     },
+     {
+      "file": "FULDA-ANT-3.jpg",
+      "text": "FULDA table lamp in grey, detail view"
+     },
+     {
+      "file": "FULDA-ANT-4.jpg",
+      "text": "FULDA table lamp in white, product view"
+     },
+     {
+      "file": "FULDA-MOO-1.jpg",
+      "text": "FULDA table lamp in green, product view"
+     },
+     {
+      "file": "FULDA-MOO-2.jpg",
+      "text": "FULDA table lamp in green, product view"
+     },
+     {
+      "file": "FULDA-MOO-3.jpg",
+      "text": "FULDA table lamp in green, detail view"
+     },
+     {
+      "file": "IMG_4639.JPG",
+      "text": "FULDA table lamp in green, detail view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Lampe à poser FULDA de Ningbo Brightway Home Co.",
+    "bullets": [
+     "Dimensions : 30 cm de largeur et 64 cm de hauteur",
+     "Poids : 0,6 kg",
+     "Compatible avec les ampoules E27 jusqu'à 40 W",
+     "Nettoyer avec un chiffon sec lorsqu'elle est éteinte"
+    ],
+    "description": "La lampe à poser FULDA de Ningbo Brightway Home Co. est conçue pour un usage intérieur. Ce luminaire mesure 64 cm de hauteur et 30 cm de largeur.",
+    "colours": [
+     {
+      "code": "FUL-19-MOO",
+      "name": "Vert Mousse"
+     },
+     {
+      "code": "FUL-19-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Utiliser uniquement des ampoules E27, max. 40 W.",
+     "Débrancher avant le nettoyage.",
+     "Pour usage intérieur uniquement."
+    ],
+    "alt_texts": [
+     {
+      "file": "FULDA-ANT-1.jpg",
+      "text": "Lampe à poser FULDA en gris, vue d'ensemble"
+     },
+     {
+      "file": "FULDA-ANT-2.jpg",
+      "text": "Lampe à poser FULDA en gris, vue détaillée"
+     },
+     {
+      "file": "FULDA-ANT-3.jpg",
+      "text": "Lampe à poser FULDA en gris, vue détaillée"
+     },
+     {
+      "file": "FULDA-ANT-4.jpg",
+      "text": "Lampe à poser FULDA en blanc, vue d'ensemble"
+     },
+     {
+      "file": "FULDA-MOO-1.jpg",
+      "text": "Lampe à poser FULDA en vert, vue d'ensemble"
+     },
+     {
+      "file": "FULDA-MOO-2.jpg",
+      "text": "Lampe à poser FULDA en vert, vue d'ensemble"
+     },
+     {
+      "file": "FULDA-MOO-3.jpg",
+      "text": "Lampe à poser FULDA en vert, vue détaillée"
+     },
+     {
+      "file": "IMG_4639.JPG",
+      "text": "Lampe à poser FULDA en vert, vue détaillée"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Candeeiro de Mesa Ningbo Brightway Home Co. FULDA",
+    "bullets": [
+     "Dimensões: 30 cm de largura e 64 cm de altura",
+     "Peso: 0.6 kg",
+     "Compatível com lâmpadas E27 até 40 W",
+     "Limpar com um pano seco quando desligado"
+    ],
+    "description": "O candeeiro de mesa FULDA da Ningbo Brightway Home Co. foi concebido para utilização interior. Esta peça de iluminação mede 64 cm de altura e 30 cm de largura.",
+    "colours": [
+     {
+      "code": "FUL-19-MOO",
+      "name": "Verde Musgo"
+     },
+     {
+      "code": "FUL-19-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizar apenas lâmpadas E27, máx. 40 W.",
+     "Desligar da corrente antes de limpar.",
+     "Apenas para utilização interior."
+    ],
+    "alt_texts": [
+     {
+      "file": "FULDA-ANT-1.jpg",
+      "text": "Candeeiro de mesa FULDA em cinzento, vista geral"
+     },
+     {
+      "file": "FULDA-ANT-2.jpg",
+      "text": "Candeeiro de mesa FULDA em cinzento, vista de detalhe"
+     },
+     {
+      "file": "FULDA-ANT-3.jpg",
+      "text": "Candeeiro de mesa FULDA em cinzento, vista de detalhe"
+     },
+     {
+      "file": "FULDA-ANT-4.jpg",
+      "text": "Candeeiro de mesa FULDA em branco, vista geral"
+     },
+     {
+      "file": "FULDA-MOO-1.jpg",
+      "text": "Candeeiro de mesa FULDA em verde, vista geral"
+     },
+     {
+      "file": "FULDA-MOO-2.jpg",
+      "text": "Candeeiro de mesa FULDA em verde, vista geral"
+     },
+     {
+      "file": "FULDA-MOO-3.jpg",
+      "text": "Candeeiro de mesa FULDA em verde, vista de detalhe"
+     },
+     {
+      "file": "IMG_4639.JPG",
+      "text": "Candeeiro de mesa FULDA em verde, vista de detalhe"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Lampa stołowa Ningbo Brightway Home Co. FULDA",
+    "bullets": [
+     "Wymiary: 30 cm szerokości i 64 cm wysokości",
+     "Waga: 0.6 kg",
+     "Kompatybilna z żarówkami E27 do 40 W",
+     "Czyścić suchą szmatką po wyłączeniu"
+    ],
+    "description": "Lampa stołowa FULDA marki Ningbo Brightway Home Co. została zaprojektowana do użytku wewnątrz pomieszczeń. Oprawa oświetleniowa ma 64 cm wysokości i 30 cm szerokości.",
+    "colours": [
+     {
+      "code": "FUL-19-MOO",
+      "name": "Zielony mchowy"
+     },
+     {
+      "code": "FUL-19-ANT",
+      "name": "Antracytowy"
+     }
+    ],
+    "safety_warnings": [
+     "Stosować tylko żarówki E27, maks. 40 W.",
+     "Odłączyć z sieci przed czyszczeniem.",
+     "Wyłącznie do użytku wewnątrz pomieszczeń."
+    ],
+    "alt_texts": [
+     {
+      "file": "FULDA-ANT-1.jpg",
+      "text": "Lampa stołowa FULDA w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "FULDA-ANT-2.jpg",
+      "text": "Lampa stołowa FULDA w kolorze szarym, widok szczegółowy"
+     },
+     {
+      "file": "FULDA-ANT-3.jpg",
+      "text": "Lampa stołowa FULDA w kolorze szarym, widok szczegółowy"
+     },
+     {
+      "file": "FULDA-ANT-4.jpg",
+      "text": "Lampa stołowa FULDA w kolorze białym, widok produktowy"
+     },
+     {
+      "file": "FULDA-MOO-1.jpg",
+      "text": "Lampa stołowa FULDA w kolorze zielonym, widok produktowy"
+     },
+     {
+      "file": "FULDA-MOO-2.jpg",
+      "text": "Lampa stołowa FULDA w kolorze zielonym, widok produktowy"
+     },
+     {
+      "file": "FULDA-MOO-3.jpg",
+      "text": "Lampa stołowa FULDA w kolorze zielonym, widok szczegółowy"
+     },
+     {
+      "file": "IMG_4639.JPG",
+      "text": "Lampa stołowa FULDA w kolorze zielonym, widok szczegółowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Настільна лампа Ningbo Brightway Home Co. FULDA",
+    "bullets": [
+     "Розміри: 30 см завширшки та 64 см заввишки",
+     "Вага: 0.6 кг",
+     "Сумісна з лампами E27 потужністю до 40 Вт",
+     "Очищати сухою ганчіркою у вимкненому стані"
+    ],
+    "description": "Настільна лампа FULDA від Ningbo Brightway Home Co. призначена для використання в приміщенні. Висота цього освітлювального приладу становить 64 см, а ширина — 30 см.",
+    "colours": [
+     {
+      "code": "FUL-19-MOO",
+      "name": "Мохово-зелений"
+     },
+     {
+      "code": "FUL-19-ANT",
+      "name": "Антрацитовий"
+     }
+    ],
+    "safety_warnings": [
+     "Використовуйте лише лампи E27, макс. 40 Вт.",
+     "Від'єднайте від мережі перед очищенням.",
+     "Тільки для внутрішнього використання."
+    ],
+    "alt_texts": [
+     {
+      "file": "FULDA-ANT-1.jpg",
+      "text": "Настільна лампа FULDA сірого кольору, загальний вигляд"
+     },
+     {
+      "file": "FULDA-ANT-2.jpg",
+      "text": "Настільна лампа FULDA сірого кольору, детальний вигляд"
+     },
+     {
+      "file": "FULDA-ANT-3.jpg",
+      "text": "Настільна лампа FULDA сірого кольору, детальний вигляд"
+     },
+     {
+      "file": "FULDA-ANT-4.jpg",
+      "text": "Настільна лампа FULDA білого кольору, загальний вигляд"
+     },
+     {
+      "file": "FULDA-MOO-1.jpg",
+      "text": "Настільна лампа FULDA зеленого кольору, загальний вигляд"
+     },
+     {
+      "file": "FULDA-MOO-2.jpg",
+      "text": "Настільна лампа FULDA зеленого кольору, загальний вигляд"
+     },
+     {
+      "file": "FULDA-MOO-3.jpg",
+      "text": "Настільна лампа FULDA зеленого кольору, детальний вигляд"
+     },
+     {
+      "file": "IMG_4639.JPG",
+      "text": "Настільна лампа FULDA зеленого кольору, детальний вигляд"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Ningbo Brightway Home Co. FULDA Table Lamp",
+    "bullets": [
+     "Dimensions: 30 cm wide and 64 cm high",
+     "Weight: 0.6 kg",
+     "Compatible with E27 bulbs up to 40 W",
+     "Clean with a dry cloth when switched off"
+    ],
+    "description": "The FULDA table lamp from Ningbo Brightway Home Co. is designed for indoor use. The height of this lighting fixture is 64 cm, and the width is 30 cm.",
+    "colours": [
+     {
+      "code": "FUL-19-MOO",
+      "name": "Moss Green"
+     },
+     {
+      "code": "FUL-19-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Use only E27 bulbs, max 40 W.",
+     "Disconnect from the mains before cleaning.",
+     "For indoor use only."
+    ],
+    "alt_texts": [
+     {
+      "file": "FULDA-ANT-1.jpg",
+      "text": "FULDA table lamp in grey, general view"
+     },
+     {
+      "file": "FULDA-ANT-2.jpg",
+      "text": "FULDA table lamp in grey, detailed view"
+     },
+     {
+      "file": "FULDA-ANT-3.jpg",
+      "text": "FULDA table lamp in grey, detailed view"
+     },
+     {
+      "file": "FULDA-ANT-4.jpg",
+      "text": "FULDA table lamp in white, general view"
+     },
+     {
+      "file": "FULDA-MOO-1.jpg",
+      "text": "FULDA table lamp in green, general view"
+     },
+     {
+      "file": "FULDA-MOO-2.jpg",
+      "text": "FULDA table lamp in green, general view"
+     },
+     {
+      "file": "FULDA-MOO-3.jpg",
+      "text": "FULDA table lamp in green, detailed view"
+     },
+     {
+      "file": "IMG_4639.JPG",
+      "text": "FULDA table lamp in green, detailed view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

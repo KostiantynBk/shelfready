@@ -1,0 +1,94 @@
+{
+ "item_id": "B07Q9TCY28",
+ "photos": {
+  "A1oNr0c95TL": {
+   "role": "packshot",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "shag",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "A1MaKsMEVGL": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "shag",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "915MDN3KPuL": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "shag",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "91MDo6WphCL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      715,
+      393,
+      762,
+      421
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      712,
+      841,
+      758,
+      867
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      686,
+      283,
+      736,
+      384
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

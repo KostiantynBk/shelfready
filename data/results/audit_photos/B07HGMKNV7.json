@@ -1,0 +1,260 @@
+{
+ "item_id": "B07HGMKNV7",
+ "photos": {
+  "A1TrMuon-hL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "POISE",
+    "MANTONE"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      618,
+      66,
+      642,
+      136
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      433,
+      853,
+      778,
+      958
+     ]
+    }
+   ]
+  },
+  "91p7E02X09L": {
+   "role": "packshot",
+   "product_type": "sofa bed",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      638,
+      17,
+      682,
+      46
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      722,
+      120,
+      784,
+      201
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      664,
+      231,
+      758,
+      256
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      784,
+      295,
+      858,
+      323
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      864,
+      396,
+      976,
+      424
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      852,
+      963,
+      886,
+      983
+     ]
+    }
+   ]
+  },
+  "91-6uv3WcVL": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "35.4\"",
+    "89.91 cm",
+    "36.6\"",
+    "92.96 cm",
+    "71.3\"",
+    "181.10 cm"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      424,
+      15,
+      488,
+      76
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      843,
+      92,
+      907,
+      154
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      885,
+      546,
+      948,
+      607
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      846,
+      204,
+      896,
+      276
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      833,
+      311,
+      881,
+      341
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      770,
+      771,
+      811,
+      801
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      821,
+      807,
+      893
+     ]
+    }
+   ]
+  },
+  "A163vNReYKL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "dark brown",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      13,
+      871,
+      48
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      916,
+      152,
+      975,
+      258
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      913,
+      286,
+      958,
+      314
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      812,
+      867,
+      841
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      822,
+      882,
+      867,
+      973
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

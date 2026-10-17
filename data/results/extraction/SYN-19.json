@@ -1,0 +1,415 @@
+{
+ "submission_id": "SYN-19",
+ "spec": {
+  "product_name": "FULDA",
+  "supplier": "Nordholz Wohnen GmbH",
+  "product_type": "Tischleuchte FULDA / FULDA table lamp",
+  "manufacturer": "Ningbo Brightway Home Co., Ltd.",
+  "manufacturer_address": "No. 88 Xingning Road, Yinzhou District, Ningbo 315000, China",
+  "eu_responsible_person": "Nordholz Wohnen GmbH, Industriestraße 21, 32051 Herford, Deutschland",
+  "country_of_origin": "China",
+  "width": {
+   "value": "30",
+   "unit": "cm",
+   "source_text": "Ø 30 cm"
+  },
+  "depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "height": {
+   "value": "64",
+   "unit": "cm",
+   "source_text": "64 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "max_load": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "weight": {
+   "value": "0,6",
+   "unit": "kg",
+   "source_text": "0,6 kg"
+  },
+  "legs_or_base": null,
+  "upholstery": null,
+  "care": "Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off",
+  "variants": [
+   {
+    "code": "FUL-19-MOO",
+    "colour_name": "Moosgrün",
+    "ean": "4012345019018"
+   },
+   {
+    "code": "FUL-19-ANT",
+    "colour_name": "Anthrazit",
+    "ean": "4012345019025"
+   }
+  ],
+  "safety_warnings": [
+   "Nur Leuchtmittel E27 max. 40 W verwenden.",
+   "Use only E27 bulbs, max. 40 W.",
+   "Vor dem Reinigen vom Netz trennen.",
+   "Disconnect before cleaning.",
+   "Nur für den Innenbereich.",
+   "For indoor use only."
+  ],
+  "safety_warnings_languages": [
+   "de",
+   "en",
+   "de",
+   "en",
+   "de",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "FULDA_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4242977542667895,
+    0.13283845667853952,
+    0.47193299877823924,
+    0.141746666325138
+   ],
+   "text": "Ø 30 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "FULDA_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.13283845667853952,
+    0.41309525461069496,
+    0.141746666325138
+   ],
+   "text": "64 cm",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "FULDA_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.164908011406294,
+    0.41310756501843204,
+    0.1738162210528925
+   ],
+   "text": "0,6 kg",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "FULDA_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.1809427887701713,
+    0.8514946176234262,
+    0.1898509984167698
+   ],
+   "text": "Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "FULDA_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.21301234349792578,
+    0.8860931097090168,
+    0.2317195837557826
+   ],
+   "text": "No. 88 Xingning Road, Yinzhou District, Ningbo 315000, China",
+   "note": null
+  },
+  "eu_responsible_person": {
+   "source": "pdf",
+   "file": "FULDA_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.23884615147306143,
+    0.7926445607790846,
+    0.24775436111965993
+   ],
+   "text": "Nordholz Wohnen GmbH, Industriestraße 21, 32051 Herford, Deutschland",
+   "note": null
+  },
+  "ean:FUL-19-MOO": {
+   "source": "pdf",
+   "file": "FULDA_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4231836660222936,
+    0.3047669028578902,
+    0.5143240024083441,
+    0.3136751125044887
+   ],
+   "text": "4012345019018",
+   "note": null
+  },
+  "ean:FUL-19-ANT": {
+   "source": "pdf",
+   "file": "FULDA_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4231836660222936,
+    0.32080168022176736,
+    0.5143240024083441,
+    0.32970988986836586
+   ],
+   "text": "4012345019025",
+   "note": null
+  }
+ },
+ "images": {
+  "FULDA-MOO-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "velvet",
+    "legs_material": "none_visible",
+    "base_material": "metal",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       454,
+       407,
+       944,
+       592
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "FULDA-MOO-2.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "velvet",
+    "legs_material": "none_visible",
+    "base_material": "metal",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       455,
+       406,
+       948,
+       593
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "FULDA-MOO-3.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "ottoman",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "velvet",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "brass",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       692,
+       65,
+       966,
+       934
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "IMG_4639.JPG": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "fabric swatch",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "velvet",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": []
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "FULDA-ANT-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "stone",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       482,
+       411,
+       958,
+       592
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "FULDA-ANT-2.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "ottoman",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "velvet",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": []
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "FULDA-ANT-3.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "pile",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "FULDA-ANT-4.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "stone",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       946,
+       352,
+       1000,
+       641
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

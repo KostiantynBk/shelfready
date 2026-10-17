@@ -1,0 +1,169 @@
+{
+ "item_id": "B086VYHGVF",
+ "photos": {
+  "71kYVsO++6L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      703,
+      107,
+      736,
+      127
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      818,
+      237,
+      851,
+      261
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      873,
+      681,
+      891
+     ]
+    }
+   ]
+  },
+  "71RMAyB8hIL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      872,
+      270,
+      906,
+      306
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      872,
+      712,
+      906,
+      747
+     ]
+    }
+   ]
+  },
+  "71jTnx2FqrL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      795,
+      82,
+      822,
+      107
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      793,
+      892,
+      820,
+      917
+     ]
+    }
+   ]
+  },
+  "71F5UfhpnCL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      87,
+      771,
+      115
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      385,
+      771,
+      412
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      587,
+      771,
+      614
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      884,
+      771,
+      912
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

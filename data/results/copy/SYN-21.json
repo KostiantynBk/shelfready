@@ -1,0 +1,776 @@
+{
+ "product_id": "SYN-21",
+ "decisions": {},
+ "facts": {
+  "product_name": "Tapete COIMBRA / COIMBRA rug",
+  "model": "COIMBRA",
+  "brand": "Móveis Lusa",
+  "width_cm": 290,
+  "depth_cm": 229,
+  "height_cm": 1.3,
+  "weight_kg": 25.4,
+  "product_type": "Tapete / rug",
+  "upholstery": "Tufado à mão, 100% lã / hand-tufted, 100% wool",
+  "country_of_origin": "Portugal",
+  "safety_warnings": [
+   "Usar base antiderrapante em pisos lisos.",
+   "Use an anti-slip underlay on smooth floors.",
+   "Manter afastado de chamas abertas.",
+   "Keep away from open flames."
+  ],
+  "variants": [
+   {
+    "code": "COI-21-ARE",
+    "colour_name": "Antracite"
+   },
+   {
+    "code": "COI-21-AZU",
+    "colour_name": "Azul"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "care",
+   "variant": null,
+   "reason": "Care instructions contradict the care label",
+   "issue": "D5::care:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "COI21_ARE_34.jpg",
+   "variant": "COI-21-ARE",
+   "view": "three-quarter",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "COI21_ARE_front.jpg",
+   "variant": "COI-21-ARE",
+   "view": "front",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "COI21_AZU_34.jpg",
+   "variant": "COI-21-AZU",
+   "view": "three-quarter",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "COI21_AZU_front.jpg",
+   "variant": "COI-21-AZU",
+   "view": "front",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "COI21_ARE_side.jpg",
+   "variant": "COI-21-ARE",
+   "view": "side",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "COI21_AZU_detail.jpg",
+   "variant": "COI-21-AZU",
+   "view": "detail",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "COI21_AZU_side.jpg",
+   "variant": "COI-21-AZU",
+   "view": "side",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "IMG_4964.JPG",
+   "variant": null,
+   "view": "detail",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Móveis Lusa",
+  "COIMBRA",
+  "COI-21-ARE",
+  "COI-21-AZU"
+ ],
+ "en": {
+  "title": "Móveis Lusa COIMBRA Rug",
+  "bullets": [
+   "Hand-tufted, 100% wool construction",
+   "Dimensions: 290 cm width, 229 cm depth, and 1.3 cm height",
+   "Weight: 25.4 kg",
+   "Made in Portugal"
+  ],
+  "description": "The COIMBRA rug by Móveis Lusa is a hand-tufted piece made from 100% wool. This Portuguese-made rug measures 290 cm by 229 cm.",
+  "colours": [
+   {
+    "code": "COI-21-ARE",
+    "name": "Anthracite"
+   },
+   {
+    "code": "COI-21-AZU",
+    "name": "Blue"
+   }
+  ],
+  "safety_warnings": [
+   "Use an anti-slip underlay on smooth floors.",
+   "Keep away from open flames."
+  ],
+  "alt_texts": [
+   {
+    "file": "COI21_ARE_34.jpg",
+    "text": "COIMBRA rug in beige, three-quarter view"
+   },
+   {
+    "file": "COI21_ARE_front.jpg",
+    "text": "COIMBRA rug in beige, front view"
+   },
+   {
+    "file": "COI21_AZU_34.jpg",
+    "text": "COIMBRA rug in blue, three-quarter view"
+   },
+   {
+    "file": "COI21_AZU_front.jpg",
+    "text": "COIMBRA rug in beige, front view"
+   },
+   {
+    "file": "COI21_ARE_side.jpg",
+    "text": "COIMBRA rug in beige, side view"
+   },
+   {
+    "file": "COI21_AZU_detail.jpg",
+    "text": "COIMBRA rug in blue, detail view"
+   },
+   {
+    "file": "COI21_AZU_side.jpg",
+    "text": "COIMBRA rug in blue, side view"
+   },
+   {
+    "file": "IMG_4964.JPG",
+    "text": "COIMBRA rug in beige, detail view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Alfombra Móveis Lusa COIMBRA",
+    "bullets": [
+     "Construcción de lana 100%, tejida a mano",
+     "Dimensiones: 290 cm de ancho, 229 cm de profundidad y 1.3 cm de altura",
+     "Peso: 25.4 kg",
+     "Fabricada en Portugal"
+    ],
+    "description": "La alfombra COIMBRA de Móveis Lusa es una pieza tejida a mano fabricada en lana 100%. Esta alfombra de fabricación portuguesa mide 290 cm por 229 cm.",
+    "colours": [
+     {
+      "code": "COI-21-ARE",
+      "name": "Antracita"
+     },
+     {
+      "code": "COI-21-AZU",
+      "name": "Azul"
+     }
+    ],
+    "safety_warnings": [
+     "Utilice una base antideslizante en suelos lisos.",
+     "Mantener alejado de llamas abiertas."
+    ],
+    "alt_texts": [
+     {
+      "file": "COI21_ARE_34.jpg",
+      "text": "Alfombra COIMBRA en beige, vista en tres cuartos"
+     },
+     {
+      "file": "COI21_ARE_front.jpg",
+      "text": "Alfombra COIMBRA en beige, vista frontal"
+     },
+     {
+      "file": "COI21_AZU_34.jpg",
+      "text": "Alfombra COIMBRA en azul, vista en tres cuartos"
+     },
+     {
+      "file": "COI21_AZU_front.jpg",
+      "text": "Alfombra COIMBRA en beige, vista frontal"
+     },
+     {
+      "file": "COI21_ARE_side.jpg",
+      "text": "Alfombra COIMBRA en beige, vista lateral"
+     },
+     {
+      "file": "COI21_AZU_detail.jpg",
+      "text": "Alfombra COIMBRA en azul, vista de detalle"
+     },
+     {
+      "file": "COI21_AZU_side.jpg",
+      "text": "Alfombra COIMBRA en azul, vista lateral"
+     },
+     {
+      "file": "IMG_4964.JPG",
+      "text": "Alfombra COIMBRA en beige, vista de detalle"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Tappeto Móveis Lusa COIMBRA",
+    "bullets": [
+     "Realizzato a mano con tecnica tufting, 100% lana",
+     "Dimensioni: 290 cm di larghezza, 229 cm di profondità e 1,3 cm di altezza",
+     "Peso: 25,4 kg",
+     "Made in Portugal"
+    ],
+    "description": "Il tappeto COIMBRA di Móveis Lusa è un pezzo realizzato a mano in lana 100%. Questo tappeto di produzione portoghese misura 290 cm per 229 cm.",
+    "colours": [
+     {
+      "code": "COI-21-ARE",
+      "name": "Antracite"
+     },
+     {
+      "code": "COI-21-AZU",
+      "name": "Blu"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizzare un sottofondo antiscivolo su pavimenti lisci.",
+     "Tenere lontano da fiamme libere."
+    ],
+    "alt_texts": [
+     {
+      "file": "COI21_ARE_34.jpg",
+      "text": "Tappeto COIMBRA in beige, vista a tre quarti"
+     },
+     {
+      "file": "COI21_ARE_front.jpg",
+      "text": "Tappeto COIMBRA in beige, vista frontale"
+     },
+     {
+      "file": "COI21_AZU_34.jpg",
+      "text": "Tappeto COIMBRA in blu, vista a tre quarti"
+     },
+     {
+      "file": "COI21_AZU_front.jpg",
+      "text": "Tappeto COIMBRA in beige, vista frontale"
+     },
+     {
+      "file": "COI21_ARE_side.jpg",
+      "text": "Tappeto COIMBRA in beige, vista laterale"
+     },
+     {
+      "file": "COI21_AZU_detail.jpg",
+      "text": "Tappeto COIMBRA in blu, vista dettaglio"
+     },
+     {
+      "file": "COI21_AZU_side.jpg",
+      "text": "Tappeto COIMBRA in blu, vista laterale"
+     },
+     {
+      "file": "IMG_4964.JPG",
+      "text": "Tappeto COIMBRA in beige, vista dettaglio"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Móveis Lusa COIMBRA Teppich",
+    "bullets": [
+     "Handgetuftet, 100% Wolle",
+     "Maße: 290 cm Breite, 229 cm Tiefe und 1,3 cm Höhe",
+     "Gewicht: 25,4 kg",
+     "Hergestellt in Portugal"
+    ],
+    "description": "Der COIMBRA Teppich von Móveis Lusa ist ein handgetuftetes Stück aus 100% Wolle. Dieser in Portugal gefertigte Teppich misst 290 cm mal 229 cm.",
+    "colours": [
+     {
+      "code": "COI-21-ARE",
+      "name": "Anthrazit"
+     },
+     {
+      "code": "COI-21-AZU",
+      "name": "Blau"
+     }
+    ],
+    "safety_warnings": [
+     "Auf glatten Böden eine rutschfeste Unterlage verwenden.",
+     "Von offenen Flammen fernhalten."
+    ],
+    "alt_texts": [
+     {
+      "file": "COI21_ARE_34.jpg",
+      "text": "COIMBRA Teppich in Beige, Dreiviertelansicht"
+     },
+     {
+      "file": "COI21_ARE_front.jpg",
+      "text": "COIMBRA Teppich in Beige, Vorderansicht"
+     },
+     {
+      "file": "COI21_AZU_34.jpg",
+      "text": "COIMBRA Teppich in Blau, Dreiviertelansicht"
+     },
+     {
+      "file": "COI21_AZU_front.jpg",
+      "text": "COIMBRA Teppich in Beige, Vorderansicht"
+     },
+     {
+      "file": "COI21_ARE_side.jpg",
+      "text": "COIMBRA Teppich in Beige, Seitenansicht"
+     },
+     {
+      "file": "COI21_AZU_detail.jpg",
+      "text": "COIMBRA Teppich in Blau, Detailansicht"
+     },
+     {
+      "file": "COI21_AZU_side.jpg",
+      "text": "COIMBRA Teppich in Blau, Seitenansicht"
+     },
+     {
+      "file": "IMG_4964.JPG",
+      "text": "COIMBRA Teppich in Beige, Detailansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa COIMBRA Rug",
+    "bullets": [
+     "Hand-tufted, 100% wool",
+     "Dimensions: 290 cm width, 229 cm depth and 1.3 cm height",
+     "Weight: 25.4 kg",
+     "Made in Portugal"
+    ],
+    "description": "The COIMBRA rug from Móveis Lusa is a hand-tufted piece made of 100% wool. This rug, manufactured in Portugal, measures 290 cm by 229 cm.",
+    "colours": [
+     {
+      "code": "COI-21-ARE",
+      "name": "Anthracite"
+     },
+     {
+      "code": "COI-21-AZU",
+      "name": "Blue"
+     }
+    ],
+    "safety_warnings": [
+     "Use a non-slip underlay on smooth floors.",
+     "Keep away from open flames."
+    ],
+    "alt_texts": [
+     {
+      "file": "COI21_ARE_34.jpg",
+      "text": "COIMBRA rug in beige, three-quarter view"
+     },
+     {
+      "file": "COI21_ARE_front.jpg",
+      "text": "COIMBRA rug in beige, front view"
+     },
+     {
+      "file": "COI21_AZU_34.jpg",
+      "text": "COIMBRA rug in blue, three-quarter view"
+     },
+     {
+      "file": "COI21_AZU_front.jpg",
+      "text": "COIMBRA rug in beige, front view"
+     },
+     {
+      "file": "COI21_ARE_side.jpg",
+      "text": "COIMBRA rug in beige, side view"
+     },
+     {
+      "file": "COI21_AZU_detail.jpg",
+      "text": "COIMBRA rug in blue, detail view"
+     },
+     {
+      "file": "COI21_AZU_side.jpg",
+      "text": "COIMBRA rug in blue, side view"
+     },
+     {
+      "file": "IMG_4964.JPG",
+      "text": "COIMBRA rug in beige, detail view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Tapis Móveis Lusa COIMBRA",
+    "bullets": [
+     "Fabrication tuftée à la main, 100% laine",
+     "Dimensions : 290 cm de largeur, 229 cm de profondeur et 1,3 cm de hauteur",
+     "Poids : 25,4 kg",
+     "Fabriqué au Portugal"
+    ],
+    "description": "Le tapis COIMBRA de Móveis Lusa est une pièce tuftée à la main, confectionnée en laine 100%. Ce tapis fabriqué au Portugal mesure 290 cm par 229 cm.",
+    "colours": [
+     {
+      "code": "COI-21-ARE",
+      "name": "Anthracite"
+     },
+     {
+      "code": "COI-21-AZU",
+      "name": "Bleu"
+     }
+    ],
+    "safety_warnings": [
+     "Utiliser un sous-tapis antidérapant sur les sols lisses.",
+     "Tenir à l'écart des flammes nues."
+    ],
+    "alt_texts": [
+     {
+      "file": "COI21_ARE_34.jpg",
+      "text": "Tapis COIMBRA en beige, vue de trois-quarts"
+     },
+     {
+      "file": "COI21_ARE_front.jpg",
+      "text": "Tapis COIMBRA en beige, vue de face"
+     },
+     {
+      "file": "COI21_AZU_34.jpg",
+      "text": "Tapis COIMBRA en bleu, vue de trois-quarts"
+     },
+     {
+      "file": "COI21_AZU_front.jpg",
+      "text": "Tapis COIMBRA en beige, vue de face"
+     },
+     {
+      "file": "COI21_ARE_side.jpg",
+      "text": "Tapis COIMBRA en beige, vue de profil"
+     },
+     {
+      "file": "COI21_AZU_detail.jpg",
+      "text": "Tapis COIMBRA en bleu, vue détaillée"
+     },
+     {
+      "file": "COI21_AZU_side.jpg",
+      "text": "Tapis COIMBRA en bleu, vue de profil"
+     },
+     {
+      "file": "IMG_4964.JPG",
+      "text": "Tapis COIMBRA en beige, vue détaillée"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Tapete Móveis Lusa COIMBRA",
+    "bullets": [
+     "Construção em lã 100%, tufado à mão",
+     "Dimensões: 290 cm de largura, 229 cm de profundidade e 1,3 cm de altura",
+     "Peso: 25,4 kg",
+     "Fabricado em Portugal"
+    ],
+    "description": "O tapete COIMBRA da Móveis Lusa é uma peça tufada à mão, fabricada em 100% lã. Este tapete de fabrico português mede 290 cm por 229 cm.",
+    "colours": [
+     {
+      "code": "COI-21-ARE",
+      "name": "Antracite"
+     },
+     {
+      "code": "COI-21-AZU",
+      "name": "Azul"
+     }
+    ],
+    "safety_warnings": [
+     "Utilize um tapete antiderrapante em pavimentos lisos.",
+     "Mantenha afastado de chamas abertas."
+    ],
+    "alt_texts": [
+     {
+      "file": "COI21_ARE_34.jpg",
+      "text": "Tapete COIMBRA em bege, vista em três quartos"
+     },
+     {
+      "file": "COI21_ARE_front.jpg",
+      "text": "Tapete COIMBRA em bege, vista frontal"
+     },
+     {
+      "file": "COI21_AZU_34.jpg",
+      "text": "Tapete COIMBRA em azul, vista em três quartos"
+     },
+     {
+      "file": "COI21_AZU_front.jpg",
+      "text": "Tapete COIMBRA em bege, vista frontal"
+     },
+     {
+      "file": "COI21_ARE_side.jpg",
+      "text": "Tapete COIMBRA em bege, vista lateral"
+     },
+     {
+      "file": "COI21_AZU_detail.jpg",
+      "text": "Tapete COIMBRA em azul, vista de detalhe"
+     },
+     {
+      "file": "COI21_AZU_side.jpg",
+      "text": "Tapete COIMBRA em azul, vista lateral"
+     },
+     {
+      "file": "IMG_4964.JPG",
+      "text": "Tapete COIMBRA em bege, vista de detalhe"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Dywan Móveis Lusa COIMBRA",
+    "bullets": [
+     "Ręcznie tuftowany, wykonany w 100% z wełny",
+     "Wymiary: szerokość 290 cm, głębokość 229 cm i wysokość 1,3 cm",
+     "Waga: 25,4 kg",
+     "Wyprodukowano w Portugalii"
+    ],
+    "description": "Dywan COIMBRA marki Móveis Lusa to ręcznie tuftowany produkt wykonany w 100% z wełny. Ten wyprodukowany w Portugalii dywan ma wymiary 290 cm na 229 cm.",
+    "colours": [
+     {
+      "code": "COI-21-ARE",
+      "name": "Antracytowy"
+     },
+     {
+      "code": "COI-21-AZU",
+      "name": "Niebieski"
+     }
+    ],
+    "safety_warnings": [
+     "Na gładkich podłogach należy stosować podkład antypoślizgowy.",
+     "Trzymać z dala od otwartego ognia."
+    ],
+    "alt_texts": [
+     {
+      "file": "COI21_ARE_34.jpg",
+      "text": "Dywan COIMBRA w kolorze beżowym, widok z trzech czwartych"
+     },
+     {
+      "file": "COI21_ARE_front.jpg",
+      "text": "Dywan COIMBRA w kolorze beżowym, widok z przodu"
+     },
+     {
+      "file": "COI21_AZU_34.jpg",
+      "text": "Dywan COIMBRA w kolorze niebieskim, widok z trzech czwartych"
+     },
+     {
+      "file": "COI21_AZU_front.jpg",
+      "text": "Dywan COIMBRA w kolorze beżowym, widok z przodu"
+     },
+     {
+      "file": "COI21_ARE_side.jpg",
+      "text": "Dywan COIMBRA w kolorze beżowym, widok z boku"
+     },
+     {
+      "file": "COI21_AZU_detail.jpg",
+      "text": "Dywan COIMBRA w kolorze niebieskim, widok szczegółowy"
+     },
+     {
+      "file": "COI21_AZU_side.jpg",
+      "text": "Dywan COIMBRA w kolorze niebieskim, widok z boku"
+     },
+     {
+      "file": "IMG_4964.JPG",
+      "text": "Dywan COIMBRA w kolorze beżowym, widok szczegółowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Килим Móveis Lusa COIMBRA",
+    "bullets": [
+     "Ручна робота (тафтинг), склад: 100% вовна",
+     "Розміри: ширина 290 см, глибина 229 см, висота 1.3 см",
+     "Вага: 25.4 кг",
+     "Виготовлено в Португалії"
+    ],
+    "description": "Килим COIMBRA від Móveis Lusa — це виріб ручної роботи з 100% вовни. Цей килим португальського виробництва має розміри 290 см на 229 см.",
+    "colours": [
+     {
+      "code": "COI-21-ARE",
+      "name": "Антрацитовий"
+     },
+     {
+      "code": "COI-21-AZU",
+      "name": "Синій"
+     }
+    ],
+    "safety_warnings": [
+     "Використовуйте протиковзну підкладку на гладких підлогах.",
+     "Тримайте подалі від відкритого вогню."
+    ],
+    "alt_texts": [
+     {
+      "file": "COI21_ARE_34.jpg",
+      "text": "Килим COIMBRA бежевого кольору, вигляд у три чверті"
+     },
+     {
+      "file": "COI21_ARE_front.jpg",
+      "text": "Килим COIMBRA бежевого кольору, вигляд спереду"
+     },
+     {
+      "file": "COI21_AZU_34.jpg",
+      "text": "Килим COIMBRA синього кольору, вигляд у три чверті"
+     },
+     {
+      "file": "COI21_AZU_front.jpg",
+      "text": "Килим COIMBRA бежевого кольору, вигляд спереду"
+     },
+     {
+      "file": "COI21_ARE_side.jpg",
+      "text": "Килим COIMBRA бежевого кольору, вигляд збоку"
+     },
+     {
+      "file": "COI21_AZU_detail.jpg",
+      "text": "Килим COIMBRA синього кольору, детальний вигляд"
+     },
+     {
+      "file": "COI21_AZU_side.jpg",
+      "text": "Килим COIMBRA синього кольору, вигляд збоку"
+     },
+     {
+      "file": "IMG_4964.JPG",
+      "text": "Килим COIMBRA бежевого кольору, детальний вигляд"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa COIMBRA Rug",
+    "bullets": [
+     "Handmade (tufting), composition: 100% wool",
+     "Dimensions: width 290 cm, depth 229 cm, height 1.3 cm",
+     "Weight: 25.4 kg",
+     "Made in Portugal"
+    ],
+    "description": "The COIMBRA rug from Móveis Lusa is a handmade product made of 100% wool. This Portuguese-made rug measures 290 cm by 229 cm.",
+    "colours": [
+     {
+      "code": "COI-21-ARE",
+      "name": "Anthracite"
+     },
+     {
+      "code": "COI-21-AZU",
+      "name": "Blue"
+     }
+    ],
+    "safety_warnings": [
+     "Use a non-slip underlay on smooth floors.",
+     "Keep away from open flames."
+    ],
+    "alt_texts": [
+     {
+      "file": "COI21_ARE_34.jpg",
+      "text": "COIMBRA rug in beige, three-quarter view"
+     },
+     {
+      "file": "COI21_ARE_front.jpg",
+      "text": "COIMBRA rug in beige, front view"
+     },
+     {
+      "file": "COI21_AZU_34.jpg",
+      "text": "COIMBRA rug in blue, three-quarter view"
+     },
+     {
+      "file": "COI21_AZU_front.jpg",
+      "text": "COIMBRA rug in beige, front view"
+     },
+     {
+      "file": "COI21_ARE_side.jpg",
+      "text": "COIMBRA rug in beige, side view"
+     },
+     {
+      "file": "COI21_AZU_detail.jpg",
+      "text": "COIMBRA rug in blue, detailed view"
+     },
+     {
+      "file": "COI21_AZU_side.jpg",
+      "text": "COIMBRA rug in blue, side view"
+     },
+     {
+      "file": "IMG_4964.JPG",
+      "text": "COIMBRA rug in beige, detailed view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

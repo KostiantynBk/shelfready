@@ -1,0 +1,106 @@
+{
+ "item_id": "B07HK5JJD6",
+ "photos": {
+  "71OXZg2GyAL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      494,
+      0,
+      1000,
+      1000
+     ]
+    }
+   ]
+  },
+  "71hJkDwE4JL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "multicolour",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      832,
+      333,
+      985,
+      639
+     ]
+    }
+   ]
+  },
+  "71vG+slszsL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "unsure",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      842,
+      365,
+      986,
+      634
+     ]
+    }
+   ]
+  },
+  "71cMsm4Cj6L": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "multicolour",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "unsure",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      843,
+      365,
+      987,
+      634
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

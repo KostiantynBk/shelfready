@@ -1,0 +1,301 @@
+{
+ "item_id": "B07JKJS833",
+ "photos": {
+  "31Uztl21lQL": {
+   "role": "detail",
+   "product_type": "furniture leg",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      461,
+      926,
+      693
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      872,
+      622,
+      986
+     ]
+    }
+   ]
+  },
+  "51ScNW+I-EL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      476,
+      100,
+      701,
+      171
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      483,
+      236,
+      753,
+      272
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      476,
+      311,
+      662,
+      344
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      476,
+      425,
+      726,
+      483
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      622,
+      551,
+      838,
+      622
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      632,
+      688,
+      892,
+      724
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      632,
+      747,
+      801,
+      780
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      632,
+      845,
+      858,
+      918
+     ]
+    }
+   ]
+  },
+  "51dpYQvsswL": {
+   "role": "dimension_drawing",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "43.5",
+    "55",
+    "88.5"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      53,
+      353,
+      101,
+      446
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      86,
+      695,
+      134,
+      756
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      462,
+      106,
+      510,
+      208
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      273,
+      903,
+      366
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      462,
+      973,
+      508
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      553,
+      856,
+      593
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      601,
+      686,
+      931,
+      783
+     ]
+    }
+   ]
+  },
+  "61p6On-Z8BL": {
+   "role": "lifestyle",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "Do more of what makes you happy"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      62,
+      298,
+      243,
+      426
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      683,
+      112,
+      916,
+      201
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      282,
+      973,
+      321
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      672,
+      326,
+      878,
+      358
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      453,
+      935,
+      531
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      561,
+      517,
+      745,
+      558
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      561,
+      583,
+      755,
+      623
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      558,
+      653,
+      745,
+      722
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

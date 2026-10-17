@@ -1,0 +1,150 @@
+{
+ "item_id": "B07QS3M9BS",
+ "photos": {
+  "91PCUuHakEL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "red",
+   "upholstery_material": "faux leather and mesh",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "81MOL-k4v1L": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      745,
+      234,
+      865,
+      468
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      755,
+      431,
+      946,
+      548
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      750,
+      538,
+      901,
+      741
+     ]
+    }
+   ]
+  },
+  "81ZOv08dW2L": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      268,
+      885,
+      458
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      772,
+      462,
+      956,
+      541
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      548,
+      896,
+      778
+     ]
+    }
+   ]
+  },
+  "81A8NSg8WTL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      247,
+      891,
+      466
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      441,
+      958,
+      558
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      533,
+      916,
+      737
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

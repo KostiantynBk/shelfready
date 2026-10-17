@@ -1,0 +1,96 @@
+{
+ "item_id": "B07DBHBB82",
+ "photos": {
+  "41IvPakZPtL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      454,
+      391,
+      963,
+      608
+     ]
+    }
+   ]
+  },
+  "41q0d6wSfJL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      858,
+      421,
+      1000,
+      623
+     ]
+    }
+   ]
+  },
+  "41XKCBxXvdL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "glass",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      452,
+      391,
+      962,
+      608
+     ]
+    }
+   ]
+  },
+  "61DUG7KIqwL": {
+   "role": "detail",
+   "product_type": "fabric",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

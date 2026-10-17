@@ -1,0 +1,800 @@
+{
+ "submission_id": "SYN-13",
+ "spec": {
+  "product_name": "Divano SIENA / SIENA sofa",
+  "supplier": "Arredo Brianza S.r.l.",
+  "product_type": "Divano / sofa",
+  "manufacturer": "Arredo Brianza S.r.l.",
+  "manufacturer_address": null,
+  "eu_responsible_person": null,
+  "country_of_origin": "Italia",
+  "width": {
+   "value": "224",
+   "unit": "cm",
+   "source_text": "224 x 71 x 91 cm"
+  },
+  "depth": {
+   "value": "71",
+   "unit": "cm",
+   "source_text": "224 x 71 x 91 cm"
+  },
+  "height": {
+   "value": "91",
+   "unit": "cm",
+   "source_text": "224 x 71 x 91 cm"
+  },
+  "seat_height": {
+   "value": "44",
+   "unit": "cm",
+   "source_text": "44 cm"
+  },
+  "seat_depth": {
+   "value": "430",
+   "unit": "mm",
+   "source_text": "430 mm"
+  },
+  "max_load": {
+   "value": "330",
+   "unit": "kg",
+   "source_text": "330 kg"
+  },
+  "weight": {
+   "value": "54",
+   "unit": "kg",
+   "source_text": "54 kg"
+  },
+  "legs_or_base": "Pino + multistrato",
+  "upholstery": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+  "care": "Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C",
+  "variants": [
+   {
+    "code": "SIE-13-BLU",
+    "colour_name": "Blu",
+    "ean": null
+   }
+  ],
+  "safety_warnings": [
+   "Non utilizzare all'aperto.",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "it",
+   "en",
+   "it",
+   "en",
+   "it",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6269952914424478,
+    0.18221116470953955
+   ],
+   "text": "224 x 71 x 91 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6269952914424478,
+    0.18221116470953955
+   ],
+   "text": "224 x 71 x 91 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6269952914424478,
+    0.18221116470953955
+   ],
+   "text": "224 x 71 x 91 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.2080449726846752,
+    0.11808911939648982,
+    0.21873482426059335
+   ],
+   "text": "44 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.2080449726846752,
+    0.5664427031154932,
+    0.21873482426059335
+   ],
+   "text": "430 mm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.244568632235729,
+    0.12231406207206698,
+    0.2552584838116472
+   ],
+   "text": "330 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.244568632235729,
+    0.5488043058311716,
+    0.2552584838116472
+   ],
+   "text": "54 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.12252616007732976,
+    0.6332883882148662,
+    0.13321601165324792
+   ],
+   "text": "Pino + multistrato",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.1715213131336214,
+    0.4561214695065345,
+    0.18221116470953955
+   ],
+   "text": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "SIENA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.28109229178678263,
+    0.4352552732792675,
+    0.30425363686793866
+   ],
+   "text": "Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C",
+   "note": null
+  }
+ },
+ "images": {
+  "SIENA_BLU_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sectional sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       566,
+       25,
+       597,
+       42
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       591,
+       162,
+       626,
+       181
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       551,
+       372,
+       583,
+       389
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       623,
+       832,
+       661,
+       851
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       594,
+       963,
+       626,
+       980
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SIENA_BLU_02.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sectional sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       843,
+       526,
+       913,
+       563
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SIENA_BLU_03.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "sectional sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [
+     "79\"",
+     "116\"",
+     "19\"",
+     "32\"",
+     "33\"",
+     "5.25\"",
+     "46\"",
+     "50\"",
+     "33\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       13,
+       206,
+       66,
+       241
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       73,
+       632,
+       126,
+       676
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       523,
+       10,
+       576,
+       44
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       453,
+       954,
+       506,
+       988
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       813,
+       97,
+       866,
+       139
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       726,
+       238,
+       780,
+       291
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       766,
+       281,
+       820,
+       323
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       840,
+       581,
+       893,
+       623
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       873,
+       868,
+       926,
+       910
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       666,
+       60,
+       766,
+       76
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       746,
+       191,
+       840,
+       208
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       653,
+       392,
+       753,
+       408
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       820,
+       797,
+       920,
+       814
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       753,
+       924,
+       853,
+       940
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    954
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 294.64,
+    "depth_cm": 200.66,
+    "height_cm": 81.28,
+    "seat_height_cm": 48.26,
+    "product_code": null
+   }
+  },
+  "IMG_4287.JPG": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       504,
+       21,
+       541,
+       38
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       593,
+       376,
+       638,
+       393
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       596,
+       393,
+       641,
+       411
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       644,
+       597,
+       685,
+       618
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       552,
+       961,
+       588,
+       978
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SIE13_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "sofa",
+    "products_in_frame": 2,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRONTE / FRONT",
+     "LATO / SIDE",
+     "91",
+     "44",
+     "224 cm",
+     "71 cm",
+     "SIE-13 · misure in cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       42,
+       92,
+       81,
+       268
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       42,
+       612,
+       81,
+       738
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       683,
+       10,
+       746,
+       31
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       763,
+       501,
+       826,
+       522
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       893,
+       248,
+       932,
+       330
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       893,
+       641,
+       932,
+       707
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       958,
+       821,
+       997,
+       989
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       775,
+       103,
+       847,
+       116
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       775,
+       453,
+       847,
+       466
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       621,
+       856,
+       634
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       718,
+       856,
+       731
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 224.0,
+    "depth_cm": 71.0,
+    "height_cm": 91.0,
+    "seat_height_cm": 44.0,
+    "product_code": "SIE-13"
+   }
+  },
+  "SIE13_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "ARREDO BRIANZA S.R.L.",
+     "SIE-13",
+     "100% POLIESTERE",
+     "100% POLYESTER",
+     "Fodera sfoderabile",
+     "Removable cover",
+     "30",
+     "Prodotto in Italia"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       109,
+       230,
+       143,
+       775
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       166,
+       443,
+       200,
+       563
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       230,
+       307,
+       264,
+       698
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       293,
+       311,
+       327,
+       693
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       356,
+       335,
+       390,
+       669
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       418,
+       351,
+       452,
+       662
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       616,
+       255,
+       658,
+       308
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       782,
+       290,
+       816,
+       565
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYESTER",
+    "wash_max_temp_c": 30,
+    "do_not_wash": false,
+    "dry_clean_only": false,
+    "removable_cover": true,
+    "other_text": [
+     "ARREDO BRIANZA S.R.L.",
+     "SIE-13",
+     "100% POLIESTERE",
+     "Fodera sfoderabile",
+     "Removable cover",
+     "Prodotto in Italia"
+    ]
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

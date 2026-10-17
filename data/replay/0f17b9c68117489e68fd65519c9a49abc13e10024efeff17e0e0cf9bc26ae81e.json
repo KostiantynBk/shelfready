@@ -1,0 +1,38 @@
+{
+ "key": "0f17b9c68117489e68fd65519c9a49abc13e10024efeff17e0e0cf9bc26ae81e",
+ "purpose": "translate:SYN-00:fr",
+ "recorded_at": "2026-10-15T07:32:23+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into French. Translate all words into natural French, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a French term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'LISBOA', 'LIS-01-MUS', 'LIS-01-ARE', 'LIS-01-ANT', 'Martindale'. Keep every number exactly, with its unit (cm, mm, kg, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa LISBOA Armchair\", \"bullets\": [\"Dimensions: 88 cm width, 83 cm depth, 90 cm height\", \"Seat height: 47 cm; seat depth: 50 cm\", \"Upholstery: 100% polyester bouclé with Martindale 40,000\", \"Maximum load capacity: 120 kg\", \"Made in Portugal\"], \"description\": \"The LISBOA armchair by Móveis Lusa features a 100% polyester bouclé upholstery that is washable at 30 °C. Depending on the variant, it is supported by either solid beech legs with a walnut stain or chrome-plated steel legs.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Moss\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Sand\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"Three-quarter view of the LISBOA armchair in grey.\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"Front view of the LISBOA armchair in grey.\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"Three-quarter view of the LISBOA armchair in beige.\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"Front view of the LISBOA armchair in beige.\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"Three-quarter view of the LISBOA armchair in green.\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"Front view of the LISBOA armchair in green.\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"Back view of the LISBOA armchair in grey.\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Detail view of the LISBOA armchair in grey.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Fauteuil LISBOA de Móveis Lusa\", \"bullets\": [\"Dimensions : 88 cm de largeur, 83 cm de profondeur, 90 cm de hauteur\", \"Hauteur d'assise : 47 cm ; profondeur d'assise : 50 cm\", \"Revêtement : bouclé 100 % polyester avec Martindale 40 000\", \"Capacité de charge maximale : 120 kg\", \"Fabriqué au Portugal\"], \"description\": \"Le fauteuil LISBOA de Móveis Lusa dispose d'un revêtement en bouclé 100 % polyester lavable à 30 °C. Selon la variante, il est soutenu soit par des pieds en hêtre massif teint noyer, soit par des pieds en acier chromé.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Mousse\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Sable\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Ne pas utiliser à l'extérieur.\", \"Tenir à l'écart des sources de chaleur.\", \"Ne pas se tenir debout sur le siège.\"], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"Vue de trois-quarts du fauteuil LISBOA en gris.\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"Vue de face du fauteuil LISBOA en gris.\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"Vue de trois-quarts du fauteuil LISBOA en beige.\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"Vue de face du fauteuil LISBOA en beige.\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"Vue de trois-quarts du fauteuil LISBOA en vert.\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"Vue de face du fauteuil LISBOA en vert.\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"Vue arrière du fauteuil LISBOA en gris.\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Vue détaillée du fauteuil LISBOA en gris.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 1003,
+   "completion_tokens": 542
+  },
+  "latency_s": 85.5
+ }
+}

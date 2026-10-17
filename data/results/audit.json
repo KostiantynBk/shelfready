@@ -1,0 +1,6262 @@
+{
+ "summary": {
+  "listings": 250,
+  "photos_analysed": 900,
+  "health_score": 94.9,
+  "listings_with_blocking_issues": 5,
+  "issues_by_rule": {
+   "A1": 7,
+   "A2": 3,
+   "A3": 57,
+   "A4": 68,
+   "A5": 11,
+   "A6": 21,
+   "A8": 30,
+   "A9": 3
+  },
+  "score_by_category": {
+   "chair": 93.8,
+   "lamp": 94.9,
+   "rug": 91.7,
+   "sofa": 99.0
+  },
+  "score_by_marketplace": {
+   "amazon.co.uk": 95.6,
+   "amazon.com": 98.2,
+   "amazon.de": 92.6,
+   "amazon.es": 93.6,
+   "amazon.fr": 95.8,
+   "amazon.it": 93.7,
+   "amazon.nl": 90.5,
+   "amazon.se": 96.3
+  },
+  "how_calculated": "Per listing: 100 − 25 × blocking − 10 × review − 3 × info issues (minimum 0). Catalogue: the average."
+ },
+ "listings": [
+  {
+   "item_id": "B07K2YMDKY",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "Stone & Beam 25020064-01 Armbanduhr, silberfarben",
+   "score": 62,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A1",
+     "product_id": "B07K2YMDKY",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "blocking",
+     "return_risk": "missing_info",
+     "title": "Listed as chair, photos show fabric swatch",
+     "detail": "The product category does not match what the photos show; it may be in the wrong place in the catalogue.",
+     "attribute": "category",
+     "spec_value": "chair",
+     "found_value": "fabric swatch",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1BQ0vVul2L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B07K2YMDKY",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07K2YMDKY",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a detail photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1BQ0vVul2L",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1BQ0vVul2L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B081NT8KVD",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "AmazonBasics Patio Garden All-Weather Folding Acacia Wood Adirondack Chair - Natural, Outdoor Furniture",
+   "score": 62,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A9",
+     "product_id": "B081NT8KVD",
+     "variant": null,
+     "type": "compliance",
+     "severity": "blocking",
+     "return_risk": "missing_info",
+     "title": "No photo of the product",
+     "detail": "The images show a logo or a placeholder. GPSR Art. 19(c) requires a picture of the product in online offers.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "31qAPSZ7qmL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    },
+    {
+     "rule": "A3",
+     "product_id": "B081NT8KVD",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A6",
+     "product_id": "B081NT8KVD",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 229 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "31qAPSZ7qmL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B0732J9VG3",
+   "domain": "amazon.es",
+   "category": "rug",
+   "name": "Rivet - Alfombra de Lana con Flecha, 10,16 x 15,2 cm, Color Negro y Marfil",
+   "score": 62,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B0732J9VG3",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A5",
+     "product_id": "B0732J9VG3",
+     "variant": null,
+     "type": "compliance",
+     "severity": "blocking",
+     "return_risk": "material",
+     "title": "Fibre composition missing",
+     "detail": "Textile products must state their fibre composition (Regulation 1007/2011, Art. 14).",
+     "attribute": "material",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B0732J9VG3",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A16vNE-cXGL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A16vNE-cXGL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B073G7DN31",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "PB5605VLVBR",
+   "score": 75,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A9",
+     "product_id": "B073G7DN31",
+     "variant": null,
+     "type": "compliance",
+     "severity": "blocking",
+     "return_risk": "missing_info",
+     "title": "No photo of the product",
+     "detail": "The images show a logo or a placeholder. GPSR Art. 19(c) requires a picture of the product in online offers.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "61kVdTXTJ4L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B088DWRJZV",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "AmazonCommercial Ergonomic Infinite Adjustable High-Back Mesh Chair - Advanced Lumbar Technology, Black",
+   "score": 75,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A9",
+     "product_id": "B088DWRJZV",
+     "variant": null,
+     "type": "compliance",
+     "severity": "blocking",
+     "return_risk": "missing_info",
+     "title": "No photo of the product",
+     "detail": "The images show a logo or a placeholder. GPSR Art. 19(c) requires a picture of the product in online offers.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "61OnkGVhMWL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B086VYHGVF",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "Stone & Beam Seriana Tapizado Power Recliner",
+   "score": 80,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A1",
+     "product_id": "B086VYHGVF",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "missing_info",
+     "title": "Listed as chair, photos show a sofa",
+     "detail": "Shoppers browsing chairs will not expect a sofa. Check the category.",
+     "attribute": "category",
+     "spec_value": "chair",
+     "found_value": "sofa",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "71kYVsO++6L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      },
+      {
+       "source": "photo",
+       "file": "71RMAyB8hIL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    },
+    {
+     "rule": "A3",
+     "product_id": "B086VYHGVF",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4I5G",
+   "domain": "amazon.it",
+   "category": "rug",
+   "name": "Pinzon Paisley Vine Verde, Fodera in Lana Tappeto",
+   "score": 80,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I5G",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A5",
+     "product_id": "B001LF4I5G",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "material",
+     "title": "Material field does not match the description",
+     "detail": "The material field says 'Camoscio', the description says '100% lana, 100% cotone'.",
+     "attribute": "material",
+     "spec_value": "Camoscio",
+     "found_value": "100% lana, 100% cotone",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HP2",
+   "domain": "amazon.it",
+   "category": "rug",
+   "name": "Pinzon Akemi Hand-Tufted Tappeto di Lana, 5x8",
+   "score": 84,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HP2",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HP2",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A5",
+     "product_id": "B001LF4HP2",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "material",
+     "title": "Material field does not match the description",
+     "detail": "The material field says 'Camoscio', the description says '100% lana, 100% cotone'.",
+     "attribute": "material",
+     "spec_value": "Camoscio",
+     "found_value": "100% lana, 100% cotone",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HXY",
+   "domain": "amazon.co.uk",
+   "category": "rug",
+   "name": "Pinzon Nantucket Stripe 2'3-by-7'10 Hand-Hooked Wool Rug",
+   "score": 84,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HXY",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HXY",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A5",
+     "product_id": "B001LF4HXY",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "material",
+     "title": "Write the fibre as '100% …'",
+     "detail": "'Cotton' alone does not say the rug is pure cotton; '100% cotton' is clearer for shoppers.",
+     "attribute": "material",
+     "spec_value": "Cotton",
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HW0",
+   "domain": "amazon.it",
+   "category": "rug",
+   "name": "Pinzon Medallion Hand-Hooked Tappeto di Lana, 3'6x5'6",
+   "score": 84,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HW0",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HW0",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A5",
+     "product_id": "B001LF4HW0",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "material",
+     "title": "Material field does not match the description",
+     "detail": "The material field says 'Camoscio', the description says '100% lana, 100% cotone'.",
+     "attribute": "material",
+     "spec_value": "Camoscio",
+     "found_value": "100% lana, 100% cotone",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HUW",
+   "domain": "amazon.co.uk",
+   "category": "rug",
+   "name": "Pinzon Concord 7'6-by-9'6 Hand-Tufted Wool Rug",
+   "score": 84,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HUW",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HUW",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A5",
+     "product_id": "B001LF4HUW",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "material",
+     "title": "Write the fibre as '100% …'",
+     "detail": "'Cotton' alone does not say the rug is pure cotton; '100% cotton' is clearer for shoppers.",
+     "attribute": "material",
+     "spec_value": "Cotton",
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B071LNPYPF",
+   "domain": "amazon.de",
+   "category": "rug",
+   "name": "Stone & Beam Modern Wool Rug",
+   "score": 84,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B071LNPYPF",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B071LNPYPF",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B071LNPYPF",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "81r5E4nthdL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "81r5E4nthdL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B004C046UE",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Strathwood Basics Adirondack Ottoman, White",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B004C046UE",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B004C046UE",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "Colour only in the name",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07JK8CKL6",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "Movian Up Round",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07JK8CKL6",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 375 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "31ir9cL+JwL",
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07JK8CKL6",
+     "variant": null,
+     "type": "quality",
+     "severity": "review",
+     "return_risk": "missing_info",
+     "title": "Main image shows 2 products, the name does not say it is a set",
+     "detail": "Shoppers may expect several items. Say 'set of 2' in the name or show one product.",
+     "attribute": "quantity",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51KaRdfEvIL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "51KaRdfEvIL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B004AM7CUA",
+   "domain": "amazon.nl",
+   "category": "chair",
+   "name": "Strathwood tuinmeubelen - Brook armleuningstoel, set van 2",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B004AM7CUA",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B004AM7CUA",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B008YRJVS8",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "Strathwood Basics - Poltroncina per esterni imbottita, Marrone",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B008YRJVS8",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B008YRJVS8",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "Colour only in the name",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B005CG4E6S",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Strathwood Basics Adirondack Chair, Dark Brown",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B005CG4E6S",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B005CG4E6S",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "Colour only in the name",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B00AZ7S6N6",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "Strathwood Vashon set med 2 matstolar i ädelträ",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B00AZ7S6N6",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B00AZ7S6N6",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B000W9BP4O",
+   "domain": "amazon.nl",
+   "category": "sofa",
+   "name": "Strathwood Tuinmeubelen - Sint Thomas 2-zitsbank van aluminium met zitkussen",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B000W9BP4O",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B000W9BP4O",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TCGFJ29",
+   "domain": "amazon.de",
+   "category": "rug",
+   "name": "An Amazon Brand - Movian Ogosta - Rectangular Rug - 72\" L x 48\" W Geometric Pattern",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07TCGFJ29",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07TCGFJ29",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A13Hz+iNFiL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A13Hz+iNFiL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HV6",
+   "domain": "amazon.es",
+   "category": "rug",
+   "name": "Pinzón Concord Hecha a Mano Alfombra de Lana",
+   "score": 87,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HV6",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HV6",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HSY",
+   "domain": "amazon.es",
+   "category": "rug",
+   "name": "Pinzón Art Nouveau Tejida Damasco Alfombra de Lana",
+   "score": 87,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HSY",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HSY",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07T9CZYXR",
+   "domain": "amazon.de",
+   "category": "rug",
+   "name": "An Amazon Brand - Movian Kriva - Rectangle Rug - Plain - 69\" L x 45\" W",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07T9CZYXR",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07T9CZYXR",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1byAxfzBzL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1byAxfzBzL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TCG9YG5",
+   "domain": "amazon.de",
+   "category": "rug",
+   "name": "An Amazon Brand - Movian Vit - Rectangular Rug - 90\" L x 26\" W - Geometric Pattern",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07TCG9YG5",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07TCG9YG5",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1HrVijh+FL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1HrVijh+FL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TFPC4D6",
+   "domain": "amazon.it",
+   "category": "rug",
+   "name": "Amazon Brand - Movian Mesta - Tappeto rettangolare, 175,3 x 114,3 cm (Lu x La), motivo geometrico",
+   "score": 87,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A5",
+     "product_id": "B07TFPC4D6",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "material",
+     "title": "Material field does not match the description",
+     "detail": "The material field says 'Poliuretano', the description says '100% polipropil'.",
+     "attribute": "material",
+     "spec_value": "Poliuretano",
+     "found_value": "100% polipropil",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07TFPC4D6",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "91cYgiSEqrL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "91cYgiSEqrL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07LC5VSFG",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "UMI. Essentials Sedia da Ufficio Sedia da Scrivania Sedia Ergonomica (Nero)",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B07LC5VSFG",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B00GBWFAXS",
+   "domain": "amazon.nl",
+   "category": "chair",
+   "name": "Strathwood Garden Furniture - Basics Adirondack Stoel met bekerhouder Wit",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B00GBWFAXS",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07K7SDQS6",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "Marca Amazon - Alkove - Hayes - Silla moderna (roble salvaje)",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A2",
+     "product_id": "B07K7SDQS6",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "colour",
+     "title": "Colour 'Cream' but the photos look black",
+     "detail": "Shoppers return products whose colour differs from the listing. Check the colour name or the photos.",
+     "attribute": "colour",
+     "spec_value": "Cream",
+     "found_value": "black",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "71WM-3H9NEL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      },
+      {
+       "source": "photo",
+       "file": "71texv2vpeL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07NLTBB2Y",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "UMI. Essentials Sedia Gaming Musicale Sedia da Corsa Sedia da Scrivania Sedia da Ufficio Design Ergonomico (Bianco)",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07NLTBB2Y",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07VC3QP7G",
+   "domain": "amazon.nl",
+   "category": "chair",
+   "name": "AmazonBasics Extra Comfort Executive stoel met hoge rugleuning met opklapbare armen en Lumbar-ondersteuning Uitvoerend High Back BRON",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07VC3QP7G",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07HH16Q89",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "AmazonBasics skola klassrum stapelstol, kromben, 6-pack, 10inch, BLÅ",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07HH16Q89",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07QDNS4RK",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "Rivet Florence Mid-Century - Set di 2 sedie da pranzo con schienale alto, 33 cm, colore: Avorio",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07QDNS4RK",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07PYP9HFF",
+   "domain": "amazon.nl",
+   "category": "chair",
+   "name": "UMI. Essentials Office Draaibare Ergonomische Bureau PC Computer Executive stoel",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B07PYP9HFF",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TJSXWDT",
+   "domain": "amazon.nl",
+   "category": "chair",
+   "name": "AmazonBasics High Back Executive Draaibare stoel met geribbelde Puresoft PU Uitvoerend High Back Kleur: wit",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07TJSXWDT",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B086VZJYKP",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "Stone & Beam - Mecedora reclinable tapizada con alcohol",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B086VZJYKP",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07J55B89H",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "Movian Andromeda 2 Seater Grey",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A1",
+     "product_id": "B07J55B89H",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "missing_info",
+     "title": "Listed as chair, photos show a sofa",
+     "detail": "Shoppers browsing chairs will not expect a sofa. Check the category.",
+     "attribute": "category",
+     "spec_value": "chair",
+     "found_value": "sofa",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "510YL9Xup1L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      },
+      {
+       "source": "photo",
+       "file": "71tplEpvROL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B086VYBN4C",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "Stone & Beam Alkohol, gepolsterter Schaukelstuhl sich zurücklehnender Schaukelstuhl Treibholz-Braun",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B086VYBN4C",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07QDNRFFH",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Stone & Beam Chaise de Salle à Manger 33,5 po H",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07QDNRFFH",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07SMJY4M5",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "Stol Lukas Modern Vild ek",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07SMJY4M5",
+     "variant": null,
+     "type": "quality",
+     "severity": "review",
+     "return_risk": "missing_info",
+     "title": "Main image shows 2 products, the name does not say it is a set",
+     "detail": "Shoppers may expect several items. Say 'set of 2' in the name or show one product.",
+     "attribute": "quantity",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "719uZIxsAxL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "719uZIxsAxL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07R4HFS8K",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "AmazonBasics Ergonomischer Chefsessel mit Verstellbarer Sitzfläche und Kopfstütze, Schwarz",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07R4HFS8K",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07DC1YGCT",
+   "domain": "amazon.nl",
+   "category": "chair",
+   "name": "UMI. Essentials Gamingstoel, bureaustoel met verstelbare rugleuningen",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B07DC1YGCT",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07HH1QCLD",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "AmazonBasics skola klassrum stapelstol, kromben, 6-pack, 10inch, 3 Color Assorted",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07HH1QCLD",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07V3LSNPT",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "AmazonCommercial - Respaldo Alto ergonómico",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07V3LSNPT",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B0829F1BQN",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "AmazonBasics – Reclinable para juegos para niños y jóvenes con reposacabezas y almohada trasera, grupo de edad de 5 años (color rojo)",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B0829F1BQN",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07LC5T48D",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "UMI Chaise Gaming de Bureau Fauteuil Gamers Siège Ergonomique Hauteur Réglable (Bleu)",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B07LC5T48D",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07MND9KMZ",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "Zero graity stolpaket med 2 med sidobord BLÅ",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07MND9KMZ",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07VYL517P",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "AmazonBasics - Silla giratoria ejecutiva de Respaldo Alto con Poliuretano Acanalado (Color Rojo)",
+   "score": 90,
+   "photos_analysed": 3,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07VYL517P",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07LC6ZZL2",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "UMI. Essentials Ergonomic Office Chair, Desk Chair, Executive Chair",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B07LC6ZZL2",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07SPHTGR9",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "AmazonBasics hopfällbar plaststol – 350 lb. Kapacitet Hopfällbar 4-Pack Svart",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07SPHTGR9",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B087RRW9D6",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "Ravenna Home Oakesdale - Sillón reclinable contemporáneo, 35.4\" W, Langley Buff (renovado)",
+   "score": 90,
+   "photos_analysed": 3,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B087RRW9D6",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07MMPT7C9",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "UMI. Essentials Gaming High Back Office Desk Racing Reclining Computer Swivel Chair (Red)",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B07MMPT7C9",
+     "variant": null,
+     "type": "missing",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "No dimensions",
+     "detail": "Size is the top reason for furniture returns; add width, depth and height.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07ZQT5NT9",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "AmazonCommercial Ergonomischer Schreibtischstuhl/Computerstuhl mit mittlerer Rückenlehne, verstellbare Sitzfläche, Armlehnen und Lendenwirbelstütze (erneuert) grau",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07ZQT5NT9",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07HMP8SPW",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "AmazonBasics - Sedia a dondolo pieghevole, Blu",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07HMP8SPW",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07QQ6ZRSN",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "AmazonBasics modern justerbar låg rygg armlös ribbad uppgift stol Tegelröd",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07QQ6ZRSN",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07J59D8V1",
+   "domain": "amazon.co.uk",
+   "category": "sofa",
+   "name": "Movian Laura Chair Purple",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A1",
+     "product_id": "B07J59D8V1",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "missing_info",
+     "title": "Listed as sofa, photos show a chair",
+     "detail": "Shoppers browsing sofas will not expect a chair. Check the category.",
+     "attribute": "category",
+     "spec_value": "sofa",
+     "found_value": "chair",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "51osjNc9XuL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      },
+      {
+       "source": "photo",
+       "file": "51wXNdjRRPL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07HHF8QZL",
+   "domain": "amazon.it",
+   "category": "sofa",
+   "name": "Marchio Amazon - Movian Enan - Divano angolare a 3 posti, 266 x 86 x 73 cm, marrone",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A2",
+     "product_id": "B07HHF8QZL",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "colour",
+     "title": "Colour 'Marrone' but the photos look grey",
+     "detail": "Shoppers return products whose colour differs from the listing. Check the colour name or the photos.",
+     "attribute": "colour",
+     "spec_value": "Marrone",
+     "found_value": "grey",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "61H9menCU3L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      },
+      {
+       "source": "photo",
+       "file": "61iGypG-fRL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07VSV4783",
+   "domain": "amazon.it",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Ribe - Divano a 3 posti, 92 x 200 x 85 cm (Lu x La x A), verde scuro",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A2",
+     "product_id": "B07VSV4783",
+     "variant": null,
+     "type": "contradictory",
+     "severity": "review",
+     "return_risk": "colour",
+     "title": "Colour 'Verde Scuro' but the photos look grey",
+     "detail": "Shoppers return products whose colour differs from the listing. Check the colour name or the photos.",
+     "attribute": "colour",
+     "spec_value": "Verde Scuro",
+     "found_value": "grey",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "81yiaE45j+L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      },
+      {
+       "source": "photo",
+       "file": "81qEAy76QOL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B4XK5KS",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Rivet Mid Century lámpara de pie moderna para salón con foco de luz – 58,5 pulgadas, latón",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07B4XK5KS",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B4W2X69",
+   "domain": "amazon.de",
+   "category": "lamp",
+   "name": "Moderne Tischleuchte aus Keramik 15.5\" blau",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07B4W2X69",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07PY81QLV",
+   "domain": "amazon.fr",
+   "category": "lamp",
+   "name": "Rivet Modern Home ALT17032519S Lampe de table Argenté",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07PY81QLV",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B075X2XZ8X",
+   "domain": "amazon.de",
+   "category": "lamp",
+   "name": "Stone & Beam Walters Vintage Arbeitsleuchte mit Glühbirne schwarz",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B075X2XZ8X",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07QB7GG63",
+   "domain": "amazon.it",
+   "category": "lamp",
+   "name": "Stone & Beam Vintage Farmhouse Lampada da tavolo, 20,5\"H, grigio invecchiato",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07QB7GG63",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B073P3NL8B",
+   "domain": "amazon.fr",
+   "category": "lamp",
+   "name": "Rivet Hudson Mid-century Laiton Lampadaire, lampe de table Lampe à pied Laiton aspect ancien",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B073P3NL8B",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B4W2ZRW",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Stone & Beam Lámpara de mesa de trípode industrial moderna con foco de luz – 13 x 13 x 20 pulgadas, pino con pantalla de lino",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07B4W2ZRW",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07HK83QRB",
+   "domain": "amazon.de",
+   "category": "lamp",
+   "name": "Tischlampe mit LED-Lampe, modernes Design, mit USB-Port, 21,6 cm Höhe, satiniertes Messing mit Holz",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07HK83QRB",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B0742DJS8J",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Rivet - Lámpara de pie para trípode minimalista",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B0742DJS8J",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B073P25SYK",
+   "domain": "amazon.de",
+   "category": "lamp",
+   "name": "Amazon Brand – Rivet Adjustable Modern 3-Arm Floor Lamp with Bulb and Burlap Shade, 77\" H",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B073P25SYK",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B075X12HWJ",
+   "domain": "amazon.fr",
+   "category": "lamp",
+   "name": "Rivet Éclairage Moderne Lampe de table Black & Antique Brass",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B075X12HWJ",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B4YY8H3",
+   "domain": "amazon.de",
+   "category": "lamp",
+   "name": "Moderne Lampe Niet Mid-Century Schreibtischlampe Matte Black With Brushed Steel Accents",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07B4YY8H3",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B075X12HW9",
+   "domain": "amazon.it",
+   "category": "lamp",
+   "name": "Rivetto Lampada da terra moderna con lampadina, 58\"H, legno e ottone",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B075X12HW9",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07HK5JJD6",
+   "domain": "amazon.fr",
+   "category": "lamp",
+   "name": "Rivet Lampe de table contemporaine en forme de palmier Blanc 30 cm Palmier vert/jaune",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07HK5JJD6",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B075X12K17",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Stone & Beam Eddy Lámpara de mesa moderna de cerámica con bombilla",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B075X12K17",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07K51RV9K",
+   "domain": "amazon.de",
+   "category": "lamp",
+   "name": "UMI Table Lamp Fabric Shade with Rectangular Wood Base 11.5 Inches",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07K51RV9K",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B076V626RZ",
+   "domain": "amazon.fr",
+   "category": "lamp",
+   "name": "Stone & ‿Beam Walters Lampe de travail vintage avec ampoule bleu",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B076V626RZ",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B073P3HHFV",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Rivet Mid Century Lámpara de pie de 3 brazos para sala de estar con bombillas de 69 pulgadas, latón con pantalla negra",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B073P3HHFV",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B075X2LLTD",
+   "domain": "amazon.de",
+   "category": "lamp",
+   "name": "Niet Geo Diamond Black Moderne Tischlampe aus Keramik mit LED-Leuchtmittel 22.75\" schwarz",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B075X2LLTD",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B075X2Y3Q9",
+   "domain": "amazon.fr",
+   "category": "lamp",
+   "name": "Lampe de table blanche Transitionnel Milk Glass",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B075X2Y3Q9",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07NRMYB1P",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Lámpara de mesa con diseño de tetera",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07NRMYB1P",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B4ZC524",
+   "domain": "amazon.de",
+   "category": "lamp",
+   "name": "Stone & Beam Moderne Beleuchtung Schreibtischlampe gebürsteter stahl",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07B4ZC524",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B4Z9PL9",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Stone & Beam Lámpara de pie moderna para sala de estar con luz LED integrada – 9 x 16 x 49 pulgadas, color negro mate",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07B4Z9PL9",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B073P2PV7M",
+   "domain": "amazon.de",
+   "category": "lamp",
+   "name": "Rivet Hudson Mid-Century Stehlampe, Messing Tischlampe messing antik-optik",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B073P2PV7M",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B4W23RR",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Stone & Beam - Lámpara de pie moderna con 2 bombillas y pantalla acrílica (14 x 14 x 59,5 pulgadas), color negro",
+   "score": 90,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A3",
+     "product_id": "B07B4W23RR",
+     "variant": null,
+     "type": "compliance",
+     "severity": "review",
+     "return_risk": "dimensions",
+     "title": "Dimensions in inches on a European shop",
+     "detail": "EU shoppers expect metric units (Directive 80/181/EEC); inches cause size mistakes and returns. Convert to cm.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001DA386Y",
+   "domain": "amazon.co.uk",
+   "category": "rug",
+   "name": "Pinzon 7'6 X 9'6 Hand-tufted Villa Wool Rug",
+   "score": 91,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001DA386Y",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001DA386Y",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A6",
+     "product_id": "B001DA386Y",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (328 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51DYv1elYdL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001DA109Q",
+   "domain": "amazon.co.uk",
+   "category": "rug",
+   "name": "Pinzon 7'6 X 9'6 Hand-tufted Woodstock Wool Rug",
+   "score": 91,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001DA109Q",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001DA109Q",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A6",
+     "product_id": "B001DA109Q",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (323 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51BYlMrob5L",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001DA385U",
+   "domain": "amazon.co.uk",
+   "category": "rug",
+   "name": "Pinzon 3'6 X 5'6 Hand-tufted Summer Garden Wool Rug",
+   "score": 91,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001DA385U",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001DA385U",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A6",
+     "product_id": "B001DA385U",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (326 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51vcP6XzBCL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001DA0KVK",
+   "domain": "amazon.co.uk",
+   "category": "rug",
+   "name": "Pinzon 5 X 8 Hand-tufted Loft Wool Rug",
+   "score": 91,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001DA0KVK",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001DA0KVK",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A6",
+     "product_id": "B001DA0KVK",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (319 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51V1GLwjA3L",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001DA0KT2",
+   "domain": "amazon.co.uk",
+   "category": "rug",
+   "name": "Pinzon 7'6 X 9'6 Hand-tufted Summer Garden Wool Rug",
+   "score": 91,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001DA0KT2",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001DA0KT2",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A6",
+     "product_id": "B001DA0KT2",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (326 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51vcP6XzBCL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001DA0KY2",
+   "domain": "amazon.co.uk",
+   "category": "rug",
+   "name": "Pinzon 5 X 8 Hand-hooked Autumn Border Wool Rug",
+   "score": 91,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001DA0KY2",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001DA0KY2",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A6",
+     "product_id": "B001DA0KY2",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (315 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51xS-yKgqEL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4I06",
+   "domain": "amazon.es",
+   "category": "rug",
+   "name": "Pinzón Paintbox Azulejos Hand-Hooked Alfombra de Lana, 2'3x7'10",
+   "score": 94,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I06",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I06",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "Colour only in the name",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B51HJZY",
+   "domain": "amazon.com",
+   "category": "rug",
+   "name": "Amazon Brand – Rivet Contemporary Striated Jute Area Rug, 7' 5\" x 5' 3\", Citron",
+   "score": 94,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A5",
+     "product_id": "B07B51HJZY",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "material",
+     "title": "Write the fibre as '100% …'",
+     "detail": "'jute' alone does not say the rug is pure jute; '100% jute' is clearer for shoppers.",
+     "attribute": "material",
+     "spec_value": "jute",
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07B51HJZY",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "91CXvfJNaNL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "91CXvfJNaNL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4I1A",
+   "domain": "amazon.de",
+   "category": "rug",
+   "name": "Pinzon Badteppich Paintbox Fliesen Hand-Hooked Wolle Teppich, 7'6x9'6",
+   "score": 94,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I1A",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I1A",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4I60",
+   "domain": "amazon.fr",
+   "category": "rug",
+   "name": "Pinzon Sketchy Floral Main Tapis en Laine, 2'3x7'10",
+   "score": 94,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I60",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I60",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HTI",
+   "domain": "amazon.es",
+   "category": "rug",
+   "name": "Pinzón Concord Hecha a Mano Alfombra de Lana, 2'3x7'10",
+   "score": 94,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HTI",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HTI",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4I7E",
+   "domain": "amazon.de",
+   "category": "rug",
+   "name": "Pinzon Badteppich Sketchy Floral Wolle – Handgetuftet Teppich, 5x8",
+   "score": 94,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I7E",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I7E",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07Q9CS6C3",
+   "domain": "amazon.com",
+   "category": "rug",
+   "name": "Amazon Basics Modern Plush High-Pile Shag Area Rug - 8x10 (7'10\" x 9'10\"), Ivory",
+   "score": 94,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A5",
+     "product_id": "B07Q9CS6C3",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "material",
+     "title": "Write the fibre as '100% …'",
+     "detail": "'Polypropylene' alone does not say the rug is pure polypropylene; '100% polypropylene' is clearer for shoppers.",
+     "attribute": "material",
+     "spec_value": "Polypropylene",
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07Q9CS6C3",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "912DiqNTYAL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "912DiqNTYAL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HSO",
+   "domain": "amazon.it",
+   "category": "rug",
+   "name": "Pinzon Art Nouveau, Fodera damascata in Tappeto, 7'6x9'6",
+   "score": 94,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HSO",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HSO",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HUC",
+   "domain": "amazon.es",
+   "category": "rug",
+   "name": "Pinzón Concord Hecha a Mano Alfombra de Lana, 5x8",
+   "score": 94,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HUC",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HUC",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HWK",
+   "domain": "amazon.de",
+   "category": "rug",
+   "name": "Pinzon Badteppich Medaillon Hand-Hooked Wolle Teppich, 5x8",
+   "score": 94,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HWK",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HWK",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07B4YVDH9",
+   "domain": "amazon.com",
+   "category": "rug",
+   "name": "Amazon Brand – Rivet Contemporary Geometric Wool Runner Hallway Rug, 2' 6\" x 8', Grey, Ivory",
+   "score": 94,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A5",
+     "product_id": "B07B4YVDH9",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "material",
+     "title": "Write the fibre as '100% …'",
+     "detail": "'wool' alone does not say the rug is pure wool; '100% wool' is clearer for shoppers.",
+     "attribute": "material",
+     "spec_value": "wool",
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07B4YVDH9",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "81zqBi0kpUL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "81zqBi0kpUL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HS4",
+   "domain": "amazon.it",
+   "category": "rug",
+   "name": "Pinzon Art Nouveau, Fodera damascata in Tappeto, 5x8",
+   "score": 94,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HS4",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HS4",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4I10",
+   "domain": "amazon.fr",
+   "category": "rug",
+   "name": "Pinzon Paintbox carrelage Hand-Hooked Tapis en Laine, 5x8",
+   "score": 94,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I10",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I10",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HYS",
+   "domain": "amazon.de",
+   "category": "rug",
+   "name": "Pinzon Badteppich Nantucket Stripe Hand-Hooked Wolle Teppich, 5x8",
+   "score": 94,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HYS",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HYS",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4HOI",
+   "domain": "amazon.fr",
+   "category": "rug",
+   "name": "Pinzon Akemi Main Tapis en Laine, 2'3x7'10",
+   "score": 94,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HOI",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4HOI",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07Q9TCY28",
+   "domain": "amazon.com",
+   "category": "rug",
+   "name": "Amazon Basics Modern Plush Moroccan Trellis Shag Area Rug - 5x8 (4'11\" x 7'8\"), Grey",
+   "score": 94,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A5",
+     "product_id": "B07Q9TCY28",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "material",
+     "title": "Write the fibre as '100% …'",
+     "detail": "'Polypropylene' alone does not say the rug is pure polypropylene; '100% polypropylene' is clearer for shoppers.",
+     "attribute": "material",
+     "spec_value": "Polypropylene",
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A8",
+     "product_id": "B07Q9TCY28",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "91MDo6WphCL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "91MDo6WphCL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4I7Y",
+   "domain": "amazon.es",
+   "category": "rug",
+   "name": "Pinzón Sketchy Floral Hecha a Mano Alfombra de Lana, 7'6x9'6",
+   "score": 94,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I7Y",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I7Y",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "colour",
+     "title": "No colour",
+     "detail": "The colour field is empty; fill it so shoppers can filter and compare.",
+     "attribute": "colour",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07QZ21DDV",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Marque Amazon - Movian Scutari - Chaise d'appoint, 75 x 78 x 78 cm, Gris clair",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07QZ21DDV",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "81A75b7Os7L",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "81A75b7Os7L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07JKJN1V1",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "Amazon-märke - Movian Crow Matsalsstol Maße: 79.5 H x 55.0 L x 59.0 B LJUSGRÅ",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07JKJN1V1",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 375 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "3154M9BgM9L",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B004Y15DJO",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "Topstar 70570BB00 Swivel Chair for Children and Teenagers High School Fabric Cover Black",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B004Y15DJO",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51RZorohNQL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07JKJS833",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "Amazon-märke – Movian Up Round Set med 2 matstolar Maße: 88,5 H x 43,5 L x 55,0 B GRÅ",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07JKJS833",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 375 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "31Uztl21lQL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07K2JG96F",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "Stone & Beam Alloy Swatch, Stone & Beam",
+   "score": 97,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A1",
+     "product_id": "B07K2JG96F",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Fabric sample listed as a chair",
+     "detail": "This listing sells a fabric sample, not a chair; shoppers browsing chairs land on it. A separate 'samples' category avoids that.",
+     "attribute": "category",
+     "spec_value": "chair",
+     "found_value": "fabric sample",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1j-EOBK9xL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07JX7P4L3",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Marque Amazon - Movian Elbe - Chaise de salle à manger, gris",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07JX7P4L3",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 375 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "41G6C4LcowL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07JK8CL2Z",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "Amazon Brand - Movian Square",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07JK8CL2Z",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 375 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "31H8zV2KwyL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07JKJHT8Y",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "Movian Elbe – Sedia da pranzo, colore grigio chiaro",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07JKJHT8Y",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 375 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51jxI3be2uL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07JK8GF1G",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "Amazon-märke – filmfyrkant Matsalsstol Maße: 79.0 H x 57.0 L x 57.0 B GRÅ",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07JK8GF1G",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 375 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "31H8zV2KwyL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TGC2DT5",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "Amazon Brand - Movian Sils - Silla de comedor, 46,5 x 63 x 80 cm, gris",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07TGC2DT5",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (464 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "41TtEvj0JNL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07K29VZ2Q",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "Stone & Beam 25020075-03 Steamboat Holzkohlemuster",
+   "score": 97,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A1",
+     "product_id": "B07K29VZ2Q",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Fabric sample listed as a chair",
+     "detail": "This listing sells a fabric sample, not a chair; shoppers browsing chairs land on it. A separate 'samples' category avoids that.",
+     "attribute": "category",
+     "spec_value": "chair",
+     "found_value": "fabric sample",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1SJHWe9iYL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07SMK147S",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "Set sedia Helsinki moderno Mocca",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07SMK147S",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 269 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "21hLTHnZbJL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07JJZ1M8D",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Marque Amazon - Movian Wye - Tabouret, gris foncé",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07JJZ1M8D",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 375 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "41Wgr7XeTKL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TJW3NB3",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Marque Amazon - Movian Mures - Lot de 2 chaises de salle à manger, 61 x 44 x 96,5 cm, Noir",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07TJW3NB3",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (403 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "41qEhHXBznL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07R4TY73P",
+   "domain": "amazon.de",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Scutari - 3 Seater Sofa Bed, 194 x 95 x 89, Dark Grey",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07R4TY73P",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "81bk9w4oeWL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "81bk9w4oeWL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07HGMKNV7",
+   "domain": "amazon.co.uk",
+   "category": "sofa",
+   "name": "Amazon Brand - Rivet Elliot Easy Pull-Out Sofa Bed, 87 x 181 x 90cm, Grey",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B07HGMKNV7",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07R3TWDTM",
+   "domain": "amazon.de",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Keitele - 2 Seater Sofa, 130 x 82 x 84, Light Grey",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07R3TWDTM",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "81Vxqj-MF6L",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "81Vxqj-MF6L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07R3TWDTT",
+   "domain": "amazon.it",
+   "category": "sofa",
+   "name": "Marchio Amazon - Movian Keitele - Divano a 2 posti, 130 x 82 x 84 cm, blu",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07R3TWDTT",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "81MBfiPcEDL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "81MBfiPcEDL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07KR4XN44",
+   "domain": "amazon.de",
+   "category": "sofa",
+   "name": "Midnight Swatch, Ravenna Home 25030054",
+   "score": 97,
+   "photos_analysed": 1,
+   "issues": [
+    {
+     "rule": "A1",
+     "product_id": "B07KR4XN44",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Fabric sample listed as a sofa",
+     "detail": "This listing sells a fabric sample, not a sofa; shoppers browsing sofas land on it. A separate 'samples' category avoids that.",
+     "attribute": "category",
+     "spec_value": "sofa",
+     "found_value": "fabric sample",
+     "proposed_value": null,
+     "file": null,
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1Cfq7ouuoL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07G2FLVFN",
+   "domain": "amazon.co.uk",
+   "category": "sofa",
+   "name": "ROSSINI MILAZZO 2 SEATER",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B07G2FLVFN",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (500 × 427 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "51pMHCJKwDL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B0857P684G",
+   "domain": "amazon.com",
+   "category": "lamp",
+   "name": "AmazonBasics Natural Himalayan Salt Plug-in Night Light - Cylinder Shape",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A6",
+     "product_id": "B0857P684G",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Low-resolution image (375 × 500 px)",
+     "detail": "Too small for zoom; replace it.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "21pKK8S-7pL",
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TGNG6MZ",
+   "domain": "amazon.it",
+   "category": "rug",
+   "name": "Amazon Brand - Movian Lom - Tappeto rettangolare, 228,6 x 68,6 cm (Lu x La), motivo geometrico",
+   "score": 97,
+   "photos_analysed": 3,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07TGNG6MZ",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1iqW8ZOhFL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1iqW8ZOhFL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TCGGCJ8",
+   "domain": "amazon.fr",
+   "category": "rug",
+   "name": "Marque Amazon - Movian Struma Tapis rectangulaire, 228,6 x 66 cm (longueur x largeur), Motif formes géométriques",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07TCGGCJ8",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A18RR-z5UdL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A18RR-z5UdL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TGNYX6H",
+   "domain": "amazon.co.uk",
+   "category": "rug",
+   "name": "Amazon Brand - Movian Kriva, Rectangular area rug, 175.3 cm x 114.3 cm (L x W), Solid Color pattern",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07TGNYX6H",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1gr9YCle-L",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1gr9YCle-L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B071SHLFH6",
+   "domain": "amazon.com",
+   "category": "rug",
+   "name": "Amazon Brand – Rivet Modern Wave Cosmopolitan Area Rug, 5 x 7 Foot, Blue",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B071SHLFH6",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A14y7nfwa2L",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A14y7nfwa2L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TCG9H3N",
+   "domain": "amazon.fr",
+   "category": "rug",
+   "name": "Marque Amazon - Movian Vit Tapis rectangulaire, 228,6 x 66 cm (longueur x largeur), Motif formes géométriques",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07TCG9H3N",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1roQwv8WoL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1roQwv8WoL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TFPCSRJ",
+   "domain": "amazon.fr",
+   "category": "rug",
+   "name": "Marque Amazon - Movian Timok Tapis rectangulaire, 121,9 x 61 cm (longueur x largeur), Motif formes géométriques",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07TFPCSRJ",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "9175o4K9xEL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "9175o4K9xEL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B0732J9VG6",
+   "domain": "amazon.com",
+   "category": "rug",
+   "name": "Amazon Brand – Rivet Abstract Reflections Modern Wool Area Rug, 4 x 6 Foot, Navy Blue",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B0732J9VG6",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1BH39z8UXL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1BH39z8UXL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TBF32DV",
+   "domain": "amazon.fr",
+   "category": "rug",
+   "name": "Marque Amazon - Movian Timok Tapis rectangulaire, 182,9 x 121,9 cm (longueur x largeur), Motif formes géométriques",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07TBF32DV",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "91SaseabSHL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "91SaseabSHL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07T88LDLG",
+   "domain": "amazon.es",
+   "category": "rug",
+   "name": "Marca de Amazon - Movian Kriva, alfombra rectangular, 243,8 de largo x 68,6 cm de ancho (diseño liso)",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07T88LDLG",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1BFpxbX7rL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1BFpxbX7rL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07QFB1JJB",
+   "domain": "amazon.com",
+   "category": "rug",
+   "name": "Amazon Brand – Rivet Handtufted Diamond-Patterned Cotton and Wool Rug Runner, 2'6\" x 8', Cream with Orange and Blue",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07QFB1JJB",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1vLJpJ7cwL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1vLJpJ7cwL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TFP8SM1",
+   "domain": "amazon.es",
+   "category": "rug",
+   "name": "Marca de Amazon - Movian Kriva, alfombra rectangular, 243,8 de largo x 68,6 cm de ancho (diseño liso)",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07TFP8SM1",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A164Kh9QlXL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A164Kh9QlXL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B001LF4I2Y",
+   "domain": "amazon.it",
+   "category": "rug",
+   "name": "Pinzon Paisley Vine Verde, Fodera in Lana Tappeto, Green, 2'3x7'10",
+   "score": 97,
+   "photos_analysed": 2,
+   "issues": [
+    {
+     "rule": "A4",
+     "product_id": "B001LF4I2Y",
+     "variant": null,
+     "type": "missing",
+     "severity": "info",
+     "return_risk": "dimensions",
+     "title": "Size only in the text",
+     "detail": "The name or description gives the size, but the size fields are empty, so shoppers cannot filter or compare by size.",
+     "attribute": "dimensions",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07QHL6SYG",
+   "domain": "amazon.com",
+   "category": "rug",
+   "name": "Amazon Brand – Rivet Contemporary Handtufted Cotton-and-Wool Area Rug with Geometric Feathered Pattern, 5' x 8', Purple and Cream",
+   "score": 97,
+   "photos_analysed": 4,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07QHL6SYG",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1ja54jsGaL",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1ja54jsGaL",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07TFP9PSH",
+   "domain": "amazon.it",
+   "category": "rug",
+   "name": "Amazon Brand - Movian Lom - Tappeto rettangolare, 228,6 x 68,6 cm (Lu x La), motivo geometrico",
+   "score": 97,
+   "photos_analysed": 3,
+   "issues": [
+    {
+     "rule": "A8",
+     "product_id": "B07TFP9PSH",
+     "variant": null,
+     "type": "quality",
+     "severity": "info",
+     "return_risk": "none",
+     "title": "Main image is a lifestyle photo",
+     "detail": "Marketplaces expect the main image to show the product alone on a white background.",
+     "attribute": "photo",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": "A1oIfXNmS-L",
+     "evidence": [
+      {
+       "source": "photo",
+       "file": "A1oIfXNmS-L",
+       "page": null,
+       "bbox": null,
+       "text": null,
+       "note": null
+      }
+     ],
+     "status": "open"
+    }
+   ]
+  },
+  {
+   "item_id": "B07SG5X19D",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "Marca Amazon - Alkove Hayes - Juego de 2 sillas de comedor, 51 x 61 x 92 cm, metal y azul",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B086D42MT3",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "AmazonBasics Outdoor Plastic Kids Chairs - 4 Pack, White (Renewed)",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075YMY1Z9",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "Amazon Brand – Rivet Alfred Mid-Century Modern Upholstered Wide Curved Back Accent Kitchen Dining Room Chair, 25.2\"W, Felt Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B06W5XBL3D",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "Office Hippo Physio Approved Ergonomic 2 Lever Office Chair with Height Adjustable Arms and Adjustable Lumbar Support, Fabric, Charcoal",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075NR8HWJ",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "Amazon Brand Movian Dofsan Chair 100 x 93 x 86 cm Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K7NNS3L",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "Marca Amazon - Alkove - Hayes - Set de 2 sillas clásicas de madera con asiento tapizado (roble salvaje)",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07JK86YC4",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Marque Amazon - Movian Elbe - Chaise de Salle à Manger, Jaune Moutarde",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07TJWD8RP",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "Amazon Brand - Movian Arendsee - Juego de 2 sillas de comedor, 55 x 48,5 x 85 cm, verde",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07YN9B81V",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "AmazonBasics BIFMA Certified Gaming/Racing Style Office Chair - with Removable Headrest and High Back Cushion - Red (Renewed)",
+   "score": 100,
+   "photos_analysed": 3,
+   "issues": []
+  },
+  {
+   "item_id": "B07SG5C1R9",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "Chair Cross (Victoria) set",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07QS3M9BS",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "AmazonBasics, Sedia da ufficio, stile sportivo, con altezza e braccioli regolabili",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07TC2NYYX",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "Ett märke från Amazon – Movian Tisza – kontorsstol/vridstol basic med justerbar sitthöjd 57 x 60 x 95 cm, svart",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07QFRSLZB",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "Amazon Brand – Rivet Contemporary Channel-Back Dining Chair, 35\"H, Ivory, Set of 2",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VSTPCHB",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "Amazon Brand - Movian Galga - Poltrona, 90 x 105 x 98 cm (Lu x La x A), blu petrolio (tessuto Portland)",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B082VLWBGD",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "Amazon Brand – Stone & Beam Westview Extra-Deep Down-Filled Leather Accent Chair, 43.3\"W, Brown",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VLFWRRK",
+   "domain": "amazon.es",
+   "category": "chair",
+   "name": "Amazon Brand - Movian Galga - Silla relax, 90 x 105 x 98 cm (largo x ancho x alto), azul oscuro (tapizado Sawana)",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07HPFP4SZ",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "Movian Andre Accent Chair - Light Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07J4P8PSC",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Marque Amazon - Movian - Fauteuil modulaire City Club (avec accoudoir droit), Noir",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B082VMRLM7",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "Amazon Brand – Rivet Summit Mid-Century Modern Top-Grain Leather Steel Armed Accent Chair 27\" W, Black",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07HPJ9V3J",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "Movian Andre Accent Sofa Turquoise",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07TJV6Q7B",
+   "domain": "amazon.se",
+   "category": "chair",
+   "name": "Amazon-märke - KENSINGTON vridlås Modern Bottlegreen Velvet",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075X5TMZ1",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "Amazon Brand – Rivet Lawson Modern Angled Leather Ottoman, 27\"W, Charcoal",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075DN73KR",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "Movian Stool, Metal, Olive, B: 57 x T:59 x H: 83 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K7K8YF9",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "Alcove - Hayes Helena - Set of 2 solid wood armchairs with upholstered seat, lacquered beech",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07TKX2NYY",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "AmazonBasics - Sedia da ufficio con schienale alto e rotelle, in poliuretano Puresoft a costine, bianco",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075X5QYPN",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "Amazon Brand – Rivet Jamie Upholstered Mid-Century Modern Low Arm Accent Chair, 31\"W, Marine Blue",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07JVNB871",
+   "domain": "amazon.de",
+   "category": "chair",
+   "name": "amazon Brand Movian City Club Module Corner Armchair",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07TF7Y3CT",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Marque Amazon - Movian Arendsee - Lot de 2 chaises de salle à manger, 55 x 48,5 x 85 cm , Gris foncé/ pieds en hévéa noirs",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B072C8Q4SG",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "Amazon Brand – Stone & Beam Lummi Modern Armless Slipper Accent Chair, 21.6\"W, Chianti",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07QTD914H",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "Amazon Brand - Movian Arendsee Set of 2 Dining Chairs, 55 x 48.5 x 85 cm, Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07V9HVDP9",
+   "domain": "amazon.it",
+   "category": "chair",
+   "name": "AmazonCommercial, sedia da ufficio ergonomica, con schienale alto in pelle, braccioli ribaltabili e supporto lombare, marrone",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K84GT56",
+   "domain": "amazon.fr",
+   "category": "chair",
+   "name": "Marque Amazon - Alkove - Hayes - Set de 2 fauteuils classiques en bois avec siège tapissé, Chêne sauvage",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07TL4CQ3W",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "AmazonBasics Mid-Back Guest/Reception Chair, with Contoured Mesh Seat - Black",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B0855Z7R92",
+   "domain": "amazon.co.uk",
+   "category": "chair",
+   "name": "AmazonBasics Kids Folding Moon Indoor Papasan Chair for Children - Solid Blue (Renewed)",
+   "score": 100,
+   "photos_analysed": 1,
+   "issues": []
+  },
+  {
+   "item_id": "B07QFP4T15",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "Amazon Brand – Stone & Beam Faraday Down-Filled Casual Living Room Chair, 47\"W, Charcoal",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07N2YYSXK",
+   "domain": "amazon.com",
+   "category": "chair",
+   "name": "AmazonBasics Classic Faux Leather Extra Padded Recliner Chair - Brown",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VMLF9CB",
+   "domain": "amazon.es",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Stavis - Sofá cama, 74 x 146 x 87 cm (largo x ancho x alto), gris claro",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07R3CYRX5",
+   "domain": "amazon.de",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Scutari - 3 Seater Sofa Bed, 182 x 83 x 81, Dark Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VSTD274",
+   "domain": "amazon.it",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Rotsee - Divano a 3 posti, 92 x 231 x 81 cm (Lu x La x A), grigio chiaro (tessuto Stuart)",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07T25C9TV",
+   "domain": "amazon.fr",
+   "category": "sofa",
+   "name": "Marque Amazon - Alkove Elvas - Grand module repose-pieds pour canapé modulaire, 93 x 93 cm, Beige",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VNL9T87",
+   "domain": "amazon.se",
+   "category": "sofa",
+   "name": "Ett märke från Amazon – Movian Lina – 2,5-sits soffa, 82 x 184 x 82 cm (L x B x H) 2,5-sits soffa 82 x 184 x 82 cm (L x B x H) Antracit, svart träben",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07P5LMCLD",
+   "domain": "amazon.com",
+   "category": "sofa",
+   "name": "Amazon Brand – Rivet Sloane Mid-Century Modern Loveseat with Tufted Back, 64.2\"W, Emerald Green",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SHXZX3F",
+   "domain": "amazon.es",
+   "category": "sofa",
+   "name": "Marca Amazon - Alkove Elvas - Reposapiés grande para sofá modular, 93 x 93 cm, de lunares",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07G2RHL73",
+   "domain": "amazon.co.uk",
+   "category": "sofa",
+   "name": "ROSSINI LIFE 3 SEATER",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07QXY5VRD",
+   "domain": "amazon.it",
+   "category": "sofa",
+   "name": "AmazonBasics - Divano letto a 3 posti, 180 x 86 x 81 cm, blu luna",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VSTTV66",
+   "domain": "amazon.fr",
+   "category": "sofa",
+   "name": "Marque Amazon - Movian Eli - Canapé 3 places, 85 x 200 x 83 cm (longueur x largeur x hauteur), Rose poudreux",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07L8XW8V6",
+   "domain": "amazon.nl",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Kemi 3-Seater Gestoffeerde L-Shaped Hoekbank met Linkerzijde, 266 x 86 x 73 cm, Vlekbestendig Polyester, Grijs",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VMLFMCC",
+   "domain": "amazon.se",
+   "category": "sofa",
+   "name": "Ett märke från Amazon – Movian Eli – 3-sits soffa, 85 x 200 x 83 cm (L x B x H), antracit",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07BWMQQDR",
+   "domain": "amazon.com",
+   "category": "sofa",
+   "name": "Rivet Revolve Modern Upholstered Sofa Bed, 70\"W, Linen",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VQSWMS2",
+   "domain": "amazon.es",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Morat - Sofá de 2,5 plazas, 86 x 210 x 86 cm (largo x ancho x alto), gris claro",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VP9NWDT",
+   "domain": "amazon.de",
+   "category": "sofa",
+   "name": "AmazonBasics- Schlafsessel, 100 x 91 x 91, Dunkelblau",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07HPD5X87",
+   "domain": "amazon.it",
+   "category": "sofa",
+   "name": "Alkove Andre Accent 2 posti 115 x 61 x 84 cm Blu",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07J5974RK",
+   "domain": "amazon.fr",
+   "category": "sofa",
+   "name": "Marque Amazon - Movian - Canapé 2 places Laura, Gris",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VPNWKJ2",
+   "domain": "amazon.se",
+   "category": "sofa",
+   "name": "Ett märke från Amazon – Movian Ola – 3-sits soffa, 88 x 200 x 79 cm (L x B x H) 88 x 200 x 79 cm (L x B x H) Blassblau",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B0831Y1G6B",
+   "domain": "amazon.com",
+   "category": "sofa",
+   "name": "Amazon Brand – Stone & Beam Devonshire Modern Farmhouse Sectional Sofa Couch, 114\"W, Putty",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SFXGW77",
+   "domain": "amazon.es",
+   "category": "sofa",
+   "name": "Marca Amazon - Alkove Elvas - Reposapiés grande para sofá modular, 93 x 93 cm, gris",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07HPMF4PX",
+   "domain": "amazon.co.uk",
+   "category": "sofa",
+   "name": "Amazon Brand - Alkove Sofia Hand-Crafted Leather Sofa, 2 Seater Maxi, 90 x 190 x 77cm, Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SFXGSH9",
+   "domain": "amazon.it",
+   "category": "sofa",
+   "name": "Marchio Amazon - Alkove Elvas - Divano Modulare - Modulo poggiapiedi medio, 70 x 93 cm, pois",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VJN64JY",
+   "domain": "amazon.fr",
+   "category": "sofa",
+   "name": "AmazonBasics - Canapé convertible, 100 x 91 x 91 cm, Gris foncé",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VMLDRB7",
+   "domain": "amazon.se",
+   "category": "sofa",
+   "name": "Ett märke från Amazon – Movian Lina – 2,5-sits soffa, 82 x 184 x 82 cm (L x B x H) 2,5-sits soffa 82 x 184 x 82 cm (L x B x H) Blassrosa, svart träben",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07P8ST73W",
+   "domain": "amazon.com",
+   "category": "sofa",
+   "name": "Amazon Brand – Stone & Beam Lauren Down-Filled Oversized Leather Sofa Couch with Hardwood Frame, 89\"W, Cognac",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VPNX44L",
+   "domain": "amazon.es",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Rotsee - Sofá de 3 plazas, 92 x 231 x 81 cm (largo x ancho x alto), azul oscuro",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07HPTBB7P",
+   "domain": "amazon.co.uk",
+   "category": "sofa",
+   "name": "Amazon Brand - Alkove Porto Hand-Crafted Leather Sofa, 3 Seater, 97 x 210 x 90cm, Taupe",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SHYRLN7",
+   "domain": "amazon.de",
+   "category": "sofa",
+   "name": "Alkove Modular Sofa",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SYL3WS8",
+   "domain": "amazon.it",
+   "category": "sofa",
+   "name": "Marchio Amazon - Alkove Elvas - Divano Modulare - Modulo a seduta singola con vano contenitore e cuscino extra, 93 x 100 cm, beige",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VSTD27F",
+   "domain": "amazon.fr",
+   "category": "sofa",
+   "name": "Marque Amazon - Movian Rotsee - Canapé 3 places, 92 x 231 x 81 cm (longueur x largeur x hauteur), Vert",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VQSWXZN",
+   "domain": "amazon.se",
+   "category": "sofa",
+   "name": "Ett märke från Amazon – Movian Rotsee – 2-sits soffa, 92 x 165 x 81 cm (L x B x H) 2-sits soffa 92 x 165 x 81 cm (L x B x H) Grön",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07P6JVMJL",
+   "domain": "amazon.com",
+   "category": "sofa",
+   "name": "Amazon Brand – Rivet Cove Modern Tufted Loveseat with Tapered Legs, Mid-Century, 56\"W, Caramel",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SDFG6M1",
+   "domain": "amazon.es",
+   "category": "sofa",
+   "name": "Marca Amazon - Alkove Elvas - Reposapiés bajo para sofá modular, 48 x 93 cm, turquesa",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07HPTFK9Y",
+   "domain": "amazon.co.uk",
+   "category": "sofa",
+   "name": "Amazon Brand - Alkove Kutina Hand-Crafted Leather Sofa, 3 Seater, 94 x 203 x 87cm, Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SGZQXZH",
+   "domain": "amazon.de",
+   "category": "sofa",
+   "name": "Alkove Modular Sofa",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VMLFYTF",
+   "domain": "amazon.fr",
+   "category": "sofa",
+   "name": "Marque Amazon - Movian Rotsee - Canapé 2 places, 92 x 165 x 81 cm (longueur x largeur x hauteur), Gris clair",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075NRDS92",
+   "domain": "amazon.se",
+   "category": "sofa",
+   "name": "Film homesick sessel 230 x 158 x 86 cm Stålgrå",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075X5TMVT",
+   "domain": "amazon.com",
+   "category": "sofa",
+   "name": "Amazon Brand – Rivet Uptown Mid-Century Velvet Tufted Customizable Daybed Sofa, 78\"W, Dove Grey &amp; Silver",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VNLB6ML",
+   "domain": "amazon.es",
+   "category": "sofa",
+   "name": "Amazon Brand - Movian Eli - Sofá de 3 plazas, 85 x 200 x 83 cm (largo x ancho x alto), gris claro",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07HPKX8SW",
+   "domain": "amazon.co.uk",
+   "category": "sofa",
+   "name": "Amazon Brand - Alkove Sofia Hand-Crafted Leather Sofa, 2 Seater Maxi, 90 x 190 x 77cm, Light Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075NRBB8T",
+   "domain": "amazon.fr",
+   "category": "sofa",
+   "name": "Marque Amazon - Movian Brunnan - Canapé 3 places, 225 x 94 x 84 cm, Gris foncé",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VSTTSWY",
+   "domain": "amazon.se",
+   "category": "sofa",
+   "name": "Ett märke från Amazon – Movian Eli – 3-sits soffa, 85 x 200 x 83 cm (L x B x H), ljusblå",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075X4R6CT",
+   "domain": "amazon.com",
+   "category": "sofa",
+   "name": "Amazon Brand – Stone & Beam Charles Classic Oversized Leather Sofa, 92\"W, Walnut",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07VJN6X8L",
+   "domain": "amazon.es",
+   "category": "sofa",
+   "name": "AmazonBasics - Sofá cama de tres plazas, 182 x 80 x 80, Gris claro",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07R3T74J7",
+   "domain": "amazon.de",
+   "category": "sofa",
+   "name": "Amazon Brand Movian Scutari Sofa Bed",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SHYXFTZ",
+   "domain": "amazon.fr",
+   "category": "sofa",
+   "name": "Marque Amazon - Alkove Elvas - Module repose-pieds haut pour canapé modulaire, 40 x 93 cm, Bleu marine",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SHYFT43",
+   "domain": "amazon.se",
+   "category": "sofa",
+   "name": "Alkov modulär PALL (40 x 93) lime",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07CB5GN4D",
+   "domain": "amazon.com",
+   "category": "sofa",
+   "name": "Amazon Brand – Stone & Beam Andover Modern Left L-Sectional Sofa, 124\"W, Tan",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07SHYRLNJ",
+   "domain": "amazon.es",
+   "category": "sofa",
+   "name": "Marca Amazon - Alkove Elvas - Módulo uniplaza con almacenaje y cojín adicional para sofá modular, 93 x 100 cm, de lunares",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07HPQ6PLK",
+   "domain": "amazon.co.uk",
+   "category": "sofa",
+   "name": "Amazon Brand - Alkove Marlow Hand-Crafted Leather Sofa, 2 Seater Maxi, 92 x 190 x 88cm, Light Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K51RSQ6",
+   "domain": "amazon.co.uk",
+   "category": "lamp",
+   "name": "Umi. by Amazon Table Lamp, Fabric Shade with Rectangular Wood Base, 11.2'' (28.45 cm)",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K53H3VK",
+   "domain": "amazon.it",
+   "category": "lamp",
+   "name": "Umi. by Amazon, lampada da tavolo, paralume in tessuto, con base cilindrica, 29,7 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K4YTVKH",
+   "domain": "amazon.se",
+   "category": "lamp",
+   "name": "Umi. by Amazon skrivbordslampa med svängarm, svart, 63,5 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K54LSM8",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Umi. by Amazon - Lámpara de pie, pantalla de tela, trípode, 152,4 cm, blanco",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07B4Z9PWF",
+   "domain": "amazon.co.uk",
+   "category": "lamp",
+   "name": "Stone & Beam MH103137 - Rivet Cylinder Lamp - Table, 14\" x 14\" x 22\", Paint+Plating",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K51RSSK",
+   "domain": "amazon.se",
+   "category": "lamp",
+   "name": "Umi. av Amazon sänglampa, korgform, gul, 53,34 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B0824FN4MK",
+   "domain": "amazon.com",
+   "category": "lamp",
+   "name": "Amazon Brand – Ravenna Home Contemporary Spherical Glass Table Lamp, LED Bulb Included, 21.25\"H, Seafoam Green",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B00381KELI",
+   "domain": "amazon.co.uk",
+   "category": "lamp",
+   "name": "Energy saving lamp metal 12 W",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K4YLXKB",
+   "domain": "amazon.it",
+   "category": "lamp",
+   "name": "Umi. by Amazon, lampada da tavolo, paralume in tessuto, con base rettangolare in metallo, 25,9 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K4ZCQC3",
+   "domain": "amazon.fr",
+   "category": "lamp",
+   "name": "Umi. by Amazon Lampe sur pied, abat-jour en tissu, incurvée, beige, 161,29 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07DT4GY4W",
+   "domain": "amazon.com",
+   "category": "lamp",
+   "name": "Amazon Brand – Stone & Beam Modern Farmhouse Wood Cylinder Table Desk Lamp With LED Light Bulb And White Shade- 14 x 14 x 27 Inches",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B00381D50K",
+   "domain": "amazon.co.uk",
+   "category": "lamp",
+   "name": "Maul MAULstudy Office Light Black",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K4YTVKW",
+   "domain": "amazon.it",
+   "category": "lamp",
+   "name": "Umi. by Amazon, lampada da pavimento, paralume in tessuto, cilindrica, nera, 144,3 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B0825D873D",
+   "domain": "amazon.com",
+   "category": "lamp",
+   "name": "Amazon Brand – Rivet Scandinavian Striped Floor Lamp, LED Bulb Included, 58.25\"H, Black and Blond Wood",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K51RSPW",
+   "domain": "amazon.es",
+   "category": "lamp",
+   "name": "Umi. by Amazon - Lámpara de mesa, pantalla de tela, base redonda de metal, 26,67 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B075X2G512",
+   "domain": "amazon.co.uk",
+   "category": "lamp",
+   "name": "Stone & Beam Vintage Task Table Desk Lamp with LED Light Bulb - 6.5 x 10 x 14 Inches, Antique Brass",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07DBJJ5Q9",
+   "domain": "amazon.com",
+   "category": "lamp",
+   "name": "Amazon Brand – Ravenna Home Modern Stacked Ball Standing Floor Lamp With LED Light Bulb - 58 Inches, Brushed Nickel with Smoked Glass",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K51NCZX",
+   "domain": "amazon.it",
+   "category": "lamp",
+   "name": "Umi. by Amazon, lampadario da soffitto, paralume in tessuto, forma cilindrica, 60,2 cm, diametro 101,6 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07DBHBB82",
+   "domain": "amazon.com",
+   "category": "lamp",
+   "name": "Amazon Brand – Ravenna Home Living Room Table Lamp With LED Light Bulb - 24.25 Inches, Brushed Nickel With Clear Glass",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K4XN87R",
+   "domain": "amazon.it",
+   "category": "lamp",
+   "name": "Umi. by Amazon, lampada da tavolo, grigio e quercia, 40,6 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07B4YVXG8",
+   "domain": "amazon.com",
+   "category": "lamp",
+   "name": "Amazon Brand – Stone & Beam Modern Arc Table Desk Lamp with Light Bulb and Linen Shade - 9 x 9 x 20.5 Inches, Black and Brushed Brass",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07K4XQJNS",
+   "domain": "amazon.fr",
+   "category": "lamp",
+   "name": "Umi. by Amazon Lampe de table, Vintage,gris métallisé, 35,56 cm",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B0825F3GBJ",
+   "domain": "amazon.com",
+   "category": "lamp",
+   "name": "Amazon Brand – Rivet Scandinavian Real Gray-Wood Table Lamp with Marble Bottom, LED Bulb Included, 18.5\"H, Grey",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  },
+  {
+   "item_id": "B07QHJZLR9",
+   "domain": "amazon.com",
+   "category": "lamp",
+   "name": "Amazon Brand – Stone & Beam Table Lamp, 16\"H, White and Brown Stripe",
+   "score": 100,
+   "photos_analysed": 4,
+   "issues": []
+  }
+ ]
+}

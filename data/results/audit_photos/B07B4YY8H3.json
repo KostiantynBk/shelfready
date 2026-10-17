@@ -1,0 +1,190 @@
+{
+ "item_id": "B07B4YY8H3",
+ "photos": {
+  "7109QsQT0TL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      770,
+      303,
+      987,
+      536
+     ]
+    }
+   ]
+  },
+  "71E0NYT6z0L": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      771,
+      304,
+      986,
+      537
+     ]
+    }
+   ]
+  },
+  "91BIOSJSNbL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      41,
+      143,
+      967,
+      947
+     ]
+    }
+   ]
+  },
+  "91J9v4gnh4L": {
+   "role": "lifestyle",
+   "product_type": "desk and chair set",
+   "products_in_frame": 2,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "metal",
+   "legs_finish": "dark walnut",
+   "text_in_image": [
+    "MILAN",
+    "TIME"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      411,
+      133,
+      798,
+      201
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      411,
+      192,
+      863,
+      273
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      685,
+      256,
+      926,
+      353
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      685,
+      412,
+      835,
+      456
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      700,
+      506,
+      985,
+      558
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      685,
+      623,
+      868,
+      692
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      674,
+      727,
+      783,
+      773
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      252,
+      555,
+      317,
+      636
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      122,
+      903,
+      200,
+      927
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      111,
+      943,
+      161,
+      964
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

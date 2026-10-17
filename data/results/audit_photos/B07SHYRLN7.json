@@ -1,0 +1,131 @@
+{
+ "item_id": "B07SHYRLN7",
+ "photos": {
+  "710TWi0b9tL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71rmAulEFUL": {
+   "role": "lifestyle",
+   "product_type": "sectional sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71brIKiMIsL": {
+   "role": "packshot",
+   "product_type": "modular sofa section",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      716,
+      41,
+      745,
+      88
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      863,
+      431,
+      893,
+      487
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      754,
+      906,
+      781,
+      953
+     ]
+    }
+   ]
+  },
+  "41J4VL0YbeL": {
+   "role": "detail",
+   "product_type": "furniture component",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      174,
+      355,
+      223,
+      413
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      263,
+      786,
+      314,
+      863
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      463,
+      96,
+      531,
+      173
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      651,
+      553,
+      718,
+      631
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

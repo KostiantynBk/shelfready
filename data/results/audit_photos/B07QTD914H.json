@@ -1,0 +1,285 @@
+{
+ "item_id": "B07QTD914H",
+ "photos": {
+  "61TLChHemML": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "plastic",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      372,
+      917,
+      476
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      521,
+      926,
+      638
+     ]
+    }
+   ]
+  },
+  "51Rwj-baxBL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "71cpaHIeTaL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "grey",
+   "upholstery_material": "plastic",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      126,
+      799,
+      246
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      238,
+      903,
+      293
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      294,
+      752,
+      341
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      326,
+      861,
+      458
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      526,
+      544,
+      814,
+      655
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      540,
+      652,
+      918,
+      707
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      704,
+      756,
+      751
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      735,
+      855,
+      876
+     ]
+    }
+   ]
+  },
+  "71yP8sR0OuL": {
+   "role": "lifestyle",
+   "product_type": "dining set",
+   "products_in_frame": 6,
+   "colour_family": "grey",
+   "upholstery_material": "plastic",
+   "legs_material": "wood",
+   "base_material": "metal",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      141,
+      838,
+      215
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      682,
+      203,
+      843,
+      276
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      682,
+      264,
+      871,
+      348
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      635,
+      313,
+      798,
+      403
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      642,
+      403,
+      805,
+      463
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      456,
+      911,
+      506
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      642,
+      488,
+      792,
+      561
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      731,
+      491,
+      881,
+      581
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      731,
+      561,
+      922,
+      668
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      731,
+      621,
+      907,
+      741
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      671,
+      701,
+      856,
+      771
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      741,
+      848,
+      845
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      242,
+      485,
+      339,
+      565
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      165,
+      551,
+      263,
+      631
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

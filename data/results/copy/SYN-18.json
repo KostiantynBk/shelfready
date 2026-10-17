@@ -1,0 +1,702 @@
+{
+ "product_id": "SYN-18",
+ "decisions": {},
+ "facts": {
+  "product_name": "Lampada da tavolo ORTA / ORTA table lamp",
+  "model": "ORTA",
+  "brand": "Arredo Brianza",
+  "width_cm": 22,
+  "depth_cm": 22,
+  "height_cm": 34,
+  "product_type": "Lampada da tavolo / table lamp",
+  "care": "Pulire con panno asciutto a lampada spenta / clean with a dry cloth when switched off",
+  "country_of_origin": "Italia",
+  "safety_warnings": [
+   "Usare solo lampadine E27 max 40 W",
+   "Use only E27 bulbs, max. 40 W.",
+   "Scollegare prima della pulizia.",
+   "Disconnect before cleaning.",
+   "Solo per uso interno.",
+   "For indoor use only."
+  ],
+  "variants": [
+   {
+    "code": "ORT-18-BLU",
+    "colour_name": "Blu"
+   },
+   {
+    "code": "ORT-18-BIA",
+    "colour_name": "Bianco"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "legs_or_base",
+   "variant": null,
+   "reason": "Base: spec says metal, photos show ceramic",
+   "issue": "D6::legs_or_base:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "weight",
+   "variant": null,
+   "reason": "Weight 28 kg looks wrong for a lamp",
+   "issue": "D17::weight:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "ORTA_BIA_01.jpg",
+   "variant": "ORT-18-BIA",
+   "view": "packshot",
+   "colour_seen": "white"
+  },
+  {
+   "file": "ORTA_BIA_03.jpg",
+   "variant": "ORT-18-BIA",
+   "view": "packshot",
+   "colour_seen": "white"
+  },
+  {
+   "file": "ORTA_BIA_04.jpg",
+   "variant": "ORT-18-BIA",
+   "view": "detail",
+   "colour_seen": "white"
+  },
+  {
+   "file": "ORTA_BLU_01.jpg",
+   "variant": "ORT-18-BLU",
+   "view": "packshot",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "ORTA_BLU_02.jpg",
+   "variant": "ORT-18-BLU",
+   "view": "packshot",
+   "colour_seen": "white"
+  },
+  {
+   "file": "ORTA_BLU_03.jpg",
+   "variant": "ORT-18-BLU",
+   "view": "lifestyle",
+   "colour_seen": "white"
+  }
+ ],
+ "protected": [
+  "Arredo Brianza",
+  "ORTA",
+  "ORT-18-BLU",
+  "ORT-18-BIA"
+ ],
+ "en": {
+  "title": "Arredo Brianza ORTA Table Lamp",
+  "bullets": [
+   "Dimensions: 34 cm height, 22 cm width, 22 cm depth",
+   "Made in Italia",
+   "Compatible with E27 bulbs, max 40 W",
+   "Clean with a dry cloth when switched off"
+  ],
+  "description": "The ORTA table lamp by Arredo Brianza is a stylish lighting solution made in Italia. It features a compact design suitable for various indoor surfaces.",
+  "colours": [
+   {
+    "code": "ORT-18-BLU",
+    "name": "Blue"
+   },
+   {
+    "code": "ORT-18-BIA",
+    "name": "White"
+   }
+  ],
+  "safety_warnings": [
+   "Use only E27 bulbs, max. 40 W.",
+   "Disconnect before cleaning.",
+   "For indoor use only."
+  ],
+  "alt_texts": [
+   {
+    "file": "ORTA_BIA_01.jpg",
+    "text": "White ORTA table lamp, packshot view"
+   },
+   {
+    "file": "ORTA_BIA_03.jpg",
+    "text": "White ORTA table lamp, packshot view"
+   },
+   {
+    "file": "ORTA_BIA_04.jpg",
+    "text": "Detail view of the white ORTA table lamp"
+   },
+   {
+    "file": "ORTA_BLU_01.jpg",
+    "text": "Blue ORTA table lamp, packshot view"
+   },
+   {
+    "file": "ORTA_BLU_02.jpg",
+    "text": "White ORTA table lamp, packshot view"
+   },
+   {
+    "file": "ORTA_BLU_03.jpg",
+    "text": "White ORTA table lamp in a lifestyle setting"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Lámpara de mesa Arredo Brianza ORTA",
+    "bullets": [
+     "Dimensiones: 34 cm de altura, 22 cm de ancho, 22 cm de profundidad",
+     "Fabricado en Italia",
+     "Compatible con bombillas E27, máx. 40 W",
+     "Limpiar con un paño seco cuando esté apagada"
+    ],
+    "description": "La lámpara de mesa ORTA de Arredo Brianza es una solución de iluminación elegante fabricada en Italia. Presenta un diseño compacto adecuado para diversas superficies de interior.",
+    "colours": [
+     {
+      "code": "ORT-18-BLU",
+      "name": "Azul"
+     },
+     {
+      "code": "ORT-18-BIA",
+      "name": "Blanco"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizar únicamente bombillas E27, máx. 40 W.",
+     "Desconectar antes de limpiar.",
+     "Para uso exclusivo en interiores."
+    ],
+    "alt_texts": [
+     {
+      "file": "ORTA_BIA_01.jpg",
+      "text": "Lámpara de mesa ORTA blanca, vista de producto"
+     },
+     {
+      "file": "ORTA_BIA_03.jpg",
+      "text": "Lámpara de mesa ORTA blanca, vista de producto"
+     },
+     {
+      "file": "ORTA_BIA_04.jpg",
+      "text": "Vista de detalle de la lámpara de mesa ORTA blanca"
+     },
+     {
+      "file": "ORTA_BLU_01.jpg",
+      "text": "Lámpara de mesa ORTA azul, vista de producto"
+     },
+     {
+      "file": "ORTA_BLU_02.jpg",
+      "text": "Lámpara de mesa ORTA blanca, vista de producto"
+     },
+     {
+      "file": "ORTA_BLU_03.jpg",
+      "text": "Lámpara de mesa ORTA blanca en un ambiente real"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Lampada da Tavolo Arredo Brianza ORTA",
+    "bullets": [
+     "Dimensioni: 34 cm di altezza, 22 cm di larghezza, 22 cm di profondità",
+     "Made in Italia",
+     "Compatibile con lampadine E27, max 40 W",
+     "Pulire con un panno asciutto quando è spenta"
+    ],
+    "description": "La lampada da tavolo ORTA di Arredo Brianza è una soluzione di illuminazione elegante realizzata in Italia. Presenta un design compatto adatto a diverse superfici interne.",
+    "colours": [
+     {
+      "code": "ORT-18-BLU",
+      "name": "Blu"
+     },
+     {
+      "code": "ORT-18-BIA",
+      "name": "Bianco"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizzare solo lampadine E27, max. 40 W.",
+     "Scollegare prima della pulizia.",
+     "Solo per uso interno."
+    ],
+    "alt_texts": [
+     {
+      "file": "ORTA_BIA_01.jpg",
+      "text": "Lampada da tavolo ORTA bianca, vista prodotto"
+     },
+     {
+      "file": "ORTA_BIA_03.jpg",
+      "text": "Lampada da tavolo ORTA bianca, vista prodotto"
+     },
+     {
+      "file": "ORTA_BIA_04.jpg",
+      "text": "Vista di dettaglio della lampada da tavolo ORTA bianca"
+     },
+     {
+      "file": "ORTA_BLU_01.jpg",
+      "text": "Lampada da tavolo ORTA blu, vista prodotto"
+     },
+     {
+      "file": "ORTA_BLU_02.jpg",
+      "text": "Lampada da tavolo ORTA bianca, vista prodotto"
+     },
+     {
+      "file": "ORTA_BLU_03.jpg",
+      "text": "Lampada da tavolo ORTA bianca in un ambiente domestico"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Arredo Brianza ORTA Tischleuchte",
+    "bullets": [
+     "Maße: 34 cm Höhe, 22 cm Breite, 22 cm Tiefe",
+     "Hergestellt in Italien",
+     "Kompatibel mit E27-Leuchtmitteln, max. 40 W",
+     "Im ausgeschalteten Zustand mit einem trockenen Tuch reinigen"
+    ],
+    "description": "Die ORTA Tischleuchte von Arredo Brianza ist eine stilvolle Beleuchtungslösung aus italienischer Herstellung. Ihr kompaktes Design eignet sich für verschiedene Innenbereiche.",
+    "colours": [
+     {
+      "code": "ORT-18-BLU",
+      "name": "Blau"
+     },
+     {
+      "code": "ORT-18-BIA",
+      "name": "Weiß"
+     }
+    ],
+    "safety_warnings": [
+     "Nur E27-Leuchtmittel, max. 40 W verwenden.",
+     "Vor der Reinigung vom Stromnetz trennen.",
+     "Nur für den Innenbereich geeignet."
+    ],
+    "alt_texts": [
+     {
+      "file": "ORTA_BIA_01.jpg",
+      "text": "Weiße ORTA Tischleuchte, Produktansicht"
+     },
+     {
+      "file": "ORTA_BIA_03.jpg",
+      "text": "Weiße ORTA Tischleuchte, Produktansicht"
+     },
+     {
+      "file": "ORTA_BIA_04.jpg",
+      "text": "Detailansicht der weißen ORTA Tischleuchte"
+     },
+     {
+      "file": "ORTA_BLU_01.jpg",
+      "text": "Blaue ORTA Tischleuchte, Produktansicht"
+     },
+     {
+      "file": "ORTA_BLU_02.jpg",
+      "text": "Weiße ORTA Tischleuchte, Produktansicht"
+     },
+     {
+      "file": "ORTA_BLU_03.jpg",
+      "text": "Weiße ORTA Tischleuchte in einer Wohnumgebung"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza ORTA Table Lamp",
+    "bullets": [
+     "Dimensions: 34 cm height, 22 cm width, 22 cm depth",
+     "Made in Italy",
+     "Compatible with E27 bulbs, max. 40 W",
+     "Clean with a dry cloth when switched off"
+    ],
+    "description": "The ORTA table lamp from Arredo Brianza is a stylish lighting solution of Italian manufacture. Its compact design is suitable for various interior areas.",
+    "colours": [
+     {
+      "code": "ORT-18-BLU",
+      "name": "Blue"
+     },
+     {
+      "code": "ORT-18-BIA",
+      "name": "White"
+     }
+    ],
+    "safety_warnings": [
+     "Use only E27 bulbs, max. 40 W.",
+     "Disconnect from the mains before cleaning.",
+     "Suitable for indoor use only."
+    ],
+    "alt_texts": [
+     {
+      "file": "ORTA_BIA_01.jpg",
+      "text": "White ORTA table lamp, product view"
+     },
+     {
+      "file": "ORTA_BIA_03.jpg",
+      "text": "White ORTA table lamp, product view"
+     },
+     {
+      "file": "ORTA_BIA_04.jpg",
+      "text": "Detailed view of the white ORTA table lamp"
+     },
+     {
+      "file": "ORTA_BLU_01.jpg",
+      "text": "Blue ORTA table lamp, product view"
+     },
+     {
+      "file": "ORTA_BLU_02.jpg",
+      "text": "White ORTA table lamp, product view"
+     },
+     {
+      "file": "ORTA_BLU_03.jpg",
+      "text": "White ORTA table lamp in a living environment"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Lampe à poser Arredo Brianza ORTA",
+    "bullets": [
+     "Dimensions : 34 cm de hauteur, 22 cm de largeur, 22 cm de profondeur",
+     "Fabriqué en Italie",
+     "Compatible avec les ampoules E27, max 40 W",
+     "Nettoyer avec un chiffon sec lorsqu'elle est éteinte"
+    ],
+    "description": "La lampe à poser ORTA d'Arredo Brianza est une solution d'éclairage élégante fabriquée en Italie. Elle présente un design compact adapté à diverses surfaces intérieures.",
+    "colours": [
+     {
+      "code": "ORT-18-BLU",
+      "name": "Bleu"
+     },
+     {
+      "code": "ORT-18-BIA",
+      "name": "Blanc"
+     }
+    ],
+    "safety_warnings": [
+     "Utiliser uniquement des ampoules E27, max. 40 W.",
+     "Débrancher avant le nettoyage.",
+     "Pour usage intérieur uniquement."
+    ],
+    "alt_texts": [
+     {
+      "file": "ORTA_BIA_01.jpg",
+      "text": "Lampe à poser ORTA blanche, vue produit"
+     },
+     {
+      "file": "ORTA_BIA_03.jpg",
+      "text": "Lampe à poser ORTA blanche, vue produit"
+     },
+     {
+      "file": "ORTA_BIA_04.jpg",
+      "text": "Vue détaillée de la lampe à poser ORTA blanche"
+     },
+     {
+      "file": "ORTA_BLU_01.jpg",
+      "text": "Lampe à poser ORTA bleue, vue produit"
+     },
+     {
+      "file": "ORTA_BLU_02.jpg",
+      "text": "Lampe à poser ORTA blanche, vue produit"
+     },
+     {
+      "file": "ORTA_BLU_03.jpg",
+      "text": "Lampe à poser ORTA blanche dans un cadre de vie"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Candeeiro de Mesa Arredo Brianza ORTA",
+    "bullets": [
+     "Dimensões: 34 cm de altura, 22 cm de largura, 22 cm de profundidade",
+     "Fabricado em Itália",
+     "Compatível com lâmpadas E27, máx. 40 W",
+     "Limpar com um pano seco quando desligado"
+    ],
+    "description": "O candeeiro de mesa ORTA da Arredo Brianza é uma solução de iluminação elegante fabricada em Itália. Apresenta um design compacto, adequado para diversas superfícies interiores.",
+    "colours": [
+     {
+      "code": "ORT-18-BLU",
+      "name": "Azul"
+     },
+     {
+      "code": "ORT-18-BIA",
+      "name": "Branco"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizar apenas lâmpadas E27, máx. 40 W.",
+     "Desligar da corrente antes de limpar.",
+     "Apenas para utilização interior."
+    ],
+    "alt_texts": [
+     {
+      "file": "ORTA_BIA_01.jpg",
+      "text": "Candeeiro de mesa ORTA branco, vista de produto"
+     },
+     {
+      "file": "ORTA_BIA_03.jpg",
+      "text": "Candeeiro de mesa ORTA branco, vista de produto"
+     },
+     {
+      "file": "ORTA_BIA_04.jpg",
+      "text": "Vista detalhada do candeeiro de mesa ORTA branco"
+     },
+     {
+      "file": "ORTA_BLU_01.jpg",
+      "text": "Candeeiro de mesa ORTA azul, vista de produto"
+     },
+     {
+      "file": "ORTA_BLU_02.jpg",
+      "text": "Candeeiro de mesa ORTA branco, vista de produto"
+     },
+     {
+      "file": "ORTA_BLU_03.jpg",
+      "text": "Candeeiro de mesa ORTA branco num ambiente decorado"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Lampa stołowa Arredo Brianza ORTA",
+    "bullets": [
+     "Wymiary: 34 cm wysokości, 22 cm szerokości, 22 cm głębokości",
+     "Wyprodukowano we Włoszech",
+     "Kompatybilna z żarówkami E27, max 40 W",
+     "Czyścić suchą szmatką po wyłączeniu"
+    ],
+    "description": "Lampa stołowa ORTA marki Arredo Brianza to stylowe rozwiązanie oświetleniowe wykonane we Włoszech. Charakteryzuje się kompaktowym designem, idealnym na różne powierzchnie wewnątrz pomieszczeń.",
+    "colours": [
+     {
+      "code": "ORT-18-BLU",
+      "name": "Niebieski"
+     },
+     {
+      "code": "ORT-18-BIA",
+      "name": "Biały"
+     }
+    ],
+    "safety_warnings": [
+     "Stosować tylko żarówki E27, max. 40 W.",
+     "Odłączyć z sieci przed czyszczeniem.",
+     "Wyłącznie do użytku wewnątrz pomieszczeń."
+    ],
+    "alt_texts": [
+     {
+      "file": "ORTA_BIA_01.jpg",
+      "text": "Biała lampa stołowa ORTA, widok produktowy"
+     },
+     {
+      "file": "ORTA_BIA_03.jpg",
+      "text": "Biała lampa stołowa ORTA, widok produktowy"
+     },
+     {
+      "file": "ORTA_BIA_04.jpg",
+      "text": "Zbliżenie na białą lampę stołową ORTA"
+     },
+     {
+      "file": "ORTA_BLU_01.jpg",
+      "text": "Niebieska lampa stołowa ORTA, widok produktowy"
+     },
+     {
+      "file": "ORTA_BLU_02.jpg",
+      "text": "Biała lampa stołowa ORTA, widok produktowy"
+     },
+     {
+      "file": "ORTA_BLU_03.jpg",
+      "text": "Biała lampa stołowa ORTA w aranżacji wnętrza"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Настільна лампа Arredo Brianza ORTA",
+    "bullets": [
+     "Розміри: висота 34 см, ширина 22 см, глибина 22 см",
+     "Виготовлено в Італії",
+     "Сумісна з лампами E27, макс. 40 Вт",
+     "Очищати сухою тканиною у вимкненому стані"
+    ],
+    "description": "Настільна лампа ORTA від Arredo Brianza — це стильне рішення для освітлення, виготовлене в Італії. Вона має компактний дизайн, що підходить для різних внутрішніх поверхонь.",
+    "colours": [
+     {
+      "code": "ORT-18-BLU",
+      "name": "Синій"
+     },
+     {
+      "code": "ORT-18-BIA",
+      "name": "Білий"
+     }
+    ],
+    "safety_warnings": [
+     "Використовуйте лише лампи E27, макс. 40 Вт.",
+     "Відключіть від мережі перед очищенням.",
+     "Тільки для внутрішнього використання."
+    ],
+    "alt_texts": [
+     {
+      "file": "ORTA_BIA_01.jpg",
+      "text": "Біла настільна лампа ORTA, вигляд виробу"
+     },
+     {
+      "file": "ORTA_BIA_03.jpg",
+      "text": "Біла настільна лампа ORTA, вигляд виробу"
+     },
+     {
+      "file": "ORTA_BIA_04.jpg",
+      "text": "Детальний вигляд білої настільної лампи ORTA"
+     },
+     {
+      "file": "ORTA_BLU_01.jpg",
+      "text": "Синя настільна лампа ORTA, вигляд виробу"
+     },
+     {
+      "file": "ORTA_BLU_02.jpg",
+      "text": "Біла настільна лампа ORTA, вигляд виробу"
+     },
+     {
+      "file": "ORTA_BLU_03.jpg",
+      "text": "Біла настільна лампа ORTA в інтер'єрі"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza ORTA Table Lamp",
+    "bullets": [
+     "Dimensions: height 34 cm, width 22 cm, depth 22 cm",
+     "Made in Italy",
+     "Compatible with E27 bulbs, max 40 W",
+     "Clean with a dry cloth when switched off"
+    ],
+    "description": "The ORTA table lamp from Arredo Brianza is a stylish lighting solution made in Italy. It has a compact design suitable for various indoor surfaces.",
+    "colours": [
+     {
+      "code": "ORT-18-BLU",
+      "name": "Blue"
+     },
+     {
+      "code": "ORT-18-BIA",
+      "name": "White"
+     }
+    ],
+    "safety_warnings": [
+     "Use only E27 bulbs, max 40 W.",
+     "Disconnect from the network before cleaning.",
+     "For indoor use only."
+    ],
+    "alt_texts": [
+     {
+      "file": "ORTA_BIA_01.jpg",
+      "text": "White ORTA table lamp, product view"
+     },
+     {
+      "file": "ORTA_BIA_03.jpg",
+      "text": "White ORTA table lamp, product view"
+     },
+     {
+      "file": "ORTA_BIA_04.jpg",
+      "text": "Detailed view of the white ORTA table lamp"
+     },
+     {
+      "file": "ORTA_BLU_01.jpg",
+      "text": "Blue ORTA table lamp, product view"
+     },
+     {
+      "file": "ORTA_BLU_02.jpg",
+      "text": "White ORTA table lamp, product view"
+     },
+     {
+      "file": "ORTA_BLU_03.jpg",
+      "text": "White ORTA table lamp in the interior"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

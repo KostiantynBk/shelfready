@@ -1,0 +1,31 @@
+{
+ "item_id": "B0855Z7R92",
+ "photos": {
+  "81Mm2KwuVGL": {
+   "role": "packshot",
+   "product_type": "bean bag chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "blue",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      454,
+      132,
+      957,
+      801
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,259 @@
+{
+ "item_id": "B07PY81QLV",
+ "photos": {
+  "71MDk8mR2gL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      448,
+      271,
+      988,
+      686
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      271,
+      948,
+      453
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      441,
+      943,
+      508
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      483,
+      988,
+      568
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      517,
+      936,
+      686
+     ]
+    }
+   ]
+  },
+  "9102i7PGfsL": {
+   "role": "lifestyle",
+   "product_type": "nightstand",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      696,
+      132,
+      885,
+      203
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      696,
+      593,
+      866,
+      638
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      233,
+      425,
+      403,
+      548
+     ]
+    }
+   ]
+  },
+  "71k5CL2Hj1L": {
+   "role": "dimension_drawing",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "silver",
+   "text_in_image": [
+    "18\"",
+    "10\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      447,
+      273,
+      917,
+      691
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      613,
+      273,
+      894,
+      446
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      613,
+      446,
+      917,
+      566
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      613,
+      513,
+      886,
+      691
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      483,
+      166,
+      508,
+      204
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      952,
+      481,
+      977,
+      518
+     ]
+    }
+   ]
+  },
+  "91-2PdijExL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "velvet",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "STRONG",
+    "NEAT",
+    "IN THE",
+    "RSUIT OF",
+    "PPINESS"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      688,
+      453,
+      753,
+      476
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      733,
+      85,
+      853,
+      118
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      264,
+      861,
+      301
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      523,
+      575,
+      601,
+      641
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      0,
+      286,
+      63,
+      433
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      196,
+      0,
+      326,
+      138
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

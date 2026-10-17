@@ -1,0 +1,33 @@
+{
+ "item_id": "B073G7DN31",
+ "photos": {
+  "61kVdTXTJ4L": {
+   "role": "other",
+   "product_type": "none",
+   "products_in_frame": 0,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "Image Coming Soon"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      191,
+      181,
+      783,
+      818
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

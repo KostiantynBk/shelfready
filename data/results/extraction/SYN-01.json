@@ -1,0 +1,847 @@
+{
+ "submission_id": "SYN-01",
+ "spec": {
+  "product_name": "Poltrona PORTO / PORTO armchair",
+  "supplier": "MÓVEIS LUSA, LDA.",
+  "product_type": "Poltrona / Armchair",
+  "manufacturer": "Móveis Lusa, Lda.",
+  "manufacturer_address": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal - info@moveislusa.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Portugal",
+  "width": {
+   "value": "79",
+   "unit": "cm",
+   "source_text": "79 x 92 x 95 cm"
+  },
+  "depth": {
+   "value": "92",
+   "unit": "cm",
+   "source_text": "79 x 92 x 95 cm"
+  },
+  "height": {
+   "value": "95",
+   "unit": "cm",
+   "source_text": "79 x 92 x 95 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": "55",
+   "unit": "cm",
+   "source_text": "55 cm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "30,8",
+   "unit": "kg",
+   "source_text": "30,8 kg"
+  },
+  "legs_or_base": "Faia maciça, acabamento natural a óleo / solid beech, natural oil finish",
+  "upholstery": "Veludo, 100% poliéster / velvet, 100% polyester",
+  "care": "Capa removível, lavar a 30 °C / removable cover, washable at 30 °C",
+  "variants": [
+   {
+    "code": "POR-01-AZU",
+    "colour_name": "Azul",
+    "ean": "5601234001013"
+   },
+   {
+    "code": "POR-01-ANT",
+    "colour_name": "Antracite",
+    "ean": "5601234001020"
+   }
+  ],
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Not for outdoor use.",
+   "Manter afastado de fontes de calor.",
+   "Keep away from heat sources.",
+   "Não subir para o assento.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "pt",
+   "en",
+   "pt",
+   "en",
+   "pt",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.5004796832766847,
+    0.21534748625470326
+   ],
+   "text": "79 x 92 x 95 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.5004796832766847,
+    0.21534748625470326
+   ],
+   "text": "79 x 92 x 95 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.5004796832766847,
+    0.21534748625470326
+   ],
+   "text": "79 x 92 x 95 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.26122476593468547,
+    0.43421874376759334,
+    0.2723600279929335
+   ],
+   "text": "55 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.28349529005118174,
+    0.4382427185389303,
+    0.29463055210942984
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.3057658141676779,
+    0.44500576612257625,
+    0.316901076225926
+   ],
+   "text": "30,8 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.18194170007995902,
+    0.8830881349070038,
+    0.1930769621382071
+   ],
+   "text": "Faia maciça, acabamento natural a óleo / solid beech, natural oil finish",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.15967117596346286,
+    0.7237294989502254,
+    0.17080643802171094
+   ],
+   "text": "Veludo, 100% poliéster / velvet, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.32803633828417406,
+    0.8593751514952208,
+    0.33917160034242216
+   ],
+   "text": "Capa removível, lavar a 30 °C / removable cover, washable at 30 °C",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.37257738651716654,
+    0.8704930176338735,
+    0.39618414208065245
+   ],
+   "text": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal - info@moveislusa.example",
+   "note": null
+  },
+  "ean:POR-01-AZU": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.35491489410759675,
+    0.48660246999362694,
+    0.46624742897274385,
+    0.4977377320518751
+   ],
+   "text": "5601234001013",
+   "note": null
+  },
+  "ean:POR-01-ANT": {
+   "source": "pdf",
+   "file": "POR01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.35491489410759675,
+    0.5088729941101232,
+    0.46925579258459543,
+    0.5200082561683713
+   ],
+   "text": "5601234001020",
+   "note": null
+  }
+ },
+ "images": {
+  "POR01_AZU_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "velvet",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "light oak",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       758,
+       112,
+       865,
+       183
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       812,
+       266,
+       986,
+       331
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       803,
+       511,
+       838,
+       576
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       763,
+       861,
+       933,
+       918
+      ]
+     }
+    ]
+   },
+   "size": [
+    2435,
+    2560
+   ],
+   "low_res": false
+  },
+  "POR01_AZU_34.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "velvet",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "light oak",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       283,
+       358,
+       968,
+       591
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "POR01_AZU_side.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "velvet",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "light oak",
+    "text_in_image": [
+     "37.4\"",
+     "31\"",
+     "36.3\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       453,
+       22,
+       485,
+       71
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       856,
+       182,
+       888,
+       221
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       923,
+       584,
+       955,
+       642
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       723,
+       182,
+       808,
+       238
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       753,
+       302,
+       903,
+       355
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       751,
+       513,
+       782,
+       557
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       721,
+       806,
+       858,
+       853
+      ]
+     }
+    ]
+   },
+   "size": [
+    2435,
+    2560
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 92.0,
+    "depth_cm": 78.7,
+    "height_cm": 94.7,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "IMG_4834.JPG": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "velvet",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "POR01_ANT_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "velvet",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "light oak",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       138,
+       863,
+       192
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       815,
+       246,
+       986,
+       303
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       793,
+       543,
+       836,
+       597
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       775,
+       871,
+       941,
+       926
+      ]
+     }
+    ]
+   },
+   "size": [
+    2349,
+    2560
+   ],
+   "low_res": false
+  },
+  "POR01_ANT_34.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "velvet",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "light oak",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       825,
+       168,
+       901,
+       206
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       846,
+       486,
+       934,
+       525
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       813,
+       558,
+       872,
+       592
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "POR01_ANT_side.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "fabric swatch",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "POR01_ANT_detail.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "brown",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       331,
+       246,
+       964,
+       446
+      ]
+     }
+    ]
+   },
+   "size": [
+    2559,
+    2560
+   ],
+   "low_res": false
+  },
+  "POR01_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "MÓVEIS LUSA",
+     "POR-01",
+     "100% POLIÉSTER",
+     "100% POLYESTER",
+     "P",
+     "Fabricado em Portugal"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       103,
+       348,
+       143,
+       655
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       167,
+       433,
+       201,
+       571
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       228,
+       318,
+       265,
+       683
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       291,
+       309,
+       328,
+       692
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       612,
+       707,
+       668,
+       753
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       781,
+       288,
+       818,
+       676
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLIÉSTER\n100% POLYESTER",
+    "wash_max_temp_c": null,
+    "do_not_wash": true,
+    "dry_clean_only": true,
+    "removable_cover": false,
+    "other_text": [
+     "MÓVEIS LUSA",
+     "POR-01",
+     "Fabricado em Portugal"
+    ]
+   }
+  },
+  "POR01_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 2,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRENTE / FRONT",
+     "LADO / SIDE",
+     "95",
+     "46",
+     "79 cm",
+     "92 cm",
+     "POR-01 · medidas em cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       91,
+       82,
+       266
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       615,
+       82,
+       744
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       536,
+       10,
+       585,
+       33
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       682,
+       392,
+       731,
+       415
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       908,
+       193,
+       957,
+       263
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       908,
+       748,
+       957,
+       818
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       963,
+       774,
+       996,
+       989
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       104,
+       834,
+       121
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       331,
+       834,
+       348
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       621,
+       834,
+       638
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       908,
+       834,
+       925
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 79.0,
+    "depth_cm": 92.0,
+    "height_cm": 95.0,
+    "seat_height_cm": 46.0,
+    "product_code": "POR-01"
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

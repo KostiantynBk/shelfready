@@ -1,0 +1,267 @@
+{
+ "item_id": "B07QFRSLZB",
+ "photos": {
+  "91p60dyTAjL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "boucle",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "81t7ILRrXDL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      37,
+      815,
+      76
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      180,
+      983,
+      231
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      585,
+      262,
+      761,
+      301
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      447,
+      893,
+      487
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      513,
+      904,
+      553
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      693,
+      756,
+      732
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      764,
+      983,
+      815
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      918,
+      826,
+      958
+     ]
+    }
+   ]
+  },
+  "81+XGMbnT9L": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      38,
+      966,
+      128
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      123,
+      773,
+      203
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      805,
+      773,
+      885
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      870,
+      966,
+      960
+     ]
+    }
+   ]
+  },
+  "A15d9SYHqOL": {
+   "role": "lifestyle",
+   "product_type": "dining set",
+   "products_in_frame": 3,
+   "colour_family": "brown",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "metal",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      21,
+      903,
+      83
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      773,
+      231,
+      932,
+      266
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      288,
+      865,
+      346
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      311,
+      743,
+      375
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      663,
+      392,
+      916,
+      441
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      663,
+      458,
+      816,
+      505
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      516,
+      756,
+      558
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      765,
+      793,
+      803
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      846,
+      846,
+      931
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      375,
+      163,
+      801
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

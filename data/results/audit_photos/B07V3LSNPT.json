@@ -1,0 +1,131 @@
+{
+ "item_id": "B07V3LSNPT",
+ "photos": {
+  "61GHK9tLiFL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "61US0qJxAhL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "91FatLvzfcL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      748,
+      265,
+      926,
+      483
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      750,
+      468,
+      968,
+      588
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      750,
+      543,
+      896,
+      738
+     ]
+    }
+   ]
+  },
+  "61czQdzOe2L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      236,
+      651,
+      511
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      213,
+      894,
+      521
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      521,
+      726,
+      861
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      518,
+      968,
+      678
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

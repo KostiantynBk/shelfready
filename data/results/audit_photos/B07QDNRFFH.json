@@ -1,0 +1,180 @@
+{
+ "item_id": "B07QDNRFFH",
+ "photos": {
+  "81G4o8TQWlL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      205,
+      878,
+      338
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      341,
+      985,
+      425
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      564,
+      846,
+      653
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      658,
+      933,
+      828
+     ]
+    }
+   ]
+  },
+  "817UpKyVduL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      573,
+      220,
+      982,
+      356
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      573,
+      643,
+      982,
+      783
+     ]
+    }
+   ]
+  },
+  "813dVMiuSHL": {
+   "role": "lifestyle",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "Food & Drink Infographics"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      338,
+      895,
+      423
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      472,
+      973,
+      521
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      576,
+      866,
+      636
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      583,
+      0,
+      601,
+      133
+     ]
+    }
+   ]
+  },
+  "71vCiGm5PdL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      338,
+      984,
+      426
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      576,
+      683,
+      982,
+      847
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

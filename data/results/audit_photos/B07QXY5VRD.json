@@ -1,0 +1,178 @@
+{
+ "item_id": "B07QXY5VRD",
+ "photos": {
+  "41tyM9vQdSL": {
+   "role": "packshot",
+   "product_type": "daybed",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      708,
+      117,
+      842,
+      168
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      713,
+      842,
+      844,
+      882
+     ]
+    }
+   ]
+  },
+  "517A9BCmPLL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      662,
+      116,
+      771,
+      153
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      676,
+      241,
+      706,
+      264
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      731,
+      774,
+      872,
+      811
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      686,
+      831,
+      783,
+      863
+     ]
+    }
+   ]
+  },
+  "51KsihgqO4L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      662,
+      116,
+      772,
+      153
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      676,
+      241,
+      706,
+      264
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      731,
+      774,
+      872,
+      811
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      688,
+      831,
+      784,
+      863
+     ]
+    }
+   ]
+  },
+  "4140QeNlBqL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      704,
+      122,
+      842,
+      168
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      704,
+      843,
+      838,
+      883
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

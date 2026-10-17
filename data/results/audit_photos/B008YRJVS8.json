@@ -1,0 +1,187 @@
+{
+ "item_id": "B008YRJVS8",
+ "photos": {
+  "81Hz49vqRWL": {
+   "role": "packshot",
+   "product_type": "folding chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "polyester",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      456,
+      58,
+      896,
+      123
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      534,
+      243,
+      983,
+      328
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      534,
+      613,
+      866,
+      668
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      516,
+      803,
+      956,
+      893
+     ]
+    }
+   ]
+  },
+  "71Ps-WTSpGL": {
+   "role": "packshot",
+   "product_type": "folding chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "polyester",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      173,
+      93,
+      954,
+      198
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      411,
+      178,
+      954,
+      788
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      411,
+      812,
+      954,
+      910
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      411,
+      178,
+      954,
+      198
+     ]
+    }
+   ]
+  },
+  "711yn7ftjtL": {
+   "role": "packshot",
+   "product_type": "folding chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "polyester",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      545,
+      132,
+      988,
+      206
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      545,
+      793,
+      988,
+      886
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      575,
+      188,
+      976,
+      821
+     ]
+    }
+   ]
+  },
+  "71R5+usfViL": {
+   "role": "packshot",
+   "product_type": "folding chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "polyester",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      211,
+      141,
+      987,
+      213
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      214,
+      795,
+      987,
+      867
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

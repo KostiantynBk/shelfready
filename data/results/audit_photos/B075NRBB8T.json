@@ -1,0 +1,143 @@
+{
+ "item_id": "B075NRBB8T",
+ "photos": {
+  "71FhwwEhSsL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "61QCPzaERXL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      711,
+      123,
+      754,
+      151
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      772,
+      746,
+      833,
+      775
+     ]
+    }
+   ]
+  },
+  "61GGvcWZUoL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      826,
+      253,
+      923,
+      288
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      706,
+      938,
+      743
+     ]
+    }
+   ]
+  },
+  "81lbCKPORhL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 3,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "Advanced"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      758,
+      796,
+      821,
+      823
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      168,
+      826,
+      202
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      155,
+      241,
+      566,
+      338
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      745,
+      366,
+      775,
+      438
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

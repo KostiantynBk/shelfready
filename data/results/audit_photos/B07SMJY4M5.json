@@ -1,0 +1,275 @@
+{
+ "item_id": "B07SMJY4M5",
+ "photos": {
+  "61QjgCSF93L": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "natural oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      357,
+      831,
+      392
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      382,
+      768,
+      408
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      582,
+      768,
+      608
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      608,
+      828,
+      642
+     ]
+    }
+   ]
+  },
+  "719uZIxsAxL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      126,
+      801,
+      168
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      212,
+      866,
+      262
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      286,
+      748,
+      333
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      453,
+      817,
+      498
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      551,
+      801,
+      596
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      638,
+      866,
+      688
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      712,
+      748,
+      759
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      877,
+      817,
+      922
+     ]
+    }
+   ]
+  },
+  "51+aYIpgT+L": {
+   "role": "detail",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "71ETT5Pbq3L": {
+   "role": "dimension_drawing",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "400 mm",
+    "438 mm",
+    "388 mm",
+    "913 mm",
+    "475 mm",
+    "466 mm",
+    "444 mm"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      152,
+      277,
+      196,
+      356
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      276,
+      454,
+      311,
+      532
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      415,
+      493,
+      456,
+      578
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      434,
+      154,
+      468,
+      233
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      575,
+      614,
+      616,
+      694
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      766,
+      258,
+      821,
+      343
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      771,
+      486,
+      823,
+      569
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      551,
+      266,
+      756,
+      316
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      551,
+      396,
+      795,
+      446
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      545,
+      566,
+      763,
+      616
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

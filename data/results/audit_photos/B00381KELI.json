@@ -1,0 +1,117 @@
+{
+ "item_id": "B00381KELI",
+ "photos": {
+  "51t-c3R9S4L": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      833,
+      162,
+      998,
+      271
+     ]
+    }
+   ]
+  },
+  "81HYSmTCZnL": {
+   "role": "detail",
+   "product_type": "desk lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      243,
+      315,
+      987,
+      938
+     ]
+    }
+   ]
+  },
+  "61J4U-pZJ0L": {
+   "role": "packshot",
+   "product_type": "desk lamp",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      767,
+      138,
+      905,
+      883
+     ]
+    }
+   ]
+  },
+  "71RerjJCJVL": {
+   "role": "packshot",
+   "product_type": "desk lamp",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "MAX 40W CE"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      701,
+      503,
+      746,
+      523
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      113,
+      148,
+      272,
+      326
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,113 @@
+{
+ "item_id": "B07K51RSPW",
+ "photos": {
+  "71P4Cw3I5ZL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      703,
+      234,
+      988,
+      631
+     ]
+    }
+   ]
+  },
+  "61l2EPYcsjL": {
+   "role": "packshot",
+   "product_type": "lampshade",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71xDrYTJLZL": {
+   "role": "packshot",
+   "product_type": "power cable with switch",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "71hcg1Xg15L": {
+   "role": "lifestyle",
+   "product_type": "nightstand",
+   "products_in_frame": 2,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "metal",
+   "legs_finish": "white",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      515,
+      583,
+      573,
+      684
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      843,
+      391,
+      1000,
+      463
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      838,
+      675,
+      1000,
+      747
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      838,
+      795,
+      1000,
+      871
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

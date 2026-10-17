@@ -1,0 +1,558 @@
+{
+ "item_id": "B07NLTBB2Y",
+ "photos": {
+  "614VNrheWAL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "umi.",
+    "umi.",
+    "umi."
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      54,
+      208,
+      92,
+      316
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      143,
+      271,
+      181,
+      379
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      496,
+      353,
+      534,
+      461
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      845,
+      18,
+      938,
+      258
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      854,
+      401,
+      997,
+      466
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      842,
+      645,
+      944,
+      882
+     ]
+    }
+   ]
+  },
+  "71Vg6Fy5Q2L": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 2,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "umi.",
+    "umi.",
+    "umi.",
+    "umi.",
+    "umi."
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      112,
+      88,
+      156,
+      175
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      166,
+      136,
+      211,
+      213
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      441,
+      266,
+      494,
+      356
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      31,
+      853,
+      66,
+      921
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      84,
+      821,
+      125,
+      885
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      311,
+      785,
+      353,
+      866
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      801,
+      118,
+      844,
+      163
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      941,
+      315,
+      994,
+      361
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      812,
+      506,
+      859,
+      551
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      562,
+      615,
+      603,
+      658
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      575,
+      783,
+      631,
+      825
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      568,
+      943,
+      615,
+      988
+     ]
+    }
+   ]
+  },
+  "61TlXenFBJL": {
+   "role": "promo",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "125°",
+    "90°",
+    "90°",
+    "Play Games",
+    "125°",
+    "Movie&Music",
+    "145°",
+    "Mobile phone",
+    "160°",
+    "Sleeping",
+    "145°",
+    "160°"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      91,
+      408,
+      123,
+      461
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      91,
+      605,
+      123,
+      653
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      171,
+      743,
+      196,
+      788
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      196,
+      716,
+      221,
+      816
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      171,
+      901,
+      196,
+      946
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      196,
+      868,
+      221,
+      978
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      351,
+      743,
+      376,
+      788
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      376,
+      716,
+      401,
+      816
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      351,
+      894,
+      376,
+      940
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      376,
+      876,
+      401,
+      958
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      243,
+      156,
+      275,
+      210
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      491,
+      26,
+      523,
+      81
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      885,
+      478,
+      935,
+      525
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      911,
+      671,
+      961,
+      718
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      885,
+      853,
+      935,
+      900
+     ]
+    }
+   ]
+  },
+  "61o6YUpG14L": {
+   "role": "dimension_drawing",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "Size:(cm)",
+    "123cm",
+    "132cm",
+    "84cm",
+    "55cm",
+    "47cm",
+    "52cm",
+    "38cm",
+    "44cm",
+    "54cm",
+    "70cm",
+    "UMI.",
+    "UMI.",
+    "UMI."
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      858,
+      246,
+      907,
+      300
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      883,
+      466,
+      948,
+      511
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      856,
+      668,
+      906,
+      722
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      31,
+      25,
+      75,
+      226
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      448,
+      44,
+      484,
+      142
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      556,
+      44,
+      592,
+      142
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      346,
+      184,
+      382,
+      258
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      297,
+      388,
+      333,
+      463
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      422,
+      398,
+      458,
+      473
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      687,
+      344,
+      723,
+      420
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      687,
+      593,
+      723,
+      669
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      715,
+      873,
+      751,
+      948
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      822,
+      873,
+      858,
+      948
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      946,
+      455,
+      982,
+      530
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      144,
+      386,
+      176,
+      448
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      211,
+      401,
+      243,
+      463
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      488,
+      434,
+      521,
+      496
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

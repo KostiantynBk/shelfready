@@ -1,0 +1,103 @@
+{
+ "item_id": "B07T9CZYXR",
+ "photos": {
+  "A15tZaibGEL": {
+   "role": "lifestyle",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "orange",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "A1byAxfzBzL": {
+   "role": "lifestyle",
+   "product_type": "area rug",
+   "products_in_frame": 2,
+   "colour_family": "orange",
+   "upholstery_material": "wool",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      213,
+      531,
+      266,
+      566
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      253,
+      563,
+      382,
+      603
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      243,
+      775,
+      256,
+      816
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      266,
+      946,
+      364,
+      986
+     ]
+    }
+   ]
+  },
+  "A1qwkAdp83L": {
+   "role": "packshot",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "orange",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "914ZpCdjkIL": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "orange",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

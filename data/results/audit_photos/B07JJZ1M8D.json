@@ -1,0 +1,177 @@
+{
+ "item_id": "B07JJZ1M8D",
+ "photos": {
+  "51dE0HIEUdL": {
+   "role": "packshot",
+   "product_type": "stool",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      293,
+      215,
+      796,
+      332
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      293,
+      378,
+      882,
+      448
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      293,
+      535,
+      765,
+      585
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      293,
+      652,
+      845,
+      760
+     ]
+    }
+   ]
+  },
+  "41Wgr7XeTKL": {
+   "role": "detail",
+   "product_type": "stool",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      221,
+      736,
+      406,
+      1000
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      374,
+      443,
+      801,
+      1000
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      706,
+      706,
+      997,
+      1000
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      845,
+      425,
+      998,
+      583
+     ]
+    }
+   ]
+  },
+  "61i9J09-C1L": {
+   "role": "detail",
+   "product_type": "stool",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      393,
+      416,
+      678,
+      958
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      246,
+      776,
+      423,
+      1000
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      724,
+      915,
+      1000
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      853,
+      402,
+      1000,
+      634
+     ]
+    }
+   ]
+  },
+  "81ajIoqDKpL": {
+   "role": "detail",
+   "product_type": "upholstery fabric",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

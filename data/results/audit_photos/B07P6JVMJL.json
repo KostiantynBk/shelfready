@@ -1,0 +1,200 @@
+{
+ "item_id": "B07P6JVMJL",
+ "photos": {
+  "81FqRa3TtGL": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [
+    "35.4\"",
+    "33.9\"",
+    "56.3\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      366,
+      17,
+      408,
+      77
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      816,
+      154,
+      895,
+      224
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      826,
+      631,
+      875,
+      697
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      683,
+      184,
+      742,
+      211
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      756,
+      337,
+      892,
+      373
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      851,
+      726,
+      882
+     ]
+    }
+   ]
+  },
+  "A1T8wjvK5GL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      807,
+      356,
+      848,
+      388
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      766,
+      871,
+      797
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      548,
+      133,
+      618,
+      216
+     ]
+    }
+   ]
+  },
+  "8199jR9H1LL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      746,
+      114,
+      803,
+      143
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      287,
+      978,
+      333
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      691,
+      877,
+      793,
+      911
+     ]
+    }
+   ]
+  },
+  "81i91Qf5qIL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      842,
+      115,
+      994,
+      158
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      838,
+      837,
+      990,
+      880
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

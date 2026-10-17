@@ -1,0 +1,749 @@
+{
+ "product_id": "SYN-12",
+ "decisions": {},
+ "facts": {
+  "product_name": "Sofá SINTRA / SINTRA sofa",
+  "model": "SINTRA",
+  "brand": "Móveis Lusa",
+  "width_cm": 182,
+  "depth_cm": 86,
+  "height_cm": 90,
+  "seat_height_cm": 45,
+  "seat_depth_cm": 52,
+  "max_load_kg": 220,
+  "weight_kg": 39.7,
+  "product_type": "Sofá / sofa",
+  "legs_or_base": "Faia maciça, acabamento nogueira / solid beech, walnut stain",
+  "upholstery": "Tecido, 100% poliester / woven fabric, 100% polyester",
+  "care": "Capa removível, lavar a 30 °C / removable cover, washable at 30 °C",
+  "country_of_origin": "Portugal",
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Not for outdoor use.",
+   "Manter afastado de fontes de calor.",
+   "Keep away from heat sources.",
+   "Não subir para o assento.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "SIN-12-ANT",
+    "colour_name": "Antracite"
+   },
+   {
+    "code": "SIN-12-CAR",
+    "colour_name": "Caramelo"
+   }
+  ]
+ },
+ "held_back": [],
+ "photos": [
+  {
+   "file": "SIN12_ANT_34.jpg",
+   "variant": "SIN-12-ANT",
+   "view": "three-quarter",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "SIN12_ANT_front.jpg",
+   "variant": "SIN-12-ANT",
+   "view": "front",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "SIN12_CAR_34.jpg",
+   "variant": "SIN-12-CAR",
+   "view": "three-quarter",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "SIN12_CAR_front.jpg",
+   "variant": "SIN-12-CAR",
+   "view": "front",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "IMG_4571.JPG",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "SIN12_ANT_side.jpg",
+   "variant": "SIN-12-ANT",
+   "view": "side",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "SIN12_CAR_detail.jpg",
+   "variant": "SIN-12-CAR",
+   "view": "detail",
+   "colour_seen": "brown"
+  }
+ ],
+ "protected": [
+  "Móveis Lusa",
+  "SINTRA",
+  "SIN-12-ANT",
+  "SIN-12-CAR"
+ ],
+ "en": {
+  "title": "Móveis Lusa SINTRA Sofa",
+  "bullets": [
+   "Dimensions: 182 cm width, 86 cm depth, 90 cm height",
+   "Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C",
+   "Legs: Solid beech with walnut stain",
+   "Maximum load capacity: 220 kg",
+   "Made in Portugal"
+  ],
+  "description": "The SINTRA sofa by Móveis Lusa features a 100% polyester woven fabric upholstery and solid beech legs with a walnut stain. It includes a removable cover for easy maintenance, washable at 30 °C.",
+  "colours": [
+   {
+    "code": "SIN-12-ANT",
+    "name": "Anthracite"
+   },
+   {
+    "code": "SIN-12-CAR",
+    "name": "Caramel"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "SIN12_ANT_34.jpg",
+    "text": "SINTRA sofa in grey, three-quarter view"
+   },
+   {
+    "file": "SIN12_ANT_front.jpg",
+    "text": "SINTRA sofa in grey, front view"
+   },
+   {
+    "file": "SIN12_CAR_34.jpg",
+    "text": "SINTRA sofa in brown, three-quarter view"
+   },
+   {
+    "file": "SIN12_CAR_front.jpg",
+    "text": "SINTRA sofa in brown, front view"
+   },
+   {
+    "file": "IMG_4571.JPG",
+    "text": "SINTRA sofa in grey, packshot view"
+   },
+   {
+    "file": "SIN12_ANT_side.jpg",
+    "text": "SINTRA sofa in grey, side view"
+   },
+   {
+    "file": "SIN12_CAR_detail.jpg",
+    "text": "SINTRA sofa in brown, detail view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sofá SINTRA de Móveis Lusa",
+    "bullets": [
+     "Dimensiones: 182 cm de ancho, 86 cm de profundidad, 90 cm de altura",
+     "Tapicería: tejido 100% poliéster con funda extraíble lavable a 30 °C",
+     "Patas: haya maciza con acabado en nogal",
+     "Capacidad de carga máxima: 220 kg",
+     "Fabricado en Portugal"
+    ],
+    "description": "El sofá SINTRA de Móveis Lusa presenta una tapicería de tejido 100% poliéster y patas de haya maciza con acabado en nogal. Incluye una funda extraíble para facilitar el mantenimiento, lavable a 30 °C.",
+    "colours": [
+     {
+      "code": "SIN-12-ANT",
+      "name": "Antracita"
+     },
+     {
+      "code": "SIN-12-CAR",
+      "name": "Caramelo"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "SIN12_ANT_34.jpg",
+      "text": "Sofá SINTRA en gris, vista en tres cuartos"
+     },
+     {
+      "file": "SIN12_ANT_front.jpg",
+      "text": "Sofá SINTRA en gris, vista frontal"
+     },
+     {
+      "file": "SIN12_CAR_34.jpg",
+      "text": "Sofá SINTRA en marrón, vista en tres cuartos"
+     },
+     {
+      "file": "SIN12_CAR_front.jpg",
+      "text": "Sofá SINTRA en marrón, vista frontal"
+     },
+     {
+      "file": "IMG_4571.JPG",
+      "text": "Sofá SINTRA en gris, vista de catálogo"
+     },
+     {
+      "file": "SIN12_ANT_side.jpg",
+      "text": "Sofá SINTRA en gris, vista lateral"
+     },
+     {
+      "file": "SIN12_CAR_detail.jpg",
+      "text": "Sofá SINTRA en marrón, vista de detalle"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Divano Móveis Lusa SINTRA",
+    "bullets": [
+     "Dimensioni: 182 cm di larghezza, 86 cm di profondità, 90 cm di altezza",
+     "Rivestimento: tessuto intrecciato 100% poliestere con fodera rimovibile lavabile a 30 °C",
+     "Gambe: faggio massello con tinta noce",
+     "Capacità di carico massima: 220 kg",
+     "Realizzato in Portogallo"
+    ],
+    "description": "Il divano SINTRA di Móveis Lusa presenta un rivestimento in tessuto intrecciato 100% poliestere e gambe in faggio massello con tinta noce. Include una fodera rimovibile per una facile manutenzione, lavabile a 30 °C.",
+    "colours": [
+     {
+      "code": "SIN-12-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "SIN-12-CAR",
+      "name": "Caramello"
+     }
+    ],
+    "safety_warnings": [
+     "Non adatto per uso esterno.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sul sedile."
+    ],
+    "alt_texts": [
+     {
+      "file": "SIN12_ANT_34.jpg",
+      "text": "Divano SINTRA in grigio, vista a tre quarti"
+     },
+     {
+      "file": "SIN12_ANT_front.jpg",
+      "text": "Divano SINTRA in grigio, vista frontale"
+     },
+     {
+      "file": "SIN12_CAR_34.jpg",
+      "text": "Divano SINTRA in marrone, vista a tre quarti"
+     },
+     {
+      "file": "SIN12_CAR_front.jpg",
+      "text": "Divano SINTRA in marrone, vista frontale"
+     },
+     {
+      "file": "IMG_4571.JPG",
+      "text": "Divano SINTRA in grigio, vista packshot"
+     },
+     {
+      "file": "SIN12_ANT_side.jpg",
+      "text": "Divano SINTRA in grigio, vista laterale"
+     },
+     {
+      "file": "SIN12_CAR_detail.jpg",
+      "text": "Divano SINTRA in marrone, vista dettaglio"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Móveis Lusa SINTRA Sofa",
+    "bullets": [
+     "Maße: 182 cm Breite, 86 cm Tiefe, 90 cm Höhe",
+     "Bezug: 100% Polyester-Webstoff mit abnehmbarem, bei 30 °C waschbarem Bezug",
+     "Beine: Massivbuche mit Walnuss-Finish",
+     "Maximale Belastbarkeit: 220 kg",
+     "Hergestellt in Portugal"
+    ],
+    "description": "Das SINTRA Sofa von Móveis Lusa besticht durch einen Bezug aus 100% Polyester-Webstoff und Beine aus Massivbuche in Walnuss-Optik. Für eine einfache Pflege verfügt es über einen abnehmbaren Bezug, der bei 30 °C gewaschen werden kann.",
+    "colours": [
+     {
+      "code": "SIN-12-ANT",
+      "name": "Anthrazit"
+     },
+     {
+      "code": "SIN-12-CAR",
+      "name": "Karamell"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "SIN12_ANT_34.jpg",
+      "text": "SINTRA Sofa in Grau, Dreiviertelansicht"
+     },
+     {
+      "file": "SIN12_ANT_front.jpg",
+      "text": "SINTRA Sofa in Grau, Frontansicht"
+     },
+     {
+      "file": "SIN12_CAR_34.jpg",
+      "text": "SINTRA Sofa in Braun, Dreiviertelansicht"
+     },
+     {
+      "file": "SIN12_CAR_front.jpg",
+      "text": "SINTRA Sofa in Braun, Frontansicht"
+     },
+     {
+      "file": "IMG_4571.JPG",
+      "text": "SINTRA Sofa in Grau, Packshot-Ansicht"
+     },
+     {
+      "file": "SIN12_ANT_side.jpg",
+      "text": "SINTRA Sofa in Grau, Seitenansicht"
+     },
+     {
+      "file": "SIN12_CAR_detail.jpg",
+      "text": "SINTRA Sofa in Braun, Detailansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa SINTRA Sofa",
+    "bullets": [
+     "Dimensions: 182 cm width, 86 cm depth, 90 cm height",
+     "Cover: 100% polyester woven fabric with removable cover washable at 30 °C",
+     "Legs: solid beech with walnut finish",
+     "Maximum load capacity: 220 kg",
+     "Made in Portugal"
+    ],
+    "description": "The SINTRA sofa from Móveis Lusa impresses with a cover made of 100% polyester woven fabric and legs made of solid beech in walnut look. For easy care, it has a removable cover that can be washed at 30 °C.",
+    "colours": [
+     {
+      "code": "SIN-12-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "SIN-12-CAR",
+      "name": "Caramel"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "SIN12_ANT_34.jpg",
+      "text": "SINTRA sofa in grey, three-quarter view"
+     },
+     {
+      "file": "SIN12_ANT_front.jpg",
+      "text": "SINTRA sofa in grey, front view"
+     },
+     {
+      "file": "SIN12_CAR_34.jpg",
+      "text": "SINTRA sofa in brown, three-quarter view"
+     },
+     {
+      "file": "SIN12_CAR_front.jpg",
+      "text": "SINTRA sofa in brown, front view"
+     },
+     {
+      "file": "IMG_4571.JPG",
+      "text": "SINTRA sofa in grey, packshot view"
+     },
+     {
+      "file": "SIN12_ANT_side.jpg",
+      "text": "SINTRA sofa in grey, side view"
+     },
+     {
+      "file": "SIN12_CAR_detail.jpg",
+      "text": "SINTRA sofa in brown, detail view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Canapé Móveis Lusa SINTRA",
+    "bullets": [
+     "Dimensions : 182 cm de largeur, 86 cm de profondeur, 90 cm de hauteur",
+     "Revêtement : tissu tissé 100% polyester avec housse amovible lavable à 30 °C",
+     "Pieds : hêtre massif avec teinture noyer",
+     "Capacité de charge maximale : 220 kg",
+     "Fabriqué au Portugal"
+    ],
+    "description": "Le canapé SINTRA de Móveis Lusa présente un revêtement en tissu tissé 100% polyester et des pieds en hêtre massif avec une teinture noyer. Il comprend une housse amovible pour un entretien facile, lavable à 30 °C.",
+    "colours": [
+     {
+      "code": "SIN-12-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "SIN-12-CAR",
+      "name": "Caramel"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur l'assise."
+    ],
+    "alt_texts": [
+     {
+      "file": "SIN12_ANT_34.jpg",
+      "text": "Canapé SINTRA en gris, vue de trois-quarts"
+     },
+     {
+      "file": "SIN12_ANT_front.jpg",
+      "text": "Canapé SINTRA en gris, vue de face"
+     },
+     {
+      "file": "SIN12_CAR_34.jpg",
+      "text": "Canapé SINTRA en marron, vue de trois-quarts"
+     },
+     {
+      "file": "SIN12_CAR_front.jpg",
+      "text": "Canapé SINTRA en marron, vue de face"
+     },
+     {
+      "file": "IMG_4571.JPG",
+      "text": "Canapé SINTRA en gris, vue packshot"
+     },
+     {
+      "file": "SIN12_ANT_side.jpg",
+      "text": "Canapé SINTRA en gris, vue de profil"
+     },
+     {
+      "file": "SIN12_CAR_detail.jpg",
+      "text": "Canapé SINTRA en marron, vue détaillée"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Sofá Móveis Lusa SINTRA",
+    "bullets": [
+     "Dimensões: 182 cm de largura, 86 cm de profundidade, 90 cm de altura",
+     "Estofos: Tecido tecido 100% poliéster com capa removível lavável a 30 °C",
+     "Pés: Faia maciça com acabamento em nogueira",
+     "Capacidade de carga máxima: 220 kg",
+     "Fabricado em Portugal"
+    ],
+    "description": "O sofá SINTRA da Móveis Lusa apresenta estofos em tecido 100% poliéster e pés em faia maciça com acabamento em nogueira. Inclui uma capa removível para facilitar a manutenção, lavável a 30 °C.",
+    "colours": [
+     {
+      "code": "SIN-12-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "SIN-12-CAR",
+      "name": "Caramelo"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "SIN12_ANT_34.jpg",
+      "text": "Sofá SINTRA em cinzento, vista de três quartos"
+     },
+     {
+      "file": "SIN12_ANT_front.jpg",
+      "text": "Sofá SINTRA em cinzento, vista frontal"
+     },
+     {
+      "file": "SIN12_CAR_34.jpg",
+      "text": "Sofá SINTRA em castanho, vista de três quartos"
+     },
+     {
+      "file": "SIN12_CAR_front.jpg",
+      "text": "Sofá SINTRA em castanho, vista frontal"
+     },
+     {
+      "file": "IMG_4571.JPG",
+      "text": "Sofá SINTRA em cinzento, vista de catálogo"
+     },
+     {
+      "file": "SIN12_ANT_side.jpg",
+      "text": "Sofá SINTRA em cinzento, vista lateral"
+     },
+     {
+      "file": "SIN12_CAR_detail.jpg",
+      "text": "Sofá SINTRA em castanho, vista de detalhe"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Sofa Móveis Lusa SINTRA",
+    "bullets": [
+     "Wymiary: 182 cm szerokości, 86 cm głębokości, 90 cm wysokości",
+     "Obicie: tkanina pleciona 100% poliester ze zdejmowanym pokrowcem, możliwym do prania w 30 °C",
+     "Nogi: lite drewno bukowe bejcowane na orzech",
+     "Maksymalne obciążenie: 220 kg",
+     "Wyprodukowano w Portugalii"
+    ],
+    "description": "Sofa SINTRA od Móveis Lusa posiada obicie z tkaniny plecionej 100% poliester oraz nogi z litego drewna bukowego bejcowanego na orzech. Wyposażona jest w zdejmowany pokrowiec ułatwiający konserwację, który można prać w 30 °C.",
+    "colours": [
+     {
+      "code": "SIN-12-ANT",
+      "name": "Antracytowy"
+     },
+     {
+      "code": "SIN-12-CAR",
+      "name": "Karmelowy"
+     }
+    ],
+    "safety_warnings": [
+     "Produkt nieprzeznaczony do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "SIN12_ANT_34.jpg",
+      "text": "Sofa SINTRA w kolorze szarym, widok z trzech czwartych"
+     },
+     {
+      "file": "SIN12_ANT_front.jpg",
+      "text": "Sofa SINTRA w kolorze szarym, widok z przodu"
+     },
+     {
+      "file": "SIN12_CAR_34.jpg",
+      "text": "Sofa SINTRA w kolorze brązowym, widok z trzech czwartych"
+     },
+     {
+      "file": "SIN12_CAR_front.jpg",
+      "text": "Sofa SINTRA w kolorze brązowym, widok z przodu"
+     },
+     {
+      "file": "IMG_4571.JPG",
+      "text": "Sofa SINTRA w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "SIN12_ANT_side.jpg",
+      "text": "Sofa SINTRA w kolorze szarym, widok z boku"
+     },
+     {
+      "file": "SIN12_CAR_detail.jpg",
+      "text": "Sofa SINTRA w kolorze brązowym, widok szczegółowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Диван Móveis Lusa SINTRA",
+    "bullets": [
+     "Розміри: ширина 182 см, глибина 86 см, висота 90 см",
+     "Оббивка: 100% поліестерова тканина з одним знімним чохлом, що переється при 30 °C",
+     "Ніжки: масив бука з покриттям під горіх",
+     "Максимальне навантаження: 220 кг",
+     "Виготовлено в Португалії"
+    ],
+    "description": "Диван SINTRA від Móveis Lusa має оббивку зі 100% поліестерової тканини та ніжки з масиву бука з покриттям під горіх. Він оснащений знімним чохлом для легкого догляду, який можна прати при 30 °C.",
+    "colours": [
+     {
+      "code": "SIN-12-ANT",
+      "name": "Антрацитовий"
+     },
+     {
+      "code": "SIN-12-CAR",
+      "name": "Карамельний"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "SIN12_ANT_34.jpg",
+      "text": "Диван SINTRA у сірому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "SIN12_ANT_front.jpg",
+      "text": "Диван SINTRA у сірому кольорі, вигляд спереду"
+     },
+     {
+      "file": "SIN12_CAR_34.jpg",
+      "text": "Диван SINTRA у коричневому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "SIN12_CAR_front.jpg",
+      "text": "Диван SINTRA у коричневому кольорі, вигляд спереду"
+     },
+     {
+      "file": "IMG_4571.JPG",
+      "text": "Диван SINTRA у сірому кольорі, студійний вигляд"
+     },
+     {
+      "file": "SIN12_ANT_side.jpg",
+      "text": "Диван SINTRA у сірому кольорі, вигляд збоку"
+     },
+     {
+      "file": "SIN12_CAR_detail.jpg",
+      "text": "Диван SINTRA у коричневому кольорі, детальний вигляд"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa SINTRA Sofa",
+    "bullets": [
+     "Dimensions: width 182 cm, depth 86 cm, height 90 cm",
+     "Upholstery: 100% polyester fabric with one removable cover, washable at 30 °C",
+     "Legs: solid beech with walnut finish",
+     "Maximum load: 220 kg",
+     "Made in Portugal"
+    ],
+    "description": "The SINTRA sofa from Móveis Lusa features 100% polyester fabric upholstery and solid beech legs with a walnut finish. It is equipped with a removable cover for easy care, which can be washed at 30 °C.",
+    "colours": [
+     {
+      "code": "SIN-12-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "SIN-12-CAR",
+      "name": "Caramel"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seats."
+    ],
+    "alt_texts": [
+     {
+      "file": "SIN12_ANT_34.jpg",
+      "text": "SINTRA sofa in grey, three-quarter view"
+     },
+     {
+      "file": "SIN12_ANT_front.jpg",
+      "text": "SINTRA sofa in grey, front view"
+     },
+     {
+      "file": "SIN12_CAR_34.jpg",
+      "text": "SINTRA sofa in brown, three-quarter view"
+     },
+     {
+      "file": "SIN12_CAR_front.jpg",
+      "text": "SINTRA sofa in brown, front view"
+     },
+     {
+      "file": "IMG_4571.JPG",
+      "text": "SINTRA sofa in grey, studio view"
+     },
+     {
+      "file": "SIN12_ANT_side.jpg",
+      "text": "SINTRA sofa in grey, side view"
+     },
+     {
+      "file": "SIN12_CAR_detail.jpg",
+      "text": "SINTRA sofa in brown, detailed view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

@@ -1,0 +1,150 @@
+{
+ "item_id": "B07CB5GN4D",
+ "photos": {
+  "91cuZmtZ-zL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      336,
+      171,
+      978,
+      653
+     ]
+    }
+   ]
+  },
+  "91oHqnVaZXL": {
+   "role": "packshot",
+   "product_type": "sectional sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      583,
+      22,
+      621,
+      55
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      136,
+      651,
+      169
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      551,
+      576,
+      583
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      586,
+      838,
+      625,
+      871
+     ]
+    }
+   ]
+  },
+  "B1sC9cc-hhS": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "A1nzwRiyJlL": {
+   "role": "lifestyle",
+   "product_type": "sectional sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      691,
+      282,
+      730,
+      306
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      571,
+      565,
+      600,
+      591
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      591,
+      941,
+      623,
+      966
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      704,
+      24,
+      745,
+      108
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

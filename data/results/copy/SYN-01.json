@@ -1,0 +1,762 @@
+{
+ "product_id": "SYN-01",
+ "decisions": {},
+ "facts": {
+  "product_name": "Poltrona PORTO / PORTO armchair",
+  "model": "PORTO",
+  "brand": "Móveis Lusa",
+  "width_cm": 79,
+  "depth_cm": 92,
+  "height_cm": 95,
+  "seat_depth_cm": 55,
+  "max_load_kg": 120,
+  "weight_kg": 30.8,
+  "product_type": "Poltrona / Armchair",
+  "legs_or_base": "Faia maciça, acabamento natural a óleo / solid beech, natural oil finish",
+  "upholstery": "Veludo, 100% poliéster / velvet, 100% polyester",
+  "country_of_origin": "Portugal",
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Not for outdoor use.",
+   "Manter afastado de fontes de calor.",
+   "Keep away from heat sources.",
+   "Não subir para o assento.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "POR-01-AZU",
+    "colour_name": "Azul"
+   },
+   {
+    "code": "POR-01-ANT",
+    "colour_name": "Antracite"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "seat_height",
+   "variant": null,
+   "reason": "Seat height missing",
+   "issue": "D1::seat_height:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "care",
+   "variant": null,
+   "reason": "Care instructions contradict the care label",
+   "issue": "D5::care:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "IMG_4834.JPG",
+   "variant": null,
+   "view": "three-quarter",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "POR01_ANT_34.jpg",
+   "variant": "POR-01-ANT",
+   "view": "three-quarter",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "POR01_ANT_front.jpg",
+   "variant": "POR-01-ANT",
+   "view": "front",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "POR01_AZU_34.jpg",
+   "variant": "POR-01-AZU",
+   "view": "three-quarter",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "POR01_AZU_front.jpg",
+   "variant": "POR-01-AZU",
+   "view": "front",
+   "colour_seen": "blue"
+  },
+  {
+   "file": "POR01_ANT_detail.jpg",
+   "variant": "POR-01-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "POR01_ANT_side.jpg",
+   "variant": "POR-01-ANT",
+   "view": "side",
+   "colour_seen": "grey"
+  }
+ ],
+ "protected": [
+  "Móveis Lusa",
+  "PORTO",
+  "POR-01-AZU",
+  "POR-01-ANT"
+ ],
+ "en": {
+  "title": "Móveis Lusa PORTO Armchair",
+  "bullets": [
+   "Dimensions: 79 cm width, 92 cm depth, 95 cm height",
+   "Seat depth: 55 cm",
+   "Upholstery: 100% polyester velvet",
+   "Legs: Solid beech with natural oil finish",
+   "Maximum load capacity: 120 kg"
+  ],
+  "description": "The PORTO armchair by Móveis Lusa is manufactured in Portugal. It features a velvet upholstery and solid beech legs with a natural oil finish.",
+  "colours": [
+   {
+    "code": "POR-01-AZU",
+    "name": "Blue"
+   },
+   {
+    "code": "POR-01-ANT",
+    "name": "Anthracite"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "IMG_4834.JPG",
+    "text": "Three-quarter view of the PORTO armchair in blue."
+   },
+   {
+    "file": "POR01_ANT_34.jpg",
+    "text": "Three-quarter view of the PORTO armchair in anthracite grey."
+   },
+   {
+    "file": "POR01_ANT_front.jpg",
+    "text": "Front view of the PORTO armchair in anthracite grey."
+   },
+   {
+    "file": "POR01_AZU_34.jpg",
+    "text": "Three-quarter view of the PORTO armchair in blue."
+   },
+   {
+    "file": "POR01_AZU_front.jpg",
+    "text": "Front view of the PORTO armchair in blue."
+   },
+   {
+    "file": "POR01_ANT_detail.jpg",
+    "text": "Detail view of the PORTO armchair in anthracite grey."
+   },
+   {
+    "file": "POR01_ANT_side.jpg",
+    "text": "Side view of the PORTO armchair in anthracite grey."
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sillón Móveis Lusa PORTO",
+    "bullets": [
+     "Dimensiones: 79 cm de ancho, 92 cm de profundidad, 95 cm de altura",
+     "Profundidad del asiento: 55 cm",
+     "Tapicería: Terciopelo 100% poliéster",
+     "Patas: Haya maciza con acabado en aceite natural",
+     "Capacidad de carga máxima: 120 kg"
+    ],
+    "description": "El sillón PORTO de Móveis Lusa está fabricado en Portugal. Cuenta con una tapicería de terciopelo y patas de haya maciza con un acabado en aceite natural.",
+    "colours": [
+     {
+      "code": "POR-01-AZU",
+      "name": "Azul"
+     },
+     {
+      "code": "POR-01-ANT",
+      "name": "Antracita"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4834.JPG",
+      "text": "Vista en tres cuartos del sillón PORTO en azul."
+     },
+     {
+      "file": "POR01_ANT_34.jpg",
+      "text": "Vista en tres cuartos del sillón PORTO en gris antracita."
+     },
+     {
+      "file": "POR01_ANT_front.jpg",
+      "text": "Vista frontal del sillón PORTO en gris antracita."
+     },
+     {
+      "file": "POR01_AZU_34.jpg",
+      "text": "Vista en tres cuartos del sillón PORTO en azul."
+     },
+     {
+      "file": "POR01_AZU_front.jpg",
+      "text": "Vista frontal del sillón PORTO en azul."
+     },
+     {
+      "file": "POR01_ANT_detail.jpg",
+      "text": "Vista de detalle del sillón PORTO en gris antracita."
+     },
+     {
+      "file": "POR01_ANT_side.jpg",
+      "text": "Vista lateral del sillón PORTO en gris antracita."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Poltrona Móveis Lusa PORTO",
+    "bullets": [
+     "Dimensioni: 79 cm di larghezza, 92 cm di profondità, 95 cm di altezza",
+     "Profondità del sedile: 55 cm",
+     "Rivestimento: velluto 100% poliestere",
+     "Gambe: faggio massello con finitura a olio naturale",
+     "Capacità di carico massima: 120 kg"
+    ],
+    "description": "La poltrona PORTO di Móveis Lusa è realizzata in Portogallo. Presenta un rivestimento in velluto e gambe in faggio massello con finitura a olio naturale.",
+    "colours": [
+     {
+      "code": "POR-01-AZU",
+      "name": "Blu"
+     },
+     {
+      "code": "POR-01-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sul sedile."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4834.JPG",
+      "text": "Vista a tre quarti della poltrona PORTO in blu."
+     },
+     {
+      "file": "POR01_ANT_34.jpg",
+      "text": "Vista a tre quarti della poltrona PORTO in grigio antracite."
+     },
+     {
+      "file": "POR01_ANT_front.jpg",
+      "text": "Vista frontale della poltrona PORTO in grigio antracite."
+     },
+     {
+      "file": "POR01_AZU_34.jpg",
+      "text": "Vista a tre quarti della poltrona PORTO in blu."
+     },
+     {
+      "file": "POR01_AZU_front.jpg",
+      "text": "Vista frontale della poltrona PORTO in blu."
+     },
+     {
+      "file": "POR01_ANT_detail.jpg",
+      "text": "Vista di dettaglio della poltrona PORTO in grigio antracite."
+     },
+     {
+      "file": "POR01_ANT_side.jpg",
+      "text": "Vista laterale della poltrona PORTO in grigio antracite."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Móveis Lusa PORTO Sessel",
+    "bullets": [
+     "Maße: 79 cm Breite, 92 cm Tiefe, 95 cm Höhe",
+     "Sitztiefe: 55 cm",
+     "Bezug: 100% Polyester-Samt",
+     "Beine: Massivbuche mit natürlichem Öl-Finish",
+     "Maximale Belastbarkeit: 120 kg"
+    ],
+    "description": "Der PORTO Sessel von Móveis Lusa wird in Portugal hergestellt. Er verfügt über einen Samtbezug und Beine aus Massivbuche mit einem natürlichen Öl-Finish.",
+    "colours": [
+     {
+      "code": "POR-01-AZU",
+      "name": "Blau"
+     },
+     {
+      "code": "POR-01-ANT",
+      "name": "Anthrazit"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4834.JPG",
+      "text": "Dreiviertelansicht des PORTO Sessels in Blau."
+     },
+     {
+      "file": "POR01_ANT_34.jpg",
+      "text": "Dreiviertelansicht des PORTO Sessels in Anthrazitgrau."
+     },
+     {
+      "file": "POR01_ANT_front.jpg",
+      "text": "Frontansicht des PORTO Sessels in Anthrazitgrau."
+     },
+     {
+      "file": "POR01_AZU_34.jpg",
+      "text": "Dreiviertelansicht des PORTO Sessels in Blau."
+     },
+     {
+      "file": "POR01_AZU_front.jpg",
+      "text": "Frontansicht des PORTO Sessels in Blau."
+     },
+     {
+      "file": "POR01_ANT_detail.jpg",
+      "text": "Detailansicht des PORTO Sessels in Anthrazitgrau."
+     },
+     {
+      "file": "POR01_ANT_side.jpg",
+      "text": "Seitenansicht des PORTO Sessels in Anthrazitgrau."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa PORTO Armchair",
+    "bullets": [
+     "Dimensions: 79 cm width, 92 cm depth, 95 cm height",
+     "Seat depth: 55 cm",
+     "Cover: 100% polyester velvet",
+     "Legs: solid beech with natural oil finish",
+     "Maximum load capacity: 120 kg"
+    ],
+    "description": "The PORTO armchair from Móveis Lusa is made in Portugal. It features a velvet cover and legs made of solid beech with a natural oil finish.",
+    "colours": [
+     {
+      "code": "POR-01-AZU",
+      "name": "Blue"
+     },
+     {
+      "code": "POR-01-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4834.JPG",
+      "text": "Three-quarter view of the PORTO armchair in blue."
+     },
+     {
+      "file": "POR01_ANT_34.jpg",
+      "text": "Three-quarter view of the PORTO armchair in anthracite grey."
+     },
+     {
+      "file": "POR01_ANT_front.jpg",
+      "text": "Front view of the PORTO armchair in anthracite grey."
+     },
+     {
+      "file": "POR01_AZU_34.jpg",
+      "text": "Three-quarter view of the PORTO armchair in blue."
+     },
+     {
+      "file": "POR01_AZU_front.jpg",
+      "text": "Front view of the PORTO armchair in blue."
+     },
+     {
+      "file": "POR01_ANT_detail.jpg",
+      "text": "Detailed view of the PORTO armchair in anthracite grey."
+     },
+     {
+      "file": "POR01_ANT_side.jpg",
+      "text": "Side view of the PORTO armchair in anthracite grey."
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Fauteuil Móveis Lusa PORTO",
+    "bullets": [
+     "Dimensions : 79 cm de largeur, 92 cm de profondeur, 95 cm de hauteur",
+     "Profondeur d'assise : 55 cm",
+     "Revêtement : velours 100% polyester",
+     "Pieds : hêtre massif avec finition à l'huile naturelle",
+     "Capacité de charge maximale : 120 kg"
+    ],
+    "description": "Le fauteuil PORTO de Móveis Lusa est fabriqué au Portugal. Il dispose d'un revêtement en velours et de pieds en hêtre massif avec une finition à l'huile naturelle.",
+    "colours": [
+     {
+      "code": "POR-01-AZU",
+      "name": "Bleu"
+     },
+     {
+      "code": "POR-01-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4834.JPG",
+      "text": "Vue de trois-quarts du fauteuil PORTO en bleu."
+     },
+     {
+      "file": "POR01_ANT_34.jpg",
+      "text": "Vue de trois-quarts du fauteuil PORTO en gris anthracite."
+     },
+     {
+      "file": "POR01_ANT_front.jpg",
+      "text": "Vue de face du fauteuil PORTO en gris anthracite."
+     },
+     {
+      "file": "POR01_AZU_34.jpg",
+      "text": "Vue de trois-quarts du fauteuil PORTO en bleu."
+     },
+     {
+      "file": "POR01_AZU_front.jpg",
+      "text": "Vue de face du fauteuil PORTO en bleu."
+     },
+     {
+      "file": "POR01_ANT_detail.jpg",
+      "text": "Vue détaillée du fauteuil PORTO en gris anthracite."
+     },
+     {
+      "file": "POR01_ANT_side.jpg",
+      "text": "Vue latérale du fauteuil PORTO en gris anthracite."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Poltrona Móveis Lusa PORTO",
+    "bullets": [
+     "Dimensões: 79 cm de largura, 92 cm de profundidade, 95 cm de altura",
+     "Profundidade do assento: 55 cm",
+     "Estofos: Veludo 100% poliéster",
+     "Pernas: Faia maciça com acabamento em óleo natural",
+     "Capacidade de carga máxima: 120 kg"
+    ],
+    "description": "A poltrona PORTO da Móveis Lusa é fabricada em Portugal. Apresenta estofos em veludo e pernas em faia maciça com acabamento em óleo natural.",
+    "colours": [
+     {
+      "code": "POR-01-AZU",
+      "name": "Azul"
+     },
+     {
+      "code": "POR-01-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4834.JPG",
+      "text": "Vista de três quartos da poltrona PORTO em azul."
+     },
+     {
+      "file": "POR01_ANT_34.jpg",
+      "text": "Vista de três quartos da poltrona PORTO em cinzento antracite."
+     },
+     {
+      "file": "POR01_ANT_front.jpg",
+      "text": "Vista frontal da poltrona PORTO em cinzento antracite."
+     },
+     {
+      "file": "POR01_AZU_34.jpg",
+      "text": "Vista de três quartos da poltrona PORTO em azul."
+     },
+     {
+      "file": "POR01_AZU_front.jpg",
+      "text": "Vista frontal da poltrona PORTO em azul."
+     },
+     {
+      "file": "POR01_ANT_detail.jpg",
+      "text": "Vista detalhada da poltrona PORTO em cinzento antracite."
+     },
+     {
+      "file": "POR01_ANT_side.jpg",
+      "text": "Vista lateral da poltrona PORTO em cinzento antracite."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Fotel Móveis Lusa PORTO",
+    "bullets": [
+     "Wymiary: 79 cm szerokości, 92 cm głębokości, 95 cm wysokości",
+     "Głębokość siedziska: 55 cm",
+     "Obicie: 100% poliester, welur",
+     "Nogi: Lite drewno bukowe z naturalnym wykończeniem olejnym",
+     "Maksymalne obciążenie: 120 kg"
+    ],
+    "description": "Fotel PORTO marki Móveis Lusa jest produkowany w Portugalii. Charakteryzuje się welurowym obiciem oraz nogami z litego buka z naturalnym wykończeniem olejnym.",
+    "colours": [
+     {
+      "code": "POR-01-AZU",
+      "name": "Niebieski"
+     },
+     {
+      "code": "POR-01-ANT",
+      "name": "Antracytowy"
+     }
+    ],
+    "safety_warnings": [
+     "Produkt nieprzeznaczony do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4834.JPG",
+      "text": "Widok z trzech czwartych fotela PORTO w kolorze niebieskim."
+     },
+     {
+      "file": "POR01_ANT_34.jpg",
+      "text": "Widok z trzech czwartych fotela PORTO w kolorze antracytowym."
+     },
+     {
+      "file": "POR01_ANT_front.jpg",
+      "text": "Widok z przodu fotela PORTO w kolorze antracytowym."
+     },
+     {
+      "file": "POR01_AZU_34.jpg",
+      "text": "Widok z trzech czwartych fotela PORTO w kolorze niebieskim."
+     },
+     {
+      "file": "POR01_AZU_front.jpg",
+      "text": "Widok z przodu fotela PORTO w kolorze niebieskim."
+     },
+     {
+      "file": "POR01_ANT_detail.jpg",
+      "text": "Zbliżenie na detale fotela PORTO w kolorze antracytowym."
+     },
+     {
+      "file": "POR01_ANT_side.jpg",
+      "text": "Widok z boku fotela PORTO w kolorze antracytowym."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Крісло Móveis Lusa PORTO",
+    "bullets": [
+     "Розміри: 79 см ширина, 92 см глибина, 95 см висота",
+     "Глибина сидіння: 55 см",
+     "Оббивка: 100% поліестеровий оксамит",
+     "Ніжки: Масив бука з натуральним масляним покриттям",
+     "Максимальне навантаження: 120 кг"
+    ],
+    "description": "Крісло PORTO від Móveis Lusa виготовлено в Португалії. Воно має оксамитову оббивку та ніжки з масиву бука з натуральним масляним покриттям.",
+    "colours": [
+     {
+      "code": "POR-01-AZU",
+      "name": "Синій"
+     },
+     {
+      "code": "POR-01-ANT",
+      "name": "Антрацитовий"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4834.JPG",
+      "text": "Крісло PORTO в синьому кольорі, вигляд у три чверті."
+     },
+     {
+      "file": "POR01_ANT_34.jpg",
+      "text": "Крісло PORTO в антрацитовому кольорі, вигляд у три чверті."
+     },
+     {
+      "file": "POR01_ANT_front.jpg",
+      "text": "Крісло PORTO в антрацитовому кольорі, вигляд спереду."
+     },
+     {
+      "file": "POR01_AZU_34.jpg",
+      "text": "Крісло PORTO в синьому кольорі, вигляд у три чверті."
+     },
+     {
+      "file": "POR01_AZU_front.jpg",
+      "text": "Крісло PORTO в синьому кольорі, вигляд спереду."
+     },
+     {
+      "file": "POR01_ANT_detail.jpg",
+      "text": "Детальний вигляд крісла PORTO в антрацитовому кольорі."
+     },
+     {
+      "file": "POR01_ANT_side.jpg",
+      "text": "Крісло PORTO в антрацитовому кольорі, вигляд збоку."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa PORTO Armchair",
+    "bullets": [
+     "Dimensions: 79 cm width, 92 cm depth, 95 cm height",
+     "Seat depth: 55 cm",
+     "Upholstery: 100% polyester velvet",
+     "Legs: Solid beech with natural oil finish",
+     "Maximum load: 120 kg"
+    ],
+    "description": "The PORTO armchair from Móveis Lusa is made in Portugal. It features velvet upholstery and solid beech legs with a natural oil finish.",
+    "colours": [
+     {
+      "code": "POR-01-AZU",
+      "name": "Blue"
+     },
+     {
+      "code": "POR-01-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4834.JPG",
+      "text": "PORTO armchair in blue, three-quarter view."
+     },
+     {
+      "file": "POR01_ANT_34.jpg",
+      "text": "PORTO armchair in anthracite, three-quarter view."
+     },
+     {
+      "file": "POR01_ANT_front.jpg",
+      "text": "PORTO armchair in anthracite, front view."
+     },
+     {
+      "file": "POR01_AZU_34.jpg",
+      "text": "PORTO armchair in blue, three-quarter view."
+     },
+     {
+      "file": "POR01_AZU_front.jpg",
+      "text": "PORTO armchair in blue, front view."
+     },
+     {
+      "file": "POR01_ANT_detail.jpg",
+      "text": "Detailed view of the PORTO armchair in anthracite."
+     },
+     {
+      "file": "POR01_ANT_side.jpg",
+      "text": "PORTO armchair in anthracite, side view."
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

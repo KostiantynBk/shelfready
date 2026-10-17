@@ -1,0 +1,889 @@
+{
+ "submission_id": "SYN-10",
+ "spec": {
+  "product_name": "Poltrona ÉVORA / ÉVORA armchair",
+  "supplier": "MÓVEIS LUSA, LDA.",
+  "product_type": "Poltrona / Armchair",
+  "manufacturer": "Móveis Lusa, Lda.",
+  "manufacturer_address": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal · info@moveislusa.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Portugal",
+  "width": {
+   "value": "56",
+   "unit": "cm",
+   "source_text": "56 x 60 x 82 cm"
+  },
+  "depth": {
+   "value": "60",
+   "unit": "cm",
+   "source_text": "56 x 60 x 82 cm"
+  },
+  "height": {
+   "value": "82",
+   "unit": "cm",
+   "source_text": "56 x 60 x 82 cm"
+  },
+  "seat_height": {
+   "value": "45",
+   "unit": "cm",
+   "source_text": "45 cm"
+  },
+  "seat_depth": {
+   "value": "36",
+   "unit": "cm",
+   "source_text": "36 cm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "10,4",
+   "unit": "kg",
+   "source_text": "10,4 kg"
+  },
+  "legs_or_base": "Aço lacado, acabamento latão / powder-coated steel, brass finish",
+  "upholstery": "Veludo, 100% poliéster / velvet, 100% polyester",
+  "care": "Apenas limpeza a seco / dry clean only",
+  "variants": [
+   {
+    "code": "EVO-10-ROS",
+    "colour_name": "Azul",
+    "ean": "5601234010015"
+   },
+   {
+    "code": "EVO-10-MUS",
+    "colour_name": "Musgo",
+    "ean": "5601234010022"
+   }
+  ],
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Manter afastado de fontes de calor.",
+   "Não subir para o assento."
+  ],
+  "safety_warnings_languages": [
+   "pt"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.5027109503516771,
+    0.21534748625470326
+   ],
+   "text": "56 x 60 x 82 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.5027109503516771,
+    0.21534748625470326
+   ],
+   "text": "56 x 60 x 82 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.5027109503516771,
+    0.21534748625470326
+   ],
+   "text": "56 x 60 x 82 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.2389542418181893,
+    0.4347957957060043,
+    0.25008950387643736
+   ],
+   "text": "45 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.26122476593468547,
+    0.43518049689322913,
+    0.2723600279929335
+   ],
+   "text": "36 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.28349529005118174,
+    0.4382427185389303,
+    0.29463055210942984
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.3057658141676779,
+    0.4425898424588069,
+    0.316901076225926
+   ],
+   "text": "10,4 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.18194170007995902,
+    0.8414942385607906,
+    0.1930769621382071
+   ],
+   "text": "Aço lacado, acabamento latão / powder-coated steel, brass finish",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.15967117596346286,
+    0.7237294989502254,
+    0.17080643802171094
+   ],
+   "text": "Veludo, 100% poliéster / velvet, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.32803633828417406,
+    0.6604076773246119,
+    0.33917160034242216
+   ],
+   "text": "Apenas limpeza a seco / dry clean only",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.37257738651716654,
+    0.8704930176338735,
+    0.39618414208065245
+   ],
+   "text": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal · info@moveislusa.example",
+   "note": null
+  },
+  "ean:EVO-10-ROS": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.34181658044075297,
+    0.5088729941101232,
+    0.45277980212834656,
+    0.5200082561683713
+   ],
+   "text": "5601234010015",
+   "note": null
+  },
+  "ean:EVO-10-MUS": {
+   "source": "pdf",
+   "file": "EVO10_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.34181658044075297,
+    0.5311435182266194,
+    0.45528805416529106,
+    0.5422787802848675
+   ],
+   "text": "5601234010022",
+   "note": null
+  }
+ },
+ "images": {
+  "EVO10_ROS_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "pink",
+    "upholstery_material": "velvet",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "gold",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       613,
+       182,
+       863,
+       244
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       631,
+       325,
+       983,
+       383
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       613,
+       541,
+       801,
+       600
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       603,
+       795,
+       902,
+       864
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "EVO10_ROS_34.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "pink",
+    "upholstery_material": "velvet",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "gold",
+    "text_in_image": [
+     "32.25\"",
+     "26\"",
+     "23.5\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       408,
+       101,
+       437,
+       166
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       854,
+       257,
+       896,
+       292
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       893,
+       645,
+       922,
+       701
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       576,
+       246,
+       798,
+       312
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       586,
+       388,
+       895,
+       436
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       576,
+       576,
+       744,
+       632
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       548,
+       808,
+       841,
+       868
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 59.7,
+    "depth_cm": 67.3,
+    "height_cm": 82.0,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "EVO10_ROS_side.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "pink",
+    "upholstery_material": "velvet",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "gold",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       501,
+       308,
+       792,
+       392
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       501,
+       475,
+       983,
+       538
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       493,
+       825,
+       741,
+       888
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "IMG_4234.JPG": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "pink",
+    "upholstery_material": "velvet",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "gold",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       645,
+       241,
+       975,
+       338
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       641,
+       742,
+       977,
+       815
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "EVO10_MUS_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "velvet",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "gold",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       614,
+       178,
+       862,
+       246
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       633,
+       324,
+       983,
+       382
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       608,
+       542,
+       801,
+       594
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       596,
+       794,
+       901,
+       864
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "EVO10_MUS_34.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "upholstery fabric",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "velvet",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "EVO10_MUS_side.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "velvet",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "gold",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       643,
+       194,
+       968,
+       265
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       643,
+       706,
+       972,
+       776
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "EVO10_MUS_detail.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "chair",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "velvet",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "gold",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       665,
+       241,
+       987,
+       332
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       665,
+       693,
+       987,
+       784
+      ]
+     }
+    ]
+   },
+   "size": [
+    2000,
+    2000
+   ],
+   "low_res": false
+  },
+  "EVO10_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "MÓVEIS LUSA",
+     "EVO-10",
+     "100% POLIÉSTER",
+     "100% POLYESTER",
+     "P",
+     "Fabricado em Portugal"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       103,
+       348,
+       142,
+       656
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       166,
+       433,
+       201,
+       573
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       228,
+       317,
+       266,
+       683
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       291,
+       308,
+       329,
+       691
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       612,
+       706,
+       668,
+       754
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       781,
+       288,
+       819,
+       676
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLIÉSTER / 100% POLYESTER",
+    "wash_max_temp_c": null,
+    "do_not_wash": true,
+    "dry_clean_only": true,
+    "removable_cover": false,
+    "other_text": [
+     "MÓVEIS LUSA",
+     "EVO-10",
+     "Fabricado em Portugal"
+    ]
+   }
+  },
+  "EVO10_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRENTE / FRONT",
+     "LADO / SIDE",
+     "82",
+     "45",
+     "66 cm",
+     "60 cm",
+     "EVO-10 · medidas em cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       93,
+       81,
+       266
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       615,
+       81,
+       744
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       524,
+       6,
+       563,
+       33
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       656,
+       395,
+       695,
+       422
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       895,
+       198,
+       934,
+       266
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       895,
+       718,
+       934,
+       786
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       958,
+       765,
+       991,
+       991
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       102,
+       835,
+       116
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       336,
+       835,
+       350
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       623,
+       835,
+       637
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       784,
+       856,
+       835,
+       870
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 66.0,
+    "depth_cm": 60.0,
+    "height_cm": 82.0,
+    "seat_height_cm": 45.0,
+    "product_code": "EVO-10"
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

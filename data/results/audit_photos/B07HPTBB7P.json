@@ -1,0 +1,173 @@
+{
+ "item_id": "B07HPTBB7P",
+ "photos": {
+  "71Sgr3NnmKL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      663,
+      96,
+      742,
+      136
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      663,
+      883,
+      742,
+      923
+     ]
+    }
+   ]
+  },
+  "712eliBY4CL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      794,
+      213,
+      933,
+      268
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      794,
+      743,
+      933,
+      798
+     ]
+    }
+   ]
+  },
+  "71diNa3wlAL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      803,
+      416,
+      958,
+      466
+     ]
+    }
+   ]
+  },
+  "71brPzyOnNL": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "Sofa Height (in cm)\n90",
+    "Sofa Length (in cm)\n97",
+    "Sofa Width (in cm)\n210"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      373,
+      22,
+      428,
+      136
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      684,
+      97,
+      739,
+      191
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      697,
+      621,
+      752,
+      725
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      573,
+      183,
+      626,
+      211
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      644,
+      238,
+      738,
+      268
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      524,
+      903,
+      577,
+      931
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

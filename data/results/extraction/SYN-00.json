@@ -1,0 +1,1371 @@
+{
+ "submission_id": "SYN-00",
+ "spec": {
+  "product_name": "Poltrona LISBOA / LISBOA armchair",
+  "supplier": "MÓVEIS LUSA, LDA.",
+  "product_type": "Poltrona / Armchair",
+  "manufacturer": "Móveis Lusa, Lda.",
+  "manufacturer_address": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal · info@moveislusa.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Portugal",
+  "width": {
+   "value": "88",
+   "unit": "cm",
+   "source_text": "88 x 83 x 90 cm"
+  },
+  "depth": {
+   "value": "83",
+   "unit": "cm",
+   "source_text": "88 x 83 x 90 cm"
+  },
+  "height": {
+   "value": "90",
+   "unit": "cm",
+   "source_text": "88 x 83 x 90 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": "—"
+  },
+  "seat_depth": {
+   "value": "500",
+   "unit": "mm",
+   "source_text": "500 mm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "23,5",
+   "unit": "kg",
+   "source_text": "23,5 kg"
+  },
+  "legs_or_base": "Faia maciça, acabamento nogueira / solid beech, walnut stain (MUS, ARE) - Aço cromado / chrome-plated steel (ANT)",
+  "upholstery": "Bouclé, 100% poliester, Martindale 40.000 / bouclé, 100% polyester",
+  "care": "Apenas limpeza a seco / dry clean only",
+  "variants": [
+   {
+    "code": "LIS-01-MUS",
+    "colour_name": "Musgo",
+    "ean": "5601234000016"
+   },
+   {
+    "code": "LIS-01-ARE",
+    "colour_name": "Areia",
+    "ean": "5601234000024"
+   },
+   {
+    "code": "LIS-01-ANT",
+    "colour_name": "Antracite",
+    "ean": null
+   }
+  ],
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Manter afastado de fontes de calor.",
+   "Não subir para o assento."
+  ],
+  "safety_warnings_languages": [
+   "pt"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.216683717701693,
+    0.504149733037713,
+    0.2278189797599411
+   ],
+   "text": "88 x 83 x 90 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.216683717701693,
+    0.504149733037713,
+    0.2278189797599411
+   ],
+   "text": "88 x 83 x 90 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.216683717701693,
+    0.504149733037713,
+    0.2278189797599411
+   ],
+   "text": "88 x 83 x 90 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.2736962594399233,
+    0.4519611644574082,
+    0.28483152149817137
+   ],
+   "text": "500 mm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.2959667835564196,
+    0.4382427185389303,
+    0.30710204561466764
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.31823730767291575,
+    0.44306687186163335,
+    0.3293725697311638
+   ],
+   "text": "23,5 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.18194170007995902,
+    0.9105250265863861,
+    0.20554845564344493
+   ],
+   "text": "Faia maciça, acabamento nogueira / solid beech, walnut stain (MUS, ARE) - Aço cromado / chrome-plated steel (ANT)",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.340507831789412,
+    0.6604076773246119,
+    0.3516430938476601
+   ],
+   "text": "Apenas limpeza a seco / dry clean only",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.38504888002240434,
+    0.8704930176338735,
+    0.40865563558589035
+   ],
+   "text": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal · info@moveislusa.example",
+   "note": null
+  },
+  "ean:LIS-01-MUS": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.3494982945338666,
+    0.49907396349886485,
+    0.4639546033985475,
+    0.510209225557113
+   ],
+   "text": "5601234000016",
+   "note": null
+  },
+  "ean:LIS-01-ARE": {
+   "source": "pdf",
+   "file": "LIS01_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.3494982945338666,
+    0.5213444876153611,
+    0.46597043786542053,
+    0.5324797496736092
+   ],
+   "text": "5601234000024",
+   "note": null
+  }
+ },
+ "images": {
+  "LIS01_MUS_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       743,
+       135,
+       844,
+       181
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       803,
+       398,
+       976,
+       448
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       758,
+       808,
+       926,
+       856
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2365
+   ],
+   "low_res": false
+  },
+  "LIS01_MUS_34.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "fabric swatch",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2559,
+    2560
+   ],
+   "low_res": false
+  },
+  "LIS01_MUS_side.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       158,
+       974,
+       226
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       751,
+       974,
+       819
+      ]
+     }
+    ]
+   },
+   "size": [
+    2319,
+    2560
+   ],
+   "low_res": false
+  },
+  "LIS01_MUS_detail.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "ART HOUSE"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       808,
+       408,
+       908,
+       451
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       816,
+       521,
+       856,
+       557
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       812,
+       754,
+       922,
+       797
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       806,
+       845,
+       864,
+       882
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       812,
+       143,
+       842,
+       266
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "LIS01_MUS_back.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       833,
+       52,
+       986,
+       111
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       833,
+       852,
+       986,
+       911
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       823,
+       826,
+       903,
+       862
+      ]
+     }
+    ]
+   },
+   "size": [
+    2446,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4701.JPG": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "35.4\"",
+     "34.6\"",
+     "32.7\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       404,
+       10,
+       443,
+       61
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       854,
+       183,
+       894,
+       235
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       904,
+       666,
+       943,
+       727
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       683,
+       184,
+       783,
+       223
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       756,
+       421,
+       907,
+       468
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       706,
+       798,
+       857,
+       845
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2295
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 82.8,
+    "depth_cm": 87.6,
+    "height_cm": 90.0,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "LIS01_ARE_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       721,
+       168,
+       785,
+       206
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       756,
+       392,
+       907,
+       443
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       743,
+       788,
+       877,
+       835
+      ]
+     }
+    ]
+   },
+   "size": [
+    1500,
+    1500
+   ],
+   "low_res": false
+  },
+  "LIS01_ARE_34.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    1500,
+    1500
+   ],
+   "low_res": false
+  },
+  "LIS01_ARE_side.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       816,
+       155,
+       893,
+       188
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       823,
+       423,
+       901,
+       457
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       834,
+       808,
+       861,
+       933
+      ]
+     }
+    ]
+   },
+   "size": [
+    1500,
+    1500
+   ],
+   "low_res": false
+  },
+  "LIS01_ARE_detail.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "fabric swatch",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    1427,
+    1427
+   ],
+   "low_res": false
+  },
+  "LIS01_ARE_back.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "35.4\"",
+     "34.6\"",
+     "32.7\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       404,
+       6,
+       454,
+       68
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       873,
+       164,
+       923,
+       226
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       944,
+       656,
+       994,
+       718
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       723,
+       183,
+       817,
+       224
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       774,
+       418,
+       952,
+       469
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       752,
+       824,
+       907,
+       868
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2369
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 83.1,
+    "depth_cm": 88.1,
+    "height_cm": 90.0,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "LIS01_ANT_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       753,
+       117,
+       841,
+       158
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       813,
+       367,
+       986,
+       427
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       783,
+       807,
+       954,
+       858
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2427
+   ],
+   "low_res": false
+  },
+  "LIS01_ANT_34.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       843,
+       46,
+       988,
+       111
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       836,
+       854,
+       982,
+       918
+      ]
+     }
+    ]
+   },
+   "size": [
+    2400,
+    2560
+   ],
+   "low_res": false
+  },
+  "LIS01_ANT_side.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 2,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "metal",
+    "legs_finish": "dark brown",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       812,
+       288,
+       885,
+       325
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       842,
+       536,
+       931,
+       573
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       806,
+       775,
+       858,
+       808
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       744,
+       133,
+       801,
+       167
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       246,
+       703,
+       963,
+       958
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "LIS01_ANT_detail.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       825,
+       163,
+       975,
+       232
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       825,
+       765,
+       975,
+       834
+      ]
+     }
+    ]
+   },
+   "size": [
+    2202,
+    2560
+   ],
+   "low_res": false
+  },
+  "LIS01_ANT_back.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       305,
+       371,
+       915,
+       586
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "LIS01_ANT_top.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "fabric swatch",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "LIS01_promo.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "green",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "NOVIDADE -15%"
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       32,
+       22,
+       91,
+       496
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       745,
+       138,
+       845,
+       178
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       805,
+       397,
+       976,
+       447
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       763,
+       811,
+       926,
+       854
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    1478
+   ],
+   "low_res": false
+  },
+  "LIS01_ARE_back_small.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    400,
+    400
+   ],
+   "low_res": true
+  },
+  "LIS01_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "care label",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "MÓVEIS LUSA",
+     "LIS-01",
+     "100% POLIÉSTER",
+     "100% POLYESTER",
+     "Capa removível",
+     "Removable cover",
+     "30",
+     "Fabricado em Portugal"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       103,
+       348,
+       142,
+       656
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       168,
+       443,
+       203,
+       558
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       228,
+       317,
+       266,
+       684
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       291,
+       310,
+       330,
+       691
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       348,
+       358,
+       387,
+       642
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       413,
+       348,
+       452,
+       656
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       615,
+       252,
+       658,
+       308
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       781,
+       288,
+       820,
+       676
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYESTER",
+    "wash_max_temp_c": 30,
+    "do_not_wash": false,
+    "dry_clean_only": false,
+    "removable_cover": true,
+    "other_text": [
+     "MÓVEIS LUSA",
+     "LIS-01",
+     "100% POLIÉSTER",
+     "Capa removível",
+     "Removable cover",
+     "Fabricado em Portugal"
+    ]
+   }
+  },
+  "LIS01_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 2,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRENTE / FRONT",
+     "90",
+     "88 cm",
+     "47",
+     "LADO / SIDE",
+     "83 cm",
+     "LIS-01 · medidas em cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       44,
+       91,
+       83,
+       263
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       523,
+       6,
+       562,
+       31
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       916,
+       228,
+       955,
+       294
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       671,
+       453,
+       710,
+       478
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       44,
+       615,
+       83,
+       745
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       916,
+       743,
+       955,
+       809
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       963,
+       773,
+       996,
+       988
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       792,
+       104,
+       844,
+       123
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       792,
+       396,
+       844,
+       415
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       792,
+       621,
+       844,
+       640
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       792,
+       903,
+       844,
+       922
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 88.0,
+    "depth_cm": 83.0,
+    "height_cm": 90.0,
+    "seat_height_cm": 47.0,
+    "product_code": "LIS-01"
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

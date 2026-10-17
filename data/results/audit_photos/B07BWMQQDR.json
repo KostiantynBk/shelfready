@@ -1,0 +1,184 @@
+{
+ "item_id": "B07BWMQQDR",
+ "photos": {
+  "61xglbZ4siL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      616,
+      97,
+      656,
+      126
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      230,
+      721,
+      262
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      602,
+      863,
+      662,
+      893
+     ]
+    }
+   ]
+  },
+  "61UWodF3LTL": {
+   "role": "packshot",
+   "product_type": "sofa bed",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      606,
+      91,
+      642,
+      113
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      633,
+      176,
+      686,
+      202
+     ]
+    }
+   ]
+  },
+  "81GgKY80fkL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "MODERN HOME",
+    "STYLE GUIDE"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      752,
+      186,
+      814,
+      224
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      752,
+      814,
+      825,
+      852
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      613,
+      924,
+      636,
+      998
+     ]
+    }
+   ]
+  },
+  "81aLSDAt1uL": {
+   "role": "lifestyle",
+   "product_type": "sofa bed",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "boucle",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "THE SECRET EMPIRE",
+    "DREAMS"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      742,
+      268,
+      793,
+      293
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      731,
+      725,
+      761,
+      751
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      751,
+      912,
+      803,
+      943
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      601,
+      75,
+      625,
+      148
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

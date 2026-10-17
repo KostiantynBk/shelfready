@@ -1,0 +1,38 @@
+{
+ "key": "3b15e4dd3b90e65c478552a0db84d5d3479cf5fd14385594bbdd1f7f49b5cee5",
+ "purpose": "back:SYN-00:de",
+ "recorded_at": "2026-10-15T07:29:15+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this German product listing JSON back into English, literally. Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa LISBOA Sessel\", \"bullets\": [\"Maße: 88 cm Breite, 83 cm Tiefe, 90 cm Höhe\", \"Sitzhöhe: 47 cm; Sitztiefe: 50 cm\", \"Bezug: 100% Polyester-Bouclé mit Martindale 40.000\", \"Maximale Belastbarkeit: 120 kg\", \"Hergestellt in Portugal\"], \"description\": \"Der LISBOA Sessel von Móveis Lusa verfügt über einen Bezug aus 100% Polyester-Bouclé, der bei 30 °C waschbar ist. Je nach Variante wird er entweder von massiven Buchenholzbeinen mit Walnuss-Finish oder verchromten Stahlbeinen getragen.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Moos\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Sand\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Anthrazit\"}], \"safety_warnings\": [\"Nicht im Freien verwenden.\", \"Von Hitzequellen fernhalten.\", \"Nicht auf der Sitzfläche stehen.\"], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"Dreiviertelansicht des LISBOA Sessels in Grau.\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"Frontansicht des LISBOA Sessels in Grau.\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"Dreiviertelansicht des LISBOA Sessels in Beige.\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"Frontansicht des LISBOA Sessels in Beige.\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"Dreiviertelansicht des LISBOA Sessels in Grün.\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"Frontansicht des LISBOA Sessels in Grün.\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"Rückansicht des LISBOA Sessels in Grau.\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Detailansicht des LISBOA Sessels in Grau.\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Móveis Lusa LISBOA Armchair\", \"bullets\": [\"Dimensions: 88 cm width, 83 cm depth, 90 cm height\", \"Seat height: 47 cm; Seat depth: 50 cm\", \"Cover: 100% polyester bouclé with Martindale 40,000\", \"Maximum load capacity: 120 kg\", \"Made in Portugal\"], \"description\": \"The LISBOA armchair from Móveis Lusa features a cover made of 100% polyester bouclé, which is washable at 30 °C. Depending on the variant, it is supported either by solid beech wood legs with a walnut finish or chromed steel legs.\", \"colours\": [{\"code\": \"LIS-01-MUS\", \"name\": \"Moss\"}, {\"code\": \"LIS-01-ARE\", \"name\": \"Sand\"}, {\"code\": \"LIS-01-ANT\", \"name\": \"Anthracite\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat surface.\"], \"alt_texts\": [{\"file\": \"LIS01_ANT_34.jpg\", \"text\": \"Three-quarter view of the LISBOA armchair in grey.\"}, {\"file\": \"LIS01_ANT_front.jpg\", \"text\": \"Front view of the LISBOA armchair in grey.\"}, {\"file\": \"LIS01_ARE_34.jpg\", \"text\": \"Three-quarter view of the LISBOA armchair in beige.\"}, {\"file\": \"LIS01_ARE_front.jpg\", \"text\": \"Front view of the LISBOA armchair in beige.\"}, {\"file\": \"LIS01_MUS_34.jpg\", \"text\": \"Three-quarter view of the LISBOA armchair in green.\"}, {\"file\": \"LIS01_MUS_front.jpg\", \"text\": \"Front view of the LISBOA armchair in green.\"}, {\"file\": \"LIS01_ANT_back.jpg\", \"text\": \"Rear view of the LISBOA armchair in grey.\"}, {\"file\": \"LIS01_ANT_detail.jpg\", \"text\": \"Detail view of the LISBOA armchair in grey.\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 931,
+   "completion_tokens": 498
+  },
+  "latency_s": 80.047
+ }
+}

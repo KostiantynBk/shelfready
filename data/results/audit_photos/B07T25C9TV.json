@@ -1,0 +1,172 @@
+{
+ "item_id": "B07T25C9TV",
+ "photos": {
+  "61pKTO23gbL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      568,
+      96,
+      591,
+      144
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      793,
+      673,
+      832,
+      785
+     ]
+    }
+   ]
+  },
+  "514RezeUyAL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      48,
+      642,
+      84
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      747,
+      405,
+      778,
+      463
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      646,
+      892,
+      671,
+      941
+     ]
+    }
+   ]
+  },
+  "71kGmIOBzXL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "619uYrDR-pL": {
+   "role": "dimension_drawing",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "33",
+    "93",
+    "93"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      495,
+      48,
+      534,
+      91
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      704,
+      345,
+      743,
+      388
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      655,
+      811,
+      694,
+      854
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      601,
+      138,
+      623,
+      171
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      747,
+      611,
+      771,
+      644
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      892,
+      562,
+      924
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,286 @@
+{
+ "item_id": "B07MMPT7C9",
+ "photos": {
+  "71dlI8-aE7L": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 3,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      375,
+      92,
+      482,
+      314
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      443,
+      956,
+      902
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      845,
+      121,
+      975,
+      361
+     ]
+    }
+   ]
+  },
+  "61Qj0azMsUL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      776,
+      63,
+      933,
+      468
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      783,
+      463,
+      994,
+      556
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      783,
+      548,
+      956,
+      958
+     ]
+    }
+   ]
+  },
+  "71-jgAIZXkL": {
+   "role": "lifestyle",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "OFFICE SPACE"
+   ],
+   "has_text_overlay": true,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      391,
+      16,
+      486,
+      356
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      833,
+      376,
+      876,
+      431
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      863,
+      567,
+      913,
+      612
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      753,
+      876,
+      808
+     ]
+    }
+   ]
+  },
+  "71grs5+XrmL": {
+   "role": "promo",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "Fully Adjustable",
+    "90°",
+    "120°",
+    "Tilt Lock",
+    "Push out for rocking",
+    "Push in for lock.",
+    "Pull up on the handle to raise or",
+    "lower the seat.",
+    "Tight",
+    "Unscrew",
+    "Tension control",
+    "Clockwise rotation",
+    "Rocking angle 0°-10°",
+    "Counter clockwise rotation",
+    "Rocking angle 10°-30°"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      868,
+      421,
+      943,
+      458
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      848,
+      261,
+      906,
+      325
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      853,
+      598,
+      911,
+      656
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      53,
+      476,
+      114,
+      952
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      86,
+      281,
+      131,
+      338
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      146,
+      0,
+      206,
+      75
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      421,
+      736,
+      458,
+      873
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      476,
+      688,
+      601,
+      966
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      665,
+      863,
+      694,
+      916
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      766,
+      706,
+      796,
+      801
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      813,
+      688,
+      851,
+      921
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      866,
+      688,
+      973,
+      913
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

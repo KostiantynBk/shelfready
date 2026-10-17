@@ -1,0 +1,186 @@
+{
+ "item_id": "B07K7SDQS6",
+ "photos": {
+  "71WM-3H9NEL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      375,
+      894,
+      836
+     ]
+    }
+   ]
+  },
+  "71texv2vpeL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      593,
+      261,
+      903,
+      712
+     ]
+    }
+   ]
+  },
+  "51LAVRmM5DL": {
+   "role": "dimension_drawing",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "948 mm",
+    "470 mm",
+    "450 mm",
+    "457 mm",
+    "574 mm"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      401,
+      411,
+      522,
+      446
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      414,
+      653,
+      448,
+      768
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      552,
+      863,
+      683,
+      898
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      785,
+      181,
+      819,
+      296
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      785,
+      613,
+      819,
+      728
+     ]
+    }
+   ]
+  },
+  "61vAXv4nfDL": {
+   "role": "lifestyle",
+   "product_type": "dining set",
+   "products_in_frame": 3,
+   "colour_family": "beige",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "hello"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      631,
+      205,
+      723,
+      253
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      813,
+      56,
+      972,
+      318
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      823,
+      623,
+      988,
+      892
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      641,
+      601,
+      738,
+      933
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      0,
+      671,
+      333,
+      778
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

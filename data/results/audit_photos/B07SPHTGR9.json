@@ -1,0 +1,385 @@
+{
+ "item_id": "B07SPHTGR9",
+ "photos": {
+  "71gRzKlsMcL": {
+   "role": "packshot",
+   "product_type": "folding chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      256,
+      14,
+      972,
+      66
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      256,
+      883,
+      972,
+      973
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      566,
+      811,
+      756,
+      911
+     ]
+    }
+   ]
+  },
+  "91F6ndLEM0L": {
+   "role": "lifestyle",
+   "product_type": "dining set",
+   "products_in_frame": 5,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black matt",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      448,
+      21,
+      606,
+      63
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      461,
+      111,
+      612,
+      165
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      468,
+      173,
+      653,
+      263
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      468,
+      223,
+      631,
+      323
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      612,
+      256,
+      788,
+      353
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      365,
+      797,
+      415
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      612,
+      440,
+      767,
+      577
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      468,
+      581,
+      631,
+      665
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      468,
+      635,
+      674,
+      731
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      468,
+      673,
+      631,
+      765
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      468,
+      731,
+      631,
+      823
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      681,
+      771,
+      773
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      754,
+      814,
+      815
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      612,
+      850,
+      792,
+      992
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      468,
+      577,
+      746,
+      665
+     ]
+    }
+   ]
+  },
+  "81hauV3M6nL": {
+   "role": "packshot",
+   "product_type": "folding chair",
+   "products_in_frame": 4,
+   "colour_family": "black",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      388,
+      44,
+      624,
+      72
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      431,
+      83,
+      754,
+      152
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      388,
+      268,
+      663,
+      414
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      463,
+      200,
+      807,
+      241
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      274,
+      994,
+      346
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      482,
+      733,
+      533
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      563,
+      722,
+      623
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      633,
+      600,
+      885,
+      660
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      322,
+      370,
+      481,
+      430
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      322,
+      463,
+      474,
+      541
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      341,
+      563,
+      481,
+      623
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      452,
+      693,
+      841,
+      763
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      463,
+      793,
+      611,
+      841
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      463,
+      922,
+      748,
+      989
+     ]
+    }
+   ]
+  },
+  "71PwHWKKZvL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      32,
+      992,
+      88
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      891,
+      992,
+      947
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      804,
+      756,
+      873
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,228 @@
+{
+ "item_id": "B07QQ6ZRSN",
+ "photos": {
+  "71DrU0RwmNL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      120,
+      866,
+      448
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      452,
+      953,
+      547
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      538,
+      857,
+      859
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      668,
+      266,
+      721,
+      421
+     ]
+    }
+   ]
+  },
+  "717z1ftgsBL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      111,
+      873,
+      463
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      711,
+      467,
+      951,
+      546
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      663,
+      533,
+      873,
+      908
+     ]
+    }
+   ]
+  },
+  "81yDY5p4oZL": {
+   "role": "detail",
+   "product_type": "upholstery",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "61SyUMgFIyL": {
+   "role": "lifestyle",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "THE HOTEL BOOK",
+    "THE HOTEL BOOK",
+    "THE HOTEL BOOK",
+    "THE HOTEL BOOK",
+    "THE HOTEL BOOK"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      838,
+      292,
+      936,
+      348
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      822,
+      391,
+      868,
+      442
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      854,
+      482,
+      966,
+      541
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      822,
+      601,
+      868,
+      652
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      840,
+      685,
+      936,
+      753
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      0,
+      673,
+      116,
+      716
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      0,
+      721,
+      116,
+      764
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      0,
+      768,
+      116,
+      811
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      0,
+      815,
+      116,
+      858
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      0,
+      862,
+      116,
+      905
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

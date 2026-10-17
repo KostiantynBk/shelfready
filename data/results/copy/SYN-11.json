@@ -1,0 +1,763 @@
+{
+ "product_id": "SYN-11",
+ "decisions": {},
+ "facts": {
+  "product_name": "Divano LUCCA / LUCCA sofa",
+  "model": "LUCCA",
+  "brand": "Ningbo Brightway Home Co.",
+  "depth_cm": 107,
+  "height_cm": 80,
+  "seat_height_cm": 44,
+  "seat_depth_cm": 64,
+  "max_load_kg": 330,
+  "weight_kg": 61.8,
+  "product_type": "Divano / sofa",
+  "legs_or_base": "Pino + multistrato",
+  "upholstery": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+  "care": "Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C",
+  "country_of_origin": "China",
+  "safety_warnings": [
+   "Non utilizzare all'aperto.",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "LUC-11-ANT",
+    "colour_name": "Antracite"
+   },
+   {
+    "code": "LUC-11-SAB",
+    "colour_name": "Sabbia"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "width",
+   "variant": null,
+   "reason": "Width: spec 214 cm, drawing 226 cm",
+   "issue": "D11::width:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "eu_responsible_person",
+   "variant": null,
+   "reason": "Non-EU manufacturer without an EU responsible person",
+   "issue": "D13::eu_responsible_person:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "IMG_4127.JPG",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LUCCA_ANT_01.jpg",
+   "variant": "LUC-11-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LUCCA_ANT_02.jpg",
+   "variant": "LUC-11-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LUCCA_ANT_03.jpg",
+   "variant": "LUC-11-ANT",
+   "view": "lifestyle",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LUCCA_SAB_01.jpg",
+   "variant": "LUC-11-SAB",
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "LUCCA_SAB_02.jpg",
+   "variant": "LUC-11-SAB",
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "LUCCA_SAB_04.jpg",
+   "variant": "LUC-11-SAB",
+   "view": "detail",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Ningbo Brightway Home Co.",
+  "LUCCA",
+  "LUC-11-ANT",
+  "LUC-11-SAB"
+ ],
+ "en": {
+  "title": "LUCCA Sofa by Ningbo Brightway Home Co.",
+  "bullets": [
+   "Upholstery: 100% polyester woven fabric",
+   "Base and legs made of pine and multilayer",
+   "Removable cover washable at 30 °C",
+   "Maximum load capacity of 330 kg",
+   "Dimensions: 80 cm height, 107 cm depth, 44 cm seat height, and 64 cm seat depth"
+  ],
+  "description": "The LUCCA sofa by Ningbo Brightway Home Co. features a 100% polyester woven fabric upholstery and a pine and multilayer base. It includes a removable cover that is washable at 30 °C for easy maintenance.",
+  "colours": [
+   {
+    "code": "LUC-11-ANT",
+    "name": "Anthracite"
+   },
+   {
+    "code": "LUC-11-SAB",
+    "name": "Sand"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "IMG_4127.JPG",
+    "text": "LUCCA sofa in grey, packshot view"
+   },
+   {
+    "file": "LUCCA_ANT_01.jpg",
+    "text": "LUCCA sofa in anthracite grey, packshot view"
+   },
+   {
+    "file": "LUCCA_ANT_02.jpg",
+    "text": "Detail view of the LUCCA sofa in anthracite grey"
+   },
+   {
+    "file": "LUCCA_ANT_03.jpg",
+    "text": "LUCCA sofa in anthracite grey, lifestyle view"
+   },
+   {
+    "file": "LUCCA_SAB_01.jpg",
+    "text": "LUCCA sofa in sand beige, packshot view"
+   },
+   {
+    "file": "LUCCA_SAB_02.jpg",
+    "text": "LUCCA sofa in sand beige, packshot view"
+   },
+   {
+    "file": "LUCCA_SAB_04.jpg",
+    "text": "Detail view of the LUCCA sofa in sand beige"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sofá LUCCA de Ningbo Brightway Home Co.",
+    "bullets": [
+     "Tapicería: tejido 100% poliéster",
+     "Base y patas fabricadas en pino y madera multicapa",
+     "Funda extraíble lavable a 30 °C",
+     "Capacidad de carga máxima de 330 kg",
+     "Dimensiones: 80 cm de altura, 107 cm de profundidad, 44 cm de altura del asiento y 64 cm de profundidad del asiento"
+    ],
+    "description": "El sofá LUCCA de Ningbo Brightway Home Co. presenta una tapicería de tejido 100% poliéster y una base de pino y madera multicapa. Incluye una funda extraíble lavable a 30 °C para facilitar su mantenimiento.",
+    "colours": [
+     {
+      "code": "LUC-11-ANT",
+      "name": "Antracita"
+     },
+     {
+      "code": "LUC-11-SAB",
+      "name": "Arena"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4127.JPG",
+      "text": "Sofá LUCCA en gris, vista de producto"
+     },
+     {
+      "file": "LUCCA_ANT_01.jpg",
+      "text": "Sofá LUCCA en gris antracita, vista de producto"
+     },
+     {
+      "file": "LUCCA_ANT_02.jpg",
+      "text": "Vista de detalle del sofá LUCCA en gris antracita"
+     },
+     {
+      "file": "LUCCA_ANT_03.jpg",
+      "text": "Sofá LUCCA en gris antracita, vista de ambiente"
+     },
+     {
+      "file": "LUCCA_SAB_01.jpg",
+      "text": "Sofá LUCCA en beige arena, vista de producto"
+     },
+     {
+      "file": "LUCCA_SAB_02.jpg",
+      "text": "Sofá LUCCA en beige arena, vista de producto"
+     },
+     {
+      "file": "LUCCA_SAB_04.jpg",
+      "text": "Vista de detalle del sofá LUCCA en beige arena"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Divano LUCCA di Ningbo Brightway Home Co.",
+    "bullets": [
+     "Rivestimento: tessuto intrecciato 100% poliestere",
+     "Base e gambe in pino e multistrato",
+     "Cover rimovibile lavabile a 30 °C",
+     "Capacità di carico massima di 330 kg",
+     "Dimensioni: altezza 80 cm, profondità 107 cm, altezza seduta 44 cm e profondità seduta 64 cm"
+    ],
+    "description": "Il divano LUCCA di Ningbo Brightway Home Co. presenta un rivestimento in tessuto intrecciato 100% poliestere e una base in pino e multistrato. Include un rivestimento rimovibile lavabile a 30 °C per una facile manutenzione.",
+    "colours": [
+     {
+      "code": "LUC-11-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "LUC-11-SAB",
+      "name": "Sabbia"
+     }
+    ],
+    "safety_warnings": [
+     "Non adatto per uso esterno.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sulla seduta."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4127.JPG",
+      "text": "Divano LUCCA in grigio, vista prodotto"
+     },
+     {
+      "file": "LUCCA_ANT_01.jpg",
+      "text": "Divano LUCCA in grigio antracite, vista prodotto"
+     },
+     {
+      "file": "LUCCA_ANT_02.jpg",
+      "text": "Vista dettaglio del divano LUCCA in grigio antracite"
+     },
+     {
+      "file": "LUCCA_ANT_03.jpg",
+      "text": "Divano LUCCA in grigio antracite, vista ambientata"
+     },
+     {
+      "file": "LUCCA_SAB_01.jpg",
+      "text": "Divano LUCCA in beige sabbia, vista prodotto"
+     },
+     {
+      "file": "LUCCA_SAB_02.jpg",
+      "text": "Divano LUCCA in beige sabbia, vista prodotto"
+     },
+     {
+      "file": "LUCCA_SAB_04.jpg",
+      "text": "Vista dettaglio del divano LUCCA in beige sabbia"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "LUCCA Sofa von Ningbo Brightway Home Co.",
+    "bullets": [
+     "Bezug: 100% Polyester-Webstoff",
+     "Basis und Beine aus Kiefer und Multiplex",
+     "Abnehmbarer Bezug, waschbar bei 30 °C",
+     "Maximale Belastbarkeit von 330 kg",
+     "Maße: 80 cm Höhe, 107 cm Tiefe, 44 cm Sitzhöhe und 64 cm Sitztiefe"
+    ],
+    "description": "Das LUCCA Sofa von Ningbo Brightway Home Co. verfügt über einen Bezug aus 100% Polyester-Webstoff sowie ein Gestell aus Kiefer und Multiplex. Für eine einfache Pflege ist ein abnehmbarer und bei 30 °C waschbarer Bezug enthalten.",
+    "colours": [
+     {
+      "code": "LUC-11-ANT",
+      "name": "Anthrazit"
+     },
+     {
+      "code": "LUC-11-SAB",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4127.JPG",
+      "text": "LUCCA Sofa in Grau, Produktansicht"
+     },
+     {
+      "file": "LUCCA_ANT_01.jpg",
+      "text": "LUCCA Sofa in Anthrazitgrau, Produktansicht"
+     },
+     {
+      "file": "LUCCA_ANT_02.jpg",
+      "text": "Detailansicht des LUCCA Sofas in Anthrazitgrau"
+     },
+     {
+      "file": "LUCCA_ANT_03.jpg",
+      "text": "LUCCA Sofa in Anthrazitgrau, Lifestyle-Ansicht"
+     },
+     {
+      "file": "LUCCA_SAB_01.jpg",
+      "text": "LUCCA Sofa in Sandbeige, Produktansicht"
+     },
+     {
+      "file": "LUCCA_SAB_02.jpg",
+      "text": "LUCCA Sofa in Sandbeige, Produktansicht"
+     },
+     {
+      "file": "LUCCA_SAB_04.jpg",
+      "text": "Detailansicht des LUCCA Sofas in Sandbeige"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "LUCCA Sofa by Ningbo Brightway Home Co.",
+    "bullets": [
+     "Cover: 100% polyester woven fabric",
+     "Base and legs made of pine and multiplex",
+     "Removable cover, washable at 30 °C",
+     "Maximum load capacity of 330 kg",
+     "Dimensions: 80 cm height, 107 cm depth, 44 cm seat height and 64 cm seat depth"
+    ],
+    "description": "The LUCCA sofa from Ningbo Brightway Home Co. features a cover made of 100% polyester woven fabric as well as a frame made of pine and multiplex. For easy care, a removable and washable cover at 30 °C is included.",
+    "colours": [
+     {
+      "code": "LUC-11-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "LUC-11-SAB",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4127.JPG",
+      "text": "LUCCA sofa in grey, product view"
+     },
+     {
+      "file": "LUCCA_ANT_01.jpg",
+      "text": "LUCCA sofa in anthracite grey, product view"
+     },
+     {
+      "file": "LUCCA_ANT_02.jpg",
+      "text": "Detail view of the LUCCA sofa in anthracite grey"
+     },
+     {
+      "file": "LUCCA_ANT_03.jpg",
+      "text": "LUCCA sofa in anthracite grey, lifestyle view"
+     },
+     {
+      "file": "LUCCA_SAB_01.jpg",
+      "text": "LUCCA sofa in sand beige, product view"
+     },
+     {
+      "file": "LUCCA_SAB_02.jpg",
+      "text": "LUCCA sofa in sand beige, product view"
+     },
+     {
+      "file": "LUCCA_SAB_04.jpg",
+      "text": "Detail view of the LUCCA sofa in sand beige"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Canapé LUCCA par Ningbo Brightway Home Co.",
+    "bullets": [
+     "Revêtement : tissu tissé 100 % polyester",
+     "Base et pieds en pin et bois multicouche",
+     "Housse amovible lavable à 30 °C",
+     "Capacité de charge maximale de 330 kg",
+     "Dimensions : 80 cm de hauteur, 107 cm de profondeur, 44 cm de hauteur d'assise et 64 cm de profondeur d'assise"
+    ],
+    "description": "Le canapé LUCCA de Ningbo Brightway Home Co. présente un revêtement en tissu tissé 100 % polyester et une base en pin et bois multicouche. Il comprend une housse amovible lavable à 30 °C pour un entretien facile.",
+    "colours": [
+     {
+      "code": "LUC-11-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "LUC-11-SAB",
+      "name": "Sable"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4127.JPG",
+      "text": "Canapé LUCCA en gris, vue packshot"
+     },
+     {
+      "file": "LUCCA_ANT_01.jpg",
+      "text": "Canapé LUCCA en gris anthracite, vue packshot"
+     },
+     {
+      "file": "LUCCA_ANT_02.jpg",
+      "text": "Vue détaillée du canapé LUCCA en gris anthracite"
+     },
+     {
+      "file": "LUCCA_ANT_03.jpg",
+      "text": "Canapé LUCCA en gris anthracite, vue d'ambiance"
+     },
+     {
+      "file": "LUCCA_SAB_01.jpg",
+      "text": "Canapé LUCCA en beige sable, vue packshot"
+     },
+     {
+      "file": "LUCCA_SAB_02.jpg",
+      "text": "Canapé LUCCA en beige sable, vue packshot"
+     },
+     {
+      "file": "LUCCA_SAB_04.jpg",
+      "text": "Vue détaillée du canapé LUCCA en beige sable"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Sofá LUCCA da Ningbo Brightway Home Co.",
+    "bullets": [
+     "Estofos: tecido tecido 100% poliéster",
+     "Base e pernas feitas de pinho e contraplacado",
+     "Capa removível lavável a 30 °C",
+     "Capacidade de carga máxima de 330 kg",
+     "Dimensões: 80 cm de altura, 107 cm de profundidade, 44 cm de altura do assento e 64 cm de profundidade do assento"
+    ],
+    "description": "O sofá LUCCA da Ningbo Brightway Home Co. apresenta estofos em tecido 100% poliéster e uma base de pinho e contraplacado. Inclui uma capa removível lavável a 30 °C para facilitar a manutenção.",
+    "colours": [
+     {
+      "code": "LUC-11-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "LUC-11-SAB",
+      "name": "Areia"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4127.JPG",
+      "text": "Sofá LUCCA em cinzento, vista de produto"
+     },
+     {
+      "file": "LUCCA_ANT_01.jpg",
+      "text": "Sofá LUCCA em cinzento antracite, vista de produto"
+     },
+     {
+      "file": "LUCCA_ANT_02.jpg",
+      "text": "Vista detalhada do sofá LUCCA em cinzento antracite"
+     },
+     {
+      "file": "LUCCA_ANT_03.jpg",
+      "text": "Sofá LUCCA em cinzento antracite, vista de ambiente"
+     },
+     {
+      "file": "LUCCA_SAB_01.jpg",
+      "text": "Sofá LUCCA em bege areia, vista de produto"
+     },
+     {
+      "file": "LUCCA_SAB_02.jpg",
+      "text": "Sofá LUCCA em bege areia, vista de produto"
+     },
+     {
+      "file": "LUCCA_SAB_04.jpg",
+      "text": "Vista detalhada do sofá LUCCA em bege areia"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Sofa LUCCA od Ningbo Brightway Home Co.",
+    "bullets": [
+     "Obicie: 100% poliestrowa tkanina pleciona",
+     "Podstawa i nogi wykonane z sosny i wielowarstwowej płyty",
+     "Zdejnowalna pokrowa nadająca się do prania w 30 °C",
+     "Maksymalne obciążenie do 330 kg",
+     "Wymiary: 80 cm wysokości, 107 cm głębokości, 44 cm wysokości siedziska i 64 cm głębokości siedziska"
+    ],
+    "description": "Sofa LUCCA od Ningbo Brightway Home Co. posiada obicie z 100% poliestrowej tkaniny plecionej oraz podstawę z sosny i płyty wielowarstwowej. Wyposażona jest w zdejmowany pokrowiec, który można prać w 30 °C, co ułatwia konserwację.",
+    "colours": [
+     {
+      "code": "LUC-11-ANT",
+      "name": "Antracyt"
+     },
+     {
+      "code": "LUC-11-SAB",
+      "name": "Piasek"
+     }
+    ],
+    "safety_warnings": [
+     "Produkt nieprzeznaczony do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4127.JPG",
+      "text": "Sofa LUCCA w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "LUCCA_ANT_01.jpg",
+      "text": "Sofa LUCCA w kolorze szarym antracytowym, widok produktowy"
+     },
+     {
+      "file": "LUCCA_ANT_02.jpg",
+      "text": "Zbliżenie na detale sofy LUCCA w kolorze szarym antracytowym"
+     },
+     {
+      "file": "LUCCA_ANT_03.jpg",
+      "text": "Sofa LUCCA w kolorze szarym antracytowym, widok w aranżacji"
+     },
+     {
+      "file": "LUCCA_SAB_01.jpg",
+      "text": "Sofa LUCCA w kolorze piaskowym beżu, widok produktowy"
+     },
+     {
+      "file": "LUCCA_SAB_02.jpg",
+      "text": "Sofa LUCCA w kolorze piaskowym beżu, widok produktowy"
+     },
+     {
+      "file": "LUCCA_SAB_04.jpg",
+      "text": "Zbliżenie na detale sofy LUCCA w kolorze piaskowym beżu"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Диван LUCCA від Ningbo Brightway Home Co.",
+    "bullets": [
+     "Оббивка: 100% поліестерова тканина",
+     "Основа та ніжки виготовлені з сосни та багатошарового дерева",
+     "Знімний чохол, що переється при 30 °C",
+     "Максимальна вантажопідйомність 330 кг",
+     "Розміри: висота 80 см, глибина 107 см, висота сидіння 44 см, глибина сидіння 64 см"
+    ],
+    "description": "Диван LUCCA від Ningbo Brightway Home Co. має оббивку зі 100% поліестерової тканини та основу з сосни та багатошарового дерева. Він оснащений знімним чохлом, який можна прати при 30 °C для легкого догляду.",
+    "colours": [
+     {
+      "code": "LUC-11-ANT",
+      "name": "Антрацитовий"
+     },
+     {
+      "code": "LUC-11-SAB",
+      "name": "Пісочний"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4127.JPG",
+      "text": "Сірий диван LUCCA, вигляд виробу"
+     },
+     {
+      "file": "LUCCA_ANT_01.jpg",
+      "text": "Диван LUCCA в антрацитово-сірому кольорі, вигляд виробу"
+     },
+     {
+      "file": "LUCCA_ANT_02.jpg",
+      "text": "Детальний вигляд дивана LUCCA в антрацитово-сірому кольорі"
+     },
+     {
+      "file": "LUCCA_ANT_03.jpg",
+      "text": "Диван LUCCA в антрацитово-сірому кольорі в інтер'єрі"
+     },
+     {
+      "file": "LUCCA_SAB_01.jpg",
+      "text": "Диван LUCCA в пісочно-бежевому кольорі, вигляд виробу"
+     },
+     {
+      "file": "LUCCA_SAB_02.jpg",
+      "text": "Диван LUCCA в пісочно-бежевому кольорі, вигляд виробу"
+     },
+     {
+      "file": "LUCCA_SAB_04.jpg",
+      "text": "Детальний вигляд дивана LUCCA в пісочно-бежевому кольорі"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "LUCCA Sofa by Ningbo Brightway Home Co.",
+    "bullets": [
+     "Upholstery: 100% polyester fabric",
+     "Frame and legs made of pine and plywood",
+     "Removable cover, washable at 30 °C",
+     "Maximum load capacity 330 kg",
+     "Dimensions: height 80 cm, depth 107 cm, seat height 44 cm, seat depth 64 cm"
+    ],
+    "description": "The LUCCA sofa from Ningbo Brightway Home Co. features 100% polyester fabric upholstery and a frame made of pine and plywood. It is equipped with a removable cover that can be washed at 30 °C for easy care.",
+    "colours": [
+     {
+      "code": "LUC-11-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "LUC-11-SAB",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4127.JPG",
+      "text": "Grey LUCCA sofa, product view"
+     },
+     {
+      "file": "LUCCA_ANT_01.jpg",
+      "text": "LUCCA sofa in anthracite grey, product view"
+     },
+     {
+      "file": "LUCCA_ANT_02.jpg",
+      "text": "Detailed view of the LUCCA sofa in anthracite grey"
+     },
+     {
+      "file": "LUCCA_ANT_03.jpg",
+      "text": "LUCCA sofa in anthracite grey in an interior"
+     },
+     {
+      "file": "LUCCA_SAB_01.jpg",
+      "text": "LUCCA sofa in sand beige, product view"
+     },
+     {
+      "file": "LUCCA_SAB_02.jpg",
+      "text": "LUCCA sofa in sand beige, product view"
+     },
+     {
+      "file": "LUCCA_SAB_04.jpg",
+      "text": "Detailed view of the LUCCA sofa in sand beige"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

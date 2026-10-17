@@ -1,0 +1,117 @@
+{
+ "item_id": "B086VYBN4C",
+ "photos": {
+  "71aQFrinWAL": {
+   "role": "packshot",
+   "product_type": "recliner",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "81I-rLvvG4L": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "71oT0+74maL": {
+   "role": "dimension_drawing",
+   "product_type": "recliner",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "42\"",
+    "40\"",
+    "40\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      411,
+      41,
+      438,
+      77
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      832,
+      192,
+      859,
+      228
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      866,
+      732,
+      893,
+      768
+     ]
+    }
+   ]
+  },
+  "61Iga8y0KPL": {
+   "role": "packshot",
+   "product_type": "recliner",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      885,
+      355,
+      953,
+      387
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      882,
+      596,
+      941,
+      632
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

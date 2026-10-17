@@ -1,0 +1,170 @@
+{
+ "item_id": "B07B4YVXG8",
+ "photos": {
+  "81ZrH8BNOuL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      873,
+      208,
+      983,
+      606
+     ]
+    }
+   ]
+  },
+  "71BMLsU+1lL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      873,
+      204,
+      983,
+      595
+     ]
+    }
+   ]
+  },
+  "81KWZa3QEOL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      876,
+      205,
+      984,
+      595
+     ]
+    }
+   ]
+  },
+  "81VKlpiUniL": {
+   "role": "lifestyle",
+   "product_type": "desk",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "ING",
+    "OAD",
+    "ER",
+    "ABY",
+    "CIRCUS",
+    "ORD",
+    "ELDS",
+    "OAD",
+    "POETRY"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      523,
+      211,
+      786,
+      254
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      531,
+      546,
+      841,
+      588
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      531,
+      758,
+      926,
+      801
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      531,
+      922,
+      886,
+      964
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      255,
+      377,
+      496,
+      538
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      192,
+      0,
+      438,
+      63
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      581,
+      771,
+      596,
+      818
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

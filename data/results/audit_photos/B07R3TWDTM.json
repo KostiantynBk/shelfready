@@ -1,0 +1,230 @@
+{
+ "item_id": "B07R3TWDTM",
+ "photos": {
+  "71y6oFDDz7L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      683,
+      262,
+      791,
+      288
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      683,
+      693,
+      791,
+      721
+     ]
+    }
+   ]
+  },
+  "81Vxqj-MF6L": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "Expo Express",
+    "Furniture",
+    "prolo"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      735,
+      267,
+      843,
+      296
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      735,
+      706,
+      843,
+      735
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      566,
+      33,
+      594,
+      93
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      581,
+      85,
+      594,
+      113
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      598,
+      31,
+      633,
+      62
+     ]
+    }
+   ]
+  },
+  "71dEoa46iwL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      275,
+      786,
+      303
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      672,
+      297,
+      708,
+      316
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      703,
+      791,
+      732
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      672,
+      691,
+      708,
+      710
+     ]
+    }
+   ]
+  },
+  "81j9LjVMxrL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "Casa Express",
+    "CLON"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      691,
+      256,
+      771,
+      282
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      691,
+      366,
+      736,
+      391
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      766,
+      635,
+      853,
+      663
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      691,
+      713,
+      751,
+      738
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      478,
+      11,
+      508,
+      66
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      513,
+      11,
+      543,
+      66
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,122 @@
+{
+ "item_id": "B07VMLDRB7",
+ "photos": {
+  "61VnHZu15jL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "pink",
+   "upholstery_material": "velvet",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "717PsHj-dML": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "pink",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      736,
+      94,
+      834,
+      133
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      805,
+      233,
+      976,
+      273
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      655,
+      861,
+      778,
+      900
+     ]
+    }
+   ]
+  },
+  "7108kxE35TL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "pink",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      748,
+      111,
+      854,
+      153
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      821,
+      281,
+      981,
+      324
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      676,
+      867,
+      791,
+      906
+     ]
+    }
+   ]
+  },
+  "619CeLIJIHL": {
+   "role": "detail",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "purple",
+   "upholstery_material": "velvet",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,178 @@
+{
+ "item_id": "B07R3T74J7",
+ "photos": {
+  "71ga7vxd5ML": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      696,
+      240,
+      778,
+      275
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      766,
+      627,
+      858,
+      654
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      731,
+      703,
+      775,
+      731
+     ]
+    }
+   ]
+  },
+  "61e4XJza7hL": {
+   "role": "packshot",
+   "product_type": "sofa bed",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      704,
+      193,
+      753,
+      211
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      696,
+      401,
+      768,
+      432
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      701,
+      603,
+      761,
+      637
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      707,
+      804,
+      753,
+      822
+     ]
+    }
+   ]
+  },
+  "81GOd7P-iZL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      788,
+      273,
+      848,
+      311
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      838,
+      636,
+      915,
+      668
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      788,
+      703,
+      831,
+      723
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      263,
+      121,
+      768,
+      154
+     ]
+    }
+   ]
+  },
+  "81WQDhOrcbL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      471,
+      463,
+      766,
+      573
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

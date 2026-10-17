@@ -1,0 +1,105 @@
+{
+ "item_id": "B07TL4CQ3W",
+ "photos": {
+  "91lHAl2Tg+L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      568,
+      241,
+      963,
+      787
+     ]
+    }
+   ]
+  },
+  "A1q+bIy1o+L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      786,
+      0,
+      933,
+      125
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      804,
+      317,
+      1000,
+      646
+     ]
+    }
+   ]
+  },
+  "71C6wThxKRL": {
+   "role": "detail",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      31,
+      356,
+      783,
+      998
+     ]
+    }
+   ]
+  },
+  "A159SVGZRhL": {
+   "role": "detail",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "mesh",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

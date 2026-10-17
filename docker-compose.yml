@@ -1,5 +1,6 @@
-# Local run (any laptop): `docker compose up --build` → API on http://localhost:8080 in replay mode (no GPU).
-# On the AMD droplet, vLLM + Caddy are added (see docs/ and infra/).
+# Run on any machine: `docker compose up --build` → app on http://localhost:3000 (API on :8080).
+# Replay mode by default: the recorded Gemma 4 answers in data/replay, so no key and no GPU are needed.
+# Public API server (HTTPS via Caddy): `DOMAIN=<ip-with-dashes>.sslip.io docker compose --profile public up -d --build api caddy`
 services:
   api:
     build: ./backend
@@ -8,19 +9,41 @@ services:
         required: false
     environment:
       LLM_MODE: ${LLM_MODE:-replay}
-      DATA_DIR: /data
-      REPLAY_DIR: /replay
+      DATA_DIR: /app/data/runtime
     ports:
       - "8080:8080"
     volumes:
-      - api-data:/data
-      # Recorded model answers (committed), so replay mode works without a key
-      - ./data/replay:/replay
+      - ./data:/app/data
+    restart: unless-stopped
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/healthz')"]
       interval: 15s
       timeout: 5s
       retries: 5
 
+  web:
+    build: ./frontend
+    environment:
+      API_URL: http://api:8080
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+  caddy:
+    image: caddy:2
+    profiles: [public]
+    environment:
+      DOMAIN: ${DOMAIN:-localhost}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./infra/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+    depends_on:
+      - api
+    restart: unless-stopped
+
 volumes:
-  api-data:
+  caddy-data:

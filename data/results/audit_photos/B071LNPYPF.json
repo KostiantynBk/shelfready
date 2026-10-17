@@ -1,0 +1,153 @@
+{
+ "item_id": "B071LNPYPF",
+ "photos": {
+  "81r5E4nthdL": {
+   "role": "lifestyle",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "jute",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      233,
+      65,
+      336,
+      132
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      453,
+      251,
+      555,
+      292
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      413,
+      292,
+      512,
+      327
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      405,
+      732,
+      541,
+      786
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      405,
+      941,
+      512,
+      985
+     ]
+    }
+   ]
+  },
+  "A19yJCQyX5L": {
+   "role": "lifestyle",
+   "product_type": "daybed",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "gold",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      583,
+      131,
+      716,
+      158
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      583,
+      846,
+      725,
+      873
+     ]
+    }
+   ]
+  },
+  "91l-0lWqhmL": {
+   "role": "lifestyle",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "jute",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "A19qe9IeRQL": {
+   "role": "dimension_drawing",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "jute",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "8\"",
+    "8\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      466,
+      41,
+      496,
+      61
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      941,
+      487,
+      971,
+      507
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,221 @@
+{
+ "item_id": "B07J55B89H",
+ "photos": {
+  "510YL9Xup1L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      631,
+      76,
+      681,
+      115
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      693,
+      213,
+      782,
+      258
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      604,
+      891,
+      661,
+      931
+     ]
+    }
+   ]
+  },
+  "61fhbCGjgiL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      758,
+      0,
+      894,
+      62
+     ]
+    }
+   ]
+  },
+  "71tplEpvROL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      686,
+      168,
+      745,
+      203
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      776,
+      686,
+      863,
+      721
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      736,
+      865,
+      783,
+      891
+     ]
+    }
+   ]
+  },
+  "51CDvbL6FnL": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "80 cm",
+    "66 cm",
+    "57 cm",
+    "41 cm",
+    "184 cm",
+    "90 cm"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      294,
+      12,
+      331,
+      114
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      348,
+      37,
+      386,
+      139
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      401,
+      874,
+      438,
+      976
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      454,
+      851,
+      491,
+      953
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      731,
+      607,
+      768,
+      726
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      754,
+      17,
+      791,
+      120
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      673,
+      97,
+      724,
+      126
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      686,
+      208,
+      741,
+      241
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      655,
+      793,
+      705,
+      826
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

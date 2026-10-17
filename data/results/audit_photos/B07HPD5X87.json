@@ -1,0 +1,196 @@
+{
+ "item_id": "B07HPD5X87",
+ "photos": {
+  "61C1hrprVeL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      566,
+      204,
+      798,
+      265
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      573,
+      275,
+      926,
+      336
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      531,
+      711,
+      703,
+      744
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      521,
+      831,
+      798,
+      892
+     ]
+    }
+   ]
+  },
+  "51DCXd1JXVL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      101,
+      797,
+      193
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      545,
+      282,
+      876,
+      338
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      502,
+      691,
+      683,
+      731
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      502,
+      775,
+      756,
+      892
+     ]
+    }
+   ]
+  },
+  "712guB1gwwL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      294,
+      1000,
+      405
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      941,
+      783,
+      1000,
+      861
+     ]
+    }
+   ]
+  },
+  "61SYN+ybtpL": {
+   "role": "lifestyle",
+   "product_type": "settee",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      573,
+      174,
+      785,
+      232
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      331,
+      737,
+      361
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      607,
+      506,
+      901,
+      546
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      611,
+      843,
+      682
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

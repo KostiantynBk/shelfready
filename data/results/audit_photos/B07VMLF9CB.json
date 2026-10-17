@@ -1,0 +1,175 @@
+{
+ "item_id": "B07VMLF9CB",
+ "photos": {
+  "71nIIphMcUL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "71THCJCNRbL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      873,
+      792,
+      916,
+      896
+     ]
+    }
+   ]
+  },
+  "81bFEdAkb0L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      832,
+      338,
+      858,
+      364
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      762,
+      592,
+      783,
+      612
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      701,
+      792,
+      722,
+      812
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      715,
+      184,
+      738,
+      204
+     ]
+    }
+   ]
+  },
+  "71RCRrkKM3L": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 2,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "1460",
+    "740",
+    "870",
+    "1460",
+    "1940",
+    "730"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      118,
+      357,
+      148,
+      447
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      118,
+      666,
+      148,
+      736
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      326,
+      154,
+      374,
+      196
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      602,
+      235,
+      633,
+      325
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      588,
+      571,
+      619,
+      661
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      736,
+      115,
+      784,
+      157
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

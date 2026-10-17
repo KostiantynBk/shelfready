@@ -1,0 +1,21 @@
+{
+ "item_id": "B001LF4I1A",
+ "photos": {
+  "81ox0z6FsZL": {
+   "role": "packshot",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "multicolour",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

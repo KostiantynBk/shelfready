@@ -1,0 +1,699 @@
+{
+ "product_id": "SYN-22",
+ "decisions": {},
+ "facts": {
+  "product_name": "Teppich INN / INN rug",
+  "model": "INN",
+  "brand": "Nordholz Wohnen",
+  "width_cm": 274,
+  "depth_cm": 178,
+  "height_cm": 3,
+  "weight_kg": 10,
+  "product_type": "Teppich / rug",
+  "care": "Nicht waschen; professionelle Reinigung / do not wash; professional cleaning only",
+  "country_of_origin": "Deutschland",
+  "safety_warnings": [
+   "Auf glatten Böden eine Antirutschunterlage verwenden.",
+   "Use an anti-slip underlay on smooth floors.",
+   "Von offenem Feuer fernhalten.",
+   "Keep away from open flames."
+  ],
+  "variants": [
+   {
+    "code": "INN-22-ANT",
+    "colour_name": "Anthrazit"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "colour",
+   "variant": "INN-22-SAN",
+   "reason": "INN-22-SAN: 'Anthrazit' but the photos look beige",
+   "issue": "D10:INN-22-SAN:colour:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "upholstery",
+   "variant": null,
+   "reason": "Fibre composition missing",
+   "issue": "D14::upholstery:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "claims",
+   "variant": null,
+   "reason": "Health/safety/environmental claim",
+   "issue": "D15::claims:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "IMG_4957.JPG",
+   "variant": null,
+   "view": "detail",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "INN-ANT-1.jpg",
+   "variant": "INN-22-ANT",
+   "view": "lifestyle",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "INN-ANT-2.jpg",
+   "variant": "INN-22-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "INN-ANT-4.jpg",
+   "variant": "INN-22-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "INN-SAN-1.jpg",
+   "variant": null,
+   "view": "lifestyle",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "INN-SAN-2.jpg",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "INN-SAN-3.jpg",
+   "variant": null,
+   "view": "detail",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Nordholz Wohnen",
+  "INN",
+  "INN-22-ANT"
+ ],
+ "en": {
+  "title": "Nordholz Wohnen INN Rug",
+  "bullets": [
+   "Dimensions: 274 cm width, 178 cm depth, 3 cm height",
+   "Weight: 10 kg",
+   "Origin: Germany",
+   "Care: Professional cleaning only; do not wash"
+  ],
+  "description": "The Nordholz Wohnen INN rug is a high-quality home accessory made in Germany. It features a substantial size of 274 cm by 178 cm with a height of 3 cm.",
+  "colours": [
+   {
+    "code": "INN-22-ANT",
+    "name": "Anthracite"
+   }
+  ],
+  "safety_warnings": [
+   "Use an anti-slip underlay on smooth floors.",
+   "Keep away from open flames."
+  ],
+  "alt_texts": [
+   {
+    "file": "IMG_4957.JPG",
+    "text": "Detail view of a beige rug"
+   },
+   {
+    "file": "INN-ANT-1.jpg",
+    "text": "Lifestyle view of the INN rug in brown"
+   },
+   {
+    "file": "INN-ANT-2.jpg",
+    "text": "Packshot of the INN rug in grey"
+   },
+   {
+    "file": "INN-ANT-4.jpg",
+    "text": "Detail view of the INN rug in grey"
+   },
+   {
+    "file": "INN-SAN-1.jpg",
+    "text": "Lifestyle view of a brown rug"
+   },
+   {
+    "file": "INN-SAN-2.jpg",
+    "text": "Packshot of a beige rug"
+   },
+   {
+    "file": "INN-SAN-3.jpg",
+    "text": "Detail view of a beige rug"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Alfombra Nordholz Wohnen INN",
+    "bullets": [
+     "Dimensiones: 274 cm de ancho, 178 cm de profundidad, 3 cm de altura",
+     "Peso: 10 kg",
+     "Origen: Alemania",
+     "Cuidado: Solo limpieza profesional; no lavar"
+    ],
+    "description": "La alfombra Nordholz Wohnen INN es un accesorio para el hogar de alta calidad fabricado en Alemania. Cuenta con un tamaño considerable de 274 cm por 178 cm y una altura de 3 cm.",
+    "colours": [
+     {
+      "code": "INN-22-ANT",
+      "name": "Antracita"
+     }
+    ],
+    "safety_warnings": [
+     "Utilice una base antideslizante en suelos lisos.",
+     "Mantener alejado de llamas abiertas."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4957.JPG",
+      "text": "Vista detallada de una alfombra beige"
+     },
+     {
+      "file": "INN-ANT-1.jpg",
+      "text": "Vista de estilo de vida de la alfombra INN en marrón"
+     },
+     {
+      "file": "INN-ANT-2.jpg",
+      "text": "Foto de producto de la alfombra INN en gris"
+     },
+     {
+      "file": "INN-ANT-4.jpg",
+      "text": "Vista detallada de la alfombra INN en gris"
+     },
+     {
+      "file": "INN-SAN-1.jpg",
+      "text": "Vista de estilo de vida de una alfombra marrón"
+     },
+     {
+      "file": "INN-SAN-2.jpg",
+      "text": "Foto de producto de una alfombra beige"
+     },
+     {
+      "file": "INN-SAN-3.jpg",
+      "text": "Vista detallada de una alfombra beige"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Tappeto Nordholz Wohnen INN",
+    "bullets": [
+     "Dimensioni: 274 cm di larghezza, 178 cm di profondità, 3 cm di altezza",
+     "Peso: 10 kg",
+     "Origine: Germania",
+     "Manutenzione: Solo lavaggio professionale; non lavare"
+    ],
+    "description": "Il tappeto Nordholz Wohnen INN è un accessorio per la casa di alta qualità prodotto in Germania. Presenta dimensioni generose di 274 cm per 178 cm con un'altezza di 3 cm.",
+    "colours": [
+     {
+      "code": "INN-22-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizzare un sottofondo antiscivolo su pavimenti lisci.",
+     "Tenere lontano da fiamme libere."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4957.JPG",
+      "text": "Vista dettagliata di un tappeto beige"
+     },
+     {
+      "file": "INN-ANT-1.jpg",
+      "text": "Vista ambientata del tappeto INN in marrone"
+     },
+     {
+      "file": "INN-ANT-2.jpg",
+      "text": "Foto prodotto del tappeto INN in grigio"
+     },
+     {
+      "file": "INN-ANT-4.jpg",
+      "text": "Vista dettagliata del tappeto INN in grigio"
+     },
+     {
+      "file": "INN-SAN-1.jpg",
+      "text": "Vista ambientata di un tappeto marrone"
+     },
+     {
+      "file": "INN-SAN-2.jpg",
+      "text": "Foto prodotto di un tappeto beige"
+     },
+     {
+      "file": "INN-SAN-3.jpg",
+      "text": "Vista dettagliata di un tappeto beige"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Nordholz Wohnen INN Teppich",
+    "bullets": [
+     "Maße: 274 cm Breite, 178 cm Tiefe, 3 cm Höhe",
+     "Gewicht: 10 kg",
+     "Herkunft: Deutschland",
+     "Pflege: Nur professionelle Reinigung; nicht waschen"
+    ],
+    "description": "Der Nordholz Wohnen INN Teppich ist ein hochwertiges Wohnaccessoire aus deutscher Herstellung. Er besticht durch seine großzügige Größe von 274 cm x 178 cm bei einer Höhe von 3 cm.",
+    "colours": [
+     {
+      "code": "INN-22-ANT",
+      "name": "Anthrazit"
+     }
+    ],
+    "safety_warnings": [
+     "Auf glatten Böden eine rutschfeste Unterlage verwenden.",
+     "Von offenen Flammen fernhalten."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4957.JPG",
+      "text": "Detailansicht eines beigen Teppichs"
+     },
+     {
+      "file": "INN-ANT-1.jpg",
+      "text": "Lifestyle-Ansicht des INN Teppichs in Braun"
+     },
+     {
+      "file": "INN-ANT-2.jpg",
+      "text": "Produktfoto des INN Teppichs in Grau"
+     },
+     {
+      "file": "INN-ANT-4.jpg",
+      "text": "Detailansicht des INN Teppichs in Grau"
+     },
+     {
+      "file": "INN-SAN-1.jpg",
+      "text": "Lifestyle-Ansicht eines braunen Teppichs"
+     },
+     {
+      "file": "INN-SAN-2.jpg",
+      "text": "Produktfoto eines beigen Teppichs"
+     },
+     {
+      "file": "INN-SAN-3.jpg",
+      "text": "Detailansicht eines beigen Teppichs"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen INN Carpet",
+    "bullets": [
+     "Dimensions: 274 cm width, 178 cm depth, 3 cm height",
+     "Weight: 10 kg",
+     "Origin: Germany",
+     "Care: Professional cleaning only; do not wash"
+    ],
+    "description": "The Nordholz Wohnen INN carpet is a high-quality living accessory of German manufacture. It impresses with its generous size of 274 cm x 178 cm with a height of 3 cm.",
+    "colours": [
+     {
+      "code": "INN-22-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Use a non-slip underlay on smooth floors.",
+     "Keep away from open flames."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4957.JPG",
+      "text": "Detailed view of a beige carpet"
+     },
+     {
+      "file": "INN-ANT-1.jpg",
+      "text": "Lifestyle view of the INN carpet in brown"
+     },
+     {
+      "file": "INN-ANT-2.jpg",
+      "text": "Product photo of the INN carpet in grey"
+     },
+     {
+      "file": "INN-ANT-4.jpg",
+      "text": "Detailed view of the INN carpet in grey"
+     },
+     {
+      "file": "INN-SAN-1.jpg",
+      "text": "Lifestyle view of a brown carpet"
+     },
+     {
+      "file": "INN-SAN-2.jpg",
+      "text": "Product photo of a beige carpet"
+     },
+     {
+      "file": "INN-SAN-3.jpg",
+      "text": "Detailed view of a beige carpet"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Tapis Nordholz Wohnen INN",
+    "bullets": [
+     "Dimensions : 274 cm de largeur, 178 cm de profondeur, 3 cm de hauteur",
+     "Poids : 10 kg",
+     "Origine : Allemagne",
+     "Entretien : Nettoyage professionnel uniquement ; ne pas laver"
+    ],
+    "description": "Le tapis Nordholz Wohnen INN est un accessoire de maison haut de gamme fabriqué en Allemagne. Il présente des dimensions généreuses de 274 cm par 178 cm avec une hauteur de 3 cm.",
+    "colours": [
+     {
+      "code": "INN-22-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Utiliser un sous-tapis antidérapant sur les sols lisses.",
+     "Tenir à l'écart des flammes nues."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4957.JPG",
+      "text": "Vue détaillée d'un tapis beige"
+     },
+     {
+      "file": "INN-ANT-1.jpg",
+      "text": "Vue d'ambiance du tapis INN en marron"
+     },
+     {
+      "file": "INN-ANT-2.jpg",
+      "text": "Photo produit du tapis INN en gris"
+     },
+     {
+      "file": "INN-ANT-4.jpg",
+      "text": "Vue détaillée du tapis INN en gris"
+     },
+     {
+      "file": "INN-SAN-1.jpg",
+      "text": "Vue d'ambiance d'un tapis marron"
+     },
+     {
+      "file": "INN-SAN-2.jpg",
+      "text": "Photo produit d'un tapis beige"
+     },
+     {
+      "file": "INN-SAN-3.jpg",
+      "text": "Vue détaillée d'un tapis beige"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Tapete Nordholz Wohnen INN",
+    "bullets": [
+     "Dimensões: 274 cm de largura, 178 cm de profundidade, 3 cm de altura",
+     "Peso: 10 kg",
+     "Origem: Alemanha",
+     "Cuidados: Apenas limpeza profissional; não lavar"
+    ],
+    "description": "O tapete Nordholz Wohnen INN é um acessório para a casa de alta qualidade fabricado na Alemanha. Apresenta dimensões generosas de 274 cm por 178 cm com uma altura de 3 cm.",
+    "colours": [
+     {
+      "code": "INN-22-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Utilize um tapete antiderrapante em pavimentos lisos.",
+     "Mantenha afastado de chamas abertas."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4957.JPG",
+      "text": "Vista detalhada de um tapete bege"
+     },
+     {
+      "file": "INN-ANT-1.jpg",
+      "text": "Vista de ambiente do tapete INN em castanho"
+     },
+     {
+      "file": "INN-ANT-2.jpg",
+      "text": "Fotografia de produto do tapete INN em cinzento"
+     },
+     {
+      "file": "INN-ANT-4.jpg",
+      "text": "Vista detalhada do tapete INN em cinzento"
+     },
+     {
+      "file": "INN-SAN-1.jpg",
+      "text": "Vista de ambiente de um tapete castanho"
+     },
+     {
+      "file": "INN-SAN-2.jpg",
+      "text": "Fotografia de produto de um tapete bege"
+     },
+     {
+      "file": "INN-SAN-3.jpg",
+      "text": "Vista detalhada de um tapete bege"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Dywan Nordholz Wohnen INN",
+    "bullets": [
+     "Wymiary: 274 cm szerokości, 178 cm głębokości, 3 cm wysokości",
+     "Waga: 10 kg",
+     "Pochodzenie: Niemcy",
+     "Pielęgnacja: Tylko czyszczenie profesjonalne; nie prać"
+    ],
+    "description": "Dywan Nordholz Wohnen INN to wysokiej jakości dodatek do domu wykonany w Niemczech. Charakteryzuje się znacznym rozmiarem 274 cm na 178 cm oraz wysokością 3 cm.",
+    "colours": [
+     {
+      "code": "INN-22-ANT",
+      "name": "Antracytowy"
+     }
+    ],
+    "safety_warnings": [
+     "Na gładkich podłogach należy stosować podkład antypoślizgowy.",
+     "Trzymać z dala od otwartego ognia."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4957.JPG",
+      "text": "Zbliżenie na beżowy dywan"
+     },
+     {
+      "file": "INN-ANT-1.jpg",
+      "text": "Widok aranżacyjny dywanu INN w kolorze brązowym"
+     },
+     {
+      "file": "INN-ANT-2.jpg",
+      "text": "Zdjęcie produktowe dywanu INN w kolorze szarym"
+     },
+     {
+      "file": "INN-ANT-4.jpg",
+      "text": "Zbliżenie na dywan INN w kolorze szarym"
+     },
+     {
+      "file": "INN-SAN-1.jpg",
+      "text": "Widok aranżacyjny brązowego dywanu"
+     },
+     {
+      "file": "INN-SAN-2.jpg",
+      "text": "Zdjęcie produktowe beżowego dywanu"
+     },
+     {
+      "file": "INN-SAN-3.jpg",
+      "text": "Zbliżenie na beżowy dywan"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Килим Nordholz Wohnen INN",
+    "bullets": [
+     "Розміри: ширина 274 см, глибина 178 см, висота 3 см",
+     "Вага: 10 кг",
+     "Походження: Німеччина",
+     "Догляд: тільки професійна чистка; не прати"
+    ],
+    "description": "Килим Nordholz Wohnen INN — це високоякісний аксесуар для дому, виготовлений у Німеччині. Він має значний розмір 274 см на 178 см та висоту 3 см.",
+    "colours": [
+     {
+      "code": "INN-22-ANT",
+      "name": "Антрацитовий"
+     }
+    ],
+    "safety_warnings": [
+     "Використовуйте протиковзну підкладку на гладких підлогах.",
+     "Тримайте подалі від відкритого вогню."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4957.JPG",
+      "text": "Детальний вигляд бежевого килима"
+     },
+     {
+      "file": "INN-ANT-1.jpg",
+      "text": "Інтер'єрний вигляд килима INN у коричневому кольорі"
+     },
+     {
+      "file": "INN-ANT-2.jpg",
+      "text": "Студійне фото килима INN у сірому кольорі"
+     },
+     {
+      "file": "INN-ANT-4.jpg",
+      "text": "Детальний вигляд килима INN у сірому кольорі"
+     },
+     {
+      "file": "INN-SAN-1.jpg",
+      "text": "Інтер'єрний вигляд коричневого килима"
+     },
+     {
+      "file": "INN-SAN-2.jpg",
+      "text": "Студійне фото бежевого килима"
+     },
+     {
+      "file": "INN-SAN-3.jpg",
+      "text": "Детальний вигляд бежевого килима"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen INN Rug",
+    "bullets": [
+     "Dimensions: width 274 cm, depth 178 cm, height 3 cm",
+     "Weight: 10 kg",
+     "Origin: Germany",
+     "Care: professional cleaning only; do not wash"
+    ],
+    "description": "The Nordholz Wohnen INN rug is a high-quality home accessory made in Germany. It has a significant size of 274 cm by 178 cm and a height of 3 cm.",
+    "colours": [
+     {
+      "code": "INN-22-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Use a non-slip underlay on smooth floors.",
+     "Keep away from open fire."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4957.JPG",
+      "text": "Detailed view of a beige rug"
+     },
+     {
+      "file": "INN-ANT-1.jpg",
+      "text": "Interior view of the INN rug in brown"
+     },
+     {
+      "file": "INN-ANT-2.jpg",
+      "text": "Studio photo of the INN rug in grey"
+     },
+     {
+      "file": "INN-ANT-4.jpg",
+      "text": "Detailed view of the INN rug in grey"
+     },
+     {
+      "file": "INN-SAN-1.jpg",
+      "text": "Interior view of a brown rug"
+     },
+     {
+      "file": "INN-SAN-2.jpg",
+      "text": "Studio photo of a beige rug"
+     },
+     {
+      "file": "INN-SAN-3.jpg",
+      "text": "Detailed view of a beige rug"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

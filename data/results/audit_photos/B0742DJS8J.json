@@ -1,0 +1,217 @@
+{
+ "item_id": "B0742DJS8J",
+ "photos": {
+  "71kgMyqb+tL": {
+   "role": "packshot",
+   "product_type": "tripod floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      241,
+      371,
+      945,
+      456
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      241,
+      403,
+      987,
+      461
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      241,
+      445,
+      956,
+      654
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      234,
+      434,
+      266,
+      475
+     ]
+    }
+   ]
+  },
+  "A18OvIWVnWL": {
+   "role": "lifestyle",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      865,
+      75,
+      901,
+      138
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      885,
+      385,
+      931,
+      465
+     ]
+    }
+   ]
+  },
+  "71shmVMhsdL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      243,
+      372,
+      937,
+      456
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      243,
+      402,
+      986,
+      461
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      243,
+      445,
+      955,
+      655
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      241,
+      372,
+      986,
+      655
+     ]
+    }
+   ]
+  },
+  "71t6jTVr-aL": {
+   "role": "dimension_drawing",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "silver",
+   "text_in_image": [
+    "58.3\"",
+    "15\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      492,
+      226,
+      512,
+      278
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      938,
+      485,
+      958,
+      514
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      263,
+      368,
+      898,
+      453
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      263,
+      405,
+      921,
+      458
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      263,
+      458,
+      893,
+      657
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      221,
+      453,
+      271,
+      475
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

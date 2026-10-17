@@ -1,0 +1,188 @@
+{
+ "item_id": "B07K51RSSK",
+ "photos": {
+  "61m+ayY5d8L": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "yellow",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      867,
+      332,
+      991,
+      835
+     ]
+    }
+   ]
+  },
+  "81sZWL5OYYL": {
+   "role": "detail",
+   "product_type": "lamp socket",
+   "products_in_frame": 1,
+   "colour_family": "yellow",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      234,
+      253,
+      737,
+      753
+     ]
+    }
+   ]
+  },
+  "717+ezLkBqL": {
+   "role": "packshot",
+   "product_type": "power cable with switch",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [
+    "S",
+    "C"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      178,
+      553,
+      215,
+      591
+     ]
+    }
+   ]
+  },
+  "81GVWHgH4+L": {
+   "role": "lifestyle",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "yellow",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "sel",
+    "KINFOLK",
+    "Person",
+    "Year",
+    "KINFOLK",
+    "HARDBACK"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      456,
+      701,
+      468,
+      785
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      621,
+      273,
+      643,
+      333
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      661,
+      248,
+      673,
+      285
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      673,
+      248,
+      685,
+      285
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      692,
+      223,
+      704,
+      303
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      714,
+      214,
+      726,
+      303
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      741,
+      248,
+      753,
+      303
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      762,
+      248,
+      774,
+      303
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      783,
+      231,
+      795,
+      325
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

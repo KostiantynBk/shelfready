@@ -1,0 +1,132 @@
+{
+ "item_id": "B075X5QYPN",
+ "photos": {
+  "B1sOxTfqZXS": {
+   "role": "detail",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      825,
+      921,
+      998,
+      1000
+     ]
+    }
+   ]
+  },
+  "A1DCHcWt19L": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      771,
+      212,
+      968,
+      303
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      771,
+      686,
+      978,
+      776
+     ]
+    }
+   ]
+  },
+  "A1oB50y0OsL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      703,
+      120,
+      885,
+      192
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      356,
+      978,
+      426
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      755,
+      485,
+      841,
+      528
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      762,
+      925,
+      843
+     ]
+    }
+   ]
+  },
+  "B1AILWaMt1S": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

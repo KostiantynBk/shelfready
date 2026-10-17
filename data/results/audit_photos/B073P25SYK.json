@@ -1,0 +1,133 @@
+{
+ "item_id": "B073P25SYK",
+ "photos": {
+  "71w2SyV0L1L": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      936,
+      276,
+      986,
+      431
+     ]
+    }
+   ]
+  },
+  "71169A7fKaL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      938,
+      234,
+      986,
+      383
+     ]
+    }
+   ]
+  },
+  "71-gn1DQvhL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      936,
+      274,
+      985,
+      431
+     ]
+    }
+   ]
+  },
+  "81sx3Cc1x+L": {
+   "role": "detail",
+   "product_type": "table base",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      358,
+      648,
+      504
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      438,
+      578,
+      525
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      500,
+      631,
+      644
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      516,
+      235,
+      1000,
+      706
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

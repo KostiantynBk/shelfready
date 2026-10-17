@@ -1,0 +1,21 @@
+{
+ "item_id": "B07K29VZ2Q",
+ "photos": {
+  "A1SJHWe9iYL": {
+   "role": "detail",
+   "product_type": "upholstery swatch",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

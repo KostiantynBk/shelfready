@@ -1,0 +1,21 @@
+{
+ "item_id": "B07K2YMDKY",
+ "photos": {
+  "A1BQ0vVul2L": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "woven fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

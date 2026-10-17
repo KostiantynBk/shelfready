@@ -1,0 +1,173 @@
+{
+ "item_id": "B075X5TMZ1",
+ "photos": {
+  "915NbE5WVgL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      601,
+      46,
+      715,
+      114
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      663,
+      291,
+      827,
+      365
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      626,
+      876,
+      742,
+      946
+     ]
+    }
+   ]
+  },
+  "B1S8jeLvh+S": {
+   "role": "detail",
+   "product_type": "upholstery swatch",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "91Xo8BDiMYL": {
+   "role": "dimension_drawing",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [
+    "16\"",
+    "20\"",
+    "4.75\"",
+    "27\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      622,
+      112,
+      741,
+      182
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      693,
+      341,
+      856,
+      411
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      633,
+      884,
+      763,
+      954
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      476,
+      2,
+      521,
+      36
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      821,
+      183,
+      856,
+      227
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      771,
+      437,
+      806,
+      492
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      845,
+      664,
+      880,
+      708
+     ]
+    }
+   ]
+  },
+  "A1g9tzk-AWL": {
+   "role": "detail",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      938,
+      65,
+      1000,
+      133
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

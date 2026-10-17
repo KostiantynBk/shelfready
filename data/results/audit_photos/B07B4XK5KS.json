@@ -1,0 +1,142 @@
+{
+ "item_id": "B07B4XK5KS",
+ "photos": {
+  "71+KMW6iPyL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      907,
+      311,
+      991,
+      487
+     ]
+    }
+   ]
+  },
+  "819kDlLdafL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      38,
+      44,
+      936,
+      972
+     ]
+    }
+   ]
+  },
+  "A1mccpZIQ0L": {
+   "role": "detail",
+   "product_type": "table",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "brushed gold",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      364,
+      254,
+      641
+     ]
+    }
+   ]
+  },
+  "A1yjL+Oa2GL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      701,
+      86,
+      736,
+      101
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      694,
+      684,
+      731,
+      700
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      725,
+      788,
+      746
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      976,
+      788,
+      993
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      678,
+      0,
+      711,
+      58
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

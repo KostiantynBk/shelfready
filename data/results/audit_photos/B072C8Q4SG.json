@@ -1,0 +1,238 @@
+{
+ "item_id": "B072C8Q4SG",
+ "photos": {
+  "A1n5mXdTwGL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "red",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "dark brown",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      712,
+      106,
+      871,
+      171
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      762,
+      353,
+      982,
+      431
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      762,
+      593,
+      831,
+      656
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      742,
+      884,
+      931,
+      961
+     ]
+    }
+   ]
+  },
+  "91VpyFwSPqL": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "red",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "dark brown",
+   "text_in_image": [
+    "32.7\"",
+    "29.9\"",
+    "21.6\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      434,
+      15,
+      463,
+      76
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      871,
+      194,
+      906,
+      256
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      936,
+      661,
+      961,
+      722
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      174,
+      812,
+      231
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      723,
+      381,
+      905,
+      445
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      718,
+      566,
+      773,
+      626
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      706,
+      831,
+      858,
+      888
+     ]
+    }
+   ]
+  },
+  "A1ddmLKnUVL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 2,
+   "colour_family": "red",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [
+    "KINFOLK",
+    "GATHER"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      745,
+      171,
+      803,
+      211
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      773,
+      286,
+      876,
+      331
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      394,
+      803,
+      431
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      541,
+      858,
+      581
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      381,
+      12,
+      625,
+      51
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      352,
+      711,
+      368,
+      778
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      373,
+      723,
+      388,
+      771
+     ]
+    }
+   ]
+  },
+  "A1rzlDfT2VL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "red",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

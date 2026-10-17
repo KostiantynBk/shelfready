@@ -1,0 +1,163 @@
+{
+ "item_id": "B073P3HHFV",
+ "photos": {
+  "71VEVUTIoVL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      936,
+      362,
+      982,
+      612
+     ]
+    }
+   ]
+  },
+  "71AGU7S-jfL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      935,
+      365,
+      982,
+      614
+     ]
+    }
+   ]
+  },
+  "71zJRFSon4L": {
+   "role": "dimension_drawing",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "69\"",
+    "26\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      873,
+      365,
+      914,
+      632
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      492,
+      241,
+      513,
+      274
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      941,
+      486,
+      962,
+      518
+     ]
+    }
+   ]
+  },
+  "91lov-FslxL": {
+   "role": "detail",
+   "product_type": "table",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "brass",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      0,
+      813,
+      621
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      568,
+      1000,
+      818
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      313,
+      542,
+      500,
+      1000
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      463,
+      142,
+      700,
+      652
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      650,
+      212,
+      1000,
+      445
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

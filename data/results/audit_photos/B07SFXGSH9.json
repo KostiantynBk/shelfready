@@ -1,0 +1,144 @@
+{
+ "item_id": "B07SFXGSH9",
+ "photos": {
+  "71oc731qoHL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      756,
+      477,
+      788,
+      553
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      651,
+      883,
+      673,
+      921
+     ]
+    }
+   ]
+  },
+  "71yQaPeMruL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 2,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "61zMRjVL-eL": {
+   "role": "dimension_drawing",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "unsure",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "33",
+    "93",
+    "70"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      508,
+      26,
+      548,
+      71
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      734,
+      354,
+      774,
+      398
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      682,
+      845,
+      722,
+      890
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      615,
+      133,
+      642,
+      181
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      635,
+      794,
+      683
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      598,
+      892,
+      624,
+      939
+     ]
+    }
+   ]
+  },
+  "713g1LFXWnL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "multicolour",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

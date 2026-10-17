@@ -1,0 +1,198 @@
+{
+ "item_id": "B07K4YLXKB",
+ "photos": {
+  "91Ez91HW3zL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      678,
+      110,
+      991,
+      833
+     ]
+    }
+   ]
+  },
+  "716Vvr7+XdL": {
+   "role": "lifestyle",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "KINFOLK",
+    "Person of the Year",
+    "THE KINFOLK HOME",
+    "TIME",
+    "S S FASHION"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      653,
+      372,
+      736,
+      531
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      543,
+      1,
+      673,
+      26
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      503,
+      38,
+      653,
+      61
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      523,
+      74,
+      653,
+      96
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      563,
+      116,
+      653,
+      138
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      683,
+      38,
+      713,
+      53
+     ]
+    }
+   ]
+  },
+  "81e48pIpoeL": {
+   "role": "lifestyle",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "KINFOLK",
+    "Person of the Year",
+    "THE KINFOLK HOME",
+    "TIME"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      653,
+      351,
+      734,
+      525
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      523,
+      0,
+      673,
+      28
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      503,
+      34,
+      665,
+      62
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      523,
+      68,
+      665,
+      96
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      673,
+      41,
+      716,
+      58
+     ]
+    }
+   ]
+  },
+  "81LZ8kyW9UL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      692,
+      116,
+      992,
+      833
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,127 @@
+{
+ "item_id": "B0824FN4MK",
+ "photos": {
+  "51CwlVm8P9L": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "glass",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      514,
+      333,
+      945,
+      670
+     ]
+    }
+   ]
+  },
+  "41zFy4esZTL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "glass",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      512,
+      333,
+      943,
+      670
+     ]
+    }
+   ]
+  },
+  "51kLIp20JcL": {
+   "role": "dimension_drawing",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "glass",
+   "legs_finish": null,
+   "text_in_image": [
+    "20.5\"",
+    "13\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      500,
+      312,
+      894,
+      631
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      448,
+      763,
+      488,
+      862
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      931,
+      433,
+      971,
+      491
+     ]
+    }
+   ]
+  },
+  "91B-Romfk2L": {
+   "role": "lifestyle",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "glass",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      493,
+      307,
+      838,
+      593
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,163 @@
+{
+ "item_id": "B07J4P8PSC",
+ "photos": {
+  "51ZOQTivwjL": {
+   "role": "packshot",
+   "product_type": "modular sofa section",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      171,
+      702,
+      223
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      421,
+      852,
+      473
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      803,
+      741,
+      854
+     ]
+    }
+   ]
+  },
+  "61gHbbL3nxL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      435,
+      206,
+      938,
+      836
+     ]
+    }
+   ]
+  },
+  "51cI0jlcL4L": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "66 cm",
+    "68 cm",
+    "68 cm"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      178,
+      103,
+      213,
+      194
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      835,
+      115,
+      871,
+      215
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      884,
+      747,
+      920,
+      848
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      633,
+      217,
+      683,
+      264
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      714,
+      437,
+      821,
+      523
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      792,
+      722,
+      839
+     ]
+    }
+   ]
+  },
+  "71NB4t-rTGL": {
+   "role": "detail",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

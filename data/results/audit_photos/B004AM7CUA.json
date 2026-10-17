@@ -1,0 +1,204 @@
+{
+ "item_id": "B004AM7CUA",
+ "photos": {
+  "81soqRjOW0L": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "grey",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      90,
+      966,
+      185
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      545,
+      262,
+      756,
+      316
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      545,
+      831,
+      761,
+      885
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      896,
+      966,
+      991
+     ]
+    }
+   ]
+  },
+  "81FJkPUltjL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      403,
+      76,
+      592,
+      107
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      411,
+      131,
+      694,
+      192
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      403,
+      266,
+      544,
+      298
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      263,
+      391,
+      622,
+      433
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      522,
+      448,
+      889,
+      493
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      588,
+      681,
+      624
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      873,
+      737,
+      905
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      883,
+      981,
+      955
+     ]
+    }
+   ]
+  },
+  "81PAIrHZ6DL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      456,
+      38,
+      742,
+      96
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      466,
+      411,
+      961,
+      526
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      338,
+      721,
+      755,
+      812
+     ]
+    }
+   ]
+  },
+  "91Dvu93LqeL": {
+   "role": "detail",
+   "product_type": "furniture",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

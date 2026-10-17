@@ -1,0 +1,94 @@
+{
+ "item_id": "B07VNL9T87",
+ "photos": {
+  "51cGveOvG1L": {
+   "role": "detail",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "velvet",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "61foDQTKVAL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      96,
+      838,
+      133
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      811,
+      233,
+      975,
+      274
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      862,
+      774,
+      901
+     ]
+    }
+   ]
+  },
+  "41iCmJUAZ0L": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "51MppPWgvBL": {
+   "role": "detail",
+   "product_type": "upholstery",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "velvet",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

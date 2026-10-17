@@ -1,0 +1,892 @@
+{
+ "product_id": "SYN-14",
+ "decisions": {},
+ "facts": {
+  "product_name": "Sofá AVEIRO / AVEIRO sofa",
+  "model": "AVEIRO",
+  "brand": "Móveis Lusa",
+  "width_cm": 152,
+  "depth_cm": 78,
+  "height_cm": 78,
+  "seat_depth_cm": 47,
+  "max_load_kg": 220,
+  "weight_kg": 30.4,
+  "product_type": "Sofá / sofa",
+  "legs_or_base": "Faia maciça, acabamento nogueira / solid beech, walnut stain",
+  "upholstery": "Veludo, 100% poliéster / velvet, 100% polyester",
+  "care": "Apenas limpeza a seco / dry clean only",
+  "country_of_origin": "Portugal",
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Not for outdoor use.",
+   "Manter afastado de fontes de calor.",
+   "Keep away from heat sources.",
+   "Não subir para o assento.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "AVE-14-ANT",
+    "colour_name": "Antracite"
+   },
+   {
+    "code": "AVE-14-ARE",
+    "colour_name": "Areia"
+   },
+   {
+    "code": "AVE-14-CIN",
+    "colour_name": "Cinza"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "seat_height",
+   "variant": null,
+   "reason": "Seat height missing",
+   "issue": "D1::seat_height:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "claims",
+   "variant": null,
+   "reason": "Health/safety/environmental claim",
+   "issue": "D15::claims:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "AVE14_ANT_front.jpg",
+   "variant": "AVE-14-ANT",
+   "view": "front",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "AVE14_ARE_34.jpg",
+   "variant": "AVE-14-ARE",
+   "view": "three-quarter",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "AVE14_ARE_front.jpg",
+   "variant": "AVE-14-ARE",
+   "view": "front",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "AVE14_CIN_front.jpg",
+   "variant": "AVE-14-CIN",
+   "view": "front",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "AVE14_ANT_side.jpg",
+   "variant": "AVE-14-ANT",
+   "view": "side",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "AVE14_ARE_detail.jpg",
+   "variant": "AVE-14-ARE",
+   "view": "detail",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "AVE14_ARE_side.jpg",
+   "variant": "AVE-14-ARE",
+   "view": "side",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "AVE14_CIN_detail.jpg",
+   "variant": "AVE-14-CIN",
+   "view": "detail",
+   "colour_seen": "grey"
+  }
+ ],
+ "protected": [
+  "Móveis Lusa",
+  "AVEIRO",
+  "AVE-14-ANT",
+  "AVE-14-ARE",
+  "AVE-14-CIN"
+ ],
+ "en": {
+  "title": "Móveis Lusa AVEIRO Sofa",
+  "bullets": [
+   "Dimensions: 152 cm width, 78 cm depth, 78 cm height",
+   "Upholstery: 100% polyester velvet",
+   "Legs: Solid beech with walnut stain",
+   "Maximum load capacity: 220 kg",
+   "Made in Portugal"
+  ],
+  "description": "The AVEIRO sofa by Móveis Lusa features a 100% polyester velvet upholstery and solid beech legs with a walnut stain. This piece has a seat depth of 47 cm and requires dry clean only care.",
+  "colours": [
+   {
+    "code": "AVE-14-ANT",
+    "name": "Anthracite"
+   },
+   {
+    "code": "AVE-14-ARE",
+    "name": "Sand"
+   },
+   {
+    "code": "AVE-14-CIN",
+    "name": "Grey"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "AVE14_ANT_front.jpg",
+    "text": "Front view of the AVEIRO sofa in anthracite grey."
+   },
+   {
+    "file": "AVE14_ARE_34.jpg",
+    "text": "Three-quarter view of the AVEIRO sofa in sand beige."
+   },
+   {
+    "file": "AVE14_ARE_front.jpg",
+    "text": "Front view of the AVEIRO sofa in sand beige."
+   },
+   {
+    "file": "AVE14_CIN_front.jpg",
+    "text": "Front view of the AVEIRO sofa in grey."
+   },
+   {
+    "file": "AVE14_ANT_side.jpg",
+    "text": "Side view of the AVEIRO sofa in anthracite grey."
+   },
+   {
+    "file": "AVE14_ARE_detail.jpg",
+    "text": "Detail view of the AVEIRO sofa in sand beige."
+   },
+   {
+    "file": "AVE14_ARE_side.jpg",
+    "text": "Side view of the AVEIRO sofa in sand beige."
+   },
+   {
+    "file": "AVE14_CIN_detail.jpg",
+    "text": "Detail view of the AVEIRO sofa in grey."
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sofá Móveis Lusa AVEIRO",
+    "bullets": [
+     "Dimensiones: 152 cm de ancho, 78 cm de profundidad, 78 cm de altura",
+     "Tapicería: Terciopelo 100% poliéster",
+     "Patas: Haya maciza con tinte de nogal",
+     "Capacidad de carga máxima: 220 kg",
+     "Fabricado en Portugal"
+    ],
+    "description": "El sofá AVEIRO de Móveis Lusa cuenta con una tapicería de terciopelo 100% poliéster y patas de haya maciza con tinte de nogal. Esta pieza tiene una profundidad de asiento de 47 cm y requiere limpieza en seco únicamente.",
+    "colours": [
+     {
+      "code": "AVE-14-ANT",
+      "name": "Antracita"
+     },
+     {
+      "code": "AVE-14-ARE",
+      "name": "Arena"
+     },
+     {
+      "code": "AVE-14-CIN",
+      "name": "Gris"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "AVE14_ANT_front.jpg",
+      "text": "Vista frontal del sofá AVEIRO en gris antracita."
+     },
+     {
+      "file": "AVE14_ARE_34.jpg",
+      "text": "Vista en tres cuartos del sofá AVEIRO en beige arena."
+     },
+     {
+      "file": "AVE14_ARE_front.jpg",
+      "text": "Vista frontal del sofá AVEIRO en beige arena."
+     },
+     {
+      "file": "AVE14_CIN_front.jpg",
+      "text": "Vista frontal del sofá AVEIRO en gris."
+     },
+     {
+      "file": "AVE14_ANT_side.jpg",
+      "text": "Vista lateral del sofá AVEIRO en gris antracita."
+     },
+     {
+      "file": "AVE14_ARE_detail.jpg",
+      "text": "Vista de detalle del sofá AVEIRO en beige arena."
+     },
+     {
+      "file": "AVE14_ARE_side.jpg",
+      "text": "Vista lateral del sofá AVEIRO en beige arena."
+     },
+     {
+      "file": "AVE14_CIN_detail.jpg",
+      "text": "Vista de detalle del sofá AVEIRO en gris."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Divano Móveis Lusa AVEIRO",
+    "bullets": [
+     "Dimensioni: 152 cm di larghezza, 78 cm di profondità, 78 cm di altezza",
+     "Rivestimento: velluto 100% poliestere",
+     "Gambe: faggio massello con tinta noce",
+     "Capacità di carico massima: 220 kg",
+     "Realizzato in Portogallo"
+    ],
+    "description": "Il divano AVEIRO di Móveis Lusa presenta un rivestimento in velluto 100% poliestere e gambe in faggio massello con tinta noce. Questo pezzo ha una profondità del sedile di 47 cm e richiede esclusivamente la pulizia a secco.",
+    "colours": [
+     {
+      "code": "AVE-14-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "AVE-14-ARE",
+      "name": "Sabbia"
+     },
+     {
+      "code": "AVE-14-CIN",
+      "name": "Grigio"
+     }
+    ],
+    "safety_warnings": [
+     "Non adatto per uso esterno.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sul sedile."
+    ],
+    "alt_texts": [
+     {
+      "file": "AVE14_ANT_front.jpg",
+      "text": "Vista frontale del divano AVEIRO in grigio antracite."
+     },
+     {
+      "file": "AVE14_ARE_34.jpg",
+      "text": "Vista a tre quarti del divano AVEIRO in beige sabbia."
+     },
+     {
+      "file": "AVE14_ARE_front.jpg",
+      "text": "Vista frontale del divano AVEIRO in beige sabbia."
+     },
+     {
+      "file": "AVE14_CIN_front.jpg",
+      "text": "Vista frontale del divano AVEIRO in grigio."
+     },
+     {
+      "file": "AVE14_ANT_side.jpg",
+      "text": "Vista laterale del divano AVEIRO in grigio antracite."
+     },
+     {
+      "file": "AVE14_ARE_detail.jpg",
+      "text": "Vista dettagliata del divano AVEIRO in beige sabbia."
+     },
+     {
+      "file": "AVE14_ARE_side.jpg",
+      "text": "Vista laterale del divano AVEIRO in beige sabbia."
+     },
+     {
+      "file": "AVE14_CIN_detail.jpg",
+      "text": "Vista dettagliata del divano AVEIRO in grigio."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Móveis Lusa AVEIRO Sofa",
+    "bullets": [
+     "Maße: 152 cm Breite, 78 cm Tiefe, 78 cm Höhe",
+     "Bezug: 100% Polyester-Samt",
+     "Beine: Massivbuche mit Walnuss-Finish",
+     "Maximale Belastbarkeit: 220 kg",
+     "Hergestellt in Portugal"
+    ],
+    "description": "Das AVEIRO Sofa von Móveis Lusa besticht durch einen Bezug aus 100% Polyester-Samt und Beine aus Massivbuche in Walnuss-Optik. Dieses Möbelstück hat eine Sitztiefe von 47 cm und ist nur für die chemische Reinigung geeignet.",
+    "colours": [
+     {
+      "code": "AVE-14-ANT",
+      "name": "Anthrazit"
+     },
+     {
+      "code": "AVE-14-ARE",
+      "name": "Sand"
+     },
+     {
+      "code": "AVE-14-CIN",
+      "name": "Grau"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "AVE14_ANT_front.jpg",
+      "text": "Frontansicht des AVEIRO Sofas in Anthrazitgrau."
+     },
+     {
+      "file": "AVE14_ARE_34.jpg",
+      "text": "Dreiviertelansicht des AVEIRO Sofas in Sandbeige."
+     },
+     {
+      "file": "AVE14_ARE_front.jpg",
+      "text": "Frontansicht des AVEIRO Sofas in Sandbeige."
+     },
+     {
+      "file": "AVE14_CIN_front.jpg",
+      "text": "Frontansicht des AVEIRO Sofas in Grau."
+     },
+     {
+      "file": "AVE14_ANT_side.jpg",
+      "text": "Seitenansicht des AVEIRO Sofas in Anthrazitgrau."
+     },
+     {
+      "file": "AVE14_ARE_detail.jpg",
+      "text": "Detailansicht des AVEIRO Sofas in Sandbeige."
+     },
+     {
+      "file": "AVE14_ARE_side.jpg",
+      "text": "Seitenansicht des AVEIRO Sofas in Sandbeige."
+     },
+     {
+      "file": "AVE14_CIN_detail.jpg",
+      "text": "Detailansicht des AVEIRO Sofas in Grau."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa AVEIRO Sofa",
+    "bullets": [
+     "Dimensions: 152 cm width, 78 cm depth, 78 cm height",
+     "Cover: 100% polyester velvet",
+     "Legs: solid beech with walnut finish",
+     "Maximum load capacity: 220 kg",
+     "Made in Portugal"
+    ],
+    "description": "The AVEIRO sofa from Móveis Lusa impresses with a cover made of 100% polyester velvet and legs made of solid beech in walnut look. This piece of furniture has a seat depth of 47 cm and is only suitable for chemical cleaning.",
+    "colours": [
+     {
+      "code": "AVE-14-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "AVE-14-ARE",
+      "name": "Sand"
+     },
+     {
+      "code": "AVE-14-CIN",
+      "name": "Grey"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "AVE14_ANT_front.jpg",
+      "text": "Front view of the AVEIRO sofa in anthracite grey."
+     },
+     {
+      "file": "AVE14_ARE_34.jpg",
+      "text": "Three-quarter view of the AVEIRO sofa in sand beige."
+     },
+     {
+      "file": "AVE14_ARE_front.jpg",
+      "text": "Front view of the AVEIRO sofa in sand beige."
+     },
+     {
+      "file": "AVE14_CIN_front.jpg",
+      "text": "Front view of the AVEIRO sofa in grey."
+     },
+     {
+      "file": "AVE14_ANT_side.jpg",
+      "text": "Side view of the AVEIRO sofa in anthracite grey."
+     },
+     {
+      "file": "AVE14_ARE_detail.jpg",
+      "text": "Detailed view of the AVEIRO sofa in sand beige."
+     },
+     {
+      "file": "AVE14_ARE_side.jpg",
+      "text": "Side view of the AVEIRO sofa in sand beige."
+     },
+     {
+      "file": "AVE14_CIN_detail.jpg",
+      "text": "Detailed view of the AVEIRO sofa in grey."
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Canapé Móveis Lusa AVEIRO",
+    "bullets": [
+     "Dimensions : 152 cm de largeur, 78 cm de profondeur, 78 cm de hauteur",
+     "Revêtement : velours 100% polyester",
+     "Pieds : hêtre massif avec teinture noyer",
+     "Capacité de charge maximale : 220 kg",
+     "Fabriqué au Portugal"
+    ],
+    "description": "Le canapé AVEIRO de Móveis Lusa présente un revêtement en velours 100% polyester et des pieds en hêtre massif avec une teinture noyer. Ce meuble possède une profondeur d'assise de 47 cm et nécessite un nettoyage à sec uniquement.",
+    "colours": [
+     {
+      "code": "AVE-14-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "AVE-14-ARE",
+      "name": "Sable"
+     },
+     {
+      "code": "AVE-14-CIN",
+      "name": "Gris"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur l'assise."
+    ],
+    "alt_texts": [
+     {
+      "file": "AVE14_ANT_front.jpg",
+      "text": "Vue de face du canapé AVEIRO en gris anthracite."
+     },
+     {
+      "file": "AVE14_ARE_34.jpg",
+      "text": "Vue de trois-quarts du canapé AVEIRO en beige sable."
+     },
+     {
+      "file": "AVE14_ARE_front.jpg",
+      "text": "Vue de face du canapé AVEIRO en beige sable."
+     },
+     {
+      "file": "AVE14_CIN_front.jpg",
+      "text": "Vue de face du canapé AVEIRO en gris."
+     },
+     {
+      "file": "AVE14_ANT_side.jpg",
+      "text": "Vue de profil du canapé AVEIRO en gris anthracite."
+     },
+     {
+      "file": "AVE14_ARE_detail.jpg",
+      "text": "Vue détaillée du canapé AVEIRO en beige sable."
+     },
+     {
+      "file": "AVE14_ARE_side.jpg",
+      "text": "Vue de profil du canapé AVEIRO en beige sable."
+     },
+     {
+      "file": "AVE14_CIN_detail.jpg",
+      "text": "Vue détaillée du canapé AVEIRO en gris."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Sofá Móveis Lusa AVEIRO",
+    "bullets": [
+     "Dimensões: 152 cm de largura, 78 cm de profundidade, 78 cm de altura",
+     "Estofos: Veludo 100% poliéster",
+     "Pés: Faia maciça com acabamento em nogueira",
+     "Capacidade de carga máxima: 220 kg",
+     "Fabricado em Portugal"
+    ],
+    "description": "O sofá AVEIRO da Móveis Lusa apresenta estofos em veludo 100% poliéster e pés em faia maciça com acabamento em nogueira. Esta peça tem uma profundidade de assento de 47 cm e requer apenas limpeza a seco.",
+    "colours": [
+     {
+      "code": "AVE-14-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "AVE-14-ARE",
+      "name": "Areia"
+     },
+     {
+      "code": "AVE-14-CIN",
+      "name": "Cinzento"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "AVE14_ANT_front.jpg",
+      "text": "Vista frontal do sofá AVEIRO em cinzento antracite."
+     },
+     {
+      "file": "AVE14_ARE_34.jpg",
+      "text": "Vista de três quartos do sofá AVEIRO em bege areia."
+     },
+     {
+      "file": "AVE14_ARE_front.jpg",
+      "text": "Vista frontal do sofá AVEIRO em bege areia."
+     },
+     {
+      "file": "AVE14_CIN_front.jpg",
+      "text": "Vista frontal do sofá AVEIRO em cinzento."
+     },
+     {
+      "file": "AVE14_ANT_side.jpg",
+      "text": "Vista lateral do sofá AVEIRO em cinzento antracite."
+     },
+     {
+      "file": "AVE14_ARE_detail.jpg",
+      "text": "Vista detalhada do sofá AVEIRO em bege areia."
+     },
+     {
+      "file": "AVE14_ARE_side.jpg",
+      "text": "Vista lateral do sofá AVEIRO em bege areia."
+     },
+     {
+      "file": "AVE14_CIN_detail.jpg",
+      "text": "Vista detalhada do sofá AVEIRO em cinzento."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Sofa Móveis Lusa AVEIRO",
+    "bullets": [
+     "Wymiary: 152 cm szerokości, 78 cm głębokości, 78 cm wysokości",
+     "Obicie: 100% poliestrowy welur",
+     "Nogi: Lite drewno bukowe bejcowane na orzech",
+     "Maksymalne obciążenie: 220 kg",
+     "Wyprodukowano w Portugalii"
+    ],
+    "description": "Sofa AVEIRO od Móveis Lusa posiada obicie z 100% poliestrowego weluru oraz nogi z litego drewna bukowego bejcowanego na orzech. Mebel ten ma głębokość siedziska 47 cm i wymaga wyłącznie czyszczenia chemicznego.",
+    "colours": [
+     {
+      "code": "AVE-14-ANT",
+      "name": "Antracytowy"
+     },
+     {
+      "code": "AVE-14-ARE",
+      "name": "Piaskowy"
+     },
+     {
+      "code": "AVE-14-CIN",
+      "name": "Szary"
+     }
+    ],
+    "safety_warnings": [
+     "Produkt nieprzeznaczony do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "AVE14_ANT_front.jpg",
+      "text": "Widok z przodu sofy AVEIRO w kolorze antracytowym."
+     },
+     {
+      "file": "AVE14_ARE_34.jpg",
+      "text": "Widok z trzech czwartych sofy AVEIRO w kolorze piaskowym."
+     },
+     {
+      "file": "AVE14_ARE_front.jpg",
+      "text": "Widok z przodu sofy AVEIRO w kolorze piaskowym."
+     },
+     {
+      "file": "AVE14_CIN_front.jpg",
+      "text": "Widok z przodu sofy AVEIRO w kolorze szarym."
+     },
+     {
+      "file": "AVE14_ANT_side.jpg",
+      "text": "Widok z boku sofy AVEIRO w kolorze antracytowym."
+     },
+     {
+      "file": "AVE14_ARE_detail.jpg",
+      "text": "Zbliżenie na detale sofy AVEIRO w kolorze piaskowym."
+     },
+     {
+      "file": "AVE14_ARE_side.jpg",
+      "text": "Widok z boku sofy AVEIRO w kolorze piaskowym."
+     },
+     {
+      "file": "AVE14_CIN_detail.jpg",
+      "text": "Zbliżenie na detale sofy AVEIRO w kolorze szarym."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Диван Móveis Lusa AVEIRO",
+    "bullets": [
+     "Розміри: ширина 152 см, глибина 78 см, висота 78 см",
+     "Оббивка: 100% поліестеровий оксамит",
+     "Ніжки: масив бука з покриттям під горіх",
+     "Максимальне навантаження: 220 кг",
+     "Виготовлено в Португалії"
+    ],
+    "description": "Диван AVEIRO від Móveis Lusa має оббивку зі 100% поліестерового оксамиту та ніжки з масиву бука з покриттям під горіх. Глибина сидіння становить 47 см; рекомендується тільки суха чистка.",
+    "colours": [
+     {
+      "code": "AVE-14-ANT",
+      "name": "Антрацитовий"
+     },
+     {
+      "code": "AVE-14-ARE",
+      "name": "Пісочний"
+     },
+     {
+      "code": "AVE-14-CIN",
+      "name": "Сірий"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "AVE14_ANT_front.jpg",
+      "text": "Вигляд спереду дивана AVEIRO в антрацитовому кольорі."
+     },
+     {
+      "file": "AVE14_ARE_34.jpg",
+      "text": "Вигляд під кутом 3/4 дивана AVEIRO в пісочно-бежевому кольорі."
+     },
+     {
+      "file": "AVE14_ARE_front.jpg",
+      "text": "Вигляд спереду дивана AVEIRO в пісочно-бежевому кольорі."
+     },
+     {
+      "file": "AVE14_CIN_front.jpg",
+      "text": "Вигляд спереду дивана AVEIRO в сірому кольорі."
+     },
+     {
+      "file": "AVE14_ANT_side.jpg",
+      "text": "Вигляд збоку дивана AVEIRO в антрацитовому кольорі."
+     },
+     {
+      "file": "AVE14_ARE_detail.jpg",
+      "text": "Детальний вигляд дивана AVEIRO в пісочно-бежевому кольорі."
+     },
+     {
+      "file": "AVE14_ARE_side.jpg",
+      "text": "Вигляд збоку дивана AVEIRO в пісочно-бежевому кольорі."
+     },
+     {
+      "file": "AVE14_CIN_detail.jpg",
+      "text": "Детальний вигляд дивана AVEIRO в сірому кольорі."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": false,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": false,
+    "problems": [
+     "numbers changed: missing [], added ['3', '4']",
+     "back-translation differs"
+    ],
+    "human_checked": false
+   },
+   "passed": false,
+   "issues": [
+    {
+     "rule": "T2",
+     "product_id": "SYN-14",
+     "variant": null,
+     "type": "translation",
+     "severity": "blocking",
+     "return_risk": "missing_info",
+     "title": "UK: Numbers changed",
+     "detail": "numbers changed: missing [], added ['3', '4']; back-translation differs",
+     "attribute": "listing:uk",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    },
+    {
+     "rule": "T5",
+     "product_id": "SYN-14",
+     "variant": null,
+     "type": "translation",
+     "severity": "blocking",
+     "return_risk": "missing_info",
+     "title": "UK: Back-translation differs",
+     "detail": "numbers changed: missing [], added ['3', '4']; back-translation differs",
+     "attribute": "listing:uk",
+     "spec_value": null,
+     "found_value": null,
+     "proposed_value": null,
+     "file": null,
+     "evidence": [],
+     "status": "open"
+    }
+   ],
+   "back": {
+    "title": "Móveis Lusa AVEIRO Sofa",
+    "bullets": [
+     "Dimensions: width 152 cm, depth 78 cm, height 78 cm",
+     "Upholstery: 100% polyester velvet",
+     "Legs: solid beech with walnut finish",
+     "Maximum load: 220 kg",
+     "Made in Portugal"
+    ],
+    "description": "The AVEIRO sofa from Móveis Lusa features 100% polyester velvet upholstery and solid beech legs with a walnut finish. The seat depth is 47 cm; dry clean only is recommended.",
+    "colours": [
+     {
+      "code": "AVE-14-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "AVE-14-ARE",
+      "name": "Sand"
+     },
+     {
+      "code": "AVE-14-CIN",
+      "name": "Grey"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "AVE14_ANT_front.jpg",
+      "text": "Front view of the AVEIRO sofa in anthracite color."
+     },
+     {
+      "file": "AVE14_ARE_34.jpg",
+      "text": "3/4 angle view of the AVEIRO sofa in sand-beige color."
+     },
+     {
+      "file": "AVE14_ARE_front.jpg",
+      "text": "Front view of the AVEIRO sofa in sand-beige color."
+     },
+     {
+      "file": "AVE14_CIN_front.jpg",
+      "text": "Front view of the AVEIRO sofa in grey color."
+     },
+     {
+      "file": "AVE14_ANT_side.jpg",
+      "text": "Side view of the AVEIRO sofa in anthracite color."
+     },
+     {
+      "file": "AVE14_ARE_detail.jpg",
+      "text": "Detailed view of the AVEIRO sofa in sand-beige color."
+     },
+     {
+      "file": "AVE14_ARE_side.jpg",
+      "text": "Side view of the AVEIRO sofa in sand-beige color."
+     },
+     {
+      "file": "AVE14_CIN_detail.jpg",
+      "text": "Detailed view of the AVEIRO sofa in grey color."
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

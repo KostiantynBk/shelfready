@@ -1,0 +1,128 @@
+{
+ "item_id": "B0831Y1G6B",
+ "photos": {
+  "81pIfGD6ScL": {
+   "role": "packshot",
+   "product_type": "sectional sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "91VcStwQfbL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "81Pw0w8t-VL": {
+   "role": "packshot",
+   "product_type": "sectional sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71Fz3L44+-L": {
+   "role": "dimension_drawing",
+   "product_type": "sectional sofa",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "78.5\"",
+    "114\"",
+    "35.5\"",
+    "41.5\"",
+    "39.25\"",
+    "78.5\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      96,
+      241,
+      143,
+      293
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      78,
+      686,
+      125,
+      738
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      441,
+      12,
+      488,
+      71
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      881,
+      153,
+      928,
+      212
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      800,
+      356,
+      867,
+      431
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      800,
+      636,
+      848,
+      688
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

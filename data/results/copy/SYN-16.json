@@ -1,0 +1,567 @@
+{
+ "product_id": "SYN-16",
+ "decisions": {},
+ "facts": {
+  "product_name": "Lampada da tavolo ASOLO / ASOLO table lamp",
+  "model": "ASOLO",
+  "brand": "Arredo Brianza",
+  "width_cm": 25,
+  "depth_cm": 25,
+  "height_cm": 39,
+  "weight_kg": 2.8,
+  "product_type": "Lampada da tavolo / table lamp",
+  "legs_or_base": "Ceramica smaltata / glazed ceramic",
+  "care": "Pulire con panno asciutto a lampada spenta / clean with a dry cloth when switched off",
+  "country_of_origin": "Italia",
+  "safety_warnings": [
+   "Usare solo lampadine E27 max 40 W.",
+   "Use only E27 bulbs, max. 40 W.",
+   "Scollegare prima della pulizia.",
+   "Disconnect before cleaning.",
+   "Solo per uso interno.",
+   "For indoor use only."
+  ],
+  "variants": [
+   {
+    "code": "ASO-16-BIA",
+    "colour_name": "Bianco"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "manufacturer_address",
+   "variant": null,
+   "reason": "Manufacturer address missing",
+   "issue": "D12::manufacturer_address:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "claims",
+   "variant": null,
+   "reason": "Health/safety/environmental claim",
+   "issue": "D15::claims:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "ASOLO_BIA_01.jpg",
+   "variant": "ASO-16-BIA",
+   "view": "packshot",
+   "colour_seen": "white"
+  },
+  {
+   "file": "ASOLO_BIA_02.jpg",
+   "variant": "ASO-16-BIA",
+   "view": "packshot",
+   "colour_seen": "white"
+  },
+  {
+   "file": "ASOLO_BIA_03.jpg",
+   "variant": "ASO-16-BIA",
+   "view": "lifestyle",
+   "colour_seen": "black"
+  },
+  {
+   "file": "IMG_4836.JPG",
+   "variant": null,
+   "view": "detail",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Arredo Brianza",
+  "ASOLO",
+  "ASO-16-BIA"
+ ],
+ "en": {
+  "title": "Arredo Brianza ASOLO Table Lamp",
+  "bullets": [
+   "Made in Italia",
+   "Glazed ceramic base",
+   "Dimensions: 39 cm height, 25 cm width, 25 cm depth",
+   "Weight: 2.8 kg"
+  ],
+  "description": "The ASOLO table lamp by Arredo Brianza features a glazed ceramic base. This Italian-made lamp is designed for indoor use.",
+  "colours": [
+   {
+    "code": "ASO-16-BIA",
+    "name": "White"
+   }
+  ],
+  "safety_warnings": [
+   "Use only E27 bulbs, max. 40 W.",
+   "Disconnect before cleaning.",
+   "For indoor use only."
+  ],
+  "alt_texts": [
+   {
+    "file": "ASOLO_BIA_01.jpg",
+    "text": "ASOLO table lamp in white, packshot view"
+   },
+   {
+    "file": "ASOLO_BIA_02.jpg",
+    "text": "ASOLO table lamp in white, packshot view"
+   },
+   {
+    "file": "ASOLO_BIA_03.jpg",
+    "text": "ASOLO table lamp in black, lifestyle view"
+   },
+   {
+    "file": "IMG_4836.JPG",
+    "text": "Detail view of a beige table lamp"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Lámpara de mesa Arredo Brianza ASOLO",
+    "bullets": [
+     "Fabricada en Italia",
+     "Base de cerámica esmaltada",
+     "Dimensiones: 39 cm de altura, 25 cm de ancho, 25 cm de profundidad",
+     "Peso: 2.8 kg"
+    ],
+    "description": "La lámpara de mesa ASOLO de Arredo Brianza cuenta con una base de cerámica esmaltada. Esta lámpara de fabricación italiana está diseñada para uso en interiores.",
+    "colours": [
+     {
+      "code": "ASO-16-BIA",
+      "name": "Blanco"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizar únicamente bombillas E27, máx. 40 W.",
+     "Desconectar antes de limpiar.",
+     "Para uso exclusivo en interiores."
+    ],
+    "alt_texts": [
+     {
+      "file": "ASOLO_BIA_01.jpg",
+      "text": "Lámpara de mesa ASOLO en blanco, vista de producto"
+     },
+     {
+      "file": "ASOLO_BIA_02.jpg",
+      "text": "Lámpara de mesa ASOLO en blanco, vista de producto"
+     },
+     {
+      "file": "ASOLO_BIA_03.jpg",
+      "text": "Lámpara de mesa ASOLO en negro, vista de ambiente"
+     },
+     {
+      "file": "IMG_4836.JPG",
+      "text": "Vista de detalle de una lámpara de mesa en beige"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Lampada da Tavolo Arredo Brianza ASOLO",
+    "bullets": [
+     "Made in Italia",
+     "Base in ceramica smaltata",
+     "Dimensioni: 39 cm di altezza, 25 cm di larghezza, 25 cm di profondità",
+     "Peso: 2.8 kg"
+    ],
+    "description": "La lampada da tavolo ASOLO di Arredo Brianza presenta una base in ceramica smaltata. Questa lampada di produzione italiana è progettata per l'uso interno.",
+    "colours": [
+     {
+      "code": "ASO-16-BIA",
+      "name": "Bianco"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizzare solo lampadine E27, max. 40 W.",
+     "Scollegare prima della pulizia.",
+     "Solo per uso interno."
+    ],
+    "alt_texts": [
+     {
+      "file": "ASOLO_BIA_01.jpg",
+      "text": "Lampada da tavolo ASOLO in bianco, vista prodotto"
+     },
+     {
+      "file": "ASOLO_BIA_02.jpg",
+      "text": "Lampada da tavolo ASOLO in bianco, vista prodotto"
+     },
+     {
+      "file": "ASOLO_BIA_03.jpg",
+      "text": "Lampada da tavolo ASOLO in nero, vista ambientata"
+     },
+     {
+      "file": "IMG_4836.JPG",
+      "text": "Vista dettaglio di una lampada da tavolo beige"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Arredo Brianza ASOLO Tischleuchte",
+    "bullets": [
+     "Hergestellt in Italien",
+     "Glasierter Keramikfuß",
+     "Maße: 39 cm Höhe, 25 cm Breite, 25 cm Tiefe",
+     "Gewicht: 2,8 kg"
+    ],
+    "description": "Die ASOLO Tischleuchte von Arredo Brianza besticht durch einen glasierten Keramikfuß. Diese in Italien gefertigte Lampe ist für den Innenbereich konzipiert.",
+    "colours": [
+     {
+      "code": "ASO-16-BIA",
+      "name": "Weiß"
+     }
+    ],
+    "safety_warnings": [
+     "Nur E27-Leuchtmittel verwenden, max. 40 W.",
+     "Vor der Reinigung vom Stromnetz trennen.",
+     "Nur für den Innenbereich geeignet."
+    ],
+    "alt_texts": [
+     {
+      "file": "ASOLO_BIA_01.jpg",
+      "text": "ASOLO Tischleuchte in Weiß, Produktansicht"
+     },
+     {
+      "file": "ASOLO_BIA_02.jpg",
+      "text": "ASOLO Tischleuchte in Weiß, Produktansicht"
+     },
+     {
+      "file": "ASOLO_BIA_03.jpg",
+      "text": "ASOLO Tischleuchte in Schwarz, Lifestyle-Ansicht"
+     },
+     {
+      "file": "IMG_4836.JPG",
+      "text": "Detailansicht einer beigen Tischleuchte"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza ASOLO Table Lamp",
+    "bullets": [
+     "Made in Italy",
+     "Glazed ceramic base",
+     "Dimensions: 39 cm height, 25 cm width, 25 cm depth",
+     "Weight: 2.8 kg"
+    ],
+    "description": "The ASOLO table lamp from Arredo Brianza impresses with a glazed ceramic base. This lamp, manufactured in Italy, is designed for indoor use.",
+    "colours": [
+     {
+      "code": "ASO-16-BIA",
+      "name": "White"
+     }
+    ],
+    "safety_warnings": [
+     "Use only E27 bulbs, max. 40 W.",
+     "Disconnect from the mains before cleaning.",
+     "Suitable for indoor use only."
+    ],
+    "alt_texts": [
+     {
+      "file": "ASOLO_BIA_01.jpg",
+      "text": "ASOLO table lamp in white, product view"
+     },
+     {
+      "file": "ASOLO_BIA_02.jpg",
+      "text": "ASOLO table lamp in white, product view"
+     },
+     {
+      "file": "ASOLO_BIA_03.jpg",
+      "text": "ASOLO table lamp in black, lifestyle view"
+     },
+     {
+      "file": "IMG_4836.JPG",
+      "text": "Detailed view of a beige table lamp"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Lampe à poser Arredo Brianza ASOLO",
+    "bullets": [
+     "Fabriqué en Italie",
+     "Pied en céramique émaillée",
+     "Dimensions : 39 cm de hauteur, 25 cm de largeur, 25 cm de profondeur",
+     "Poids : 2,8 kg"
+    ],
+    "description": "La lampe à poser ASOLO d'Arredo Brianza présente un pied en céramique émaillée. Cette lampe de fabrication italienne est conçue pour un usage intérieur.",
+    "colours": [
+     {
+      "code": "ASO-16-BIA",
+      "name": "Blanc"
+     }
+    ],
+    "safety_warnings": [
+     "Utiliser uniquement des ampoules E27, max. 40 W.",
+     "Débrancher avant le nettoyage.",
+     "Pour usage intérieur uniquement."
+    ],
+    "alt_texts": [
+     {
+      "file": "ASOLO_BIA_01.jpg",
+      "text": "Lampe à poser ASOLO en blanc, vue produit"
+     },
+     {
+      "file": "ASOLO_BIA_02.jpg",
+      "text": "Lampe à poser ASOLO en blanc, vue produit"
+     },
+     {
+      "file": "ASOLO_BIA_03.jpg",
+      "text": "Lampe à poser ASOLO en noir, vue d'ambiance"
+     },
+     {
+      "file": "IMG_4836.JPG",
+      "text": "Vue détaillée d'une lampe à poser beige"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Candeeiro de Mesa Arredo Brianza ASOLO",
+    "bullets": [
+     "Fabricado em Itália",
+     "Base em cerâmica vidrada",
+     "Dimensões: 39 cm de altura, 25 cm de largura, 25 cm de profundidade",
+     "Peso: 2.8 kg"
+    ],
+    "description": "O candeeiro de mesa ASOLO da Arredo Brianza apresenta uma base em cerâmica vidrada. Este candeeiro de fabrico italiano foi concebido para utilização interior.",
+    "colours": [
+     {
+      "code": "ASO-16-BIA",
+      "name": "Branco"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizar apenas lâmpadas E27, máx. 40 W.",
+     "Desligar da corrente antes de limpar.",
+     "Apenas para utilização interior."
+    ],
+    "alt_texts": [
+     {
+      "file": "ASOLO_BIA_01.jpg",
+      "text": "Candeeiro de mesa ASOLO em branco, vista de produto"
+     },
+     {
+      "file": "ASOLO_BIA_02.jpg",
+      "text": "Candeeiro de mesa ASOLO em branco, vista de produto"
+     },
+     {
+      "file": "ASOLO_BIA_03.jpg",
+      "text": "Candeeiro de mesa ASOLO em preto, vista de ambiente"
+     },
+     {
+      "file": "IMG_4836.JPG",
+      "text": "Vista detalhada de um candeeiro de mesa bege"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Lampa stołowa Arredo Brianza ASOLO",
+    "bullets": [
+     "Wyprodukowano we Włoszech",
+     "Podstawa z glazurowanej ceramiki",
+     "Wymiary: wysokość 39 cm, szerokość 25 cm, głębokość 25 cm",
+     "Waga: 2.8 kg"
+    ],
+    "description": "Lampa stołowa ASOLO marki Arredo Brianza posiada podstawę z glazurowanej ceramiki. Ta włoska lampa została zaprojektowana do użytku wewnątrz pomieszczeń.",
+    "colours": [
+     {
+      "code": "ASO-16-BIA",
+      "name": "Biały"
+     }
+    ],
+    "safety_warnings": [
+     "Stosować tylko żarówki E27, max. 40 W.",
+     "Odłączyć z sieci przed czyszczeniem.",
+     "Wyłącznie do użytku wewnątrz pomieszczeń."
+    ],
+    "alt_texts": [
+     {
+      "file": "ASOLO_BIA_01.jpg",
+      "text": "Biała lampa stołowa ASOLO, widok produktowy"
+     },
+     {
+      "file": "ASOLO_BIA_02.jpg",
+      "text": "Biała lampa stołowa ASOLO, widok produktowy"
+     },
+     {
+      "file": "ASOLO_BIA_03.jpg",
+      "text": "Czarna lampa stołowa ASOLO, widok w aranżacji"
+     },
+     {
+      "file": "IMG_4836.JPG",
+      "text": "Zbliżenie na beżową lampę stołową"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Настільна лампа Arredo Brianza ASOLO",
+    "bullets": [
+     "Виготовлено в Італії",
+     "Глазурована керамічна основа",
+     "Розміри: висота 39 см, ширина 25 см, глибина 25 см",
+     "Вага: 2.8 кг"
+    ],
+    "description": "Настільна лампа ASOLO від Arredo Brianza має глазуровану керамічну основу. Ця лампа італійського виробництва призначена для використання в приміщенні.",
+    "colours": [
+     {
+      "code": "ASO-16-BIA",
+      "name": "Білий"
+     }
+    ],
+    "safety_warnings": [
+     "Використовуйте лише лампи E27, макс. 40 Вт.",
+     "Відключіть від мережі перед очищенням.",
+     "Тільки для внутрішнього використання."
+    ],
+    "alt_texts": [
+     {
+      "file": "ASOLO_BIA_01.jpg",
+      "text": "Настільна лампа ASOLO білого кольору, вид на білому фоні"
+     },
+     {
+      "file": "ASOLO_BIA_02.jpg",
+      "text": "Настільна лампа ASOLO білого кольору, вид на білому фоні"
+     },
+     {
+      "file": "ASOLO_BIA_03.jpg",
+      "text": "Настільна лампа ASOLO чорного кольору, в інтер'єрі"
+     },
+     {
+      "file": "IMG_4836.JPG",
+      "text": "Детальний вигляд бежевої настільної лампи"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza ASOLO Table Lamp",
+    "bullets": [
+     "Made in Italy",
+     "Glazed ceramic base",
+     "Dimensions: height 39 cm, width 25 cm, depth 25 cm",
+     "Weight: 2.8 kg"
+    ],
+    "description": "The ASOLO table lamp from Arredo Brianza features a glazed ceramic base. This Italian-made lamp is designed for indoor use.",
+    "colours": [
+     {
+      "code": "ASO-16-BIA",
+      "name": "White"
+     }
+    ],
+    "safety_warnings": [
+     "Use only E27 bulbs, max 40 W.",
+     "Disconnect from the network before cleaning.",
+     "For indoor use only."
+    ],
+    "alt_texts": [
+     {
+      "file": "ASOLO_BIA_01.jpg",
+      "text": "ASOLO table lamp in white, view on a white background"
+     },
+     {
+      "file": "ASOLO_BIA_02.jpg",
+      "text": "ASOLO table lamp in white, view on a white background"
+     },
+     {
+      "file": "ASOLO_BIA_03.jpg",
+      "text": "ASOLO table lamp in black, in an interior"
+     },
+     {
+      "file": "IMG_4836.JPG",
+      "text": "Detailed view of a beige table lamp"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

@@ -1,0 +1,768 @@
+{
+ "product_id": "SYN-09",
+ "decisions": {},
+ "facts": {
+  "product_name": "WESER",
+  "model": "WESER",
+  "brand": "Nordholz Wohnen",
+  "depth_cm": 55,
+  "height_cm": 91,
+  "seat_height_cm": 44,
+  "seat_depth_cm": 33,
+  "max_load_kg": 120,
+  "weight_kg": 10,
+  "product_type": "Esszimmerstuhl WESER / WESER dining chair",
+  "legs_or_base": "Massive Buche, Nussbaum gebeizt / solid beech, walnut stain",
+  "upholstery": "Webstoff, 100 % Polyester / woven fabric, 100% polyester",
+  "care": "Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C",
+  "country_of_origin": "Deutschland",
+  "variants": [
+   {
+    "code": "WES-09-ANT",
+    "colour_name": "Anthrazit"
+   },
+   {
+    "code": "WES-09-SAN",
+    "colour_name": "Sand"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "safety_warnings",
+   "variant": null,
+   "reason": "Safety warnings only in de",
+   "issue": "D7::safety_warnings:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "width",
+   "variant": null,
+   "reason": "Width: spec 78 cm, drawing 66 cm",
+   "issue": "D11::width:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "manufacturer_address",
+   "variant": null,
+   "reason": "Manufacturer address missing",
+   "issue": "D12::manufacturer_address:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "IMG_4604.JPG",
+   "variant": null,
+   "view": "lifestyle",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "WESER-ANT-1.jpg",
+   "variant": "WES-09-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "WESER-ANT-2.jpg",
+   "variant": "WES-09-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "WESER-ANT-3.jpg",
+   "variant": "WES-09-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "WESER-SAN-1.jpg",
+   "variant": "WES-09-SAN",
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "WESER-SAN-2.jpg",
+   "variant": "WES-09-SAN",
+   "view": "detail",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "WESER-SAN-3.jpg",
+   "variant": "WES-09-SAN",
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "WESER-SAN-4.jpg",
+   "variant": "WES-09-SAN",
+   "view": "detail",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Nordholz Wohnen",
+  "WESER",
+  "WES-09-ANT",
+  "WES-09-SAN"
+ ],
+ "en": {
+  "title": "Nordholz Wohnen WESER Dining Chair",
+  "bullets": [
+   "Solid beech legs with walnut stain",
+   "100% polyester woven fabric upholstery",
+   "Removable cover, washable at 30 °C",
+   "Maximum load capacity of 120 kg",
+   "Made in Germany"
+  ],
+  "description": "The WESER dining chair by Nordholz Wohnen features a solid beech base with a walnut stain. It is upholstered in a 100% polyester woven fabric with a removable, washable cover for easy maintenance.",
+  "colours": [
+   {
+    "code": "WES-09-ANT",
+    "name": "Anthracite"
+   },
+   {
+    "code": "WES-09-SAN",
+    "name": "Sand"
+   }
+  ],
+  "safety_warnings": [],
+  "alt_texts": [
+   {
+    "file": "IMG_4604.JPG",
+    "text": "WESER dining chair in grey in a lifestyle setting"
+   },
+   {
+    "file": "WESER-ANT-1.jpg",
+    "text": "WESER dining chair, anthracite, full view"
+   },
+   {
+    "file": "WESER-ANT-2.jpg",
+    "text": "WESER dining chair, anthracite, detail view"
+   },
+   {
+    "file": "WESER-ANT-3.jpg",
+    "text": "WESER dining chair, anthracite, full view"
+   },
+   {
+    "file": "WESER-SAN-1.jpg",
+    "text": "WESER dining chair, sand, full view"
+   },
+   {
+    "file": "WESER-SAN-2.jpg",
+    "text": "WESER dining chair, sand, detail view"
+   },
+   {
+    "file": "WESER-SAN-3.jpg",
+    "text": "WESER dining chair, sand, full view"
+   },
+   {
+    "file": "WESER-SAN-4.jpg",
+    "text": "WESER dining chair, sand, detail view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Silla de Comedor Nordholz Wohnen WESER",
+    "bullets": [
+     "Patas de haya maciza con tinte de nogal",
+     "Tapicería de tejido 100% poliéster",
+     "Funda extraíble, lavable a 30 °C",
+     "Capacidad de carga máxima de 120 kg",
+     "Fabricado en Alemania"
+    ],
+    "description": "La silla de comedor WESER de Nordholz Wohnen cuenta con una base de haya maciza con acabado en nogal. Está tapizada en un tejido de poliéster 100% con una funda extraíble y lavable para facilitar su mantenimiento.",
+    "colours": [
+     {
+      "code": "WES-09-ANT",
+      "name": "Antracita"
+     },
+     {
+      "code": "WES-09-SAN",
+      "name": "Arena"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "IMG_4604.JPG",
+      "text": "Silla de comedor WESER en gris en un ambiente decorado"
+     },
+     {
+      "file": "WESER-ANT-1.jpg",
+      "text": "Silla de comedor WESER, antracita, vista completa"
+     },
+     {
+      "file": "WESER-ANT-2.jpg",
+      "text": "Silla de comedor WESER, antracita, vista de detalle"
+     },
+     {
+      "file": "WESER-ANT-3.jpg",
+      "text": "Silla de comedor WESER, antracita, vista completa"
+     },
+     {
+      "file": "WESER-SAN-1.jpg",
+      "text": "Silla de comedor WESER, arena, vista completa"
+     },
+     {
+      "file": "WESER-SAN-2.jpg",
+      "text": "Silla de comedor WESER, arena, vista de detalle"
+     },
+     {
+      "file": "WESER-SAN-3.jpg",
+      "text": "Silla de comedor WESER, arena, vista completa"
+     },
+     {
+      "file": "WESER-SAN-4.jpg",
+      "text": "Silla de comedor WESER, arena, vista de detalle"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Sedia da pranzo Nordholz Wohnen WESER",
+    "bullets": [
+     "Gambe in faggio massello con tinta noce",
+     "Rivestimento in tessuto intrecciato 100% poliestere",
+     "Cover rimovibile, lavabile a 30 °C",
+     "Capacità di carico massima di 120 kg",
+     "Made in Germany"
+    ],
+    "description": "La sedia da pranzo WESER di Nordholz Wohnen presenta una base in faggio massello con finitura noce. È rivestita in tessuto intrecciato 100% poliestere con cover rimovibile e lavabile per una facile manutenzione.",
+    "colours": [
+     {
+      "code": "WES-09-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "WES-09-SAN",
+      "name": "Sabbia"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "IMG_4604.JPG",
+      "text": "Sedia da pranzo WESER in grigio in un ambiente domestico"
+     },
+     {
+      "file": "WESER-ANT-1.jpg",
+      "text": "Sedia da pranzo WESER, antracite, vista completa"
+     },
+     {
+      "file": "WESER-ANT-2.jpg",
+      "text": "Sedia da pranzo WESER, antracite, vista dettaglio"
+     },
+     {
+      "file": "WESER-ANT-3.jpg",
+      "text": "Sedia da pranzo WESER, antracite, vista completa"
+     },
+     {
+      "file": "WESER-SAN-1.jpg",
+      "text": "Sedia da pranzo WESER, sabbia, vista completa"
+     },
+     {
+      "file": "WESER-SAN-2.jpg",
+      "text": "Sedia da pranzo WESER, sabbia, vista dettaglio"
+     },
+     {
+      "file": "WESER-SAN-3.jpg",
+      "text": "Sedia da pranzo WESER, sabbia, vista completa"
+     },
+     {
+      "file": "WESER-SAN-4.jpg",
+      "text": "Sedia da pranzo WESER, sabbia, vista dettaglio"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Nordholz Wohnen WESER Esszimmerstuhl",
+    "bullets": [
+     "Beine aus Massivbuche mit Walnuss-Beize",
+     "Bezug aus 100% Polyester-Webstoff",
+     "Abnehmbarer Bezug, waschbar bei 30 °C",
+     "Maximale Belastbarkeit von 120 kg",
+     "Hergestellt in Deutschland"
+    ],
+    "description": "Der Esszimmerstuhl WESER von Nordholz Wohnen verfügt über ein Gestell aus Massivbuche mit Walnuss-Beize. Er ist mit einem Webstoff aus 100% Polyester bezogen, wobei der abnehmbare und waschbare Bezug eine einfache Pflege ermöglicht.",
+    "colours": [
+     {
+      "code": "WES-09-ANT",
+      "name": "Anthrazit"
+     },
+     {
+      "code": "WES-09-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "IMG_4604.JPG",
+      "text": "WESER Esszimmerstuhl in Grau in einem Wohnambiente"
+     },
+     {
+      "file": "WESER-ANT-1.jpg",
+      "text": "WESER Esszimmerstuhl, Anthrazit, Gesamtansicht"
+     },
+     {
+      "file": "WESER-ANT-2.jpg",
+      "text": "WESER Esszimmerstuhl, Anthrazit, Detailansicht"
+     },
+     {
+      "file": "WESER-ANT-3.jpg",
+      "text": "WESER Esszimmerstuhl, Anthrazit, Gesamtansicht"
+     },
+     {
+      "file": "WESER-SAN-1.jpg",
+      "text": "WESER Esszimmerstuhl, Sand, Gesamtansicht"
+     },
+     {
+      "file": "WESER-SAN-2.jpg",
+      "text": "WESER Esszimmerstuhl, Sand, Detailansicht"
+     },
+     {
+      "file": "WESER-SAN-3.jpg",
+      "text": "WESER Esszimmerstuhl, Sand, Gesamtansicht"
+     },
+     {
+      "file": "WESER-SAN-4.jpg",
+      "text": "WESER Esszimmerstuhl, Sand, Detailansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen WESER Dining Chair",
+    "bullets": [
+     "Solid beech legs with walnut stain",
+     "Cover made of 100% polyester woven fabric",
+     "Removable cover, washable at 30 °C",
+     "Maximum load capacity of 120 kg",
+     "Made in Germany"
+    ],
+    "description": "The WESER dining chair from Nordholz Wohnen features a frame made of solid beech with walnut stain. It is upholstered in a 100% polyester woven fabric, with the removable and washable cover allowing for easy care.",
+    "colours": [
+     {
+      "code": "WES-09-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "WES-09-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "IMG_4604.JPG",
+      "text": "WESER dining chair in grey in a living environment"
+     },
+     {
+      "file": "WESER-ANT-1.jpg",
+      "text": "WESER dining chair, Anthracite, overall view"
+     },
+     {
+      "file": "WESER-ANT-2.jpg",
+      "text": "WESER dining chair, Anthracite, detail view"
+     },
+     {
+      "file": "WESER-ANT-3.jpg",
+      "text": "WESER dining chair, Anthracite, overall view"
+     },
+     {
+      "file": "WESER-SAN-1.jpg",
+      "text": "WESER dining chair, Sand, overall view"
+     },
+     {
+      "file": "WESER-SAN-2.jpg",
+      "text": "WESER dining chair, Sand, detail view"
+     },
+     {
+      "file": "WESER-SAN-3.jpg",
+      "text": "WESER dining chair, Sand, overall view"
+     },
+     {
+      "file": "WESER-SAN-4.jpg",
+      "text": "WESER dining chair, Sand, detail view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Chaise de salle à manger Nordholz Wohnen WESER",
+    "bullets": [
+     "Pieds en hêtre massif avec teinture noyer",
+     "Revêtement en tissu tissé 100% polyester",
+     "Housse amovible, lavable à 30 °C",
+     "Capacité de charge maximale de 120 kg",
+     "Fabriqué en Allemagne"
+    ],
+    "description": "La chaise de salle à manger WESER de Nordholz Wohnen dispose d'une base en hêtre massif avec une teinture noyer. Elle est revêtue d'un tissu tissé 100% polyester avec une housse amovible et lavable pour un entretien facile.",
+    "colours": [
+     {
+      "code": "WES-09-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "WES-09-SAN",
+      "name": "Sable"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "IMG_4604.JPG",
+      "text": "Chaise de salle à manger WESER en gris dans un cadre de vie"
+     },
+     {
+      "file": "WESER-ANT-1.jpg",
+      "text": "Chaise de salle à manger WESER, anthracite, vue complète"
+     },
+     {
+      "file": "WESER-ANT-2.jpg",
+      "text": "Chaise de salle à manger WESER, anthracite, vue détaillée"
+     },
+     {
+      "file": "WESER-ANT-3.jpg",
+      "text": "Chaise de salle à manger WESER, anthracite, vue complète"
+     },
+     {
+      "file": "WESER-SAN-1.jpg",
+      "text": "Chaise de salle à manger WESER, sable, vue complète"
+     },
+     {
+      "file": "WESER-SAN-2.jpg",
+      "text": "Chaise de salle à manger WESER, sable, vue détaillée"
+     },
+     {
+      "file": "WESER-SAN-3.jpg",
+      "text": "Chaise de salle à manger WESER, sable, vue complète"
+     },
+     {
+      "file": "WESER-SAN-4.jpg",
+      "text": "Chaise de salle à manger WESER, sable, vue détaillée"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Cadeira de Jantar Nordholz Wohnen WESER",
+    "bullets": [
+     "Pernas em faia maciça com acabamento em nogueira",
+     "Estofos em tecido tecido 100% poliéster",
+     "Capa removível, lavável a 30 °C",
+     "Capacidade de carga máxima de 120 kg",
+     "Fabricado na Alemanha"
+    ],
+    "description": "A cadeira de jantar WESER da Nordholz Wohnen apresenta uma base em faia maciça com acabamento em nogueira. Está estofada num tecido 100% poliéster com uma capa removível e lavável para facilitar a manutenção.",
+    "colours": [
+     {
+      "code": "WES-09-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "WES-09-SAN",
+      "name": "Areia"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "IMG_4604.JPG",
+      "text": "Cadeira de jantar WESER em cinzento num ambiente decorado"
+     },
+     {
+      "file": "WESER-ANT-1.jpg",
+      "text": "Cadeira de jantar WESER, antracite, vista completa"
+     },
+     {
+      "file": "WESER-ANT-2.jpg",
+      "text": "Cadeira de jantar WESER, antracite, vista detalhada"
+     },
+     {
+      "file": "WESER-ANT-3.jpg",
+      "text": "Cadeira de jantar WESER, antracite, vista completa"
+     },
+     {
+      "file": "WESER-SAN-1.jpg",
+      "text": "Cadeira de jantar WESER, areia, vista completa"
+     },
+     {
+      "file": "WESER-SAN-2.jpg",
+      "text": "Cadeira de jantar WESER, areia, vista detalhada"
+     },
+     {
+      "file": "WESER-SAN-3.jpg",
+      "text": "Cadeira de jantar WESER, areia, vista completa"
+     },
+     {
+      "file": "WESER-SAN-4.jpg",
+      "text": "Cadeira de jantar WESER, areia, vista detalhada"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Krzesło jadalniane Nordholz Wohnen WESER",
+    "bullets": [
+     "Nogi z litego buka bejcowane na kolor orzecha",
+     "Obicie z tkaniny plecionej 100% poliester",
+     "Zdejmijemna pokrowca, możliwa pralka w 30 °C",
+     "Maksymalne obciążenie do 120 kg",
+     "Wyprodukowano w Niemczech"
+    ],
+    "description": "Krzesło jadalniane WESER od Nordholz Wohnen posiada podstawę z litego buka bejcowanego na kolor orzecha. Jest obite tkaniną plecioną ze 100% poliestru i posiada zdejmowany, możliwy do prania pokrowiec, co ułatwia konserwację.",
+    "colours": [
+     {
+      "code": "WES-09-ANT",
+      "name": "Antracyt"
+     },
+     {
+      "code": "WES-09-SAN",
+      "name": "Piasek"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "IMG_4604.JPG",
+      "text": "Szare krzesło jadalniane WESER w aranżacji wnętrza"
+     },
+     {
+      "file": "WESER-ANT-1.jpg",
+      "text": "Krzesło jadalniane WESER, antracyt, widok pełny"
+     },
+     {
+      "file": "WESER-ANT-2.jpg",
+      "text": "Krzesło jadalniane WESER, antracyt, widok szczegółowy"
+     },
+     {
+      "file": "WESER-ANT-3.jpg",
+      "text": "Krzesło jadalniane WESER, antracyt, widok pełny"
+     },
+     {
+      "file": "WESER-SAN-1.jpg",
+      "text": "Krzesło jadalniane WESER, piasek, widok pełny"
+     },
+     {
+      "file": "WESER-SAN-2.jpg",
+      "text": "Krzesło jadalniane WESER, piasek, widok szczegółowy"
+     },
+     {
+      "file": "WESER-SAN-3.jpg",
+      "text": "Krzesło jadalniane WESER, piasek, widok pełny"
+     },
+     {
+      "file": "WESER-SAN-4.jpg",
+      "text": "Krzesło jadalniane WESER, piasek, widok szczegółowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Обідній стілець Nordholz Wohnen WESER",
+    "bullets": [
+     "Ніжки з масиву бука з морілкою кольору горіха",
+     "Оббивка зі 100% поліестерової тканини",
+     "Знімний чохол, що переється при 30 °C",
+     "Максимальне навантаження 120 кг",
+     "Виготовлено в Німеччині"
+    ],
+    "description": "Обідній стілець WESER від Nordholz Wohnen має основу з масиву бука з покриттям кольору горіха. Він оббитий 100% поліестеровою тканиною та має знімний чохол, що переється, для легкого догляду.",
+    "colours": [
+     {
+      "code": "WES-09-ANT",
+      "name": "Антрацитовий"
+     },
+     {
+      "code": "WES-09-SAN",
+      "name": "Пісочний"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "IMG_4604.JPG",
+      "text": "Сірий обідній стілець WESER в інтер'єрі"
+     },
+     {
+      "file": "WESER-ANT-1.jpg",
+      "text": "Обідній стілець WESER, антрацитовий, повний вигляд"
+     },
+     {
+      "file": "WESER-ANT-2.jpg",
+      "text": "Обідній стілець WESER, антрацитовий, детальний вигляд"
+     },
+     {
+      "file": "WESER-ANT-3.jpg",
+      "text": "Обідній стілець WESER, антрацитовий, повний вигляд"
+     },
+     {
+      "file": "WESER-SAN-1.jpg",
+      "text": "Обідній стілець WESER, пісочний, повний вигляд"
+     },
+     {
+      "file": "WESER-SAN-2.jpg",
+      "text": "Обідній стілець WESER, пісочний, детальний вигляд"
+     },
+     {
+      "file": "WESER-SAN-3.jpg",
+      "text": "Обідній стілець WESER, пісочний, повний вигляд"
+     },
+     {
+      "file": "WESER-SAN-4.jpg",
+      "text": "Обідній стілець WESER, пісочний, детальний вигляд"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen WESER Dining Chair",
+    "bullets": [
+     "Solid beech legs with walnut color stain",
+     "Upholstery made of 100% polyester fabric",
+     "Removable cover, washable at 30 °C",
+     "Maximum load 120 kg",
+     "Made in Germany"
+    ],
+    "description": "The WESER dining chair from Nordholz Wohnen has a solid beech base with a walnut color coating. It is upholstered in 100% polyester fabric and has a removable, washable cover for easy care.",
+    "colours": [
+     {
+      "code": "WES-09-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "WES-09-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "IMG_4604.JPG",
+      "text": "Grey WESER dining chair in an interior"
+     },
+     {
+      "file": "WESER-ANT-1.jpg",
+      "text": "WESER dining chair, anthracite, full view"
+     },
+     {
+      "file": "WESER-ANT-2.jpg",
+      "text": "WESER dining chair, anthracite, detailed view"
+     },
+     {
+      "file": "WESER-ANT-3.jpg",
+      "text": "WESER dining chair, anthracite, full view"
+     },
+     {
+      "file": "WESER-SAN-1.jpg",
+      "text": "WESER dining chair, sand, full view"
+     },
+     {
+      "file": "WESER-SAN-2.jpg",
+      "text": "WESER dining chair, sand, detailed view"
+     },
+     {
+      "file": "WESER-SAN-3.jpg",
+      "text": "WESER dining chair, sand, full view"
+     },
+     {
+      "file": "WESER-SAN-4.jpg",
+      "text": "WESER dining chair, sand, detailed view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

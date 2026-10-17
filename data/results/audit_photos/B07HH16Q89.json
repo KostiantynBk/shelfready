@@ -1,0 +1,316 @@
+{
+ "item_id": "B07HH16Q89",
+ "photos": {
+  "718j0HOx8UL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      514,
+      206,
+      985,
+      266
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      514,
+      736,
+      985,
+      796
+     ]
+    }
+   ]
+  },
+  "71+NjTQMzhL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      503,
+      132,
+      822,
+      256
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      301,
+      992,
+      416
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      601,
+      551,
+      744,
+      625
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      503,
+      738,
+      903,
+      868
+     ]
+    }
+   ]
+  },
+  "81rEDmSuFHL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 5,
+   "colour_family": "blue",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      8,
+      797,
+      85
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      636,
+      125,
+      901,
+      206
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      652,
+      273,
+      756,
+      331
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      636,
+      405,
+      856,
+      463
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      512,
+      875,
+      563
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      545,
+      843,
+      601
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      652,
+      688,
+      775,
+      741
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      785,
+      932,
+      845
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      825,
+      881,
+      881
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      865,
+      822,
+      992
+     ]
+    }
+   ]
+  },
+  "91UwZaa4DgL": {
+   "role": "lifestyle",
+   "product_type": "table and chair set",
+   "products_in_frame": 5,
+   "colour_family": "blue",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "WARNING",
+    "CAUTION"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      373,
+      153,
+      463,
+      211
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      318,
+      728,
+      356
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      488,
+      841,
+      573,
+      872
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      94,
+      708,
+      153
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      235,
+      708,
+      311
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      723,
+      411,
+      893,
+      446
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      733,
+      615,
+      878,
+      650
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      643,
+      675,
+      733,
+      741
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      703,
+      748,
+      843,
+      785
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      693,
+      907,
+      793,
+      941
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      643,
+      511,
+      713,
+      574
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

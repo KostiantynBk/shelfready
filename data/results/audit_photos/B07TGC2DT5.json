@@ -1,0 +1,220 @@
+{
+ "item_id": "B07TGC2DT5",
+ "photos": {
+  "91s3lHw2ABL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      123,
+      858,
+      265
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      452,
+      974,
+      526
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      544,
+      588,
+      776,
+      652
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      523,
+      843,
+      892,
+      935
+     ]
+    }
+   ]
+  },
+  "71PYD-xKXUL": {
+   "role": "detail",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      781,
+      131,
+      1000,
+      333
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      956,
+      895,
+      1000,
+      1000
+     ]
+    }
+   ]
+  },
+  "91p2tkHNdDL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      131,
+      976,
+      254
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      692,
+      986,
+      816
+     ]
+    }
+   ]
+  },
+  "41TtEvj0JNL": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "unsure",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "80 cm",
+    "59,5 cm",
+    "43 cm",
+    "47 cm",
+    "46,5 cm"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      438,
+      38,
+      468,
+      123
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      163,
+      346,
+      193,
+      452
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      413,
+      548,
+      443,
+      644
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      663,
+      875,
+      693,
+      951
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      903,
+      203,
+      933,
+      309
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      216,
+      808,
+      358
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      613,
+      463,
+      973,
+      512
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      678,
+      853,
+      808
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

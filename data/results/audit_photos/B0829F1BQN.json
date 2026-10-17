@@ -1,0 +1,113 @@
+{
+ "item_id": "B0829F1BQN",
+ "photos": {
+  "717p1wmF1wL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71r2IaCWbtL": {
+   "role": "packshot",
+   "product_type": "recliner chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "61r6c8HY3ML": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      938,
+      95,
+      984,
+      163
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      938,
+      836,
+      984,
+      904
+     ]
+    }
+   ]
+  },
+  "71ol2o0nywL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "multicolour",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      783,
+      114,
+      835,
+      152
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      952,
+      321,
+      998,
+      378
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      843,
+      873,
+      888,
+      931
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

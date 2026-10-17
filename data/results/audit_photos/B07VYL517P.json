@@ -1,0 +1,180 @@
+{
+ "item_id": "B07VYL517P",
+ "photos": {
+  "71afDKwEyRL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      146,
+      815,
+      243
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      746,
+      563,
+      820,
+      721
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      848,
+      846,
+      925,
+      943
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      863,
+      8,
+      932,
+      105
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      825,
+      453,
+      988,
+      546
+     ]
+    }
+   ]
+  },
+  "71B7V4VDoRL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      218,
+      791,
+      313
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      735,
+      684,
+      786,
+      785
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      854,
+      10,
+      908,
+      105
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      861,
+      895,
+      912,
+      990
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      926,
+      466,
+      977,
+      553
+     ]
+    }
+   ]
+  },
+  "71HDAOVogXL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      745,
+      11,
+      908,
+      458
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      755,
+      453,
+      992,
+      546
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      745,
+      541,
+      862,
+      808
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      755,
+      541,
+      948,
+      985
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

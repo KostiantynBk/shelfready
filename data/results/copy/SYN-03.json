@@ -1,0 +1,747 @@
+{
+ "product_id": "SYN-03",
+ "decisions": {},
+ "facts": {
+  "product_name": "Sessel ELBE / ELBE armchair",
+  "model": "ELBE",
+  "brand": "Nordholz Wohnen",
+  "height_cm": 78,
+  "seat_height_cm": 44,
+  "seat_depth_cm": 46,
+  "max_load_kg": 120,
+  "weight_kg": 20,
+  "product_type": "Sessel ELBE / ELBE armchair",
+  "legs_or_base": "Kiefer + Sperrholz, Schaum 30 kg/m³ / pine + plywood, foam 30 kg/m³",
+  "upholstery": "Webstoff, 100 % Polyester / woven fabric, 100% polyester",
+  "care": "Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C",
+  "country_of_origin": "Deutschland",
+  "safety_warnings": [
+   "Nicht im Freien verwenden.",
+   "Not for outdoor use.",
+   "Von Wärmequellen fernhalten.",
+   "Keep away from heat sources.",
+   "Nicht auf die Sitzfläche steigen.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "ELB-03-ANT",
+    "colour_name": "Anthrazit"
+   },
+   {
+    "code": "ELB-03-SAN",
+    "colour_name": "Sand"
+   }
+  ]
+ },
+ "held_back": [],
+ "photos": [
+  {
+   "file": "ELBE-ANT-1.jpg",
+   "variant": "ELB-03-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "ELBE-ANT-2.jpg",
+   "variant": "ELB-03-ANT",
+   "view": "lifestyle",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "ELBE-ANT-3.jpg",
+   "variant": "ELB-03-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "ELBE-SAN-1.jpg",
+   "variant": "ELB-03-SAN",
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "ELBE-SAN-2.jpg",
+   "variant": "ELB-03-SAN",
+   "view": "detail",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "ELBE-SAN-3.jpg",
+   "variant": "ELB-03-SAN",
+   "view": "lifestyle",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "ELBE-SAN-4.jpg",
+   "variant": "ELB-03-SAN",
+   "view": "detail",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Nordholz Wohnen",
+  "ELBE",
+  "ELB-03-ANT",
+  "ELB-03-SAN"
+ ],
+ "en": {
+  "title": "Nordholz Wohnen ELBE Armchair",
+  "bullets": [
+   "Dimensions: 78 cm height, 44 cm seat height, and 46 cm seat depth",
+   "Upholstery: 100% polyester woven fabric with a removable cover washable at 30 °C",
+   "Construction: Pine and plywood frame with 30 kg/m³ foam",
+   "Maximum load capacity: 120 kg",
+   "Made in Germany"
+  ],
+  "description": "The Nordholz Wohnen ELBE armchair features a sturdy pine and plywood frame with 30 kg/m³ foam. It is upholstered in a 100% polyester woven fabric with a removable, washable cover for easy maintenance.",
+  "colours": [
+   {
+    "code": "ELB-03-ANT",
+    "name": "Anthracite"
+   },
+   {
+    "code": "ELB-03-SAN",
+    "name": "Sand"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "ELBE-ANT-1.jpg",
+    "text": "ELBE armchair in grey, packshot view"
+   },
+   {
+    "file": "ELBE-ANT-2.jpg",
+    "text": "ELBE armchair in grey, lifestyle view"
+   },
+   {
+    "file": "ELBE-ANT-3.jpg",
+    "text": "ELBE armchair in grey, packshot view"
+   },
+   {
+    "file": "ELBE-SAN-1.jpg",
+    "text": "ELBE armchair in beige, packshot view"
+   },
+   {
+    "file": "ELBE-SAN-2.jpg",
+    "text": "ELBE armchair in beige, detail view"
+   },
+   {
+    "file": "ELBE-SAN-3.jpg",
+    "text": "ELBE armchair in beige, lifestyle view"
+   },
+   {
+    "file": "ELBE-SAN-4.jpg",
+    "text": "ELBE armchair in beige, detail view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sillón Nordholz Wohnen ELBE",
+    "bullets": [
+     "Dimensiones: 78 cm de altura, 44 cm de altura del asiento y 46 cm de profundidad del asiento",
+     "Tapicería: tejido tejido 100% poliéster con funda extraíble lavable a 30 °C",
+     "Construcción: estructura de pino y contrachapado con espuma de 30 kg/m³",
+     "Capacidad de carga máxima: 120 kg",
+     "Fabricado en Alemania"
+    ],
+    "description": "El sillón Nordholz Wohnen ELBE cuenta con una robusta estructura de pino y contrachapado con espuma de 30 kg/m³. Está tapizado en un tejido 100% poliéster con una funda extraíble y lavable para facilitar su mantenimiento.",
+    "colours": [
+     {
+      "code": "ELB-03-ANT",
+      "name": "Antracita"
+     },
+     {
+      "code": "ELB-03-SAN",
+      "name": "Arena"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "ELBE-ANT-1.jpg",
+      "text": "Sillón ELBE en gris, vista de producto"
+     },
+     {
+      "file": "ELBE-ANT-2.jpg",
+      "text": "Sillón ELBE en gris, vista de ambiente"
+     },
+     {
+      "file": "ELBE-ANT-3.jpg",
+      "text": "Sillón ELBE en gris, vista de producto"
+     },
+     {
+      "file": "ELBE-SAN-1.jpg",
+      "text": "Sillón ELBE en beige, vista de producto"
+     },
+     {
+      "file": "ELBE-SAN-2.jpg",
+      "text": "Sillón ELBE en beige, vista de detalle"
+     },
+     {
+      "file": "ELBE-SAN-3.jpg",
+      "text": "Sillón ELBE en beige, vista de ambiente"
+     },
+     {
+      "file": "ELBE-SAN-4.jpg",
+      "text": "Sillón ELBE en beige, vista de detalle"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Poltrona Nordholz Wohnen ELBE",
+    "bullets": [
+     "Dimensioni: altezza 78 cm, altezza seduta 44 cm e profondità seduta 46 cm",
+     "Rivestimento: tessuto intrecciato 100% poliestere con fodera rimovibile lavabile a 30 °C",
+     "Struttura: telaio in pino e multistrato con schiuma da 30 kg/m³",
+     "Capacità di carico massima: 120 kg",
+     "Made in Germany"
+    ],
+    "description": "La poltrona Nordholz Wohnen ELBE presenta una robusta struttura in pino e multistrato con schiuma da 30 kg/m³. È rivestita in tessuto intrecciato 100% poliestere con una fodera rimovibile e lavabile per una facile manutenzione.",
+    "colours": [
+     {
+      "code": "ELB-03-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "ELB-03-SAN",
+      "name": "Sabbia"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sulla seduta."
+    ],
+    "alt_texts": [
+     {
+      "file": "ELBE-ANT-1.jpg",
+      "text": "Poltrona ELBE in grigio, vista prodotto"
+     },
+     {
+      "file": "ELBE-ANT-2.jpg",
+      "text": "Poltrona ELBE in grigio, vista ambientata"
+     },
+     {
+      "file": "ELBE-ANT-3.jpg",
+      "text": "Poltrona ELBE in grigio, vista prodotto"
+     },
+     {
+      "file": "ELBE-SAN-1.jpg",
+      "text": "Poltrona ELBE in beige, vista prodotto"
+     },
+     {
+      "file": "ELBE-SAN-2.jpg",
+      "text": "Poltrona ELBE in beige, vista dettaglio"
+     },
+     {
+      "file": "ELBE-SAN-3.jpg",
+      "text": "Poltrona ELBE in beige, vista ambientata"
+     },
+     {
+      "file": "ELBE-SAN-4.jpg",
+      "text": "Poltrona ELBE in beige, vista dettaglio"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Nordholz Wohnen ELBE Sessel",
+    "bullets": [
+     "Maße: 78 cm Höhe, 44 cm Sitzhöhe und 46 cm Sitztiefe",
+     "Bezug: 100% Polyester-Webstoff mit abnehmbarem, bei 30 °C waschbarem Bezug",
+     "Konstruktion: Kiefer- und Sperrholzrahmen mit 30 kg/m³ Schaumstoff",
+     "Maximale Belastbarkeit: 120 kg",
+     "Hergestellt in Deutschland"
+    ],
+    "description": "Der Nordholz Wohnen ELBE Sessel verfügt über einen stabilen Rahmen aus Kiefer und Sperrholz mit 30 kg/m³ Schaumstoff. Er ist mit einem 100% Polyester-Webstoff bezogen und besitzt einen abnehmbaren, waschbaren Bezug für eine einfache Pflege.",
+    "colours": [
+     {
+      "code": "ELB-03-ANT",
+      "name": "Anthrazit"
+     },
+     {
+      "code": "ELB-03-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "ELBE-ANT-1.jpg",
+      "text": "ELBE Sessel in Grau, Produktansicht"
+     },
+     {
+      "file": "ELBE-ANT-2.jpg",
+      "text": "ELBE Sessel in Grau, Lifestyle-Ansicht"
+     },
+     {
+      "file": "ELBE-ANT-3.jpg",
+      "text": "ELBE Sessel in Grau, Produktansicht"
+     },
+     {
+      "file": "ELBE-SAN-1.jpg",
+      "text": "ELBE Sessel in Beige, Produktansicht"
+     },
+     {
+      "file": "ELBE-SAN-2.jpg",
+      "text": "ELBE Sessel in Beige, Detailansicht"
+     },
+     {
+      "file": "ELBE-SAN-3.jpg",
+      "text": "ELBE Sessel in Beige, Lifestyle-Ansicht"
+     },
+     {
+      "file": "ELBE-SAN-4.jpg",
+      "text": "ELBE Sessel in Beige, Detailansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen ELBE Armchair",
+    "bullets": [
+     "Dimensions: 78 cm height, 44 cm seat height and 46 cm seat depth",
+     "Cover: 100% polyester woven fabric with removable cover washable at 30 °C",
+     "Construction: Pine and plywood frame with 30 kg/m³ foam",
+     "Maximum load capacity: 120 kg",
+     "Made in Germany"
+    ],
+    "description": "The Nordholz Wohnen ELBE armchair features a sturdy frame made of pine and plywood with 30 kg/m³ foam. It is covered with a 100% polyester woven fabric and has a removable, washable cover for easy care.",
+    "colours": [
+     {
+      "code": "ELB-03-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "ELB-03-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "ELBE-ANT-1.jpg",
+      "text": "ELBE armchair in grey, product view"
+     },
+     {
+      "file": "ELBE-ANT-2.jpg",
+      "text": "ELBE armchair in grey, lifestyle view"
+     },
+     {
+      "file": "ELBE-ANT-3.jpg",
+      "text": "ELBE armchair in grey, product view"
+     },
+     {
+      "file": "ELBE-SAN-1.jpg",
+      "text": "ELBE armchair in beige, product view"
+     },
+     {
+      "file": "ELBE-SAN-2.jpg",
+      "text": "ELBE armchair in beige, detail view"
+     },
+     {
+      "file": "ELBE-SAN-3.jpg",
+      "text": "ELBE armchair in beige, lifestyle view"
+     },
+     {
+      "file": "ELBE-SAN-4.jpg",
+      "text": "ELBE armchair in beige, detail view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Fauteuil Nordholz Wohnen ELBE",
+    "bullets": [
+     "Dimensions : 78 cm de hauteur, 44 cm de hauteur d'assise et 46 cm de profondeur d'assise",
+     "Revêtement : tissu tissé 100 % polyester avec housse amovible lavable à 30 °C",
+     "Construction : structure en pin et contreplaqué avec mousse de 30 kg/m³",
+     "Capacité de charge maximale : 120 kg",
+     "Fabriqué en Allemagne"
+    ],
+    "description": "Le fauteuil Nordholz Wohnen ELBE dispose d'une structure robuste en pin et contreplaqué avec une mousse de 30 kg/m³. Il est revêtu d'un tissu tissé 100 % polyester avec une housse amovible et lavable pour un entretien facile.",
+    "colours": [
+     {
+      "code": "ELB-03-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "ELB-03-SAN",
+      "name": "Sable"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "ELBE-ANT-1.jpg",
+      "text": "Fauteuil ELBE en gris, vue packshot"
+     },
+     {
+      "file": "ELBE-ANT-2.jpg",
+      "text": "Fauteuil ELBE en gris, vue d'ambiance"
+     },
+     {
+      "file": "ELBE-ANT-3.jpg",
+      "text": "Fauteuil ELBE en gris, vue packshot"
+     },
+     {
+      "file": "ELBE-SAN-1.jpg",
+      "text": "Fauteuil ELBE en beige, vue packshot"
+     },
+     {
+      "file": "ELBE-SAN-2.jpg",
+      "text": "Fauteuil ELBE en beige, vue détaillée"
+     },
+     {
+      "file": "ELBE-SAN-3.jpg",
+      "text": "Fauteuil ELBE en beige, vue d'ambiance"
+     },
+     {
+      "file": "ELBE-SAN-4.jpg",
+      "text": "Fauteuil ELBE en beige, vue détaillée"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Poltrona Nordholz Wohnen ELBE",
+    "bullets": [
+     "Dimensões: 78 cm de altura, 44 cm de altura do assento e 46 cm de profundidade do assento",
+     "Estofos: tecido tecido 100% poliéster com capa removível lavável a 30 °C",
+     "Construção: estrutura de pinho e contraplacado com espuma de 30 kg/m³",
+     "Capacidade de carga máxima: 120 kg",
+     "Fabricado na Alemanha"
+    ],
+    "description": "A poltrona Nordholz Wohnen ELBE apresenta uma estrutura robusta de pinho e contraplacado com espuma de 30 kg/m³. É estofada num tecido 100% poliéster com uma capa removível e lavável para facilitar a manutenção.",
+    "colours": [
+     {
+      "code": "ELB-03-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "ELB-03-SAN",
+      "name": "Areia"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "ELBE-ANT-1.jpg",
+      "text": "Poltrona ELBE em cinzento, vista de catálogo"
+     },
+     {
+      "file": "ELBE-ANT-2.jpg",
+      "text": "Poltrona ELBE em cinzento, vista de ambiente"
+     },
+     {
+      "file": "ELBE-ANT-3.jpg",
+      "text": "Poltrona ELBE em cinzento, vista de catálogo"
+     },
+     {
+      "file": "ELBE-SAN-1.jpg",
+      "text": "Poltrona ELBE em bege, vista de catálogo"
+     },
+     {
+      "file": "ELBE-SAN-2.jpg",
+      "text": "Poltrona ELBE em bege, vista de detalhe"
+     },
+     {
+      "file": "ELBE-SAN-3.jpg",
+      "text": "Poltrona ELBE em bege, vista de ambiente"
+     },
+     {
+      "file": "ELBE-SAN-4.jpg",
+      "text": "Poltrona ELBE em bege, vista de detalhe"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Fotel Nordholz Wohnen ELBE",
+    "bullets": [
+     "Wymiary: wysokość 78 cm, wysokość siedziska 44 cm, głębokość siedziska 46 cm",
+     "Tapicerka: tkanina pleciona 100% poliester ze zdejmowanym pokrowcem, możliwym do prania w 30 °C",
+     "Konstrukcja: rama z sosny i sklejki z pianką 30 kg/m³",
+     "Maksymalne obciążenie: 120 kg",
+     "Wyprodukowano w Niemczech"
+    ],
+    "description": "Fotel Nordholz Wohnen ELBE posiada solidną ramę z sosny i sklejki z wypełnieniem z pianki 30 kg/m³. Jest obity tkaniną plecioną ze 100% poliestru i posiada zdejmowany, możliwy do prania pokrowiec, co ułatwia konserwację.",
+    "colours": [
+     {
+      "code": "ELB-03-ANT",
+      "name": "Antracytowy"
+     },
+     {
+      "code": "ELB-03-SAN",
+      "name": "Piaskowy"
+     }
+    ],
+    "safety_warnings": [
+     "Produkt nieprzeznaczony do użytku na zewnątrz.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "ELBE-ANT-1.jpg",
+      "text": "Fotel ELBE w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "ELBE-ANT-2.jpg",
+      "text": "Fotel ELBE w kolorze szarym, widok w aranżacji"
+     },
+     {
+      "file": "ELBE-ANT-3.jpg",
+      "text": "Fotel ELBE w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "ELBE-SAN-1.jpg",
+      "text": "Fotel ELBE w kolorze beżowym, widok produktowy"
+     },
+     {
+      "file": "ELBE-SAN-2.jpg",
+      "text": "Fotel ELBE w kolorze beżowym, widok szczegółowy"
+     },
+     {
+      "file": "ELBE-SAN-3.jpg",
+      "text": "Fotel ELBE w kolorze beżowym, widok w aranżacji"
+     },
+     {
+      "file": "ELBE-SAN-4.jpg",
+      "text": "Fotel ELBE w kolorze beżowym, widok szczegółowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Крісло Nordholz Wohnen ELBE",
+    "bullets": [
+     "Розміри: висота 78 см, висота сидіння 44 см, глибина сидіння 46 см",
+     "Оббивка: 100% поліестерова тканина з одним знімним чохлом, що переється при 30 °C",
+     "Конструкція: каркас із сосни та фанери з пінополіуретаном щільністю 30 кг/м³",
+     "Максимальне навантаження: 120 кг",
+     "Виготовлено в Німеччині"
+    ],
+    "description": "Крісло Nordholz Wohnen ELBE має міцний каркас із сосни та фанери з наповнювачем із пінополіуретану щільністю 30 кг/м³. Воно оббите 100% поліестеровою тканиною зі знімним чохлом, що легко переється для зручного догляду.",
+    "colours": [
+     {
+      "code": "ELB-03-ANT",
+      "name": "Антрацитовий"
+     },
+     {
+      "code": "ELB-03-SAN",
+      "name": "Пісочний"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "ELBE-ANT-1.jpg",
+      "text": "Крісло ELBE у сірому кольорі, студійне фото"
+     },
+     {
+      "file": "ELBE-ANT-2.jpg",
+      "text": "Крісло ELBE у сірому кольорі в інтер'єрі"
+     },
+     {
+      "file": "ELBE-ANT-3.jpg",
+      "text": "Крісло ELBE у сірому кольорі, студійне фото"
+     },
+     {
+      "file": "ELBE-SAN-1.jpg",
+      "text": "Крісло ELBE у бежевому кольорі, студійне фото"
+     },
+     {
+      "file": "ELBE-SAN-2.jpg",
+      "text": "Крісло ELBE у бежевому кольорі, детальний вигляд"
+     },
+     {
+      "file": "ELBE-SAN-3.jpg",
+      "text": "Крісло ELBE у бежевому кольорі в інтер'єрі"
+     },
+     {
+      "file": "ELBE-SAN-4.jpg",
+      "text": "Крісло ELBE у бежевому кольорі, детальний вигляд"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen ELBE Armchair",
+    "bullets": [
+     "Dimensions: height 78 cm, seat height 44 cm, seat depth 46 cm",
+     "Upholstery: 100% polyester fabric with one removable cover, washable at 30 °C",
+     "Construction: pine and plywood frame with polyurethane foam density 30 kg/m³",
+     "Maximum load: 120 kg",
+     "Made in Germany"
+    ],
+    "description": "The Nordholz Wohnen ELBE armchair has a sturdy pine and plywood frame with polyurethane foam filling with a density of 30 kg/m³. It is upholstered in 100% polyester fabric with a removable cover that is easily washable for convenient care.",
+    "colours": [
+     {
+      "code": "ELB-03-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "ELB-03-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "ELBE-ANT-1.jpg",
+      "text": "ELBE armchair in grey color, studio photo"
+     },
+     {
+      "file": "ELBE-ANT-2.jpg",
+      "text": "ELBE armchair in grey color in the interior"
+     },
+     {
+      "file": "ELBE-ANT-3.jpg",
+      "text": "ELBE armchair in grey color, studio photo"
+     },
+     {
+      "file": "ELBE-SAN-1.jpg",
+      "text": "ELBE armchair in beige color, studio photo"
+     },
+     {
+      "file": "ELBE-SAN-2.jpg",
+      "text": "ELBE armchair in beige color, detailed view"
+     },
+     {
+      "file": "ELBE-SAN-3.jpg",
+      "text": "ELBE armchair in beige color in the interior"
+     },
+     {
+      "file": "ELBE-SAN-4.jpg",
+      "text": "ELBE armchair in beige color, detailed view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

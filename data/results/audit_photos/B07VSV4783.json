@@ -1,0 +1,122 @@
+{
+ "item_id": "B07VSV4783",
+ "photos": {
+  "712WRLI-kwL": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "81yiaE45j+L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      764,
+      96,
+      835,
+      127
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      853,
+      253,
+      963,
+      285
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      696,
+      882,
+      758,
+      908
+     ]
+    }
+   ]
+  },
+  "81qEAy76QOL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      775,
+      93,
+      846,
+      125
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      863,
+      252,
+      973,
+      285
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      701,
+      878,
+      768,
+      905
+     ]
+    }
+   ]
+  },
+  "71SMXyLQqyL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

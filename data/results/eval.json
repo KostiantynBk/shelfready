@@ -1,0 +1,169 @@
+{
+ "products": 25,
+ "evaluated": 25,
+ "precision": 0.983,
+ "recall": 0.966,
+ "clean_products": 6,
+ "clean_products_with_false_alarms": 0,
+ "per_rule": {
+  "D1": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D2": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D3": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D4": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D5": {
+   "planted": 5,
+   "found": 5,
+   "flags": 5,
+   "correct_flags": 5,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D6": {
+   "planted": 5,
+   "found": 5,
+   "flags": 5,
+   "correct_flags": 5,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D7": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D8": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D9": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D10": {
+   "planted": 5,
+   "found": 4,
+   "flags": 5,
+   "correct_flags": 4,
+   "precision": 0.8,
+   "recall": 0.8
+  },
+  "D11": {
+   "planted": 5,
+   "found": 5,
+   "flags": 5,
+   "correct_flags": 5,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D12": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D13": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D14": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D15": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "D16": {
+   "planted": 3,
+   "found": 2,
+   "flags": 2,
+   "correct_flags": 2,
+   "precision": 1.0,
+   "recall": 0.667
+  },
+  "D17": {
+   "planted": 3,
+   "found": 3,
+   "flags": 3,
+   "correct_flags": 3,
+   "precision": 1.0,
+   "recall": 1.0
+  }
+ },
+ "misses": [
+  {
+   "product": "SYN-18",
+   "rule": "D16",
+   "variant": "ORT-18-BLU",
+   "file": "ORTA_BLU_05.jpg"
+  },
+  {
+   "product": "SYN-21",
+   "rule": "D10",
+   "variant": "COI-21-ARE",
+   "file": null
+  }
+ ],
+ "false_alarms": [
+  {
+   "product": "SYN-24",
+   "rule": "D10",
+   "variant": "SAA-24-ANT",
+   "file": null,
+   "title": "SAA-24-ANT: 'Anthrazit' but the photos look beige"
+  }
+ ]
+}

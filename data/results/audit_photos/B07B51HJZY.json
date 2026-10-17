@@ -1,0 +1,230 @@
+{
+ "item_id": "B07B51HJZY",
+ "photos": {
+  "A1VQFsE6WfL": {
+   "role": "lifestyle",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "91CXvfJNaNL": {
+   "role": "lifestyle",
+   "product_type": "dining set",
+   "products_in_frame": 4,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "metal",
+   "legs_finish": "natural wood",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      605,
+      11,
+      733,
+      66
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      638,
+      85,
+      755,
+      131
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      678,
+      543,
+      733,
+      566
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      645,
+      686,
+      744,
+      714
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      683,
+      181,
+      838,
+      278
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      711,
+      561,
+      896,
+      661
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      500,
+      733,
+      838,
+      863
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      500,
+      300,
+      774,
+      441
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      391,
+      256,
+      752
+     ]
+    }
+   ]
+  },
+  "81NmCD6DTCL": {
+   "role": "lifestyle",
+   "product_type": "area rug",
+   "products_in_frame": 3,
+   "colour_family": "beige",
+   "upholstery_material": "wool",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "911R-c9acFL": {
+   "role": "lifestyle",
+   "product_type": "dining set",
+   "products_in_frame": 4,
+   "colour_family": "brown",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "metal",
+   "legs_finish": "natural wood",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      606,
+      11,
+      752,
+      73
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      613,
+      86,
+      748,
+      136
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      678,
+      545,
+      734,
+      568
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      678,
+      687,
+      746,
+      712
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      701,
+      182,
+      838,
+      278
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      725,
+      557,
+      898,
+      658
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      500,
+      293,
+      773,
+      425
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      500,
+      722,
+      838,
+      864
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      391,
+      254,
+      748
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

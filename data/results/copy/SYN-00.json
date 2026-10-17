@@ -1,0 +1,819 @@
+{
+ "product_id": "SYN-00",
+ "decisions": {},
+ "facts": {
+  "product_name": "Poltrona LISBOA / LISBOA armchair",
+  "model": "LISBOA",
+  "brand": "Móveis Lusa",
+  "width_cm": 88,
+  "depth_cm": 83,
+  "height_cm": 90,
+  "seat_depth_cm": 50,
+  "max_load_kg": 120,
+  "weight_kg": 23.5,
+  "product_type": "Poltrona / Armchair",
+  "upholstery": "Bouclé, 100% poliester, Martindale 40.000 / bouclé, 100% polyester",
+  "country_of_origin": "Portugal",
+  "variants": [
+   {
+    "code": "LIS-01-MUS",
+    "colour_name": "Musgo"
+   },
+   {
+    "code": "LIS-01-ARE",
+    "colour_name": "Areia"
+   },
+   {
+    "code": "LIS-01-ANT",
+    "colour_name": "Antracite"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "seat_height",
+   "variant": null,
+   "reason": "Seat height missing",
+   "issue": "D1::seat_height:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "care",
+   "variant": null,
+   "reason": "Care instructions contradict the care label",
+   "issue": "D5::care:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "legs_or_base",
+   "variant": "LIS-01-ANT",
+   "reason": "Legs: spec says metal, photos show wood",
+   "issue": "D6:LIS-01-ANT:legs_or_base:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "safety_warnings",
+   "variant": null,
+   "reason": "Safety warnings only in pt",
+   "issue": "D7::safety_warnings:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "LIS01_ANT_34.jpg",
+   "variant": "LIS-01-ANT",
+   "view": "three-quarter",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LIS01_ANT_front.jpg",
+   "variant": "LIS-01-ANT",
+   "view": "front",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LIS01_ARE_34.jpg",
+   "variant": "LIS-01-ARE",
+   "view": "three-quarter",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "LIS01_ARE_front.jpg",
+   "variant": "LIS-01-ARE",
+   "view": "front",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "LIS01_MUS_34.jpg",
+   "variant": "LIS-01-MUS",
+   "view": "three-quarter",
+   "colour_seen": "green"
+  },
+  {
+   "file": "LIS01_MUS_front.jpg",
+   "variant": "LIS-01-MUS",
+   "view": "front",
+   "colour_seen": "green"
+  },
+  {
+   "file": "LIS01_ANT_back.jpg",
+   "variant": "LIS-01-ANT",
+   "view": "back",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LIS01_ANT_detail.jpg",
+   "variant": "LIS-01-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  }
+ ],
+ "protected": [
+  "Móveis Lusa",
+  "LISBOA",
+  "LIS-01-MUS",
+  "LIS-01-ARE",
+  "LIS-01-ANT",
+  "Martindale"
+ ],
+ "en": {
+  "title": "Móveis Lusa LISBOA Armchair",
+  "bullets": [
+   "Dimensions: 88 cm width, 83 cm depth, 90 cm height",
+   "Seat depth: 50 cm",
+   "Upholstery: 100% polyester bouclé (Martindale 40,000)",
+   "Maximum load capacity: 120 kg",
+   "Made in Portugal"
+  ],
+  "description": "The LISBOA armchair by Móveis Lusa is upholstered in 100% polyester bouclé. This piece weighs 23.5 kg and is manufactured in Portugal.",
+  "colours": [
+   {
+    "code": "LIS-01-MUS",
+    "name": "Moss"
+   },
+   {
+    "code": "LIS-01-ARE",
+    "name": "Sand"
+   },
+   {
+    "code": "LIS-01-ANT",
+    "name": "Anthracite"
+   }
+  ],
+  "safety_warnings": [],
+  "alt_texts": [
+   {
+    "file": "LIS01_ANT_34.jpg",
+    "text": "LISBOA armchair in grey, three-quarter view"
+   },
+   {
+    "file": "LIS01_ANT_front.jpg",
+    "text": "LISBOA armchair in grey, front view"
+   },
+   {
+    "file": "LIS01_ARE_34.jpg",
+    "text": "LISBOA armchair in beige, three-quarter view"
+   },
+   {
+    "file": "LIS01_ARE_front.jpg",
+    "text": "LISBOA armchair in beige, front view"
+   },
+   {
+    "file": "LIS01_MUS_34.jpg",
+    "text": "LISBOA armchair in green, three-quarter view"
+   },
+   {
+    "file": "LIS01_MUS_front.jpg",
+    "text": "LISBOA armchair in green, front view"
+   },
+   {
+    "file": "LIS01_ANT_back.jpg",
+    "text": "LISBOA armchair in grey, back view"
+   },
+   {
+    "file": "LIS01_ANT_detail.jpg",
+    "text": "Detail view of the LISBOA armchair in grey"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sillón Móveis Lusa LISBOA",
+    "bullets": [
+     "Dimensiones: 88 cm de ancho, 83 cm de profundidad, 90 cm de altura",
+     "Profundidad del asiento: 50 cm",
+     "Tapicería: bouclé 100% poliéster (Martindale 40,000)",
+     "Capacidad de carga máxima: 120 kg",
+     "Fabricado en Portugal"
+    ],
+    "description": "El sillón LISBOA de Móveis Lusa está tapizado en bouclé 100% poliéster. Esta pieza pesa 23.5 kg y está fabricada en Portugal.",
+    "colours": [
+     {
+      "code": "LIS-01-MUS",
+      "name": "Musgo"
+     },
+     {
+      "code": "LIS-01-ARE",
+      "name": "Arena"
+     },
+     {
+      "code": "LIS-01-ANT",
+      "name": "Antracita"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "LIS01_ANT_34.jpg",
+      "text": "Sillón LISBOA en gris, vista en tres cuartos"
+     },
+     {
+      "file": "LIS01_ANT_front.jpg",
+      "text": "Sillón LISBOA en gris, vista frontal"
+     },
+     {
+      "file": "LIS01_ARE_34.jpg",
+      "text": "Sillón LISBOA en beige, vista en tres cuartos"
+     },
+     {
+      "file": "LIS01_ARE_front.jpg",
+      "text": "Sillón LISBOA en beige, vista frontal"
+     },
+     {
+      "file": "LIS01_MUS_34.jpg",
+      "text": "Sillón LISBOA en verde, vista en tres cuartos"
+     },
+     {
+      "file": "LIS01_MUS_front.jpg",
+      "text": "Sillón LISBOA en verde, vista frontal"
+     },
+     {
+      "file": "LIS01_ANT_back.jpg",
+      "text": "Sillón LISBOA en gris, vista trasera"
+     },
+     {
+      "file": "LIS01_ANT_detail.jpg",
+      "text": "Vista de detalle del sillón LISBOA en gris"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Poltrona Móveis Lusa LISBOA",
+    "bullets": [
+     "Dimensioni: 88 cm di larghezza, 83 cm di profondità, 90 cm di altezza",
+     "Profondità del sedile: 50 cm",
+     "Rivestimento: bouclé 100% poliestere (Martindale 40,000)",
+     "Capacità di carico massima: 120 kg",
+     "Prodotto in Portogallo"
+    ],
+    "description": "La poltrona LISBOA di Móveis Lusa è rivestita in bouclé 100% poliestere. Questo pezzo pesa 23,5 kg ed è prodotto in Portogallo.",
+    "colours": [
+     {
+      "code": "LIS-01-MUS",
+      "name": "Muschio"
+     },
+     {
+      "code": "LIS-01-ARE",
+      "name": "Sabbia"
+     },
+     {
+      "code": "LIS-01-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "LIS01_ANT_34.jpg",
+      "text": "Poltrona LISBOA in grigio, vista a tre quarti"
+     },
+     {
+      "file": "LIS01_ANT_front.jpg",
+      "text": "Poltrona LISBOA in grigio, vista frontale"
+     },
+     {
+      "file": "LIS01_ARE_34.jpg",
+      "text": "Poltrona LISBOA in beige, vista a tre quarti"
+     },
+     {
+      "file": "LIS01_ARE_front.jpg",
+      "text": "Poltrona LISBOA in beige, vista frontale"
+     },
+     {
+      "file": "LIS01_MUS_34.jpg",
+      "text": "Poltrona LISBOA in verde, vista a tre quarti"
+     },
+     {
+      "file": "LIS01_MUS_front.jpg",
+      "text": "Poltrona LISBOA in verde, vista frontale"
+     },
+     {
+      "file": "LIS01_ANT_back.jpg",
+      "text": "Poltrona LISBOA in grigio, vista posteriore"
+     },
+     {
+      "file": "LIS01_ANT_detail.jpg",
+      "text": "Vista dettagliata della poltrona LISBOA in grigio"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Móveis Lusa LISBOA Sessel",
+    "bullets": [
+     "Maße: 88 cm Breite, 83 cm Tiefe, 90 cm Höhe",
+     "Sitztiefe: 50 cm",
+     "Bezug: 100% Polyester-Bouclé (Martindale 40,000)",
+     "Maximale Belastbarkeit: 120 kg",
+     "Hergestellt in Portugal"
+    ],
+    "description": "Der LISBOA Sessel von Móveis Lusa ist mit 100% Polyester-Bouclé bezogen. Dieses Möbelstück wiegt 23,5 kg und wird in Portugal gefertigt.",
+    "colours": [
+     {
+      "code": "LIS-01-MUS",
+      "name": "Moos"
+     },
+     {
+      "code": "LIS-01-ARE",
+      "name": "Sand"
+     },
+     {
+      "code": "LIS-01-ANT",
+      "name": "Anthrazit"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "LIS01_ANT_34.jpg",
+      "text": "LISBOA Sessel in Grau, Dreiviertelansicht"
+     },
+     {
+      "file": "LIS01_ANT_front.jpg",
+      "text": "LISBOA Sessel in Grau, Vorderansicht"
+     },
+     {
+      "file": "LIS01_ARE_34.jpg",
+      "text": "LISBOA Sessel in Beige, Dreiviertelansicht"
+     },
+     {
+      "file": "LIS01_ARE_front.jpg",
+      "text": "LISBOA Sessel in Beige, Vorderansicht"
+     },
+     {
+      "file": "LIS01_MUS_34.jpg",
+      "text": "LISBOA Sessel in Grün, Dreiviertelansicht"
+     },
+     {
+      "file": "LIS01_MUS_front.jpg",
+      "text": "LISBOA Sessel in Grün, Vorderansicht"
+     },
+     {
+      "file": "LIS01_ANT_back.jpg",
+      "text": "LISBOA Sessel in Grau, Rückansicht"
+     },
+     {
+      "file": "LIS01_ANT_detail.jpg",
+      "text": "Detailansicht des LISBOA Sessels in Grau"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa LISBOA Armchair",
+    "bullets": [
+     "Dimensions: 88 cm width, 83 cm depth, 90 cm height",
+     "Seat depth: 50 cm",
+     "Cover: 100% polyester bouclé (Martindale 40,000)",
+     "Maximum load capacity: 120 kg",
+     "Made in Portugal"
+    ],
+    "description": "The LISBOA armchair from Móveis Lusa is covered in 100% polyester bouclé. This piece of furniture weighs 23.5 kg and is manufactured in Portugal.",
+    "colours": [
+     {
+      "code": "LIS-01-MUS",
+      "name": "Moss"
+     },
+     {
+      "code": "LIS-01-ARE",
+      "name": "Sand"
+     },
+     {
+      "code": "LIS-01-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "LIS01_ANT_34.jpg",
+      "text": "LISBOA armchair in grey, three-quarter view"
+     },
+     {
+      "file": "LIS01_ANT_front.jpg",
+      "text": "LISBOA armchair in grey, front view"
+     },
+     {
+      "file": "LIS01_ARE_34.jpg",
+      "text": "LISBOA armchair in beige, three-quarter view"
+     },
+     {
+      "file": "LIS01_ARE_front.jpg",
+      "text": "LISBOA armchair in beige, front view"
+     },
+     {
+      "file": "LIS01_MUS_34.jpg",
+      "text": "LISBOA armchair in green, three-quarter view"
+     },
+     {
+      "file": "LIS01_MUS_front.jpg",
+      "text": "LISBOA armchair in green, front view"
+     },
+     {
+      "file": "LIS01_ANT_back.jpg",
+      "text": "LISBOA armchair in grey, rear view"
+     },
+     {
+      "file": "LIS01_ANT_detail.jpg",
+      "text": "Detailed view of the LISBOA armchair in grey"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Fauteuil LISBOA de Móveis Lusa",
+    "bullets": [
+     "Dimensions : 88 cm de largeur, 83 cm de profondeur, 90 cm de hauteur",
+     "Profondeur d'assise : 50 cm",
+     "Revêtement : bouclé 100% polyester (Martindale 40 000)",
+     "Capacité de charge maximale : 120 kg",
+     "Fabriqué au Portugal"
+    ],
+    "description": "Le fauteuil LISBOA de Móveis Lusa est revêtu d'un tissu bouclé 100% polyester. Cette pièce pèse 23,5 kg et est fabriquée au Portugal.",
+    "colours": [
+     {
+      "code": "LIS-01-MUS",
+      "name": "Mousse"
+     },
+     {
+      "code": "LIS-01-ARE",
+      "name": "Sable"
+     },
+     {
+      "code": "LIS-01-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "LIS01_ANT_34.jpg",
+      "text": "Fauteuil LISBOA en gris, vue de trois-quarts"
+     },
+     {
+      "file": "LIS01_ANT_front.jpg",
+      "text": "Fauteuil LISBOA en gris, vue de face"
+     },
+     {
+      "file": "LIS01_ARE_34.jpg",
+      "text": "Fauteuil LISBOA en beige, vue de trois-quarts"
+     },
+     {
+      "file": "LIS01_ARE_front.jpg",
+      "text": "Fauteuil LISBOA en beige, vue de face"
+     },
+     {
+      "file": "LIS01_MUS_34.jpg",
+      "text": "Fauteuil LISBOA en vert, vue de trois-quarts"
+     },
+     {
+      "file": "LIS01_MUS_front.jpg",
+      "text": "Fauteuil LISBOA en vert, vue de face"
+     },
+     {
+      "file": "LIS01_ANT_back.jpg",
+      "text": "Fauteuil LISBOA en gris, vue de dos"
+     },
+     {
+      "file": "LIS01_ANT_detail.jpg",
+      "text": "Vue détaillée du fauteuil LISBOA en gris"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Poltrona Móveis Lusa LISBOA",
+    "bullets": [
+     "Dimensões: 88 cm de largura, 83 cm de profundidade, 90 cm de altura",
+     "Profundidade do assento: 50 cm",
+     "Estofos: bouclé 100% poliéster (Martindale 40,000)",
+     "Capacidade de carga máxima: 120 kg",
+     "Fabricado em Portugal"
+    ],
+    "description": "A poltrona LISBOA da Móveis Lusa é estofada em bouclé 100% poliéster. Esta peça pesa 23.5 kg e é fabricada em Portugal.",
+    "colours": [
+     {
+      "code": "LIS-01-MUS",
+      "name": "Musgo"
+     },
+     {
+      "code": "LIS-01-ARE",
+      "name": "Areia"
+     },
+     {
+      "code": "LIS-01-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "LIS01_ANT_34.jpg",
+      "text": "Poltrona LISBOA em cinzento, vista de três quartos"
+     },
+     {
+      "file": "LIS01_ANT_front.jpg",
+      "text": "Poltrona LISBOA em cinzento, vista frontal"
+     },
+     {
+      "file": "LIS01_ARE_34.jpg",
+      "text": "Poltrona LISBOA em bege, vista de três quartos"
+     },
+     {
+      "file": "LIS01_ARE_front.jpg",
+      "text": "Poltrona LISBOA em bege, vista frontal"
+     },
+     {
+      "file": "LIS01_MUS_34.jpg",
+      "text": "Poltrona LISBOA em verde, vista de três quartos"
+     },
+     {
+      "file": "LIS01_MUS_front.jpg",
+      "text": "Poltrona LISBOA em verde, vista frontal"
+     },
+     {
+      "file": "LIS01_ANT_back.jpg",
+      "text": "Poltrona LISBOA em cinzento, vista traseira"
+     },
+     {
+      "file": "LIS01_ANT_detail.jpg",
+      "text": "Vista detalhada da poltrona LISBOA em cinzento"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Fotel Móveis Lusa LISBOA",
+    "bullets": [
+     "Wymiary: 88 cm szerokości, 83 cm głębokości, 90 cm wysokości",
+     "Głębokość siedziska: 50 cm",
+     "Obicie: 100% poliester bouclé (Martindale 40,000)",
+     "Maksymalne obciążenie: 120 kg",
+     "Wyprodukowano w Portugalii"
+    ],
+    "description": "Fotel LISBOA marki Móveis Lusa jest obity tkaniną bouclé ze 100% poliestru. Mebel waży 23,5 kg i został wyprodukowany w Portugalii.",
+    "colours": [
+     {
+      "code": "LIS-01-MUS",
+      "name": "Mchowy"
+     },
+     {
+      "code": "LIS-01-ARE",
+      "name": "Piaskowy"
+     },
+     {
+      "code": "LIS-01-ANT",
+      "name": "Antracytowy"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "LIS01_ANT_34.jpg",
+      "text": "Fotel LISBOA w kolorze szarym, widok z trzech czwartych"
+     },
+     {
+      "file": "LIS01_ANT_front.jpg",
+      "text": "Fotel LISBOA w kolorze szarym, widok z przodu"
+     },
+     {
+      "file": "LIS01_ARE_34.jpg",
+      "text": "Fotel LISBOA w kolorze beżowym, widok z trzech czwartych"
+     },
+     {
+      "file": "LIS01_ARE_front.jpg",
+      "text": "Fotel LISBOA w kolorze beżowym, widok z przodu"
+     },
+     {
+      "file": "LIS01_MUS_34.jpg",
+      "text": "Fotel LISBOA w kolorze zielonym, widok z trzech czwartych"
+     },
+     {
+      "file": "LIS01_MUS_front.jpg",
+      "text": "Fotel LISBOA w kolorze zielonym, widok z przodu"
+     },
+     {
+      "file": "LIS01_ANT_back.jpg",
+      "text": "Fotel LISBOA w kolorze szarym, widok z tyłu"
+     },
+     {
+      "file": "LIS01_ANT_detail.jpg",
+      "text": "Zbliżenie na detale fotela LISBOA w kolorze szarym"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Крісло Móveis Lusa LISBOA",
+    "bullets": [
+     "Розміри: ширина 88 см, глибина 83 см, висота 90 см",
+     "Глибина сидіння: 50 см",
+     "Оббивка: 100% поліестеровий букле (Martindale 40,000)",
+     "Максимальне навантаження: 120 кг",
+     "Виготовлено в Португалії"
+    ],
+    "description": "Крісло LISBOA від Móveis Lusa оббите 100% поліестеровим букле. Вага виробу становить 23.5 кг, виробництво — Португалія.",
+    "colours": [
+     {
+      "code": "LIS-01-MUS",
+      "name": "Моховий"
+     },
+     {
+      "code": "LIS-01-ARE",
+      "name": "Пісочний"
+     },
+     {
+      "code": "LIS-01-ANT",
+      "name": "Антрацитовий"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "LIS01_ANT_34.jpg",
+      "text": "Крісло LISBOA у сірому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "LIS01_ANT_front.jpg",
+      "text": "Крісло LISBOA у сірому кольорі, вигляд спереду"
+     },
+     {
+      "file": "LIS01_ARE_34.jpg",
+      "text": "Крісло LISBOA у бежевому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "LIS01_ARE_front.jpg",
+      "text": "Крісло LISBOA у бежевому кольорі, вигляд спереду"
+     },
+     {
+      "file": "LIS01_MUS_34.jpg",
+      "text": "Крісло LISBOA у зеленому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "LIS01_MUS_front.jpg",
+      "text": "Крісло LISBOA у зеленому кольорі, вигляд спереду"
+     },
+     {
+      "file": "LIS01_ANT_back.jpg",
+      "text": "Крісло LISBOA у сірому кольорі, вигляд ззаду"
+     },
+     {
+      "file": "LIS01_ANT_detail.jpg",
+      "text": "Детальний вигляд крісла LISBOA у сірому кольорі"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa LISBOA Armchair",
+    "bullets": [
+     "Dimensions: width 88 cm, depth 83 cm, height 90 cm",
+     "Seat depth: 50 cm",
+     "Upholstery: 100% polyester boucle (Martindale 40,000)",
+     "Maximum load: 120 kg",
+     "Made in Portugal"
+    ],
+    "description": "The LISBOA armchair from Móveis Lusa is upholstered in 100% polyester boucle. The product weight is 23.5 kg, production — Portugal.",
+    "colours": [
+     {
+      "code": "LIS-01-MUS",
+      "name": "Moss"
+     },
+     {
+      "code": "LIS-01-ARE",
+      "name": "Sand"
+     },
+     {
+      "code": "LIS-01-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [],
+    "alt_texts": [
+     {
+      "file": "LIS01_ANT_34.jpg",
+      "text": "LISBOA armchair in grey color, three-quarter view"
+     },
+     {
+      "file": "LIS01_ANT_front.jpg",
+      "text": "LISBOA armchair in grey color, front view"
+     },
+     {
+      "file": "LIS01_ARE_34.jpg",
+      "text": "LISBOA armchair in beige color, three-quarter view"
+     },
+     {
+      "file": "LIS01_ARE_front.jpg",
+      "text": "LISBOA armchair in beige color, front view"
+     },
+     {
+      "file": "LIS01_MUS_34.jpg",
+      "text": "LISBOA armchair in green color, three-quarter view"
+     },
+     {
+      "file": "LIS01_MUS_front.jpg",
+      "text": "LISBOA armchair in green color, front view"
+     },
+     {
+      "file": "LIS01_ANT_back.jpg",
+      "text": "LISBOA armchair in grey color, back view"
+     },
+     {
+      "file": "LIS01_ANT_detail.jpg",
+      "text": "Detailed view of the LISBOA armchair in grey color"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

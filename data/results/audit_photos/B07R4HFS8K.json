@@ -1,0 +1,169 @@
+{
+ "item_id": "B07R4HFS8K",
+ "photos": {
+  "81a0nFJ8o7L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      748,
+      262,
+      882,
+      458
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      768,
+      413,
+      947,
+      511
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      755,
+      511,
+      911,
+      708
+     ]
+    }
+   ]
+  },
+  "81JeCidaNeL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      925,
+      433,
+      1000,
+      471
+     ]
+    }
+   ]
+  },
+  "81SXwKUuP3L": {
+   "role": "lifestyle",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      758,
+      502,
+      884,
+      623
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      778,
+      685,
+      936,
+      753
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      762,
+      753,
+      892,
+      928
+     ]
+    }
+   ]
+  },
+  "81gCvwC4ApL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black matt",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      262,
+      883,
+      415
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      813,
+      372,
+      987,
+      445
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      823,
+      478,
+      963,
+      622
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      472,
+      847,
+      600
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

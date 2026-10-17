@@ -1,0 +1,153 @@
+{
+ "item_id": "B07YN9B81V",
+ "photos": {
+  "71gBi+BmkHL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      766,
+      338,
+      813,
+      395
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      838,
+      163,
+      904,
+      253
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      843,
+      483,
+      976,
+      548
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      781,
+      648,
+      833,
+      733
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      841,
+      753,
+      913,
+      870
+     ]
+    }
+   ]
+  },
+  "71iTnLdjHCL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      925,
+      427,
+      1000,
+      475
+     ]
+    }
+   ]
+  },
+  "71+XQfo3MyL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 5,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      768,
+      300,
+      892,
+      411
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      802,
+      458,
+      956,
+      505
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      773,
+      512,
+      888,
+      666
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      273,
+      816,
+      342,
+      888
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      821,
+      848,
+      888
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

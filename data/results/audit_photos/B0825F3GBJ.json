@@ -1,0 +1,145 @@
+{
+ "item_id": "B0825F3GBJ",
+ "photos": {
+  "510l+LGxYeL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "wood",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      485,
+      376,
+      962,
+      614
+     ]
+    }
+   ]
+  },
+  "91zPxzoRukL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 2,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "gold",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      53,
+      864,
+      211
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      563,
+      881,
+      678
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      506,
+      823,
+      584,
+      896
+     ]
+    }
+   ]
+  },
+  "51NfAAnsguL": {
+   "role": "dimension_drawing",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "wood",
+   "legs_finish": null,
+   "text_in_image": [
+    "18.5\"",
+    "9\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      664,
+      354,
+      887,
+      593
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      444,
+      714,
+      478,
+      801
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      923,
+      448,
+      957,
+      485
+     ]
+    }
+   ]
+  },
+  "71l90Nv6cQL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      846,
+      466,
+      1000,
+      533
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

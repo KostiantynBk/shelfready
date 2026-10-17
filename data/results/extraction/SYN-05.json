@@ -1,0 +1,715 @@
+{
+ "submission_id": "SYN-05",
+ "spec": {
+  "product_name": "Poltrona relax LECCO / LECCO recliner",
+  "supplier": "Arredo Brianza S.r.l.",
+  "product_type": "Poltrona relax / recliner",
+  "manufacturer": "Arredo Brianza S.r.l.",
+  "manufacturer_address": "Via dei Mobilieri 7, 20821 Meda (MB), Italia · info@arredobrianza.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Italia",
+  "width": {
+   "value": "87",
+   "unit": "cm",
+   "source_text": "87 x 107 x 112 cm"
+  },
+  "depth": {
+   "value": "107",
+   "unit": "cm",
+   "source_text": "87 x 107 x 112 cm"
+  },
+  "height": {
+   "value": "112",
+   "unit": "cm",
+   "source_text": "87 x 107 x 112 cm"
+  },
+  "seat_height": {
+   "value": "45",
+   "unit": "cm",
+   "source_text": "45 cm"
+  },
+  "seat_depth": {
+   "value": "64",
+   "unit": "cm",
+   "source_text": "64 cm"
+  },
+  "max_load": {
+   "value": "120",
+   "unit": "kg",
+   "source_text": "120 kg"
+  },
+  "weight": {
+   "value": "52,2",
+   "unit": "kg",
+   "source_text": "52,2 kg"
+  },
+  "legs_or_base": "Pino + multistrato",
+  "upholstery": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+  "care": "Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C",
+  "variants": [
+   {
+    "code": "LEC-05-COG",
+    "colour_name": "Cognac",
+    "ean": "8012345005017"
+   },
+   {
+    "code": "LEC-05-ANT",
+    "colour_name": "Sabbia",
+    "ean": "8012345005024"
+   }
+  ],
+  "safety_warnings": [
+   "Non utilizzare all'aperto.",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "it",
+   "en",
+   "it",
+   "en",
+   "it",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6342855336114754,
+    0.18221116470953955
+   ],
+   "text": "87 x 107 x 112 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6342855336114754,
+    0.18221116470953955
+   ],
+   "text": "87 x 107 x 112 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.1715213131336214,
+    0.6342855336114754,
+    0.18221116470953955
+   ],
+   "text": "87 x 107 x 112 cm",
+   "note": null
+  },
+  "seat_height": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.2080449726846752,
+    0.11808911939648982,
+    0.21873482426059335
+   ],
+   "text": "45 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.2080449726846752,
+    0.5529923172835375,
+    0.21873482426059335
+   ],
+   "text": "64 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.244568632235729,
+    0.12231406207206698,
+    0.2552584838116472
+   ],
+   "text": "120 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.244568632235729,
+    0.561420043900765,
+    0.2552584838116472
+   ],
+   "text": "52,2 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.12252616007732976,
+    0.6332883882148662,
+    0.13321601165324792
+   ],
+   "text": "Pino + multistrato",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.1715213131336214,
+    0.4561214695065345,
+    0.18221116470953955
+   ],
+   "text": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.28109229178678263,
+    0.4352552732792675,
+    0.30425363686793866
+   ],
+   "text": "Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.3300874448430743,
+    0.4734644175094024,
+    0.3532487899242304
+   ],
+   "text": "Via dei Mobilieri 7, 20821 Meda (MB), Italia · info@arredobrianza.example",
+   "note": null
+  },
+  "ean:LEC-05-COG": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.3096124776610293,
+    0.13054354875926844,
+    0.4189808813242898,
+    0.14123340033518658
+   ],
+   "text": "8012345005017",
+   "note": null
+  },
+  "ean:LEC-05-ANT": {
+   "source": "pdf",
+   "file": "LECCO_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.3096124776610293,
+    0.15459571480508424,
+    0.4189808813242898,
+    0.16528556638100242
+   ],
+   "text": "8012345005024",
+   "note": null
+  }
+ },
+ "images": {
+  "LECCO_COG_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "recliner chair",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    1978
+   ],
+   "low_res": false
+  },
+  "LECCO_COG_02.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    1978
+   ],
+   "low_res": false
+  },
+  "LECCO_COG_03.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "upholstery fabric",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    1023,
+    1000
+   ],
+   "low_res": false
+  },
+  "IMG_4579.JPG": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "brown",
+    "upholstery_material": "leather",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    1978
+   ],
+   "low_res": false
+  },
+  "LECCO_ANT_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "recliner chair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "leather",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    1978
+   ],
+   "low_res": false
+  },
+  "LECCO_ANT_02.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "leather",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    1978
+   ],
+   "low_res": false
+  },
+  "LECCO_ANT_03.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "recliner",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "44\"",
+     "42\"",
+     "38\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       395,
+       41,
+       422,
+       75
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       863,
+       261,
+       890,
+       296
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       863,
+       792,
+       890,
+       827
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2228
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 96.52,
+    "depth_cm": 106.68,
+    "height_cm": 111.76,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "LECCO_ANT_04.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "recliner chair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    1978
+   ],
+   "low_res": false
+  },
+  "LEC05_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "armchair",
+    "products_in_frame": 2,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRONTE / FRONT",
+     "LATO / SIDE",
+     "112",
+     "45",
+     "97 cm",
+     "107 cm",
+     "LEC-05 · misure in cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       91,
+       83,
+       266
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       611,
+       83,
+       738
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       526,
+       10,
+       573,
+       48
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       696,
+       406,
+       743,
+       435
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       896,
+       201,
+       943,
+       268
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       896,
+       742,
+       943,
+       810
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       956,
+       791,
+       993,
+       989
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       786,
+       105,
+       843,
+       121
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       786,
+       348,
+       843,
+       364
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       786,
+       624,
+       843,
+       640
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       786,
+       907,
+       843,
+       923
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 97.0,
+    "depth_cm": 107.0,
+    "height_cm": 112.0,
+    "seat_height_cm": 45.0,
+    "product_code": "LEC-05"
+   }
+  },
+  "LEC05_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "ARREDO BRIANZA S.R.L.",
+     "LEC-05",
+     "100% POLIESTERE",
+     "100% POLYESTER",
+     "Fodera sfoderabile",
+     "Removable cover",
+     "Prodotto in Italia"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       109,
+       230,
+       144,
+       776
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       167,
+       438,
+       201,
+       568
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       230,
+       308,
+       265,
+       698
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       292,
+       312,
+       327,
+       692
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       354,
+       335,
+       389,
+       670
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       416,
+       351,
+       451,
+       662
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       782,
+       291,
+       817,
+       565
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYESTER",
+    "wash_max_temp_c": 30,
+    "do_not_wash": false,
+    "dry_clean_only": false,
+    "removable_cover": true,
+    "other_text": [
+     "ARREDO BRIANZA S.R.L.",
+     "LEC-05",
+     "100% POLIESTERE",
+     "Fodera sfoderabile",
+     "Removable cover",
+     "Prodotto in Italia"
+    ]
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

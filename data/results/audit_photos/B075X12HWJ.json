@@ -1,0 +1,144 @@
+{
+ "item_id": "B075X12HWJ",
+ "photos": {
+  "81AmXoOmfAL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      561,
+      175,
+      986,
+      524
+     ]
+    }
+   ]
+  },
+  "71OxEdn9N6L": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      554,
+      202,
+      981,
+      543
+     ]
+    }
+   ]
+  },
+  "81+JSbKK9TL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      553,
+      202,
+      985,
+      544
+     ]
+    }
+   ]
+  },
+  "915yXkcHkCL": {
+   "role": "lifestyle",
+   "product_type": "desk and chair set",
+   "products_in_frame": 3,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "gold",
+   "text_in_image": [
+    "The Courtauld Collection"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      211,
+      262,
+      343,
+      301
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      545,
+      165,
+      806,
+      385
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      545,
+      762,
+      806,
+      972
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      443,
+      292,
+      945,
+      725
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      303,
+      652,
+      318,
+      755
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

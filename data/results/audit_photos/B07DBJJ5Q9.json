@@ -1,0 +1,124 @@
+{
+ "item_id": "B07DBJJ5Q9",
+ "photos": {
+  "419EPsPhHjL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      206,
+      424,
+      953,
+      575
+     ]
+    }
+   ]
+  },
+  "41uh6P6s4ML": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      317,
+      984,
+      683
+     ]
+    }
+   ]
+  },
+  "A1NEKhzEkaL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      768,
+      191,
+      803,
+      235
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      703,
+      824,
+      741,
+      864
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      368,
+      866,
+      737,
+      944
+     ]
+    }
+   ]
+  },
+  "41XHI9a0XOL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      206,
+      422,
+      953,
+      572
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

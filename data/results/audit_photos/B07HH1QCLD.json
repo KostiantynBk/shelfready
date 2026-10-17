@@ -1,0 +1,268 @@
+{
+ "item_id": "B07HH1QCLD",
+ "photos": {
+  "71J84XzkBPL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      503,
+      132,
+      822,
+      256
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      301,
+      992,
+      416
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      601,
+      551,
+      743,
+      625
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      511,
+      743,
+      903,
+      868
+     ]
+    }
+   ]
+  },
+  "71xXQae85IL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      168,
+      991,
+      348
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      633,
+      987,
+      846
+     ]
+    }
+   ]
+  },
+  "718j0HOx8UL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      514,
+      206,
+      985,
+      266
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      514,
+      734,
+      985,
+      794
+     ]
+    }
+   ]
+  },
+  "81ln1lZHWML": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 6,
+   "colour_family": "multicolour",
+   "upholstery_material": "plastic",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      356,
+      11,
+      506,
+      71
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      356,
+      206,
+      476,
+      236
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      356,
+      301,
+      486,
+      356
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      356,
+      491,
+      471,
+      521
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      356,
+      646,
+      506,
+      701
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      356,
+      951,
+      546,
+      991
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      3,
+      796,
+      61
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      111,
+      881,
+      161
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      211,
+      776,
+      241
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      321,
+      831,
+      371
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      461,
+      881,
+      511
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      641,
+      831,
+      691
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      731,
+      861,
+      781
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      951,
+      776,
+      981
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

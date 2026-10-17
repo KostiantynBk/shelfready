@@ -1,0 +1,214 @@
+{
+ "item_id": "B00AZ7S6N6",
+ "photos": {
+  "71Uc4rt0qeL": {
+   "role": "packshot",
+   "product_type": "bench",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      51,
+      998,
+      118
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      881,
+      992,
+      948
+     ]
+    }
+   ]
+  },
+  "81DU63jvPiL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark brown",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      513,
+      18,
+      896,
+      56
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      525,
+      163,
+      993,
+      201
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      525,
+      260,
+      833,
+      298
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      513,
+      417,
+      906,
+      455
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      513,
+      538,
+      906,
+      576
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      525,
+      696,
+      833,
+      734
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      525,
+      793,
+      993,
+      831
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      513,
+      941,
+      906,
+      979
+     ]
+    }
+   ]
+  },
+  "71LPJ6RBNpL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      558,
+      15,
+      997,
+      108
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      558,
+      891,
+      997,
+      984
+     ]
+    }
+   ]
+  },
+  "71LX1FPFrqL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark brown",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      521,
+      48,
+      926,
+      123
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      521,
+      352,
+      998,
+      435
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      531,
+      567,
+      858,
+      652
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      521,
+      903,
+      943,
+      978
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

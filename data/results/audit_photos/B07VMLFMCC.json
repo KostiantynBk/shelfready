@@ -1,0 +1,153 @@
+{
+ "item_id": "B07VMLFMCC",
+ "photos": {
+  "71Lccigy22L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      118,
+      798,
+      142
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      785,
+      248,
+      984,
+      278
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      705,
+      501,
+      766,
+      524
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      614,
+      870,
+      734,
+      894
+     ]
+    }
+   ]
+  },
+  "51EWlbP-J7L": {
+   "role": "detail",
+   "product_type": "upholstery fabric",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "51dDCjcka1L": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71y6hJ6gIrL": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "2000",
+    "850",
+    "830"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      323,
+      401,
+      354,
+      496
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      317,
+      766,
+      348,
+      841
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      521,
+      72,
+      575,
+      118
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      667,
+      344,
+      712,
+      376
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      821,
+      573,
+      853
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

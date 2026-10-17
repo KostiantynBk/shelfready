@@ -1,0 +1,117 @@
+{
+ "item_id": "B07K53H3VK",
+ "photos": {
+  "71faOfWY1sL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      483,
+      271,
+      987,
+      642
+     ]
+    }
+   ]
+  },
+  "61iDesgfP5L": {
+   "role": "packshot",
+   "product_type": "lampshade",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71IXiyBFMqL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      142,
+      208,
+      983,
+      702
+     ]
+    }
+   ]
+  },
+  "71RgQLVqGJL": {
+   "role": "lifestyle",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "Person of the Year",
+    "THE KINFOLK HOME"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      588,
+      374,
+      737,
+      468
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      486,
+      15,
+      664,
+      41
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      515,
+      61,
+      645,
+      83
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

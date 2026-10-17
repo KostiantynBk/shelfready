@@ -1,0 +1,142 @@
+{
+ "item_id": "B07HMP8SPW",
+ "photos": {
+  "81hmK9Rz3cL": {
+   "role": "packshot",
+   "product_type": "rocking chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      658,
+      31,
+      996,
+      500
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      625,
+      541,
+      812,
+      990
+     ]
+    }
+   ]
+  },
+  "81DdeHKlrnL": {
+   "role": "packshot",
+   "product_type": "rocking chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      211,
+      975,
+      343
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      643,
+      923,
+      785
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      713,
+      12,
+      983,
+      988
+     ]
+    }
+   ]
+  },
+  "8167Ja0jyNL": {
+   "role": "packshot",
+   "product_type": "folding chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      145,
+      100,
+      993,
+      988
+     ]
+    }
+   ]
+  },
+  "81EDw0ya8ZL": {
+   "role": "packshot",
+   "product_type": "folding chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "mesh",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      53,
+      987,
+      148
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      851,
+      987,
+      976
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

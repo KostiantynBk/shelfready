@@ -1,0 +1,205 @@
+{
+ "item_id": "B07B4W2ZRW",
+ "photos": {
+  "81IDhFKSc3L": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "wood",
+   "legs_finish": "dark brown",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      453,
+      334,
+      991,
+      691
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      483,
+      334,
+      893,
+      483
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      483,
+      483,
+      991,
+      538
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      483,
+      538,
+      885,
+      691
+     ]
+    }
+   ]
+  },
+  "91mJ0wWSPsL": {
+   "role": "detail",
+   "product_type": "tripod lamp base",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "metal",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      373,
+      11,
+      1000,
+      353
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      373,
+      343,
+      1000,
+      648
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      373,
+      656,
+      1000,
+      988
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      83,
+      608,
+      908
+     ]
+    }
+   ]
+  },
+  "91H5I7kjhJL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "wood",
+   "legs_finish": "dark brown",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      453,
+      335,
+      991,
+      692
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      485,
+      335,
+      893,
+      485
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      485,
+      491,
+      991,
+      546
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      485,
+      542,
+      885,
+      692
+     ]
+    }
+   ]
+  },
+  "91Nug14gRiL": {
+   "role": "lifestyle",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      675,
+      37,
+      714,
+      75
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      546,
+      792,
+      586
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      445,
+      843,
+      562,
+      913
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

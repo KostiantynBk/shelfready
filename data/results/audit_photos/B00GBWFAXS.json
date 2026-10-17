@@ -1,0 +1,142 @@
+{
+ "item_id": "B00GBWFAXS",
+ "photos": {
+  "71236Fzm3sL": {
+   "role": "packshot",
+   "product_type": "adirondack chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      371,
+      986,
+      453
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      843,
+      916,
+      925
+     ]
+    }
+   ]
+  },
+  "71FUXig4KxL": {
+   "role": "packshot",
+   "product_type": "Adirondack chair with ottoman",
+   "products_in_frame": 2,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      738,
+      286,
+      911,
+      355
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      442,
+      936,
+      506
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      911,
+      583,
+      993,
+      644
+     ]
+    }
+   ]
+  },
+  "61f6Lg4dBKL": {
+   "role": "packshot",
+   "product_type": "Adirondack chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      823,
+      116,
+      992,
+      173
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      821,
+      853,
+      987,
+      908
+     ]
+    }
+   ]
+  },
+  "61LXPFIpgfL": {
+   "role": "packshot",
+   "product_type": "adirondack chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      475,
+      758,
+      966,
+      901
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

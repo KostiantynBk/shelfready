@@ -1,0 +1,216 @@
+{
+ "item_id": "B07MND9KMZ",
+ "photos": {
+  "91W15Zcoa0L": {
+   "role": "packshot",
+   "product_type": "reclining chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      643,
+      188,
+      785,
+      323
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      338,
+      953,
+      498
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      643,
+      512,
+      953,
+      868
+     ]
+    }
+   ]
+  },
+  "91J8rFg-GzL": {
+   "role": "packshot",
+   "product_type": "folding chair and table set",
+   "products_in_frame": 3,
+   "colour_family": "blue",
+   "upholstery_material": "polyester",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      641,
+      56,
+      716,
+      346
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      641,
+      371,
+      728,
+      661
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      633,
+      741,
+      728,
+      762
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      633,
+      878,
+      728,
+      900
+     ]
+    }
+   ]
+  },
+  "91p3sZZm7CL": {
+   "role": "detail",
+   "product_type": "folding chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "Tension"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      188,
+      236,
+      261
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      236,
+      711,
+      998,
+      998
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      126,
+      625,
+      193,
+      656
+     ]
+    }
+   ]
+  },
+  "91dPq6jZbVL": {
+   "role": "packshot",
+   "product_type": "zero gravity chair",
+   "products_in_frame": 2,
+   "colour_family": "blue",
+   "upholstery_material": "mesh",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      112,
+      675,
+      158
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      163,
+      797,
+      485
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      558,
+      453,
+      727,
+      503
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      558,
+      503,
+      712,
+      618
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      542,
+      572,
+      612,
+      633
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      612,
+      673,
+      712,
+      968
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

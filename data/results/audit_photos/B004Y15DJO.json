@@ -1,0 +1,268 @@
+{
+ "item_id": "B004Y15DJO",
+ "photos": {
+  "71fN-Nm2u3L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black matt",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      658,
+      100,
+      842,
+      438
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      662,
+      461,
+      946,
+      545
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      662,
+      538,
+      842,
+      903
+     ]
+    }
+   ]
+  },
+  "71edDJzHqXL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      261,
+      703,
+      338
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      658,
+      708,
+      731
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      776,
+      96,
+      836,
+      174
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      872,
+      462,
+      938,
+      540
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      776,
+      824,
+      841,
+      902
+     ]
+    }
+   ]
+  },
+  "71mo+qdd8CL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black matt",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      652,
+      261,
+      717,
+      348
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      655,
+      583,
+      721,
+      726
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      748,
+      84,
+      854,
+      224
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      824,
+      857,
+      916
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      461,
+      966,
+      543
+     ]
+    }
+   ]
+  },
+  "51RZorohNQL": {
+   "role": "promo",
+   "product_type": "office chair",
+   "products_in_frame": 0,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "Sieger",
+    "Preis-Leistung",
+    "GUT (1,6)",
+    "TOPSTAR 70570BB10",
+    "High S'cool",
+    "Im Vergleich: Kinderdrehstühle",
+    "Vergleich.org",
+    "08/2017"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      63,
+      315,
+      178,
+      684
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      185,
+      101,
+      291,
+      917
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      307,
+      306,
+      406,
+      704
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      493,
+      116,
+      554,
+      888
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      563,
+      301,
+      628,
+      704
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      644,
+      221,
+      688,
+      781
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      798,
+      178,
+      914,
+      798
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      925,
+      843,
+      958,
+      966
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

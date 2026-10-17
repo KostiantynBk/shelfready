@@ -1,0 +1,172 @@
+{
+ "item_id": "B07P5LMCLD",
+ "photos": {
+  "81ubOwANNhL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      715,
+      105,
+      803,
+      139
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      841,
+      690,
+      965,
+      731
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      712,
+      866,
+      767,
+      896
+     ]
+    }
+   ]
+  },
+  "91srgZBBI5L": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      863,
+      101,
+      974,
+      164
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      856,
+      796,
+      966,
+      859
+     ]
+    }
+   ]
+  },
+  "81dfYyMyjhL": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [
+    "33.1\"",
+    "35.8\"",
+    "64.2\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      351,
+      4,
+      396,
+      64
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      843,
+      145,
+      914,
+      211
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      843,
+      663,
+      894,
+      728
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      656,
+      136,
+      736,
+      174
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      783,
+      315,
+      932,
+      356
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      651,
+      872,
+      753,
+      905
+     ]
+    }
+   ]
+  },
+  "A1H3QPi0ZSL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "woven fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

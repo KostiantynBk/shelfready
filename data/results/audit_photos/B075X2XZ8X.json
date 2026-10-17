@@ -1,0 +1,178 @@
+{
+ "item_id": "B075X2XZ8X",
+ "photos": {
+  "71FBGWoCIvL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      856,
+      333,
+      986,
+      661
+     ]
+    }
+   ]
+  },
+  "71dG53IgppL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      862,
+      413,
+      988,
+      741
+     ]
+    }
+   ]
+  },
+  "A17zC-BjdyL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      768,
+      205,
+      855,
+      253
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      788,
+      396,
+      841,
+      445
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      803,
+      501,
+      896,
+      552
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      775,
+      654,
+      863,
+      695
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      613,
+      763,
+      653,
+      868
+     ]
+    }
+   ]
+  },
+  "A1K9vPV+4EL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      798,
+      98,
+      885,
+      145
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      793,
+      223,
+      843,
+      272
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      793,
+      441,
+      887,
+      488
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      773,
+      533,
+      843,
+      573
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      458,
+      813,
+      501,
+      863
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,150 @@
+{
+ "item_id": "B07TJSXWDT",
+ "photos": {
+  "610c4YRXlLL": {
+   "role": "detail",
+   "product_type": "upholstery",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "71ppMKysryL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      936,
+      652,
+      1000,
+      711
+     ]
+    }
+   ]
+  },
+  "71rwzgoYQ2L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      744,
+      11,
+      912,
+      461
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      754,
+      453,
+      992,
+      546
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      744,
+      538,
+      899,
+      988
+     ]
+    }
+   ]
+  },
+  "71q0yiIvIfL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      146,
+      816,
+      246
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      838,
+      10,
+      911,
+      115
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      848,
+      463,
+      975,
+      548
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      841,
+      848,
+      906,
+      943
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      746,
+      578,
+      806,
+      721
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,106 @@
+{
+ "item_id": "B00381D50K",
+ "photos": {
+  "51Op6j+RD6L": {
+   "role": "packshot",
+   "product_type": "desk lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      812,
+      186,
+      994,
+      296
+     ]
+    }
+   ]
+  },
+  "71IBz-15-ML": {
+   "role": "packshot",
+   "product_type": "desk lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      258,
+      284,
+      907,
+      849
+     ]
+    }
+   ]
+  },
+  "71f7TVGUdJL": {
+   "role": "packshot",
+   "product_type": "desk lamp clamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      266,
+      893,
+      741
+     ]
+    }
+   ]
+  },
+  "61-ls8mHDfL": {
+   "role": "packshot",
+   "product_type": "desk lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      105,
+      0,
+      663,
+      788
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

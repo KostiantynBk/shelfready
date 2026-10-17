@@ -1,0 +1,181 @@
+{
+ "item_id": "B07JVNB871",
+ "photos": {
+  "51YcNbB7nDL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      654,
+      145,
+      727,
+      192
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      724,
+      472,
+      856,
+      531
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      807,
+      732,
+      854
+     ]
+    }
+   ]
+  },
+  "51AQs6sk87L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      133,
+      761,
+      183
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      733,
+      592,
+      866,
+      648
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      625,
+      872,
+      708,
+      912
+     ]
+    }
+   ]
+  },
+  "71p2tJYtaQL": {
+   "role": "detail",
+   "product_type": "area rug",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "pile",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "512Khs2jEdL": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "66 cm",
+    "68 cm",
+    "68 cm"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      192,
+      66,
+      228,
+      156
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      844,
+      154,
+      885,
+      253
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      871,
+      722,
+      911,
+      821
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      616,
+      218,
+      672,
+      262
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      711,
+      488,
+      790,
+      538
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      631,
+      791,
+      686,
+      834
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

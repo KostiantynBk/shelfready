@@ -1,0 +1,158 @@
+{
+ "item_id": "B075YMY1Z9",
+ "photos": {
+  "A12cxHoTPPL": {
+   "role": "detail",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "91umJ7j4tIL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      546,
+      91,
+      873,
+      245
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      566,
+      344,
+      981,
+      407
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      566,
+      523,
+      835,
+      583
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      546,
+      814,
+      923,
+      883
+     ]
+    }
+   ]
+  },
+  "A1ZY-jZVI3L": {
+   "role": "lifestyle",
+   "product_type": "dining chair",
+   "products_in_frame": 2,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      141,
+      698,
+      183
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      200,
+      755,
+      234
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      613,
+      458,
+      846,
+      505
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      663,
+      594,
+      912,
+      652
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      742,
+      804,
+      795
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      633,
+      863,
+      875,
+      951
+     ]
+    }
+   ]
+  },
+  "B1iwARGs7AS": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

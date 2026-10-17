@@ -27,8 +27,6 @@ next-env.d.ts
 data/raw/
 data/cache/
 data/runtime/
-# Rebuilt from data/replay (recorded model answers) by app.pipeline.run_extraction
-data/results/
 *.sqlite
 *.sqlite3
 *.db

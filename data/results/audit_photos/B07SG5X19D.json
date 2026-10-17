@@ -1,0 +1,132 @@
+{
+ "item_id": "B07SG5X19D",
+ "photos": {
+  "91jH81i7piL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "71VvjEmCUQL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      56,
+      801,
+      491
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      531,
+      520,
+      801,
+      948
+     ]
+    }
+   ]
+  },
+  "71qZxbjqExL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      574,
+      271,
+      917,
+      343
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      574,
+      646,
+      917,
+      731
+     ]
+    }
+   ]
+  },
+  "81bFq-VLzrL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      826,
+      113,
+      1000,
+      173
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      826,
+      483,
+      1000,
+      518
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      783,
+      768,
+      1000,
+      885
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

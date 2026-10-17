@@ -1,0 +1,113 @@
+{
+ "item_id": "B075X5TMVT",
+ "photos": {
+  "A1VzknJ-Z5L": {
+   "role": "detail",
+   "product_type": "upholstery",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "812uqeeVunL": {
+   "role": "packshot",
+   "product_type": "daybed",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      17,
+      645,
+      48
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      135,
+      711,
+      168
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      945,
+      611,
+      977
+     ]
+    }
+   ]
+  },
+  "A1NSyL4rmrL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "A19s8IbIE6L": {
+   "role": "lifestyle",
+   "product_type": "daybed",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      853,
+      106,
+      894,
+      141
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      853,
+      926,
+      894,
+      961
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,181 @@
+{
+ "item_id": "B07JK8GF1G",
+ "photos": {
+  "81paGGDF6lL": {
+   "role": "detail",
+   "product_type": "upholstery fabric",
+   "products_in_frame": 1,
+   "colour_family": "purple",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "51kDdbKTe8L": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      558,
+      210,
+      864,
+      312
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      394,
+      974,
+      448
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      531,
+      831,
+      574
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      546,
+      721,
+      917,
+      811
+     ]
+    }
+   ]
+  },
+  "31H8zV2KwyL": {
+   "role": "detail",
+   "product_type": "furniture leg",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      336,
+      933,
+      669
+     ]
+    }
+   ]
+  },
+  "51TTBf38I3L": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "velvet",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "57",
+    "57",
+    "79"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      46,
+      336,
+      91,
+      394
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      118,
+      683,
+      164,
+      741
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      462,
+      135,
+      508,
+      193
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      556,
+      251,
+      858,
+      338
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      574,
+      405,
+      954,
+      458
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      571,
+      541,
+      831,
+      585
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      563,
+      706,
+      896,
+      793
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,127 @@
+{
+ "item_id": "B075X2Y3Q9",
+ "photos": {
+  "81eAgNiQZtL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      433,
+      351,
+      986,
+      641
+     ]
+    }
+   ]
+  },
+  "81o09GvAyJL": {
+   "role": "dimension_drawing",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [
+    "19\"",
+    "11.5\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      453,
+      395,
+      845,
+      596
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      462,
+      235,
+      493,
+      268
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      883,
+      475,
+      906,
+      524
+     ]
+    }
+   ]
+  },
+  "91X+3Uc3i4L": {
+   "role": "detail",
+   "product_type": "lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      585,
+      0,
+      991,
+      1000
+     ]
+    }
+   ]
+  },
+  "91jul7ivKrL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      436,
+      351,
+      986,
+      641
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

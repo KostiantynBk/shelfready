@@ -1,0 +1,505 @@
+{
+ "item_id": "B07DC1YGCT",
+ "photos": {
+  "61JZ50A4xAL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "umi.",
+    "umi.",
+    "umi."
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      53,
+      236,
+      85,
+      356
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      102,
+      313,
+      134,
+      408
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      494,
+      376,
+      526,
+      496
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      898,
+      24,
+      958,
+      116
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      941,
+      421,
+      1000,
+      512
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      893,
+      806,
+      954,
+      898
+     ]
+    }
+   ]
+  },
+  "710CjqoakyL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "umi.",
+    "umi.",
+    "umi."
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      78,
+      203,
+      112,
+      283
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      112,
+      714,
+      158,
+      814
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      182,
+      655,
+      228,
+      755
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      692,
+      655,
+      738,
+      755
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      742,
+      851,
+      992,
+      911
+     ]
+    }
+   ]
+  },
+  "71u79kq5KSL": {
+   "role": "promo",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "Synchro-Tilt",
+    "90°",
+    "Lock at any position",
+    "90° Comfortable work & Play games",
+    "110° Watching movie & TV shows",
+    "125° Reading book or Magazines",
+    "150° For cozy,Sleep or Short rest",
+    "150°",
+    "TIPS:When adjusting the chair back,please make your back close to the chair back and right-hand control lever to prevent excessive rebound strength of the chair."
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      24,
+      223,
+      66,
+      502
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      101,
+      492,
+      126,
+      534
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      221,
+      593,
+      258,
+      981
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      293,
+      586,
+      322,
+      981
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      341,
+      586,
+      370,
+      956
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      388,
+      586,
+      417,
+      952
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      436,
+      586,
+      465,
+      963
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      353,
+      5,
+      382,
+      68
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      863,
+      22,
+      946,
+      393
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      854,
+      414,
+      911,
+      514
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      874,
+      578,
+      966,
+      634
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      854,
+      688,
+      911,
+      788
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      881,
+      774,
+      941,
+      824
+     ]
+    }
+   ]
+  },
+  "71Vtqe7F9XL": {
+   "role": "promo",
+   "product_type": "gaming chair",
+   "products_in_frame": 4,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "6 Ergonomic Systems",
+    "umi.",
+    "umi.",
+    "Ergonomic metal frame",
+    "The max reclining 150°",
+    "Adjustable armrest",
+    "umi.",
+    "umi.",
+    "Headrest waistrest system",
+    "Cushion support system",
+    "Rocking function"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      18,
+      58,
+      64,
+      536
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      183,
+      478,
+      208,
+      543
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      216,
+      478,
+      241,
+      543
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      372,
+      68,
+      396,
+      243
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      342,
+      766,
+      366,
+      958
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      647,
+      68,
+      671,
+      215
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      523,
+      478,
+      554,
+      543
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      486,
+      815,
+      514,
+      880
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      572,
+      851,
+      599,
+      916
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      647,
+      773,
+      671,
+      973
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      941,
+      63,
+      966,
+      241
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      941,
+      796,
+      966,
+      928
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      842,
+      276,
+      892,
+      325
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      842,
+      361,
+      865,
+      411
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      892,
+      478,
+      946,
+      521
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      842,
+      588,
+      865,
+      638
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      842,
+      675,
+      892,
+      724
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      874,
+      831,
+      903,
+      845
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      874,
+      845,
+      903,
+      859
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      874,
+      859,
+      903,
+      873
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      874,
+      873,
+      903,
+      887
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,528 @@
+{
+ "product_id": "SYN-13",
+ "decisions": {},
+ "facts": {
+  "product_name": "Divano SIENA / SIENA sofa",
+  "model": "SIENA",
+  "brand": "Arredo Brianza",
+  "width_cm": 224,
+  "depth_cm": 71,
+  "height_cm": 91,
+  "seat_height_cm": 44,
+  "seat_depth_cm": 43,
+  "max_load_kg": 330,
+  "weight_kg": 54,
+  "product_type": "Divano / sofa",
+  "legs_or_base": "Pino + multistrato",
+  "upholstery": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+  "care": "Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C",
+  "country_of_origin": "Italia",
+  "safety_warnings": [
+   "Non utilizzare all'aperto.",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "SIE-13-BLU",
+    "colour_name": "Blu"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "manufacturer_address",
+   "variant": null,
+   "reason": "Manufacturer address missing",
+   "issue": "D12::manufacturer_address:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "IMG_4287.JPG",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "SIENA_BLU_01.jpg",
+   "variant": "SIE-13-BLU",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "SIENA_BLU_02.jpg",
+   "variant": "SIE-13-BLU",
+   "view": "packshot",
+   "colour_seen": "grey"
+  }
+ ],
+ "protected": [
+  "Arredo Brianza",
+  "SIENA",
+  "SIE-13-BLU"
+ ],
+ "en": {
+  "title": "Arredo Brianza SIENA Sofa",
+  "bullets": [
+   "Dimensions: 224 cm width, 71 cm depth, 91 cm height",
+   "Seat height: 44 cm; seat depth: 43 cm",
+   "Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C",
+   "Base made of pine and multiplex",
+   "Maximum load capacity: 330 kg"
+  ],
+  "description": "The SIENA sofa by Arredo Brianza is a high-quality piece of furniture made in Italia. It features a durable 100% polyester fabric upholstery and a sturdy pine and multiplex base.",
+  "colours": [
+   {
+    "code": "SIE-13-BLU",
+    "name": "Blue"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "IMG_4287.JPG",
+    "text": "SIENA sofa in grey, packshot view"
+   },
+   {
+    "file": "SIENA_BLU_01.jpg",
+    "text": "SIENA sofa in grey, packshot view"
+   },
+   {
+    "file": "SIENA_BLU_02.jpg",
+    "text": "SIENA sofa in grey, packshot view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sofá Arredo Brianza SIENA",
+    "bullets": [
+     "Dimensiones: 224 cm de ancho, 71 cm de profundidad, 91 cm de altura",
+     "Altura del asiento: 44 cm; profundidad del asiento: 43 cm",
+     "Tapicería: tejido plano 100% poliéster con funda extraíble lavable a 30 °C",
+     "Base fabricada en pino y multiplex",
+     "Capacidad de carga máxima: 330 kg"
+    ],
+    "description": "El sofá SIENA de Arredo Brianza es un mueble de alta calidad fabricado en Italia. Cuenta con una tapicería duradera de tejido 100% poliéster y una robusta base de pino y multiplex.",
+    "colours": [
+     {
+      "code": "SIE-13-BLU",
+      "name": "Azul"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4287.JPG",
+      "text": "Sofá SIENA en gris, vista de producto"
+     },
+     {
+      "file": "SIENA_BLU_01.jpg",
+      "text": "Sofá SIENA en gris, vista de producto"
+     },
+     {
+      "file": "SIENA_BLU_02.jpg",
+      "text": "Sofá SIENA en gris, vista de producto"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Divano Arredo Brianza SIENA",
+    "bullets": [
+     "Dimensioni: 224 cm di larghezza, 71 cm di profondità, 91 cm di altezza",
+     "Altezza seduta: 44 cm; profondità seduta: 43 cm",
+     "Rivestimento: tessuto intrecciato 100% poliestere con cover rimovibile lavabile a 30 °C",
+     "Base realizzata in pino e multiplex",
+     "Capacità di carico massima: 330 kg"
+    ],
+    "description": "Il divano SIENA di Arredo Brianza è un mobile di alta qualità realizzato in Italia. Presenta un rivestimento resistente in tessuto 100% poliestere e una robusta base in pino e multiplex.",
+    "colours": [
+     {
+      "code": "SIE-13-BLU",
+      "name": "Blu"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sulla seduta."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4287.JPG",
+      "text": "Divano SIENA in grigio, vista packshot"
+     },
+     {
+      "file": "SIENA_BLU_01.jpg",
+      "text": "Divano SIENA in grigio, vista packshot"
+     },
+     {
+      "file": "SIENA_BLU_02.jpg",
+      "text": "Divano SIENA in grigio, vista packshot"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Arredo Brianza SIENA Sofa",
+    "bullets": [
+     "Maße: 224 cm Breite, 71 cm Tiefe, 91 cm Höhe",
+     "Sitzhöhe: 44 cm; Sitztiefe: 43 cm",
+     "Bezug: 100% Polyester-Webstoff mit abnehmbarem, bei 30 °C waschbarem Bezug",
+     "Untergestell aus Kiefer und Multiplex",
+     "Maximale Belastbarkeit: 330 kg"
+    ],
+    "description": "Das SIENA Sofa von Arredo Brianza ist ein hochwertiges Möbelstück aus italienischer Herstellung. Es verfügt über einen strapazierfähigen Bezug aus 100% Polyestergewebe und ein stabiles Gestell aus Kiefer und Multiplex.",
+    "colours": [
+     {
+      "code": "SIE-13-BLU",
+      "name": "Blau"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4287.JPG",
+      "text": "SIENA Sofa in Grau, Produktansicht"
+     },
+     {
+      "file": "SIENA_BLU_01.jpg",
+      "text": "SIENA Sofa in Grau, Produktansicht"
+     },
+     {
+      "file": "SIENA_BLU_02.jpg",
+      "text": "SIENA Sofa in Grau, Produktansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza SIENA Sofa",
+    "bullets": [
+     "Dimensions: 224 cm width, 71 cm depth, 91 cm height",
+     "Seat height: 44 cm; Seat depth: 43 cm",
+     "Cover: 100% polyester woven fabric with removable cover washable at 30 °C",
+     "Base frame made of pine and multiplex",
+     "Maximum load capacity: 330 kg"
+    ],
+    "description": "The SIENA sofa from Arredo Brianza is a high-quality piece of furniture of Italian manufacture. It features a durable cover made of 100% polyester fabric and a stable frame made of pine and multiplex.",
+    "colours": [
+     {
+      "code": "SIE-13-BLU",
+      "name": "Blue"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4287.JPG",
+      "text": "SIENA sofa in grey, product view"
+     },
+     {
+      "file": "SIENA_BLU_01.jpg",
+      "text": "SIENA sofa in grey, product view"
+     },
+     {
+      "file": "SIENA_BLU_02.jpg",
+      "text": "SIENA sofa in grey, product view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Canapé Arredo Brianza SIENA",
+    "bullets": [
+     "Dimensions : 224 cm de largeur, 71 cm de profondeur, 91 cm de hauteur",
+     "Hauteur d'assise : 44 cm ; profondeur d'assise : 43 cm",
+     "Revêtement : tissu tissé 100 % polyester avec housse amovible lavable à 30 °C",
+     "Structure en pin et multiplex",
+     "Capacité de charge maximale : 330 kg"
+    ],
+    "description": "Le canapé SIENA d'Arredo Brianza est un meuble de haute qualité fabriqué en Italie. Il dispose d'un revêtement durable en tissu 100 % polyester et d'une structure robuste en pin et multiplex.",
+    "colours": [
+     {
+      "code": "SIE-13-BLU",
+      "name": "Bleu"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur l'assise."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4287.JPG",
+      "text": "Canapé SIENA en gris, vue packshot"
+     },
+     {
+      "file": "SIENA_BLU_01.jpg",
+      "text": "Canapé SIENA en gris, vue packshot"
+     },
+     {
+      "file": "SIENA_BLU_02.jpg",
+      "text": "Canapé SIENA en gris, vue packshot"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Sofá Arredo Brianza SIENA",
+    "bullets": [
+     "Dimensões: 224 cm de largura, 71 cm de profundidade, 91 cm de altura",
+     "Altura do assento: 44 cm; profundidade do assento: 43 cm",
+     "Estofos: tecido tecido 100% poliéster com capa removível lavável a 30 °C",
+     "Base fabricada em pinho e contraplacado",
+     "Capacidade de carga máxima: 330 kg"
+    ],
+    "description": "O sofá SIENA da Arredo Brianza é uma peça de mobiliário de alta qualidade fabricada em Itália. Apresenta um estofos em tecido 100% poliéster durável e uma base robusta de pinho e contraplacado.",
+    "colours": [
+     {
+      "code": "SIE-13-BLU",
+      "name": "Azul"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4287.JPG",
+      "text": "Sofá SIENA em cinzento, vista de catálogo"
+     },
+     {
+      "file": "SIENA_BLU_01.jpg",
+      "text": "Sofá SIENA em cinzento, vista de catálogo"
+     },
+     {
+      "file": "SIENA_BLU_02.jpg",
+      "text": "Sofá SIENA em cinzento, vista de catálogo"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Sofa Arredo Brianza SIENA",
+    "bullets": [
+     "Wymiary: szerokość 224 cm, głębokość 71 cm, wysokość 91 cm",
+     "Wysokość siedziska: 44 cm; głębokość siedziska: 43 cm",
+     "Obicie: tkanina pleciona 100% poliester z zdejmowaną pokrową, możliwa do prania w 30 °C",
+     "Podstawa wykonana z sosny i sklejki",
+     "Maksymalne obciążenie: 330 kg"
+    ],
+    "description": "Sofa SIENA marki Arredo Brianza to wysokiej jakości mebel wyprodukowany we Włoszech. Charakteryzuje się trwałym obiciem z tkaniny 100% poliester oraz solidną podstawą z sosny i sklejki.",
+    "colours": [
+     {
+      "code": "SIE-13-BLU",
+      "name": "Niebieski"
+     }
+    ],
+    "safety_warnings": [
+     "Produkt nieprzeznaczony do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4287.JPG",
+      "text": "Sofa SIENA w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "SIENA_BLU_01.jpg",
+      "text": "Sofa SIENA w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "SIENA_BLU_02.jpg",
+      "text": "Sofa SIENA w kolorze szarym, widok produktowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Диван Arredo Brianza SIENA",
+    "bullets": [
+     "Розміри: ширина 224 см, глибина 71 см, висота 91 см",
+     "Висота сидіння: 44 см; глибина сидіння: 43 см",
+     "Оббивка: 100% поліестерова тканина з одним знімним чохлом, що переється при 30 °C",
+     "Основа виготовлена з сосни та мультиплексу",
+     "Максимальна вантажопідйомність: 330 кг"
+    ],
+    "description": "Диван SIENA від Arredo Brianza — це високоякісний предмет меблів, виготовлений в Італії. Він має міцну оббивку зі 100% поліестерової тканини та надійну основу з сосни та мультиплексу.",
+    "colours": [
+     {
+      "code": "SIE-13-BLU",
+      "name": "Синій"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4287.JPG",
+      "text": "Диван SIENA у сірому кольорі, вигляд у повний зріз"
+     },
+     {
+      "file": "SIENA_BLU_01.jpg",
+      "text": "Диван SIENA у сірому кольорі, вигляд у повний зріз"
+     },
+     {
+      "file": "SIENA_BLU_02.jpg",
+      "text": "Диван SIENA у сірому кольорі, вигляд у повний зріз"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza SIENA Sofa",
+    "bullets": [
+     "Dimensions: width 224 cm, depth 71 cm, height 91 cm",
+     "Seat height: 44 cm; seat depth: 43 cm",
+     "Upholstery: 100% polyester fabric with one removable cover, washable at 30 °C",
+     "Base made of pine and multiplex",
+     "Maximum load capacity: 330 kg"
+    ],
+    "description": "The SIENA sofa from Arredo Brianza is a high-quality piece of furniture made in Italy. It features durable upholstery made of 100% polyester fabric and a reliable base of pine and multiplex.",
+    "colours": [
+     {
+      "code": "SIE-13-BLU",
+      "name": "Blue"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4287.JPG",
+      "text": "SIENA sofa in grey color, full view"
+     },
+     {
+      "file": "SIENA_BLU_01.jpg",
+      "text": "SIENA sofa in grey color, full view"
+     },
+     {
+      "file": "SIENA_BLU_02.jpg",
+      "text": "SIENA sofa in grey color, full view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

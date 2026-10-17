@@ -1,0 +1,404 @@
+{
+ "item_id": "B07TJWD8RP",
+ "photos": {
+  "51znpLU3ajL": {
+   "role": "detail",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      418,
+      0,
+      998,
+      341
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      426,
+      356,
+      1000,
+      533
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      431,
+      538,
+      1000,
+      722
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      415,
+      678,
+      1000,
+      1000
+     ]
+    }
+   ]
+  },
+  "71NeKx9LzsL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 2,
+   "colour_family": "green",
+   "upholstery_material": "velvet",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      101,
+      842,
+      238
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      221,
+      973,
+      268
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      265,
+      812,
+      335
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      548,
+      321,
+      896,
+      465
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      535,
+      541,
+      842,
+      678
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      542,
+      662,
+      973,
+      709
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      542,
+      706,
+      812,
+      776
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      542,
+      752,
+      896,
+      911
+     ]
+    }
+   ]
+  },
+  "71hTOgNjh7L": {
+   "role": "lifestyle",
+   "product_type": "dining set",
+   "products_in_frame": 5,
+   "colour_family": "green",
+   "upholstery_material": "velvet",
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      221,
+      814,
+      266
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      655,
+      301,
+      798,
+      351
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      655,
+      341,
+      788,
+      391
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      661,
+      391,
+      872,
+      438
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      714,
+      431,
+      845,
+      488
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      725,
+      491,
+      872,
+      538
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      725,
+      551,
+      858,
+      641
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      661,
+      601,
+      788,
+      658
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      661,
+      671,
+      832,
+      718
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      661,
+      731,
+      801,
+      795
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      241,
+      491,
+      365,
+      651
+     ]
+    }
+   ]
+  },
+  "71CHw+3R1aL": {
+   "role": "dimension_drawing",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "850mm",
+    "310mm",
+    "420mm",
+    "440mm",
+    "400mm",
+    "485mm",
+    "490mm",
+    "SIZE : 485*550*850mm",
+    "Height+/-0.5cm"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      362,
+      46,
+      432,
+      82
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      67,
+      296,
+      98,
+      415
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      171,
+      306,
+      253,
+      353
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      275,
+      393,
+      307,
+      512
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      346,
+      562,
+      395,
+      681
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      382,
+      488,
+      416,
+      607
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      646,
+      933,
+      727,
+      970
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      912,
+      322,
+      941,
+      674
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      956,
+      368,
+      985,
+      628
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      461,
+      168,
+      761,
+      441
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      466,
+      450,
+      865,
+      512
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      466,
+      547,
+      773,
+      841
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      470,
+      497,
+      673,
+      541
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

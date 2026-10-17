@@ -1,0 +1,137 @@
+{
+ "item_id": "B07K51RSQ6",
+ "photos": {
+  "81r4u1dVYRL": {
+   "role": "detail",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "wood",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      148,
+      33,
+      685,
+      974
+     ]
+    }
+   ]
+  },
+  "71PY84KwLxL": {
+   "role": "packshot",
+   "product_type": "power cable with switch",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [
+    "VDE",
+    "0.75mm2",
+    "NSW"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      345,
+      675,
+      501,
+      998
+     ]
+    }
+   ]
+  },
+  "715eDNH3qbL": {
+   "role": "lifestyle",
+   "product_type": "nightstand",
+   "products_in_frame": 2,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "wood",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      515,
+      600,
+      571,
+      735
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      816,
+      392,
+      995,
+      463
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      816,
+      683,
+      995,
+      753
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      821,
+      803,
+      995,
+      863
+     ]
+    }
+   ]
+  },
+  "912KxHjT+DL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "wood",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      733,
+      151,
+      993,
+      658
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

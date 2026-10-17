@@ -1,0 +1,718 @@
+{
+ "product_id": "SYN-05",
+ "decisions": {},
+ "facts": {
+  "product_name": "Poltrona relax LECCO / LECCO recliner",
+  "model": "LECCO",
+  "brand": "Arredo Brianza",
+  "depth_cm": 107,
+  "height_cm": 112,
+  "seat_height_cm": 45,
+  "seat_depth_cm": 64,
+  "max_load_kg": 120,
+  "weight_kg": 52.2,
+  "product_type": "Poltrona relax / recliner",
+  "legs_or_base": "Pino + multistrato",
+  "upholstery": "Tessuto, 100% poliestere / woven fabric, 100% polyester",
+  "care": "Fodera sfoderabile, lavare a 30 °C / removable cover, washable at 30 °C",
+  "country_of_origin": "Italia",
+  "safety_warnings": [
+   "Non utilizzare all'aperto.",
+   "Not for outdoor use.",
+   "Tenere lontano da fonti di calore.",
+   "Keep away from heat sources.",
+   "Non salire in piedi sulla seduta.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "LEC-05-COG",
+    "colour_name": "Cognac"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "colour",
+   "variant": "LEC-05-ANT",
+   "reason": "LEC-05-ANT: 'Sabbia' but the photos look grey",
+   "issue": "D10:LEC-05-ANT:colour:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "width",
+   "variant": null,
+   "reason": "Width: spec 87 cm, drawing 97 cm",
+   "issue": "D11::width:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "IMG_4579.JPG",
+   "variant": null,
+   "view": "detail",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "LECCO_ANT_01.jpg",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LECCO_ANT_02.jpg",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LECCO_ANT_04.jpg",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LECCO_COG_01.jpg",
+   "variant": "LEC-05-COG",
+   "view": "packshot",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "LECCO_COG_02.jpg",
+   "variant": "LEC-05-COG",
+   "view": "detail",
+   "colour_seen": "brown"
+  },
+  {
+   "file": "LECCO_COG_03.jpg",
+   "variant": "LEC-05-COG",
+   "view": "detail",
+   "colour_seen": "brown"
+  }
+ ],
+ "protected": [
+  "Arredo Brianza",
+  "LECCO",
+  "LEC-05-COG"
+ ],
+ "en": {
+  "title": "Arredo Brianza LECCO Recliner",
+  "bullets": [
+   "Dimensions: 112 cm height, 107 cm depth, 45 cm seat height, and 64 cm seat depth",
+   "Upholstery: 100% polyester woven fabric with a removable cover washable at 30 °C",
+   "Base: Constructed from pine and multilayer",
+   "Maximum load capacity: 120 kg",
+   "Made in Italia"
+  ],
+  "description": "The LECCO recliner by Arredo Brianza is a comfortable seating solution featuring a 100% polyester woven fabric upholstery. This Italian-made chair includes a removable cover for easy maintenance.",
+  "colours": [
+   {
+    "code": "LEC-05-COG",
+    "name": "Cognac"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "IMG_4579.JPG",
+    "text": "Detail view of the LECCO recliner in brown."
+   },
+   {
+    "file": "LECCO_ANT_01.jpg",
+    "text": "Packshot of the LECCO recliner in grey."
+   },
+   {
+    "file": "LECCO_ANT_02.jpg",
+    "text": "Packshot of the LECCO recliner in grey."
+   },
+   {
+    "file": "LECCO_ANT_04.jpg",
+    "text": "Packshot of the LECCO recliner in grey."
+   },
+   {
+    "file": "LECCO_COG_01.jpg",
+    "text": "Packshot of the LECCO recliner in Cognac brown."
+   },
+   {
+    "file": "LECCO_COG_02.jpg",
+    "text": "Detail view of the LECCO recliner in Cognac brown."
+   },
+   {
+    "file": "LECCO_COG_03.jpg",
+    "text": "Detail view of the LECCO recliner in Cognac brown."
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sillón Reclinable Arredo Brianza LECCO",
+    "bullets": [
+     "Dimensiones: 112 cm de altura, 107 cm de profundidad, 45 cm de altura del asiento y 64 cm de profundidad del asiento",
+     "Tapicería: tejido 100% poliéster con funda extraíble lavable a 30 °C",
+     "Base: construida en pino y multicapa",
+     "Capacidad de carga máxima: 120 kg",
+     "Fabricado en Italia"
+    ],
+    "description": "El sillón reclinable LECCO de Arredo Brianza es una solución de asiento cómoda con tapicería de tejido 100% poliéster. Esta silla de fabricación italiana incluye una funda extraíble para facilitar su mantenimiento.",
+    "colours": [
+     {
+      "code": "LEC-05-COG",
+      "name": "Cognac"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4579.JPG",
+      "text": "Vista de detalle del sillón LECCO en marrón."
+     },
+     {
+      "file": "LECCO_ANT_01.jpg",
+      "text": "Imagen de producto del sillón LECCO en gris."
+     },
+     {
+      "file": "LECCO_ANT_02.jpg",
+      "text": "Imagen de producto del sillón LECCO en gris."
+     },
+     {
+      "file": "LECCO_ANT_04.jpg",
+      "text": "Imagen de producto del sillón LECCO en gris."
+     },
+     {
+      "file": "LECCO_COG_01.jpg",
+      "text": "Imagen de producto del sillón LECCO en marrón Cognac."
+     },
+     {
+      "file": "LECCO_COG_02.jpg",
+      "text": "Vista de detalle del sillón LECCO en marrón Cognac."
+     },
+     {
+      "file": "LECCO_COG_03.jpg",
+      "text": "Vista de detalle del sillón LECCO en marrón Cognac."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Poltrona Relax Arredo Brianza LECCO",
+    "bullets": [
+     "Dimensioni: altezza 112 cm, profondità 107 cm, altezza seduta 45 cm e profondità seduta 64 cm",
+     "Rivestimento: tessuto intrecciato 100% poliestere con fodera rimovibile lavabile a 30 °C",
+     "Base: realizzata in pino e multistrato",
+     "Capacità di carico massima: 120 kg",
+     "Made in Italia"
+    ],
+    "description": "La poltrona relax LECCO di Arredo Brianza è una soluzione di seduta confortevole caratterizzata da un rivestimento in tessuto intrecciato 100% poliestere. Questa sedia di produzione italiana include una fodera rimovibile per una facile manutenzione.",
+    "colours": [
+     {
+      "code": "LEC-05-COG",
+      "name": "Cognac"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sulla seduta."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4579.JPG",
+      "text": "Vista dettagliata della poltrona LECCO in marrone."
+     },
+     {
+      "file": "LECCO_ANT_01.jpg",
+      "text": "Immagine prodotto della poltrona LECCO in grigio."
+     },
+     {
+      "file": "LECCO_ANT_02.jpg",
+      "text": "Immagine prodotto della poltrona LECCO in grigio."
+     },
+     {
+      "file": "LECCO_ANT_04.jpg",
+      "text": "Immagine prodotto della poltrona LECCO in grigio."
+     },
+     {
+      "file": "LECCO_COG_01.jpg",
+      "text": "Immagine prodotto della poltrona LECCO in marrone Cognac."
+     },
+     {
+      "file": "LECCO_COG_02.jpg",
+      "text": "Vista dettagliata della poltrona LECCO in marrone Cognac."
+     },
+     {
+      "file": "LECCO_COG_03.jpg",
+      "text": "Vista dettagliata della poltrona LECCO in marrone Cognac."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Arredo Brianza LECCO Relaxsessel",
+    "bullets": [
+     "Maße: 112 cm Höhe, 107 cm Tiefe, 45 cm Sitzhöhe und 64 cm Sitztiefe",
+     "Bezug: Gewebter Stoff aus 100 % Polyester mit abnehmbarem, bei 30 °C waschbarem Bezug",
+     "Untergestell: Gefertigt aus Kiefer und Multiplex",
+     "Maximale Belastbarkeit: 120 kg",
+     "Hergestellt in Italien"
+    ],
+    "description": "Der LECCO Relaxsessel von Arredo Brianza ist eine komfortable Sitzlösung mit einem Bezug aus 100 % Polyester-Webstoff. Dieser in Italien gefertigte Sessel verfügt über einen abnehmbaren Bezug für eine einfache Pflege.",
+    "colours": [
+     {
+      "code": "LEC-05-COG",
+      "name": "Cognac"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4579.JPG",
+      "text": "Detailansicht des LECCO Relaxsessels in Braun."
+     },
+     {
+      "file": "LECCO_ANT_01.jpg",
+      "text": "Produktfoto des LECCO Relaxsessels in Grau."
+     },
+     {
+      "file": "LECCO_ANT_02.jpg",
+      "text": "Produktfoto des LECCO Relaxsessels in Grau."
+     },
+     {
+      "file": "LECCO_ANT_04.jpg",
+      "text": "Produktfoto des LECCO Relaxsessels in Grau."
+     },
+     {
+      "file": "LECCO_COG_01.jpg",
+      "text": "Produktfoto des LECCO Relaxsessels in Cognacbraun."
+     },
+     {
+      "file": "LECCO_COG_02.jpg",
+      "text": "Detailansicht des LECCO Relaxsessels in Cognacbraun."
+     },
+     {
+      "file": "LECCO_COG_03.jpg",
+      "text": "Detailansicht des LECCO Relaxsessels in Cognacbraun."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza LECCO Recliner Chair",
+    "bullets": [
+     "Dimensions: 112 cm height, 107 cm depth, 45 cm seat height and 64 cm seat depth",
+     "Cover: Woven fabric made of 100% polyester with removable cover washable at 30 °C",
+     "Base frame: Made of pine and multiplex",
+     "Maximum load capacity: 120 kg",
+     "Made in Italy"
+    ],
+    "description": "The LECCO recliner chair from Arredo Brianza is a comfortable seating solution with a cover made of 100% polyester woven fabric. This chair, manufactured in Italy, features a removable cover for easy care.",
+    "colours": [
+     {
+      "code": "LEC-05-COG",
+      "name": "Cognac"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4579.JPG",
+      "text": "Detailed view of the LECCO recliner chair in brown."
+     },
+     {
+      "file": "LECCO_ANT_01.jpg",
+      "text": "Product photo of the LECCO recliner chair in grey."
+     },
+     {
+      "file": "LECCO_ANT_02.jpg",
+      "text": "Product photo of the LECCO recliner chair in grey."
+     },
+     {
+      "file": "LECCO_ANT_04.jpg",
+      "text": "Product photo of the LECCO recliner chair in grey."
+     },
+     {
+      "file": "LECCO_COG_01.jpg",
+      "text": "Product photo of the LECCO recliner chair in cognac brown."
+     },
+     {
+      "file": "LECCO_COG_02.jpg",
+      "text": "Detailed view of the LECCO recliner chair in cognac brown."
+     },
+     {
+      "file": "LECCO_COG_03.jpg",
+      "text": "Detailed view of the LECCO recliner chair in cognac brown."
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Fauteuil inclinable Arredo Brianza LECCO",
+    "bullets": [
+     "Dimensions : 112 cm de hauteur, 107 cm de profondeur, 45 cm de hauteur d'assise et 64 cm de profondeur d'assise",
+     "Revêtement : tissu tissé 100 % polyester avec housse amovible lavable à 30 °C",
+     "Structure : conçue en pin et multicouche",
+     "Capacité de charge maximale : 120 kg",
+     "Fabriqué en Italie"
+    ],
+    "description": "Le fauteuil inclinable LECCO d'Arredo Brianza est une solution d'assise confortable dotée d'un revêtement en tissu tissé 100 % polyester. Ce fauteuil fabriqué en Italie comprend une housse amovible pour un entretien facile.",
+    "colours": [
+     {
+      "code": "LEC-05-COG",
+      "name": "Cognac"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4579.JPG",
+      "text": "Vue détaillée du fauteuil LECCO en marron."
+     },
+     {
+      "file": "LECCO_ANT_01.jpg",
+      "text": "Photo produit du fauteuil LECCO en gris."
+     },
+     {
+      "file": "LECCO_ANT_02.jpg",
+      "text": "Photo produit du fauteuil LECCO en gris."
+     },
+     {
+      "file": "LECCO_ANT_04.jpg",
+      "text": "Photo produit du fauteuil LECCO en gris."
+     },
+     {
+      "file": "LECCO_COG_01.jpg",
+      "text": "Photo produit du fauteuil LECCO en marron Cognac."
+     },
+     {
+      "file": "LECCO_COG_02.jpg",
+      "text": "Vue détaillée du fauteuil LECCO en marron Cognac."
+     },
+     {
+      "file": "LECCO_COG_03.jpg",
+      "text": "Vue détaillée du fauteuil LECCO en marron Cognac."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Poltrona Reclinável Arredo Brianza LECCO",
+    "bullets": [
+     "Dimensões: 112 cm de altura, 107 cm de profundidade, 45 cm de altura do assento e 64 cm de profundidade do assento",
+     "Estofos: Tecido tecido 100% poliéster com capa removível lavável a 30 °C",
+     "Base: Construída em pinho e contraplacado multicamada",
+     "Capacidade de carga máxima: 120 kg",
+     "Fabricado em Itália"
+    ],
+    "description": "A poltrona reclinável LECCO da Arredo Brianza é uma solução de assento confortável com estofos em tecido 100% poliéster. Esta cadeira de fabrico italiano inclui uma capa removível para facilitar a manutenção.",
+    "colours": [
+     {
+      "code": "LEC-05-COG",
+      "name": "Conhaque"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4579.JPG",
+      "text": "Vista detalhada da poltrona LECCO em castanho."
+     },
+     {
+      "file": "LECCO_ANT_01.jpg",
+      "text": "Fotografia de produto da poltrona LECCO em cinzento."
+     },
+     {
+      "file": "LECCO_ANT_02.jpg",
+      "text": "Fotografia de produto da poltrona LECCO em cinzento."
+     },
+     {
+      "file": "LECCO_ANT_04.jpg",
+      "text": "Fotografia de produto da poltrona LECCO em cinzento."
+     },
+     {
+      "file": "LECCO_COG_01.jpg",
+      "text": "Fotografia de produto da poltrona LECCO em castanho conhaque."
+     },
+     {
+      "file": "LECCO_COG_02.jpg",
+      "text": "Vista detalhada da poltrona LECCO em castanho conhaque."
+     },
+     {
+      "file": "LECCO_COG_03.jpg",
+      "text": "Vista detalhada da poltrona LECCO em castanho conhaque."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Fotel rozkładany Arredo Brianza LECCO",
+    "bullets": [
+     "Wymiary: 112 cm wysokości, 107 cm głębokości, 45 cm wysokości siedziska i 64 cm głębokości siedziska",
+     "Obicie: tkanina pleciona 100% poliester ze zdejmowaną pokrową nadającą się do prania w 30 °C",
+     "Podstawa: wykonana z sosny i wielowarstwowej płyty drewnianej",
+     "Maksymalne obciążenie: 120 kg",
+     "Wyprodukowano we Włoszech"
+    ],
+    "description": "Fotel rozkładany LECCO marki Arredo Brianza to komfortowe rozwiązanie do siedzenia z obiciem z tkaniny plecionej 100% poliester. Ten włoski fotel posiada zdejmowaną pokrowę, co ułatwia jego konserwację.",
+    "colours": [
+     {
+      "code": "LEC-05-COG",
+      "name": "Koniakowy"
+     }
+    ],
+    "safety_warnings": [
+     "Nie używać na zewnątrz.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stawać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4579.JPG",
+      "text": "Zbliżenie na fotel rozkładany LECCO w kolorze brązowym."
+     },
+     {
+      "file": "LECCO_ANT_01.jpg",
+      "text": "Zdjęcie produktowe fotela rozkładanego LECCO w kolorze szarym."
+     },
+     {
+      "file": "LECCO_ANT_02.jpg",
+      "text": "Zdjęcie produktowe fotela rozkładanego LECCO w kolorze szarym."
+     },
+     {
+      "file": "LECCO_ANT_04.jpg",
+      "text": "Zdjęcie produktowe fotela rozkładanego LECCO w kolorze szarym."
+     },
+     {
+      "file": "LECCO_COG_01.jpg",
+      "text": "Zdjęcie produktowe fotela rozkładanego LECCO w kolorze koniakowym."
+     },
+     {
+      "file": "LECCO_COG_02.jpg",
+      "text": "Zbliżenie na fotel rozkładany LECCO w kolorze koniakowym."
+     },
+     {
+      "file": "LECCO_COG_03.jpg",
+      "text": "Zbliżenie na fotel rozkładany LECCO w kolorze koniakowym."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Крісло-реклайнер Arredo Brianza LECCO",
+    "bullets": [
+     "Розміри: висота 112 см, глибина 107 см, висота сидіння 45 см, глибина сидіння 64 см",
+     "Оббивка: 100% поліестерова тканина з одним чохлом, що знімається, який можна прати при 30 °C",
+     "Основа: виготовлена з сосни та багатошарової плити",
+     "Максимальна вантажопідйомність: 120 кг",
+     "Виготовлено в Італії"
+    ],
+    "description": "Крісло-реклайнер LECCO від Arredo Brianza — це комфортне рішення для відпочинку з оббивкою зі 100% поліестерової тканини. Це крісло італійського виробництва має знімний чохол для легкого догляду.",
+    "colours": [
+     {
+      "code": "LEC-05-COG",
+      "name": "Коньячний"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4579.JPG",
+      "text": "Детальний вигляд крісла-реклайнера LECCO в коричневому кольорі."
+     },
+     {
+      "file": "LECCO_ANT_01.jpg",
+      "text": "Загальний вигляд крісла-реклайнера LECCO в сірому кольорі."
+     },
+     {
+      "file": "LECCO_ANT_02.jpg",
+      "text": "Загальний вигляд крісла-реклайнера LECCO в сірому кольорі."
+     },
+     {
+      "file": "LECCO_ANT_04.jpg",
+      "text": "Загальний вигляд крісла-реклайнера LECCO в сірому кольорі."
+     },
+     {
+      "file": "LECCO_COG_01.jpg",
+      "text": "Загальний вигляд крісла-реклайнера LECCO в коньячно-коричневому кольорі."
+     },
+     {
+      "file": "LECCO_COG_02.jpg",
+      "text": "Детальний вигляд крісла-реклайнера LECCO в коньячно-коричневому кольорі."
+     },
+     {
+      "file": "LECCO_COG_03.jpg",
+      "text": "Детальний вигляд крісла-реклайнера LECCO в коньячно-коричневому кольорі."
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Arredo Brianza LECCO Recliner Chair",
+    "bullets": [
+     "Dimensions: height 112 cm, depth 107 cm, seat height 45 cm, seat depth 64 cm",
+     "Upholstery: 100% polyester fabric with one removable cover, washable at 30 °C",
+     "Base: made of pine and multilayer board",
+     "Maximum load capacity: 120 kg",
+     "Made in Italy"
+    ],
+    "description": "The LECCO recliner chair from Arredo Brianza is a comfortable relaxation solution with 100% polyester fabric upholstery. This Italian-made chair has a removable cover for easy care.",
+    "colours": [
+     {
+      "code": "LEC-05-COG",
+      "name": "Cognac"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4579.JPG",
+      "text": "Detailed view of the LECCO recliner chair in brown."
+     },
+     {
+      "file": "LECCO_ANT_01.jpg",
+      "text": "General view of the LECCO recliner chair in grey."
+     },
+     {
+      "file": "LECCO_ANT_02.jpg",
+      "text": "General view of the LECCO recliner chair in grey."
+     },
+     {
+      "file": "LECCO_ANT_04.jpg",
+      "text": "General view of the LECCO recliner chair in grey."
+     },
+     {
+      "file": "LECCO_COG_01.jpg",
+      "text": "General view of the LECCO recliner chair in cognac-brown."
+     },
+     {
+      "file": "LECCO_COG_02.jpg",
+      "text": "Detailed view of the LECCO recliner chair in cognac-brown."
+     },
+     {
+      "file": "LECCO_COG_03.jpg",
+      "text": "Detailed view of the LECCO recliner chair in cognac-brown."
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

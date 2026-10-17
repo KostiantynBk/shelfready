@@ -1,0 +1,772 @@
+{
+ "product_id": "SYN-20",
+ "decisions": {},
+ "facts": {
+  "product_name": "LECH",
+  "model": "LECH",
+  "brand": "Nordholz Wohnen",
+  "width_cm": 160,
+  "depth_cm": 120,
+  "height_cm": 5.1,
+  "product_type": "Teppich LECH / LECH rug",
+  "care": "Nicht waschen; professionelle Reinigung / do not wash; professional cleaning only",
+  "country_of_origin": "Deutschland",
+  "safety_warnings": [
+   "Auf glatten Böden eine Antirutschunterlage verwenden.",
+   "Use an anti-slip underlay on smooth floors.",
+   "Von offenem Feuer fernhalten.",
+   "Keep away from open flames."
+  ],
+  "variants": [
+   {
+    "code": "LEC-20-ANT",
+    "colour_name": "Anthrazit"
+   },
+   {
+    "code": "LEC-20-SAN",
+    "colour_name": "Sand"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "upholstery",
+   "variant": null,
+   "reason": "Fibre composition missing",
+   "issue": "D14::upholstery:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "weight",
+   "variant": null,
+   "reason": "Weight 65 kg looks wrong for a rug",
+   "issue": "D17::weight:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "IMG_4390.JPG",
+   "variant": null,
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LECH-ANT-1.jpg",
+   "variant": "LEC-20-ANT",
+   "view": "lifestyle",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LECH-ANT-2.jpg",
+   "variant": "LEC-20-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LECH-ANT-3.jpg",
+   "variant": "LEC-20-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LECH-SAN-1.jpg",
+   "variant": "LEC-20-SAN",
+   "view": "lifestyle",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "LECH-SAN-2.jpg",
+   "variant": "LEC-20-SAN",
+   "view": "detail",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "LECH-SAN-3.jpg",
+   "variant": "LEC-20-SAN",
+   "view": "detail",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "LECH-SAN-4.jpg",
+   "variant": "LEC-20-SAN",
+   "view": "detail",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Nordholz Wohnen",
+  "LECH",
+  "LEC-20-ANT",
+  "LEC-20-SAN"
+ ],
+ "en": {
+  "title": "Nordholz Wohnen LECH Rug",
+  "bullets": [
+   "Dimensions: 160 cm width, 120 cm depth, and 5.1 cm height",
+   "Origin: Made in Deutschland",
+   "Care: Professional cleaning only; do not wash"
+  ],
+  "description": "The LECH rug by Nordholz Wohnen is a high-quality home accessory. It is available in multiple colours to suit your interior design.",
+  "colours": [
+   {
+    "code": "LEC-20-ANT",
+    "name": "Anthracite"
+   },
+   {
+    "code": "LEC-20-SAN",
+    "name": "Sand"
+   }
+  ],
+  "safety_warnings": [
+   "Use an anti-slip underlay on smooth floors.",
+   "Keep away from open flames."
+  ],
+  "alt_texts": [
+   {
+    "file": "IMG_4390.JPG",
+    "text": "Detail view of the LECH rug in grey"
+   },
+   {
+    "file": "LECH-ANT-1.jpg",
+    "text": "Lifestyle view of the LECH rug in anthracite grey"
+   },
+   {
+    "file": "LECH-ANT-2.jpg",
+    "text": "Detail view of the LECH rug in anthracite grey"
+   },
+   {
+    "file": "LECH-ANT-3.jpg",
+    "text": "Detail view of the LECH rug in anthracite grey"
+   },
+   {
+    "file": "LECH-SAN-1.jpg",
+    "text": "Lifestyle view of the LECH rug in sand grey"
+   },
+   {
+    "file": "LECH-SAN-2.jpg",
+    "text": "Detail view of the LECH rug in sand beige"
+   },
+   {
+    "file": "LECH-SAN-3.jpg",
+    "text": "Detail view of the LECH rug in sand beige"
+   },
+   {
+    "file": "LECH-SAN-4.jpg",
+    "text": "Detail view of the LECH rug in sand beige"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Alfombra Nordholz Wohnen LECH",
+    "bullets": [
+     "Dimensiones: 160 cm de ancho, 120 cm de profundidad y 5.1 cm de altura",
+     "Origen: Fabricado en Deutschland",
+     "Cuidado: Solo limpieza profesional; no lavar"
+    ],
+    "description": "La alfombra LECH de Nordholz Wohnen es un accesorio para el hogar de alta calidad. Está disponible en varios colores para adaptarse al diseño de su interior.",
+    "colours": [
+     {
+      "code": "LEC-20-ANT",
+      "name": "Antracita"
+     },
+     {
+      "code": "LEC-20-SAN",
+      "name": "Arena"
+     }
+    ],
+    "safety_warnings": [
+     "Utilice una base antideslizante en suelos lisos.",
+     "Mantener alejado de llamas abiertas."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4390.JPG",
+      "text": "Vista detallada de la alfombra LECH en gris"
+     },
+     {
+      "file": "LECH-ANT-1.jpg",
+      "text": "Vista de ambiente de la alfombra LECH en gris antracita"
+     },
+     {
+      "file": "LECH-ANT-2.jpg",
+      "text": "Vista detallada de la alfombra LECH en gris antracita"
+     },
+     {
+      "file": "LECH-ANT-3.jpg",
+      "text": "Vista detallada de la alfombra LECH en gris antracita"
+     },
+     {
+      "file": "LECH-SAN-1.jpg",
+      "text": "Vista de ambiente de la alfombra LECH en gris arena"
+     },
+     {
+      "file": "LECH-SAN-2.jpg",
+      "text": "Vista detallada de la alfombra LECH en beige arena"
+     },
+     {
+      "file": "LECH-SAN-3.jpg",
+      "text": "Vista detallada de la alfombra LECH en beige arena"
+     },
+     {
+      "file": "LECH-SAN-4.jpg",
+      "text": "Vista detallada de la alfombra LECH en beige arena"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Tappeto Nordholz Wohnen LECH",
+    "bullets": [
+     "Dimensioni: 160 cm di larghezza, 120 cm di profondità e 5,1 cm di altezza",
+     "Origine: Made in Deutschland",
+     "Manutenzione: Solo lavaggio professionale; non lavare"
+    ],
+    "description": "Il tappeto LECH di Nordholz Wohnen è un accessorio per la casa di alta qualità. È disponibile in più colori per adattarsi al tuo design d'interni.",
+    "colours": [
+     {
+      "code": "LEC-20-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "LEC-20-SAN",
+      "name": "Sabbia"
+     }
+    ],
+    "safety_warnings": [
+     "Utilizzare un sottofondo antiscivolo su pavimenti lisci.",
+     "Tenere lontano da fiamme libere."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4390.JPG",
+      "text": "Vista dettagliata del tappeto LECH in grigio"
+     },
+     {
+      "file": "LECH-ANT-1.jpg",
+      "text": "Vista ambientata del tappeto LECH in grigio antracite"
+     },
+     {
+      "file": "LECH-ANT-2.jpg",
+      "text": "Vista dettagliata del tappeto LECH in grigio antracite"
+     },
+     {
+      "file": "LECH-ANT-3.jpg",
+      "text": "Vista dettagliata del tappeto LECH in grigio antracite"
+     },
+     {
+      "file": "LECH-SAN-1.jpg",
+      "text": "Vista ambientata del tappeto LECH in grigio sabbia"
+     },
+     {
+      "file": "LECH-SAN-2.jpg",
+      "text": "Vista dettagliata del tappeto LECH in beige sabbia"
+     },
+     {
+      "file": "LECH-SAN-3.jpg",
+      "text": "Vista dettagliata del tappeto LECH in beige sabbia"
+     },
+     {
+      "file": "LECH-SAN-4.jpg",
+      "text": "Vista dettagliata del tappeto LECH in beige sabbia"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Nordholz Wohnen LECH Teppich",
+    "bullets": [
+     "Maße: 160 cm Breite, 120 cm Tiefe und 5,1 cm Höhe",
+     "Herkunft: Hergestellt in Deutschland",
+     "Pflege: Nur professionelle Reinigung; nicht waschen"
+    ],
+    "description": "Der LECH Teppich von Nordholz Wohnen ist ein hochwertiges Wohnaccessoire. Er ist in verschiedenen Farben erhältlich, passend zu Ihrer Inneneinrichtung.",
+    "colours": [
+     {
+      "code": "LEC-20-ANT",
+      "name": "Anthrazit"
+     },
+     {
+      "code": "LEC-20-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Auf glatten Böden eine rutschfeste Unterlage verwenden.",
+     "Von offenen Flammen fernhalten."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4390.JPG",
+      "text": "Detailansicht des LECH Teppichs in Grau"
+     },
+     {
+      "file": "LECH-ANT-1.jpg",
+      "text": "Lifestyle-Ansicht des LECH Teppichs in Anthrazitgrau"
+     },
+     {
+      "file": "LECH-ANT-2.jpg",
+      "text": "Detailansicht des LECH Teppichs in Anthrazitgrau"
+     },
+     {
+      "file": "LECH-ANT-3.jpg",
+      "text": "Detailansicht des LECH Teppichs in Anthrazitgrau"
+     },
+     {
+      "file": "LECH-SAN-1.jpg",
+      "text": "Lifestyle-Ansicht des LECH Teppichs in Sandgrau"
+     },
+     {
+      "file": "LECH-SAN-2.jpg",
+      "text": "Detailansicht des LECH Teppichs in Sandbeige"
+     },
+     {
+      "file": "LECH-SAN-3.jpg",
+      "text": "Detailansicht des LECH Teppichs in Sandbeige"
+     },
+     {
+      "file": "LECH-SAN-4.jpg",
+      "text": "Detailansicht des LECH Teppichs in Sandbeige"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen LECH Carpet",
+    "bullets": [
+     "Dimensions: 160 cm width, 120 cm depth and 5.1 cm height",
+     "Origin: Made in Germany",
+     "Care: Professional cleaning only; do not wash"
+    ],
+    "description": "The LECH carpet from Nordholz Wohnen is a high-quality home accessory. It is available in various colors to match your interior design.",
+    "colours": [
+     {
+      "code": "LEC-20-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "LEC-20-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Use a non-slip underlay on smooth floors.",
+     "Keep away from open flames."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4390.JPG",
+      "text": "Detailed view of the LECH carpet in grey"
+     },
+     {
+      "file": "LECH-ANT-1.jpg",
+      "text": "Lifestyle view of the LECH carpet in anthracite grey"
+     },
+     {
+      "file": "LECH-ANT-2.jpg",
+      "text": "Detailed view of the LECH carpet in anthracite grey"
+     },
+     {
+      "file": "LECH-ANT-3.jpg",
+      "text": "Detailed view of the LECH carpet in anthracite grey"
+     },
+     {
+      "file": "LECH-SAN-1.jpg",
+      "text": "Lifestyle view of the LECH carpet in sand grey"
+     },
+     {
+      "file": "LECH-SAN-2.jpg",
+      "text": "Detailed view of the LECH carpet in sand beige"
+     },
+     {
+      "file": "LECH-SAN-3.jpg",
+      "text": "Detailed view of the LECH carpet in sand beige"
+     },
+     {
+      "file": "LECH-SAN-4.jpg",
+      "text": "Detailed view of the LECH carpet in sand beige"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Tapis Nordholz Wohnen LECH",
+    "bullets": [
+     "Dimensions : 160 cm de largeur, 120 cm de profondeur et 5,1 cm de hauteur",
+     "Origine : Fabriqué en Deutschland",
+     "Entretien : Nettoyage professionnel uniquement ; ne pas laver"
+    ],
+    "description": "Le tapis LECH de Nordholz Wohnen est un accessoire d'intérieur de haute qualité. Il est disponible en plusieurs coloris pour s'adapter à votre décoration intérieure.",
+    "colours": [
+     {
+      "code": "LEC-20-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "LEC-20-SAN",
+      "name": "Sable"
+     }
+    ],
+    "safety_warnings": [
+     "Utiliser un sous-tapis antidérapant sur les sols lisses.",
+     "Tenir à l'écart des flammes nues."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4390.JPG",
+      "text": "Vue détaillée du tapis LECH en gris"
+     },
+     {
+      "file": "LECH-ANT-1.jpg",
+      "text": "Vue d'ambiance du tapis LECH en gris anthracite"
+     },
+     {
+      "file": "LECH-ANT-2.jpg",
+      "text": "Vue détaillée du tapis LECH en gris anthracite"
+     },
+     {
+      "file": "LECH-ANT-3.jpg",
+      "text": "Vue détaillée du tapis LECH en gris anthracite"
+     },
+     {
+      "file": "LECH-SAN-1.jpg",
+      "text": "Vue d'ambiance du tapis LECH en gris sable"
+     },
+     {
+      "file": "LECH-SAN-2.jpg",
+      "text": "Vue détaillée du tapis LECH en beige sable"
+     },
+     {
+      "file": "LECH-SAN-3.jpg",
+      "text": "Vue détaillée du tapis LECH en beige sable"
+     },
+     {
+      "file": "LECH-SAN-4.jpg",
+      "text": "Vue détaillée du tapis LECH en beige sable"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Tapete Nordholz Wohnen LECH",
+    "bullets": [
+     "Dimensões: 160 cm de largura, 120 cm de profundidade e 5,1 cm de altura",
+     "Origem: Fabricado na Alemanha",
+     "Cuidados: Apenas limpeza profissional; não lavar"
+    ],
+    "description": "O tapete LECH da Nordholz Wohnen é um acessório para a casa de alta qualidade. Está disponível em várias cores para se adaptar ao design do seu interior.",
+    "colours": [
+     {
+      "code": "LEC-20-ANT",
+      "name": "Antracite"
+     },
+     {
+      "code": "LEC-20-SAN",
+      "name": "Areia"
+     }
+    ],
+    "safety_warnings": [
+     "Utilize um tapete antiderrapante em pavimentos lisos.",
+     "Mantenha afastado de chamas abertas."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4390.JPG",
+      "text": "Vista detalhada do tapete LECH em cinzento"
+     },
+     {
+      "file": "LECH-ANT-1.jpg",
+      "text": "Vista de ambiente do tapete LECH em cinzento antracite"
+     },
+     {
+      "file": "LECH-ANT-2.jpg",
+      "text": "Vista detalhada do tapete LECH em cinzento antracite"
+     },
+     {
+      "file": "LECH-ANT-3.jpg",
+      "text": "Vista detalhada do tapete LECH em cinzento antracite"
+     },
+     {
+      "file": "LECH-SAN-1.jpg",
+      "text": "Vista de ambiente do tapete LECH em cinzento areia"
+     },
+     {
+      "file": "LECH-SAN-2.jpg",
+      "text": "Vista detalhada do tapete LECH em bege areia"
+     },
+     {
+      "file": "LECH-SAN-3.jpg",
+      "text": "Vista detalhada do tapete LECH em bege areia"
+     },
+     {
+      "file": "LECH-SAN-4.jpg",
+      "text": "Vista detalhada do tapete LECH em bege areia"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Dywan Nordholz Wohnen LECH",
+    "bullets": [
+     "Wymiary: 160 cm szerokości, 120 cm głębokości i 5,1 cm wysokości",
+     "Pochodzenie: Wyprodukowano w Deutschland",
+     "Pielęgnacja: Tylko czyszczenie profesjonalne; nie prać"
+    ],
+    "description": "Dywan LECH marki Nordholz Wohnen to wysokiej jakości dodatek do domu. Jest dostępny w wielu kolorach, aby dopasować się do Twojego wystroju wnętrza.",
+    "colours": [
+     {
+      "code": "LEC-20-ANT",
+      "name": "Antracyt"
+     },
+     {
+      "code": "LEC-20-SAN",
+      "name": "Piasek"
+     }
+    ],
+    "safety_warnings": [
+     "Na gładkich podłogach należy stosować podkład antypoślizgowy.",
+     "Trzymać z dala od otwartego ognia."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4390.JPG",
+      "text": "Zbliżenie na dywan LECH w kolorze szarym"
+     },
+     {
+      "file": "LECH-ANT-1.jpg",
+      "text": "Widok aranżacyjny dywanu LECH w kolorze szarym antracytowym"
+     },
+     {
+      "file": "LECH-ANT-2.jpg",
+      "text": "Zbliżenie na dywan LECH w kolorze szarym antracytowym"
+     },
+     {
+      "file": "LECH-ANT-3.jpg",
+      "text": "Zbliżenie na dywan LECH w kolorze szarym antracytowym"
+     },
+     {
+      "file": "LECH-SAN-1.jpg",
+      "text": "Widok aranżacyjny dywanu LECH w kolorze szarym piaskowym"
+     },
+     {
+      "file": "LECH-SAN-2.jpg",
+      "text": "Zbliżenie na dywan LECH w kolorze beżowym piaskowym"
+     },
+     {
+      "file": "LECH-SAN-3.jpg",
+      "text": "Zbliżenie na dywan LECH w kolorze beżowym piaskowym"
+     },
+     {
+      "file": "LECH-SAN-4.jpg",
+      "text": "Zbliżenie na dywan LECH w kolorze beżowym piaskowym"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Килим Nordholz Wohnen LECH",
+    "bullets": [
+     "Розміри: ширина 160 см, глибина 120 см та висота 5.1 см",
+     "Походження: Виготовлено в Deutschland",
+     "Догляд: Тільки професійна чистка; не прати"
+    ],
+    "description": "Килим LECH від Nordholz Wohnen — це високоякісний аксесуар для дому. Він доступний у кількох кольорах, щоб підійти до вашого інтер'єру.",
+    "colours": [
+     {
+      "code": "LEC-20-ANT",
+      "name": "Антрацитовий"
+     },
+     {
+      "code": "LEC-20-SAN",
+      "name": "Пісочний"
+     }
+    ],
+    "safety_warnings": [
+     "Використовуйте протиковзну підкладку на гладких підлогах.",
+     "Тримайте подалі від відкритого вогню."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4390.JPG",
+      "text": "Детальний вигляд килима LECH у сірому кольорі"
+     },
+     {
+      "file": "LECH-ANT-1.jpg",
+      "text": "Килим LECH в антрацитово-сірому кольорі в інтер'єрі"
+     },
+     {
+      "file": "LECH-ANT-2.jpg",
+      "text": "Детальний вигляд килима LECH в антрацитово-сірому кольорі"
+     },
+     {
+      "file": "LECH-ANT-3.jpg",
+      "text": "Детальний вигляд килима LECH в антрацитово-сірому кольорі"
+     },
+     {
+      "file": "LECH-SAN-1.jpg",
+      "text": "Килим LECH у пісочно-сірому кольорі в інтер'єрі"
+     },
+     {
+      "file": "LECH-SAN-2.jpg",
+      "text": "Детальний вигляд килима LECH у пісочно-бежевому кольорі"
+     },
+     {
+      "file": "LECH-SAN-3.jpg",
+      "text": "Детальний вигляд килима LECH у пісочно-бежевому кольорі"
+     },
+     {
+      "file": "LECH-SAN-4.jpg",
+      "text": "Детальний вигляд килима LECH у пісочно-бежевому кольорі"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen LECH Rug",
+    "bullets": [
+     "Dimensions: width 160 cm, depth 120 cm and height 5.1 cm",
+     "Origin: Made in Deutschland",
+     "Care: Professional cleaning only; do not wash"
+    ],
+    "description": "The LECH rug from Nordholz Wohnen is a high-quality home accessory. It is available in several colors to match your interior.",
+    "colours": [
+     {
+      "code": "LEC-20-ANT",
+      "name": "Anthracite"
+     },
+     {
+      "code": "LEC-20-SAN",
+      "name": "Sand"
+     }
+    ],
+    "safety_warnings": [
+     "Use a non-slip underlay on smooth floors.",
+     "Keep away from open fire."
+    ],
+    "alt_texts": [
+     {
+      "file": "IMG_4390.JPG",
+      "text": "Detailed view of the LECH rug in gray color"
+     },
+     {
+      "file": "LECH-ANT-1.jpg",
+      "text": "LECH rug in anthracite-gray color in the interior"
+     },
+     {
+      "file": "LECH-ANT-2.jpg",
+      "text": "Detailed view of the LECH rug in anthracite-gray color"
+     },
+     {
+      "file": "LECH-ANT-3.jpg",
+      "text": "Detailed view of the LECH rug in anthracite-gray color"
+     },
+     {
+      "file": "LECH-SAN-1.jpg",
+      "text": "LECH rug in sand-gray color in the interior"
+     },
+     {
+      "file": "LECH-SAN-2.jpg",
+      "text": "Detailed view of the LECH rug in sand-beige color"
+     },
+     {
+      "file": "LECH-SAN-3.jpg",
+      "text": "Detailed view of the LECH rug in sand-beige color"
+     },
+     {
+      "file": "LECH-SAN-4.jpg",
+      "text": "Detailed view of the LECH rug in sand-beige color"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

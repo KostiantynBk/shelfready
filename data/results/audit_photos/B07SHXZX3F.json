@@ -1,0 +1,154 @@
+{
+ "item_id": "B07SHXZX3F",
+ "photos": {
+  "71VZJZxN4nL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      762,
+      425,
+      795,
+      493
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      641,
+      906,
+      665,
+      948
+     ]
+    }
+   ]
+  },
+  "713g1LFXWnL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "multicolour",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "619uYrDR-pL": {
+   "role": "dimension_drawing",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "unsure",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "33",
+    "93",
+    "93"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      495,
+      48,
+      534,
+      91
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      704,
+      345,
+      743,
+      388
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      655,
+      811,
+      694,
+      854
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      601,
+      138,
+      623,
+      171
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      747,
+      611,
+      771,
+      644
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      892,
+      562,
+      924
+     ]
+    }
+   ]
+  },
+  "71MMFIz6DeL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "multicolour",
+   "upholstery_material": "fabric",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      755,
+      715,
+      796,
+      843
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,38 @@
+{
+ "key": "cb2387009cdad106bb098d2e132e9b0abd7e37729bb0a9582c18312031027ded",
+ "purpose": "translate:SYN-10:uk",
+ "recorded_at": "2026-10-15T13:18:53+00:00",
+ "request": {
+  "model": "Gemma-4-31B-IT",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Reply with one JSON object only, matching this JSON schema:\n{\"$defs\": {\"AltText\": {\"properties\": {\"file\": {\"description\": \"photo file name, unchanged\", \"type\": \"string\"}, \"text\": {\"description\": \"what the photo shows, for a blind shopper\", \"type\": \"string\"}}, \"required\": [\"file\", \"text\"], \"type\": \"object\"}, \"ColourName\": {\"properties\": {\"code\": {\"description\": \"variant code, unchanged\", \"type\": \"string\"}, \"name\": {\"description\": \"the colour name in the listing's language\", \"type\": \"string\"}}, \"required\": [\"code\", \"name\"], \"type\": \"object\"}}, \"properties\": {\"title\": {\"description\": \"under 80 characters\", \"type\": \"string\"}, \"bullets\": {\"description\": \"3-5 short selling points, facts only\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"description\": {\"description\": \"2-3 sentences\", \"type\": \"string\"}, \"colours\": {\"description\": \"one entry per variant code\", \"items\": {\"$ref\": \"#/$defs/ColourName\"}, \"type\": \"array\"}, \"safety_warnings\": {\"description\": \"every safety warning; empty if none\", \"items\": {\"type\": \"string\"}, \"type\": \"array\"}, \"alt_texts\": {\"description\": \"one entry per photo file listed\", \"items\": {\"$ref\": \"#/$defs/AltText\"}, \"type\": \"array\"}}, \"required\": [\"title\", \"bullets\", \"description\", \"colours\", \"safety_warnings\", \"alt_texts\"], \"type\": \"object\"}"
+   },
+   {
+    "role": "user",
+    "content": [
+     {
+      "type": "text",
+      "text": "Translate this product listing JSON into Ukrainian. Translate all words into natural Ukrainian, including the product type, colours, materials and finishes (e.g. 'solid beech', 'bouclé' where a Ukrainian term exists), the safety warnings and the alt texts. Do NOT translate or change these protected tokens: 'Móveis Lusa', 'ÉVORA', 'EVO-10-ROS', 'EVO-10-MUS'. Keep every number exactly, with its unit (см, мм, кг, °C). Keep the JSON keys, variant codes and file names unchanged. Return JSON only.\n{\"title\": \"Móveis Lusa ÉVORA Armchair\", \"bullets\": [\"Upholstery: 100% polyester velvet\", \"Base: Powder-coated steel with brass finish\", \"Maximum load capacity: 120 kg\", \"Dimensions: 66 cm width, 60 cm depth, 82 cm height\", \"Made in Portugal\"], \"description\": \"The ÉVORA armchair by Móveis Lusa features a velvet upholstery and a brass-finished steel base. This piece is designed for indoor use and requires dry clean only care.\", \"colours\": [{\"code\": \"EVO-10-ROS\", \"name\": \"pink\"}, {\"code\": \"EVO-10-MUS\", \"name\": \"moss green\"}], \"safety_warnings\": [\"Do not use outdoors.\", \"Keep away from heat sources.\", \"Do not stand on the seat.\"], \"alt_texts\": [{\"file\": \"EVO10_MUS_34.jpg\", \"text\": \"Three-quarter view of the ÉVORA armchair in green\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in green\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"text\": \"Front view of the ÉVORA armchair in pink\"}, {\"file\": \"IMG_4234.JPG\", \"text\": \"Three-quarter view of the ÉVORA armchair in pink\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"text\": \"Detail view of the ÉVORA armchair in green\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in green\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"text\": \"Side view of the ÉVORA armchair in pink\"}]}"
+     }
+    ]
+   }
+  ],
+  "temperature": 0.0,
+  "response_format": {
+   "type": "json_object"
+  }
+ },
+ "response": {
+  "content": "{\"title\": \"Крісло Móveis Lusa ÉVORA\", \"bullets\": [\"Оббивка: 100% поліестеровий оксамит\", \"Основа: Сталь з порошковим покриттям та латунним оздобленням\", \"Максимальне навантаження: 120 кг\", \"Розміри: 66 см ширина, 60 см глибина, 82 см висота\", \"Виготовлено в Португалії\"], \"description\": \"Крісло ÉVORA від Móveis Lusa має оксамитову оббивку та сталеву основу з латунним оздобленням. Цей виріб призначений для використання в приміщенні та потребує лише сухої чистки.\", \"colours\": [{\"code\": \"EVO-10-ROS\", \"name\": \"рожевий\"}, {\"code\": \"EVO-10-MUS\", \"name\": \"мохово-зелений\"}], \"safety_warnings\": [\"Не використовувати на відкритому повітрі.\", \"Тримати подалі від джерел тепла.\", \"Не ставати на сидіння.\"], \"alt_texts\": [{\"file\": \"EVO10_MUS_34.jpg\", \"text\": \"Крісло ÉVORA зеленого кольору, вигляд у три чверті\"}, {\"file\": \"EVO10_MUS_front.jpg\", \"text\": \"Крісло ÉVORA зеленого кольору, вигляд спереду\"}, {\"file\": \"EVO10_ROS_front.jpg\", \"text\": \"Крісло ÉVORA рожевого кольору, вигляд спереду\"}, {\"file\": \"IMG_4234.JPG\", \"text\": \"Крісло ÉVORA рожевого кольору, вигляд у три чверті\"}, {\"file\": \"EVO10_MUS_detail.jpg\", \"text\": \"Детальний вигляд крісла ÉVORA зеленого кольору\"}, {\"file\": \"EVO10_MUS_side.jpg\", \"text\": \"Крісло ÉVORA зеленого кольору, вигляд збоку\"}, {\"file\": \"EVO10_ROS_side.jpg\", \"text\": \"Крісло ÉVORA рожевого кольору, вигляд збоку\"}]}",
+  "tool_calls": [],
+  "model": "self-dploy/Gemma-4-31B-IT",
+  "finish_reason": "stop",
+  "usage": {
+   "prompt_tokens": 901,
+   "completion_tokens": 514
+  },
+  "latency_s": 90.109
+ }
+}

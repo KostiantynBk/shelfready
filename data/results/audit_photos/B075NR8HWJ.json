@@ -1,0 +1,200 @@
+{
+ "item_id": "B075NR8HWJ",
+ "photos": {
+  "61WTOkHRcZL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      682,
+      84,
+      824,
+      147
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      693,
+      882,
+      755
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      642,
+      886,
+      742,
+      941
+     ]
+    }
+   ]
+  },
+  "61OzFbSIJTL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      685,
+      93,
+      820,
+      155
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      725,
+      671,
+      871,
+      724
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      652,
+      875,
+      753,
+      934
+     ]
+    }
+   ]
+  },
+  "61VbU4DvxqL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      748,
+      106,
+      892,
+      175
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      746,
+      168,
+      778,
+      206
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      746,
+      783,
+      788,
+      821
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      748,
+      824,
+      898,
+      883
+     ]
+    }
+   ]
+  },
+  "9153MxT1w6L": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 3,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [
+    "BROCHURE",
+    "The Guide",
+    "Advanced"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      555,
+      118,
+      641,
+      142
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      185,
+      742,
+      221
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      615,
+      536,
+      641,
+      643
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      644,
+      548,
+      667,
+      641
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

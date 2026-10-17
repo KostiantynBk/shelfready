@@ -1,0 +1,190 @@
+{
+ "item_id": "B07JK86YC4",
+ "photos": {
+  "61bJzIvUeZL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "yellow",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      230,
+      855,
+      412
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      342,
+      967,
+      446
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      545,
+      503,
+      833,
+      554
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      553,
+      548,
+      921,
+      823
+     ]
+    }
+   ]
+  },
+  "81EMcgSNV4L": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "yellow",
+   "upholstery_material": "boucle",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "81dpzDA-OML": {
+   "role": "detail",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "yellow",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      823,
+      135,
+      1000,
+      355
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      933,
+      576,
+      1000,
+      723
+     ]
+    }
+   ]
+  },
+  "61hyEjCvwdL": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "yellow",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "54.5",
+    "56",
+    "78"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      33,
+      308,
+      78,
+      408
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      96,
+      682,
+      142,
+      743
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      458,
+      133,
+      504,
+      194
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      243,
+      866,
+      436
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      351,
+      983,
+      455
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      523,
+      836,
+      573
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      564,
+      934,
+      832
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

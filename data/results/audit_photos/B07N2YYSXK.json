@@ -1,0 +1,129 @@
+{
+ "item_id": "B07N2YYSXK",
+ "photos": {
+  "91NcP0CnkQL": {
+   "role": "packshot",
+   "product_type": "recliner",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      925,
+      466,
+      987,
+      815
+     ]
+    }
+   ]
+  },
+  "81VAIaRg0vL": {
+   "role": "packshot",
+   "product_type": "recliner",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "91WkjP2ofaL": {
+   "role": "dimension_drawing",
+   "product_type": "recliner chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "38.6\"",
+    "98 cm",
+    "32.7\"",
+    "83 cm",
+    "37.4\"",
+    "95 cm"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      387,
+      25,
+      444,
+      83
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      817,
+      193,
+      873,
+      251
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      906,
+      664,
+      963,
+      722
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      863,
+      485,
+      894,
+      533
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      813,
+      745,
+      846,
+      793
+     ]
+    }
+   ]
+  },
+  "81z4Cs9HdiL": {
+   "role": "detail",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

@@ -1,0 +1,158 @@
+{
+ "item_id": "B075X2G512",
+ "photos": {
+  "91OtB6FevRL": {
+   "role": "detail",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      63,
+      0,
+      937,
+      1000
+     ]
+    }
+   ]
+  },
+  "71d3mB4ACfL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      773,
+      191,
+      991,
+      655
+     ]
+    }
+   ]
+  },
+  "71llAgvmwvL": {
+   "role": "dimension_drawing",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "14\"",
+    "6.5\"",
+    "10\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      706,
+      283,
+      846,
+      621
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      441,
+      193,
+      471,
+      221
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      833,
+      303,
+      864,
+      344
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      811,
+      543,
+      842,
+      584
+     ]
+    }
+   ]
+  },
+  "A1pvy6fICaL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [
+    "Derek Carter",
+    "The Art of a Well Lived Home"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      803,
+      116,
+      891,
+      178
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      843,
+      485,
+      931,
+      547
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      496,
+      723,
+      508,
+      923
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

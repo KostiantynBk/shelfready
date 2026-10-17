@@ -1,0 +1,96 @@
+{
+ "item_id": "B07K51NCZX",
+ "photos": {
+  "71KnEapUZeL": {
+   "role": "packshot",
+   "product_type": "pendant lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      486,
+      631,
+      514
+     ]
+    }
+   ]
+  },
+  "81NNoJsS90L": {
+   "role": "packshot",
+   "product_type": "ceiling light",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      164,
+      388,
+      692,
+      636
+     ]
+    }
+   ]
+  },
+  "81-V3IQUxlL": {
+   "role": "lifestyle",
+   "product_type": "pendant lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      63,
+      545,
+      145,
+      558
+     ]
+    }
+   ]
+  },
+  "91zXQf5U6nL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": "linen",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

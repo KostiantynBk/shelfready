@@ -1,0 +1,299 @@
+{
+ "submission_id": "SYN-17",
+ "spec": {
+  "product_name": "LAHN",
+  "supplier": "Nordholz Wohnen GmbH",
+  "product_type": "Tischleuchte LAHN / LAHN table lamp",
+  "manufacturer": "Ningbo Brightway Home Co., Ltd.",
+  "manufacturer_address": "No. 80 Xingning Road, Yinzhou District, Ningbo 315000, China · expon@brightway.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "China",
+  "width": {
+   "value": "22",
+   "unit": "cm",
+   "source_text": "Ø 22 cm"
+  },
+  "depth": {
+   "value": "22",
+   "unit": "cm",
+   "source_text": "Ø 22 cm"
+  },
+  "height": {
+   "value": "33",
+   "unit": "cm",
+   "source_text": "33 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "max_load": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "weight": {
+   "value": "2,8",
+   "unit": "kg",
+   "source_text": "2,8 kg"
+  },
+  "legs_or_base": "Pulverbeschichteter Stahl / powder-coated steel",
+  "upholstery": null,
+  "care": "Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off",
+  "variants": [
+   {
+    "code": "LAH-17-BLA",
+    "colour_name": "Blau",
+    "ean": "4012345017015"
+   }
+  ],
+  "safety_warnings": [
+   "Nur Leuchtmittel E27 max. 40 W verwenden.",
+   "Use only E27 bulbs, max. 40 W.",
+   "Vor dem Reinigen vom Netz trennen.",
+   "Disconnect before cleaning.",
+   "Nur für den Innenbereich.",
+   "For indoor use only."
+  ],
+  "safety_warnings_languages": [
+   "de",
+   "en",
+   "de",
+   "en",
+   "de",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "LAHN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4242977542667895,
+    0.1488732340424167,
+    0.47193299877823924,
+    0.15778144368901517
+   ],
+   "text": "Ø 22 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "LAHN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4242977542667895,
+    0.1488732340424167,
+    0.47193299877823924,
+    0.15778144368901517
+   ],
+   "text": "Ø 22 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "LAHN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.1488732340424167,
+    0.41309525461069496,
+    0.15778144368901517
+   ],
+   "text": "33 cm",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "LAHN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.1809427887701713,
+    0.41310756501843204,
+    0.1898509984167698
+   ],
+   "text": "2,8 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "LAHN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.13283845667853952,
+    0.6457379346454794,
+    0.141746666325138
+   ],
+   "text": "Pulverbeschichteter Stahl / powder-coated steel",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "LAHN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.37876759489890977,
+    0.1969775661340485,
+    0.8514946176234262,
+    0.20588577578064698
+   ],
+   "text": "Ausgeschaltet mit trockenem Tuch reinigen / clean with a dry cloth when switched off",
+   "note": null
+  },
+  "ean:LAH-17-BLA": {
+   "source": "pdf",
+   "file": "LAHN_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.38603568453610826,
+    0.3368364575856447,
+    0.4771760209221587,
+    0.3457446672322432
+   ],
+   "text": "4012345017015",
+   "note": null
+  }
+ },
+ "images": {
+  "LAHN-BLA-1.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "glass",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       542,
+       371,
+       896,
+       628
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "LAHN-BLA-2.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "lampshade",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "metal",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       935,
+       443,
+       1000,
+       536
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "LAHN-BLA-3.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "glass",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       541,
+       372,
+       896,
+       628
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "IMG_4328.JPG": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "glass",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       0,
+       132,
+       972,
+       847
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

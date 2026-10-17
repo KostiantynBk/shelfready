@@ -1,0 +1,113 @@
+{
+ "item_id": "B07SHYFT43",
+ "photos": {
+  "61KJx1GMyUL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "boucle",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      466,
+      113,
+      501,
+      176
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      705,
+      694,
+      744,
+      823
+     ]
+    }
+   ]
+  },
+  "61mQJzodqRL": {
+   "role": "packshot",
+   "product_type": "ottoman",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "boucle",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      595,
+      93,
+      633,
+      128
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      794,
+      611,
+      832,
+      682
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      745,
+      843,
+      781,
+      913
+     ]
+    }
+   ]
+  },
+  "71neSfJq-bL": {
+   "role": "lifestyle",
+   "product_type": "modular sofa",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71d06y7MDCL": {
+   "role": "other",
+   "product_type": "none",
+   "products_in_frame": 0,
+   "colour_family": "green",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

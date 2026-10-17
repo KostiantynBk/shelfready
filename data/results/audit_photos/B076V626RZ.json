@@ -1,0 +1,157 @@
+{
+ "item_id": "B076V626RZ",
+ "photos": {
+  "719als9l-CL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      858,
+      411,
+      986,
+      742
+     ]
+    }
+   ]
+  },
+  "716q5noMOYL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      858,
+      414,
+      987,
+      744
+     ]
+    }
+   ]
+  },
+  "7169uXikfqL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      856,
+      333,
+      986,
+      661
+     ]
+    }
+   ]
+  },
+  "91q0lSqmS-L": {
+   "role": "lifestyle",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "CHANEL",
+    "and her world",
+    "Charles Rosen",
+    "KINFOLK",
+    "Oger"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      736,
+      656,
+      813,
+      978
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      801,
+      681,
+      831,
+      796
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      813,
+      803,
+      838,
+      888
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      806,
+      583,
+      824,
+      656
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      845,
+      765,
+      861,
+      815
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      845,
+      963,
+      861,
+      991
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

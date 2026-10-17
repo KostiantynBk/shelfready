@@ -1,0 +1,145 @@
+{
+ "item_id": "B075X12HW9",
+ "photos": {
+  "713+g4gveaL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      905,
+      421,
+      988,
+      578
+     ]
+    }
+   ]
+  },
+  "71aBg5FNcnL": {
+   "role": "dimension_drawing",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "58\"",
+    "12\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      862,
+      343,
+      946,
+      823
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      473,
+      11,
+      498,
+      111
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      966,
+      425,
+      991,
+      535
+     ]
+    }
+   ]
+  },
+  "91QHoZuY-uL": {
+   "role": "detail",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      131,
+      0,
+      1000,
+      1000
+     ]
+    }
+   ]
+  },
+  "91MS9QzQ7oL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 2,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "gold",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      221,
+      872,
+      275
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      853,
+      486,
+      911,
+      793
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      764,
+      826,
+      797,
+      936
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

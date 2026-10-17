@@ -1,0 +1,579 @@
+{
+ "submission_id": "SYN-20",
+ "spec": {
+  "product_name": "LECH",
+  "supplier": "Nordholz Wohnen GmbH",
+  "product_type": "Teppich LECH / LECH rug",
+  "manufacturer": "Nordholz Wohnen GmbH",
+  "manufacturer_address": "Industriestraße 21, 32051 Herford, Deutschland",
+  "eu_responsible_person": "Nordholz Wohnen GmbH, Industriestraße 21, 32051 Herford, Deutschland",
+  "country_of_origin": "Deutschland",
+  "width": {
+   "value": "160",
+   "unit": "cm",
+   "source_text": "160 x 120 cm"
+  },
+  "depth": {
+   "value": "120",
+   "unit": "cm",
+   "source_text": "160 x 120 cm"
+  },
+  "height": {
+   "value": "5,1",
+   "unit": "cm",
+   "source_text": "5,1 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "max_load": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "weight": {
+   "value": "65",
+   "unit": "kg",
+   "source_text": "65 kg"
+  },
+  "legs_or_base": null,
+  "upholstery": "Handgetuftet / hand-tufted",
+  "care": "Nicht waschen; professionelle Reinigung / do not wash; professional cleaning only",
+  "variants": [
+   {
+    "code": "LEC-20-ANT",
+    "colour_name": "Anthrazit",
+    "ean": "4012345020014"
+   },
+   {
+    "code": "LEC-20-SAN",
+    "colour_name": "Sand",
+    "ean": "4012345020021"
+   }
+  ],
+  "safety_warnings": [
+   "Auf glatten Böden eine Antirutschunterlage verwenden.",
+   "Use an anti-slip underlay on smooth floors.",
+   "Von offenem Feuer fernhalten.",
+   "Keep away from open flames."
+  ],
+  "safety_warnings_languages": [
+   "de",
+   "en",
+   "de",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.1488732340424167,
+    0.3259447307510077,
+    0.15778144368901517
+   ],
+   "text": "160 x 120 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.1488732340424167,
+    0.3259447307510077,
+    0.15778144368901517
+   ],
+   "text": "160 x 120 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.164908011406294,
+    0.28809628547624155,
+    0.1738162210528925
+   ],
+   "text": "5,1 cm",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.1809427887701713,
+    0.2811039559812279,
+    0.1898509984167698
+   ],
+   "text": "65 kg",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.13283845667853952,
+    0.39674206641530024,
+    0.141746666325138
+   ],
+   "text": "Handgetuftet / hand-tufted",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.1969775661340485,
+    0.7078514861779304,
+    0.20588577578064698
+   ],
+   "text": "Nicht waschen; professionelle Reinigung / do not wash; professional cleaning only",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39786847200077263,
+    0.2290471208618031,
+    0.6641432716932559,
+    0.2379553305084016
+   ],
+   "text": "Industriestraße 21, 32051 Herford, Deutschland",
+   "note": null
+  },
+  "eu_responsible_person": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.2290471208618031,
+    0.6641432716932559,
+    0.2379553305084016
+   ],
+   "text": "Nordholz Wohnen GmbH, Industriestraße 21, 32051 Herford, Deutschland",
+   "note": null
+  },
+  "ean:LEC-20-ANT": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4104989894172547,
+    0.28516884163537354,
+    0.5016393258033052,
+    0.29407705128197204
+   ],
+   "text": "4012345020014",
+   "note": null
+  },
+  "ean:LEC-20-SAN": {
+   "source": "pdf",
+   "file": "LECH_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4104989894172547,
+    0.30120361899925074,
+    0.5016393258033052,
+    0.3101118286458492
+   ],
+   "text": "4012345020021",
+   "note": null
+  }
+ },
+ "images": {
+  "LECH-ANT-2.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    1308,
+    1308
+   ],
+   "low_res": false
+  },
+  "LECH-ANT-3.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2213,
+    2075
+   ],
+   "low_res": false
+  },
+  "IMG_4390.JPG": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2213,
+    2213
+   ],
+   "low_res": false
+  },
+  "LECH-SAN-1.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       712,
+       391,
+       758,
+       422
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       743,
+       731,
+       791,
+       755
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       701,
+       856,
+       746,
+       881
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       683,
+       275,
+       735,
+       388
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "LECH-SAN-2.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2418,
+    2418
+   ],
+   "low_res": false
+  },
+  "LECH-SAN-3.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2274
+   ],
+   "low_res": false
+  },
+  "LECH-SAN-4.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    1257,
+    1257
+   ],
+   "low_res": false
+  },
+  "LECH-ANT-5.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "shag",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2418,
+    2418
+   ],
+   "low_res": false
+  },
+  "LEC20_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "NORDHOLZ WOHNEN GMBH",
+     "LEC-20",
+     "100 % POLYPROPYLEN",
+     "100% POLYPROPYLENE",
+     "P",
+     "Hergestellt in Deutschland"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       108,
+       193,
+       142,
+       806
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       167,
+       434,
+       201,
+       565
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       227,
+       261,
+       261,
+       738
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       288,
+       252,
+       322,
+       747
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       608,
+       708,
+       668,
+       754
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       778,
+       288,
+       812,
+       731
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100 % POLYPROPYLEN / 100% POLYPROPYLENE",
+    "wash_max_temp_c": null,
+    "do_not_wash": true,
+    "dry_clean_only": true,
+    "removable_cover": false,
+    "other_text": [
+     "NORDHOLZ WOHNEN GMBH",
+     "LEC-20",
+     "Hergestellt in Deutschland"
+    ]
+   }
+  },
+  "LECH-ANT-1.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "metal",
+    "base_material": "metal",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       703,
+       391,
+       756,
+       426
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       733,
+       731,
+       793,
+       756
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       693,
+       854,
+       746,
+       878
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       683,
+       271,
+       736,
+       385
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

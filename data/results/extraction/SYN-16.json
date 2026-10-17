@@ -1,0 +1,384 @@
+{
+ "submission_id": "SYN-16",
+ "spec": {
+  "product_name": "Lampada da tavolo ASOLO / ASOLO table lamp",
+  "supplier": "Arredo Brianza S.r.l.",
+  "product_type": "Lampada da tavolo / table lamp",
+  "manufacturer": "Arredo Brianza S.r.l.",
+  "manufacturer_address": null,
+  "eu_responsible_person": null,
+  "country_of_origin": "Italia",
+  "width": {
+   "value": "25",
+   "unit": "cm",
+   "source_text": "Ø 25 cm"
+  },
+  "depth": {
+   "value": "25",
+   "unit": "cm",
+   "source_text": "Ø 25 cm"
+  },
+  "height": {
+   "value": "39",
+   "unit": "cm",
+   "source_text": "Altezza Ø / Height Ø 39 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "max_load": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "weight": {
+   "value": "2,8",
+   "unit": "kg",
+   "source_text": "2,8 kg"
+  },
+  "legs_or_base": "Ceramica smaltata / glazed ceramic",
+  "upholstery": null,
+  "care": "Pulire con panno asciutto a lampada spenta / clean with a dry cloth when switched off",
+  "variants": [
+   {
+    "code": "ASO-16-BIA",
+    "colour_name": "Bianco",
+    "ean": "8012345016013"
+   }
+  ],
+  "safety_warnings": [
+   "Usare solo lampadine E27 max 40 W.",
+   "Use only E27 bulbs, max. 40 W.",
+   "Scollegare prima della pulizia.",
+   "Disconnect before cleaning.",
+   "Solo per uso interno.",
+   "For indoor use only."
+  ],
+  "safety_warnings_languages": [
+   "it",
+   "en",
+   "it",
+   "en",
+   "it",
+   "en"
+  ],
+  "claims": [
+   "Materiali anallergici e atossici / hypoallergenic, non-toxic materials"
+  ]
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "ASOLO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.1315321189838033,
+    0.15904981962838344,
+    0.18869441239754292,
+    0.16973967120430158
+   ],
+   "text": "Ø 25 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "ASOLO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.1315321189838033,
+    0.15904981962838344,
+    0.18869441239754292,
+    0.16973967120430158
+   ],
+   "text": "Ø 25 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "ASOLO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.14852221230376395,
+    0.21371076380225704,
+    0.16973967120430158
+   ],
+   "text": "Altezza Ø / Height Ø 39 cm",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "ASOLO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.19557347917943724,
+    0.11810389188577428,
+    0.20626333075535538
+   ],
+   "text": "2,8 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "ASOLO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.12252616007732976,
+    0.7522367758362273,
+    0.13321601165324792
+   ],
+   "text": "Ceramica smaltata / glazed ceramic",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "ASOLO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.19557347917943724,
+    0.9238418359917219,
+    0.21873482426059335
+   ],
+   "text": "Pulire con panno asciutto a lampada spenta / clean with a dry cloth when switched off",
+   "note": null
+  },
+  "ean:ASO-16-BIA": {
+   "source": "pdf",
+   "file": "ASOLO_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.29816868702962535,
+    0.13054354875926844,
+    0.4075370906928859,
+    0.14123340033518658
+   ],
+   "text": "8012345016013",
+   "note": null
+  },
+  "claim:0": {
+   "source": "pdf",
+   "file": "ASOLO_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.28109229178678263,
+    0.45357320860032396,
+    0.30425363686793866
+   ],
+   "text": "Materiali anallergici e atossici / hypoallergenic, non-toxic materials",
+   "note": null
+  }
+ },
+ "images": {
+  "ASOLO_BIA_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "ceramic",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       441,
+       399,
+       936,
+       606
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "ASOLO_BIA_02.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "ceramic",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       456,
+       403,
+       956,
+       605
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "ASOLO_BIA_03.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "console table",
+    "products_in_frame": 1,
+    "colour_family": "black",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "dark brown",
+    "text_in_image": [
+     "PRICK",
+     "THE BUCKET LIST"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       543,
+       168,
+       892,
+       243
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       543,
+       693,
+       964,
+       763
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       543,
+       765,
+       931,
+       836
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       201,
+       292,
+       381,
+       375
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       377,
+       236,
+       393,
+       273
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       395,
+       241,
+       416,
+       358
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4836.JPG": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "unsure",
+    "products_in_frame": 0,
+    "colour_family": "beige",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.5,
+    "boxes": []
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "ASO16_BIA_back_small.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "ceramic",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       453,
+       403,
+       956,
+       605
+      ]
+     }
+    ]
+   },
+   "size": [
+    400,
+    400
+   ],
+   "low_res": true
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

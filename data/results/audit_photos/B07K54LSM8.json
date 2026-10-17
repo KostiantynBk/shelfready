@@ -1,0 +1,150 @@
+{
+ "item_id": "B07K54LSM8",
+ "photos": {
+  "71TdxY20OuL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "wood",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      176,
+      310,
+      992,
+      697
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      201,
+      310,
+      984,
+      485
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      183,
+      485,
+      872,
+      528
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      183,
+      512,
+      992,
+      697
+     ]
+    }
+   ]
+  },
+  "81XPI1nDmUL": {
+   "role": "lifestyle",
+   "product_type": "tripod floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "unsure",
+   "legs_finish": "white",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      261,
+      594,
+      851,
+      753
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      261,
+      738,
+      906,
+      766
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      261,
+      745,
+      851,
+      886
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      254,
+      594,
+      906,
+      886
+     ]
+    }
+   ]
+  },
+  "81UeIyM2RCL": {
+   "role": "detail",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      184,
+      153,
+      1000,
+      846
+     ]
+    }
+   ]
+  },
+  "91JXpiPMZHL": {
+   "role": "detail",
+   "product_type": "upholstery fabric",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "linen",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

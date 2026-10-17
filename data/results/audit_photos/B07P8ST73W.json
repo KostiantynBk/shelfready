@@ -1,0 +1,172 @@
+{
+ "item_id": "B07P8ST73W",
+ "photos": {
+  "91BXp2uls4L": {
+   "role": "detail",
+   "product_type": "upholstery swatch",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "71qu2buBC4L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      767,
+      54,
+      811,
+      96
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      903,
+      214,
+      968,
+      324
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      683,
+      891,
+      730,
+      946
+     ]
+    }
+   ]
+  },
+  "8115z258GhL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      943,
+      112,
+      980,
+      254
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      941,
+      794,
+      980,
+      933
+     ]
+    }
+   ]
+  },
+  "71KvDPavz0L": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "37\"",
+    "45\"",
+    "89\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      376,
+      8,
+      431,
+      48
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      838,
+      138,
+      894,
+      188
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      794,
+      658,
+      850,
+      708
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      698,
+      81,
+      752,
+      125
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      836,
+      261,
+      891,
+      345
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      624,
+      887,
+      668,
+      938
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

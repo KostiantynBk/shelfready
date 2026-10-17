@@ -1,0 +1,143 @@
+{
+ "item_id": "B07B4W2X69",
+ "photos": {
+  "81UKM6EQaeL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      578,
+      366,
+      983,
+      633
+     ]
+    }
+   ]
+  },
+  "81ybLkINqPL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      573,
+      368,
+      983,
+      632
+     ]
+    }
+   ]
+  },
+  "91jWVbS9f+L": {
+   "role": "detail",
+   "product_type": "ceramic object",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "91qxdXZVrSL": {
+   "role": "lifestyle",
+   "product_type": "nightstand",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [
+    "ALLEGRA HICKS"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      131,
+      867,
+      173
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      768,
+      208,
+      942,
+      254
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      726,
+      333,
+      851,
+      376
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      738,
+      412,
+      903,
+      465
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      385,
+      304,
+      488,
+      366
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      512,
+      271,
+      538,
+      415
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

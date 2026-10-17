@@ -1,0 +1,195 @@
+{
+ "item_id": "B086D42MT3",
+ "photos": {
+  "61RW5Gbdf7L": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71fcWEsWvDL": {
+   "role": "packshot",
+   "product_type": "Adirondack chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      768,
+      221,
+      943,
+      342
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      768,
+      693,
+      943,
+      814
+     ]
+    }
+   ]
+  },
+  "617ZClVlfyL": {
+   "role": "packshot",
+   "product_type": "adirondack chair",
+   "products_in_frame": 4,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      638,
+      58,
+      752,
+      116
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      614,
+      213,
+      726,
+      256
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      628,
+      288,
+      704,
+      332
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      624,
+      426,
+      696,
+      463
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      624,
+      506,
+      718,
+      553
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      632,
+      645,
+      724,
+      688
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      644,
+      731,
+      732,
+      773
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      664,
+      843,
+      776,
+      898
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      644,
+      895,
+      746,
+      948
+     ]
+    }
+   ]
+  },
+  "71DFnFIGEAL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      448,
+      107,
+      616,
+      346
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      423,
+      485,
+      818,
+      735
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      333,
+      821,
+      522,
+      938
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

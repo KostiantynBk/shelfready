@@ -1,0 +1,195 @@
+{
+ "item_id": "B07K7K8YF9",
+ "photos": {
+  "61hiJpBwSJL": {
+   "role": "detail",
+   "product_type": "upholstery swatch",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "71WcGf3deTL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      300,
+      961,
+      342
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      623,
+      643,
+      947,
+      705
+     ]
+    }
+   ]
+  },
+  "514keQUjB9L": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      324,
+      938,
+      363
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      378,
+      854,
+      414
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      601,
+      854,
+      637
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      621,
+      647,
+      938,
+      686
+     ]
+    }
+   ]
+  },
+  "51VCEMPWInL": {
+   "role": "packshot",
+   "product_type": "dining chair",
+   "products_in_frame": 2,
+   "colour_family": "beige",
+   "upholstery_material": "leather",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      112,
+      827,
+      147
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      284,
+      788,
+      318
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      312,
+      852,
+      346
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      398,
+      801,
+      445
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      554,
+      830,
+      590
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      725,
+      793,
+      759
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      753,
+      852,
+      788
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      603,
+      840,
+      795,
+      887
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

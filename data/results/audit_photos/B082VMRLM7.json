@@ -1,0 +1,123 @@
+{
+ "item_id": "B082VMRLM7",
+ "photos": {
+  "71yI6MMMsvL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "dark grey",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      385,
+      131,
+      914,
+      462
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      614,
+      462,
+      792,
+      813
+     ]
+    }
+   ]
+  },
+  "71GE0S5QXAL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "grey",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      388,
+      248,
+      891,
+      308
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      388,
+      738,
+      891,
+      787
+     ]
+    }
+   ]
+  },
+  "71InYy67IZL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      403,
+      213,
+      922,
+      293
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      403,
+      713,
+      922,
+      786
+     ]
+    }
+   ]
+  },
+  "A1ZfWx+irSL": {
+   "role": "detail",
+   "product_type": "upholstery fabric",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

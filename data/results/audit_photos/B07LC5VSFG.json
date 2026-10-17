@@ -1,0 +1,349 @@
+{
+ "item_id": "B07LC5VSFG",
+ "photos": {
+  "71+hgqWvMsL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": "black matt",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      738,
+      4,
+      931,
+      468
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      458,
+      996,
+      541
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      538,
+      938,
+      962
+     ]
+    }
+   ]
+  },
+  "81dr4lvclAL": {
+   "role": "detail",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "HIGH INTENSITY NYLON",
+    "BACKREST",
+    "High intensity nylon backrest ensure the mesh not",
+    "easily deformed under long time pressure and it",
+    "provides good support for the neck and",
+    "spine."
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      42,
+      38,
+      145,
+      552
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      173,
+      38,
+      292,
+      555
+     ]
+    }
+   ]
+  },
+  "81r6OV2DaYL": {
+   "role": "detail",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "HIGH ELASTIC BREATHABLE",
+    "MESH",
+    "The chair seat is made of breathable mesh material, which is",
+    "comfortable and breathable; Ergonomic design provides com-",
+    "fortable sitting position without causing any backache after a",
+    "long period of sitting."
+   ],
+   "has_text_overlay": true,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      36,
+      333,
+      133,
+      931
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      151,
+      333,
+      256,
+      931
+     ]
+    }
+   ]
+  },
+  "71rKgB+3g3L": {
+   "role": "dimension_drawing",
+   "product_type": "office chair",
+   "products_in_frame": 2,
+   "colour_family": "black",
+   "upholstery_material": "mesh",
+   "legs_material": "plastic",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "DIMENSIONS",
+    "COMMODITY SIZE",
+    "This picture shows the size of the seat and the related data. Our unit of measurement is centimeters. This picture shows the size of the seat and the related data. Our unit of measurement is centimeters.",
+    "50cm",
+    "50cm",
+    "85cm",
+    "104cm",
+    "49cm",
+    "43cm",
+    "38cm",
+    "48cm",
+    "63cm"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      701,
+      158,
+      743,
+      216
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      251,
+      905,
+      285
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      441,
+      881,
+      505
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      52,
+      874,
+      116
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      158,
+      818,
+      221
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      731,
+      926,
+      765
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      865,
+      874,
+      933
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      562,
+      867,
+      631
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      658,
+      818,
+      721
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      62,
+      375,
+      98,
+      624
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      107,
+      412,
+      130,
+      587
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      141,
+      285,
+      163,
+      714
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      267,
+      242,
+      293,
+      304
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      456,
+      492,
+      481,
+      554
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      507,
+      4,
+      544,
+      67
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      563,
+      4,
+      589,
+      71
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      685,
+      242,
+      711,
+      304
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      685,
+      742,
+      711,
+      804
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      704,
+      933,
+      730,
+      995
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      752,
+      933,
+      778,
+      995
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      915,
+      633,
+      941,
+      695
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

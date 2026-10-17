@@ -1,0 +1,1084 @@
+{
+ "submission_id": "SYN-14",
+ "spec": {
+  "product_name": "Sofá AVEIRO / AVEIRO sofa",
+  "supplier": "MÓVEIS LUSA, LDA.",
+  "product_type": "Sofá / sofa",
+  "manufacturer": "Móveis Lusa, Lda.",
+  "manufacturer_address": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal - info@moveislusa.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Portugal",
+  "width": {
+   "value": "152",
+   "unit": "cm",
+   "source_text": "152 x 78 x 78 cm"
+  },
+  "depth": {
+   "value": "78",
+   "unit": "cm",
+   "source_text": "152 x 78 x 78 cm"
+  },
+  "height": {
+   "value": "78",
+   "unit": "cm",
+   "source_text": "152 x 78 x 78 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": "47",
+   "unit": "cm",
+   "source_text": "47 cm"
+  },
+  "max_load": {
+   "value": "220",
+   "unit": "kg",
+   "source_text": "220 kg"
+  },
+  "weight": {
+   "value": "30,4",
+   "unit": "kg",
+   "source_text": "30,4 kg"
+  },
+  "legs_or_base": "Faia maciça, acabamento nogueira / solid beech, walnut stain",
+  "upholstery": "Veludo, 100% poliéster / velvet, 100% polyester",
+  "care": "Apenas limpeza a seco / dry clean only",
+  "variants": [
+   {
+    "code": "AVE-14-ANT",
+    "colour_name": "Antracite",
+    "ean": "5601234014013"
+   },
+   {
+    "code": "AVE-14-ARE",
+    "colour_name": "Areia",
+    "ean": "5601234014020"
+   },
+   {
+    "code": "AVE-14-CIN",
+    "colour_name": "Cinza",
+    "ean": "5601234014037"
+   }
+  ],
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Not for outdoor use.",
+   "Manter afastado de fontes de calor.",
+   "Keep away from heat sources.",
+   "Não subir para o assento.",
+   "Do not stand on the seat."
+  ],
+  "safety_warnings_languages": [
+   "pt",
+   "en",
+   "pt",
+   "en",
+   "pt",
+   "en"
+  ],
+  "claims": [
+   "Espuma à prova de fogo / fireproof foam"
+  ]
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.5072042608361521,
+    0.21534748625470326
+   ],
+   "text": "152 x 78 x 78 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.5072042608361521,
+    0.21534748625470326
+   ],
+   "text": "152 x 78 x 78 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.20421222419645518,
+    0.5072042608361521,
+    0.21534748625470326
+   ],
+   "text": "152 x 78 x 78 cm",
+   "note": null
+  },
+  "seat_depth": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.26122476593468547,
+    0.43438801250427245,
+    0.2723600279929335
+   ],
+   "text": "47 cm",
+   "note": null
+  },
+  "max_load": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.28349529005118174,
+    0.4402739410154748,
+    0.29463055210942984
+   ],
+   "text": "220 kg",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.3057658141676779,
+    0.44451334855250485,
+    0.316901076225926
+   ],
+   "text": "30,4 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.18194170007995902,
+    0.8195662683677952,
+    0.1930769621382071
+   ],
+   "text": "Faia maciça, acabamento nogueira / solid beech, walnut stain",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.15967117596346286,
+    0.7237294989502254,
+    0.17080643802171094
+   ],
+   "text": "Veludo, 100% poliéster / velvet, 100% polyester",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.32803633828417406,
+    0.6604076773246119,
+    0.33917160034242216
+   ],
+   "text": "Apenas limpeza a seco / dry clean only",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.37257738651716654,
+    0.8704930176338735,
+    0.39618414208065245
+   ],
+   "text": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal - info@moveislusa.example",
+   "note": null
+  },
+  "ean:AVE-14-ANT": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.3536149117226083,
+    0.5088729941101232,
+    0.4641780442133056,
+    0.5200082561683713
+   ],
+   "text": "5601234014013",
+   "note": null
+  },
+  "ean:AVE-14-ARE": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.3536149117226083,
+    0.5311435182266194,
+    0.4671864078251572,
+    0.5422787802848675
+   ],
+   "text": "5601234014020",
+   "note": null
+  },
+  "ean:AVE-14-CIN": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.3536149117226083,
+    0.5534140423431155,
+    0.46532445392771815,
+    0.5645493044013637
+   ],
+   "text": "5601234014037",
+   "note": null
+  },
+  "claim:0": {
+   "source": "pdf",
+   "file": "AVE14_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.4073194041389005,
+    0.6749955476804032,
+    0.41845466619714866
+   ],
+   "text": "Espuma à prova de fogo / fireproof foam",
+   "note": null
+  }
+ },
+ "images": {
+  "AVE14_ANT_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "velvet",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       643,
+       73,
+       723,
+       135
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       667,
+       252,
+       809,
+       324
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       596,
+       896,
+       695,
+       956
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "AVE14_ANT_34.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "velvet",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [
+     "30.7\"",
+     "31\"",
+     "60\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       412,
+       5,
+       463,
+       68
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       872,
+       158,
+       923,
+       203
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       845,
+       653,
+       896,
+       693
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       663,
+       117,
+       791,
+       172
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       736,
+       291,
+       908,
+       353
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       625,
+       902,
+       744,
+       956
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1685
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 152.4,
+    "depth_cm": 78.74,
+    "height_cm": 77.98,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "AVE14_ANT_side.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       426,
+       351,
+       932,
+       658
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4558.JPG": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "velvet",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       655,
+       66,
+       751,
+       117
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       651,
+       192,
+       680,
+       233
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       651,
+       763,
+       678,
+       804
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       655,
+       881,
+       751,
+       932
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "AVE14_ARE_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       644,
+       38,
+       746,
+       95
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       678,
+       356,
+       703,
+       392
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       732,
+       687,
+       858,
+       753
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       700,
+       851,
+       783,
+       911
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "AVE14_ARE_34.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "upholstered furniture",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "AVE14_ARE_side.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       773,
+       151,
+       973,
+       246
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       773,
+       834,
+       973,
+       908
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "AVE14_ARE_detail.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "AVE14_CIN_front.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       645,
+       41,
+       747,
+       94
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       677,
+       356,
+       701,
+       391
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       736,
+       686,
+       858,
+       748
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       706,
+       855,
+       783,
+       912
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "AVE14_CIN_34.jpg": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [
+     "30.7\"",
+     "31\"",
+     "60\""
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       406,
+       5,
+       456,
+       68
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       866,
+       166,
+       916,
+       208
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       846,
+       656,
+       896,
+       698
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       656,
+       135,
+       788,
+       191
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       736,
+       291,
+       898,
+       351
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       644,
+       635,
+       676,
+       666
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       616,
+       906,
+       740,
+       958
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    1660
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 152.4,
+    "depth_cm": 78.74,
+    "height_cm": 77.98,
+    "seat_height_cm": null,
+    "product_code": null
+   }
+  },
+  "AVE14_CIN_side.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "upholstery fabric",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "AVE14_CIN_detail.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       693,
+       83,
+       793,
+       131
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       685,
+       197,
+       716,
+       237
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       685,
+       763,
+       716,
+       803
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       693,
+       888,
+       793,
+       936
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "AVE14_promo.jpg": {
+   "analysis": {
+    "role": "promo",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "velvet",
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": "black",
+    "text_in_image": [
+     "NOVIDADE -15%"
+    ],
+    "has_text_overlay": true,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       32,
+       26,
+       87,
+       542
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       644,
+       74,
+       724,
+       136
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       672,
+       252,
+       811,
+       324
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       605,
+       897,
+       697,
+       953
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    1600
+   ],
+   "low_res": false
+  },
+  "AVE14_dimensions.png": {
+   "analysis": {
+    "role": "dimension_drawing",
+    "product_type": "sofa",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "unsure",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "FRENTE / FRONT",
+     "LADO / SIDE",
+     "78",
+     "45",
+     "152 cm",
+     "78 cm",
+     "AVE-14 · medidas em cm"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       92,
+       81,
+       265
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       43,
+       612,
+       81,
+       743
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       656,
+       10,
+       694,
+       35
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       733,
+       495,
+       771,
+       521
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       893,
+       247,
+       931,
+       328
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       893,
+       678,
+       931,
+       745
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       957,
+       773,
+       995,
+       987
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       106,
+       841,
+       118
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       452,
+       841,
+       464
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       622,
+       841,
+       634
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       785,
+       792,
+       841,
+       804
+      ]
+     }
+    ]
+   },
+   "size": [
+    1600,
+    900
+   ],
+   "low_res": false,
+   "drawing": {
+    "width_cm": 152.0,
+    "depth_cm": 78.0,
+    "height_cm": 78.0,
+    "seat_height_cm": 45.0,
+    "product_code": "AVE-14"
+   }
+  }
+ },
+ "errors": {
+  "AVE14_label.png": "LLMError: label:SYN-14:AVE14_label.png: gave up after 5 attempts: Error code: 500 - {'error': {'message': 'Error from provider self-dploy: 503 Service Unavailable {\"error\":{\"type\":\"Service Unavailable\",\"code\":\"no_available_workers\",\"message\":\"No available workers (all circuits open or unhealthy)\"}}'"
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

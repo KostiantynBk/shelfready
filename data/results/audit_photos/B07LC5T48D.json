@@ -1,0 +1,354 @@
+{
+ "item_id": "B07LC5T48D",
+ "photos": {
+  "61-hAk9VOVL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      221,
+      925,
+      368
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      858,
+      301,
+      996,
+      468
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      858,
+      541,
+      994,
+      698
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      831,
+      601,
+      931,
+      782
+     ]
+    }
+   ]
+  },
+  "61XOPyUfslL": {
+   "role": "packshot",
+   "product_type": "gaming chair",
+   "products_in_frame": 2,
+   "colour_family": "blue",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      748,
+      46,
+      858,
+      121
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      803,
+      104,
+      923,
+      211
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      773,
+      135,
+      863,
+      263
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      803,
+      395,
+      930,
+      458
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      438,
+      868,
+      531
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      703,
+      598,
+      768,
+      678
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      743,
+      641,
+      850,
+      721
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      753,
+      848,
+      850,
+      908
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      703,
+      881,
+      768,
+      958
+     ]
+    }
+   ]
+  },
+  "71dQLkxKoIL": {
+   "role": "promo",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [
+    "Multi Function",
+    "0-20° Rocking angle",
+    "Pull out for rocking",
+    "Push in for lock",
+    "Pull upward on lever to",
+    "achieve height adjustment",
+    "Colckwise rotation, rocking angle 0–10°",
+    "Counterwise rotation, rocking angle 10°–20°"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      41,
+      203,
+      83,
+      523
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      143,
+      35,
+      216,
+      236
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      337,
+      716,
+      393,
+      932
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      597,
+      686,
+      653,
+      968
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      873,
+      578,
+      930,
+      983
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      843,
+      181,
+      888,
+      246
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      888,
+      246,
+      968,
+      311
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      888,
+      476,
+      968,
+      541
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      843,
+      501,
+      888,
+      566
+     ]
+    }
+   ]
+  },
+  "71quMIrezdL": {
+   "role": "promo",
+   "product_type": "gaming chair",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [
+    "3 Ergonomic Systems",
+    "01 Soft widened back deisgn",
+    "02 Wear-resisting seat design",
+    "03 Rotation armrest design"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      36,
+      78,
+      83,
+      513
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      326,
+      73,
+      368,
+      491
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      605,
+      73,
+      647,
+      472
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      864,
+      73,
+      906,
+      441
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      833,
+      514,
+      873,
+      568
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      885,
+      556,
+      948,
+      611
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      885,
+      843,
+      948,
+      898
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      833,
+      894,
+      873,
+      948
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

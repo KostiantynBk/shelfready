@@ -1,0 +1,222 @@
+{
+ "item_id": "B07QDNS4RK",
+ "photos": {
+  "81S3gszFy5L": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      204,
+      872,
+      294
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      341,
+      986,
+      388
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      573,
+      844,
+      618
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      534,
+      738,
+      945,
+      784
+     ]
+    }
+   ]
+  },
+  "812oIcjH8pL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      256,
+      984,
+      335
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      554,
+      643,
+      984,
+      736
+     ]
+    }
+   ]
+  },
+  "91pvPy5WG9L": {
+   "role": "lifestyle",
+   "product_type": "dining set",
+   "products_in_frame": 3,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "metal",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      543,
+      113,
+      737,
+      166
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      648,
+      163,
+      792,
+      223
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      655,
+      253,
+      831,
+      303
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      622,
+      403,
+      744,
+      443
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      450,
+      858,
+      490
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      533,
+      713,
+      722,
+      763
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      733,
+      633,
+      911,
+      673
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      720,
+      867,
+      760
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      820,
+      963,
+      860
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      900,
+      893,
+      950
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      300,
+      241,
+      536
+     ]
+    }
+   ]
+  },
+  "91czxLSZeqL": {
+   "role": "detail",
+   "product_type": "fabric swatch",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "boucle",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

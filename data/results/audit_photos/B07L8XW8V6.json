@@ -1,0 +1,186 @@
+{
+ "item_id": "B07L8XW8V6",
+ "photos": {
+  "81Oqkvz+spL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "61sIcLIVmdL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      615,
+      147,
+      686,
+      178
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      673,
+      421,
+      818,
+      468
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      703,
+      755,
+      823,
+      797
+     ]
+    }
+   ]
+  },
+  "61LUNle+Q3L": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      88,
+      721,
+      117
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      676,
+      224,
+      751,
+      255
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      631,
+      403,
+      691,
+      433
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      631,
+      476,
+      653,
+      511
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      676,
+      798,
+      751,
+      830
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      641,
+      866,
+      691,
+      898
+     ]
+    }
+   ]
+  },
+  "6163DB5mVVL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      677,
+      83,
+      775,
+      118
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      665,
+      327,
+      773,
+      362
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      631,
+      405,
+      706,
+      438
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      631,
+      865,
+      708,
+      898
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

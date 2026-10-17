@@ -1,0 +1,136 @@
+{
+ "item_id": "B07B4ZC524",
+ "photos": {
+  "71cwC+86WHL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      784,
+      192,
+      978,
+      598
+     ]
+    }
+   ]
+  },
+  "81N4nkkM79L": {
+   "role": "lifestyle",
+   "product_type": "desk",
+   "products_in_frame": 2,
+   "colour_family": "brown",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "metal",
+   "legs_finish": "silver",
+   "text_in_image": [
+    "LARDHAM'S"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      448,
+      393,
+      482,
+      475
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      745,
+      431,
+      844,
+      506
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      745,
+      733,
+      936,
+      773
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      365,
+      765,
+      378,
+      836
+     ]
+    }
+   ]
+  },
+  "91jq+FbP+zL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "silver",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "Qi-Certified"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      14,
+      944,
+      985
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      528,
+      538,
+      563,
+      588
+     ]
+    }
+   ]
+  },
+  "B1T9jPYQGiS": {
+   "role": "detail",
+   "product_type": "material sample",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

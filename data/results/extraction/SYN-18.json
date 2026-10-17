@@ -1,0 +1,445 @@
+{
+ "submission_id": "SYN-18",
+ "spec": {
+  "product_name": "Lampada da tavolo ORTA / ORTA table lamp",
+  "supplier": "Arredo Brianza S.r.l.",
+  "product_type": "Lampada da tavolo / table lamp",
+  "manufacturer": "Arredo Brianza S.r.l.",
+  "manufacturer_address": "Via dei Mobilieri 7, 20821 Meda (MB), Italia · info@arredobrianza.example",
+  "eu_responsible_person": null,
+  "country_of_origin": "Italia",
+  "width": {
+   "value": "22",
+   "unit": "cm",
+   "source_text": "Ø 22 cm"
+  },
+  "depth": {
+   "value": "22",
+   "unit": "cm",
+   "source_text": "Ø 22 cm"
+  },
+  "height": {
+   "value": "34",
+   "unit": "cm",
+   "source_text": "Altezza · Ø / Height · Ø\n34 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "max_load": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "weight": {
+   "value": "28",
+   "unit": "kg",
+   "source_text": "28 kg"
+  },
+  "legs_or_base": "Acciaio verniciato / powder-coated steel",
+  "upholstery": null,
+  "care": "Pulire con panno asciutto a lampada spenta / clean with a dry cloth when switched off",
+  "variants": [
+   {
+    "code": "ORT-18-BLU",
+    "colour_name": "Blu",
+    "ean": "8012345018017"
+   },
+   {
+    "code": "ORT-18-BIA",
+    "colour_name": "Bianco",
+    "ean": "8012345018024"
+   }
+  ],
+  "safety_warnings": [
+   "Usare solo lampadine E27 max 40 W",
+   "Use only E27 bulbs, max. 40 W.",
+   "Scollegare prima della pulizia.",
+   "Disconnect before cleaning.",
+   "Solo per uso interno.",
+   "For indoor use only."
+  ],
+  "safety_warnings_languages": [
+   "it",
+   "en",
+   "it",
+   "en",
+   "it",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "ORTA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.1315321189838033,
+    0.15904981962838344,
+    0.18869441239754292,
+    0.16973967120430158
+   ],
+   "text": "Ø 22 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "ORTA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.1315321189838033,
+    0.15904981962838344,
+    0.18869441239754292,
+    0.16973967120430158
+   ],
+   "text": "Ø 22 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "ORTA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.14852221230376395,
+    0.21371076380225704,
+    0.16973967120430158
+   ],
+   "text": "Altezza · Ø / Height · Ø\n34 cm",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "ORTA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.19557347917943724,
+    0.11390110794412385,
+    0.20626333075535538
+   ],
+   "text": "28 kg",
+   "note": null
+  },
+  "legs_or_base": {
+   "source": "pdf",
+   "file": "ORTA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.12252616007732976,
+    0.7783398311122582,
+    0.13321601165324792
+   ],
+   "text": "Acciaio verniciato / powder-coated steel",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "ORTA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.19557347917943724,
+    0.9238418359917219,
+    0.21873482426059335
+   ],
+   "text": "Pulire con panno asciutto a lampada spenta / clean with a dry cloth when switched off",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "ORTA_scheda_tecnica.pdf",
+   "page": 1,
+   "bbox": [
+    0.5117991256293952,
+    0.244568632235729,
+    0.90836761539645,
+    0.26772997731688497
+   ],
+   "text": "Via dei Mobilieri 7, 20821 Meda (MB), Italia · info@arredobrianza.example",
+   "note": null
+  },
+  "ean:ORT-18-BLU": {
+   "source": "pdf",
+   "file": "ORTA_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.302009550379127,
+    0.13054354875926844,
+    0.4113779540423876,
+    0.14123340033518658
+   ],
+   "text": "8012345018017",
+   "note": null
+  },
+  "ean:ORT-18-BIA": {
+   "source": "pdf",
+   "file": "ORTA_scheda_tecnica.pdf",
+   "page": 2,
+   "bbox": [
+    0.302009550379127,
+    0.15459571480508424,
+    0.4113779540423876,
+    0.16528556638100242
+   ],
+   "text": "8012345018024",
+   "note": null
+  }
+ },
+ "images": {
+  "ORTA_BLU_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "ceramic",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       531,
+       394,
+       943,
+       606
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "ORTA_BLU_02.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "ceramic",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       831,
+       343,
+       1000,
+       656
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "ORTA_BLU_03.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "console table",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "white",
+    "text_in_image": [
+     "PRICK",
+     "THE BUCKET LIST"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       506,
+       123,
+       858,
+       168
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       506,
+       248,
+       841,
+       283
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       506,
+       765,
+       983,
+       810
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       506,
+       843,
+       923,
+       888
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       243,
+       287,
+       361,
+       363
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       348,
+       238,
+       366,
+       275
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       368,
+       243,
+       393,
+       358
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "ORTA_BIA_01.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "ceramic",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       481,
+       389,
+       961,
+       618
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "ORTA_BIA_03.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "table lamp",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "ceramic",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "base",
+      "box_2d": [
+       154,
+       272,
+       966,
+       713
+      ]
+     }
+    ]
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  },
+  "ORTA_BIA_04.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "ceramic object",
+    "products_in_frame": 1,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "ceramic",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": []
+   },
+   "size": [
+    1000,
+    1000
+   ],
+   "low_res": false
+  }
+ },
+ "errors": {
+  "ORTA_BLU_05.jpg": "LLMError: drawing:SYN-18:ORTA_BLU_05.jpg: gave up after 5 attempts: Error code: 500 - {'error': {'message': 'Error from provider self-dploy: 503 Service Unavailable {\"error\":{\"type\":\"Service Unavailable\",\"code\":\"no_available_workers\",\"message\":\"No available workers (all circuits open or unhealthy)\"}",
+  "ORTA_BIA_02.jpg": "LLMError: drawing:SYN-18:ORTA_BIA_02.jpg: gave up after 5 attempts: Error code: 500 - {'error': {'message': 'Error from provider self-dploy: 503 Service Unavailable {\"error\":{\"type\":\"Service Unavailable\",\"code\":\"no_available_workers\",\"message\":\"No available workers (all circuits open or unhealthy)\"}",
+  "IMG_4606.JPG": "LLMError: drawing:SYN-18:IMG_4606.JPG: gave up after 5 attempts: Error code: 500 - {'error': {'message': 'Error from provider self-dploy: 503 Service Unavailable {\"error\":{\"type\":\"Service Unavailable\",\"code\":\"no_available_workers\",\"message\":\"No available workers (all circuits open or unhealthy)\"}}',"
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

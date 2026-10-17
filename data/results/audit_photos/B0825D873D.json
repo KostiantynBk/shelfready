@@ -1,0 +1,163 @@
+{
+ "item_id": "B0825D873D",
+ "photos": {
+  "41m+OkjDAiL": {
+   "role": "packshot",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      211,
+      403,
+      975,
+      556
+     ]
+    }
+   ]
+  },
+  "41ceUept96L": {
+   "role": "dimension_drawing",
+   "product_type": "floor lamp",
+   "products_in_frame": 1,
+   "colour_family": "gold",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [
+    "58.25\"",
+    "15\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      831,
+      408,
+      888,
+      544
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      452,
+      611,
+      484,
+      724
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      922,
+      453,
+      954,
+      508
+     ]
+    }
+   ]
+  },
+  "418VoV+JLNL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "unsure",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      0,
+      218,
+      988,
+      792
+     ]
+    }
+   ]
+  },
+  "81IFu9qOATL": {
+   "role": "lifestyle",
+   "product_type": "armchair",
+   "products_in_frame": 2,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "metal",
+   "legs_finish": "dark walnut",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      866,
+      294,
+      953,
+      328
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      856,
+      368,
+      883,
+      408
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      875,
+      624,
+      963,
+      658
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      848,
+      684,
+      893,
+      720
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      713,
+      754,
+      897,
+      864
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

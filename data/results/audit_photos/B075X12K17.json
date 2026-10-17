@@ -1,0 +1,138 @@
+{
+ "item_id": "B075X12K17",
+ "photos": {
+  "81gRj9mNaeL": {
+   "role": "dimension_drawing",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [
+    "17\"",
+    "10\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      466,
+      393,
+      944,
+      733
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      471,
+      0,
+      496,
+      63
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      956,
+      536,
+      981,
+      588
+     ]
+    }
+   ]
+  },
+  "916R2LlS3kL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      441,
+      376,
+      986,
+      624
+     ]
+    }
+   ]
+  },
+  "81Fba1yXbOL": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "blue",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "ceramic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      436,
+      376,
+      988,
+      616
+     ]
+    }
+   ]
+  },
+  "91YhUJ3nuML": {
+   "role": "lifestyle",
+   "product_type": "bed",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "VICENTE WOLFE"
+   ],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      388,
+      111,
+      583,
+      193
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      583,
+      141,
+      596,
+      211
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

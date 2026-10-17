@@ -1,0 +1,141 @@
+{
+ "item_id": "B004C046UE",
+ "photos": {
+  "71Ozga+SPJL": {
+   "role": "packshot",
+   "product_type": "footrest",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      412,
+      608,
+      566,
+      731
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      363,
+      723,
+      907,
+      912
+     ]
+    }
+   ]
+  },
+  "71wpO-zKs3L": {
+   "role": "packshot",
+   "product_type": "bench",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "white",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      314,
+      823,
+      964,
+      912
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      314,
+      86,
+      996,
+      175
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      364,
+      156,
+      656,
+      226
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      364,
+      761,
+      656,
+      838
+     ]
+    }
+   ]
+  },
+  "713GcGTijkL": {
+   "role": "detail",
+   "product_type": "bench",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "81E6da+MtWL": {
+   "role": "packshot",
+   "product_type": "slatted platform",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      712,
+      31,
+      754,
+      96
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      866,
+      811,
+      926,
+      876
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

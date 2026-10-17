@@ -1,0 +1,181 @@
+{
+ "item_id": "B07JKJN1V1",
+ "photos": {
+  "3154M9BgM9L": {
+   "role": "detail",
+   "product_type": "furniture leg",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black matt",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      0,
+      268,
+      737,
+      871
+     ]
+    }
+   ]
+  },
+  "81bTLlQHgAL": {
+   "role": "detail",
+   "product_type": "upholstery fabric",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "6146ZFNLRPL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      538,
+      210,
+      862,
+      423
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      542,
+      413,
+      962,
+      473
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      542,
+      513,
+      825,
+      590
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      542,
+      583,
+      912,
+      843
+     ]
+    }
+   ]
+  },
+  "61HrDHLXIeL": {
+   "role": "dimension_drawing",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [
+    "55",
+    "59",
+    "79.5"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      46,
+      336,
+      85,
+      391
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      98,
+      685,
+      158,
+      740
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      464,
+      111,
+      505,
+      208
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      233,
+      844,
+      425
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      551,
+      415,
+      933,
+      475
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      551,
+      541,
+      788,
+      578
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      541,
+      585,
+      891,
+      813
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

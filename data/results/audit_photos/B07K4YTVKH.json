@@ -1,0 +1,137 @@
+{
+ "item_id": "B07K4YTVKH",
+ "photos": {
+  "71mx3O2EJNL": {
+   "role": "packshot",
+   "product_type": "desk lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      821,
+      341,
+      934,
+      438
+     ]
+    }
+   ]
+  },
+  "716VmDVNBML": {
+   "role": "packshot",
+   "product_type": "table lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      773,
+      605,
+      956,
+      686
+     ]
+    }
+   ]
+  },
+  "81hwlCUxrwL": {
+   "role": "lifestyle",
+   "product_type": "desk lamp",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "metal",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      743,
+      613,
+      806,
+      665
+     ]
+    }
+   ]
+  },
+  "71E9HcT2hcL": {
+   "role": "detail",
+   "product_type": "lamp socket",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [
+    "CQG",
+    "240V 4A",
+    "SAA"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      323,
+      492,
+      358,
+      556
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      402,
+      633,
+      532,
+      683
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      546,
+      556,
+      596,
+      606
+     ]
+    },
+    {
+     "label": "base",
+     "box_2d": [
+      195,
+      293,
+      665,
+      738
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

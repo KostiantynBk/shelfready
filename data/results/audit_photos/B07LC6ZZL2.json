@@ -1,0 +1,410 @@
+{
+ "item_id": "B07LC6ZZL2",
+ "photos": {
+  "6183bCn-W5L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      713,
+      65,
+      918,
+      363
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      713,
+      448,
+      997,
+      533
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      713,
+      533,
+      925,
+      898
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      713,
+      533,
+      798,
+      726
+     ]
+    }
+   ]
+  },
+  "61cEjhzdfOL": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "90cm",
+    "96cm",
+    "51cm",
+    "47cm",
+    "17cm",
+    "48cm",
+    "52cm",
+    "51cm",
+    "48cm",
+    "60cm"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      361,
+      15,
+      387,
+      78
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      442,
+      12,
+      468,
+      76
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      287,
+      121,
+      313,
+      184
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      231,
+      444,
+      257,
+      507
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      413,
+      936,
+      439,
+      998
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      636,
+      933,
+      662,
+      996
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      721,
+      933,
+      747,
+      996
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      684,
+      392,
+      710,
+      455
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      684,
+      751,
+      710,
+      814
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      838,
+      595,
+      864,
+      658
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      661,
+      268,
+      901,
+      444
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      661,
+      531,
+      973,
+      576
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      661,
+      576,
+      901,
+      841
+     ]
+    }
+   ]
+  },
+  "71XdL6lnW5L": {
+   "role": "promo",
+   "product_type": "office chair",
+   "products_in_frame": 2,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "ALL ROUND EXCELLENCE",
+    "WE ENDEAVOR TO PROVIDE OUR CUSTOMERS WITH AN EXCELLENT PRODUCT AT A COMPETITIVE PRICE COMPLEMENTED BY A CREDIBLE AFTER SALES SUPPORT SERVICE.",
+    "47CM",
+    "ERGONOMIC BACKREST",
+    "STRONG METAL FRAME DESIGNED TO HELP PROMOTING A COMFORTABLE SEATED POSITION, KEEPING YOU COMFY AFTER LONG HOURS OF GAME OR WORK.",
+    "BROAD SEAT",
+    "EQUIPED WITH BROAD SEAT-47CM, WHICH IS MORE COMFORTABLE THAN SEAT IN A NARROW PLACE."
+   ],
+   "has_text_overlay": true,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      85,
+      726,
+      166,
+      986
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      191,
+      685,
+      343,
+      991
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      706,
+      676,
+      738,
+      755
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      866,
+      76,
+      896,
+      405
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      913,
+      61,
+      978,
+      425
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      866,
+      674,
+      896,
+      886
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      913,
+      594,
+      961,
+      964
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      354,
+      481,
+      475,
+      688
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      783,
+      821,
+      886,
+      945
+     ]
+    }
+   ]
+  },
+  "613l6qs8YFL": {
+   "role": "promo",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [
+    "This Ergonomic chair keeps you away from fatigue,",
+    "its convenience for home or office use.",
+    "Perfect fit with",
+    "comfortable back",
+    "Wide armrests",
+    "Ergonomic rocking",
+    "function",
+    "Fashion durable",
+    "base",
+    "Adjust height meets",
+    "any height",
+    "requirment.",
+    "Flexible movable",
+    "castor"
+   ],
+   "has_text_overlay": true,
+   "white_background": false,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      42,
+      101,
+      121,
+      901
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      296,
+      42,
+      363,
+      258
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      357,
+      747,
+      387,
+      943
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      583,
+      42,
+      651,
+      264
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      637,
+      747,
+      704,
+      954
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      822,
+      32,
+      928,
+      275
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      871,
+      747,
+      938,
+      954
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      773,
+      353,
+      987,
+      718
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

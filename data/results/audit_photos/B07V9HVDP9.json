@@ -1,0 +1,140 @@
+{
+ "item_id": "B07V9HVDP9",
+ "photos": {
+  "A1Ky1CZRbgL": {
+   "role": "packshot",
+   "product_type": "recliner chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "81ls+nXcooL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      823,
+      232,
+      871,
+      293
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      885,
+      356,
+      966,
+      418
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      892,
+      671,
+      955,
+      738
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      804,
+      701,
+      858,
+      753
+     ]
+    }
+   ]
+  },
+  "81rLo31Ob1L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      823,
+      204,
+      872,
+      263
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      903,
+      312,
+      958,
+      372
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      891,
+      625,
+      946,
+      685
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      801,
+      654,
+      852,
+      711
+     ]
+    }
+   ]
+  },
+  "91Hwu8U3GpL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  }
+ },
+ "errors": {}
+}

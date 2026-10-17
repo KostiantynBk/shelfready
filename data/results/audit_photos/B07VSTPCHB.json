@@ -1,0 +1,159 @@
+{
+ "item_id": "B07VSTPCHB",
+ "photos": {
+  "71Rt2jitArL": {
+   "role": "detail",
+   "product_type": "upholstery",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "91i6Jgg+q8L": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      761,
+      111,
+      972,
+      241
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      773,
+      314,
+      803,
+      356
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      766,
+      644,
+      798,
+      686
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      761,
+      759,
+      972,
+      889
+     ]
+    }
+   ]
+  },
+  "91QhjOv2SEL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      715,
+      83,
+      862,
+      223
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      755,
+      453,
+      983,
+      558
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      741,
+      655,
+      917,
+      792
+     ]
+    }
+   ]
+  },
+  "912NVwcuojL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "green",
+   "upholstery_material": "fabric",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      692,
+      261,
+      796,
+      318
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      734,
+      391,
+      974,
+      451
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      714,
+      851,
+      853,
+      944
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

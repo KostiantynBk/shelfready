@@ -1,0 +1,141 @@
+{
+ "item_id": "B07TC2NYYX",
+ "photos": {
+  "51smzq5sPlL": {
+   "role": "detail",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "51g1zLIO-6L": {
+   "role": "detail",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      704,
+      202,
+      938,
+      1000
+     ]
+    }
+   ]
+  },
+  "71a-SC9HLpL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "faux leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      723,
+      124,
+      883,
+      358
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      733,
+      473,
+      944,
+      546
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      723,
+      551,
+      883,
+      885
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      716,
+      561,
+      766,
+      710
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      716,
+      263,
+      766,
+      412
+     ]
+    }
+   ]
+  },
+  "51LBEG-hv1L": {
+   "role": "detail",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "black",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "chrome",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      462,
+      430,
+      1000,
+      623
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      435,
+      616,
+      734,
+      872
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

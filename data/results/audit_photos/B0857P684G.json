@@ -1,0 +1,181 @@
+{
+ "item_id": "B0857P684G",
+ "photos": {
+  "21pKK8S-7pL": {
+   "role": "dimension_drawing",
+   "product_type": "salt lamp",
+   "products_in_frame": 1,
+   "colour_family": "pink",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [
+    "4.3 in",
+    "11 cm"
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      675,
+      360,
+      771,
+      472
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      598,
+      515,
+      658,
+      612
+     ]
+    }
+   ]
+  },
+  "51gYFFUftZL": {
+   "role": "packshot",
+   "product_type": "salt lamp",
+   "products_in_frame": 1,
+   "colour_family": "orange",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [
+    "60HZ",
+    "MAX",
+    "OFF"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      653,
+      276,
+      916,
+      793
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      693,
+      286,
+      743,
+      383
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      803,
+      343,
+      853,
+      386
+     ]
+    }
+   ]
+  },
+  "51EdIr6SPPL": {
+   "role": "packshot",
+   "product_type": "salt lamp",
+   "products_in_frame": 1,
+   "colour_family": "beige",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [
+    "230V 60HZ",
+    "67W MAX",
+    "ON",
+    "OFF"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      343,
+      231,
+      946,
+      1000
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      426,
+      236,
+      511,
+      416
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      493,
+      241,
+      586,
+      468
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      591,
+      248,
+      656,
+      336
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      656,
+      416,
+      726,
+      496
+     ]
+    }
+   ]
+  },
+  "61VKMrx9-gL": {
+   "role": "packshot",
+   "product_type": "salt lamp",
+   "products_in_frame": 1,
+   "colour_family": "pink",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "plastic",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "base",
+     "box_2d": [
+      232,
+      447,
+      753,
+      951
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

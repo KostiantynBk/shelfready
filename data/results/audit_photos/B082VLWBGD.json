@@ -1,0 +1,153 @@
+{
+ "item_id": "B082VLWBGD",
+ "photos": {
+  "A1jhUJzU4ML": {
+   "role": "detail",
+   "product_type": "upholstery swatch",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": false,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "71f+cjwnySL": {
+   "role": "packshot",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": "black",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      685,
+      130,
+      723,
+      191
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      772,
+      378,
+      838,
+      516
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      722,
+      831,
+      760,
+      893
+     ]
+    }
+   ]
+  },
+  "816Hd0BjN6L": {
+   "role": "detail",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": []
+  },
+  "71+qqC1gw1L": {
+   "role": "dimension_drawing",
+   "product_type": "armchair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "31.5\"",
+    "42.1\"",
+    "43.3\""
+   ],
+   "has_text_overlay": true,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      385,
+      43,
+      431,
+      111
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      821,
+      244,
+      871,
+      321
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      863,
+      664,
+      911,
+      743
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      678,
+      134,
+      724,
+      193
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      785,
+      385,
+      872,
+      526
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      722,
+      847,
+      768,
+      908
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

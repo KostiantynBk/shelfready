@@ -1,0 +1,209 @@
+{
+ "item_id": "B07VSTD274",
+ "photos": {
+  "71lhfutTfdL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      866,
+      35,
+      972,
+      81
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      866,
+      485,
+      904,
+      514
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      866,
+      912,
+      972,
+      958
+     ]
+    }
+   ]
+  },
+  "71pOdgVZ3AL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      836,
+      243,
+      975,
+      273
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      653,
+      904,
+      738,
+      951
+     ]
+    }
+   ]
+  },
+  "71u6EASn-qL": {
+   "role": "packshot",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "grey",
+   "upholstery_material": "fabric",
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "light oak",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      42,
+      838,
+      82
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      846,
+      188,
+      977,
+      231
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      763,
+      506,
+      796,
+      531
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      683,
+      902,
+      758,
+      944
+     ]
+    }
+   ]
+  },
+  "7188W8Cw-wL": {
+   "role": "dimension_drawing",
+   "product_type": "sofa",
+   "products_in_frame": 1,
+   "colour_family": "white",
+   "upholstery_material": null,
+   "legs_material": "unsure",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [
+    "2310",
+    "920",
+    "810"
+   ],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 1.0,
+   "boxes": [
+    {
+     "label": "text",
+     "box_2d": [
+      285,
+      418,
+      321,
+      511
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      266,
+      782,
+      302,
+      855
+     ]
+    },
+    {
+     "label": "text",
+     "box_2d": [
+      485,
+      101,
+      566,
+      148
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      573,
+      213,
+      613,
+      255
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      645,
+      345,
+      696,
+      387
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      481,
+      851,
+      521,
+      892
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

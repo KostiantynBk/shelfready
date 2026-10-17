@@ -1,0 +1,132 @@
+{
+ "item_id": "B07VC3QP7G",
+ "photos": {
+  "81J5KQncGZL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": []
+  },
+  "71HJhg4AE6L": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      865,
+      366,
+      998,
+      538
+     ]
+    }
+   ]
+  },
+  "71iT5oRfvCL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      748,
+      234,
+      867,
+      485
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      765,
+      361,
+      964,
+      521
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      752,
+      521,
+      953,
+      743
+     ]
+    }
+   ]
+  },
+  "71dUYHvqExL": {
+   "role": "packshot",
+   "product_type": "office chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": "leather",
+   "legs_material": "metal",
+   "base_material": "none_visible",
+   "legs_finish": "silver",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      758,
+      205,
+      863,
+      435
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      800,
+      314,
+      958,
+      453
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      762,
+      478,
+      946,
+      708
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

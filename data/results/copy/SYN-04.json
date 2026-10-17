@@ -1,0 +1,853 @@
+{
+ "product_id": "SYN-04",
+ "decisions": {},
+ "facts": {
+  "product_name": "Poltrona reclinável BRAGA / BRAGA recliner",
+  "model": "BRAGA",
+  "brand": "Móveis Lusa",
+  "width_cm": 112,
+  "depth_cm": 84,
+  "height_cm": 99,
+  "seat_height_cm": 44,
+  "seat_depth_cm": 50,
+  "weight_kg": 39.9,
+  "product_type": "Poltrona reclinável BRAGA / BRAGA recliner",
+  "upholstery": "Tecido, 100% poliester / woven fabric, 100% polyester",
+  "care": "Capa removível, lavar a 30 °C / removable cover, washable at 30 °C",
+  "country_of_origin": "Portugal",
+  "safety_warnings": [
+   "Não utilizar no exterior.",
+   "Not for outdoor use.",
+   "Manter afastado de fontes de calor.",
+   "Keep away from heat sources.",
+   "Não subir para o assento.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "BRA-04-ARE",
+    "colour_name": "Areia"
+   },
+   {
+    "code": "BRA-04-BEG",
+    "colour_name": "Bege"
+   },
+   {
+    "code": "BRA-04-ANT",
+    "colour_name": "Antracite"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "legs_or_base",
+   "variant": null,
+   "reason": "Legs: spec says metal, photos show wood",
+   "issue": "D6::legs_or_base:",
+   "asked_supplier": false
+  },
+  {
+   "attribute": "max_load",
+   "variant": null,
+   "reason": "Max load 1200 kg looks wrong for a chair",
+   "issue": "D17::max_load:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "BRA04_ANT_34.jpg",
+   "variant": "BRA-04-ANT",
+   "view": "three-quarter",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "BRA04_ANT_front.jpg",
+   "variant": "BRA-04-ANT",
+   "view": "front",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "BRA04_ARE_34.jpg",
+   "variant": "BRA-04-ARE",
+   "view": "three-quarter",
+   "colour_seen": "white"
+  },
+  {
+   "file": "BRA04_ARE_front.jpg",
+   "variant": "BRA-04-ARE",
+   "view": "front",
+   "colour_seen": "white"
+  },
+  {
+   "file": "BRA04_BEG_34.jpg",
+   "variant": "BRA-04-BEG",
+   "view": "three-quarter",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "BRA04_BEG_front.jpg",
+   "variant": "BRA-04-BEG",
+   "view": "front",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "BRA04_ANT_detail.jpg",
+   "variant": "BRA-04-ANT",
+   "view": "detail",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "BRA04_ARE_side.jpg",
+   "variant": "BRA-04-ARE",
+   "view": "side",
+   "colour_seen": "white"
+  }
+ ],
+ "protected": [
+  "Móveis Lusa",
+  "BRAGA",
+  "BRA-04-ARE",
+  "BRA-04-BEG",
+  "BRA-04-ANT"
+ ],
+ "en": {
+  "title": "Móveis Lusa BRAGA Recliner",
+  "bullets": [
+   "Dimensions: 112 cm width, 84 cm depth, 99 cm height",
+   "Seat height: 44 cm; seat depth: 50 cm",
+   "Upholstery: 100% polyester woven fabric",
+   "Removable cover, washable at 30 °C",
+   "Made in Portugal"
+  ],
+  "description": "The BRAGA recliner by Móveis Lusa is a comfortable seating option upholstered in 100% polyester woven fabric. It features a removable cover for easy maintenance and weighs 39.9 kg.",
+  "colours": [
+   {
+    "code": "BRA-04-ARE",
+    "name": "Sand"
+   },
+   {
+    "code": "BRA-04-BEG",
+    "name": "Beige"
+   },
+   {
+    "code": "BRA-04-ANT",
+    "name": "Anthracite"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "BRA04_ANT_34.jpg",
+    "text": "BRAGA recliner in grey, three-quarter view"
+   },
+   {
+    "file": "BRA04_ANT_front.jpg",
+    "text": "BRAGA recliner in grey, front view"
+   },
+   {
+    "file": "BRA04_ARE_34.jpg",
+    "text": "BRAGA recliner in white, three-quarter view"
+   },
+   {
+    "file": "BRA04_ARE_front.jpg",
+    "text": "BRAGA recliner in white, front view"
+   },
+   {
+    "file": "BRA04_BEG_34.jpg",
+    "text": "BRAGA recliner in beige, three-quarter view"
+   },
+   {
+    "file": "BRA04_BEG_front.jpg",
+    "text": "BRAGA recliner in beige, front view"
+   },
+   {
+    "file": "BRA04_ANT_detail.jpg",
+    "text": "Detail view of the BRAGA recliner in grey"
+   },
+   {
+    "file": "BRA04_ARE_side.jpg",
+    "text": "BRAGA recliner in white, side view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Sillón Reclinable Móveis Lusa BRAGA",
+    "bullets": [
+     "Dimensiones: 112 cm de ancho, 84 cm de profundidad, 99 cm de altura",
+     "Altura del asiento: 44 cm; profundidad del asiento: 50 cm",
+     "Tapicería: tejido tejido 100% poliéster",
+     "Funda extraíble, lavable a 30 °C",
+     "Fabricado en Portugal"
+    ],
+    "description": "El sillón reclinable BRAGA de Móveis Lusa es una opción de asiento cómoda tapizada en tejido 100% poliéster. Cuenta con una funda extraíble para facilitar el mantenimiento y tiene un peso de 39.9 kg.",
+    "colours": [
+     {
+      "code": "BRA-04-ARE",
+      "name": "Arena"
+     },
+     {
+      "code": "BRA-04-BEG",
+      "name": "Beige"
+     },
+     {
+      "code": "BRA-04-ANT",
+      "name": "Antracita"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRA04_ANT_34.jpg",
+      "text": "Sillón reclinable BRAGA en gris, vista en tres cuartos"
+     },
+     {
+      "file": "BRA04_ANT_front.jpg",
+      "text": "Sillón reclinable BRAGA en gris, vista frontal"
+     },
+     {
+      "file": "BRA04_ARE_34.jpg",
+      "text": "Sillón reclinable BRAGA en blanco, vista en tres cuartos"
+     },
+     {
+      "file": "BRA04_ARE_front.jpg",
+      "text": "Sillón reclinable BRAGA en blanco, vista frontal"
+     },
+     {
+      "file": "BRA04_BEG_34.jpg",
+      "text": "Sillón reclinable BRAGA en beige, vista en tres cuartos"
+     },
+     {
+      "file": "BRA04_BEG_front.jpg",
+      "text": "Sillón reclinable BRAGA en beige, vista frontal"
+     },
+     {
+      "file": "BRA04_ANT_detail.jpg",
+      "text": "Vista de detalle del sillón reclinable BRAGA en gris"
+     },
+     {
+      "file": "BRA04_ARE_side.jpg",
+      "text": "Sillón reclinable BRAGA en blanco, vista lateral"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Poltrona Relax Móveis Lusa BRAGA",
+    "bullets": [
+     "Dimensioni: 112 cm di larghezza, 84 cm di profondità, 99 cm di altezza",
+     "Altezza seduta: 44 cm; profondità seduta: 50 cm",
+     "Rivestimento: tessuto intrecciato 100% poliestere",
+     "Cover rimovibile, lavabile a 30 °C",
+     "Prodotto in Portogallo"
+    ],
+    "description": "La poltrona relax BRAGA di Móveis Lusa è una soluzione di seduta confortevole rivestita in tessuto intrecciato 100% poliestere. Dispone di un rivestimento rimovibile per una facile manutenzione e pesa 39,9 kg.",
+    "colours": [
+     {
+      "code": "BRA-04-ARE",
+      "name": "Sabbia"
+     },
+     {
+      "code": "BRA-04-BEG",
+      "name": "Beige"
+     },
+     {
+      "code": "BRA-04-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sulla seduta."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRA04_ANT_34.jpg",
+      "text": "Poltrona relax BRAGA in grigio, vista a tre quarti"
+     },
+     {
+      "file": "BRA04_ANT_front.jpg",
+      "text": "Poltrona relax BRAGA in grigio, vista frontale"
+     },
+     {
+      "file": "BRA04_ARE_34.jpg",
+      "text": "Poltrona relax BRAGA in bianco, vista a tre quarti"
+     },
+     {
+      "file": "BRA04_ARE_front.jpg",
+      "text": "Poltrona relax BRAGA in bianco, vista frontale"
+     },
+     {
+      "file": "BRA04_BEG_34.jpg",
+      "text": "Poltrona relax BRAGA in beige, vista a tre quarti"
+     },
+     {
+      "file": "BRA04_BEG_front.jpg",
+      "text": "Poltrona relax BRAGA in beige, vista frontale"
+     },
+     {
+      "file": "BRA04_ANT_detail.jpg",
+      "text": "Vista dettagliata della poltrona relax BRAGA in grigio"
+     },
+     {
+      "file": "BRA04_ARE_side.jpg",
+      "text": "Poltrona relax BRAGA in bianco, vista laterale"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Móveis Lusa BRAGA Relaxsessel",
+    "bullets": [
+     "Maße: 112 cm Breite, 84 cm Tiefe, 99 cm Höhe",
+     "Sitzhöhe: 44 cm; Sitztiefe: 50 cm",
+     "Bezug: 100% Polyester-Webstoff",
+     "Abnehmbarer Bezug, waschbar bei 30 °C",
+     "Hergestellt in Portugal"
+    ],
+    "description": "Der BRAGA Relaxsessel von Móveis Lusa ist eine komfortable Sitzmöglichkeit, bezogen mit einem Webstoff aus 100% Polyester. Er verfügt über einen abnehmbaren Bezug zur einfachen Pflege und wiegt 39,9 kg.",
+    "colours": [
+     {
+      "code": "BRA-04-ARE",
+      "name": "Sand"
+     },
+     {
+      "code": "BRA-04-BEG",
+      "name": "Beige"
+     },
+     {
+      "code": "BRA-04-ANT",
+      "name": "Anthrazit"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRA04_ANT_34.jpg",
+      "text": "BRAGA Relaxsessel in Grau, Dreiviertelansicht"
+     },
+     {
+      "file": "BRA04_ANT_front.jpg",
+      "text": "BRAGA Relaxsessel in Grau, Frontansicht"
+     },
+     {
+      "file": "BRA04_ARE_34.jpg",
+      "text": "BRAGA Relaxsessel in Weiß, Dreiviertelansicht"
+     },
+     {
+      "file": "BRA04_ARE_front.jpg",
+      "text": "BRAGA Relaxsessel in Weiß, Frontansicht"
+     },
+     {
+      "file": "BRA04_BEG_34.jpg",
+      "text": "BRAGA Relaxsessel in Beige, Dreiviertelansicht"
+     },
+     {
+      "file": "BRA04_BEG_front.jpg",
+      "text": "BRAGA Relaxsessel in Beige, Frontansicht"
+     },
+     {
+      "file": "BRA04_ANT_detail.jpg",
+      "text": "Detailansicht des BRAGA Relaxsessels in Grau"
+     },
+     {
+      "file": "BRA04_ARE_side.jpg",
+      "text": "BRAGA Relaxsessel in Weiß, Seitenansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa BRAGA Recliner Chair",
+    "bullets": [
+     "Dimensions: 112 cm width, 84 cm depth, 99 cm height",
+     "Seat height: 44 cm; Seat depth: 50 cm",
+     "Cover: 100% polyester woven fabric",
+     "Removable cover, washable at 30 °C",
+     "Made in Portugal"
+    ],
+    "description": "The BRAGA recliner chair from Móveis Lusa is a comfortable seating option, covered with a 100% polyester woven fabric. It features a removable cover for easy care and weighs 39.9 kg.",
+    "colours": [
+     {
+      "code": "BRA-04-ARE",
+      "name": "Sand"
+     },
+     {
+      "code": "BRA-04-BEG",
+      "name": "Beige"
+     },
+     {
+      "code": "BRA-04-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRA04_ANT_34.jpg",
+      "text": "BRAGA recliner chair in grey, three-quarter view"
+     },
+     {
+      "file": "BRA04_ANT_front.jpg",
+      "text": "BRAGA recliner chair in grey, front view"
+     },
+     {
+      "file": "BRA04_ARE_34.jpg",
+      "text": "BRAGA recliner chair in white, three-quarter view"
+     },
+     {
+      "file": "BRA04_ARE_front.jpg",
+      "text": "BRAGA recliner chair in white, front view"
+     },
+     {
+      "file": "BRA04_BEG_34.jpg",
+      "text": "BRAGA recliner chair in beige, three-quarter view"
+     },
+     {
+      "file": "BRA04_BEG_front.jpg",
+      "text": "BRAGA recliner chair in beige, front view"
+     },
+     {
+      "file": "BRA04_ANT_detail.jpg",
+      "text": "Detailed view of the BRAGA recliner chair in grey"
+     },
+     {
+      "file": "BRA04_ARE_side.jpg",
+      "text": "BRAGA recliner chair in white, side view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Fauteuil inclinable Móveis Lusa BRAGA",
+    "bullets": [
+     "Dimensions : 112 cm de largeur, 84 cm de profondeur, 99 cm de hauteur",
+     "Hauteur d'assise : 44 cm ; profondeur d'assise : 50 cm",
+     "Revêtement : tissu tissé 100 % polyester",
+     "Housse amovible, lavable à 30 °C",
+     "Fabriqué au Portugal"
+    ],
+    "description": "Le fauteuil inclinable BRAGA de Móveis Lusa est une option d'assise confortable revêtue d'un tissu tissé 100 % polyester. Il dispose d'une housse amovible pour un entretien facile et pèse 39,9 kg.",
+    "colours": [
+     {
+      "code": "BRA-04-ARE",
+      "name": "Sable"
+     },
+     {
+      "code": "BRA-04-BEG",
+      "name": "Beige"
+     },
+     {
+      "code": "BRA-04-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRA04_ANT_34.jpg",
+      "text": "Fauteuil inclinable BRAGA en gris, vue de trois quarts"
+     },
+     {
+      "file": "BRA04_ANT_front.jpg",
+      "text": "Fauteuil inclinable BRAGA en gris, vue de face"
+     },
+     {
+      "file": "BRA04_ARE_34.jpg",
+      "text": "Fauteuil inclinable BRAGA en blanc, vue de trois quarts"
+     },
+     {
+      "file": "BRA04_ARE_front.jpg",
+      "text": "Fauteuil inclinable BRAGA en blanc, vue de face"
+     },
+     {
+      "file": "BRA04_BEG_34.jpg",
+      "text": "Fauteuil inclinable BRAGA en beige, vue de trois quarts"
+     },
+     {
+      "file": "BRA04_BEG_front.jpg",
+      "text": "Fauteuil inclinable BRAGA en beige, vue de face"
+     },
+     {
+      "file": "BRA04_ANT_detail.jpg",
+      "text": "Vue détaillée du fauteuil inclinable BRAGA en gris"
+     },
+     {
+      "file": "BRA04_ARE_side.jpg",
+      "text": "Fauteuil inclinable BRAGA en blanc, vue de profil"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Poltrona Reclinável Móveis Lusa BRAGA",
+    "bullets": [
+     "Dimensões: 112 cm de largura, 84 cm de profundidade, 99 cm de altura",
+     "Altura do assento: 44 cm; profundidade do assento: 50 cm",
+     "Estofos: tecido tecido 100% poliéster",
+     "Capa removível, lavável a 30 °C",
+     "Fabricado em Portugal"
+    ],
+    "description": "A poltrona reclinável BRAGA da Móveis Lusa é uma opção de assento confortável estofada em tecido 100% poliéster. Possui uma capa removível para facilitar a manutenção e pesa 39.9 kg.",
+    "colours": [
+     {
+      "code": "BRA-04-ARE",
+      "name": "Areia"
+     },
+     {
+      "code": "BRA-04-BEG",
+      "name": "Bege"
+     },
+     {
+      "code": "BRA-04-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRA04_ANT_34.jpg",
+      "text": "Poltrona reclinável BRAGA em cinzento, vista de três quartos"
+     },
+     {
+      "file": "BRA04_ANT_front.jpg",
+      "text": "Poltrona reclinável BRAGA em cinzento, vista frontal"
+     },
+     {
+      "file": "BRA04_ARE_34.jpg",
+      "text": "Poltrona reclinável BRAGA em branco, vista de três quartos"
+     },
+     {
+      "file": "BRA04_ARE_front.jpg",
+      "text": "Poltrona reclinável BRAGA em branco, vista frontal"
+     },
+     {
+      "file": "BRA04_BEG_34.jpg",
+      "text": "Poltrona reclinável BRAGA em bege, vista de três quartos"
+     },
+     {
+      "file": "BRA04_BEG_front.jpg",
+      "text": "Poltrona reclinável BRAGA em bege, vista frontal"
+     },
+     {
+      "file": "BRA04_ANT_detail.jpg",
+      "text": "Vista detalhada da poltrona reclinável BRAGA em cinzento"
+     },
+     {
+      "file": "BRA04_ARE_side.jpg",
+      "text": "Poltrona reclinável BRAGA em branco, vista lateral"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Fotel rozkładany Móveis Lusa BRAGA",
+    "bullets": [
+     "Wymiary: 112 cm szerokości, 84 cm głębokości, 99 cm wysokości",
+     "Wysokość siedziska: 44 cm; głębokość siedziska: 50 cm",
+     "Obicie: 100% poliestrowa tkanina pleciona",
+     "Zdejnowalna pokrowa, możliwa do prania w 30 °C",
+     "Wyprodukowano w Portugalii"
+    ],
+    "description": "Fotel rozkładany BRAGA marki Móveis Lusa to komfortowe rozwiązanie do wypoczynku, obite w 100% poliestrową tkaninę plecioną. Posiada zdejmowany pokrowiec dla łatwiejszej konserwacji i waży 39.9 kg.",
+    "colours": [
+     {
+      "code": "BRA-04-ARE",
+      "name": "Piaskowy"
+     },
+     {
+      "code": "BRA-04-BEG",
+      "name": "Beżowy"
+     },
+     {
+      "code": "BRA-04-ANT",
+      "name": "Antracytowy"
+     }
+    ],
+    "safety_warnings": [
+     "Nie do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRA04_ANT_34.jpg",
+      "text": "Fotel rozkładany BRAGA w kolorze szarym, widok z trzech czwartych"
+     },
+     {
+      "file": "BRA04_ANT_front.jpg",
+      "text": "Fotel rozkładany BRAGA w kolorze szarym, widok z przodu"
+     },
+     {
+      "file": "BRA04_ARE_34.jpg",
+      "text": "Fotel rozkładany BRAGA w kolorze białym, widok z trzech czwartych"
+     },
+     {
+      "file": "BRA04_ARE_front.jpg",
+      "text": "Fotel rozkładany BRAGA w kolorze białym, widok z przodu"
+     },
+     {
+      "file": "BRA04_BEG_34.jpg",
+      "text": "Fotel rozkładany BRAGA w kolorze beżowym, widok z trzech czwartych"
+     },
+     {
+      "file": "BRA04_BEG_front.jpg",
+      "text": "Fotel rozkładany BRAGA w kolorze beżowym, widok z przodu"
+     },
+     {
+      "file": "BRA04_ANT_detail.jpg",
+      "text": "Zbliżenie na detale fotela rozkładanego BRAGA w kolorze szarym"
+     },
+     {
+      "file": "BRA04_ARE_side.jpg",
+      "text": "Fotel rozkładany BRAGA w kolorze białym, widok z boku"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Крісло-реклайнер Móveis Lusa BRAGA",
+    "bullets": [
+     "Розміри: ширина 112 см, глибина 84 см, висота 99 см",
+     "Висота сидіння: 44 см; глибина сидіння: 50 см",
+     "Оббивка: 100% поліестерова тканина",
+     "Знімний чохол, що переється при 30 °C",
+     "Виготовлено в Португалії"
+    ],
+    "description": "Крісло-реклайнер BRAGA від Móveis Lusa — це комфортний варіант для відпочинку з оббивкою зі 100% поліестерової тканини. Воно має знімний чохол для легкого догляду та важить 39.9 кг.",
+    "colours": [
+     {
+      "code": "BRA-04-ARE",
+      "name": "Пісочний"
+     },
+     {
+      "code": "BRA-04-BEG",
+      "name": "Бежевий"
+     },
+     {
+      "code": "BRA-04-ANT",
+      "name": "Антрацитовий"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRA04_ANT_34.jpg",
+      "text": "Крісло-реклайнер BRAGA у сірому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "BRA04_ANT_front.jpg",
+      "text": "Крісло-реклайнер BRAGA у сірому кольорі, вигляд спереду"
+     },
+     {
+      "file": "BRA04_ARE_34.jpg",
+      "text": "Крісло-реклайнер BRAGA у білому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "BRA04_ARE_front.jpg",
+      "text": "Крісло-реклайнер BRAGA у білому кольорі, вигляд спереду"
+     },
+     {
+      "file": "BRA04_BEG_34.jpg",
+      "text": "Крісло-реклайнер BRAGA у бежевому кольорі, вигляд у три чверті"
+     },
+     {
+      "file": "BRA04_BEG_front.jpg",
+      "text": "Крісло-реклайнер BRAGA у бежевому кольорі, вигляд спереду"
+     },
+     {
+      "file": "BRA04_ANT_detail.jpg",
+      "text": "Детальний вигляд крісла-реклайнера BRAGA у сірому кольорі"
+     },
+     {
+      "file": "BRA04_ARE_side.jpg",
+      "text": "Крісло-реклайнер BRAGA у білому кольорі, вигляд збоку"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Móveis Lusa BRAGA Recliner Chair",
+    "bullets": [
+     "Dimensions: width 112 cm, depth 84 cm, height 99 cm",
+     "Seat height: 44 cm; seat depth: 50 cm",
+     "Upholstery: 100% polyester fabric",
+     "Removable cover, washable at 30 °C",
+     "Made in Portugal"
+    ],
+    "description": "The BRAGA recliner chair from Móveis Lusa is a comfortable option for relaxation with 100% polyester fabric upholstery. It has a removable cover for easy care and weighs 39.9 kg.",
+    "colours": [
+     {
+      "code": "BRA-04-ARE",
+      "name": "Sand"
+     },
+     {
+      "code": "BRA-04-BEG",
+      "name": "Beige"
+     },
+     {
+      "code": "BRA-04-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "BRA04_ANT_34.jpg",
+      "text": "BRAGA recliner chair in grey, three-quarter view"
+     },
+     {
+      "file": "BRA04_ANT_front.jpg",
+      "text": "BRAGA recliner chair in grey, front view"
+     },
+     {
+      "file": "BRA04_ARE_34.jpg",
+      "text": "BRAGA recliner chair in white, three-quarter view"
+     },
+     {
+      "file": "BRA04_ARE_front.jpg",
+      "text": "BRAGA recliner chair in white, front view"
+     },
+     {
+      "file": "BRA04_BEG_34.jpg",
+      "text": "BRAGA recliner chair in beige, three-quarter view"
+     },
+     {
+      "file": "BRA04_BEG_front.jpg",
+      "text": "BRAGA recliner chair in beige, front view"
+     },
+     {
+      "file": "BRA04_ANT_detail.jpg",
+      "text": "Detailed view of the BRAGA recliner chair in grey"
+     },
+     {
+      "file": "BRA04_ARE_side.jpg",
+      "text": "BRAGA recliner chair in white, side view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

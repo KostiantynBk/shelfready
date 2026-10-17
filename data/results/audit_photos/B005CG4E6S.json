@@ -1,0 +1,132 @@
+{
+ "item_id": "B005CG4E6S",
+ "photos": {
+  "81Cnp2Nz5vL": {
+   "role": "packshot",
+   "product_type": "Adirondack chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark brown",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      688,
+      263,
+      971,
+      365
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      678,
+      801,
+      841,
+      886
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      611,
+      32,
+      704,
+      148
+     ]
+    }
+   ]
+  },
+  "81+lUyWoZAL": {
+   "role": "packshot",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark brown",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      731,
+      61,
+      975,
+      511
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      596,
+      486,
+      902,
+      900
+     ]
+    }
+   ]
+  },
+  "91V9hrvB-fL": {
+   "role": "detail",
+   "product_type": "chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "none_visible",
+   "base_material": "none_visible",
+   "legs_finish": null,
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.9,
+   "boxes": []
+  },
+  "81Xx02CRUjL": {
+   "role": "packshot",
+   "product_type": "Adirondack chair",
+   "products_in_frame": 1,
+   "colour_family": "brown",
+   "upholstery_material": null,
+   "legs_material": "wood",
+   "base_material": "none_visible",
+   "legs_finish": "dark brown",
+   "text_in_image": [],
+   "has_text_overlay": false,
+   "white_background": true,
+   "confidence": 0.95,
+   "boxes": [
+    {
+     "label": "leg",
+     "box_2d": [
+      442,
+      151,
+      965,
+      305
+     ]
+    },
+    {
+     "label": "leg",
+     "box_2d": [
+      673,
+      61,
+      833,
+      183
+     ]
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

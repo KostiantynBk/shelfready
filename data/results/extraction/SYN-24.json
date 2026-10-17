@@ -1,0 +1,724 @@
+{
+ "submission_id": "SYN-24",
+ "spec": {
+  "product_name": "Teppich SAALE / SAALE rug",
+  "supplier": "Nordholz Wohnen GmbH",
+  "product_type": "Teppich / rug",
+  "manufacturer": "Nordholz Wohnen GmbH",
+  "manufacturer_address": "Industriestraße 21, 32051 Herford, Deutschland",
+  "eu_responsible_person": "Nordholz Wohnen GmbH, Industriestraße 21, 32051 Herford, Deutschland",
+  "country_of_origin": "Deutschland",
+  "width": {
+   "value": "244",
+   "unit": "cm",
+   "source_text": "244 x 152 cm"
+  },
+  "depth": {
+   "value": "152",
+   "unit": "cm",
+   "source_text": "244 x 152 cm"
+  },
+  "height": {
+   "value": "1",
+   "unit": "cm",
+   "source_text": "1 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "max_load": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "weight": {
+   "value": "10,7",
+   "unit": "kg",
+   "source_text": "10,7 kg"
+  },
+  "legs_or_base": null,
+  "upholstery": "Handgetuftet / hand-tufted",
+  "care": "Maschinenwaschbar bei 30 °C / machine washable at 30 °C",
+  "variants": [
+   {
+    "code": "SAA-24-BLA",
+    "colour_name": "Blau",
+    "ean": "4012345024012"
+   },
+   {
+    "code": "SAA-24-SAN",
+    "colour_name": "Sand",
+    "ean": "4012345024029"
+   },
+   {
+    "code": "SAA-24-ANT",
+    "colour_name": "Anthrazit",
+    "ean": "4012345024036"
+   }
+  ],
+  "safety_warnings": [
+   "Auf glatten Böden eine Antirutschunterlage verwenden.",
+   "Use an anti-slip underlay on smooth floors.",
+   "Von offenen Feuern fernhalten.",
+   "Keep away from open flames."
+  ],
+  "safety_warnings_languages": [
+   "de",
+   "en",
+   "de",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.1488732340424167,
+    0.3259447307510077,
+    0.15778144368901517
+   ],
+   "text": "244 x 152 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.1488732340424167,
+    0.3259447307510077,
+    0.15778144368901517
+   ],
+   "text": "244 x 152 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.164908011406294,
+    0.2775831704182469,
+    0.1738162210528925
+   ],
+   "text": "1 cm",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.1809427887701713,
+    0.2916170710392225,
+    0.1898509984167698
+   ],
+   "text": "10,7 kg",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.13283845667853952,
+    0.39674206641530024,
+    0.141746666325138
+   ],
+   "text": "Handgetuftet / hand-tufted",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.1969775661340485,
+    0.5847778701836622,
+    0.20588577578064698
+   ],
+   "text": "Maschinenwaschbar bei 30 °C / machine washable at 30 °C",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.39786847200077263,
+    0.2290471208618031,
+    0.6641432716932559,
+    0.2379553305084016
+   ],
+   "text": "Industriestraße 21, 32051 Herford, Deutschland",
+   "note": null
+  },
+  "eu_responsible_person": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.25026630581308096,
+    0.2290471208618031,
+    0.6641432716932559,
+    0.2379553305084016
+   ],
+   "text": "Nordholz Wohnen GmbH, Industriestraße 21, 32051 Herford, Deutschland",
+   "note": null
+  },
+  "ean:SAA-24-BLA": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4114050377461861,
+    0.28516884163537354,
+    0.5025453741322365,
+    0.29407705128197204
+   ],
+   "text": "4012345024012",
+   "note": null
+  },
+  "ean:SAA-24-SAN": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4114050377461861,
+    0.30120361899925074,
+    0.5025453741322365,
+    0.3101118286458492
+   ],
+   "text": "4012345024029",
+   "note": null
+  },
+  "ean:SAA-24-ANT": {
+   "source": "pdf",
+   "file": "SAALE_Produktdatenblatt.pdf",
+   "page": 1,
+   "bbox": [
+    0.4114050377461861,
+    0.317238396363128,
+    0.5025453741322365,
+    0.3261466060097265
+   ],
+   "text": "4012345024036",
+   "note": null
+  }
+ },
+ "images": {
+  "SAALE-BLA-1.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "woven",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAALE-BLA-2.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "wool",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAALE-BLA-3.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "fabric swatch",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4705.JPG": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "woven",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    1929
+   ],
+   "low_res": false
+  },
+  "SAALE-SAN-1.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "sofa",
+    "products_in_frame": 2,
+    "colour_family": "grey",
+    "upholstery_material": "fabric",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAALE-SAN-2.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "fabric swatch",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "boucle",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAALE-SAN-3.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "jute",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAALE-SAN-4.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [
+     "GEORGES MORRICE",
+     "Famous Modern",
+     "NOMAD DELUXE",
+     "free houses",
+     "Matisse Cut-outs"
+    ],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       763,
+       353,
+       862,
+       396
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       763,
+       714,
+       854,
+       761
+      ]
+     },
+     {
+      "label": "base",
+      "box_2d": [
+       487,
+       844,
+       558,
+       975
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       711,
+       34,
+       731,
+       136
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       731,
+       41,
+       753,
+       153
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       765,
+       41,
+       788,
+       183
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       788,
+       41,
+       808,
+       121
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       823,
+       34,
+       843,
+       153
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAALE-ANT-1.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "area rug",
+    "products_in_frame": 2,
+    "colour_family": "beige",
+    "upholstery_material": "jute",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       166,
+       675,
+       297,
+       698
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       166,
+       738,
+       266,
+       763
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAALE-ANT-2.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "jute",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAALE-ANT-3.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "beige",
+    "upholstery_material": "woven",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": []
+   },
+   "size": [
+    1618,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAALE-ANT-4.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "armchair",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "fabric",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       715,
+       194,
+       854,
+       268
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       735,
+       278,
+       946,
+       338
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       731,
+       576,
+       806,
+       636
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       685,
+       796,
+       904,
+       852
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "SAA24_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "area rug",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": "jute",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "NORDHOLZ WOHNEN GMBH",
+     "SAA-24",
+     "100 % JUTE",
+     "100% JUTE",
+     "P",
+     "Hergestellt in Deutschland"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       108,
+       193,
+       142,
+       806
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       166,
+       435,
+       200,
+       564
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       228,
+       383,
+       262,
+       616
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       290,
+       383,
+       324,
+       616
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       611,
+       711,
+       666,
+       756
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       781,
+       289,
+       815,
+       731
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% JUTE",
+    "wash_max_temp_c": null,
+    "do_not_wash": true,
+    "dry_clean_only": true,
+    "removable_cover": false,
+    "other_text": [
+     "NORDHOLZ WOHNEN GMBH",
+     "SAA-24",
+     "Hergestellt in Deutschland"
+    ]
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

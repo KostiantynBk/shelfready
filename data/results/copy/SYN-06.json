@@ -1,0 +1,666 @@
+{
+ "product_id": "SYN-06",
+ "decisions": {},
+ "facts": {
+  "product_name": "ISAR",
+  "model": "ISAR",
+  "brand": "Nordholz Wohnen",
+  "width_cm": 59,
+  "depth_cm": 50,
+  "height_cm": 89,
+  "seat_height_cm": 45,
+  "seat_depth_cm": 30,
+  "max_load_kg": 120,
+  "weight_kg": 9,
+  "product_type": "Esszimmerstuhl ISAR / ISAR dining chair",
+  "legs_or_base": "Pulverbeschichteter Stahl, schwarz matt / powder-coated steel, matt black",
+  "upholstery": "Webstoff, 100 % Polyester / woven fabric, 100% polyester",
+  "care": "Bezug abnehmbar, waschbar bei 30 °C / removable cover, washable at 30 °C",
+  "country_of_origin": "Deutschland",
+  "safety_warnings": [
+   "Nicht im Freien verwenden",
+   "Not for outdoor use.",
+   "Von Wärmequellen fernhalten",
+   "Keep away from heat sources.",
+   "Nicht auf die Sitzfläche stellen.",
+   "Do not stand on the seat."
+  ],
+  "variants": [
+   {
+    "code": "ISA-06-ANT",
+    "colour_name": "Anthrazit"
+   }
+  ]
+ },
+ "held_back": [
+  {
+   "attribute": "colour",
+   "variant": "ISA-06-SAN",
+   "reason": "ISA-06-SAN: 'Anthrazit' but the photos look beige",
+   "issue": "D10:ISA-06-SAN:colour:",
+   "asked_supplier": false
+  }
+ ],
+ "photos": [
+  {
+   "file": "ISAR-ANT-1.jpg",
+   "variant": "ISA-06-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "ISAR-ANT-2.jpg",
+   "variant": "ISA-06-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "ISAR-ANT-3.jpg",
+   "variant": "ISA-06-ANT",
+   "view": "packshot",
+   "colour_seen": "grey"
+  },
+  {
+   "file": "ISAR-SAN-1.jpg",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "ISAR-SAN-2.jpg",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "beige"
+  },
+  {
+   "file": "ISAR-SAN-3.jpg",
+   "variant": null,
+   "view": "packshot",
+   "colour_seen": "beige"
+  }
+ ],
+ "protected": [
+  "Nordholz Wohnen",
+  "ISAR",
+  "ISA-06-ANT"
+ ],
+ "en": {
+  "title": "Nordholz Wohnen ISAR Dining Chair",
+  "bullets": [
+   "Dimensions: 59 cm width, 50 cm depth, 89 cm height",
+   "Seat height: 45 cm; seat depth: 30 cm",
+   "Upholstery: 100% polyester woven fabric with removable cover washable at 30 °C",
+   "Base: Matt black powder-coated steel legs",
+   "Maximum load capacity: 120 kg"
+  ],
+  "description": "The ISAR dining chair by Nordholz Wohnen features a woven fabric upholstery and a sturdy powder-coated steel base. This chair is manufactured in Germany and includes a removable, washable cover for easy maintenance.",
+  "colours": [
+   {
+    "code": "ISA-06-ANT",
+    "name": "Anthracite"
+   }
+  ],
+  "safety_warnings": [
+   "Not for outdoor use.",
+   "Keep away from heat sources.",
+   "Do not stand on the seat."
+  ],
+  "alt_texts": [
+   {
+    "file": "ISAR-ANT-1.jpg",
+    "text": "ISAR dining chair in grey, packshot view"
+   },
+   {
+    "file": "ISAR-ANT-2.jpg",
+    "text": "ISAR dining chair in grey, packshot view"
+   },
+   {
+    "file": "ISAR-ANT-3.jpg",
+    "text": "ISAR dining chair in grey, packshot view"
+   },
+   {
+    "file": "ISAR-SAN-1.jpg",
+    "text": "ISAR dining chair in beige, packshot view"
+   },
+   {
+    "file": "ISAR-SAN-2.jpg",
+    "text": "ISAR dining chair in beige, packshot view"
+   },
+   {
+    "file": "ISAR-SAN-3.jpg",
+    "text": "ISAR dining chair in beige, packshot view"
+   }
+  ]
+ },
+ "translations": {
+  "es": {
+   "copy": {
+    "title": "Silla de Comedor Nordholz Wohnen ISAR",
+    "bullets": [
+     "Dimensiones: 59 cm de ancho, 50 cm de profundidad, 89 cm de altura",
+     "Altura del asiento: 45 cm; profundidad del asiento: 30 cm",
+     "Tapicería: tejido 100% poliéster con funda extraíble lavable a 30 °C",
+     "Base: patas de acero con recubrimiento de polvo negro mate",
+     "Capacidad de carga máxima: 120 kg"
+    ],
+    "description": "La silla de comedor ISAR de Nordholz Wohnen presenta una tapicería de tejido y una robusta base de acero con recubrimiento de polvo. Esta silla está fabricada en Alemania e incluye una funda extraíble y lavable para facilitar su mantenimiento.",
+    "colours": [
+     {
+      "code": "ISA-06-ANT",
+      "name": "Antracita"
+     }
+    ],
+    "safety_warnings": [
+     "No apto para uso exterior.",
+     "Mantener alejado de fuentes de calor.",
+     "No subirse al asiento."
+    ],
+    "alt_texts": [
+     {
+      "file": "ISAR-ANT-1.jpg",
+      "text": "Silla de comedor ISAR en gris, vista de producto"
+     },
+     {
+      "file": "ISAR-ANT-2.jpg",
+      "text": "Silla de comedor ISAR en gris, vista de producto"
+     },
+     {
+      "file": "ISAR-ANT-3.jpg",
+      "text": "Silla de comedor ISAR en gris, vista de producto"
+     },
+     {
+      "file": "ISAR-SAN-1.jpg",
+      "text": "Silla de comedor ISAR en beige, vista de producto"
+     },
+     {
+      "file": "ISAR-SAN-2.jpg",
+      "text": "Silla de comedor ISAR en beige, vista de producto"
+     },
+     {
+      "file": "ISAR-SAN-3.jpg",
+      "text": "Silla de comedor ISAR en beige, vista de producto"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "it": {
+   "copy": {
+    "title": "Sedia da pranzo Nordholz Wohnen ISAR",
+    "bullets": [
+     "Dimensioni: 59 cm di larghezza, 50 cm di profondità, 89 cm di altezza",
+     "Altezza seduta: 45 cm; profondità seduta: 30 cm",
+     "Rivestimento: tessuto intrecciato 100% poliestere con fodera rimovibile lavabile a 30 °C",
+     "Base: gambe in acciaio verniciato a polvere nero opaco",
+     "Capacità di carico massima: 120 kg"
+    ],
+    "description": "La sedia da pranzo ISAR di Nordholz Wohnen presenta un rivestimento in tessuto intrecciato e una robusta base in acciaio verniciato a polvere. Questa sedia è prodotta in Germania e include una fodera rimovibile e lavabile per una facile manutenzione.",
+    "colours": [
+     {
+      "code": "ISA-06-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Non utilizzare all'aperto.",
+     "Tenere lontano da fonti di calore.",
+     "Non stare in piedi sulla seduta."
+    ],
+    "alt_texts": [
+     {
+      "file": "ISAR-ANT-1.jpg",
+      "text": "Sedia da pranzo ISAR in grigio, vista prodotto"
+     },
+     {
+      "file": "ISAR-ANT-2.jpg",
+      "text": "Sedia da pranzo ISAR in grigio, vista prodotto"
+     },
+     {
+      "file": "ISAR-ANT-3.jpg",
+      "text": "Sedia da pranzo ISAR in grigio, vista prodotto"
+     },
+     {
+      "file": "ISAR-SAN-1.jpg",
+      "text": "Sedia da pranzo ISAR in beige, vista prodotto"
+     },
+     {
+      "file": "ISAR-SAN-2.jpg",
+      "text": "Sedia da pranzo ISAR in beige, vista prodotto"
+     },
+     {
+      "file": "ISAR-SAN-3.jpg",
+      "text": "Sedia da pranzo ISAR in beige, vista prodotto"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "de": {
+   "copy": {
+    "title": "Nordholz Wohnen ISAR Esszimmerstuhl",
+    "bullets": [
+     "Maße: 59 cm Breite, 50 cm Tiefe, 89 cm Höhe",
+     "Sitzhöhe: 45 cm; Sitztiefe: 30 cm",
+     "Bezug: 100% Polyester-Webstoff mit abnehmbarem, bei 30 °C waschbarem Bezug",
+     "Gestell: Mattschwarz pulverbeschichtete Stahlbeine",
+     "Maximale Belastbarkeit: 120 kg"
+    ],
+    "description": "Der ISAR Esszimmerstuhl von Nordholz Wohnen besticht durch einen Bezug aus Webstoff und ein robustes, pulverbeschichtetes Stahlgestell. Dieser Stuhl wird in Deutschland hergestellt und verfügt über einen abnehmbaren, waschbaren Bezug für eine einfache Pflege.",
+    "colours": [
+     {
+      "code": "ISA-06-ANT",
+      "name": "Anthrazit"
+     }
+    ],
+    "safety_warnings": [
+     "Nicht für den Außenbereich geeignet.",
+     "Von Hitzequellen fernhalten.",
+     "Nicht auf der Sitzfläche stehen."
+    ],
+    "alt_texts": [
+     {
+      "file": "ISAR-ANT-1.jpg",
+      "text": "ISAR Esszimmerstuhl in Grau, Produktansicht"
+     },
+     {
+      "file": "ISAR-ANT-2.jpg",
+      "text": "ISAR Esszimmerstuhl in Grau, Produktansicht"
+     },
+     {
+      "file": "ISAR-ANT-3.jpg",
+      "text": "ISAR Esszimmerstuhl in Grau, Produktansicht"
+     },
+     {
+      "file": "ISAR-SAN-1.jpg",
+      "text": "ISAR Esszimmerstuhl in Beige, Produktansicht"
+     },
+     {
+      "file": "ISAR-SAN-2.jpg",
+      "text": "ISAR Esszimmerstuhl in Beige, Produktansicht"
+     },
+     {
+      "file": "ISAR-SAN-3.jpg",
+      "text": "ISAR Esszimmerstuhl in Beige, Produktansicht"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen ISAR Dining Chair",
+    "bullets": [
+     "Dimensions: 59 cm width, 50 cm depth, 89 cm height",
+     "Seat height: 45 cm; Seat depth: 30 cm",
+     "Cover: 100% polyester woven fabric with removable cover washable at 30 °C",
+     "Frame: Matte black powder-coated steel legs",
+     "Maximum load capacity: 120 kg"
+    ],
+    "description": "The ISAR dining chair from Nordholz Wohnen impresses with a woven fabric cover and a robust, powder-coated steel frame. This chair is manufactured in Germany and features a removable, washable cover for easy care.",
+    "colours": [
+     {
+      "code": "ISA-06-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Not suitable for outdoor use.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat surface."
+    ],
+    "alt_texts": [
+     {
+      "file": "ISAR-ANT-1.jpg",
+      "text": "ISAR dining chair in grey, product view"
+     },
+     {
+      "file": "ISAR-ANT-2.jpg",
+      "text": "ISAR dining chair in grey, product view"
+     },
+     {
+      "file": "ISAR-ANT-3.jpg",
+      "text": "ISAR dining chair in grey, product view"
+     },
+     {
+      "file": "ISAR-SAN-1.jpg",
+      "text": "ISAR dining chair in beige, product view"
+     },
+     {
+      "file": "ISAR-SAN-2.jpg",
+      "text": "ISAR dining chair in beige, product view"
+     },
+     {
+      "file": "ISAR-SAN-3.jpg",
+      "text": "ISAR dining chair in beige, product view"
+     }
+    ]
+   }
+  },
+  "fr": {
+   "copy": {
+    "title": "Chaise de salle à manger Nordholz Wohnen ISAR",
+    "bullets": [
+     "Dimensions : 59 cm de largeur, 50 cm de profondeur, 89 cm de hauteur",
+     "Hauteur d'assise : 45 cm ; profondeur d'assise : 30 cm",
+     "Revêtement : tissu tissé 100 % polyester avec housse amovible lavable à 30 °C",
+     "Piètement : pieds en acier avec revêtement par poudre noir mat",
+     "Capacité de charge maximale : 120 kg"
+    ],
+    "description": "La chaise de salle à manger ISAR de Nordholz Wohnen présente un revêtement en tissu tissé et un piètement robuste en acier thermolaqué. Cette chaise est fabriquée en Allemagne et comprend une housse amovible et lavable pour un entretien facile.",
+    "colours": [
+     {
+      "code": "ISA-06-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Ne pas utiliser à l'extérieur.",
+     "Tenir à l'écart des sources de chaleur.",
+     "Ne pas se tenir debout sur le siège."
+    ],
+    "alt_texts": [
+     {
+      "file": "ISAR-ANT-1.jpg",
+      "text": "Chaise de salle à manger ISAR en gris, vue produit"
+     },
+     {
+      "file": "ISAR-ANT-2.jpg",
+      "text": "Chaise de salle à manger ISAR en gris, vue produit"
+     },
+     {
+      "file": "ISAR-ANT-3.jpg",
+      "text": "Chaise de salle à manger ISAR en gris, vue produit"
+     },
+     {
+      "file": "ISAR-SAN-1.jpg",
+      "text": "Chaise de salle à manger ISAR en beige, vue produit"
+     },
+     {
+      "file": "ISAR-SAN-2.jpg",
+      "text": "Chaise de salle à manger ISAR en beige, vue produit"
+     },
+     {
+      "file": "ISAR-SAN-3.jpg",
+      "text": "Chaise de salle à manger ISAR en beige, vue produit"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pt": {
+   "copy": {
+    "title": "Cadeira de Jantar Nordholz Wohnen ISAR",
+    "bullets": [
+     "Dimensões: 59 cm de largura, 50 cm de profundidade, 89 cm de altura",
+     "Altura do assento: 45 cm; profundidade do assento: 30 cm",
+     "Estofos: tecido tecido 100% poliéster com capa removível lavável a 30 °C",
+     "Base: pernas de aço com revestimento de pó preto mate",
+     "Capacidade de carga máxima: 120 kg"
+    ],
+    "description": "A cadeira de jantar ISAR da Nordholz Wohnen apresenta um estofamento em tecido tecido e uma base robusta de aço com revestimento de pó. Esta cadeira é fabricada na Alemanha e inclui uma capa removível e lavável para facilitar a manutenção.",
+    "colours": [
+     {
+      "code": "ISA-06-ANT",
+      "name": "Antracite"
+     }
+    ],
+    "safety_warnings": [
+     "Não utilizar no exterior.",
+     "Manter afastado de fontes de calor.",
+     "Não se levantar sobre o assento."
+    ],
+    "alt_texts": [
+     {
+      "file": "ISAR-ANT-1.jpg",
+      "text": "Cadeira de jantar ISAR em cinzento, vista de produto"
+     },
+     {
+      "file": "ISAR-ANT-2.jpg",
+      "text": "Cadeira de jantar ISAR em cinzento, vista de produto"
+     },
+     {
+      "file": "ISAR-ANT-3.jpg",
+      "text": "Cadeira de jantar ISAR em cinzento, vista de produto"
+     },
+     {
+      "file": "ISAR-SAN-1.jpg",
+      "text": "Cadeira de jantar ISAR em bege, vista de produto"
+     },
+     {
+      "file": "ISAR-SAN-2.jpg",
+      "text": "Cadeira de jantar ISAR em bege, vista de produto"
+     },
+     {
+      "file": "ISAR-SAN-3.jpg",
+      "text": "Cadeira de jantar ISAR em bege, vista de produto"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "pl": {
+   "copy": {
+    "title": "Krzesło jadalniane Nordholz Wohnen ISAR",
+    "bullets": [
+     "Wymiary: 59 cm szerokości, 50 cm głębokości, 89 cm wysokości",
+     "Wysokość siedziska: 45 cm; głębokość siedziska: 30 cm",
+     "Tapicerka: 100% poliestrowa tkanina pleciona ze zdejmowaną pokrowcem, możliwym do prania w 30 °C",
+     "Podstawa: Matowe, czarne malowane proszkowo stalowe nogi",
+     "Maksymalne obciążenie: 120 kg"
+    ],
+    "description": "Krzesło jadalniane ISAR od Nordholz Wohnen charakteryzuje się plecioną tapicerką i solidną podstawie ze stali malowanej proszkowo. Krzesło jest produkowane w Niemczech i posiada zdejmowany, możliwy do prania pokrowiec, co ułatwia konserwację.",
+    "colours": [
+     {
+      "code": "ISA-06-ANT",
+      "name": "Antracytowy"
+     }
+    ],
+    "safety_warnings": [
+     "Nie do użytku zewnętrznego.",
+     "Trzymać z dala od źródeł ciepła.",
+     "Nie stać na siedzisku."
+    ],
+    "alt_texts": [
+     {
+      "file": "ISAR-ANT-1.jpg",
+      "text": "Krzesło jadalniane ISAR w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "ISAR-ANT-2.jpg",
+      "text": "Krzesło jadalniane ISAR w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "ISAR-ANT-3.jpg",
+      "text": "Krzesło jadalniane ISAR w kolorze szarym, widok produktowy"
+     },
+     {
+      "file": "ISAR-SAN-1.jpg",
+      "text": "Krzesło jadalniane ISAR w kolorze beżowym, widok produktowy"
+     },
+     {
+      "file": "ISAR-SAN-2.jpg",
+      "text": "Krzesło jadalniane ISAR w kolorze beżowym, widok produktowy"
+     },
+     {
+      "file": "ISAR-SAN-3.jpg",
+      "text": "Krzesło jadalniane ISAR w kolorze beżowym, widok produktowy"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": null,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": null
+  },
+  "uk": {
+   "copy": {
+    "title": "Обідній стілець Nordholz Wohnen ISAR",
+    "bullets": [
+     "Розміри: ширина 59 см, глибина 50 см, висота 89 см",
+     "Висота сидіння: 45 см; глибина сидіння: 30 см",
+     "Оббивка: 100% поліестерова тканина з одним чохлом, що знімається та переється при 30 °C",
+     "Основа: сталеві ніжки з матовим чорним порошковим покриттям",
+     "Максимальне навантаження: 120 кг"
+    ],
+    "description": "Обідній стілець ISAR від Nordholz Wohnen має оббивку з тканої тканини та міцну основу зі сталі з порошковим покриттям. Цей стілець виготовлено в Німеччині, він оснащений знімним чохлом, що переється, для легкого догляду.",
+    "colours": [
+     {
+      "code": "ISA-06-ANT",
+      "name": "Антрацитовий"
+     }
+    ],
+    "safety_warnings": [
+     "Не використовувати на відкритому повітрі.",
+     "Тримати подалі від джерел тепла.",
+     "Не ставати на сидіння."
+    ],
+    "alt_texts": [
+     {
+      "file": "ISAR-ANT-1.jpg",
+      "text": "Обідній стілець ISAR у сірому кольорі, вигляд виробу"
+     },
+     {
+      "file": "ISAR-ANT-2.jpg",
+      "text": "Обідній стілець ISAR у сірому кольорі, вигляд виробу"
+     },
+     {
+      "file": "ISAR-ANT-3.jpg",
+      "text": "Обідній стілець ISAR у сірому кольорі, вигляд виробу"
+     },
+     {
+      "file": "ISAR-SAN-1.jpg",
+      "text": "Обідній стілець ISAR у бежевому кольорі, вигляд виробу"
+     },
+     {
+      "file": "ISAR-SAN-2.jpg",
+      "text": "Обідній стілець ISAR у бежевому кольорі, вигляд виробу"
+     },
+     {
+      "file": "ISAR-SAN-3.jpg",
+      "text": "Обідній стілець ISAR у бежевому кольорі, вигляд виробу"
+     }
+    ]
+   },
+   "qa": {
+    "numbers_ok": true,
+    "units_ok": true,
+    "protected_ok": true,
+    "glossary_ok": true,
+    "backtranslation_ok": true,
+    "problems": [],
+    "human_checked": false
+   },
+   "passed": true,
+   "issues": [],
+   "back": {
+    "title": "Nordholz Wohnen ISAR Dining Chair",
+    "bullets": [
+     "Dimensions: width 59 cm, depth 50 cm, height 89 cm",
+     "Seat height: 45 cm; seat depth: 30 cm",
+     "Upholstery: 100% polyester fabric with one removable cover, washable at 30 °C",
+     "Base: steel legs with a matte black powder coating",
+     "Maximum load: 120 kg"
+    ],
+    "description": "The ISAR dining chair from Nordholz Wohnen features woven fabric upholstery and a sturdy powder-coated steel base. This chair is made in Germany and is equipped with a removable, washable cover for easy care.",
+    "colours": [
+     {
+      "code": "ISA-06-ANT",
+      "name": "Anthracite"
+     }
+    ],
+    "safety_warnings": [
+     "Do not use outdoors.",
+     "Keep away from heat sources.",
+     "Do not stand on the seat."
+    ],
+    "alt_texts": [
+     {
+      "file": "ISAR-ANT-1.jpg",
+      "text": "ISAR dining chair in grey, product view"
+     },
+     {
+      "file": "ISAR-ANT-2.jpg",
+      "text": "ISAR dining chair in grey, product view"
+     },
+     {
+      "file": "ISAR-ANT-3.jpg",
+      "text": "ISAR dining chair in grey, product view"
+     },
+     {
+      "file": "ISAR-SAN-1.jpg",
+      "text": "ISAR dining chair in beige, product view"
+     },
+     {
+      "file": "ISAR-SAN-2.jpg",
+      "text": "ISAR dining chair in beige, product view"
+     },
+     {
+      "file": "ISAR-SAN-3.jpg",
+      "text": "ISAR dining chair in beige, product view"
+     }
+    ]
+   }
+  }
+ },
+ "model": "self-dploy/Gemma-4-31B-IT"
+}

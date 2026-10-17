@@ -1,0 +1,503 @@
+{
+ "submission_id": "SYN-23",
+ "spec": {
+  "product_name": "Tapete TAVIRA / TAVIRA rug",
+  "supplier": "MÓVEIS LUSA, LDA.",
+  "product_type": "Tapete / rug",
+  "manufacturer": "Móveis Lusa, Lda.",
+  "manufacturer_address": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal - info@moveislusa.example",
+  "eu_responsible_person": "Móveis Lusa, Lda.",
+  "country_of_origin": "Portugal",
+  "width": {
+   "value": "221",
+   "unit": "cm",
+   "source_text": "221 x 160 cm"
+  },
+  "depth": {
+   "value": "160",
+   "unit": "cm",
+   "source_text": "221 x 160 cm"
+  },
+  "height": {
+   "value": "1,3",
+   "unit": "cm",
+   "source_text": "1,3 cm"
+  },
+  "seat_height": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "seat_depth": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "max_load": {
+   "value": null,
+   "unit": null,
+   "source_text": null
+  },
+  "weight": {
+   "value": "6,4",
+   "unit": "Kg",
+   "source_text": "6,4 Kg"
+  },
+  "legs_or_base": null,
+  "upholstery": "Tufado à mão, 100% polipropileno / hand-tufted, 100% polypropylene",
+  "care": "Não lavar; limpeza profissional / do not wash; professional cleaning only",
+  "variants": [
+   {
+    "code": "TAV-23-MUL",
+    "colour_name": "Multicor",
+    "ean": "5601234023015"
+   },
+   {
+    "code": "TAV-23-ROS",
+    "colour_name": "Rosa",
+    "ean": "5601234023022"
+   }
+  ],
+  "safety_warnings": [
+   "Usar base antiderrapante em pisos lisos.",
+   "Use an anti-slip underlay on smooth floors.",
+   "Manter afastado de chamas abertas.",
+   "Keep away from open flames."
+  ],
+  "safety_warnings_languages": [
+   "pt",
+   "en",
+   "pt",
+   "en"
+  ],
+  "claims": []
+ },
+ "spec_evidence": {
+  "width": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.1471996824582249,
+    0.48286036697938767,
+    0.15833494451647298
+   ],
+   "text": "221 x 160 cm",
+   "note": null
+  },
+  "depth": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.1471996824582249,
+    0.48286036697938767,
+    0.15833494451647298
+   ],
+   "text": "221 x 160 cm",
+   "note": null
+  },
+  "height": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.1694702065747212,
+    0.4372809655708682,
+    0.18060546863296928
+   ],
+   "text": "1,3 cm",
+   "note": null
+  },
+  "weight": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.19174073069121736,
+    0.4350650865055469,
+    0.2028759927494654
+   ],
+   "text": "6,4 Kg",
+   "note": null
+  },
+  "upholstery": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.12492915834172874,
+    0.88141853128803,
+    0.13606442039997682
+   ],
+   "text": "Tufado à mão, 100% polipropileno / hand-tufted, 100% polypropylene",
+   "note": null
+  },
+  "care": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.2140112548077135,
+    0.89796068454473,
+    0.22514651686596157
+   ],
+   "text": "Não lavar; limpeza profissional / do not wash; professional cleaning only",
+   "note": null
+  },
+  "manufacturer_address": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.39273256348907915,
+    0.258552303040706,
+    0.8704930176338735,
+    0.2821590586041919
+   ],
+   "text": "Rua das Oficinas 12, 4590-000 Paços de Ferreira, Portugal - info@moveislusa.example",
+   "note": null
+  },
+  "eu_responsible_person": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.07689592774234756,
+    0.05646447803653028,
+    0.3690891276537009,
+    0.07428089732972726
+   ],
+   "text": "Móveis Lusa, Lda.",
+   "note": null
+  },
+  "ean:TAV-23-MUL": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.3538709625561005,
+    0.3503068624006702,
+    0.46588826558493146,
+    0.3614421244589183
+   ],
+   "text": "5601234023015",
+   "note": null
+  },
+  "ean:TAV-23-ROS": {
+   "source": "pdf",
+   "file": "TAV23_ficha_tecnica_v2.pdf",
+   "page": 1,
+   "bbox": [
+    0.3538709625561005,
+    0.37257738651716654,
+    0.46839651762187595,
+    0.3837126485754146
+   ],
+   "text": "5601234023022",
+   "note": null
+  }
+ },
+ "images": {
+  "TAV23_MUL_front.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "area rug",
+    "products_in_frame": 2,
+    "colour_family": "multicolour",
+    "upholstery_material": "wool",
+    "legs_material": "wood",
+    "base_material": "none_visible",
+    "legs_finish": "dark walnut",
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": [
+     {
+      "label": "leg",
+      "box_2d": [
+       214,
+       494,
+       357,
+       543
+      ]
+     },
+     {
+      "label": "leg",
+      "box_2d": [
+       233,
+       703,
+       411,
+       752
+      ]
+     }
+    ]
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "TAV23_MUL_34.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "blue",
+    "upholstery_material": "wool",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "TAV23_MUL_side.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "synthetic",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "IMG_4682.JPG": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "grey",
+    "upholstery_material": "wool",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "TAV23_ROS_front.jpg": {
+   "analysis": {
+    "role": "lifestyle",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "red",
+    "upholstery_material": "wool",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "TAV23_ROS_34.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "multicolour",
+    "upholstery_material": "synthetic",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "TAV23_ROS_side.jpg": {
+   "analysis": {
+    "role": "packshot",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "red",
+    "upholstery_material": "wool",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 0.95,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "TAV23_ROS_detail.jpg": {
+   "analysis": {
+    "role": "detail",
+    "product_type": "area rug",
+    "products_in_frame": 1,
+    "colour_family": "multicolour",
+    "upholstery_material": "wool",
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [],
+    "has_text_overlay": false,
+    "white_background": false,
+    "confidence": 0.9,
+    "boxes": []
+   },
+   "size": [
+    2560,
+    2560
+   ],
+   "low_res": false
+  },
+  "TAV23_label.png": {
+   "analysis": {
+    "role": "label",
+    "product_type": "label",
+    "products_in_frame": 0,
+    "colour_family": "white",
+    "upholstery_material": null,
+    "legs_material": "none_visible",
+    "base_material": "none_visible",
+    "legs_finish": null,
+    "text_in_image": [
+     "MÓVEIS LUSA",
+     "TAV-23",
+     "100% POLIPROPILENO",
+     "100% POLYPROPYLENE",
+     "P",
+     "Fabricado em Portugal"
+    ],
+    "has_text_overlay": false,
+    "white_background": true,
+    "confidence": 1.0,
+    "boxes": [
+     {
+      "label": "text",
+      "box_2d": [
+       102,
+       351,
+       143,
+       657
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       166,
+       437,
+       201,
+       572
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       228,
+       265,
+       264,
+       735
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       291,
+       251,
+       327,
+       749
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       611,
+       708,
+       668,
+       753
+      ]
+     },
+     {
+      "label": "text",
+      "box_2d": [
+       781,
+       289,
+       818,
+       678
+      ]
+     }
+    ]
+   },
+   "size": [
+    900,
+    1100
+   ],
+   "low_res": false,
+   "label": {
+    "composition": "100% POLYPROPYLENE",
+    "wash_max_temp_c": null,
+    "do_not_wash": true,
+    "dry_clean_only": true,
+    "removable_cover": false,
+    "other_text": [
+     "MÓVEIS LUSA",
+     "TAV-23",
+     "100% POLIPROPILENO",
+     "Fabricado em Portugal"
+    ]
+   }
+  }
+ },
+ "errors": {},
+ "model": "self-dploy/Gemma-4-31B-IT"
+}
