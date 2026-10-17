@@ -4,7 +4,7 @@ import os
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "backend"))
+sys.path.insert(0, str(Path(__file__).resolve().parent / "backend"))
 # Vercel's file system is read-only except /tmp: decisions live there while the instance is warm
 os.environ.setdefault("DATA_DIR", "/tmp/shelfready")
 os.environ.setdefault("LLM_MODE", "replay")
