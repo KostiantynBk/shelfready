@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: "Settings" };
 export default function SettingsPage() {
   return (
     <div className="stack">
-      <PageHeader title="Settings" meta="Shop languages, model endpoint and Evolus connection." />
+      <PageHeader title="Settings" meta="Shop details and languages." />
       <Card title="Shop">
         <p className="muted">Casa Nord · Barcelona · furniture</p>
       </Card>
