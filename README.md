@@ -116,6 +116,13 @@ Copy `.env.example` to `.env` and set `LLM_API_KEY` (AMD Token Factory) and `LLM
 available, otherwise the live model). Decisions that change the verified facts then let you write new copy with the
 model ("Write copy" on the review screen). Never commit `.env`.
 
+### Public demo hosting
+
+The live demo is two Vercel projects from this repo: the website (`frontend/`) and the API (`index.py` at the repo
+root, which serves the FastAPI app with the `data/` folder; see `vercel.json`). The API runs in replay mode and keeps
+decisions in the function's `/tmp`, so demo decisions can reset when Vercel recycles the instance.
+`infra/deploy.sh` runs the same API on any Ubuntu server with Docker and Caddy instead.
+
 ### Tests
 
 ```bash
