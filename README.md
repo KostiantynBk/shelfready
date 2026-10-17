@@ -8,6 +8,7 @@ Built for the AMD Developer Hackathon: ACT III, **Reinvent Commerce** track. Mod
 
 - **Live demo:** https://shelfready-liard.vercel.app (sample shop "Casa Nord", 25 supplier submissions, 250 real listings)
 - **Code:** MIT. Data sources and licences: [DATA_LICENSES.md](DATA_LICENSES.md)
+- **Demo video narration:** voice generated with [ElevenLabs](https://elevenlabs.io)
 
 ## The problem
 
