@@ -64,6 +64,19 @@ Real catches in the audit include a wristwatch listed under chairs, listings who
   (`LLM_BASE_URL`, `LLM_JSON_MODE=json_schema`).
 - We chose the largest Gemma 4 model on purpose: photo-vs-spec checks need the vision quality.
 
+## Why Gemma 4 31B
+
+Gemma 4 31B is the only model in ShelfReady, and it does every AI step:
+
+- **Vision:** reads spec-sheet pages, product photos, care labels and dimension drawings, and draws boxes on what it
+  sees (Gemma's 0–1000 box format), shown as evidence on the review screen.
+- **Structured extraction:** the supplier's spec as JSON, validated with Pydantic.
+- **Writing and translation:** listing copy, safety warnings and alt text, translated into 7 languages and checked in code.
+- **Agent:** the Evolus shop assistant runs on it, with tool calling.
+
+All of it on AMD: **1,593 live calls to Gemma-4-31B-IT** (1.75M tokens read, 445k written), recorded in `data/replay/`.
+We tested Gemma 4 31B and 26B-A4B on an AMD Instinct MI300X and chose the 31B.
+
 ## Evolus business agents (on the same Gemma 4 31B on AMD)
 
 ShelfReady drives an [Evolus](https://evolus.ai) workspace through its APIs (`backend/app/clients/evolus.py`):
