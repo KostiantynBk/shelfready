@@ -65,6 +65,12 @@ function actionsFor(issue: Issue): Action[] {
   return actions;
 }
 
+/** One settled finding as a short phrase, e.g. "colour pink (photo, ROS)". */
+function settledText(issue: Issue): string {
+  const source = issue.evidence.find((e) => e.source !== "pdf")?.source ?? "photo";
+  return `${issue.attribute} ${issue.found_value ?? ""} (${source}${issue.variant ? `, ${issue.variant}` : ""})`;
+}
+
 function describe(decision: Decision, issue: Issue): string {
   const found = decision.value ?? issue.found_value ?? issue.proposed_value;
   switch (decision.action) {
@@ -89,6 +95,7 @@ export function ProductReview({ params }: { params: Promise<{ id: string }> }) {
   const [selected, setSelected] = useState<string | null>(null);
   const [shownFile, setShownFile] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [showSettled, setShowSettled] = useState(false);
 
   useEffect(() => {
     api<Product>(`/api/products/${id}`)
@@ -136,7 +143,8 @@ export function ProductReview({ params }: { params: Promise<{ id: string }> }) {
   const open = product.issues.filter((i) => !i.decision && i.severity !== "info");
   const notes = product.issues.filter((i) => !i.decision && i.severity === "info");
   const asked = product.issues.filter((i) => i.decision?.action === "ask_supplier");
-  const decided = product.issues.filter((i) => i.decision && i.decision.action !== "ask_supplier");
+  const settled = product.issues.filter((i) => i.auto);
+  const decided = product.issues.filter((i) => i.decision && i.decision.action !== "ask_supplier" && !i.auto);
   const current = product.issues.find((i) => i.id === selected) ?? open[0] ?? asked[0] ?? notes[0] ?? null;
   const photos = product.files.filter((f) => f.kind !== "spec").length;
   const status = STATUS[product.status];
@@ -197,6 +205,17 @@ export function ProductReview({ params }: { params: Promise<{ id: string }> }) {
           {asked.length > 0 && (
             <Card title="Waiting for the supplier" aside={<span className="muted">{asked.length}</span>}>
               {asked.map(row)}
+            </Card>
+          )}
+          {settled.length > 0 && (
+            <Card title="Checked from evidence" aside={<span className="muted">{settled.length}</span>}>
+              <p className="small">
+                Checked: {settled.map(settledText).join(", ")}.{" "}
+                <button className="btn sm plain" onClick={() => setShowSettled((shown) => !shown)}>
+                  {showSettled ? "Hide" : "Change"}
+                </button>
+              </p>
+              {showSettled && settled.map(row)}
             </Card>
           )}
           <Checklist product={product} />
@@ -309,14 +328,17 @@ function IssueRow({
 }) {
   const severity = SEVERITY[issue.severity];
   const found = issue.found_value ?? issue.proposed_value;
+  const decision = issue.auto ? null : issue.decision;
   return (
     <div className={on ? "issue on" : "issue"} onClick={onSelect}>
       <div className="row">
         <b>{issue.title}</b>
         {issue.decision?.action === "ask_supplier" ? (
           <Badge tone="info">Asked</Badge>
+        ) : issue.auto ? (
+          <Badge tone="succ">Checked</Badge>
         ) : (
-          <Badge tone={issue.decision ? "succ" : severity.tone}>{issue.decision ? "Decided" : severity.label}</Badge>
+          <Badge tone={decision ? "succ" : severity.tone}>{decision ? "Decided" : severity.label}</Badge>
         )}
       </div>
       {variant && <div className="small variant">Only this colour: {variant}</div>}
@@ -335,9 +357,9 @@ function IssueRow({
         </div>
       )}
       {(on || (!issue.spec_value && !found)) && <p className="small muted detail">{issue.detail}</p>}
-      {issue.decision ? (
+      {decision ? (
         <div className="acts-row">
-          <span className="small">{describe(issue.decision, issue)}</span>
+          <span className="small">{describe(decision, issue)}</span>
           <button
             className="btn sm plain"
             disabled={busy}

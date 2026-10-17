@@ -10,6 +10,7 @@ from fastapi.testclient import TestClient
 from app.api import get_store
 from app.config import Settings
 from app.main import app
+from app.schemas.review import Decision
 from app.store import Store
 
 REPO = Path(__file__).resolve().parents[2]
@@ -34,6 +35,20 @@ def decide(http, issue_id, decision):
     response = http.post(f"/api/products/SYN-00/issues/{issue_id}/decision", json=decision)
     assert response.status_code == 200, response.text
     return response.json()
+
+
+def test_photos_and_drawing_settle_colour_and_width_until_a_person_decides(tmp_path):
+    results = tmp_path / "data" / "results" / "extraction"
+    results.mkdir(parents=True)
+    shutil.copy(Path(__file__).parent / "fixtures" / "extraction" / "SYN-10.json", results)
+    store = Store(Settings(data_dir=tmp_path / "runtime"), root=tmp_path)
+    colour, width = "D10:EVO-10-ROS:colour:", "D11::width:"
+    assert {colour, width} <= store.settled("SYN-10").keys()
+    assert "D7::safety_warnings:" not in store.settled("SYN-10")
+    assert store.decisions("SYN-10")[width].action == "use_found"
+    store.decide("SYN-10", width, Decision(action="use_spec"))
+    assert store.decisions("SYN-10")[width].action == "use_spec"
+    assert width not in store.settled("SYN-10")
 
 
 def test_review_decide_and_publish(client):

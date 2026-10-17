@@ -131,7 +131,7 @@ def product_payload(store: Store, pid: str) -> dict[str, Any]:
     folder, manifest = _product(store, pid)
     result = store.result(pid)
     spec = (result or {}).get("spec") or {}
-    decisions, decided_at = store.decisions(pid), store.decided_at(pid)
+    decisions, decided_at, settled = store.decisions(pid), store.decided_at(pid), store.settled(pid)
     facts, held = store.facts(pid)
     copy = store.copy_for(pid, facts) if facts else None
     issues = _all_issues(store, pid, copy)
@@ -154,6 +154,7 @@ def product_payload(store: Store, pid: str) -> dict[str, Any]:
                 "id": i.id,
                 "decision": decisions[i.id].model_dump() if i.id in decisions else None,
                 "decided_at": decided_at.get(i.id),
+                "auto": i.id in settled,
             }
             for i in issues
         ],  # fmt: skip

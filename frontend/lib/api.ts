@@ -39,6 +39,7 @@ export type Issue = {
   evidence: Evidence[];
   decision: Decision | null;
   decided_at: string | null;
+  auto: boolean; // settled by the supplier's own photos or drawing; nobody has decided it
 };
 
 export type PhotoBox = { label: string; box_2d: [number, number, number, number] }; // Gemma: y0, x0, y1, x1 in 0-1000

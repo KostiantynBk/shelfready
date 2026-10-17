@@ -23,6 +23,8 @@ from app.pipeline.listing import verified_facts
 from app.schemas.review import Decision, Issue
 
 ROOT = Path(__file__).resolve().parents[2]
+# The supplier's own photos or drawing settle these; a person's decision replaces the settled value.
+SETTLED_BY_EVIDENCE = {"D10", "D11"}
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS decision (product_id TEXT, issue_id TEXT, action TEXT, value TEXT, note TEXT,
                                      decided_at TEXT, PRIMARY KEY (product_id, issue_id));
@@ -95,8 +97,19 @@ class Store:
 
     # ------------------------------------------------------------------ people's decisions
     def decisions(self, pid: str) -> dict[str, Decision]:
+        return {**self.settled(pid), **self.people_decisions(pid)}
+
+    def people_decisions(self, pid: str) -> dict[str, Decision]:
         rows = self._read("SELECT * FROM decision WHERE product_id = ?", (pid,))
         return {r["issue_id"]: Decision(action=r["action"], value=r["value"], note=r["note"]) for r in rows}
+
+    def settled(self, pid: str) -> dict[str, Decision]:
+        people = self.people_decisions(pid)
+        return {
+            i.id: Decision(action="use_found")
+            for i in self.issues(pid)
+            if i.rule in SETTLED_BY_EVIDENCE and i.found_value and i.id not in people
+        }
 
     def decided_at(self, pid: str) -> dict[str, str]:
         rows = self._read("SELECT issue_id, decided_at FROM decision WHERE product_id = ?", (pid,))
