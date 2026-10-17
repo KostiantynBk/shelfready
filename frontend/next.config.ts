@@ -6,6 +6,7 @@ const API_URL = process.env.API_URL ?? "http://localhost:8000";
 
 const nextConfig: NextConfig = {
   cacheComponents: true,
+  devIndicators: false,
   partialPrefetching: true,
   async rewrites() {
     return [{ source: "/backend/:path*", destination: `${API_URL}/:path*` }];
