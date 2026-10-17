@@ -4,7 +4,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
-from pydantic import SecretStr
+from pydantic import AliasChoices, Field, SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -38,7 +38,8 @@ class Settings(BaseSettings):
     # Evolus
     evolus_api_base: str = "https://api.evolus.ai/api/v1"
     evolus_api_key: SecretStr = SecretStr("")
-    evolus_app_id: str = ""
+    evolus_app_id: str = Field("", validation_alias=AliasChoices("EVOLUS_APP_ID", "EVOLUS_APPLICATION_ID"))
+    evolus_agent_id: str = ""  # the shopper assistant (answers from the library of published, verified facts)
     evolus_extractor_id: str = ""
     evolus_workflow_id: str = ""
     evolus_library_rules_id: str = ""

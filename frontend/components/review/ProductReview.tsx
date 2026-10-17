@@ -205,6 +205,7 @@ export function ProductReview({ params }: { params: Promise<{ id: string }> }) {
           {asked.length > 0 && (
             <Card title="Waiting for the supplier" aside={<span className="muted">{asked.length}</span>}>
               {asked.map(row)}
+              <SupplierEmail productId={id} events={product.events} />
             </Card>
           )}
           {settled.length > 0 && (
@@ -232,6 +233,47 @@ export function ProductReview({ params }: { params: Promise<{ id: string }> }) {
           )}
         </div>
       </div>
+    </div>
+  );
+}
+
+function SupplierEmail({ productId, events }: { productId: string; events: Product["events"] }) {
+  const last = [...events].reverse().find((e) => e.kind === "supplier_email")?.detail ?? null;
+  const [email, setEmail] = useState<string | null>(last);
+  const [note, setNote] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+
+  async function write() {
+    setBusy(true);
+    setNote(null);
+    try {
+      setEmail((await api<{ email: string }>(`/api/products/${productId}/supplier-email`, { method: "POST" })).email);
+    } catch (e) {
+      setNote(e instanceof ApiError && typeof e.detail === "string" ? e.detail : "Could not write the email.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <div style={{ padding: "12px 16px" }}>
+      <div className="acts-row">
+        <button className="btn sm pri" disabled={busy} onClick={write}>
+          {busy ? "Writing…" : email ? "Write it again" : "Write the email to the supplier"}
+        </button>
+        {email && (
+          <button className="btn sm" onClick={() => navigator.clipboard.writeText(email)}>
+            Copy
+          </button>
+        )}
+      </div>
+      {note && <p className="small muted">{note}</p>}
+      {email && (
+        <pre className="small" style={{ whiteSpace: "pre-wrap", fontFamily: "inherit", margin: "10px 0 0" }}>
+          {email}
+        </pre>
+      )}
+      <p className="small muted">Written by Evolus (email AI Tool) from the open questions above.</p>
     </div>
   );
 }

@@ -103,3 +103,40 @@ def test_supplier_files_and_pdf_pages(client):
     page = http.get("/files/SYN-00/LIS01_ficha_tecnica_v2.pdf/pages/1")
     assert page.status_code == 200 and page.headers["content-type"] == "image/png"
     assert http.get("/api/products/NOPE").status_code == 404
+
+
+class FakeEvolus:
+    calls: list[tuple[str, ...]] = []
+
+    def __init__(self, settings):
+        self.configured = True
+
+    def write_email(self, text):
+        FakeEvolus.calls.append(("email", text))
+        return "Subject: Barcodes for LISBOA"
+
+    def upload_document(self, library, filename, content, language="en"):
+        FakeEvolus.calls.append(("upload", filename, content.decode()))
+        return {}
+
+    def ask(self, agent, question, conversation_id=None):
+        FakeEvolus.calls.append(("ask", question))
+        return "It is 88 cm wide.", "conv-1"
+
+
+def test_evolus_writes_the_supplier_email_and_answers_shoppers(client, monkeypatch):
+    http, store, _ = client
+    monkeypatch.setattr("app.api.Evolus", FakeEvolus)
+    assert http.post("/api/products/SYN-00/supplier-email").status_code == 409  # nothing asked yet
+    decide(http, "D3:LIS-01-ANT:ean:", {"action": "ask_supplier"})
+    response = http.post("/api/products/SYN-00/supplier-email")
+    assert response.status_code == 200 and response.json()["email"].startswith("Subject")
+    assert "Barcode (EAN) missing for Antracite" in FakeEvolus.calls[-1][1]
+
+    assert (
+        http.post("/api/shop/SYN-00/ask", json={"question": "How wide?"}).status_code == 503
+    )  # no agent yet
+    store.settings.evolus_agent_id = "agent-1"
+    response = http.post("/api/shop/SYN-00/ask", json={"question": "How wide?"})
+    assert response.json() == {"answer": "It is 88 cm wide.", "conversation_id": "conv-1"}
+    assert FakeEvolus.calls[-1] == ("ask", "[Product LISBOA] How wide?")

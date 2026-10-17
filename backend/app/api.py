@@ -15,7 +15,9 @@ from typing import Annotated, Any
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import FileResponse, RedirectResponse
 from PIL import Image
+from pydantic import BaseModel, Field
 
+from app.clients.evolus import Evolus, EvolusError
 from app.clients.llm import LLMClient
 from app.config import get_settings
 from app.pipeline.checks import product_category
@@ -273,7 +275,93 @@ def publish(pid: str, store: StoreDep) -> dict[str, Any]:
     if reasons:
         raise HTTPException(409, {"message": "Publishing is blocked", "reasons": reasons})
     store.publish(pid)
+    _send_to_library(store, pid)
     return product_payload(store, pid)
+
+
+def _send_to_library(store: Store, pid: str) -> None:
+    """Published facts go to the Evolus knowledge library the shopper assistant answers from (best effort)."""
+    library = store.settings.evolus_library_products_id
+    evolus = Evolus(store.settings)
+    if not (library and evolus.configured):
+        return
+    payload = product_payload(store, pid)
+    try:
+        evolus.upload_document(
+            library, f"{pid}-{payload['model']}.md", _facts_document(payload), language="en"
+        )
+        store.log(pid, "evolus_library", "verified facts sent to the shop assistant's library")
+    except EvolusError as error:
+        store.log(pid, "evolus_library_failed", str(error)[:300])
+
+
+def _facts_document(payload: dict[str, Any]) -> bytes:
+    copy, facts = payload["copy"]["en"], payload["facts"]
+    lines = [f"# {copy.get('title') or payload['model']}", "",
+             f"Product {payload['model']} (id {payload['id']}), {payload['category'] or 'furniture'}, sold by Casa Nord. "
+             "Every fact below was checked against the supplier's documents and photos.", "", "## Verified facts"]  # fmt: skip
+    for key, value in facts.items():
+        if key == "variants":
+            lines.append("- colours: " + ", ".join(f"{v.get('colour_name')} ({v['code']})" for v in value))
+        elif key != "corrections":
+            unit = " cm" if key.endswith("_cm") else " kg" if key.endswith("_kg") else ""
+            name = key.removesuffix("_cm").removesuffix("_kg").replace("_", " ")
+            lines.append(f"- {name}: {', '.join(value) if isinstance(value, list) else value}{unit}")
+    lines += [
+        "",
+        "## Description",
+        copy.get("description", ""),
+        "",
+        *[f"- {b}" for b in copy.get("bullets", [])],
+    ]
+    if copy.get("safety_warnings"):
+        lines += ["", "## Safety information", *[f"- {w}" for w in copy["safety_warnings"]]]
+    return "\n".join(lines).encode("utf-8")
+
+
+@router.post("/api/products/{pid}/supplier-email")
+def supplier_email(pid: str, store: StoreDep) -> dict[str, str]:
+    """Evolus writes the email that asks the supplier the open questions."""
+    _, manifest = _product(store, pid)
+    payload = product_payload(store, pid)
+    asked = [i for i in payload["issues"] if (i["decision"] or {}).get("action") == "ask_supplier"]
+    if not asked:
+        raise HTTPException(409, "There are no open questions for the supplier.")
+    questions = "\n".join(f"- {i['title']}" + (f" (their document says: {i['spec_value']})" if i["spec_value"] else "")
+                          for i in asked)  # fmt: skip
+    request = (f"Write an email from the product team of the online shop Casa Nord to the supplier {manifest['supplier']} "
+               f"about the product {payload['model']} ({payload['product_name'] or ''}) they sent on {manifest['email']['date']}. "
+               f"Before we can list it, they need to answer:\n{questions}\n"
+               "Ask them to reply with the missing information or corrected documents. Short and polite.")  # fmt: skip
+    try:
+        email = Evolus(store.settings).write_email(request)
+    except EvolusError as error:
+        raise HTTPException(503, str(error)) from error
+    store.log(pid, "supplier_email", email)
+    return {"email": email}
+
+
+class Question(BaseModel):
+    question: str = Field(min_length=1, max_length=500)
+    conversation_id: str | None = None
+
+
+@router.post("/api/shop/{pid}/ask")
+def ask(pid: str, body: Question, store: StoreDep) -> dict[str, str | None]:
+    """The shopper assistant: an Evolus agent on Gemma 4 31B (AMD) that answers from the library of verified facts."""
+    _product(store, pid)
+    agent = store.settings.evolus_agent_id
+    if not agent:
+        raise HTTPException(503, "The shop assistant is not connected on this server.")
+    model = model_name((store.result(pid) or {}).get("spec") or {}) or pid
+    try:
+        answer, conversation = Evolus(store.settings).ask(
+            agent, f"[Product {model}] {body.question}", body.conversation_id
+        )
+    except EvolusError as error:
+        raise HTTPException(503, str(error)) from error
+    store.log(pid, "shopper_question", body.question[:200])
+    return {"answer": answer, "conversation_id": conversation}
 
 
 @router.get("/api/audit")
