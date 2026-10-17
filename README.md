@@ -64,6 +64,21 @@ Real catches in the audit include a wristwatch listed under chairs, listings who
   (`LLM_BASE_URL`, `LLM_JSON_MODE=json_schema`).
 - We chose the largest Gemma 4 model on purpose: photo-vs-spec checks need the vision quality.
 
+## Evolus business agents (on the same Gemma 4 31B on AMD)
+
+ShelfReady drives an [Evolus](https://evolus.ai) workspace through its APIs (`backend/app/clients/evolus.py`):
+
+- **Email AI Tool:** the questions a reviewer sends to the supplier become a ready-to-send email
+  (button "Write the email to the supplier"; `POST /api/products/{id}/supplier-email`).
+- **Knowledge library:** when a product is published, its verified facts (with the person's decisions applied) are
+  uploaded to the library "Casa Nord verified products" (`/api/v1/memories/{id}/documents`, language `en`).
+- **Agent:** "Casa Nord shop assistant" answers shoppers on the shop page (`/shop/{id}`, e.g. `/shop/SYN-10`) from that
+  library only, in the page's language, through Evolus's OpenAI-compatible agent chat (`POST /api/shop/{id}/ask`).
+
+The workspace's model is **Gemma-4-31B-IT on AMD Token Factory**, connected in Evolus "Your models" (it passes Evolus's
+connection test: answers, tool calling and streaming). The event FAQ states the event runs on Token Factory ("Just the
+api from the tokenfactory"). Settings: `EVOLUS_API_KEY`, `EVOLUS_APP_ID`, `EVOLUS_AGENT_ID`, `EVOLUS_LIBRARY_PRODUCTS_ID`.
+
 ## Architecture
 
 ```mermaid
@@ -136,7 +151,8 @@ cd frontend && npx tsc --noEmit && npm run lint
    the contradiction highlighted, decide each finding, and publish.
 2. Findings settled from evidence collapse into one "Checked from evidence" line, e.g. the width on **LUCCA** (sofa).
 3. **Catalogue health** shows the audit of 250 real listings; **Insights** shows the measured results above.
-4. `POST /api/demo/reset` clears all decisions.
+4. **Online store** (`/shop/SYN-10`, ÉVORA): ask the Evolus shop assistant about size, materials or care.
+5. `POST /api/demo/reset` clears all decisions.
 
 ## Limitations
 
@@ -144,7 +160,7 @@ cd frontend && npx tsc --noEmit && npm run lint
   audit uses real listings and real photos.
 - The model reports one main colour per photo, so a missing second colour of a two-colour product is not caught.
 - Translations are machine-checked (numbers, units, names, glossary); only Ukrainian was read by a person.
-- Supplier questions are recorded in the app; sending them by email is not built yet.
+- Evolus writes the supplier email; sending it from a connected mailbox is not built yet.
 
 ## Licence
 

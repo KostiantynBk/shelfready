@@ -32,7 +32,7 @@ export function NavList({ pathname }: { pathname: string | null }) {
       {MAIN.map(link)}
       <div className="sep" />
       <div className="lbl">Sales channels</div>
-      <Link href="/shop/SYN-00">
+      <Link href="/shop/SYN-10">
         <Icon name="tag" />
         <span>Online store</span>
       </Link>
